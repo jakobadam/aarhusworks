@@ -73,7 +73,7 @@ Of course, we also need to feature flag logic in non-html Angular; a root inject
 const isActive = this._featureFlagService.isActive(flag);
 ```
 
-### Enabling the flag
+## Enabling the flag
 
 To be completely back-end and front-end tech-stack agnostic, cookies are used for the feature flag state.
 
