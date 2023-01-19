@@ -98,7 +98,10 @@ Or via the backend:
 GET /?featureflag:flag-1=false
 ```
 
-Of course, the cookie can also 'just' be removed.
+Of course, the cookie can also 'just' be manipulated via dev tools:
+
+![manipulate feature flags in dev tools](/assets/feature-flags-in-angular-directive-and-service-using-cookies-dev-tools.png)
+
 
 These actions by intention, enables the feature flag for the current
 user's session only. All flags are inherently disabled by default, however, some middleware
