@@ -256,7 +256,7 @@ inverted or not.
 And that's it, a simple, dependency free, easy to use, Angular cookie based feature flag.
 
 Check out the [demo](https://angular-ivy-t6atw6.stackblitz.io), and the
-[stackblitz](https://angular-ivy-t6atw6.stackblitz.io).
+[stackblitz](https://stackblitz.com/edit/angular-ivy-t6atw6).
 
 However, one thing was omitted from this post. 
 That was the backend. But, since the approach is based on cookies, middleware of any web framework, would be a perfect fit to implement the server side.
