@@ -31,7 +31,7 @@ approach with the following characteristics:
 7. free
 
 Here's a [demo](https://angular-ivy-t6atw6.stackblitz.io), and a
-[stackblitz](https://angular-ivy-t6atw6.stackblitz.io).
+[stackblitz](https://stackblitz.com/edit/angular-ivy-t6atw6).
 
 Note: This post is about the Angular side, and I've omitted the back-end implementation from the description. 
 
