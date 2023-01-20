@@ -255,9 +255,6 @@ inverted or not.
 
 And that's it, a simple, dependency free, easy to use, Angular cookie based feature flag.
 
-Check out the [demo](https://angular-ivy-t6atw6.stackblitz.io), and the
-[stackblitz](https://stackblitz.com/edit/angular-ivy-t6atw6).
-
 However, one thing was omitted from this post. 
 That was the backend. But, since the approach is based on cookies, middleware of any web framework, would be a perfect fit to implement the server side.
 
@@ -266,7 +263,8 @@ To be concrete, that could be realised in C# through [IHttpModule](https://learn
 The implementation of the back-end would also check-off the 'easy to toggle for non-developers' requirement, but the description of such a thing is for another day...
 
 ## Links
-For more on feature flags see: [https://www.martinfowler.com/articles/feature-toggles.html](https://www.martinfowler.com/articles/feature-toggles.html)
+* Check out the [Angular feature flag demo](https://angular-ivy-t6atw6.stackblitz.io), and the [stackblitz](https://stackblitz.com/edit/angular-ivy-t6atw6).
+* For more on feature flags see: [https://www.martinfowler.com/articles/feature-toggles.html](https://www.martinfowler.com/articles/feature-toggles.html)
 
 
 
