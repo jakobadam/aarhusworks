@@ -1,4 +1,7 @@
-# Smooth scrolling in Angular - the simple way
+---
+title: "Smooth scrolling in Angular – the simple way"
+---
+# Smooth scrolling in Angular -- the simple way
 
 Smooth scrolling is something all UXers want. 
 
@@ -11,8 +14,9 @@ has native support in all major browsers.
 Even though, there's an [almost 100% supported](https://caniuse.com/?search=scrollTo) `Element.scrollTo`, 
 the safe bet is to go with `Window.scrollTo`.
 
-Going with `Window.scrollTo`, for the wider support, also means we must convert from the relative viewport position 
-of the element obtained through, `getBoundingClientRect` to an absolute position. However, that's pretty straightforward:
+Going with `Window.scrollTo`, for the wider support, also means we must convert from the viewport position
+(think position in the browser window) of the element obtained through `getBoundingClientRect`, to a document position. 
+However, that's pretty straightforward:
 
 ```ts
 const elTopViewportPosition = targetEl.getBoundingClientRect().top;
@@ -68,9 +72,13 @@ export class ScrollService {
 }
 ```
 
-<iframe src="https://stackblitz.com/edit/angular-ivy-ds2bwn?file=src/app/scroll.service.ts"></iframe>
+## Demo
+<iframe style="height:500px; width: 100%" src="https://stackblitz.com/edit/angular-ivy-ds2bwn?embed=1&file=src/app/scroll.service.ts&view=preview"></iframe>
 
+## Links
 
+* [MDN - getBoundingClientRect](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
+* [MDN - scrollTo](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
 
 
 
