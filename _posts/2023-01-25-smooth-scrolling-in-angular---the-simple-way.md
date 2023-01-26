@@ -1,7 +1,6 @@
 ---
 title: "Smooth scrolling in Angular – the simple way"
 ---
-# Smooth scrolling in Angular -- the simple way
 
 Smooth scrolling is something all UXers want. 
 
