@@ -130,7 +130,7 @@ $ packer build -var 'user=u' ubuntu-14.04-server-amd64.json
 
 The builders section contains a list of building specifications, one
 for each output target, in our case only QEMU.
-
+{% raw %}
 ```json
 "builders":
     [
@@ -172,6 +172,7 @@ for each output target, in our case only QEMU.
         }
     ],
 ```
+{% endraw %}
 <center>*Ubuntu 14.04 Template: Builders section*</center>
 
 
@@ -189,14 +190,14 @@ $ debconf-set-selections -c preseed.cfg
 
 *For more on preseeding, have a look at the
 [debian handbook](http://debian-handbook.info/browse/stable/sect.automated-installation.html#sect.d-i-preseeding)*
-
+{% raw %}
 The template includes an URL reference to `preseed.cfg` in the
 `boot_command` property. When Packer is started it fires up a web
 server serving the contents of the directory supplied in the
 `http_directory` property. The wired looking magic variables
 `{{.HTTPIP}}` and `{{.HTTPPort}}` are therefore part of the address to
 `preseed.cfg` on this web server.
-
+{% endraw %}
 *Note:* Variables are substituted in the template&mdash;not in files
 referred to from it, e.g., files served via HTTP or included on a
 floppy.
@@ -208,13 +209,14 @@ starting a build, the adhering debconf values can't be put in
 `boot_command` option in the template, where variables are
 substituted.
 
-
+{% raw %}
 ```
 "passwd/user-fullname={{user `user`}} ",
 "passwd/user-password={{user `password`}} ",
 "passwd/user-password-again={{user `password`}} ",
 "passwd/username={{user `user`}} ",
 ```
+{% endraw%}
 
 
 ### Provisioning
@@ -223,6 +225,7 @@ During install Packer continuously polls for SSH access. Upon
 successful login packer either shuts down the OS or continues to the
 `provisioners` step if supplied.
 
+{% raw %}
 ```
 "provisioners": [
         {
@@ -236,6 +239,7 @@ successful login packer either shuts down the OS or continues to the
         }
     ]
 ```
+{%endraw%}
 <center>*Ubuntu 14.04 Template: Provisioning step*</center>
 
 In our template there is a single provisioner which uploads and executes three scripts on the machine: [update.sh](https://github.com/jakobadam/packer-qemu-templates/blob/master/ubuntu/scripts/update.sh), [packages.sh](https://github.com/jakobadam/packer-qemu-templates/blob/master/ubuntu/scripts/packages.sh), and [network.sh](https://github.com/jakobadam/packer-qemu-templates/blob/master/ubuntu/scripts/network.sh). The scripts update the machine, install some useful packages, and removes all traces from the network&mdash;MAC to network interface mapping&mdash;used during installation.  
@@ -287,7 +291,7 @@ Our template goes with the first option, as seen below, and attaches
 `floppy_files` template variable. Note: All files are put on the
 floppy in one flat hierarchy, so don't duplicate file names.
 
-
+{% raw %}
 ```json
 "builders": [
         {
@@ -373,3 +377,4 @@ packer build.
 This post showed you how to efficiently create two different VM
 images&mdash;for running on KVM&mdash;with Packer. If you encounter
 missing OS templates, I hope that you will now contribute your own.
+{% endraw %}
