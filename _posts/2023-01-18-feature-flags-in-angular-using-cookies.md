@@ -116,11 +116,6 @@ user's session only. All flags are inherently disabled by default, however, some
 back-end could default the flag to true instead based on some state in code or a database, but for our
 release flags that's not needed.
 
-The middleware architecture is depicted below:
-
-
-
-
 ## Implementation
 
 ### Angular feature flag service
