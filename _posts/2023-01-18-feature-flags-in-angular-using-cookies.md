@@ -9,10 +9,10 @@ un-released, but still in production, features from
 end-users. 
 
 This concept is called feature flags in broadly 
-terms, and more specific release flags. There are other types of
+terms, and more specifically, release flags. There are other types of
 feature flags: experimental flags, operational toggles, permission
 toggles etc., but none of those are requirements for going
-trunk-based. So here we focus on release flags.
+trunk-based. Here the focus is on release flags.
 
 ## Requirements
 
@@ -71,9 +71,14 @@ Of course, we also need to feature flag logic in non-html Angular; a root inject
 const isActive = this._featureFlagService.isActive(flag);
 ```
 
-## Enabling the flag
+## Architecture and setting flags
 
-To be completely back-end and front-end tech-stack agnostic, cookies are used for the feature flag state.
+To be completely both back-end and front-end tech-stack agnostic, cookies are used for associating 
+feature flags with all HTTP requests. Cookies have the advantage, in addition to being omnipresent, 
+that both front-end and the back-end have the power to set or expire them - that makes it possible to use 
+this approach for both full-stack setups, but also, for front-end or back-end only setups.
+
+Let's look at some examples:
 
 A flag is enabled as follows from the front-end:
 
@@ -81,14 +86,16 @@ A flag is enabled as follows from the front-end:
 document.cookie = 'featureflag:flag-1=true' // + browser reload
 ```
 
-In addition, I envision through a back-end middleware through the use
-of query params:
+Or, in addition, I envision through a back-end middleware, that for all requests passes query params and sets
+the cookie accordingly:
 
 ```http
 GET /?featureflag:flag-1=true
+
+Cookie: featureflag:flag-1=true
 ```
 
-And disabled, by:
+And disabled, by setting the cookie value to false (or alternatively by expiring the cookie)
 ```js
 document.cookie = 'featureflag:flag-1=false'
 ```
@@ -96,16 +103,18 @@ document.cookie = 'featureflag:flag-1=false'
 Or via the backend:
 ```http
 GET /?featureflag:flag-1=false
+
+Cookie: featureflag:flag-1=false
 ```
 
 Of course, the cookie can also 'just' be manipulated via dev tools:
 
 ![manipulate feature flags in dev tools](/assets/feature-flags-in-angular-directive-and-service-using-cookies-dev-tools.png)
 
-
-These actions by intention, enables the feature flag for the current
-user's session only. All flags are inherently disabled by default, however, some middleware
-back-end could default the flag to true instead, but for release flags that's not needed.
+All these actions by intention, manipulates the feature flag for the current
+user's session only. All flags are inherently disabled by default, however, some HTTP middleware
+back-end could default the flag to true instead based on some state in code or a database, but for our
+release flags that's not needed.
 
 ## Implementation
 
