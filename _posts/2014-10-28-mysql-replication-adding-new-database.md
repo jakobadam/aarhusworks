@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MySQL replication – adding new database"
+author: Jakob Aarøe Dam
 ---
     
 *A short guide on how to add an additional database in a mysql master-slave setup that uses filtering on the replication*

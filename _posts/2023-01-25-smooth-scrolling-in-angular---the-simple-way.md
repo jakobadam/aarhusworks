@@ -1,5 +1,6 @@
 ---
 title: "Smooth scrolling in Angular – the simple way"
+author: Jakob Aarøe Dam
 ---
 
 Smooth scrolling is something all UXers want. 

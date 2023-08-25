@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Jakob Aarøe Dam
 ---
 <iframe src="http://ghbtns.com/github-btn.html?user=jakobadam&repo=bootstrap-uploadprogress&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
 

@@ -1,3 +1,7 @@
+---
+author: Jakob Aarøe Dam
+---
+
 These days most modern software projects are turning towards
 trunk-based development, letting all the perils of git flow be a thing
 of the past.
