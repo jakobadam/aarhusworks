@@ -86,9 +86,9 @@ to rundkørsler med god bred asfalt, oversigt i alle retninger, og ingen krydsen
 favorit ring, med Mårslet som bagtæppe.
 
 Der bliver kørt stærkt, rigtig
-stærkt https://stiften.dk/alarm112/uden-koerekort-og-alt-for-staerkt-politiet-smed-om-sig-med-sigtelser-paa-giber-ringvej,
+stærkt [Stiften - Politiet smed om sig med sigtelser](https://stiften.dk/alarm112/uden-koerekort-og-alt-for-staerkt-politiet-smed-om-sig-med-sigtelser-paa-giber-ringvej),
 lastbiler kører samme hastighed på ringvejen som på motorvejen og lastbilsstøj er hvad der, udover
-vanvids-motorcyklister og vanvids-driftere [se hvordan det foregår her: https://www.youtube.com/watch?v=GmMQstRTpSE i
+vanvids-motorcyklister og vanvids-driftere [se hvordan det foregår her: [YouTube](https://www.youtube.com/watch?v=GmMQstRTpSE) i
 rundkørslerne, generer borgerne absolut mest, og vækker mange om natten.
 
 Og hvor vil jeg så hen med det? Jo, i Vejdirektoratets (Støjgener fra byveje og motorveje) får vi forklaringen på at
@@ -252,17 +252,13 @@ Lad os starte dette opgør mod trafikstøj nu. Vi har ikke råd til at lade vær
 
 ## Referencer
 
-1. Trafikstøj kræver handling
-https://www.gate21.dk/wp-content/uploads/2020/11/HvidbogStoej2020_final_web-okt.pdf
+1. [Trafikstøj kræver handling](https://www.gate21.dk/wp-content/uploads/2020/11/HvidbogStoej2020_final_web-okt.pdf)
 
-2. VVM
-https://bering-bedervejen.aarhus.dk/media/1992/vvm-redegoerelse.pdf
+2. [VVM](https://bering-bedervejen.aarhus.dk/media/1992/vvm-redegoerelse.pdf)
 
-3. Støjgener fra byveje og motorveje
-https://www.vejdirektoratet.dk/sites/default/files/publications/stjgener_fra_byveje_og_motorveje.pdf
+3. [Støjgener fra byveje og motorveje](https://www.vejdirektoratet.dk/sites/default/files/publications/stjgener_fra_byveje_og_motorveje.pdf)
 
-4. Trafik støj er farligt
-https://forcetechnology.com/da/artikler/trafikstoj-er-farligt-for-vores-helbred-men-hvad-gor-vi-ved-det
+4. [Trafik støj er farligt](https://forcetechnology.com/da/artikler/trafikstoj-er-farligt-for-vores-helbred-men-hvad-gor-vi-ved-det)
 
 ## Kommunens notater til Teknisk Udvalg
 
