@@ -253,11 +253,8 @@ Lad os starte dette opgør mod trafikstøj nu. Vi har ikke råd til at lade vær
 ## Referencer
 
 1. [Trafikstøj kræver handling](https://www.gate21.dk/wp-content/uploads/2020/11/HvidbogStoej2020_final_web-okt.pdf)
-
 2. [VVM](https://bering-bedervejen.aarhus.dk/media/1992/vvm-redegoerelse.pdf)
-
 3. [Støjgener fra byveje og motorveje](https://www.vejdirektoratet.dk/sites/default/files/publications/stjgener_fra_byveje_og_motorveje.pdf)
-
 4. [Trafik støj er farligt](https://forcetechnology.com/da/artikler/trafikstoj-er-farligt-for-vores-helbred-men-hvad-gor-vi-ved-det)
 
 ## Kommunens notater til Teknisk Udvalg
