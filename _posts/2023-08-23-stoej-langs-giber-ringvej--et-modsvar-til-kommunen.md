@@ -86,9 +86,9 @@ to rundkørsler med god bred asfalt, oversigt i alle retninger, og ingen krydsen
 favorit ring, med Mårslet som bagtæppe.
 
 Der bliver kørt stærkt, rigtig
-stærkt [Stiften - Politiet smed om sig med sigtelser](https://stiften.dk/alarm112/uden-koerekort-og-alt-for-staerkt-politiet-smed-om-sig-med-sigtelser-paa-giber-ringvej),
+stærkt ([Stiften - Politiet smed om sig med sigtelser](https://stiften.dk/alarm112/uden-koerekort-og-alt-for-staerkt-politiet-smed-om-sig-med-sigtelser-paa-giber-ringvej)),
 lastbiler kører samme hastighed på ringvejen som på motorvejen og lastbilsstøj er hvad der, udover
-vanvids-motorcyklister og vanvids-driftere [se hvordan det foregår her: [YouTube](https://www.youtube.com/watch?v=GmMQstRTpSE) i
+vanvids-motorcyklister og vanvids-driftere — se hvordan det foregår her: [YouTube](https://www.youtube.com/watch?v=GmMQstRTpSE) — i
 rundkørslerne, generer borgerne absolut mest, og vækker mange om natten.
 
 Og hvor vil jeg så hen med det? Jo, i Vejdirektoratets (Støjgener fra byveje og motorveje) får vi forklaringen på at
@@ -222,7 +222,7 @@ blevet kørt væk efter det andet, alt i mens borgerne har peget på, det ene st
 støjvolde.
 
 Ærgerligt, når der nu i kommunens egen handlingsplan for støj, er en ambition om at overskudsjord fra byggeprojekter kan
-anvendes til støjvolde.
+anvendes til støjvolde (AAK Støjhandlingsplan 2018, s.22).
 
 Der har simpelthen været en direkte uvilje mod al støjafskærmning under 58 dB.
 
@@ -256,6 +256,7 @@ Lad os starte dette opgør mod trafikstøj nu. Vi har ikke råd til at lade vær
 2. [VVM](https://bering-bedervejen.aarhus.dk/media/1992/vvm-redegoerelse.pdf)
 3. [Støjgener fra byveje og motorveje](https://www.vejdirektoratet.dk/sites/default/files/publications/stjgener_fra_byveje_og_motorveje.pdf)
 4. [Trafik støj er farligt](https://forcetechnology.com/da/artikler/trafikstoj-er-farligt-for-vores-helbred-men-hvad-gor-vi-ved-det)
+5. [AAK Støjhandlingsplan 2018](/assets/mtm-modsvar/2018-aak-stoejhandlingsplan.pdf)
 
 ## Kommunens notater til Teknisk Udvalg
 
@@ -264,3 +265,4 @@ Lad os starte dette opgør mod trafikstøj nu. Vi har ikke råd til at lade vær
 3. [Rambøll - notat vedrørende støj](/assets/mtm-modsvar/2023-08-Ramboll-redegoerelse.pdf)
 4. [Kort Giber Ringvej](/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)
 5. [Giber Ringvej - målt trafikstøj](/assets/mtm-modsvar/2023-08-VM-accoustics-målt-trafikstøj.pdf)
+6. [Trafikstøj – hvilke sundhedsmæssige konsekvenser har støjen?](/assets/mtm-modsvar/2023-08-MTM-sundhed.pdf)
