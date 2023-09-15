@@ -250,6 +250,10 @@ for byveje.
 
 Lad os starte dette opgør mod trafikstøj nu. Vi har ikke råd til at lade være.
 
+## Kommentarer
+
+[Facebook - Giber Ringvej](https://www.facebook.com/groups/BeringBederVejen/permalink/6414150755364046/)
+
 ## Referencer
 
 1. [Trafikstøj kræver handling](https://www.gate21.dk/wp-content/uploads/2020/11/HvidbogStoej2020_final_web-okt.pdf)
