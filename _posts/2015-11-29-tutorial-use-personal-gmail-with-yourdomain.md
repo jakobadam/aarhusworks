@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tutorial: Use personal gmail with @yourdomain.com"
+author: Jakob Aarøe Dam
 ---
 
 A common question from people acquiring a new domain is, "What e-mail

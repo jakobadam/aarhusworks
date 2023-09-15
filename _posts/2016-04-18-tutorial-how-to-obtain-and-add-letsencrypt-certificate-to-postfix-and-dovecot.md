@@ -1,6 +1,8 @@
 ---
 layout: post
+author: Jakob Aarøe Dam
 ---
+
 
 *I'll show how to obtain a certificate with letsencrypt and how to add it Postfix and Dovecot. As a side effect it fixes mail-sending in Wordpress.*
 

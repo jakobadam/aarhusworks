@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Building a RESTful Ajax App With Dojo and Python Werkzeug: The back-end"
+author: Jakob Aarøe Dam
 ---
 
 <em>This post is the second post in a series of three that demonstrate

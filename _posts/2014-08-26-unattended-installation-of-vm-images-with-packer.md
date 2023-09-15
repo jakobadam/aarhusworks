@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Unattended installation of VM images with Packer"
+author: Jakob Aarøe Dam
 ---
 
 *Installing different OSes has usually been a cumbersome

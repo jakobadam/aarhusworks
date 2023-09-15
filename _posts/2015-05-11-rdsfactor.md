@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "RDS Factor: Two-factor auth for Microsoft Remote Desktop Services"
+author: Jakob Aarøe Dam
 ---
 
 

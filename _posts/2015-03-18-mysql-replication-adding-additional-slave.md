@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MySQL replication – adding additional slave"
+author: Jakob Aarøe Dam
 ---
 
 *Master-slave replication is a common means to increase SQL

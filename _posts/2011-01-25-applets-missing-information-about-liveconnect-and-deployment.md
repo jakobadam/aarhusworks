@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Applets: missing information about liveconnect and deployment"
+author: Jakob Aarøe Dam
 ---
 ## LiveConnect – The glue between Java and JavaScript
 
