@@ -270,3 +270,4 @@ Lad os starte dette opgør mod trafikstøj nu. Vi har ikke råd til at lade vær
 4. [Kort Giber Ringvej](/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)
 5. [Giber Ringvej - målt trafikstøj](/assets/mtm-modsvar/2023-08-VM-accoustics-målt-trafikstøj.pdf)
 6. [Trafikstøj – hvilke sundhedsmæssige konsekvenser har støjen?](/assets/mtm-modsvar/2023-08-MTM-sundhed.pdf)
+7. [VM acoustics - Målt traikstøj](/assets/mtm-modsvar/2023-08-VM-accoustics-målt-trafikstøj.pdf)
