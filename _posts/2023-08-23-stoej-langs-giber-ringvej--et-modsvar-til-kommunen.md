@@ -261,6 +261,7 @@ Lad os starte dette opgør mod trafikstøj nu. Vi har ikke råd til at lade vær
 3. [Støjgener fra byveje og motorveje](https://www.vejdirektoratet.dk/sites/default/files/publications/stjgener_fra_byveje_og_motorveje.pdf)
 4. [Trafik støj er farligt](https://forcetechnology.com/da/artikler/trafikstoj-er-farligt-for-vores-helbred-men-hvad-gor-vi-ved-det)
 5. [AAK Støjhandlingsplan 2018](/assets/mtm-modsvar/2018-aak-stoejhandlingsplan.pdf)
+6. [Vejledning om måling af støj fra vejtrafik](/assets/mtm-modsvar/2002-Vejdirektoratet-Vejledning-maaling-af-stoej-rapport-238.pdf)
 
 ## Kommunens notater til Teknisk Udvalg
 
