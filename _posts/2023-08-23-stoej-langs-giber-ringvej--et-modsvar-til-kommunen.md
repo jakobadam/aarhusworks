@@ -173,7 +173,7 @@ oplagt.
 ## De 20 millioner til ekstraordinær støjbekæmpelse der gik til …?
 
 Der skal ikke herske nogen tvivl om, at vi naboer længe havde håbet på at de 20 millioner øremærket til ekstraordinær
-støjbekæmpelse i VVM-tilladelsen, var blevet omsat til reelle støjværn.
+støjbekæmpelse, (VVM-tilladelsen, s. 3) , var blevet omsat til reelle støjværn.
 
 Jeg bor selv på Damgårdstoften, med to mod vejen fremskudte landejendomme, hvoraf den ene nærmest hænger ud over vejen.
 Landejendomme er kommunen i støjmæssigforstand ligeglade med, de mennesker ofre vores samfund med åbne øjne til
@@ -258,10 +258,11 @@ Lad os starte dette opgør mod trafikstøj nu. Vi har ikke råd til at lade vær
 
 1. [Trafikstøj kræver handling](https://www.gate21.dk/wp-content/uploads/2020/11/HvidbogStoej2020_final_web-okt.pdf)
 2. [VVM](https://bering-bedervejen.aarhus.dk/media/1992/vvm-redegoerelse.pdf)
-3. [Støjgener fra byveje og motorveje](https://www.vejdirektoratet.dk/sites/default/files/publications/stjgener_fra_byveje_og_motorveje.pdf)
-4. [Trafik støj er farligt](https://forcetechnology.com/da/artikler/trafikstoj-er-farligt-for-vores-helbred-men-hvad-gor-vi-ved-det)
-5. [AAK Støjhandlingsplan 2018](/assets/mtm-modsvar/2018-aak-stoejhandlingsplan.pdf)
-6. [Vejledning om måling af støj fra vejtrafik](/assets/mtm-modsvar/2002-Vejdirektoratet-Vejledning-maaling-af-stoej-rapport-238.pdf)
+3. [VVM-tilladelse](/assets/mtm-modsvar/2018-vvm-tilladelse-bering-beder-vejen.pdf)
+5. [Støjgener fra byveje og motorveje](https://www.vejdirektoratet.dk/sites/default/files/publications/stjgener_fra_byveje_og_motorveje.pdf)
+6. [Trafik støj er farligt](https://forcetechnology.com/da/artikler/trafikstoj-er-farligt-for-vores-helbred-men-hvad-gor-vi-ved-det)
+7. [AAK Støjhandlingsplan 2018](/assets/mtm-modsvar/2018-aak-stoejhandlingsplan.pdf)
+8. [Vejledning om måling af støj fra vejtrafik](/assets/mtm-modsvar/2002-Vejdirektoratet-Vejledning-maaling-af-stoej-rapport-238.pdf)
 
 ## Kommunens notater til Teknisk Udvalg
 
