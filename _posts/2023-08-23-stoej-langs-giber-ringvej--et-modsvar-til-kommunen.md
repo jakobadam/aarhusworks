@@ -3,6 +3,8 @@ title: "Støj langs Giber Ringvej: Et modsvar til kommunen"
 author: Jakob Aarøe Dam
 ---
 
+_Opdateret 20. okt 2023 med, at linjeføring A kun var den mindst støjbelastende for et af støjintervallerne._
+
 Dette skal ses som et modsvar til Teknik og Miljøs svar til til Teknisk Udvalg. Et svar jeg finder ensidigt og
 unuanceret, og det er derfor mit håb, at udvalgets medlemmer læser mit modsvar inden mødet i morgen.
 
@@ -23,11 +25,16 @@ Lad os kigge på VVM-undersøgelsens afsnit om støj først.
 ## VVM-undersøgelsen der glemte at undersøge konsekvensen af støjen for det store flertal
 
 På overfladen ser VVM-undersøgelsens afsnit om støj lødig ud. Et støjkort og en tabel over støjbelastede boliger for de
-forskellige linjeføringer. Den linjeføring hvor der er færrest støjbelastede boliger, er den linjeføring der går lige i
-baghaven på Mårslet og Tranbjerg.
+forskellige linjeføringer.
 
-Dette er selvsagt dybt overraskende: at den linjeføring der går lige forbi absolut flest huse, også skulle være den
-mindst generende.
+Den valgte linjeføring, A, der går lige i baghaven på Mårslet og Tranbjerg, vurderes til, kun at belaste yderligere 30
+huse med støj, end det næst bedste alternativ; og for et enkelt støjinterval er linjeføring A endda den “bedste”
+linjeføring. Det vurderes samtidigt, at vejen uanset linjeføring, vil reducere antallet af støjbelastede huse i
+kommunen.
+
+Dette er selvsagt dybt overraskende: at en ny vej, der spreder støj ud over et kæmpe område, og med en valgt linjeføring
+der går forbi absolut flest huse, samtidig skulle være minimalt mere generende, og endda bedre end slet ikke at have
+vejen.
 
 Dette er selvfølgelig også forkert, og gælder kun, hvis støj under 58 dB helt ignoreres, som kommunen gør.
 
@@ -86,9 +93,11 @@ to rundkørsler med god bred asfalt, oversigt i alle retninger, og ingen krydsen
 favorit ring, med Mårslet som bagtæppe.
 
 Der bliver kørt stærkt, rigtig
-stærkt ([Stiften - Politiet smed om sig med sigtelser](https://stiften.dk/alarm112/uden-koerekort-og-alt-for-staerkt-politiet-smed-om-sig-med-sigtelser-paa-giber-ringvej)),
+stærkt ([Stiften - Politiet smed om sig med sigtelser](https://stiften.dk/alarm112/uden-koerekort-og-alt-for-staerkt-politiet-smed-om-sig-med-sigtelser-paa-giber-ringvej))
+,
 lastbiler kører samme hastighed på ringvejen som på motorvejen og lastbilsstøj er hvad der, udover
-vanvids-motorcyklister og vanvids-driftere — se hvordan det foregår her: [YouTube](https://www.youtube.com/watch?v=GmMQstRTpSE) — i
+vanvids-motorcyklister og vanvids-driftere — se hvordan det foregår
+her: [YouTube](https://www.youtube.com/watch?v=GmMQstRTpSE) — i
 rundkørslerne, generer borgerne absolut mest, og vækker mange om natten.
 
 Og hvor vil jeg så hen med det? Jo, i Vejdirektoratets (Støjgener fra byveje og motorveje) får vi forklaringen på at
@@ -110,9 +119,10 @@ Artiklen peger på flere årsager der også passer lokalt.
 Til listen kan jeg selv tilføje:
 
 - Lastbilsstøjen ved høje hastigheder er markant anderledes og betydelig mere generende. Og deres motorbremsen hen til
-rundkørslerne infernalsk.
-- Moderne huse, har, som dikteret af byggereglementet, store vinduespartier mod syd, altså den dårligste retning ift. støj
-fra ringvejen, for langt de fleste.
+  rundkørslerne infernalsk.
+- Moderne huse, har, som dikteret af byggereglementet, store vinduespartier mod syd, altså den dårligste retning ift.
+  støj
+  fra ringvejen, for langt de fleste.
 - Der er en kæmpe forskel på at tilvælge et sted med støj, fremfor at få den mast ned over sig.
 - Der er sket en firdobling af den oplevede vej-støj, da der stort set intet var i forvejen.
 - Tab af by-parken som en stille park.
@@ -243,12 +253,16 @@ forslag:
 - Sæt hastigheden ned til max 60km/t på alle bynære strækninger såsom Mårslet
 - Forbyd larmende køretøjer om natten
 - Sæt fartkameraer op langs vejen - i Mårslet oplagt på broerne - ala Storebælt, så de 60 km/t overholdes og
-vanvidsbilister stoppes.
-- Lav tilstrækkeligt med støjskærme så genen for naboer til Giber-“motorvejen” som minimum bringes ned i niveau med genen
-for byveje.
+  vanvidsbilister stoppes.
+- Lav tilstrækkeligt med støjskærme så genen for naboer til Giber-“motorvejen” som minimum bringes ned i niveau med
+  genen
+  for byveje.
 - Ny, lavere og differentierede grænseværdier for vej-støj.
 
 Lad os starte dette opgør mod trafikstøj nu. Vi har ikke råd til at lade være.
+
+_Opdatering 20. okt 2023, kommunen har svaret på indlægget. Svaret kan læses som det sidste af
+mange [her](/assets/mtm-modsvar/2023-10-MTM-svar-til-giber-ringvej-gruppen.pdf)._
 
 ## Kommentarer
 
@@ -270,3 +284,7 @@ Lad os starte dette opgør mod trafikstøj nu. Vi har ikke råd til at lade vær
 4. [Kort Giber Ringvej](/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)
 5. [Giber Ringvej - målt trafikstøj](/assets/mtm-modsvar/2023-08-VM-accoustics-målt-trafikstøj.pdf)
 6. [Trafikstøj – hvilke sundhedsmæssige konsekvenser har støjen?](/assets/mtm-modsvar/2023-08-MTM-sundhed.pdf)
+
+## Andet
+
+1. [Referat fra Aarhus Byråd - Kommuneplantillæg og VVM, Bering-Beder vejen - 2016](https://dagsordener.aarhus.dk/vis?Referat-Aarhus-Byraad-d.14-09-2016-kl.16.00&id=af3b5d02-f23c-44c6-8708-03c22ff569ac)
