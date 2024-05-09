@@ -344,10 +344,10 @@ Lden / 45 dB Lnight.
 I de senere år er forskerne blevet opmærksomme på en lang række faktorer, der har betydning for
 vejstøjsgenen, herunder bl.a.
 
-⁃ om boligen har adgang til en stilleside
-⁃ hastigheden der bliver kørt med på vejen
-⁃ om vejen kan ses
-⁃ mængden af tung trafik
+- om boligen har adgang til en stilleside
+- hastigheden der bliver kørt med på vejen 
+- om vejen kan ses 
+- mængden af tung trafik
 
 _“Ved Miljøstyrelsens vejledende grænse på 58 dB er cirka otte procent stærkt generet ved byveje,
 mens det tilsvarende tal for motorveje er 22 procent. Det betyder, at motorvejsstøjen opleves som
