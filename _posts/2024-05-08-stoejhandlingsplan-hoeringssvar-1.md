@@ -197,7 +197,7 @@ antallet af støjbelastede boliger ikke er ens. Cellerne er markeret på billede
 er med til at skabe stor forvirring hos læseren med den skelnen ift. _“det lovbestemte
 kortlægningsområde”_.
 
-![aak-plan-stoejtabeller.png](/assets/aak-stoejhandlingsplan-2024/Faak-plan-stoejtabeller.png)
+![aak-plan-stoejtabeller.png](/assets/aak-stoejhandlingsplan-2024/aak-plan-stoejtabeller.png)
 <small><center>Støjbelastede boliger: Tabeller fra planen</center></small>
 
 ## Manglende referencer
