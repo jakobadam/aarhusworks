@@ -1,7 +1,7 @@
 ---
 title: "Høringssvar 1 vedrørende Aarhus Kommunes
 Støjhandlingsplan 2024"
-author: Jakob Aarøe Dam et al.
+author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
 categories: vejstøj
 ---
 
@@ -305,12 +305,7 @@ Følgende sygdomme er med i artiklen:
 _“Resultaterne peger på, at der generelt er en sammenhæng mellem støj og en øget risiko for
 hjertekar-sygdomme, type 2-diabetes og brystkræft, selv om støjen holder sig under
 grænseværdien på 58 dB. Vi ser faktisk, at vejstøj synes at øge risikoen for flere af sygdommene
-allerede fra omkring 35-40 dB, som er der, hvor vores estimering af støj starter”_
-
--
-
-Professor Mette
-Sørensen [Shhhh… Støj måske mere skadeligt end troet](https://www.cancer.dk/nyheder-og-fortaellinger/2022/shhhh-stoej-maaske-mere-skadeligt-end-troet/)
+allerede fra omkring 35-40 dB, som er der, hvor vores estimering af støj starter”_ - Professor Mette Sørensen [Shhhh… Støj måske mere skadeligt end troet](https://www.cancer.dk/nyheder-og-fortaellinger/2022/shhhh-stoej-maaske-mere-skadeligt-end-troet/)
 
 Et stort antal borgere føler med rette, at de bliver udsat for uacceptabelt meget vejstøj. Noget
 som forskningen også bekræfter dem i er sundhedsskadelig. Alligevel har vi en kommune, der uanfægtet fortsætter med at
