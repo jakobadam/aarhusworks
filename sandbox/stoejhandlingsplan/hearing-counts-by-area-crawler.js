@@ -1,4 +1,6 @@
-﻿// execute js on the page itself by copy-pasting it to
+﻿// Counts the number of times a term is mentioned in the hearing content pages (only html, not the pdf).
+//
+// execute js on the page itself by copy-pasting it to
 // https://deltag.aarhus.dk/hoering/forslag-til-stoejhandlingsplan-2024
 
 const terms = [
