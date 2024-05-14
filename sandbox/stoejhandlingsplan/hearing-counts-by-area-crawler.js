@@ -6,8 +6,8 @@
 const terms = [
     'Viby',
     'Giber',
-    'Gren.*vej',
-    'Djursland',
+    '(Gren.*vej|Skæring)',
+    '(Djursland|Skødstrup|Løgten)',
     'Sta(u|v)trup',
     'Viborg',
     'Silkeborg',
@@ -17,50 +17,71 @@ const terms = [
     'Hasselager',
     'Randers',
     'Højbjerg',
-    'Herredsvej',
+    '(Herredsvej|herresvej)',
     'Lisbjerg',
     'Runevej',
-    'Motorvej Syd',
-    'Tilst'
+    '(Motorvej Syd|Syd Motorvejen|Århus Syd)',
+    'Tilst',
+    'E45',
+    'Blåhøjtoft.*',
+    'Oddervej',
+    'Nørre All',
+    'Lystrup',
+    'Ringgade',
+    'Ormslevvej',
+    'Hasle',
+    'Bøgeskov',
 ]
 
-const regexes = terms.map(t => new RegExp(t, 'ig'))
-
+const regexes = terms.map(t => new RegExp(t, 'i'))
 
 const matches = (text) => {
-    const matchIndex = regexes.findIndex(r => r.test(text));
-    if (matchIndex !== -1) {
-        return { term: terms[matchIndex], text: text };
+    for(let i = 0; i < regexes.length; i++) {
+        const r = regexes[i];
+        const match = r.test(text);
+        if(match) {
+            return { term: terms[i], text: text };
+        }
     }
     return null;
 };
-const ticketLinks = Array.from(document.querySelectorAll('.hearing-ticket')).map(a => a.href);
+const ticketLinks = Array.from(document.querySelectorAll('.hearing-ticket'));
 
 const stats = {};
 
 // search for regex in page content and increment matched term count
-const search = async (url) => {
-    
-    const response = await fetch(url);
-    const text = await response.text();
+const search = (ticketLink) => {
+    const text = ticketLink.innerText;
     const matchInfo = matches(text);
+    if(!matchInfo?.term) {
+        console.log('no match', text);
+    }
     const term = matchInfo?.term || 'andre';
     if (term) {
         if(stats[term] === undefined) {
             stats[term] = [];
         }
-        stats[term].push(url)
+        stats[term].push(ticketLink.href);
     }
 }
 
-await Promise.all(ticketLinks.map(search));
+function doIt() {
+    for (let i = 0; i < ticketLinks.length; i++) {
+        search(ticketLinks[i]);
+    }
+    
+    console.log(stats)
 
-console.log(stats)
+    const sortedStats = Object.entries(stats).sort((a, b) => b[1].length - a[1].length);
 
-const sortedStats = Object.entries(stats).sort((a, b) => b[1].length - a[1].length);
+    sortedStats.forEach(([term, urls]) => {
+        console.log(`${term} (${urls.length})`);
+    });
 
-sortedStats.forEach(([term, urls]) => {
-    console.log(`${term} (${urls.length})`);
-});
+    Object.entries(stats['andre']).forEach(link => console.log(link));
+}
 
-Object.entries(stats['andre']).forEach(link => console.log(link));
+doIt();
+
+
+
