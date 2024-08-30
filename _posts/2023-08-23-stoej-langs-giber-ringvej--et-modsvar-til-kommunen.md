@@ -270,7 +270,7 @@ mange [her](/assets/mtm-modsvar/2023-10-MTM-svar-til-giber-ringvej-gruppen.pdf).
 
 ## Referencer
 
-1. [Trafikstøj kræver handling](https://www.gate21.dk/wp-content/uploads/2020/11/HvidbogStoej2020_final_web-okt.pdf)
+1. [Trafikstøj kræver handling](https://roligbolig.dk/wp-content/uploads/2021/11/HvidbogStoej2020_web-nov21.pdf)
 2. [VVM](https://bering-bedervejen.aarhus.dk/media/1992/vvm-redegoerelse.pdf)
 3. [VVM-tilladelse](/assets/mtm-modsvar/2018-vvm-tilladelse-bering-beder-vejen.pdf)
 5. [Støjgener fra byveje og motorveje](https://www.vejdirektoratet.dk/sites/default/files/publications/stjgener_fra_byveje_og_motorveje.pdf)
