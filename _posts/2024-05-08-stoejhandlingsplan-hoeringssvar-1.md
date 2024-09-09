@@ -374,7 +374,7 @@ var, da den med
 udgangspunkt i en mængde huse langs det eksisterende vejnet, der fik sænket støjen en enkelt
 decibel, mens den ignorerede at tusindvis af mennesker blev pålagt sundhedsskadelig støj,
 konkluderede: _“hovedtendensen er at der sker en støjmæssig
-forbedring”_ [VVM, s. 225](https://bering-bedervejen.aarhus.dk/media/1992/vvm-redegoerelse.pdf#page=225). En
+forbedring”_ [VVM, s. 225](https://aarhus.dk/media/41qmamcj/vvm-redegoerelse_beringbeder.pdf#page=225). En
 decibel kan jo nærmest ikke opfattes, men det var den løgnagtige historie borgere og politikere
 blev præsenteret for af forvaltning og rådgivende ingeniør - og endnu værre stadig gør det.
 
