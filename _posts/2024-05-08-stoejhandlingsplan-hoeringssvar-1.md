@@ -369,7 +369,7 @@ vejstøjen, og qua antallet, ville boligerne have domineret i VVM-rapportens st�
 de ikke var blevet sorteret fra.
 
 Lad os minde hinanden om hvor
-manipulerende [VVM-rapporten](https://bering-bedervejen.aarhus.dk/media/1992/vvm-redegoerelse.pdf) for Giber Ringvej
+manipulerende [VVM-rapporten](https://aarhus.dk/media/41qmamcj/vvm-redegoerelse_beringbeder.pdf) for Giber Ringvej
 var, da den med
 udgangspunkt i en mængde huse langs det eksisterende vejnet, der fik sænket støjen en enkelt
 decibel, mens den ignorerede at tusindvis af mennesker blev pålagt sundhedsskadelig støj,
