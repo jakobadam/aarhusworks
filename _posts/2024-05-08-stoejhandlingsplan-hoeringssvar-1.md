@@ -415,7 +415,7 @@ beregninger.
 
 _**Forslag til politikerne:**_ Sikre borgerne fremadrettet.
 
-_**Forslag til politikerne:**_ Stil krav til at støjberegningerne for fremtidien er på vejens fulde kapacitet.
+_**Forslag til politikerne:**_ Stil krav til at støjberegningerne for fremtiden er på vejens fulde kapacitet.
 
 Giber Ringvej Gruppen bemærker, at eftersom at effekten af den støjdæmpende (og til Giber
 Ringvej benytte ‘klimavenlige’)-asfalt er lavere end forventet jvf. Vejdirektoratet, vil mange boliger
