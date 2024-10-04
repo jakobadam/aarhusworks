@@ -1,5 +1,5 @@
 ---
-title: Forslag til støjhandlingsplanen 2024
+title: Forslag til Aarhus Kommunes Støjhandlingsplan 2024
 author: Jakob Aarøe Dam
 categories: vejstøj
 ---
@@ -52,5 +52,6 @@ Vi henstiller til at hastigheden på de bynære dele af GR reduceres med henblik
 ## Links
 
 - [Slides til foretræde](/assets/aak-stoejhandlingsplan-2024/støjhandlingsplan-2024-slides.pdf)
+- [Referat 23. september 2024 - Teknisk Udvalg]
 
 
