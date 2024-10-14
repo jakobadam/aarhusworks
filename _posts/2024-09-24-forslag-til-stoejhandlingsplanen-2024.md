@@ -52,6 +52,6 @@ Vi henstiller til at hastigheden på de bynære dele af GR reduceres med henblik
 ## Links
 
 - [Slides til foretræde](/assets/aak-stoejhandlingsplan-2024/støjhandlingsplan-2024-slides.pdf)
-- [Referat 23. september 2024 - Teknisk Udvalg]
+- [Referat 23. september 2024 - Teknisk Udvalg](https://dagsordener.aarhus.dk/vis?id=1232cd55-67bf-4142-849b-e59f9c772210&punktid=03d1c259-d0fd-41b3-99c8-cd0b83afd1bf)
 
 
