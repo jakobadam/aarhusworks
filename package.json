@@ -1,0 +1,17 @@
+{
+  "name": "aarhusworks-utils",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^11.4.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.md": [
+      "sh bin/mermaid2svg.sh"
+    ]
+  }
+}
