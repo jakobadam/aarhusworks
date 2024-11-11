@@ -5,6 +5,27 @@ author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
 categories: vejstøj
 ---
 
+<style>
+.img-fullwidth{
+    max-width: 100vw;
+    height: auto;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+#map-container{
+    position: sticky;
+    top: 0;
+}
+
+figcaption{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+</style>
+
 Giber Ringvej Gruppen henstiller hermed til, at den resterende del, i alt 2,72 millioner kr., af den til
 Giber Ringvej (GR) afsatte supplerende støjpulje på 20 millioner
 kr. [VVM-tilladelse, punkt A7](https://aarhusworks.com/assets/mtm-modsvar/2018-vvm-tilladelse-bering-beder-vejen.pdf),
@@ -22,9 +43,9 @@ Punkterne uddybes i resten af høringssvaret.
 
 ## Overskudsjord mangler i planen
 
-_“Som tiltag i støjbekæmpelsen vil Aarhus Kommune bruge overskudsjord fra byggemodning til
+_"Som tiltag i støjbekæmpelsen vil Aarhus Kommune bruge overskudsjord fra byggemodning til
 etablering af støjvolde på kommunale
-arealer.”_ - [Aarhus Kommune Støjhandlingsplan 2018, s.22](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf#page=22)
+arealer."_ - [Aarhus Kommune Støjhandlingsplan 2018, s.22](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf#page=22)
 
 Hvorfor er dette 2018 tiltag mon ikke med i den nye plan? Lad os kigge på hvordan kommunen
 forvaltede overskudsjorden i ‘Giber Ringvej’-projektet.
@@ -34,27 +55,36 @@ at hælde jorden ud til venstre, så blev meget af jorden flyttet og kørt ud p�
 stor undren for alle, ja selv entreprenøren undrede sig over, at de skulle køre alt det jord langt væk,
 i stedet for at lave støjvolde.
 
+![Giber Ringvej](/assets/aak-stoejhandlingsplan-2024/jordvold-forslag-2022.jpeg)
+<figcaption>
+<small>
+Billede taget fra Mustrupvej: Forslag til kommunen om at flytte jorden til den anden side af GR, for
+at beskytte Mårslet mod vejstøj. På dette sted er boliger i byzonen få meter fra at være berettiget til støjværn, og
+grænseværdien (58 dB) for boligerne i landzonen er overskredet (jorden blev i stedet kørt ud på en mark).
+</small>
+</figcaption>
+
 Det er stadig et mysterium for os alle, hvorfor denne oplagte mulighed for sikre borgerne mod
 sundhedsskadelig støj, blev hældt ned ad brættet.
 
 Dårlige forklaringer har der været mange af. Fx at ["vi kan ikke få vand til at løbe opad, så vi kan
-ikke lave en støjvold, som vandet skal løbe op ad.”](https://tranbjerg-maarsletliv.dk/tranbjerg-maarsletliv-dk/aarhus-kommune-de-stoejvaern-der-er-stillet-i-sigte-er-lavet)
+ikke lave en støjvold, som vandet skal løbe op ad."](https://tranbjerg-maarsletliv.dk/tranbjerg-maarsletliv-dk/aarhus-kommune-de-stoejvaern-der-er-stillet-i-sigte-er-lavet)
 Hvilket var med henvisning til den max. 2m brede tilløb til Giber Å, der løber under den del af Giber Ringvej vist på
 billedet. Således måtte vi
 forstå, at en 2m bred bæk forhindrede at Mårslet langs vejens ca. 1000m på begge sider af
 Mustrupvej fik etablerede jordvolde.
 
-Senere forklarede kommunen, at der udestod et [“stianlæg mellem Mustrupvej og Nymarksvej, som
-noget af overskudsjorden (skulle) anvendes til.”](https://aarhusworks.com/assets/mtm-modsvar/2023-10-MTM-svar-til-giber-ringvej-gruppen.pdf#page=2)
+Senere forklarede kommunen, at der udestod et ["stianlæg mellem Mustrupvej og Nymarksvej, som
+noget af overskudsjorden (skulle) anvendes til."](https://aarhusworks.com/assets/mtm-modsvar/2023-10-MTM-svar-til-giber-ringvej-gruppen.pdf#page=2)
 Men alt jorden var længe kørt væk da stiarbejdet
 begyndte.
 
 Yderligere, i samme svar, forklarede kommunen at, grunden til at meget jord ikke blev omdannet til
-støjvolde, bundede i miljøhensyn. I _“store dele af projektområdet er der særlige
+støjvolde, bundede i miljøhensyn. I _"store dele af projektområdet er der særlige
 drikkevandsinteresser, hvilket betyder, at der er skærpede restriktioner i forhold til jordhåndtering,
 og hvor jord kan flyttes fra og til. I forhold til etablering af støjvolde betyder det bl.a., at der ikke må
 tilføres jord fra et område udenfor drikkevandsinteresseområderne til
-drikkevandsinteresseområdet”_.
+drikkevandsinteresseområdet"_.
 
 Det eneste vi bad om, var egentlig bare at få flyttet jorden fra den ene side af vejen til den anden.
 Men vi hæfter os ved, at kommunen angiveligt var OK med at lægge en forurenende vej ovenpå
@@ -96,10 +126,16 @@ der faktisk er endnu 6,3 millioner kr. som endnu ikke er omsat til reel støjbek
 I [notat til Teknisk Udvalg [s.1]](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-vejst%C3%B8j-giber-ringvej.pdf) (
 23/08/2023) beskrives de juridiske krav for at etablere en støjvold.
 Kravet er, at _"der udarbejdes en VVM-screening, og der skal søges en landzonetilladelse. Det
-betyder, at en støjvold skal have en dokumenteret støjdæmpende effekt”_.
+betyder, at en støjvold skal have en dokumenteret støjdæmpende effekt"_.
 
-Notatet beskriver yderligere, _“Der er samlet etableret 16 støjvolde langs Giber Ringvej jf. kort
-vedlagt som bilag 4”_. Og i kort-bilaget, udarbejdet af Rambøll, til Teknisk Udvalg, er jordvoldene
+<figure id="map-container">
+    <img id="map" src="/assets/aak-stoejhandlingsplan-2024/ulovlige-støjvolde.png" alt="Jordvolde og støjvolde langs Giber Ringvej"
+         class="img-fullwidth">
+    <figcaption><small>Støjvolde og jordvolde langs Giber Ringvej - ugyldige støjvolde indikeret med røde pile.</small></figcaption>
+</figure>
+
+Notatet beskriver yderligere, _"Der er samlet etableret 16 støjvolde langs Giber Ringvej jf. kort
+vedlagt som bilag 4"_. Og i kort-bilaget, udarbejdet af Rambøll, til Teknisk Udvalg, er jordvoldene
 markeret med rødt og deres størrelse i kvm er påtegnet - et udsnit er vist ovenover.
 
 Med det in mente, så lad og gå gennem alle de støjvolde langs Giber Ringvej hvor voldene ikke
@@ -107,20 +143,23 @@ opfylder de juridiske krav eller ikke er blevet opført.
 
 ### Letbane-volden
 
-Indikeret ved den røde pil på billedet. Der findes ikke landzonetilladelse for Letbane-volden
-(kommunen er blevet forespurgt via aktindsigt). Det er heller ikke umiddelbart til at se, at det 5
+Indikeret ved den røde pil nr. 1 på billedet.
+
+Der findes ikke landzonetilladelse for Letbane-volden
+(kommunen er blevet forespurgt via aktindsigt). Det er heller ikke umiddelbart til at se, at det
 skulle være en støjvold, nærmere en bakke op mod letbanen.
 
 ### Mustrupvej-volden
 
-Indikeret ved den røde pil til højre på billedet ovenover.
+Indikeret ved den røde pil nr. 3 til højre på billedet ovenover.
 
 Der findes ikke en landzone-tilladelse til denne (vi har forespurgt via aktindsigt). Det er mest af alt
 en tilkørselsvej, der er dog en spids af tilkørselsvejen der stikker lidt ud…
 
 ### ‘Testrup Højskole’-volden
 
-Indikeret ved pilen til venstre i kortet ovenover.
+Indikeret ved pil nr. 4 på kortet ovenover.
+
 Denne er godkendt via en landzonetilladelse, men tilladelsen nævner ikke støj, men i stedet
 kosmetik: [_"Vi har herudover lagt vægt på, at bakkerne/volden vil medvirke til, at der fra højskolen
 ikke er direkte udsigt til Beder-Bering
@@ -128,25 +167,27 @@ vejen."_](https://sensustest.aarhus.dk/media/60326/24-03-2021-tk-etablering-af-b
 
 ### Vold ved Kølsmosevej / Ingerslevej
 
-Der findes
-en [landzonetilladelse](https://sensustest.aarhus.dk/media/73703/28012022-lt-andzonetilladelse-inkl-bilag.pdf).
+Indikeret ved pil nr. 5 på kortet ovenover.
 
-Er det en støjvold? Døm selv - fra tilladelsen: _“…men da der i projektet ikke er medsendt
+Der findes
+en [landzonetilladelse](/assets/aak-stoejhandlingsplan-2024/lanzonetilladelser/jordvold-kølsmosevej.pdf).
+
+Er det en støjvold? Døm selv - fra tilladelsen: _"…men da der i projektet ikke er medsendt
 dokumentation for ej heller lagt vægt på at jordvolden har en støjdæmpende effekt anses projektet
 primært som et anlæg til bortskaffelse af affald, hvor projektområdet efterfølgende igen kan indgå i
-landbrugsmæssig drift.“_
+landbrugsmæssig drift."_
 
 Ingen yderligere kommentarer nødvendig.
 
-### “Vold” - Nymarks Allé (S8)
+### "Vold" - Nymarks Allé (S8)
 
 Der findes
-en [landzonetilladelse](https://sensustest.aarhus.dk/media/23920/27052019-ied-landzonetilladelse-til-etablering-af-stoejvold-beder-bering-vejen-nymarksvej-42.pdf).
+en [landzonetilladelse](/assets/aak-stoejhandlingsplan-2024/lanzonetilladelser/jordvold-nymarksvej.pdf).
 
-Fra tilladelsen: _“Støjvolden etableres med en 2 meter bred top
+Fra tilladelsen: _"Støjvolden etableres med en 2 meter bred top
 (kronebredde), 1 meter over terræn og med et skråningsanlæg
 1:2 mod Bering-Beder Vejen og et skråningsanlæg 1:10 på
-bagsiden…”
+bagsiden…"
 
 Støjvolden burde være tydelig i landskabet, men det er ikke
 muligt at identificere den. Det er yderligere ikke muligt at se
@@ -161,7 +202,7 @@ vejen er blot gravet ind i bakken.
 Vi ved, fra [notatet](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-vejst%C3%B8j-giber-ringvej.pdf), at der er
 etableret støjvolde for 18.5 milioner kr., og vi kender størrelsen i kvm
 af alle volde fra kortet. Derfor kan vi sætte en pris på alle jordvolde, og trække dem ud der er
-ugyldige
+ugyldige.
 
 Dette giver et estimeret overestimat på 6.302.110,82 kr. til enten ikke-godkendte eller ikke-
 etablerede jordvolde.
@@ -201,7 +242,7 @@ vurderinger af støjgenen fra Giber Ringvej var helt i skoven
 
 De stak borgerne og politikere blår i øjnene med manipulerende tal fra støjintervaller, støjkort der
 stoppede klos op ad vejen, ignorerede næsten 100% af byboligerne og ignorerede alle negative
-helbredskonsekvenser. _“Mårslet ingen problemer vi går videre”_, blev der sagt dengang i 2018 på
+helbredskonsekvenser. _"Mårslet ingen problemer vi går videre"_, blev der sagt dengang i 2018 på
 borgermødet, og for mange andre områder ligeså.
 
 Det er åbenbart meget at forlange, at en VVM-rapport der skal vurdere miljøkonsekvenserne rent
@@ -216,4 +257,11 @@ hastighedsnedsættelser samt forbud mod larmende køretøjer om natten tror vi, 
 langt.
 
 Inkluder gerne Giber Ringvej Gruppen i dette arbejde, vi så jo bl.a. også gerne at vejanlægget blev
-sløret med beplantning som lovet i [VVM, s.77](https://bering-bedervejen.aarhus.dk/media/1992/vvm-redegoerelse.pdf#page=77)
+sløret med beplantning som lovet
+i [VVM, s.77](/assets/aak-stoejhandlingsplan-2024/vvm-redegoerelse.pdf#page=77): "Hvor der er
+nærliggende tæt bebyggelse ønskes vejanlægget sløret med en beplantning, så den visuelle støj begrænses."
+
+## Links
+
+- [PDF-version](../assets/aak-stoejhandlingsplan-2024/høringssvar-2-aak-2024-v2.pdf)
+- [Kort Giber Ringvej](/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)
