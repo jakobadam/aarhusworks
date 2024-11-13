@@ -112,7 +112,7 @@ støjvold af overskudsjord og om dette er helt udelukket med 2024-planen?
 I [VVM-tilladelsen, punkt A7](https://aarhusworks.com/assets/mtm-modsvar/2018-vvm-tilladelse-bering-beder-vejen.pdf) for
 Giber Ringvej er der afsat 20 millioner til supplerende
 støjbekæmpelse. Kommunen (via Rambøll), har estimeret, hvad disse øremærkede penge er gået
-til. Ud af de 20 millioner kr. er der en samlet pris på støjtiltag på 17.280.000 kr. Dvs. at der er 2.72 4
+til. Ud af de 20 millioner kr. er der en samlet pris på støjtiltag på 17.280.000 kr. Dvs. at der er 2.72 
 millioner kr. tilbage.
 
 _**Politisk forslag:**_ Den resterende del af bevillingen skal indgå i støjhandlingsplanen og benyttes til
@@ -258,8 +258,8 @@ langt.
 
 Inkluder gerne Giber Ringvej Gruppen i dette arbejde, vi så jo bl.a. også gerne at vejanlægget blev
 sløret med beplantning som lovet
-i [VVM, s.77](/assets/aak-stoejhandlingsplan-2024/vvm-redegoerelse.pdf#page=77): "Hvor der er
-nærliggende tæt bebyggelse ønskes vejanlægget sløret med en beplantning, så den visuelle støj begrænses."
+i [VVM, s.77](/assets/aak-stoejhandlingsplan-2024/vvm-redegoerelse.pdf#page=77): _"Hvor der er
+nærliggende tæt bebyggelse ønskes vejanlægget sløret med en beplantning, så den visuelle støj begrænses."_
 
 ## Links
 
