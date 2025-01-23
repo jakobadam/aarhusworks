@@ -263,5 +263,5 @@ nærliggende tæt bebyggelse ønskes vejanlægget sløret med en beplantning, s�
 
 ## Links
 
-- [PDF-version](../assets/aak-stoejhandlingsplan-2024/høringssvar-2-aak-2024-v2.pdf)
+- [PDF-version](/assets/aak-stoejhandlingsplan-2024/høringssvar-2-aak-2024-v2.pdf)
 - [Kort Giber Ringvej](/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)
