@@ -624,3 +624,7 @@ km/t på samtlige motorveje rundt om Aarhus.
 Overraskende mange europæiske byer er allerede 'City 30’-byer: Paris, Bologna, Lille,
 Amsterdam, Bruxelles, Graz, Grenoble, Valencia, Zürich, Lille, Edinburgh for at nævne nogle af
 dem.
+
+## Links
+
+- Download originalt høringssvar [pdf](/assets/aak-stoejhandlingsplan-2024/høringssvar-2-aak-2024-v2.pdf).

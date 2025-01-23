@@ -12,25 +12,9 @@ pre:has(.language-mermaid) { display: none;}
 store the result of a complex query in a table, which can help avoid repetitive calculations and speed up response times
 greatly.
 
-Below is an example of an aggregating request taking around 0.75 seconds vs. 0.11 seconds with a materialized view.
+The screenshot below shows off an almost factor 10 speedup in duration times when using a materialized view.
 
-### Without materialized view
-
-```bash
-curl -o /dev/null --silent --write-out "%{time_total}" \
-'https://localhost:6004/api/co2-summary?cvrNumber=16227641&fromDate=2023-01-01&toDate=2023-12-31&useMatView=false'
-```
-
-Response times were on average around ~0.75 seconds.
-
-### With materialized view
-
-```bash
-curl -o /dev/null --silent --write-out "%{time_total}" \
-'https://localhost:6004/api/co2-summary?cvrNumber=16227641&fromDate=2023-01-01&toDate=2023-12-31&useMatView=true' 
-```
-
-Using a materialized view, response times drop to around 0.11 seconds, a sevenfold improvement in this case.
+![Materialized view performance boost](/assets/postgres-speedup/mat-views-performance-effect.png)
 
 Enough with the motivation, how to create a materialized view?
 
