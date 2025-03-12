@@ -12,7 +12,8 @@ pre:has(.language-mermaid) { display: none;}
 store the result of a complex query in a table, which can help avoid repetitive calculations and speed up response times
 greatly.
 
-The screenshot below shows off an almost factor 10 speedup in duration times when using a materialized view.
+The screenshot below shows off an almost factor 10 speedup in execution time when using a materialized view instead of a 
+normal query.
 
 ![Materialized view performance boost](/assets/postgres-speedup/mat-views-performance-effect.png)
 
