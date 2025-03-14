@@ -14,7 +14,7 @@ orienteret - [se referat](https://dagsordener.aarhus.dk/vis?id=ebd4c6d2-8061-409
 _Giber Ringvej Gruppen mener, at forvaltningen har leveret et useriøst og blodfattigt bud på, hvad de 20 millioner til
 øget støjbekæmpelse er gået til, og anbefaler derfor, at byrådet forkaster forvaltningens konklusion, da den er helt
 uden belæg og går direkte imod byrådets egen demokratiske
-beslutning. [Se forvaltningens svar her]((/assets/de-19-millioner-der-forsvandt-2025/svar-til-giber-ringvej-gruppen.pdf))._
+beslutning. [Se forvaltningens svar her](/assets/de-19-millioner-der-forsvandt-2025/svar-til-giber-ringvej-gruppen.pdf)._
 
 Konklusionen i forvaltningens svar minder os om en situation i en EM-kval kamp i Litauen, som en af gruppens medlemmer
 engang spillede. Fløjen sprang 20 cm fra feltet, scorede, hvorefter dommeren fra Rusland resolut dømte overtrådt. Vantro
