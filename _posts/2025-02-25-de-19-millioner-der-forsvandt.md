@@ -6,6 +6,9 @@ redirect_from:
   - /vejstøj/2025/02/25/de-20-millioner-der-forsvandt.html
 ---
 
+_Dette indlæg er et modsvar til Teknik & Miljøs svar til Giber Ringvej Gruppen og er sendt til Teknisk Udvalg og resten 
+af Aarhus Kommunes byråd._
+
 _Update: 5. marts 2025: Teknisk Udvalg er blevet
 orienteret - [se referat](https://dagsordener.aarhus.dk/vis?id=ebd4c6d2-8061-409e-91e3-90451978c7c3&punktid=6cc3391e-d693-4bb7-8ad8-8be08de5f2eb)._
 
@@ -152,7 +155,7 @@ deres [hvidbog om trafikstøj, sundhedsgener og mulige løsninger [s.46]](https:
 anført, hvor
 meget jordvolde typisk koster i vejprojekter med overskudsjord. Prisen er 0 kr.
 
-Og, det kan vi bekræfte i eget grundejerforeningis-regi og nabo-ditto, hvor der er blevet etableret støjvolde mod
+Og, det kan vi bekræfte i eget grundejerforenings-regi og nabo-ditto, hvor der er blevet etableret støjvolde mod
 Tandervej, gratis af en ekstern entreprenør.
 
 ## Forslag til nyt estimat
@@ -160,7 +163,7 @@ Tandervej, gratis af en ekstern entreprenør.
 Da forvaltningen hverken har styr på økonomien, og da deres konklusion er ført helt uden belæg, og med udgangspunkt i
 “hvidbog om trafikstøj”, foreslår vi, at tidligere jordarbejde helt udgår fra puljen som udgift.
 
-Dette betyder at der er 19 millioner kr tilbage til støjværn langs GR.
+Dette betyder at der er 19 millioner kr. tilbage til støjværn langs GR.
 
 ## Faktatjekket der blev glemt
 
