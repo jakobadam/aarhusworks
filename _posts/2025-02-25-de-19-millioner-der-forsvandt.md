@@ -6,7 +6,7 @@ redirect_from:
   - /vejstøj/2025/02/25/de-20-millioner-der-forsvandt.html
 ---
 
-_Dette indlæg er et modsvar til Teknik & Miljøs svar til Giber Ringvej Gruppen og er sendt til Teknisk Udvalg og resten 
+_Dette indlæg er et modsvar til Teknik & Miljøs svar til Giber Ringvej Gruppen, og er sendt til Teknisk Udvalg og resten 
 af Aarhus Kommunes byråd._
 
 _Update: 5. marts 2025: Teknisk Udvalg er blevet
