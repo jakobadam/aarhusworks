@@ -1,8 +1,13 @@
 ---
-title: De 20 millioner der forsvandt
+title: De 19 millioner der forsvandt
 author: Jakob Aarøe Dam
 categories: vejstøj
+redirect_from:
+  - /vejstøj/2025/02/25/de-20-millioner-der-forsvandt.html
 ---
+
+_Dette indlæg er et modsvar til Teknik & Miljøs svar til Giber Ringvej Gruppen, og er sendt til Teknisk Udvalg og resten 
+af Aarhus Kommunes byråd._
 
 _Update: 5. marts 2025: Teknisk Udvalg er blevet
 orienteret - [se referat](https://dagsordener.aarhus.dk/vis?id=ebd4c6d2-8061-409e-91e3-90451978c7c3&punktid=6cc3391e-d693-4bb7-8ad8-8be08de5f2eb)._
@@ -16,7 +21,7 @@ _Update: 23. marts 2025: Læserbrev i Aarhus Stiftstidende - [læs det her](http
 _Giber Ringvej Gruppen mener, at forvaltningen har leveret et useriøst og blodfattigt bud på, hvad de 20 millioner til
 øget støjbekæmpelse er gået til, og anbefaler derfor, at byrådet forkaster forvaltningens konklusion, da den er helt
 uden belæg og går direkte imod byrådets egen demokratiske
-beslutning. [Se forvaltningens svar her]((/assets/de-20-millioner-der-forsvandt-2025/svar-til-giber-ringvej-gruppen.pdf))._
+beslutning. [Se forvaltningens svar her](/assets/de-19-millioner-der-forsvandt-2025/svar-til-giber-ringvej-gruppen.pdf)._
 
 Konklusionen i forvaltningens svar minder os om en situation i en EM-kval kamp i Litauen, som en af gruppens medlemmer
 engang spillede. Fløjen sprang 20 cm fra feltet, scorede, hvorefter dommeren fra Rusland resolut dømte overtrådt. Vantro
@@ -49,16 +54,16 @@ Forvaltningen insisterer nemlig stadigt på, at ovennævnte “volde” kan have
 ikke til at finde hoved og hale i, hvad forvaltningen mener er korrekt i Rambølls oprindelige estimat, og hvad der er
 misvisende.
 
-Tiøren er stadig ikke faldet - det er faktisk ulovligt det, de har haft gang i jvf. forvaltningens juristers [eget notat
+Tiøren er stadig ikke faldet - det er faktisk ulovligt det de har haft gang i, jvf. forvaltningens juristers [eget notat
 til Teknisk Udvalg (23/08/2023)](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-vejstøj-giber-ringvej.pdf), der
-oplister kravet til en støjvold, som er, at, _“der udarbejdes en VVM-screening, og
+oplister kravet til en støjvold, som er, at _“der udarbejdes en VVM-screening, og
 der skal søges en landzonetilladelse. Det betyder, at en støjvold skal have en dokumenteret støjdæmpende effekt”._
 
 Forvaltningen erkender dog, at de overhovedet ikke har styr på økonomien. Dette er dybt kritisabelt.
 
 ## Et formålsløst differenskort
 
-Forvaltningen har medsendt et [differenskort](/assets/de-20-millioner-der-forsvandt-2025/ramboell-differenskort.pdf) som
+Forvaltningen har medsendt et [differenskort](/assets/de-19-millioner-der-forsvandt-2025/ramboell-differenskort.pdf) som
 et slags nyt gæt på, hvad pengene kunne være gået til.
 
 Kortet viser forskellen i niveau i terrænet før / efter vejen. Kortet er dog ekstremt svært at tyde, da farveforskellen
@@ -66,22 +71,22 @@ for kote-differenser helt op til 3-4 m nærmest ikke kan skelnes af det menneske
 
 Kig på farverne underneden, de er alle forskellige, og terrænet kan variere 3m.
 
-![Differenskort](/assets/de-20-millioner-der-forsvandt-2025/differenskort-signaturforklaring.png)
+![Differenskort](/assets/de-19-millioner-der-forsvandt-2025/differenskort-signaturforklaring.png)
 
 Vi kan faktisk ikke se forskel på nogen af vores computere. Og det holder jo ikke en meter, at det bevidst er gjort
 uklart på den måde.
 
-For de helt store differencer - rød (påfyldning) og blå (afgravning) - kan Giber Ringvej Gruppen bekræfte, at kortet
+For de helt store differenser - rød (påfyldning) og blå (afgravning) - kan Giber Ringvej Gruppen bekræfte, at kortet
 angiver - dog med enkelte fejl fx er Voldene ved Testrup Højskole ikke med - hvor der har været påfyldning og afgravning
 i projektet.
 
-På de store differencer vurderer vi, at kortet stemmer overens med vejens oprindelige design som beskrevet i [kort-bilag
+På de store differenser vurderer vi, at kortet stemmer overens med vejens oprindelige design som beskrevet i [kort-bilag
 2 til VVM-redegørelsen (2013)](https://aarhusworks.com/assets/giber-ringvej/2013-vvm-kortbilag.pdf#page=4).
 
 Herunder er vist en af vores stikprøver fra Mårslet, i form af differenskortet kørt sammen med vvm-kortet. Det viser, at
 jorden er hhv. påfyldt og tilføjet som forudsagt af bilaget i 2013.
 
-![Differenskort og VVM-kort](/assets/de-20-millioner-der-forsvandt-2025/differenskort-og-vvm-kort.png)
+![Differenskort og VVM-kort](/assets/de-19-millioner-der-forsvandt-2025/differenskort-og-vvm-kort.png)
 
 Fra forvaltningens svar:
 
@@ -114,7 +119,7 @@ Men det mest vanvittige er, at logikken er vendt fuldstændigt på hovedet: da �
 overskredet”.
 
 Altså, puljen
-i [vvm-tilladelsen](https://aarhusworks.com/assets/mtm-modsvar/2018-vvm-tilladelse-bering-beder-vejen.pdf#page=3) var jo
+i [VVM-tilladelsen](https://aarhusworks.com/assets/mtm-modsvar/2018-vvm-tilladelse-bering-beder-vejen.pdf#page=3) var jo
 netop tiltænkt “øget støjdæmpning", ellers ville den jo slet ikke have givet mening!
 
 Vi forstår derfor overhovedet ikke kommentaren, og vi formoder at Teknik og Miljø har misforstået hele denne sag.
@@ -139,7 +144,7 @@ bestjålet leveår i deres liv.
 Fordelingen af høringssvar til støjhandlingsplanen talte sit tydelige sprog: ingen kommunal vej fik flere råb om hjælp
 end Giber Ringvej, og det var grel læsning, her et lille udsnit fra Mårslet:
 
-![Mårslet høringssvar](/assets/de-20-millioner-der-forsvandt-2025/uddrag-maarslet-hoeringssvar.png)
+![Mårslet høringssvar](/assets/de-19-millioner-der-forsvandt-2025/uddrag-maarslet-hoeringssvar.png)
 
 Politikerne anno 2018 havde det måske på fornemmelsen, så
 de [bevilligede 20 millioner til ekstra støjbekæmpelse](https://aarhusworks.com/assets/mtm-modsvar/2018-vvm-tilladelse-bering-beder-vejen.pdf#page=3).
@@ -154,7 +159,7 @@ deres [hvidbog om trafikstøj, sundhedsgener og mulige løsninger [s.46]](https:
 anført, hvor
 meget jordvolde typisk koster i vejprojekter med overskudsjord. Prisen er 0 kr.
 
-Og, det kan vi bekræfte i eget grundejerforeningis-regi og nabo-ditto, hvor der er blevet etableret støjvolde mod
+Og, det kan vi bekræfte i eget grundejerforenings-regi og nabo-ditto, hvor der er blevet etableret støjvolde mod
 Tandervej, gratis af en ekstern entreprenør.
 
 ## Forslag til nyt estimat
@@ -162,7 +167,7 @@ Tandervej, gratis af en ekstern entreprenør.
 Da forvaltningen hverken har styr på økonomien, og da deres konklusion er ført helt uden belæg, og med udgangspunkt i
 “hvidbog om trafikstøj”, foreslår vi, at tidligere jordarbejde helt udgår fra puljen som udgift.
 
-Dette betyder at der er 19 millioner kr tilbage til støjværn langs GR.
+Dette betyder at der er 19 millioner kr. tilbage til støjværn langs GR.
 
 ## Faktatjekket der blev glemt
 
@@ -190,7 +195,7 @@ _Hvor der er nærliggende tæt bebyggelse ønskes vejanlægget sløret med en be
 Der er endda også
 en [visualisering i VVMen [s. 89]](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/vvm-redegoerelse.pdf#page=89):
 
-![VVM-visualisering af beplantning](/assets/de-20-millioner-der-forsvandt-2025/vvm-beplantning.png)
+![VVM-visualisering af beplantning](/assets/de-19-millioner-der-forsvandt-2025/vvm-beplantning.png)
 
 Hvor er træerne blevet af?
 
