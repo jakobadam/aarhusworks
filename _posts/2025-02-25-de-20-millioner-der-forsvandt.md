@@ -7,6 +7,10 @@ categories: vejstøj
 _Update: 5. marts 2025: Teknisk Udvalg er blevet
 orienteret - [se referat](https://dagsordener.aarhus.dk/vis?id=ebd4c6d2-8061-409e-91e3-90451978c7c3&punktid=6cc3391e-d693-4bb7-8ad8-8be08de5f2eb)._
 
+_Update: 21. marts 2025: Din avis har skrevet en artikel om sagen - [læs den her](https://dinavis.dk/samfund/ECE18005991/borgere-klager-over-trafikstoej-fra-giber-ringvej-hvad-blev-der-af-de-20-mio-kr)._
+
+_Update: 23. marts 2025: Læserbrev i Aarhus Stiftstidende - [læs det her](https://stiften.dk/debat/vi-undrer-os-her-ved-giber-ringvej-19-millioner-kroner-er-aabenbart-forsvundet)._
+
 ## Giber Ringvej Gruppen underkender svar fra forvaltningen fra 13. januar 2025 og kræver anvendelse af den afsatte støjpulje på 20 mio. til støjdæmpning
 
 _Giber Ringvej Gruppen mener, at forvaltningen har leveret et useriøst og blodfattigt bud på, hvad de 20 millioner til
