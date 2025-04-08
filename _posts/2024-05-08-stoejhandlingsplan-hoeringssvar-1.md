@@ -305,7 +305,8 @@ Følgende sygdomme er med i artiklen:
 _“Resultaterne peger på, at der generelt er en sammenhæng mellem støj og en øget risiko for
 hjertekar-sygdomme, type 2-diabetes og brystkræft, selv om støjen holder sig under
 grænseværdien på 58 dB. Vi ser faktisk, at vejstøj synes at øge risikoen for flere af sygdommene
-allerede fra omkring 35-40 dB, som er der, hvor vores estimering af støj starter”_ - Professor Mette Sørensen [Shhhh… Støj måske mere skadeligt end troet](https://www.cancer.dk/nyheder-og-fortaellinger/2022/shhhh-stoej-maaske-mere-skadeligt-end-troet/)
+allerede fra omkring 35-40 dB, som er der, hvor vores estimering af støj starter”_ - Professor Mette
+Sørensen [Shhhh… Støj måske mere skadeligt end troet](https://www.cancer.dk/nyheder-og-fortaellinger/2022/shhhh-stoej-maaske-mere-skadeligt-end-troet/)
 
 Et stort antal borgere føler med rette, at de bliver udsat for uacceptabelt meget vejstøj. Noget
 som forskningen også bekræfter dem i er sundhedsskadelig. Alligevel har vi en kommune, der uanfægtet fortsætter med at
@@ -340,8 +341,8 @@ I de senere år er forskerne blevet opmærksomme på en lang række faktorer, de
 vejstøjsgenen, herunder bl.a.
 
 - om boligen har adgang til en stilleside
-- hastigheden der bliver kørt med på vejen 
-- om vejen kan ses 
+- hastigheden der bliver kørt med på vejen
+- om vejen kan ses
 - mængden af tung trafik
 
 _“Ved Miljøstyrelsens vejledende grænse på 58 dB er cirka otte procent stærkt generet ved byveje,
@@ -436,7 +437,8 @@ Støjværn er dyrt. Men det er samtidig også et meget effektivt støjtiltag. Pg
 det oftest som urealistisk at benytte. Men men men, det kan jo sagtens være, at omkostningen til
 støjværn hurtigt er tjent ind qua nedgang i sundhedsudgifter, opgang i huspriser etc.
 
-_**Politisk forslag:**_ Cost-benefit-analysen omtalt i [Støjbekendtgørelsen § 26](https://www.retsinformation.dk/eli/lta/2021/2092#Par26) skal gøres obligatorisk.
+_**Politisk forslag:**_ Cost-benefit-analysen omtalt
+i [Støjbekendtgørelsen § 26](https://www.retsinformation.dk/eli/lta/2021/2092#Par26) skal gøres obligatorisk.
 
 Lad os prøve at lave en simpel cost-benefit analyse af et støjværn. I Mårslet har kommunen
 vurderet at et støjværn vil koste 5 millioner. Et fornuftigt dimensioneret støjværn vil her dæmpe
@@ -446,7 +448,8 @@ dB.
 
 Så hvad skal der til for at vi er break-even?
 
-[Stressforeningen satte i 2019](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/papers/stressforeningen-viden-om-stress-2019.pdf#page=4) en pris på omkostningen for en virksomhed hvis en leder i 50.000
+[Stressforeningen satte i 2019](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/papers/stressforeningen-viden-om-stress-2019.pdf#page=4)
+en pris på omkostningen for en virksomhed hvis en leder i 50.000
 kr. klassen gik ned med stress. Det var en omkostning på op til 4 millioner alene for
 virksomheden. Så svaret er, bare en enkel stresssygemelding undgået, vil kunne finansiere det meste af støjværnet.
 
@@ -462,7 +465,9 @@ der?
 Eneste konkrete tiltag overfor støjen fra de store kommunale veje er alm. vedligehold med
 støjdæmpende asfalt.
 
-Men som godt illustreret på figuren [s. 23](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=23), så er en stor del af vejnettet allerede belagt med dette,
+Men som godt illustreret på
+figuren [s. 23](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=23), så er
+en stor del af vejnettet allerede belagt med dette,
 og som tidligere nævnt så er effekten lavere end forventet.
 
 De store veje er tydeligvis opgivet - de adresseres ikke reelt i planen. Snarere tværtimod. Trafikken
@@ -474,24 +479,28 @@ bliver højere og højere, så er det fordi lovgivningen er tandløs og myndighe
 indsatsen. Det må stoppe.
 
 Det kunne også være at EU på et tidspunkt indser at Støjdirektivet [ikke leverer de støjreduktioner
-som var intentionen](https://www.eea.europa.eu/da/highlights/antallet-af-europaeere-der-eksponeres), og at Danmark helt systematisk forsømmer dette, og derfor giver
+som var intentionen](https://www.eea.europa.eu/da/highlights/antallet-af-europaeere-der-eksponeres), og at Danmark helt
+systematisk forsømmer dette, og derfor giver
 lovgivningen tænder – så står vi altså med en enorm støjgæld.
 
 Dette er faktisk allerede under overvejelse:
 _“The Commission will consider further actions as described in this report in relation to
-implementation improvements and possible measures on noise source reduction.”_ - [On the implementation of the Environmental Noise Directive in accordance with Article
+implementation improvements and possible measures on noise source
+reduction.”_ - [On the implementation of the Environmental Noise Directive in accordance with Article
 11 of Directive 2002/49/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52011DC0321&from=EN#page=13)
 
 _**Politisk Forslag:**_ Giv den ellers tandløse lovgivningen nogle tænder (lokalt for Aarhus), så kurven
 over støjbelastede boliger kan knækkes.
 
 Giber Ringvej Gruppen finder generelt at planen er ukonkret. Den mangler en overvejelse omkring
-hvor kommunen vil fokusere sin indsats. Hvis vi igen skæver til andre kommuners støjhandlingsplaner, kan man fx finde lister over konkrete indsatsområder, herunder fra Lyngby-
+hvor kommunen vil fokusere sin indsats. Hvis vi igen skæver til andre kommuners støjhandlingsplaner, kan man fx finde
+lister over konkrete indsatsområder, herunder fra Lyngby-
 Taarbæk, vist i figuren underneden.
 
 Giber Ringvej Gruppen hæfter sig ved, at en kommune som Lyngby-Taarbæk har 10.100
 støjbelastede boliger over 58 dB, og har anvist fem konkrete støjskærme for estimeret 17,1
-millioner kr. Til sammenligning har vi i Aarhus kommune 63.500 boliger over 58 dB [afsnit 5, s.12](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=12),
+millioner kr. Til sammenligning har vi i Aarhus kommune 63.500 boliger over 58
+dB [afsnit 5, s.12](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=12),
 og ingen konkrete planer om støjskærme.
 
 Det virker til at Aarhus Kommune for længe siden har sat sig på bagerste række i
@@ -507,7 +516,9 @@ det enkelte vejsegment.
 
 ## Manglende indsats overfor støj fra motorvejene
 
-Et kig på støjkortet [s.14](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=14), afslører nogle af de helt store bidragsydere til støj i kommunen.
+Et kig på
+støjkortet [s.14](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=14),
+afslører nogle af de helt store bidragsydere til støj i kommunen.
 Motorvej E45, Aarhus Syd Motorvejen og Djurslandmotorvejen. Men… de er ikke engang nævnt i
 planen! Kommunen har slået op i banen og bare givet op overfor støjen der kommer fra
 motorvejene.
@@ -543,9 +554,11 @@ for samfundet og omkostningen for folks helbred.
 
 _**Politisk forslag:**_ Lad os inspireret af Paris opsætte automatiske lyd-radarer og også gerne
 automatisk trafikkontrol. Bemærk: [I Infrastrukturplanen 2035 er det sat 25 Millioner af til støj-
-radarer](https://www.trm.dk/media/q0kl0ne1/udmoentningsgrundlag_for_pulje_til_stoejbekaempelse_final-a.pdf), så det vil være naturligt at lægge sig i kølvandet på dette.
+radarer](https://www.trm.dk/media/q0kl0ne1/udmoentningsgrundlag_for_pulje_til_stoejbekaempelse_final-a.pdf), så det vil
+være naturligt at lægge sig i kølvandet på dette.
 
-_**Politisk forslag:**_ Forbyd larmende køretøjer og lastbiler om natten og weekender (à la [Schweiz](https://www.bav.admin.ch/bav/de/home/rechtliches/gesetze-verordnungen-staatsvertraege/internationale-vertraege/landverkehrsabkommen/die-inhalte-des-landverkehrabkommens/nacht--und-sonntagsfahrverbot.html))
+_**Politisk forslag:**_ Forbyd larmende køretøjer og lastbiler om natten og weekender (à
+la [Schweiz](https://www.bav.admin.ch/bav/de/home/rechtliches/gesetze-verordnungen-staatsvertraege/internationale-vertraege/landverkehrsabkommen/die-inhalte-des-landverkehrabkommens/nacht--und-sonntagsfahrverbot.html))
 
 _**Politisk forslag:**_ Der bør være fokus på at kommunens egne køretøjer er støjsvage fx med
 støjsvage dæk (op til 3dB forbedring), og at kommunens leverandører også er det.
@@ -555,7 +568,8 @@ støjsvage dæk (op til 3dB forbedring), og at kommunens leverandører også er 
 Mange mennesker i den arbejdsdygtige alder bruger 1/3 af døgnets timer på hverdage på en
 virksomhed. Mange børn bruger 1/3 af døgnets timer i skole eller daginstitution. Mange af disse
 ligger støjbelastede steder, men hverken skoler, daginstitutioner eller virksomheder indgår ikke i
-støjberegningerne [afsnit 5, s.12](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=12). Dvs. at antallet af støjbelastede borgere reelt er højere end
+støjberegningerne [afsnit 5, s.12](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=12).
+Dvs. at antallet af støjbelastede borgere reelt er højere end
 rapporten viser. Der er et stort mørketal.
 
 _**Politisk forslag:**_ Skoler, daginstitutioner og virksomheder skal indgå.
@@ -596,7 +610,8 @@ There were, however, considerable reductions in noise pollution, by up to 50% co
 previous traffic noise levels. Cyclists’ figures also increased, with 23% more cyclists in the
 morning traffic peak and 13% more in the evening traffic peak.”_
 
-Det er [resultatet af ‘City 30’ i Bruxelles](https://urban-mobility-observatory.transport.ec.europa.eu/resources/case-studies/brussels-city-30-changing-mobility-model-calmer-city-safe-roads-and-less-noise_en).
+Det
+er [resultatet af ‘City 30’ i Bruxelles](https://urban-mobility-observatory.transport.ec.europa.eu/resources/case-studies/brussels-city-30-changing-mobility-model-calmer-city-safe-roads-and-less-noise_en).
 
 ‘City 30’ betyder at 30 km/t er udgangspunktet i byen - altså et nyt 50km/t. Resultaterne fra ‘City
 30’-områderne er velunderbyggede, evidensbaserede og i særklasse.
@@ -608,7 +623,8 @@ opbakning efter en indkøringsfase stor.
 
 _“Nobody even dreams of questioning the 30 km/h limit: a July 1992 survey showed that only 30%
 of residents were in favour of the 30 Zones before they were introduced, yet only 8 months later
-the satisfaction rate already stood at 52%, reaching 81% in 2002.”_ - [City 30 - Graz](https://city30.brussels/other-30-cities-graz-austria)
+the satisfaction rate already stood at 52%, reaching 81% in
+2002.”_ - [City 30 - Graz](https://city30.brussels/other-30-cities-graz-austria)
 
 ‘City 30’-områderne er simpelthen blevet et meget bedre sted at bo.
 
@@ -627,4 +643,4 @@ dem.
 
 ## Links
 
-- Download originalt høringssvar [pdf](/assets/aak-stoejhandlingsplan-2024/høringssvar-2-aak-2024-v2.pdf).
+- Download originalt høringssvar [pdf](/assets/aak-stoejhandlingsplan-2024/høringssvar-aak-2024-v4.pdf).
