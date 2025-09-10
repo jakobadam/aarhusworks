@@ -10,8 +10,7 @@ Efter et konstruktivt møde med rådmand Anette Poulsen (S), direktøren for Tek
 godt nyt:
 
 ✅ Den glemte afskærmende beplantning ved byerne langs Giber Ringvej bliver endelig etableret. Det har Aarhus Kommune nu
-tilkendegivet. Se evt. visualiseringer
-i [^1]. Det
+tilkendegivet. Se evt. visualiseringer.[^1] Det
 bliver en stor gevinst for alle bysamfund langs vejen – og vi skylder
 Anette en stor tak for, at der nu sker noget! 🙏🏻
 
@@ -19,16 +18,16 @@ Anette en stor tak for, at der nu sker noget! 🙏🏻
 
 På mødet fremlagde vi dokumentation for, at flere af de påståede støjtiltag enten aldrig er blevet udført, allerede var
 en del af det oprindelige projekt, eller slet ikke har en dokumenteret støjdæmpende
-effekt [^2].
+effekt.[^2]
 
 Efter hele tre gentagne aktindsigter med samme forespørgsel, gemte der sig i vedhæftningen på en mail information om, at
 Rambøll faktisk giver os ret i 4 ud af 5 punkter – forvaltningen har bare aldrig orienteret offentligheden herom, og har
 fortsat påstået hårdnakket, at pengene var
-brugt [^3] og [^4].
+brugt.[^3][^4]
 
 Vi drøftede sagen med borgmesteren tilbage i februar, hvilket førte til en ny redegørelse fra Teknik og Miljø i april.
 Denne redegørelse pillede vi også fuldstændig fra hinanden på mødet – den holder simpelthen ikke
-vand [^5].
+vand.[^5]
 
 👉 Kommunen har nu erkendt, at redegørelsen må genbesøges endnu en gang.
 
@@ -38,8 +37,7 @@ tilbage i puljen. Der er altså god grund til optimisme.
 I tillæg anbefaler vi en opdatering af støjafsnittet i VVM-redegørelsen, der bygger på en hokus-pokus-beregning, som
 påstår, at en 12 km bynær motortrafikvej reducerer støjen. Redegørelsen ignorerer samtidigt samtlige dokumenterede
 helbredsskadelige konsekvenser for tusindvis af borgere – og uden en opdatering vurderer vi, at VVM’en ikke er juridisk
-gyldig [[6]](https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-vvm-og-vejstoej.pdf).
-
+gyldig.[^6]
 Tak for opbakningen – vi kæmper videre for mere ro og at vores penge til støjbekæmpelse ikke forsvinder i tågesnak! 💪
 
 Giber Ringvej Gruppen
