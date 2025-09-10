@@ -276,27 +276,20 @@ Det vil forbedre folkesundheden, styrke samfundsøkonomien og bringe kommunen t�
 
 ## Notes
 
-[^1]:
-168.880 personer i den “lovbestemte del af kortlægningen” + dem i resten af kommunen + personer udsat for vejstøj i
+[^1]: 168.880 personer i den “lovbestemte del af kortlægningen” + dem i resten af kommunen + personer udsat for vejstøj i
 virksomheder / daginstitutioner / skoler,
 jvf. [Aarhus Kommunes Støjhandlingsplan](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=13).
 
-[^2]:
-City 30 (Tempo 30 i tysktalende lande) betyder at 30 km/t er udgangspunktet i byen - altså et nyt 50 km/t.
+[^2]: City 30 (Tempo 30 i tysktalende lande) betyder at 30 km/t er udgangspunktet i byen - altså et nyt 50 km/t.
 
-[^3]:
-Reduktionen er beregnet, og inkluderer kun reduktion af hastigheden på motorvej samt overordnet vejnet.
+[^3]: Reduktionen er beregnet, og inkluderer kun reduktion af hastigheden på motorvej samt overordnet vejnet.
 
-[^4]:
-[Review of City-Wide 30 km/h Speed Limit Benefits, 2024](https://aarhusworks.com/assets/groen-mobilitetsplan/2024-review-of-city-wide-30-kmh-speed-limit-benefits.pdf)
+[^4]: [Review of City-Wide 30 km/h Speed Limit Benefits, 2024](https://aarhusworks.com/assets/groen-mobilitetsplan/2024-review-of-city-wide-30-kmh-speed-limit-benefits.pdf)
 
-[^5]:
-[Umweltwirkungen einer innerörtlichen Regelgeschwindigkeit von 30 km/h, 2023](https://www.umweltbundesamt.de/sites/default/files/medien/479/publikationen/texte_50-2023_umweltwirkungen_einer_inneroertlichen_regelgeschwindigkeit_von_30_kmh.pdf) (
+[^5]: [Umweltwirkungen einer innerörtlichen Regelgeschwindigkeit von 30 km/h, 2023](https://www.umweltbundesamt.de/sites/default/files/medien/479/publikationen/texte_50-2023_umweltwirkungen_einer_inneroertlichen_regelgeschwindigkeit_von_30_kmh.pdf) (
 den tyske miljøstyrelse) s. 150
 
-[^6]:
-Vi er klar over, at kommunen ikke har jurisdiktion over motorvejene, men vi mener, at kommunen bør presse på for at få
+[^6]: Vi er klar over, at kommunen ikke har jurisdiktion over motorvejene, men vi mener, at kommunen bør presse på for at få
 ændret hastighedsgrænserne - det er lykkedes i København.
 
-[^7]:
-Effekten er modelbaseret og skal betragtes som et skøn.
+[^7]: Effekten er modelbaseret og skal betragtes som et skøn.

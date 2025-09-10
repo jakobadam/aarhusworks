@@ -11,7 +11,7 @@ godt nyt:
 
 ✅ Den glemte afskærmende beplantning ved byerne langs Giber Ringvej bliver endelig etableret. Det har Aarhus Kommune nu
 tilkendegivet. Se evt. visualiseringer
-i [[1]](https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf). Det
+i [^1]. Det
 bliver en stor gevinst for alle bysamfund langs vejen – og vi skylder
 Anette en stor tak for, at der nu sker noget! 🙏🏻
 
@@ -19,19 +19,16 @@ Anette en stor tak for, at der nu sker noget! 🙏🏻
 
 På mødet fremlagde vi dokumentation for, at flere af de påståede støjtiltag enten aldrig er blevet udført, allerede var
 en del af det oprindelige projekt, eller slet ikke har en dokumenteret støjdæmpende
-effekt [[2]](https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf).
+effekt [^2].
 
 Efter hele tre gentagne aktindsigter med samme forespørgsel, gemte der sig i vedhæftningen på en mail information om, at
 Rambøll faktisk giver os ret i 4 ud af 5 punkter – forvaltningen har bare aldrig orienteret offentligheden herom, og har
 fortsat påstået hårdnakket, at pengene var
-brugt [[3]](https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2.pdf)
-og
-[[4]](https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2-efter-aktindsigt.pdf).
+brugt [^3] og [^4].
 
 Vi drøftede sagen med borgmesteren tilbage i februar, hvilket førte til en ny redegørelse fra Teknik og Miljø i april.
 Denne redegørelse pillede vi også fuldstændig fra hinanden på mødet – den holder simpelthen ikke
-vand [[5]](https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3.pdf
-).
+vand [^5].
 
 👉 Kommunen har nu erkendt, at redegørelsen må genbesøges endnu en gang.
 
@@ -48,14 +45,14 @@ Tak for opbakningen – vi kæmper videre for mere ro og at vores penge til stø
 Giber Ringvej Gruppen
 Jane Simonsen • Carina Graae Rasmussen • Claus Falkenstrøm • Michael Bisgaard • Jakob Aarøe Dam
 
-[1] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf
+[^1] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf
 
-[2] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf
+[^2] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf
 
-[3] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2.pdf
+[^3] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2.pdf
 
-[4] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2-efter-aktindsigt.pdf
+[^4] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2-efter-aktindsigt.pdf
 
-[5] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3.pdf
+[^5] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3.pdf
 
-[6] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-vvm-og-vejstoej.pdf
+[^6] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-vvm-og-vejstoej.pdf
