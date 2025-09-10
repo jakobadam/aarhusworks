@@ -50,14 +50,14 @@ Jane Simonsen • Carina Graae Rasmussen • Claus Falkenstrøm • Michael Bisg
 
 ## Fodnoter
 
-[1] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf
+1. https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf
 
-[2] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf
+2. https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf
 
-[3] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2.pdf
+3. https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2.pdf
 
-[4] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2-efter-aktindsigt.pdf
+4. https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2-efter-aktindsigt.pdf
 
-[5] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3.pdf
+5. https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3.pdf
 
-[6] https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-vvm-og-vejstoej.pdf
+6. https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-vvm-og-vejstoej.pdf
