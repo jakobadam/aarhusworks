@@ -271,7 +271,7 @@ opholde sig i gode miljøer.” *
 Det vil forbedre folkesundheden, styrke samfundsøkonomien og bringe kommunen tættere på målet om CO₂-neutralitet i
 2030 – Aarhus vil blive et bedre sted at bo.
 
-## Notes
+## Fodnoter
 
 [^1]: 168.880 personer i den “lovbestemte del af kortlægningen” + dem i resten af kommunen + personer udsat for vejstøj i virksomheder / daginstitutioner / skoler, jvf. [Aarhus Kommunes Støjhandlingsplan](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=13).
 
