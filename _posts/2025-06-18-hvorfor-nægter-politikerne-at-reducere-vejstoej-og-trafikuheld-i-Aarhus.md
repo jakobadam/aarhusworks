@@ -4,7 +4,7 @@ author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
 categories: vejstøj
 ---
 
-*Dette er kronik bragt i Aarhus Stiftstidende d. 18. juni
+*Dette er en kronik bragt i Aarhus Stiftstidende d. 18. juni
 2025 [[link]](https://stiften.dk/debat/vi-ved-hvad-der-virker-alligevel-goer-raadmanden-ingenting). Eftersom Stiften
 fjernede referencer bringes det også her.*
 
