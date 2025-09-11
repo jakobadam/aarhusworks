@@ -48,7 +48,7 @@ Tak for opbakningen – vi kæmper videre for mere ro og at vores penge til stø
 Giber Ringvej Gruppen
 Jane Simonsen • Carina Graae Rasmussen • Claus Falkenstrøm • Michael Bisgaard • Jakob Aarøe Dam
 
-## Fodnoter
+## Links
 
 1. [2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf](https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf)
 

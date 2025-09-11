@@ -266,7 +266,7 @@ Lad os vælge trivsel og klima frem for tabte minutter i ydertimerne.
 
 I Giber Ringvej Gruppen håber vi, at Aarhus’ politikere vil gribe denne oplagte mulighed for at reducere det alt for
 høje antal støjbelastede aarhusianere, og bringe Aarhus tættere på målet om, at *“alle borgere kan bo, arbejde og
-opholde sig i gode miljøer.” *
+opholde sig i gode miljøer.”*
 
 Det vil forbedre folkesundheden, styrke samfundsøkonomien og bringe kommunen tættere på målet om CO₂-neutralitet i
 2030 – Aarhus vil blive et bedre sted at bo.
