@@ -7,7 +7,7 @@ categories: vejstøj
 *Denne tekst er et tillæg til
 den [indstilling](https://dagsordener.aarhus.dk/vis?id=a19eb260-8f13-47b5-908c-d9cad28c44e8&punktid=8570ee39-77b8-45dd-9e27-4cdc030dd368),
 som Teknik og Miljø har fremsendt til Byrådet vedrørende hastighedsnedsættelser i Aarhus Kommune. Den blev præsenteret på
-foretræde i Teknik og Miljø den 4. juni 2025. Se [slides fra foretræde](/assets/hastighedsnedsættelser/2025-06-04-hastighedsnedsættelser-foretræde.pdf)*.
+foretræde i Teknisk Udvalg den 4. juni 2025 [[slides fra foretræde]](/assets/hastighedsnedsættelser/2025-06-04-hastighedsnedsættelser-foretræde.pdf)*.
 
 *Opdatering 18. juni 2025:* Fulgt op af kronik i stiften: [Vi ved, hvad der virker - alligevel gør rådmanden ingenting](https://stiften.dk/debat/vi-ved-hvad-der-virker-alligevel-goer-raadmanden-ingenting)
 
