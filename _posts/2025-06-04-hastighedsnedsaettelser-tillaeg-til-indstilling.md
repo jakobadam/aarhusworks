@@ -1,5 +1,5 @@
 ---
-title: Hastighedsnedsættelser - alternativ indstilling
+title: Hastighedsnedsættelser - tillæg til indstilling
 author: Giber Ringvej Gruppen - Jakob Aarøe Dam
 categories: vejstøj
 ---
