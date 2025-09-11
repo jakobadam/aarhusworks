@@ -6,7 +6,7 @@ categories: vejstøj
 
 *Dette er kronik bragt i Aarhus Stiftstidende d. 18. juni
 2025 [[link]](https://stiften.dk/debat/vi-ved-hvad-der-virker-alligevel-goer-raadmanden-ingenting). Eftersom Stiften
-fjernede links bringes det også her.*
+fjernede referencer bringes det også her.*
 
 # Hvorfor nægter politikerne at reducere vejstøj og trafikuheld i Aarhus?
 
