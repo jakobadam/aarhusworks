@@ -78,14 +78,14 @@ også er en total ignorance over for bysamfund uden for Aarhus-skiltet. Et udplu
 forslaget til hastighedsnedsættelser, viser hvor ufuldstændigt udspillet er:
 
 * [Viborgvej ved Sabro](https://www.google.com/maps/place/Sabro+Skolevej,+8471+Sabro/@56.2108705,10.0231914,17.65z/data=!4m6!3m5!1s0x464c1397da6daae1:0xb6ddad6499b9939d!8m2!3d56.2137858!4d10.023727!16s%2Fg%2F1tdn_1pl?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D)
-  med 70 km/t, kun få meter fra en skole \
+  med 70 km/t, kun få meter fra en skole.
 
 * [Landevejen ved Tranbjerg](https://www.google.com/maps/search/llandevejen+tranbjerg+daginstition/@56.0944702,10.1367633,18.01z?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D)
-  med 70 km/t, få meter fra daginstitutioner \
+  med 70 km/t, få meter fra daginstitutioner.
 
-* Giber Ringvej med 80 km/t, den kommunale vej med flest høringssvar i støjhandlingsplanen \
+* Giber Ringvej med 80 km/t, den kommunale vej med flest høringssvar i støjhandlingsplanen.
 
-* Oddervej ved Malling med 80 km/t, ca. 20 meter fra villaer
+* Oddervej ved Malling med 80 km/t, ca. 20 meter fra villaer.
 
 Disse veje, som udsætter titusindvis af borgere for sundhedsskadelige støjniveauer, er ikke prioriteret til
 hastighedsnedsættelse. Det sender et klart signal om, at rådmanden og byrådet er meget lidt interesseret i at tage
