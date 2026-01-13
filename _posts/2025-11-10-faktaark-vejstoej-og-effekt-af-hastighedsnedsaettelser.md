@@ -1,11 +1,9 @@
 ---
 title:
-  Faktaark | Vejstøj og effekt af hastighedsnedsættelser (Aarhus)
+  Faktaark%3A Vejstøj og effekt af hastighedsnedsættelser (Aarhus)
 author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
 categories: vejstøj
 ---
-
-# Faktaark: Vejstøj og effekt af hastighedsnedsættelser (Aarhus)
 
 *Resumé*
 
@@ -368,36 +366,88 @@ bilisterne kan ræse forbi huse, skoler og daginstitutioner kun for at holde i k
 
 ## Referencer
 
-1. **Yannis, G. et al.**. [Review of City-Wide 30 km/h Speed Limit Benefits in Europe.](https://aarhusworks.com/assets/groen-mobilitetsplan/2024-review-of-city-wide-30-kmh-speed-limit-benefits.pdf) 2024.
-2. **Aarhus Kommune**. *[Støjhandlingsplan 2024](https://aarhus.dk/media/h2sb0qo0/godkendt-bilag-1-stoejhandlingsplan-2024.pdf)*.
-3. **Sørensen, M. et al.**. *[Health position paper and redox perspectives - Disease burden by transportation noise; Noise, disease, and redox processes](https://forskning.ruc.dk/en/publications/health-position-paper-and-redox-perspectives-disease-burden-by-tr)*.
-4. **Kræftens Bekæmpelse**. *[Det mener Kræftens Bekæmpelse om trafikstøj.](https://www.cancer.dk/om-os/det-arbejder-vi-for/det-mener-kb/trafikstoej)*
-5. **European Environment Agency**. *[The effect of environmental noise on children's reading ability](https://www.eea.europa.eu/en/analysis/publications/the-effect-of-environmental-noise-on-children)*.
+1. **Yannis, G. et al.
+   **. [Review of City-Wide 30 km/h Speed Limit Benefits in Europe.](https://aarhusworks.com/assets/groen-mobilitetsplan/2024-review-of-city-wide-30-kmh-speed-limit-benefits.pdf)
+   2024.
+2. **Aarhus Kommune**.
+   *[Støjhandlingsplan 2024](https://aarhus.dk/media/h2sb0qo0/godkendt-bilag-1-stoejhandlingsplan-2024.pdf)*.
+3. **Sørensen, M. et al.**.
+   *[Health position paper and redox perspectives - Disease burden by transportation noise; Noise, disease, and redox processes](https://forskning.ruc.dk/en/publications/health-position-paper-and-redox-perspectives-disease-burden-by-tr)*.
+4. **Kræftens Bekæmpelse**.
+   *[Det mener Kræftens Bekæmpelse om trafikstøj.](https://www.cancer.dk/om-os/det-arbejder-vi-for/det-mener-kb/trafikstoej)*
+5. **European Environment Agency**.
+   *[The effect of environmental noise on children's reading ability](https://www.eea.europa.eu/en/analysis/publications/the-effect-of-environmental-noise-on-children)*.
 6. **Miljøstyrelsen**. *[Støj fra veje](https://mst.dk/media/asxfobqt/stoej_fra_veje_2007.pdf)*. 2007.
-7. **World Health Organization**. *[Environmental noise guidelines for the European Region](https://www.who.int/europe/publications/i/item/9789289053563)*. 2019.
-8. **Vejdirektoratet**. *[Støjgener fra byveje og motorveje](https://www.vejdirektoratet.dk/sites/default/files/publications/stjgener_fra_byveje_og_motorveje.pdf)*. 2016.
-9. **Force Technology**. *[Trafikstøj – podcast.](https://forcetechnology.com/da/podcast/trafikstoej-og-indendoers-stoej)*
-10. **Leclercq, C., et al.**. *[Network Inefficiency: Empirical Findings for Six European Cities](https://journals.sagepub.com/doi/epub/10.1177/03611981221082588)*. 2022.
-11. **Vejdirektoratet**. *[Vejarbejde giver færre ulykker](https://www.vejdirektoratet.dk/pressemeddelelse/2025/vejarbejde-giver-langt-faerre-ulykker-paa-motorvejen)*. 2025.
-12. **Benedikter, N.**. *[How to Reduce Congestion I: The Optimal Speed Limit for Urban Traﬃc](https://nielsbenedikter.de/traffic/speedlimit30_EN.html)*. 2023.
-13. **Eurocities**. *[Bilbao: Slow and steady for the win](https://eurocities.eu/latest/bilbao-slow-and-steady-for-the-win/)*. Eurocities, 2020.
-14. **Welsh Government**. *[20mph Misinformation Fact Sheet](https://www.rctcbc.gov.uk/EN/GetInvolved/Consultations/RelatedDocuments/Trafficconsultations/2023/IF220MISINFORMATION.pdf).* 2024.
-15. **Brussels City 30**. *[Brussels City 30 – changing the mobility model for a calmer city with safe roads and less noise.](https://urban-mobility-observatory.transport.ec.europa.eu/resources/case-studies/brussels-city-30-changing-mobility-model-calmer-city-safe-roads-and-less-noise_en)* 2023.
-16. **Amsterdam Municipality**. *[30 km/h in Amsterdam.](https://openresearch.amsterdam/image/2025/9/25/english_version_research_report_30kmh_in_amsterdam-333338080.pdf)* 2025.
-17. **APUR**. *[Following developments on the Boulevard Périphérique ring-road from October 2024 to August 2025](https://www.apur.org/en/mobility-public-space/mobility-evolution/monitoring-developments-boulevard-peripherique)*. 2025.
-18. **Transport for London (TfL)**. *[New data shows significant improvements in road safety in London since introduction of 20mph speed limits](https://tfl.gov.uk/info-for/media/press-releases/2023/february/new-data-shows-significant-improvements-in-road-safety-in-london-since-introduction-of-20mph-speed-limits)*. Transport for London, 2023.
-19. **Transport for Wales**. *[Default 20mph speed limit on restricted roads | National monitoring report (July 2025)](https://tfw.wales/national-monitoring-report-july-2025).* 2025.
-20. **Umweltbundesamt**. *[Wirkungen von Tempo 30 an Hauptverkehrsstraßen](https://www.umweltbundesamt.de/sites/default/files/medien/2546/publikationen/wirkungen_von_tempo_30_an_hauptstrassen.pdf#page=15)*. 2016.
-21. **Green, C. et al**. *[The effect of battery-electric vehicle ownership on transport demand and substitution between modes](https://www.sciencedirect.com/science/article/pii/S0965856425002423)*. 2025.
-22. **Politiken**. *[Borgmestre vil bekæmpe frygten for det tabte minut](https://politiken.dk/klima/art9894635/%C2%BBDet-er-f%C3%B8rste-gang-i-mange-%C3%A5r-vi-ser-sm%C3%A5-skridt-i-den-rigtige-retning%C2%AB)*. 2024.
-23. **CEPOS**. *[Hastighedsnedsættelser i Odense er dyr og ineffektiv klimapolitik](https://cepos.dk/artikler/hastighedsnedsaettelser-i-odense-er-dyr-og-ineffektiv-klimapolitik/)*. 2023.
-24. **Finansministeriet**. *[Eksterne omkostninger ved kørsel](https://fm.dk/media/2ichlhig/eksterne-omkostninger-ved-koersel-a.pdf)*. 2024.
-25. **DTU**. *[TERESA og Transportøkonomiske Enhedspriser](https://www.man.dtu.dk/myndighedsbetjening/teresa-og-transportoekonomiske-enhedspriser)* .2024.
-26. **OECD/ITF**. *[Urban Planning and Travel Behaviour](https://www.itf-oecd.org/sites/default/files/docs/urban-planning-travel-behaviour.pdf)*. 2021.
-27. **Trængselskommissionen**. [Mobilitet og fremkommelighed i hovedstaden](https://www.xn--betnkninger-c9a.dk/wp-content/uploads/2021/08/1539.pdf#page=3). 2013.
-28. **Stiften**.[Vi ved, hvad der virker - alligevel gør rådmanden ingenting](https://stiften.dk/debat/vi-ved-hvad-der-virker-alligevel-goer-raadmanden-ingenting). 2025.
-29. **Stiften**. *[Rådmandens svar på kritik af hastighedsbegrænsninger](https://stiften.dk/debat/jeg-har-selv-silkeborgvej-udenfor-mit-sovevaerelse-men-farten-skal-kun-ned-hvor-det-giver-mening)*. 2025.
-30. **DinAvis**. *[Færre dør på en cykel i Aarhus – men antallet af ulykker på to hjul vokser](https://dinavis.dk/samfund/ECE18611237/faerre-doer-paa-en-cykel-i-aarhus-men-antallet-af-ulykker-paa-to-hjul-vokser/)*. 2025.
+7. **World Health Organization**.
+   *[Environmental noise guidelines for the European Region](https://www.who.int/europe/publications/i/item/9789289053563)*.
+   2019.
+8. **Vejdirektoratet**.
+   *[Støjgener fra byveje og motorveje](https://www.vejdirektoratet.dk/sites/default/files/publications/stjgener_fra_byveje_og_motorveje.pdf)*.
+   2016.
+9. **Force Technology**.
+   *[Trafikstøj – podcast.](https://forcetechnology.com/da/podcast/trafikstoej-og-indendoers-stoej)*
+10. **Leclercq, C., et al.**.
+    *[Network Inefficiency: Empirical Findings for Six European Cities](https://journals.sagepub.com/doi/epub/10.1177/03611981221082588)*.
+    2022.
+11. **Vejdirektoratet**.
+    *[Vejarbejde giver færre ulykker](https://www.vejdirektoratet.dk/pressemeddelelse/2025/vejarbejde-giver-langt-faerre-ulykker-paa-motorvejen)*.
+    2025.
+12. **Benedikter, N.**.
+    *[How to Reduce Congestion I: The Optimal Speed Limit for Urban Traﬃc](https://nielsbenedikter.de/traffic/speedlimit30_EN.html)*.
+    2023.
+13. **Eurocities**.
+    *[Bilbao: Slow and steady for the win](https://eurocities.eu/latest/bilbao-slow-and-steady-for-the-win/)*.
+    Eurocities, 2020.
+14. **Welsh Government**.
+    *[20mph Misinformation Fact Sheet](https://www.rctcbc.gov.uk/EN/GetInvolved/Consultations/RelatedDocuments/Trafficconsultations/2023/IF220MISINFORMATION.pdf).*
+    2024.
+15. **Brussels City 30**.
+    *[Brussels City 30 – changing the mobility model for a calmer city with safe roads and less noise.](https://urban-mobility-observatory.transport.ec.europa.eu/resources/case-studies/brussels-city-30-changing-mobility-model-calmer-city-safe-roads-and-less-noise_en)*
+    2023.
+16. **Amsterdam Municipality**.
+    *[30 km/h in Amsterdam.](https://openresearch.amsterdam/image/2025/9/25/english_version_research_report_30kmh_in_amsterdam-333338080.pdf)*
+    2025.
+17. **APUR**.
+    *[Following developments on the Boulevard Périphérique ring-road from October 2024 to August 2025](https://www.apur.org/en/mobility-public-space/mobility-evolution/monitoring-developments-boulevard-peripherique)*.
+    2025.
+18. **Transport for London (TfL)**.
+    *[New data shows significant improvements in road safety in London since introduction of 20mph speed limits](https://tfl.gov.uk/info-for/media/press-releases/2023/february/new-data-shows-significant-improvements-in-road-safety-in-london-since-introduction-of-20mph-speed-limits)*.
+    Transport for London, 2023.
+19. **Transport for Wales**.
+    *[Default 20mph speed limit on restricted roads | National monitoring report (July 2025)](https://tfw.wales/national-monitoring-report-july-2025).*
+    2025.
+20. **Umweltbundesamt**.
+    *[Wirkungen von Tempo 30 an Hauptverkehrsstraßen](https://www.umweltbundesamt.de/sites/default/files/medien/2546/publikationen/wirkungen_von_tempo_30_an_hauptstrassen.pdf#page=15)*.
+    2016.
+21. **Green, C. et al**.
+    *[The effect of battery-electric vehicle ownership on transport demand and substitution between modes](https://www.sciencedirect.com/science/article/pii/S0965856425002423)*.
+    2025.
+22. **Politiken**.
+    *[Borgmestre vil bekæmpe frygten for det tabte minut](https://politiken.dk/klima/art9894635/%C2%BBDet-er-f%C3%B8rste-gang-i-mange-%C3%A5r-vi-ser-sm%C3%A5-skridt-i-den-rigtige-retning%C2%AB)*.
+    2024.
+23. **CEPOS**.
+    *[Hastighedsnedsættelser i Odense er dyr og ineffektiv klimapolitik](https://cepos.dk/artikler/hastighedsnedsaettelser-i-odense-er-dyr-og-ineffektiv-klimapolitik/)*.
+    2023.
+24. **Finansministeriet**.
+    *[Eksterne omkostninger ved kørsel](https://fm.dk/media/2ichlhig/eksterne-omkostninger-ved-koersel-a.pdf)*. 2024.
+25. **DTU**.
+    *[TERESA og Transportøkonomiske Enhedspriser](https://www.man.dtu.dk/myndighedsbetjening/teresa-og-transportoekonomiske-enhedspriser)*
+    .2024.
+26. **OECD/ITF**.
+    *[Urban Planning and Travel Behaviour](https://www.itf-oecd.org/sites/default/files/docs/urban-planning-travel-behaviour.pdf)*.
+    2021.
+27. **Trængselskommissionen
+    **. [Mobilitet og fremkommelighed i hovedstaden](https://www.xn--betnkninger-c9a.dk/wp-content/uploads/2021/08/1539.pdf#page=3).
+    2013.
+28. **Stiften
+    **.[Vi ved, hvad der virker - alligevel gør rådmanden ingenting](https://stiften.dk/debat/vi-ved-hvad-der-virker-alligevel-goer-raadmanden-ingenting).
+    2025.
+29. **Stiften**.
+    *[Rådmandens svar på kritik af hastighedsbegrænsninger](https://stiften.dk/debat/jeg-har-selv-silkeborgvej-udenfor-mit-sovevaerelse-men-farten-skal-kun-ned-hvor-det-giver-mening)*.
+    2025.
+30. **DinAvis**.
+    *[Færre dør på en cykel i Aarhus – men antallet af ulykker på to hjul vokser](https://dinavis.dk/samfund/ECE18611237/faerre-doer-paa-en-cykel-i-aarhus-men-antallet-af-ulykker-paa-to-hjul-vokser/)*.
+    2025.
 
 ## Bilag 1
 
