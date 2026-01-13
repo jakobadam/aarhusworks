@@ -74,8 +74,8 @@ Fremkommeligheden i Aarhus er kritisk reduceret på indfaldsvejene. Gennemsnitsf
 af [forvaltningen målt til kun ca. 30 km/t i myldretiden](https://dagsordener.aarhus.dk/vis?id=a19eb260-8f13-47b5-908c-d9cad28c44e8&punktid=8570ee39-77b8-45dd-9e27-4cdc030dd368) –
 de høje hastighedsgrænser fungerer slet ikke i praksis.
 
-En gennemprøvet løsning til at forbedre flowet i myldretiden og reducere propperne i trafikken er brede *
-*hastighedsnedsættelser** – som set i mange europæiske byer.
+En gennemprøvet løsning til at forbedre flowet i myldretiden og reducere propperne i trafikken er brede 
+**hastighedsnedsættelser** – som set i mange europæiske byer.
 
 **Hvorfor lavere hastigheder kan give bedre fremkommelighed:**
 
