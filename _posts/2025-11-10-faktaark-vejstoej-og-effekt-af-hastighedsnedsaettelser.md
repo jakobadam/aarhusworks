@@ -89,7 +89,7 @@ En gennemprøvet løsning til at forbedre flowet i myldretiden og reducere propp
 - **Overflytning til cykel og kollektiv trafik:** Flere bilture erstattes af cykling, gang og offentlig transport,
   hvilket frigør vejkapacitet og reducerer
   trængsel. ([Eurocities, 2021](https://eurocities.eu/latest/bilbao-slow-and-steady-for-the-win/))
-- **Bedre flow: **Lavere hastigheder skaber mere stabil trafik og reducerer variationen i rejsetider og mindsker
+- **Bedre flow:** Lavere hastigheder skaber mere stabil trafik og reducerer variationen i rejsetider og mindsker
   myldretidspres. ([Welsh Government, 2024](https://www.rctcbc.gov.uk/EN/GetInvolved/Consultations/RelatedDocuments/Trafficconsultations/2023/IF220MISINFORMATION.pdf)).
   Den tyske miljøstyrelsen vurderer også at hastighedsnedsættelser kan forbedre flowet: “Die Qualität des
   Verkehrsflusses kann indirekt durch geringere Höchstgeschwindigkeiten
@@ -383,7 +383,7 @@ bilisterne kan ræse forbi huse, skoler og daginstitutioner kun for at holde i k
 16. **Amsterdam Municipality**. *[30 km/h in Amsterdam.](https://openresearch.amsterdam/image/2025/9/25/english_version_research_report_30kmh_in_amsterdam-333338080.pdf)* 2025.
 17. **APUR**. *[Following developments on the Boulevard Périphérique ring-road from October 2024 to August 2025](https://www.apur.org/en/mobility-public-space/mobility-evolution/monitoring-developments-boulevard-peripherique)*. 2025.
 18. **Transport for London (TfL)**. *[New data shows significant improvements in road safety in London since introduction of 20mph speed limits](https://tfl.gov.uk/info-for/media/press-releases/2023/february/new-data-shows-significant-improvements-in-road-safety-in-london-since-introduction-of-20mph-speed-limits)*. Transport for London, 2023.
-19. **Transport for Wales**. *[Default 20mph speed limit on restricted roads | National monitoring report (July 2025)](https://tfw.wales/national-monitoring-report-july-2025).* 2025.
+19. **Transport for Wales**. *[Default 20mph speed limit on restricted roads. National monitoring report (July 2025)](https://tfw.wales/national-monitoring-report-july-2025).* 2025.
 20. **Umweltbundesamt**. *[Wirkungen von Tempo 30 an Hauptverkehrsstraßen](https://www.umweltbundesamt.de/sites/default/files/medien/2546/publikationen/wirkungen_von_tempo_30_an_hauptstrassen.pdf#page=15)*. 2016.
 21. **Green, C. et al**. *[The effect of battery-electric vehicle ownership on transport demand and substitution between modes](https://www.sciencedirect.com/science/article/pii/S0965856425002423)*. 2025.
 22. **Politiken**. *[Borgmestre vil bekæmpe frygten for det tabte minut](https://politiken.dk/klima/art9894635/%C2%BBDet-er-f%C3%B8rste-gang-i-mange-%C3%A5r-vi-ser-sm%C3%A5-skridt-i-den-rigtige-retning%C2%AB)*. 2024.
