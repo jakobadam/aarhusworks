@@ -123,9 +123,7 @@ Forskning fra bl.a. Per Homann Jespersen (RUC) og ITF/OECD viser:
 ## Internationale erfaringer: Hastighedsnedsættelser virker
 
 Mange europæiske byer har allerede indført brede hastighedsbegrænsninger, og resultaterne er entydigt positive. 40 af
-byerne er med i artiklen *
-*[City-Wide 30 km/h Benefits (2024)](https://aarhusworks.com/assets/groen-mobilitetsplan/2024-review-of-city-wide-30-kmh-speed-limit-benefits.pdf#page=14)
-**, se evt. den komplette tabel med alle resultaterne herfra, til sidst i dette dokument. Vi opridser i det følgende
+byerne er med i artiklen **[City-Wide 30 km/h Benefits (2024)](https://aarhusworks.com/assets/groen-mobilitetsplan/2024-review-of-city-wide-30-kmh-speed-limit-benefits.pdf#page=14)**, se evt. den komplette tabel med alle resultaterne herfra, til sidst i dette dokument. Vi opridser i det følgende
 nogle af resultaterne, herudover har vi medtaget nyeste 2025-resultater fra Amsterdam, Paris og hele Wales:
 
 - **Bruxelles**: 70→50 km/t på hovedveje og 30 km/t på øvrige gav kun 10–15 sekunders ekstra rejsetid pr. 5–10 km,
