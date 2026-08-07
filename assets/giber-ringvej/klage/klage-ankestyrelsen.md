@@ -324,7 +324,15 @@ Disse visualiseringer var opstillet flere steder i Mårslet under VVM-processen 
 
 #### Faktisk status: Beplantningen er ikke etableret
 
-Der er efter GRGs vurdering ikke etableret den forudsatte slørende beplantning ved de små bysamfund. I Mårslet mangler beplantning netop ud for tæt bebyggelse — præcis det sted VVM-redegørelsen forudsatte den.
+Der er ikke etableret slørende beplantning ved bysamfundene langs Giber Ringvej. Dette beror ikke alene på GRGs vurdering, men fremgår af Rambølls egen strækningsvise gennemgang i notatet af 19. august 2025, jf. [bilag 10](https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf):
+
+| Strækning (Rambølls inddeling) | Rambølls egen beskrivelse |
+|---|---|
+| **Beder Landevej – Tandervej** | Beplantning ikke anvendt som landskabeligt element mellem Oddervej og Tandervej. Vest for Nymarksvej er beplantning fravalgt efter et ønske fra borgergrupper, fremsat i en dialog *"uden om Rambølls involvering"* |
+| **Tandervej – Mustrupvej** | VVM-redegørelsens visualisering (Fig. 44) og Landskabsstrategien angiver begge beplantning som afskærmning mod visuel støj. *"Beplantning er formegentlig fravalgt af økonomiske årsager."* |
+| **Mustrupvej – Giber Ådal** | Anlagt *"med flade skråninger uden beplantning"*. Den beplantning ved Testrup Bæk, VVM-redegørelsen åbner for (Fig. 50), er ikke gennemført: Landskabsstrategien *"lægger ikke op til at gennemføre den eventuelle beplantning"* |
+
+Rådgiverens egen gennemgang dokumenterer dermed, at den slørende beplantning ikke er etableret på nogen af de strækninger, hvor VVM-redegørelsen forudsatte den ved tæt bebyggelse. På den ene strækning, hvor både VVM-redegørelsens visualisering og Landskabsstrategien udtrykkeligt angav beplantning, er begrundelsen for fravalget efter Rambølls eget udsagn økonomisk — og angivet med forbeholdet *"formegentlig"*, dvs. uden at rådgiveren selv kender grundlaget.
 
 #### Kommunens forklaring
 
@@ -341,6 +349,18 @@ Kommunen har ikke fremlagt en samlet retlig eller faglig begrundelse for den man
 Rambøll påberåber sig den interne Landskabsstrategi af 24. januar 2019, jf. [bilag 21](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf), som grundlag for detailprojekteringens behandling af beplantning. Dette er bemærkelsesværdigt, da Landskabsstrategien — på strækningen stationering 9.200–9.660 ("Vest for Tandervej", dvs. den strækning Rambøll i beplantningsnotatet betegner Tandervej–Mustrupvej og indrømmer ikke er beplantede) — eksplicit angiver:
 
 > *"Visuel støjskærmning (beplantning) nordside af vej"*
+
+![Udsnit af Rambølls Landskabsstrategi af 24. januar 2019 for strækningen St. 9.200–9.660 "Vest for Tandervej". Blandt de opregnede tiltag står "Visuel støjskærmning (beplantning) nordside af vej".](https://aarhusworks.com/assets/giber-ringvej/klage/2019-landskabsstrategi-st9200-9660-vest-for-tandervej.png)
+
+*Udsnit af [bilag 21](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf), strækningen St. 9.200 – 9.660 "Vest for Tandervej". Femte punkt på tiltagslisten er "Visuel støjskærmning (beplantning) nordside af vej".*
+
+Landskabsstrategiens kortdel viser tilsvarende, at der langs vejens nordside — mellem vejanlægget og boligbebyggelsen ved Mustrupvej og Tandervej — er indtegnet et sammenhængende bånd med den signatur, planens egen signaturforklaring definerer som *"Forslag til støjvold (4 m. høj, a2 vejside, a5-10 naboside)"*:
+
+![Kortudsnit af Landskabsstrategien ved Mårslet. Langs vejens nordside, mellem vejanlægget og boligområderne, er indtegnet et sammenhængende bånd med signaturen for foreslået 4 meter høj støjvold.](https://aarhusworks.com/assets/giber-ringvej/klage/2019-landskabsstrategi-kort-stoejvold-nord-maarslet.png)
+
+*Kortudsnit af [bilag 21](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf) ved Mårslet (ca. st. 9.200–9.900). Det grønne bånd langs nordsiden er planens signatur for "Forslag til støjvold (4 m. høj)".*
+
+Det bemærkes i denne sammenhæng, at det, Rambøll i marts 2026 beskriver som faktisk udført på nordsiden øst for Tandervej, er *dyrkningsskråninger* med en hældning på 1:10, hvor skråningstoppen er hævet ca. 1 meter over det oprindelige terræn (jf. afsnit 3.1 B5). Det er ikke den fire meter høje støjvold, planen anviser. Kommunen har ikke fremlagt nogen dokumenteret afgørelse om at fravige hverken beplantningen eller voldhøjden.
 
 Og i Landskabsstrategiens overordnede principafsnit, gældende for hele strækningen:
 
@@ -573,7 +593,9 @@ Giber Ringvej Gruppen ønsker med denne anmodning at opnå, at Ankestyrelsen udt
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf)  
   *Miljørapport og VVM-redegørelse er efter kommunens eget valg udarbejdet som ét samlet dokument, jf. den sammenfattende redegørelse s. 1. Dokumentet bærer betegnelsen "Forslag i offentlig høring 1/12 2014 – 28/2 2015"; det er den udgave, Aarhus Kommune fortsat selv publicerer som projektets VVM-redegørelse (aarhus.dk/media/41qmamcj/vvm-redegoerelse_beringbeder.pdf), og den her vedlagte fil er byte-identisk hermed. Det er dermed de anvisninger, vilkår 2 henviser til*
 * **Bilag 21:** Rambølls Landskabsstrategi — oversigtsplan af 24. januar 2019  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf)  
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf) ·
+  [Udsnit: tiltagsliste St. 9.200–9.660 "Vest for Tandervej"](https://aarhusworks.com/assets/giber-ringvej/klage/2019-landskabsstrategi-st9200-9660-vest-for-tandervej.png) ·
+  [Udsnit: kort med foreslået støjvold nord for vejen ved Mårslet](https://aarhusworks.com/assets/giber-ringvej/klage/2019-landskabsstrategi-kort-stoejvold-nord-maarslet.png)  
   *Rambølls eget interne implementeringsdokument for vilkår 2; specificerer eksplicit "Visuel støjskærmning (beplantning) nordside af vej" ved st. 9.200–9.660 (Tandervej–Mustrupvej) — den strækning Rambøll indrømmer ikke er beplantede*
 * **Bilag 22:** Intern korrespondance mellem Aarhus Kommune og Rambøll, frigivet ved aktindsigt (2023–2024)  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/Bilag22-intern-korrespondance-uddrag.pdf)  
