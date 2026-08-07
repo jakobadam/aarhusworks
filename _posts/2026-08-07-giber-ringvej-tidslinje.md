@@ -242,13 +242,15 @@ categories: vejstøj
     <div class="tl-dot red"></div>
     <div class="tl-body">
       <span class="tl-tag">Juridisk grundlag</span>
-      <p class="tl-title">VVM-tilladelse udstedt med tre bindende vilkår</p>
+      <p class="tl-title">VVM-tilladelse udstedt — fire vilkår bliver sagens kerne</p>
       <p class="tl-text">
-        Aarhus Kommune udsteder <a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf">VVM-tilladelsen</a> med tre centrale vilkår:<br>
-        <strong>Vilkår 2</strong> — Hele anlæggets udformning — veje, skråningsanlæg, støjvolde, beplantning mv. — tilpasses det omgivende landskab i overensstemmelse med landskabets karakter i henhold til anvisningerne i VVM-redegørelsen. VVM-redegørelsen specificerer beplantning som sløringstiltag ved tæt bebyggelse.<br>
-        <strong>Vilkår 5</strong> — Hele det nye vejanlæg skal udformes med støjdæmpende vejbelægning og med støjafskærmning langs nordsiden ved Tranbjerg.<br>
-        <strong>Vilkår 7</strong> — En pulje på <em>ca. 20 mio. kr.</em> til øget støjdæmpning ved Tranbjerg, Mårslet, Kolt og det åbne land.
+        Aarhus Kommune udsteder den 12. oktober <a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf">VVM-tilladelsen</a> på i alt 18 vilkår. Fire af dem angår støj og landskab:<br>
+        <strong>Vilkår 2</strong> — <em>"Udformningen af de samlede anlæg – veje, skråningsanlæg, støjvolde, beplantning mv - tilpasses det omgivende landskab ... i henhold til anvisningerne i VVM redegørelsen."</em> Vilkåret gør dermed VVM-redegørelsens anvisninger bindende — og de specificerer beplantning som sløringstiltag ved tæt bebyggelse.<br>
+        <strong>Vilkår 5</strong> — Hele det nye vejanlæg, inklusiv forbindelsen fra Oddervej til Beder Landevej, skal udformes med støjdæmpende vejbelægning og med støjafskærmning langs nordsiden ved Tranbjerg.<br>
+        <strong>Vilkår 6</strong> — Landevejen skal have støjdæmpende asfalt, og støjafskærmningen langs Landevejen skal udføres <em>"i mindst 4 meters højde i begge vejsider"</em> fra Ingerslevvænget forbi Tingskovparken.<br>
+        <strong>Vilkår 7</strong> — Der skal <em>suppleres</em> med øget støjdæmpning ved boliger i det åbne land, ved Tranbjerg, ved Mårslet, ved forlængelsen til Beder Landevej og ved Kolt — <em>"inden for en økonomisk ramme på ca. 20 mio. kr."</em>
       </p>
+      <p class="tl-text">Tilladelsens egen begrundelse fastslår, at vilkårene <em>"har til formål at sikre gennemførelsen af foranstaltninger, der kan afhjælpe projektets virkninger på omgivelserne"</em> — og nævner udtrykkeligt, at det landskabelige indgreb afbødes <em>"ved at etablere ny beplantning i sammenhæng med det omgivende landskab"</em>. Det er ikke hensigtserklæringer, men betingelser tilladelsen er meddelt på. Skellet mellem vilkår 5, 6 og 7 bliver afgørende: de to første pålægger afskærmning kommunen under alle omstændigheder skal levere — det sidste kræver noget <em>ud over</em> det.</p>
     </div>
   </li>
 
@@ -428,7 +430,7 @@ categories: vejstøj
     <div class="tl-body">
       <span class="tl-tag">Kommunens redegørelse 3</span>
       <p class="tl-title">MTM: byrådet afgjorde det i 2019 — sagen lukket</p>
-      <p class="tl-text">Den 2. april sender forvaltningen <a href="/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf">redegørelse 3</a> til GRG. Ny strategi: projektindstillingen fra 2019 skal have <em>endeligt afgrænset</em> puljens anvendelse. De fire godkendte tiltag er: (1) vejsænkning, (2) støjvolde ved byområder, (3) støjvæg i Tranbjerg, (4) flytning af vej syd for Oddervej. Konklusion: <em>"puljen er anvendt — yderligere tiltag er ikke grundlag for"</em>. GRG identificerer straks fire fejl: vejsænkning var i VVM-grundprojektet fra 2013, støjvæggen dækkes af Vilkår 6 (ikke 7), vejflytningen skete af oversigts- og sikkerhedshensyn, og projektindstillingens ordlyd bruger <em>"bl.a."</em> — der pr. definition ikke er udtømmende.</p>
+      <p class="tl-text">Den 2. april sender forvaltningen <a href="/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf">redegørelse 3</a> til GRG. Ny strategi: projektindstillingen fra 2019 skal have <em>endeligt afgrænset</em> puljens anvendelse. De fire godkendte tiltag er: (1) vejsænkning, (2) støjvolde ved byområder, (3) støjvæg i Tranbjerg, (4) flytning af vej syd for Oddervej. Konklusion: <em>"puljen er anvendt — yderligere tiltag er ikke grundlag for"</em>. GRG identificerer straks fire fejl: vejsænkning var i VVM-grundprojektet fra 2013, støjvæggen er hjemlet i vilkår 5 og 6 — ikke i puljen under vilkår 7, vejflytningen skete af oversigts- og sikkerhedshensyn, og projektindstillingens ordlyd bruger <em>"bl.a."</em> — der pr. definition ikke er udtømmende.</p>
     </div>
   </li>
 
