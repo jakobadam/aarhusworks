@@ -1,4 +1,12 @@
-Serve on localhost:
+## Running locally with Docker (recommended)
+
+```powershell
+./serve-it.sh
+```
+
+Open http://127.0.0.1:4000. The site live-reloads on file changes.
+
+## Running locally with Ruby
 
 ```
 curl -sSL https://get.rvm.io | bash -s stable
