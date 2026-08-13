@@ -363,7 +363,7 @@ categories: vejstøj
         <figcaption>VVM-redegørelsen, figur 17.3 (s. 243): <em>"Den visuelle støj fra vejen sløres med beplantning ved bysamfundene."</em> Beplantningsbæltet er tegnet ind mellem vejen og husene.</figcaption>
       </figure>
       <figure class="tl-fig">
-        <img src="/assets/giber-ringvej/klage/2026-vvm-figur44-s85-visualisering-Tandervej-M%C3%A5rslet.png" alt="Terrænvisualisering fra VVM-redegørelsen: udsigten fra Mårslet langs Tandervej mod syd, med træbeplantning langs den kommende vej.">
+        <img src="/assets/giber-ringvej/klage/2026-vvm-figur44-s85-visualisering-tandervej-maarslet.png" alt="Terrænvisualisering fra VVM-redegørelsen: udsigten fra Mårslet langs Tandervej mod syd, med træbeplantning langs den kommende vej.">
         <figcaption>Figur 44 (s. 85): <em>"Visualisering af udsigt fra Mårslet langs Tandervej mod syd med beplantning langs Bering-Beder vejen, som vil sløre bilerne i landskabet."</em> Visualiseringer som denne blev opstillet flere steder i Mårslet under VVM-processen — det var dette projekt, borgerne tog stilling til.</figcaption>
       </figure>
     </div>
@@ -506,7 +506,7 @@ categories: vejstøj
       <span class="tl-spor tl-spor--proces">Spor · Sagsbehandling</span>
       <span class="tl-tag">Intern korrespondance</span>
       <p class="tl-title">Borgerens spørgsmål bliver fjernet fra notatet før offentliggørelse</p>
-      <p class="tl-text">Efter GRGs foretræde for Teknisk Udvalg i marts 2023 — hvor det blev gjort gældende, at <em>"Giber Ringvej er ikke bygget som godkendelsen i VVM"</em> — udarbejder Rambøll et notat til udvalget. Af <a href="/assets/giber-ringvej/aktindsigt-20-mio-mails/Bilag21-intern-korrespondance-uddrag.pdf#page=3">intern korrespondance frigivet ved aktindsigt</a> fremgår, at det afsnit, der besvarede borgerens spørgsmål, blev fjernet inden offentliggørelsen. Forvaltningens specialkonsulent spørger den 1. maj: <em>"Havde du bedt Rambøll om at polere deres rapport? Herunder fjerne afsnittet med besvarelse af Janes henvendelse."</em> Projektlederen svarer, at notatet <em>"skulle have en tur igennem KS-maskinen, så dokumentet blev af en karakter som vi kan offentliggøre som bilag"</em>. Rambøll bekræfter den 9. maj: <em>"Afsnittet omkring besvarelse af spørgsmål er som aftalt fjernet."</em> Materialet, som det politiske udvalg og offentligheden traf stilling på grundlag af, var altså redigeret.</p>
+      <p class="tl-text">Efter GRGs foretræde for Teknisk Udvalg i marts 2023 — hvor det blev gjort gældende, at <em>"Giber Ringvej er ikke bygget som godkendelsen i VVM"</em> — udarbejder Rambøll et notat til udvalget. Af <a href="/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-05-09-mail-re-stoejmaaler-ved-giber-ringvej.pdf">intern korrespondance frigivet ved aktindsigt</a> fremgår, at det afsnit, der besvarede borgerens spørgsmål, blev fjernet inden offentliggørelsen. Forvaltningens specialkonsulent spørger den 1. maj: <em>"Havde du bedt Rambøll om at polere deres rapport? Herunder fjerne afsnittet med besvarelse af Janes henvendelse."</em> Projektlederen svarer, at notatet <em>"skulle have en tur igennem KS-maskinen, så dokumentet blev af en karakter som vi kan offentliggøre som bilag"</em>. Rambøll bekræfter den 9. maj: <em>"Afsnittet omkring besvarelse af spørgsmål er som aftalt fjernet."</em> Materialet, som det politiske udvalg og offentligheden traf stilling på grundlag af, var altså redigeret.</p>
     </div>
   </li>
 
@@ -738,7 +738,7 @@ categories: vejstøj
       <span class="tl-tag">Vilkår 5 · Vejbelægningen</span>
       <p class="tl-title">Den støjdæmpende asfalt, der ikke dæmper støj</p>
       <p class="tl-text">I <a href="/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf">afklaringsnotat 1</a> rejser GRG vilkår 5 formelt med tre spørgsmål: Hvilken referencebelægning er lagt til grund? Hvilken KVS-type er udlagt? Og hvilken dokumenteret støjreduktion kan lægges til grund? Baggrunden er, at Rambøll <a href="/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3">selv oplyser</a>, at projektet hele vejen igennem forudsatte en støjreducerende belægning — <em>"den typisk valgte belægning til dette formål er en SRS"</em> — men at der i stedet blev udlagt KVS, klimavenligt slidlag.</p>
-      <p class="tl-text"><a href="/assets/giber-ringvej/asfalt-vejdirektoratet-KVS-konklusionsnotat.pdf#page=4">Vejdirektoratets egne måledata</a> viser, at KVS og standardbelægningen SMA8 følges tæt gennem hele levetiden — og at SMA8 ved nyudlægning endda er den mest støjsvage af de to. Den reduktion på ca. 2 dB, notatet fremhæver, er målt mod den grovere SMA11, ikke mod SMA8, som i dag udgør ca. 70 % af statsvejnettet. Ingen af de tre spørgsmål er besvaret — hverken af Rambøll eller af forvaltningen.</p>
+      <p class="tl-text"><a href="/assets/giber-ringvej/asfalt-vejdirektoratet-kvs-konklusionsnotat.pdf#page=4">Vejdirektoratets egne måledata</a> viser, at KVS og standardbelægningen SMA8 følges tæt gennem hele levetiden — og at SMA8 ved nyudlægning endda er den mest støjsvage af de to. Den reduktion på ca. 2 dB, notatet fremhæver, er målt mod den grovere SMA11, ikke mod SMA8, som i dag udgør ca. 70 % af statsvejnettet. Ingen af de tre spørgsmål er besvaret — hverken af Rambøll eller af forvaltningen.</p>
     </div>
   </li>
 
