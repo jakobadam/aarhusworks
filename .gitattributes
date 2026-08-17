@@ -1,0 +1,17 @@
+# Behandl bilagsarkivet som binært.
+#
+# Uden dette gætter git filtypen ud fra NUL-bytes i de første 8 kB. Små PDF'er
+# med ukomprimerede tekststreams har ingen NUL-bytes og bliver derfor opfattet
+# som tekst — med core.autocrlf=true konverteres LF til CRLF ved checkout, hvilket
+# forskyder byte-offsets i PDF'ens xref-tabel og ødelægger filen.
+
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pptx binary
+*.docx binary
+*.xlsx binary
+*.msg binary
+*.zip binary
