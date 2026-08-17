@@ -437,6 +437,22 @@ categories: vejstøj
   <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2019</span>
+      <span class="tl-month">Maj</span>
+    </div>
+    <div class="tl-dot red"></div>
+    <div class="tl-body">
+      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
+      <span class="tl-tag">Landzonetilladelse</span>
+      <p class="tl-title">Kommunen giver tilladelse til en støjvold på én meter</p>
+      <p class="tl-text">Den 27. maj meddeler Aarhus Kommune <a href="/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=2">landzonetilladelse</a> til støjvolden "S8" mellem Tandervej og Nymarksvej ved Mårslet. Rambøll havde ansøgt tre uger forinden om <em>"en støjvold Mellem Tandervej og Nymarksved ved Mårslet"</em>, der <em>"nedbringer støjen fra vejanlægget på de nærliggende bebyggelser"</em>. Tilladelsen begrundes med hensynet til <em>"at begrænse støjpåvirkningen af omkringliggende ejendomme"</em>.</p>
+      <p class="tl-text">Målene står i ansøgningen: volden er <em>ca. 750 meter lang</em>, har en <em>2 meter bred top</em> og ligger <em>1 meter over terræn</em>, med skråningsanlæg 1:2 mod vejen og 1:10 på bagsiden. Syv år senere beskriver Rambøll det samme anlæg som <em>dyrkningsskråninger</em>, hvis formål <em>"netop er at de ikke er synlige i landskabet"</em> — og over for Retten i Aarhus forklarer kommunen, at volden ikke blev etableret som følge af nogen retlig forpligtelse, men efter <em>"en frivillig aftale med lodsejeren"</em>.</p>
+      <p class="tl-text">GRG spørger i marts 2023 skriftligt, om netop S8 er etableret. Spørgsmålet er efter det oplyste aldrig besvaret — skønt svaret lå i kommunens egne sagsakter.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-date">
+      <span class="tl-year">2019</span>
       <span class="tl-month">Aug</span>
     </div>
     <div class="tl-dot red"></div>
@@ -499,14 +515,44 @@ categories: vejstøj
   <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2023</span>
+      <span class="tl-month">Mar</span>
+    </div>
+    <div class="tl-dot"></div>
+    <div class="tl-body">
+      <span class="tl-spor tl-spor--proces">Spor · Sagsbehandling</span>
+      <span class="tl-tag">Foretræde</span>
+      <p class="tl-title">GRG stiller de to spørgsmål, der stadig venter svar</p>
+      <p class="tl-text">Den 20. marts har Jane Simonsen foretræde for Teknisk Udvalg på vegne af den nystiftede Giber Ringvej Gruppe. Forvaltningen gengiver dagen efter <a href="/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-03-21-mail-sv-vedr-stoej-fra-giber-ringvej.pdf">internt</a>, at der på mødet blev spurgt ind til påstanden om, at <em>"Giber Ringvej er ikke bygget som godkendelsen i VVM"</em>. I det <a href="/assets/giber-ringvej/2023-03-20-grg-bilag-til-teknisk-udvalg.pdf">fremlagte bilag</a> stilles blandt andet to konkrete spørgsmål: om <em>"der er støjvolde som ikke er etableret (fx ”S8” mellem Tandervej og Nymarksvej)"</em>, og <em>"Der er indskrevet en sum på 20 mill. kr til ”øget støjdæmpning ved boliger i det åbne land”- hvorledes er disse midler anvendt? og hvor?"</em></p>
+      <p class="tl-text">Forvaltningen beder samme uge rådgiveren udarbejde et notat til udvalget. Ingen af de to spørgsmål er besvaret i dag — tre et halvt år senere.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-date">
+      <span class="tl-year">2023</span>
+      <span class="tl-month">Apr</span>
+    </div>
+    <div class="tl-dot"></div>
+    <div class="tl-body">
+      <span class="tl-spor tl-spor--proces">Spor · Sagsbehandling</span>
+      <span class="tl-tag">Internt juridisk notat</span>
+      <p class="tl-title">Kommunens egne jurister: kommunalfuldmagten viger for skreven lov</p>
+      <p class="tl-text">Den 13. april udarbejder Teknik og Miljøs rådmandssekretariat et <a href="/assets/giber-ringvej/2023-04-13-mtm-juridisk-notat-stoejafskaermning.pdf#page=3">juridisk notat</a> om rammerne for kommunal finansiering af støjafskærmning. Notatet fastslår: <em>"Hvis en kommunal opgavevaretagelse er reguleret i den skrevne lovgivning (love, bekendtgørelser), kan og skal opgavevaretagelsen ikke også have hjemmel i kommunalfuldmagtsreglerne. Kommunalfuldmagtsreglerne viger med andre ord for den skrevne lovgivning."</em></p>
+      <p class="tl-text">Notatet angår efter sin egen titel <em>eksisterende</em> veje. Om nyanlæg anfører det, at miljømyndigheden i en VVM-tilladelse <em>"skal (...) fastsætte en række vilkår bl.a. om foretagelse af støjberegninger og gennemførelse af støjbegrænsende tiltag"</em>. Syv måneder senere afviser samme forvaltning yderligere støjdæmpning med henvisning til netop kommunalfuldmagten.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-date">
+      <span class="tl-year">2023</span>
       <span class="tl-month">Maj</span>
     </div>
     <div class="tl-dot red"></div>
     <div class="tl-body">
       <span class="tl-spor tl-spor--proces">Spor · Sagsbehandling</span>
       <span class="tl-tag">Intern korrespondance</span>
-      <p class="tl-title">Borgerens spørgsmål bliver fjernet fra notatet før offentliggørelse</p>
-      <p class="tl-text">Efter GRGs foretræde for Teknisk Udvalg i marts 2023 — hvor det blev gjort gældende, at <em>"Giber Ringvej er ikke bygget som godkendelsen i VVM"</em> — udarbejder Rambøll et notat til udvalget. Af <a href="/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-05-09-mail-re-stoejmaaler-ved-giber-ringvej.pdf">intern korrespondance frigivet ved aktindsigt</a> fremgår, at det afsnit, der besvarede borgerens spørgsmål, blev fjernet inden offentliggørelsen. Forvaltningens specialkonsulent spørger den 1. maj: <em>"Havde du bedt Rambøll om at polere deres rapport? Herunder fjerne afsnittet med besvarelse af Janes henvendelse."</em> Projektlederen svarer, at notatet <em>"skulle have en tur igennem KS-maskinen, så dokumentet blev af en karakter som vi kan offentliggøre som bilag"</em>. Rambøll bekræfter den 9. maj: <em>"Afsnittet omkring besvarelse af spørgsmål er som aftalt fjernet."</em> Materialet, som det politiske udvalg og offentligheden traf stilling på grundlag af, var altså redigeret.</p>
+      <p class="tl-title">Notatet redigeres før forelæggelsen — svarene skal gives separat</p>
+      <p class="tl-text">Efter GRGs foretræde for Teknisk Udvalg den 20. marts 2023 udarbejder Rambøll et notat til udvalget. Notatets afsnit 4 indeholdt rådgiverens svar på gruppens punkter, og afsnittet fjernes efter forvaltningens instruktion, inden notatet forelægges. Instruktionen — i <a href="/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-05-09-mail-re-stoejmaaler-ved-giber-ringvej.pdf">intern korrespondance frigivet ved aktindsigt</a> — lyder: <em>"Det må dog gerne fremstå lidt mere færdigpoleret. De må også gerne pille afsnit 4 med svarerne på Janes punkter ud (det håndterer vi separat)."</em> Rambøll bekræfter den 9. maj: <em>"Afsnittet omkring besvarelse af spørgsmål er som aftalt fjernet."</em> Begrundelsen er saglig, og et separat svar kommer faktisk — fem måneder senere. Men som det fremgår nedenfor, besvarer det ikke gruppens to tungeste spørgsmål.</p>
     </div>
   </li>
 
@@ -520,8 +566,8 @@ categories: vejstøj
       <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <span class="tl-tag">Kommunens redegørelse 1</span>
       <p class="tl-title">Rambøll: 16 støjvolde for 17,28 mio. kr.</p>
-      <p class="tl-text">Teknik og Miljø fremsender en <a href="/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=1">redegørelse fra Rambøll</a> til Teknisk Udvalg. Notatets samlede opgørelse lyder på 30,53 mio. kr., hvoraf 17,28 mio. kr. henføres til puljen — vilkår 7 dermed opfyldt. Opgørelsen indeholder imidlertid en sænkning af længdeprofilet sydøst for Enslev (4,5 mio. kr.), som Rambøll selv senere kalder <em>"en tracérings-mæssig konsekvens af vejtekniske udfordringer"</em>, en støjskærm langs Landevejen (5,2 mio. kr.) der er hjemlet i vilkår 5 og 6 — ikke i puljen — samt tilkørselsveje, jorddeponier og en vold mod letbanen. Prisen på de 16 volde (18,5 mio. kr.) er opgjort under ét, uden mængder eller enhedspriser der kan efterprøves.</p>
-      <p class="tl-text">Notatet indledes med det, der betegnes som et <em>"udsnit fra VVM-tilladelsen"</em> — men de gengivne vilkår svarer hverken i nummerering eller ordlyd til <a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=2">den tilladelse, kommunen faktisk meddelte</a>. Kravet om støjskærm <em>"i mindst 4 meters højde"</em> er blevet til <em>"ensartet højde (4m)"</em>, kravet om at afskærmningen <em>"skal indpasses i landskabet"</em> er udeladt, og notatet anfører et vilkår om støjvolde ved Tranbjerg, som slet ikke findes i tilladelsens 18 vilkår. Hele puljeregnskabet hviler dermed på en anden affattelse af vilkårene end den gældende.</p>
+      <p class="tl-text">Teknik og Miljø fremsender en <a href="/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=1">redegørelse fra Rambøll</a> til Teknisk Udvalg. Notatets samlede opgørelse lyder på 30,53 mio. kr., hvoraf 17,28 mio. kr. henføres til puljen — vilkår 7 dermed opfyldt. Opgørelsen indeholder imidlertid en sænkning af længdeprofilet sydøst for Enslev (4,5 mio. kr.), som Rambøll selv senere kalder <em>"en tracérings-mæssig konsekvens af vejtekniske udfordringer"</em>, en støjskærm langs Landevejen (5,2 mio. kr.) der er hjemlet i vilkår 5 og 6 — ikke i puljen — samt tilkørselsveje, jorddeponier og en vold mod letbanen. Prisen på de 16 volde — 18,5 mio. kr. — er opgjort under ét. Notatet oplyser de enhedspriser, en støjvold prissættes efter, men ingen af de mængder, priserne skal ganges med: hverken areal eller jordvolumen er angivet for nogen af voldene, og de er ikke opregnet enkeltvis.</p>
+      <p class="tl-text">Notatet indledes med det, der betegnes som et <em>"udsnit fra VVM-tilladelsen"</em> — men de gengivne vilkår svarer hverken i nummerering eller ordlyd til <a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=2">den tilladelse, kommunen faktisk meddelte</a>. Kravet om støjskærm <em>"i mindst 4 meters højde"</em> er blevet til <em>"ensartet højde (4m)"</em>, kravet om at afskærmningen <em>"skal indpasses i landskabet"</em> er udeladt, og notatet anfører et vilkår om støjvolde ved Tranbjerg, som ikke findes blandt tilladelsens 18 vilkår — forholdet er nævnt i tilladelsens begrundelse, men ikke som et selvstændigt vilkår. Det er ikke ligegyldigt: nedskrivningen fra 30,53 til 17,28 mio. kr. sker netop ved at fjerne <em>"pkt. 8, 9 og 10"</em>, og et af de tre punkter er dette. Hele puljeregnskabet hviler dermed på en anden affattelse af vilkårene end den gældende.</p>
     </div>
   </li>
 
@@ -536,6 +582,36 @@ categories: vejstøj
       <span class="tl-tag">GRGs svar</span>
       <p class="tl-title">GRG dokumenterer støjproblemet og underkender redegørelsen</p>
       <p class="tl-text">Jakob Aarøe Dam offentliggør et <a href="/2023/08/23/stoej-langs-giber-ringvej--et-modsvar-til-kommunen.html">detaljeret modsvar</a> til Teknisk Udvalg. Analysen viser, at VVM-undersøgelsens støjvurdering ignorerer det store flertal af støjramte borgere, og at Rambølls opgørelse af støjvolde ikke holder. Bemærkelsesværdigt nok opstiller Rambøll i samme redegørelse selv målestokken: <em>"en støjvold skal have en dokumenteret støjdæmpende effekt, ellers kan der ikke opnås tilladelser til at etablere støjvolden."</em> Det er netop den standard, flere af de opgjorte volde ikke lever op til — hvilket kommunen først erkender 17 måneder senere, i januar 2025.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-date">
+      <span class="tl-year">2023</span>
+      <span class="tl-month">Okt</span>
+    </div>
+    <div class="tl-dot"></div>
+    <div class="tl-body">
+      <span class="tl-spor tl-spor--proces">Spor · Sagsbehandling</span>
+      <span class="tl-tag">Kommunens samlede svar</span>
+      <p class="tl-title">Femten svar — men ikke på puljen og ikke på S8</p>
+      <p class="tl-text">Den 13. oktober sender Teknik og Miljø et <a href="/assets/giber-ringvej/2023-10-13-mtm-svar-til-giber-ringvej-gruppen.pdf">elleve sider langt svar</a> til Giber Ringvej Gruppen med besvarelse af femten nummererede punkter — om hastighed, fartkontrol, støjmålinger, asfalttype og meget andet. Det er det separate svar, forvaltningen i maj havde varslet.</p>
+      <p class="tl-text">Men de 20 mio. kr. er ikke nævnt med ét ord, og støjvolden S8 er ikke nævnt. De to spørgsmål fra marts står fortsat ubesvarede.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-date">
+      <span class="tl-year">2023</span>
+      <span class="tl-month">Nov</span>
+    </div>
+    <div class="tl-dot red"></div>
+    <div class="tl-body">
+      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
+      <span class="tl-tag">Forvaltningens svar om økonomien</span>
+      <p class="tl-title">“Ikke afregnet” — og kommunalfuldmagten som spærring</p>
+      <p class="tl-text">Den 22. november svarer specialkonsulent Rasmus Stougaard Niiranen på GRGs spørgsmål om puljen, jf. <a href="/assets/giber-ringvej/2023-11-22-mtm-svar-pulje-og-kommunalfuldmagt.pdf">mailen</a>. Rammen på de 20 mio. kr. <em>"blev i praksis lagt oveni det samlede udbud af projektet"</em>, og videre: <em>"projektet [har] en samlet økonomistyring, hvor der ikke er afregnet med henblik på præcis opdeling i økonomien for hvert støjdæmpende tiltag. Derudover er projektet fortsat ikke afsluttet og der foreligger derfor ikke et endeligt anlægsregnskab endnu."</em> Rambølls opgørelse betegnes som <em>"en estimering"</em>.</p>
+      <p class="tl-text">Det manglende regnskab er altså erkendt allerede her — halvandet år før aktindsigten og to år før den tredje redegørelse. Samme svar afviser yderligere tiltag: <em>"vi [må] på grund af Kommunalfuldmagtsreglerne heller ikke gøre yderligere efter vejen er etableret når grænseværdien på 58dB er overholdt (...) da dette ville kunne ses som begunstigelse af enkeltpersoner"</em> — syv måneder efter kommunens egne jurister havde fastslået, at netop de regler viger for skreven lovgivning.</p>
     </div>
   </li>
 
@@ -662,12 +738,51 @@ categories: vejstøj
     <div class="tl-dot red"></div>
     <div class="tl-body">
       <span class="tl-spor tl-spor--beplantning">Spor · Beplantning</span>
+      <span class="tl-tag">Intern bestilling · Aktindsigt</span>
+      <p class="tl-title">Forvaltningen spørger sin egen rådgiver: er beplantningen overhovedet et krav?</p>
+      <p class="tl-text">Den 7. august skriver specialkonsulent Rasmus Stougaard Niiranen til Rambøll, med byrumschef Trine Buus Karlsen som kopimodtager, og bestiller den redegørelse, der bliver til notatet nedenfor. <a href="/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-07-mail-bestilling-af-redegoerelse-for-beplantning.pdf">Bestillingen</a> — frigivet ved aktindsigt — lyder: <em>"Der skal redegøres for om beplantning er sket i overensstemmelse med VVM'en. Eller med andre ord hvilken beplantning har indgået som forudsætning for projektet og er projektet udført i overensstemmelse hermed."</em></p>
+      <p class="tl-text">Og videre, med et kortudsnit indsat i mailen: <em>"Her kunne det fx godt ligne, at der er lagt op til afskærmende beplantning ud for Mårslet omkring området markeret med rødt nedenfor. <strong>Men er det bare uforpligtende eksempler i VVM'en eller er det forudsætninger for projektet?</strong>"</em></p>
+      <p class="tl-text">Mailen er intern og ikke skrevet til borgerne. Den viser, at forvaltningen i august 2025 ikke selv havde taget stilling til det spørgsmål, hele sagen handler om — og at den var i tvivl om netop den sondring, kommunen siden afviser. Seks måneder senere svarer borgmesteren kategorisk, at beplantningen <em>"ikke [var] forudsat etableret som en del af VVM-tilladelsen eller projektgodkendelsen"</em>. Hvad der i mellemtiden afklarede spørgsmålet, fremgår ikke af det fremlagte materiale.</p>
+      <p class="tl-text">Bestillingen har desuden GRGs eget <a href="/assets/giber-ringvej/2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf">faktaark om beplantning</a> vedhæftet — det ark, forvaltningen syv måneder senere besvarer med, at man <em>"ikke [har] kommenteret nærmere på dette faktaark."</em> Arket var altså tilstrækkeligt til at få kommunen til at bestille en redegørelse hos sin rådgiver, men blev over for afsenderen afvist som ikke værd at kommentere.</p>
+      <figure class="tl-fig">
+        <img src="/assets/giber-ringvej/klage/2025-08-07-mtm-bestilling-roed-markering-vest-for-tandervej.png" alt="Luftfoto med rød markering langs nordsiden af Giber Ringvej umiddelbart vest for Tandervej ved Mårslet.">
+        <figcaption>Forvaltningens eget kortudsnit fra bestillingsmailen af 7. august 2025. Det røde område ligger langs nordsiden af vejen vest for Tandervej — <strong>samme strækning</strong>, som Landskabsstrategien seks år tidligere udpegede med <em>"Visuel støjskærmning (beplantning) nordside af vej"</em>, og hvor Rambøll erkender, at beplantning er <em>"formegentlig fravalgt af økonomiske årsager"</em>.</figcaption>
+      </figure>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-date">
+      <span class="tl-year">2025</span>
+      <span class="tl-month">Aug</span>
+    </div>
+    <div class="tl-dot red"></div>
+    <div class="tl-body">
+      <span class="tl-spor tl-spor--beplantning">Spor · Beplantning</span>
       <span class="tl-tag">Rambøll-notat · Beplantning</span>
       <p class="tl-title">Træerne blev sparet væk — og ingen kan sige hvem der besluttede det</p>
       <p class="tl-text">Den 19. august udarbejder Rambøll et <a href="/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf#page=4">notat om beplantning</a> på opdrag af Aarhus Kommune. Notatet gennemgår forløbet fra VVM-redegørelse til detailprojekt og afslører to kritiske forhold for to nabostræninger:</p>
       <p class="tl-text"><strong>St. 9.200–9.660 (vest for Tandervej, Damgårdstoften):</strong> Landskabsstrategien planlagde eksplicit <em>"Visuel støjskærmning (beplantning) nordside af vej"</em>. Beplantning er aldrig etableret. <a href="/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf#page=4">Rambølls forklaring</a>: <em>"Beplantning er formegentlig fravalgt af <strong>økonomiske årsager</strong>."</em> Aarhus Kommune kan ikke fremlægge referat eller dokumentation for denne beslutning.</p>
       <p class="tl-text"><strong>St. 9.660–10.320 (øst for Tandervej):</strong> Rambøll begrunder fravalget med, at borgergrupper ønskede udsigt over markerne mod syd — en kommunikation der <em>"er foregået mellem Aarhus kommunes projektleder og de relevante borgergrupper <strong>uden om Rambølls involvering</strong>."</em> Der ses ikke fremlagt journaliseret dokumentation for, hvem der deltog i denne dialog, hvornår den fandt sted, eller hvem der traf den endelige beslutning. En lokal dialog kan under alle omstændigheder ikke i sig selv fravige et bindende VVM-vilkår — det kræver en dokumenteret afgørelse fra planmyndigheden, og en sådan ses ikke truffet i nogen af de to tilfælde.</p>
       <p class="tl-text">Dermed står forløbet klart: beplantningen blev forudsat i VVM-redegørelsen, visualiseret for borgerne, gjort bindende ved vilkår 2 og konkretiseret strækning for strækning i Landskabsstrategien — for til sidst at blive <em>"formegentlig"</em> fravalgt, uden at nogen myndighed har truffet og journaliseret en beslutning om det. Kommunens eget svar til GRG i oktober 2025 medgiver, at der er <em>"to områder langs Giber Ringvej omkring Mårslet, hvor der ud fra VVM-rapporten kunne argumenteres for en forventning om, at der skulle etableres afskærmende beplantning"</em> — men tilføjer, at det ikke fremgår <em>"som tydelige krav."</em></p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-date">
+      <span class="tl-year">2025</span>
+      <span class="tl-month">Sep</span>
+    </div>
+    <div class="tl-dot red"></div>
+    <div class="tl-body">
+      <span class="tl-spor tl-spor--beplantning">Spor · Beplantning</span>
+      <span class="tl-tag">Intern beslutning · Aktindsigt</span>
+      <p class="tl-title">Prisen på de manglende træer: ca. 100.000 kr.</p>
+      <p class="tl-text">Den 26. september kl. 8.36 skriver Klaus Braad til byrumschef Trine Buus Karlsen, jf. <a href="/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-09-26-mail-vs-redegoerelse-for-beplantning-prisoverslag.pdf">mailen frigivet ved aktindsigt</a>: <em>"Har snakket med Gorm og han siger at det vil koste ca. 100.000,- inkl. vildt hegn. Han foreslår at det bliver en blanding af løvtræer og buske (...) Jeg foreslår at der laves et bælte på 20 meter i bredden, som vist herunder, men vi er afhængig af at det bliver på frivillig basis, da vi ikke kan ekspropriere til arealerne."</em></p>
+      <p class="tl-text">Samme dag kl. 14.58 svarer Trine Buus Karlsen: <em>"Vil du sætte dette projektet i gang og <strong>det skal betales af Giber Ringvejs projektet</strong>."</em></p>
+      <p class="tl-text">To ting følger heraf. For det første prissætter man ikke en foranstaltning, man anser for uforpligtende — og udgiften henføres udtrykkeligt til vejprojektets egen økonomi. For det andet beror løsningen på frivillighed: kommunen oplyser selv, at den ikke kan ekspropriere til arealerne. Et bindende VVM-vilkår kan vanskeligt anses for opfyldt gennem en foranstaltning, hvis gennemførelse afhænger af, om private lodsejere vil sælge — og der ses ingen redegørelse for, hvad kommunen gør, hvis aftalerne ikke opnås.</p>
+      <p class="tl-text">Mailen slutter: <em>"Arealet ved Tandervej kan sandsynligvis sælges til en udvikler, som vil bygge et supermarked, hvis det er tilfældet så bliver arealet væsentligt dyrere."</em> Det areal, der er tale om, er efter forvaltningens egen markering i august netop det sted, hvor den afskærmende beplantning skulle stå.</p>
+      <p class="tl-text">De beregnede beløb for selve arealerhvervelsen er overstreget i det udleverede materiale; udgiften til beplantningen er derimod udleveret. Kommunen oplyser i samme mail, at erhvervelsen må ske ved frivillig aftale, og hensynet til myndighedens forhandlingsposition kan efter omstændighederne begrunde overstregningen — men det er dermed uoplyst, hvad foranstaltningen samlet er anslået at koste.</p>
     </div>
   </li>
 
@@ -738,7 +853,7 @@ categories: vejstøj
       <span class="tl-tag">Vilkår 5 · Vejbelægningen</span>
       <p class="tl-title">Den støjdæmpende asfalt, der ikke dæmper støj</p>
       <p class="tl-text">I <a href="/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf">afklaringsnotat 1</a> rejser GRG vilkår 5 formelt med tre spørgsmål: Hvilken referencebelægning er lagt til grund? Hvilken KVS-type er udlagt? Og hvilken dokumenteret støjreduktion kan lægges til grund? Baggrunden er, at Rambøll <a href="/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3">selv oplyser</a>, at projektet hele vejen igennem forudsatte en støjreducerende belægning — <em>"den typisk valgte belægning til dette formål er en SRS"</em> — men at der i stedet blev udlagt KVS, klimavenligt slidlag.</p>
-      <p class="tl-text"><a href="/assets/giber-ringvej/asfalt-vejdirektoratet-kvs-konklusionsnotat.pdf#page=4">Vejdirektoratets egne måledata</a> viser, at KVS og standardbelægningen SMA8 følges tæt gennem hele levetiden — og at SMA8 ved nyudlægning endda er den mest støjsvage af de to. Den reduktion på ca. 2 dB, notatet fremhæver, er målt mod den grovere SMA11, ikke mod SMA8, som i dag udgør ca. 70 % af statsvejnettet. Ingen af de tre spørgsmål er besvaret — hverken af Rambøll eller af forvaltningen.</p>
+      <p class="tl-text"><a href="/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=4">Vejdirektoratets egne måledata</a> viser, at KVS og standardbelægningen SMA8 følges tæt gennem hele levetiden — og at SMA8 ved nyudlægning endda er den mest støjsvage af de to. Den reduktion på ca. 2 dB, notatet fremhæver, er målt mod den grovere SMA11, ikke mod SMA8, som i dag udgør ca. 70 % af statsvejnettet. Ingen af de tre spørgsmål er besvaret — hverken af Rambøll eller af forvaltningen.</p>
     </div>
   </li>
 
@@ -779,7 +894,8 @@ categories: vejstøj
     <div class="tl-body">
       <span class="tl-tag">Igangværende</span>
       <p class="tl-title">Klagen indgives — Ankestyrelsen først</p>
-      <p class="tl-text">GRG fremsender sin anmodning til <strong>Ankestyrelsens kommunale tilsyn</strong> om at tage stilling til, om kommunens sagsbehandling har været lovlig — manglende sagsoplysning, manglende dokumentation for vilkårsopfyldelse og manglende genoptagelse trods kommunens egne erkendelser. Anmodningen anfægter ikke VVM-tilladelsen selv, men spørger, om kommunen lovligt har kunnet anse bindende vilkår for opfyldt uden at kunne dokumentere det. En klage til <strong>Folketingets Ombudsmand</strong> over aktindsigtsforløbet forberedes. Et klagespor til <strong>klagenævnet</strong> ligger klar, men kan først aktiveres, hvis kommunen træffer en formel afgørelse om vilkårsopfyldelse — og skal da indgives inden fire uger. Spørgsmålet, der stadig venter svar, er simpelt: hvad er der reelt brugt 20 mio. skatteborger-kroner på?</p>
+      <p class="tl-text">GRG fremsender sin anmodning til <strong>Ankestyrelsens kommunale tilsyn</strong> om at tage stilling til, om kommunens sagsbehandling har været lovlig — manglende sagsoplysning, manglende dokumentation for vilkårsopfyldelse og manglende genoptagelse trods kommunens egne erkendelser. Anmodningen anfægter ikke VVM-tilladelsen selv, men spørger, om kommunen lovligt har kunnet anse bindende vilkår for opfyldt uden at kunne dokumentere det.</p>
+      <p class="tl-text">Spørgsmålet er ikke et spørgsmål om god tone eller god service. Efter <a href="https://danskelove.dk/planloven/51">planlovens § 51</a> <em>påser</em> kommunalbestyrelsen, at <em>"vilkår fastsat i tilladelser, dispensationer m.v. overholdes"</em>, og den <em>skal</em> <em>"foranledige et ulovligt forhold lovliggjort, medmindre forholdet har underordnet betydning."</em> Det er en lovbestemt pligt — og den påhviler kommunen i begge dens roller her: som myndighed efter § 51, og som ejer af anlægget efter lovens § 63. En klage til <strong>Folketingets Ombudsmand</strong> over aktindsigtsforløbet forberedes. Et klagespor til <strong>klagenævnet</strong> ligger klar, men kan først aktiveres, hvis kommunen træffer en formel afgørelse om vilkårsopfyldelse — og skal da indgives inden fire uger. Spørgsmålet, der stadig venter svar, er simpelt: hvad er der reelt brugt 20 mio. skatteborger-kroner på?</p>
     </div>
   </li>
 
