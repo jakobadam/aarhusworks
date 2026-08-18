@@ -1,0 +1,232 @@
+BILAG 28
+UDDRAG AF INTERN KORRESPONDANCE MELLEM AARHUS KOMMUNE OG RAMBØLL
+Frigivet ved aktindsigt. Ordret transskription.
+
+Uddragene nedenfor supplerer bilag 21. Kilderne er de mailfiler, Aarhus Kommune
+udleverede ved aktindsigt i maj 2025. Originalfilerne (.msg) vedlægges i samme
+mappe som denne transskription, og hvert afsnit nedenfor angiver den kildefil,
+uddraget er hentet fra. Kun de passager, der påberåbes i anmodningen, er
+gengivet. Signaturer, mødelinks, ansvarsfraskrivelser og vedhæftningslister er
+udeladt.
+
+
+=====================================================================
+1. FORVALTNINGENS INTERNE DAGSORDEN, 15. MARTS 2023
+=====================================================================
+
+Mødeindkaldelse fra specialkonsulent Rasmus Stougaard Niiranen (Teknik og Miljø,
+Byrum) til Chris Harlev Thomsen og Nanna Ellegaard Christensen, cc. Klaus Braad.
+Emne: "Vedr. støj fra Giber Ringvej". Møde afholdt 17. marts 2023.
+Kildefil: "SV Vedr. støj fra Giber Ringvej.msg" (mødeindkaldelsen er
+gengivet nederst i tråden).
+
+  "Hej Chris og Nanna
+
+  Håber I har tid til lige at vende et par ting, vi skal have samlet op på til
+  TU ift. støj fra Giber Ringvej. Tænker vi har svar på de fleste ting, og blot
+  skal have det samlet.
+
+  Støjvold/støjafskærmning - Giber Ringvej
+
+  Vi skal have afsøgt om der måtte være konkrete ansøgninger om at opføre
+  støjvold, støjafskærmning eller lignende. Og om der i fald er givet
+  afslag/tilladelse.
+
+  Vi skal have afsøgt om der er hindringer (evt. hvilke) i forhold til at
+  imødekomme borgere, der f.eks. ønsker at opføre egen støjvold eller lignende
+  (evt. med jord fra egen ejendom). Er der miljømæssige, planlægningsmæssige
+  eller andre barriere?
+
+  [...]
+
+  Opsamlende notat til Teknisk Udvalg - Giber Ringvej
+
+  Der skal laves et opsamlende notat til Teknisk Udvalg, hvor nedenstående skal
+  besvares:
+
+      1) Hvor ses støjberegningerne og deres forudsætninger (støjværn på 1m og
+         1½m)? Gerne link til VVM og sidehenvisning.
+      2) Hvor er der blevet "lovet" hvad ift. støjværn?
+      3) Ønsker et kort over hele Giber Ringvej med anvisning om hvor klagerne
+         bor/kommer fra"
+
+
+=====================================================================
+2. VIDERESENDELSE AF BORGERENS INDLÆG, 21. MARTS 2023
+=====================================================================
+
+Rasmus Stougaard Niiranen til Nanna Ellegaard Christensen, Chris Harlev Thomsen
+og Klaus Braad. Emne: "SV: Vedr. støj fra Giber Ringvej".
+Kildefil: "SV Vedr. støj fra Giber Ringvej.msg", sendt 21. marts 2023
+kl. 10.53.
+
+  "På TU-mødet i går havde Jane Juul Simonsen foretræde for udvalget under
+  behandling af punktet om anlægsprogrammet. Hun havde fremsendt vedhæftede
+  bilag til TU og der blev på mødet spurgt ind til påstanden heri hvor det bl.a.
+  fremgår, at 'Giber Ringvej er ikke bygget som godkendelsen i VVM'. Tænker ikke
+  i behøver læse bilaget, men har vedhæftet det hvis I var nysgerrige.
+
+  Trine har bedt om, at vi får rådgiveren til at udarbejde et notat som
+  beskriver vejtrace, terræn, overskudsjord, placering af støjværk og støjvolde
+  kontra VVM projektet."
+
+
+=====================================================================
+3. BESTILLINGEN AF NOTATET, 24. MARTS 2023
+=====================================================================
+
+Projektleder Chris Harlev Thomsen (Teknik og Miljø, Vejanlæg) til Klaus Braad og
+Rasmus Stougaard Niiranen (Aarhus Kommune) samt Flemming Klausen Ballegaard,
+Rasmus Holck Christensen og Jesper Spohr (Rambøll).
+Emne: "Giber Ringvej - Notat om VVM-projekt kontra udførte projekt".
+Kildefil: "Giber Ringvej - Notat om VVM-projekt kontra udførte projekt.msg",
+sendt 24. marts 2023 kl. 10.04.
+
+  "Efter bestilling fra ledelsen fra Aarhus Kommune Byrum, skal der udarbejdes
+  et notat som beskriver det udført projekt sammenlignet med VVM projektet ifht.
+  ekstra støjvolde mv. Se vedhæftede. Vi tager en kort snak om opgaven."
+
+
+=====================================================================
+4. REDIGERINGEN AF NOTATET FØR OFFENTLIGGØRELSE, MAJ 2023
+=====================================================================
+
+Tråden "Støjmåler ved Giber Ringvej". Supplerer bilag 21.
+Kildefil: "RE Støjmåler ved Giber Ringvej.msg", hvis seneste meddelelse er
+sendt 9. maj 2023 kl. 21.30; de øvrige meddelelser i tråden er gengivet i den.
+
+1. maj 2023 - Chris Harlev Thomsen til Rasmus Stougaard Niiranen og Nanna
+Ellegaard Christensen, cc. Louise Berg Rasmussen, Klaus Braad, Trine Buus
+Karlsen og Ole Bondrop:
+
+  "Jeg har bedt Rambøll give notatet en overhaling, så vi kan vedlægge notatet
+  som bilag."
+
+9. maj 2023 kl. 14.32 - Chris Harlev Thomsen til Rasmus Stougaard Niiranen og
+Rasmus Holck Christensen (Rambøll), cc. Klaus Braad:
+
+  "@Rasmus Holck Christensen Vi talte om at notatet fra dig skulle have en tur
+  igennem KS-maskinen, så dokumentet blev af en karakter som vi kan
+  offentliggøre som bilag. Hvad er status på dette?"
+
+9. maj 2023 kl. 21.30 - Rasmus Holck Christensen (Rambøll) til Chris Harlev
+Thomsen og Rasmus Stougaard Niiranen, cc. Klaus Braad:
+
+  "Hej Chris
+
+  Vi er i mål med materialet, se vedhæftet.
+
+  Skriv gerne tilbage hvis der er behov for yderligere materiale, eller om I ser
+  at der er behov for justeringer.
+
+  Afsnittet omkring besvarelse af spørgsmål er som aftalt fjernet."
+
+
+=====================================================================
+5. DIFFERENSKORTET - KENDT MANGEL VED FREMLÆGGELSEN, DECEMBER 2024
+=====================================================================
+
+Tråden "Genbesøg af opgørelse for støjtiltag ved Giber Ringvej".
+Kildefil: "SV Genbesøg af opgørelse for støjtiltag ved Giber Ringvej.msg",
+hvis seneste meddelelse er sendt 20. december 2024 kl. 08.30.
+
+18. december 2024 - Rasmus Holck Christensen (Rambøll) til Rasmus Stougaard
+Niiranen:
+
+  "Godmorgen Rasmus
+
+  Jeg har vedhæftet et sæt foreløbige tegninger. Vi har lidt udfordringer med
+  den grønne farveskala, det er svært at se forskel på området for 2 meter
+  afgravning til 2 meter påfyldning. Vi arbejder på en løsning."
+
+20. december 2024 kl. 08.20 - Rasmus Holck Christensen (Rambøll):
+
+  "Godmorgen Rasmus
+
+  Vi har forsøgt lidt forskelligt, uden held. Det er noget programteknisk så vi
+  skal nok have fat på Bentley Systems, hvilket kan være noget omstændigt.
+
+  Vil du vende tilbage om de fremsendte tegninger kan anvendes, eller om du
+  tænker at vi skal gøre mere ved farverne."
+
+20. december 2024 kl. 08.30 - Rasmus Stougaard Niiranen (Aarhus Kommune) til
+Rasmus Holck Christensen:
+
+  "Godmorgen Rasmus
+
+  Tak for tilsendte.
+
+  Jeg tænker godt de kan anvendes, så I behøver ikke iværksætte yderligere for
+  nu i hvert fald."
+
+Differenskortet blev herefter fremlagt for Giber Ringvej Gruppen som bilag 1 til
+forvaltningens redegørelse 2 af januar 2025.
+
+
+=====================================================================
+6. STØJKORTENE - TO UDGAVER, JUNI OG SEPTEMBER 2023
+=====================================================================
+
+Tråden "Støjkort Giber Landevej".
+Kildefiler: "Støjkort Giber Landevej.msg" (1. juni 2023, vedhæftet BB 1-4 2030.png)
+og "RE Støjkort Giber Landevej.msg" (22. september 2023, vedhæftet
+BB 11-14 2030.png).
+
+1. juni 2023 - Krestina Luth Lokke (Rambøll) til Rasmus Stougaard Niiranen,
+cc. Rasmus Holck Christensen. Vedhæftet: "BB 1 2030.png", "BB 2 2030.png",
+"BB 3 2030.png", "BB 4 2030.png":
+
+  "Hej Rasmus
+
+  Så er der et sæt planer med støjkurver ned til 50 dB.
+
+  Sig til hvis der er andet jeg kan gøre."
+
+19. september 2023 kl. 14.25 - Rasmus Stougaard Niiranen (Aarhus Kommune) til
+Krestina Luth Lokke:
+
+  "Hej Krestina
+
+  Jeg vil høre om du nemt kan hjælpe mig med en version af vedhæftede støjkort,
+  hvor der kun er støjkurver ned til 58 dB og hvor alle støjdæmpende tiltag
+  (støjvolde, afskærmning osv.) er med på?"
+
+19. september 2023 kl. 14.45-14.50 - kort udveksling om tidsfrist:
+
+  Rambøll: "Jeg skal gøre mit bedste"
+  Aarhus Kommune: "Hvis du kan nå det senest fredag og det ikke kræver lang
+  tids arbejde, må du gerne lave det."
+
+22. september 2023 - Krestina Luth Lokke (Rambøll). Vedhæftet: "BB 11 2030.png",
+"BB 12 2030.png", "BB 13 2030.png", "BB 14 2030.png":
+
+  "Hej Rasmus
+
+  Nu fra 58 dB.
+
+  God weekend."
+
+De to kortsæt dækker samme strækninger og samme beregningsår (2030). I det
+første sæt er støjudbredelsen gengivet i intervaller fra og med 50 dB; i det
+andet sæt fra og med 58 dB.
+
+
+=====================================================================
+7. TEKNISK UDVALGS ANMODNING OM GENBESØG, 25. SEPTEMBER 2024
+=====================================================================
+
+Rasmus Stougaard Niiranen til Rasmus Holck Christensen (Rambøll), cc. Chris
+Harlev Thomsen. Gengivet i uddrag også i bilag 21.
+Kildefil: "Genbesøg af opgørelse for støjtiltag ved Giber Ringvej.msg",
+sendt 25. september 2024 kl. 14.26.
+
+  "I forbindelse med at Aarhus Kommunes støjhandlingsplan har været til
+  behandling i Teknisk Udvalg, har en borger fra Mårslet haft foretræde for
+  udvalget.
+
+  Han præsenterede udvalget for vedhæftede hvor han bl.a. udfordrer jeres
+  opgørelse af støjdæmpende tiltag ved Giber Ringvej, som I udarbejdede sidste
+  år.
+
+  Teknisk Udvalg har derfor bedt os genbesøge den opgørelse med afsæt i
+  borgerens påstande/spørgsmål."
