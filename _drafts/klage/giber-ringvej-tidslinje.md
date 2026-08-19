@@ -12,6 +12,15 @@ categories: vejstøj
     color: #111;
   }
 
+  /* Uden dette lægges padding og rammer oven i procentbredder,
+     hvilket giver vandret overløb på smalle skærme. */
+  .timeline-wrap,
+  .timeline-wrap *,
+  .timeline-wrap *::before,
+  .timeline-wrap *::after {
+    box-sizing: border-box;
+  }
+
   .timeline-kicker {
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 0.72rem;
@@ -305,6 +314,61 @@ categories: vejstøj
     letter-spacing: 0.04em;
     color: #666;
   }
+
+  /* --- Mobil --- */
+  @media (max-width: 620px) {
+    .timeline-wrap { padding: 0 0.9rem; }
+
+    .timeline-headline { font-size: 1.85rem; }
+    .timeline-deck { font-size: 1rem; padding: 0.8rem 0; margin-bottom: 1.8rem; }
+
+    /* Tidslinjen: streg helt til venstre, dato som etiket over teksten */
+    .tl::before { left: 5px; }
+
+    .tl-item {
+      flex-wrap: wrap;
+      gap: 0 0.8rem;
+      align-items: flex-start;
+    }
+
+    .tl-dot {
+      order: 1;
+      margin-top: 0.75rem;
+    }
+
+    .tl-date {
+      order: 2;
+      flex: 1 1 auto;
+      text-align: left;
+      padding-top: 0.55rem;
+      display: flex;
+      align-items: baseline;
+      gap: 0.45rem;
+    }
+
+    .tl-year { font-size: 1rem; }
+    .tl-month { margin-top: 0; }
+
+    .tl-body {
+      order: 3;
+      flex: 0 0 100%;
+      padding: 0.35rem 0 1.4rem 1.55rem;
+    }
+
+    .tl-title { font-size: 1rem; }
+    .tl-text { font-size: 0.88rem; }
+
+    .tl-divider { margin-left: 1.55rem; }
+
+    .tl-fig { margin: 0.9rem 0 0.2rem 0; }
+  }
+
+  /* Meget smalle skærme */
+  @media (max-width: 380px) {
+    .timeline-headline { font-size: 1.6rem; }
+    .tl-body { padding-left: 1.3rem; }
+    .tl-divider { margin-left: 1.3rem; }
+  }
 </style>
 
 <div class="timeline-wrap">
@@ -481,10 +545,10 @@ categories: vejstøj
     </div>
   </li>
 
-  <div class="tl-divider">
+  <li class="tl-divider">
     <span class="tl-divider-label">Vejen åbner</span>
     <span class="tl-divider-line"></span>
-  </div>
+  </li>
 
   <li class="tl-item">
     <div class="tl-date">
@@ -603,10 +667,10 @@ categories: vejstøj
     </div>
   </li>
 
-  <div class="tl-divider">
+  <li class="tl-divider">
     <span class="tl-divider-label">Indrømmelserne begynder</span>
     <span class="tl-divider-line"></span>
-  </div>
+  </li>
 
   <li class="tl-item">
     <div class="tl-date">
@@ -702,6 +766,22 @@ categories: vejstøj
       <p class="tl-text">Samme dag kl. 14.58 svarer Trine Buus Karlsen: <em>"Vil du sætte dette projektet i gang og <strong>det skal betales af Giber Ringvejs projektet</strong>."</em></p>
       <p class="tl-text">To ting følger heraf. Man prissætter ikke en foranstaltning, man anser for uforpligtende — og udgiften henføres udtrykkeligt til vejprojektets egen økonomi. Og løsningen beror på frivillighed: et bindende VVM-vilkår kan vanskeligt anses for opfyldt gennem noget, hvis gennemførelse afhænger af, om private lodsejere vil sælge. Hvad kommunen gør, hvis aftalerne ikke opnås, fremgår ikke.</p>
       <p class="tl-text">Mailen slutter: <em>"Arealet ved Tandervej kan sandsynligvis sælges til en udvikler, som vil bygge et supermarked."</em> Det er efter forvaltningens egen markering i august netop det sted, hvor den afskærmende beplantning skulle stå. Beløbene for selve arealerhvervelsen er overstreget i det udleverede materiale — hvilket hensynet til kommunens forhandlingsposition efter omstændighederne kan begrunde, men som efterlader det uoplyst, hvad foranstaltningen samlet er anslået at koste.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-date">
+      <span class="tl-year">2025–26</span>
+      <span class="tl-month">Jun–Feb</span>
+    </div>
+    <div class="tl-dot red"></div>
+    <div class="tl-body">
+      <span class="tl-spor tl-spor--proces">Spor · Sagsbehandling</span>
+      <span class="tl-tag">Rykkere · Ni måneders venten</span>
+      <p class="tl-title">Tre rykkere for et svar, forvaltningen havde lovet</p>
+      <p class="tl-text">Efter mødet den 22. maj 2025 fremsendte GRG som aftalt links til samtlige seks faktaark. Derefter gik der ni måneder, jf. <a href="/assets/giber-ringvej/2025-2026-mailtraad-med-mtm-rykkere-for-svar-paa-faktaark.pdf">mailtråden</a>: <strong>23. og 25. juni 2025</strong> — <em>"Lige en reminder om, at vi stadig mangler status på denne"</em>; <strong>4. september</strong> — <em>"Hvor langt er I kommet med den her?"</em>; <strong>16. oktober</strong> — svaret kommer, uden punktvis stillingtagen, med henvisning tilbage til april; <strong>12. januar 2026</strong> — rykker for det møde, forvaltningen havde lovet at indkalde til. Mødet indkaldes den 23. februar, til afholdelse i april.</p>
+      <p class="tl-text">Anmodningen fra januar er værd at bemærke. GRG beder ikke om medhold, men om <em>"en punktvis drøftelse (...) med henblik på at afklare, hvilke dele af faktaarkene forvaltningen opfatter som korrekte, og hvor der er uenighed."</em> Det er den mindst indgribende form for stillingtagen, en borger kan bede om — og den blev ikke givet, hverken skriftligt eller på mødet.</p>
+      <p class="tl-text">Forsinkelsen blev bemærket internt. Den 20. januar 2026 skrev byrådsmedlem Anette Poulsen — der havde deltaget i mødet i maj som rådmand — til rådmand Nicolaj Bang: <em>"Vi skylder dem – efter så lang tid – at de ved hvor sagen står. (...) På mødet hos mig, da jeg var rådmand i MSB, blev de lovet beplantning, og der er ikke sket noget."</em> Det er ikke borgernes karakteristik af forløbet, men et byrådsmedlems.</p>
     </div>
   </li>
 
