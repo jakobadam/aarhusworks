@@ -1,24 +1,21 @@
 ---
 layout: default
+title: Siden findes ikke
+permalink: /404.html
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<article class="doc">
+  <header class="doc__head wrap">
+    <p class="eyebrow">Fejl 404</p>
+    <h1 class="doc__title">Den side findes ikke</h1>
+    <p class="doc__summary">
+      Linket peger et sted hen, der ikke er noget. Dokumentet kan være flyttet,
+      eller adressen kan være skrevet forkert.
+    </p>
+    <p class="hero__actions">
+      <a class="btn btn--primary" href="{{ '/arkiv/' | relative_url }}">Søg i arkivet</a>
+      <a class="btn" href="{{ '/' | relative_url }}">Til forsiden</a>
+    </p>
+    <div class="rule rule--ticks" role="presentation"></div>
+  </header>
+</article>

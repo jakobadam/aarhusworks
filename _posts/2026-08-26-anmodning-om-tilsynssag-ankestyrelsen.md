@@ -1,3 +1,13 @@
+---
+title: Anmodning om tilsynssag ved Ankestyrelsen
+author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
+categories: vejstøj
+status: kladde
+status_tekst: Kladde — ikke indgivet
+# Posten lå oprindeligt uden kategori. Redirect'et holder den gamle adresse i live.
+redirect_from:
+  - /2026/08/26/anmodning-om-tilsynssag-ankestyrelsen.html
+---
 
 > ## ⚠️ KLADDE — IKKE INDGIVET
 >
@@ -6,8 +16,6 @@
 > Udkastet er ufuldstændigt: afsendernes adresser mangler, og afsendelsesdatoen er ikke fastsat. Indholdet kan ændre sig, og formuleringer bør ikke citeres som Giber Ringvej Gruppens endelige standpunkt.
 
 ---
-
-# Anmodning om tilsynssag
 
 **Til:**  
 Ankestyrelsen — Det kommunale tilsyn

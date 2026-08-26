@@ -1,0 +1,7 @@
+{%- comment -%}
+  Danish long date. Jekyll's `date` filter only speaks English month names, so
+  the month is mapped by hand. Usage: {% include date-da.html date=page.date %}
+{%- endcomment -%}
+{%- assign months = "januar,februar,marts,april,maj,juni,juli,august,september,oktober,november,december" | split: "," -%}
+{%- assign m = include.date | date: "%m" | plus: 0 | minus: 1 -%}
+{{- include.date | date: "%-d" }}. {{ months[m] }} {{ include.date | date: "%Y" -}}

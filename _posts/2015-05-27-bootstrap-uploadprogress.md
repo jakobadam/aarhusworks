@@ -1,4 +1,5 @@
 ---
+title: "Bootstrap UploadProgress: a progress bar for form uploads"
 layout: post
 author: Jakob Aarøe Dam
 ---

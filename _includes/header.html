@@ -1,0 +1,22 @@
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="masthead__brand" href="{{ '/' | relative_url }}">
+      {%- include logo.html -%}
+      <span class="u-visually-hidden">Til forsiden</span>
+    </a>
+
+    <nav class="masthead__nav" aria-label="Primær">
+      <ul>
+        {%- for item in site.nav -%}
+          {%- assign target = item.url | relative_url -%}
+          {%- if page.url == item.url -%}
+            <li><a href="{{ target }}" aria-current="page">{{ item.title }}</a></li>
+          {%- else -%}
+            <li><a href="{{ target }}">{{ item.title }}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </nav>
+  </div>
+  <div class="rule rule--ticks" role="presentation"></div>
+</header>

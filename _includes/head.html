@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111c24">
+
+{%- seo -%}
+{%- feed_meta -%}
+
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+<link rel="mask-icon" href="{{ '/assets/favicon.svg' | relative_url }}" color="#111c24">
+
+{%- comment -%}
+  Fonts are self-hosted (assets/fonts/) rather than pulled from a CDN: no
+  third-party request is made when someone reads a høringssvar here.
+{%- endcomment -%}
+<link rel="preload" as="font" type="font/woff2" href="{{ '/assets/fonts/source-serif-4-400-normal.woff2' | relative_url }}" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="{{ '/assets/fonts/barlow-condensed-600-normal.woff2' | relative_url }}" crossorigin>
+
+<link rel="stylesheet" href="{{ '/assets/fonts/fonts.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">

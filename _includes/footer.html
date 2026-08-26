@@ -1,0 +1,26 @@
+<footer class="colophon">
+  <div class="rule rule--ticks" role="presentation"></div>
+  <div class="wrap colophon__inner">
+    <div class="colophon__col">
+      <p class="colophon__title">{{ site.title }}</p>
+      <p class="colophon__note">{{ site.description | strip_newlines | strip }}</p>
+    </div>
+
+    <div class="colophon__col">
+      <p class="eyebrow">Kontakt</p>
+      <ul class="colophon__links">
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li><a href="https://github.com/{{ site.github_username }}" rel="me">github.com/{{ site.github_username }}</a></li>
+        <li><a href="{{ '/feed.xml' | relative_url }}">RSS-feed</a></li>
+      </ul>
+    </div>
+
+    <div class="colophon__col">
+      <p class="eyebrow">Kilder</p>
+      <p class="colophon__note">
+        Dokumenter der henvises til, ligger i fuld længde på dette domæne og
+        kan citeres direkte — som regel med sidetal i linket.
+      </p>
+    </div>
+  </div>
+</footer>

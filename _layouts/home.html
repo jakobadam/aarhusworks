@@ -1,0 +1,76 @@
+---
+layout: default
+---
+{%- comment -%}
+  Liquid's `where_exp` only takes a single comparison — `contains ... == false`
+  is a syntax error — so the two lists are partitioned on the primary category.
+  Keep this in step with _layouts/case.html.
+{%- endcomment -%}
+{%- assign case_posts = site.posts | where_exp: "p", "p.categories.first == site.campaign_category" -%}
+{%- assign other_posts = site.posts | where_exp: "p", "p.categories.first != site.campaign_category" -%}
+
+<section class="hero">
+  <div class="wrap hero__inner">
+    <p class="eyebrow">Aarhus · offentlige arbejder</p>
+    <h1 class="hero__statement">
+      Et vejanlæg efterlader et papirspor.
+      <span class="hero__statement-b">Her ligger det, samlet og med kilder.</span>
+    </h1>
+    <p class="hero__lede">
+      Aarhusworks er Jakob Aarøe Dams arbejdsnoter. Størstedelen handler om vejstøjen
+      langs Giber Ringvej — høringssvar, faktatjek og aktindsigt, skrevet for
+      Giber Ringvej Gruppen. Resten er tekniske noter fra en udviklers hverdag.
+    </p>
+    <p class="hero__actions">
+      <a class="btn btn--primary" href="{{ '/vejstoej/' | relative_url }}">Følg sagen</a>
+      <a class="btn" href="{{ '/arkiv/' | relative_url }}">Se hele arkivet</a>
+    </p>
+  </div>
+</section>
+
+<section class="case" aria-labelledby="sagen">
+  <div class="wrap">
+    <div class="rule rule--ticks" role="presentation"></div>
+    <div class="case__head">
+      <h2 class="section-title" id="sagen">Sagen: {{ site.data.sag.title }}</h2>
+      <p class="section-note">{{ site.data.sag.subtitle }}</p>
+    </div>
+
+    {%- include db-scale.html -%}
+
+    <ul class="figures">
+      {%- for n in site.data.sag.noegletal -%}
+        <li class="figure">
+          <p class="figure__value">{{ n.tal }}</p>
+          <p class="figure__unit">{{ n.enhed }}</p>
+          <p class="figure__text">{{ n.tekst }}</p>
+          <a class="src" href="{{ n.kilde }}">{{ n.kilde_navn }}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
+
+    {%- if case_posts.size > 0 -%}
+      <div class="case__docs">
+        <h3 class="eyebrow">Seneste sagsakter</h3>
+        {%- assign recent_case = case_posts | slice: 0, 5 -%}
+        {%- include post-list.html posts=recent_case -%}
+        <p class="more"><a href="{{ '/vejstoej/' | relative_url }}">Alle {{ case_posts.size }} sagsakter og dokumenter</a></p>
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+{%- if other_posts.size > 0 -%}
+<section class="notes" aria-labelledby="noter">
+  <div class="wrap">
+    <div class="rule rule--ticks" role="presentation"></div>
+    <div class="case__head">
+      <h2 class="section-title" id="noter">Tekniske noter</h2>
+      <p class="section-note">Softwareudvikling, drift og andet der var værd at skrive ned.</p>
+    </div>
+    {%- assign recent_notes = other_posts | slice: 0, 6 -%}
+    {%- include post-list.html posts=recent_notes -%}
+    <p class="more"><a href="{{ '/arkiv/' | relative_url }}">Hele arkivet</a></p>
+  </div>
+</section>
+{%- endif -%}

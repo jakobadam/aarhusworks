@@ -1,4 +1,5 @@
 ---
+title: "Tutorial: Add a Let's Encrypt certificate to Postfix and Dovecot"
 layout: post
 author: Jakob Aarøe Dam
 ---
@@ -6,7 +7,7 @@ author: Jakob Aarøe Dam
 
 *I'll show how to obtain a certificate with letsencrypt and how to add it Postfix and Dovecot. As a side effect it fixes mail-sending in Wordpress.*
 
-Dammit. An `apt-get upgrade` broke mail sending from Wordpress. The setup is similar to the one covered in [Tutorial: Use personal gmail with @yourdomain.com](/tutorial-use-personal-gmail-with-yourdomain), but basically, it's like this: mails are sent using a local Postfix instance and Dovecot is used for SMTP authentication.
+Dammit. An `apt-get upgrade` broke mail sending from Wordpress. The setup is similar to the one covered in [Tutorial: Use personal gmail with @yourdomain.com](/2015/11/29/tutorial-use-personal-gmail-with-yourdomain.html), but basically, it's like this: mails are sent using a local Postfix instance and Dovecot is used for SMTP authentication.
 
 Investigating the mail log shed a little light on the cause:
 

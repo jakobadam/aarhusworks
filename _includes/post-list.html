@@ -1,0 +1,30 @@
+{%- comment -%}
+  Document register. Posts are listed the way a case file lists its documents:
+  date first, then what the document is, then its title. Usage:
+  {% include post-list.html posts=site.posts %}
+{%- endcomment -%}
+<ol class="register">
+  {%- for post in include.posts -%}
+    {%- assign cat = post.categories | first -%}
+    <li class="register__row{% if cat == site.campaign_category %} register__row--case{% endif %}">
+      <time class="register__date" datetime="{{ post.date | date_to_xmlschema }}">
+        <span class="register__date-full">{% include date-da.html date=post.date %}</span>
+        <span class="register__date-short">{{ post.date | date: "%d.%m.%Y" }}</span>
+      </time>
+      <div class="register__body">
+        <h3 class="register__title"><a href="{{ post.url | relative_url }}">{{ post.title | default: post.slug }}</a></h3>
+        {%- if post.excerpt and include.excerpts -%}
+          <p class="register__excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}</p>
+        {%- endif -%}
+      </div>
+      <span class="register__tags">
+        {%- if post.status -%}
+          <span class="chip chip--{{ post.status }}">{{ post.status }}</span>
+        {%- endif -%}
+        {%- if cat -%}
+          <span class="chip{% if cat == site.campaign_category %} chip--case{% endif %}">{{ cat }}</span>
+        {%- endif -%}
+      </span>
+    </li>
+  {%- endfor -%}
+</ol>

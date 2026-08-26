@@ -8,8 +8,6 @@ categories: vejstøj
 2025 [[link]](https://stiften.dk/debat/vi-ved-hvad-der-virker-alligevel-goer-raadmanden-ingenting). Eftersom Stiften
 fjernede referencer bringes det også her.*
 
-# Hvorfor nægter politikerne at reducere vejstøj og trafikuheld i Aarhus?
-
 Rådmand Nikolaj Bang (K) har netop sendt en indstilling til byrådet om at fastholde de nuværende høje hastigheder på det
 overordnede vejnet i Aarhus. Det gør han til trods for at samtlige analyser – herunder også forvaltningens egne – peger
 på enorme sundheds- og samfundsmæssige gevinster ved lavere fart:

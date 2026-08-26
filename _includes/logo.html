@@ -1,0 +1,16 @@
+{%- comment -%}
+  Site logo: benchmark mark + wordmark.
+
+  The mark is a surveyor's benchmark (a chevron cut up into a datum line) —
+  the fixed reference point a survey is measured from. Drawn with currentColor
+  plus one accent class so it inherits the page theme instead of shipping a
+  light and a dark copy. assets/favicon.svg is the standalone twin of this.
+{%- endcomment -%}
+<span class="logo">
+  <svg class="logo__mark" viewBox="0 0 32 32" width="32" height="32" role="img" aria-hidden="true" focusable="false">
+    <rect width="32" height="32" rx="6" class="logo__tile"/>
+    <rect x="6" y="12.7" width="20" height="2.6" rx="1.3" class="logo__datum"/>
+    <path d="M16 17.4 23.4 27H8.6Z" class="logo__chevron"/>
+  </svg>
+  <span class="logo__word"><span class="logo__word-a">aarhus</span><span class="logo__word-b">works</span></span>
+</span>

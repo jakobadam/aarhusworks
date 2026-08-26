@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{%- comment -%} Must match the partition in _layouts/home.html. {%- endcomment -%}
+{%- assign case_posts = site.posts | where_exp: "p", "p.categories.first == site.campaign_category" -%}
+
+<article class="doc doc--case">
+  <header class="doc__head wrap">
+    <p class="eyebrow eyebrow--case">Sagen</p>
+    <h1 class="doc__title">{{ page.title }}</h1>
+    {%- if page.summary -%}<p class="doc__summary">{{ page.summary }}</p>{%- endif -%}
+    <div class="rule rule--ticks" role="presentation"></div>
+  </header>
+
+  <div class="wrap">
+    <div class="prose">
+      {{ content }}
+    </div>
+
+    {%- include db-scale.html -%}
+
+    {%- if site.data.sag.vilkaar -%}
+      <section class="vilkaar-block" aria-labelledby="vilkaar">
+        <h2 class="section-title" id="vilkaar">Gruppens status på VVM-vilkårene</h2>
+        <p class="section-note">
+          Vilkårene blev stillet i miljøkonsekvensvurderingen for vejen. Status
+          herunder er Giber Ringvej Gruppens vurdering.
+        </p>
+        <ol class="vilkaar">
+          {%- for v in site.data.sag.vilkaar -%}
+            <li class="vilkaar__item vilkaar__item--{{ v.status }}">
+              <span class="vilkaar__status">{{ v.status_tekst }}</span>
+              <h3 class="vilkaar__name">{{ v.navn }}</h3>
+              <p class="vilkaar__text">{{ v.tekst }}</p>
+            </li>
+          {%- endfor -%}
+        </ol>
+      </section>
+    {%- endif -%}
+
+    <section class="case__docs" aria-labelledby="akter">
+      <div class="rule rule--ticks" role="presentation"></div>
+      <div class="case__head">
+        <h2 class="section-title" id="akter">Sagsakter</h2>
+        <p class="section-note">
+          {{ case_posts.size }} dokumenter, nyeste først. Høringssvar, faktaark,
+          faktatjek og korrespondance med forvaltningen.
+        </p>
+      </div>
+      {%- include post-list.html posts=case_posts excerpts=true -%}
+    </section>
+  </div>
+</article>

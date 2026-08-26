@@ -33,9 +33,47 @@ There are no automated tests, lint scripts beyond the pre-commit hook below, or 
 - Rendered SVGs in committed Markdown are generated artifacts, not hand-written — don't hand-edit them; edit the mermaid source block and let the hook regenerate the SVG on commit.
 - `npm install` is required once to get `mmdc` available for the hook to work.
 
+## Design system
+
+The site no longer inherits minima's look. `theme: minima` stays in `_config.yml` as a
+safety net, but every layout and all styling is local. The visual direction is a
+**public-works dossier**: cool drafting paper, drafting ink, a survey teal for anything
+actionable, and amber reserved for measured values.
+
+- `assets/css/main.scss` — the whole stylesheet. Needs its front matter (that is what
+  makes Jekyll compile it), including `layout: none` so the pages default doesn't wrap
+  the CSS in HTML. GitHub Pages still builds with **libsass**, which rejects data URIs in
+  custom properties and reads `/` in shorthand values as division — use longhand and
+  external files instead.
+- `assets/fonts/` — self-hosted Barlow Condensed (display), Source Serif 4 (body) and
+  IBM Plex Mono (measured values). No third-party font requests. See its `README.md`.
+- `_includes/logo.html` + `assets/favicon.svg` — the benchmark mark (a chevron cut up
+  into a datum line). Inline SVG so it inherits theme colours; the favicon is its
+  standalone twin and the two must be kept in step.
+- `_includes/db-scale.html` — the signature element, a decibel scale drawn as an
+  instrument rule. All values come from `_data/sag.yml`; never hard-code figures in the
+  template.
+- `_data/sag.yml` — the case's key figures and VVM-vilkår status. Every number needs a
+  source. Edit here, not in layouts.
+- `_layouts/` — `default`, `home`, `post`, `page`, `case` (the `/vejstoej/` landing page)
+  and `archive`. Posts and pages get their layout from `defaults:` in `_config.yml`;
+  most posts declare no layout of their own.
+- Liquid gotcha: `where_exp` takes a *single* comparison — `contains … == false` is a
+  syntax error. Campaign vs. non-campaign posts are partitioned on
+  `categories.first`, and `home.html` and `case.html` must stay in step.
+- Front matter extras this design understands: `status`/`status_tekst` (marks a document
+  as an unsent draft), `journalnr`, `summary`, `eyebrow`.
+
 ## Site structure notes
 
-- `_config.yml` — Jekyll site settings (title, url, theme `minima`, plugins `jekyll-feed`/`jekyll-redirect-from`). Not reloaded by `jekyll serve --watch`; restart the server after editing it.
-- `_layouts/my.css` — custom stylesheet overrides on top of the `minima` theme.
-- `assets/` — post images plus a large body of source PDFs/documents backing the Giber Ringvej and related traffic-noise posts (Aarhus Kommune noise action plans, VVM documents, hearing responses, court rulings, etc.). Posts link to these by URL (`https://aarhusworks.com/assets/...`) rather than embedding them.
+- `_config.yml` — Jekyll site settings, nav, and the `defaults:` that give posts/pages
+  their layout. Not reloaded by `jekyll serve --watch`; restart the server after editing.
+- `assets/` — post images plus a large body of source PDFs/documents backing the Giber Ringvej and related traffic-noise posts (Aarhus Kommune noise action plans, VVM documents, hearing responses, court rulings, etc.). Posts link to these by URL (`https://aarhusworks.com/assets/...`) rather than embedding them. Links ending in `.pdf` are styled as document citations automatically.
+- Post URLs come from the default `/:categories/:year/:month/:day/:title` permalink and
+  are cited in municipal correspondence — **do not change them**. If a post's categories
+  must change, add `redirect_from` (jekyll-redirect-from is available) to keep the old
+  address alive.
+- A few posts carry their own inline `<style>` (a sticky full-bleed map in
+  `2024-05-09-stoejhandlingsplan-hoeringssvar-2`, for instance). That is deliberate;
+  leave it alone.
 - `_site/` and `node_modules/` are build/dependency output — don't hand-edit.

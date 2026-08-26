@@ -1,0 +1,56 @@
+{%- comment -%}
+  The signature element: a decibel scale drawn as an instrument rule.
+
+  Every number comes from _data/sag.yml, and the amber band is the span between
+  what WHO recommends and what Danish law permits — the gap the whole case turns
+  on. Positions are percentages computed from the scale's own min/max, so
+  changing the data moves the marks.
+{%- endcomment -%}
+{%- assign s = site.data.sag.skala -%}
+{%- assign span = s.max | minus: s.min | times: 1.0 -%}
+
+{%- assign lo = s.maerker | first -%}
+{%- assign hi = s.maerker | last -%}
+{%- assign lo_pct = lo.vaerdi | minus: s.min | times: 100.0 | divided_by: span -%}
+{%- assign hi_pct = hi.vaerdi | minus: s.min | times: 100.0 | divided_by: span -%}
+{%- assign band_w = hi_pct | minus: lo_pct -%}
+
+<figure class="scale">
+  <figcaption class="scale__caption">
+    <span class="eyebrow">Vejstøj, L<sub>den</sub></span>
+    <span class="scale__legend">De 5 dB imellem er hverken anbefalet eller forbudt</span>
+  </figcaption>
+
+  <div class="scale__plot">
+    <div class="scale__band" style="left: {{ lo_pct }}%; width: {{ band_w }}%;" aria-hidden="true"></div>
+
+    <div class="scale__ticks" aria-hidden="true">
+      {%- for v in (s.min..s.max) -%}
+        {%- assign p = v | minus: s.min | times: 100.0 | divided_by: span -%}
+        {%- assign r = v | modulo: 5 -%}
+        <span class="scale__tick{% if r == 0 %} scale__tick--major{% endif %}" style="left: {{ p }}%;"></span>
+        {%- if r == 0 -%}
+          <span class="scale__num" style="left: {{ p }}%;">{{ v }}</span>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    {%- for m in s.maerker -%}
+      {%- assign p = m.vaerdi | minus: s.min | times: 100.0 | divided_by: span -%}
+      <div class="scale__mark scale__mark--{{ m.type }}" style="left: {{ p }}%;">
+        <span class="scale__mark-value">{{ m.vaerdi }}<span class="scale__mark-unit"> dB</span></span>
+        <span class="scale__mark-name">{{ m.navn }}</span>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  <ul class="scale__notes">
+    {%- for m in s.maerker -%}
+      <li>
+        <span class="u-mono scale__notes-value">{{ m.vaerdi }} dB</span>
+        {{ m.note }}
+        <a href="{{ m.kilde }}" class="src">{{ m.kilde_navn }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</figure>

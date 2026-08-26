@@ -1,0 +1,1027 @@
+---
+# Front matter is what makes Jekyll compile this to /assets/css/main.css.
+# `layout: none` is required: this file counts as a "page", so the pages
+# default in _config.yml would otherwise wrap the stylesheet in HTML.
+layout: none
+---
+
+/* ==========================================================================
+   Aarhusworks — "offentlige arbejder"
+
+   The site is a case file kept in public: høringssvar, faktaark and aktindsigt
+   about a road, plus a developer's technical notes. So the visual language is
+   borrowed from the documents themselves — survey drawings and plan sheets,
+   not a blog. Cool drafting paper rather than warm stock, drafting ink rather
+   than black, a survey teal for anything you can act on, and amber reserved
+   for one thing only: a measured value.
+
+   Type does three jobs, so there are three faces:
+     Barlow Condensed  — road-signage lineage; headings, labels, the wordmark
+     Source Serif 4    — long-form Danish argument
+     IBM Plex Mono     — anything measured: dates, decibels, journal numbers
+   ========================================================================== */
+
+/* --------------------------------------------------------------- tokens -- */
+
+:root {
+  --paper:        #f4f6f7;
+  --surface:      #ffffff;
+  --surface-sunk: #eaeef0;
+  --ink:          #111c24;
+  --ink-2:        #465864;
+  --ink-3:        #71838d;
+  --rule:         #d3dbdf;
+  --rule-strong:  #aebcc4;
+  --survey:       #0a6e7d;
+  --survey-hi:    #08525e;
+  --survey-wash:  rgba(10, 110, 125, 0.08);
+  --amber:        #a8760a;
+  --amber-wash:   rgba(200, 138, 5, 0.16);
+
+  --display: "Barlow Condensed", "Helvetica Neue", Arial, sans-serif;
+  --body:    "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono:    "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --measure: 68ch;
+  --wrap:    72rem;
+  --gutter:  clamp(1.15rem, 4vw, 2.5rem);
+
+  --step: 0.35rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper:        #0d151b;
+    --surface:      #131f27;
+    --surface-sunk: #0a1116;
+    --ink:          #e6edf1;
+    --ink-2:        #a4b5be;
+    --ink-3:        #7c8e98;
+    --rule:         #26363f;
+    --rule-strong:  #3d515c;
+    --survey:       #57c6d6;
+    --survey-hi:    #8adbe6;
+    --survey-wash:  rgba(87, 198, 214, 0.12);
+    --amber:        #e3ad35;
+    --amber-wash:   rgba(227, 173, 53, 0.16);
+  }
+}
+
+/* ----------------------------------------------------------------- base -- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  font-synthesis-weight: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img, svg, video { max-width: 100%; height: auto; }
+
+a { color: var(--survey); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { color: var(--survey-hi); }
+
+:focus-visible {
+  outline: 2px solid var(--survey);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.wrap {
+  max-width: var(--wrap);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.site-main { display: block; }
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.6rem 1rem;
+  font-family: var(--display);
+  z-index: 20;
+}
+.skip-link:focus { left: 0; }
+
+.u-visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
+}
+
+.u-mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+/* ------------------------------------------------- the measuring rule --- */
+/* The signature motif: a graduated rule. It separates every major section,
+   and on the case page it becomes a real decibel scale. */
+
+.rule {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
+  margin: 0;
+}
+
+.rule--ticks {
+  height: 9px;
+  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(var(--rule-strong), var(--rule-strong)),
+    repeating-linear-gradient(to right,
+      var(--rule) 0 1px, transparent 1px 11px);
+  background-size: 100% 1px, 100% 6px;
+  background-position: 0 0, 0 0;
+}
+
+/* --------------------------------------------------------- shared type --- */
+
+.eyebrow {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 0 0 calc(var(--step) * 2);
+}
+.eyebrow--case { color: var(--survey); }
+
+.section-title {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(1.65rem, 3.4vw, 2.35rem);
+  line-height: 1.05;
+  letter-spacing: -0.005em;
+  margin: 0;
+}
+
+.section-note {
+  color: var(--ink-2);
+  margin: calc(var(--step) * 2) 0 0;
+  max-width: 52ch;
+}
+
+.src {
+  font-family: var(--display);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule-strong);
+}
+.src:hover { color: var(--survey); border-bottom-color: var(--survey); }
+
+.chip {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 0.15rem 0.45rem;
+  white-space: nowrap;
+}
+.chip--case {
+  color: var(--survey);
+  border-color: var(--survey);
+  background: var(--survey-wash);
+}
+.chip--kladde {
+  color: var(--amber);
+  border-color: var(--amber);
+  background: var(--amber-wash);
+}
+
+.register__tags { display: inline-flex; gap: 0.35rem; flex-wrap: wrap; }
+
+/* A document that is published for transparency but not yet submitted. */
+.status-flag {
+  display: inline-block;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--amber);
+  border: 1px solid var(--amber);
+  background: var(--amber-wash);
+  border-radius: 2px;
+  padding: 0.2rem 0.55rem;
+  margin: calc(var(--step) * 3) 0 0;
+}
+
+.btn {
+  display: inline-block;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink);
+  border: 1px solid var(--rule-strong);
+  border-radius: 2px;
+  padding: 0.55rem 1.1rem;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+.btn:hover { border-color: var(--ink); background: var(--surface); color: var(--ink); }
+
+.btn--primary {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+.btn--primary:hover { background: var(--survey-hi); border-color: var(--survey-hi); color: #fff; }
+
+.more {
+  font-family: var(--display);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin: calc(var(--step) * 4) 0 0;
+}
+
+/* ------------------------------------------------------------ masthead --- */
+
+.masthead { background: var(--paper); }
+
+.masthead__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-block: calc(var(--step) * 4);
+}
+
+.masthead__brand {
+  display: inline-flex;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.logo { display: inline-flex; align-items: center; gap: 0.6rem; }
+
+.logo__mark { width: 30px; height: 30px; flex: none; }
+.logo__tile    { fill: var(--ink); }
+.logo__datum   { fill: var(--survey); }
+.logo__chevron { fill: var(--paper); }
+
+.logo__word {
+  font-family: var(--display);
+  font-size: 1.45rem;
+  line-height: 1;
+  letter-spacing: 0.005em;
+}
+.logo__word-a { font-weight: 500; color: var(--ink-2); }
+.logo__word-b { font-weight: 700; color: var(--ink); }
+
+.masthead__nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.85rem, 2.5vw, 1.6rem);
+  margin: 0;
+  padding: 0;
+}
+.masthead__nav a {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.0625rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.masthead__nav a:hover { color: var(--ink); border-bottom-color: var(--rule-strong); }
+.masthead__nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--survey); }
+
+/* ---------------------------------------------------------------- hero --- */
+
+.hero__inner { padding-block: clamp(2.5rem, 7vw, 5rem) clamp(2rem, 5vw, 3.5rem); }
+
+.hero__statement {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(2.35rem, 6.4vw, 4.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.012em;
+  margin: 0;
+  max-width: 20ch;
+}
+.hero__statement-b { display: block; color: var(--ink-2); font-weight: 600; }
+
+.hero__lede {
+  margin: calc(var(--step) * 5) 0 0;
+  max-width: 58ch;
+  font-size: 1.15rem;
+  color: var(--ink-2);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: calc(var(--step) * 6) 0 0;
+}
+
+/* ---------------------------------------------------------- case block --- */
+
+.case, .notes { padding-block: clamp(2rem, 5vw, 3.5rem); }
+.case__head { margin-block: calc(var(--step) * 6) calc(var(--step) * 8); }
+.case__docs { margin-top: calc(var(--step) * 10); }
+
+/* ------------------------------------------------------- decibel scale --- */
+
+.scale {
+  margin: 0 0 clamp(2.5rem, 6vw, 4rem);
+  padding: clamp(1.25rem, 3vw, 2rem);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+}
+
+.scale__caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+}
+.scale__caption .eyebrow { margin-bottom: 0; }
+.scale__legend {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  color: var(--amber);
+}
+
+/* Vertical budget, top to bottom: the upper mark and its leader line, the
+   axis, the tick numbers, then the lower mark and its (longer) leader. The
+   numbers sit between the two marks, so the lower leader has to clear them. */
+.scale__plot {
+  position: relative;
+  height: 12rem;
+  margin-top: 2.6rem;
+}
+
+/* the graduated rule itself sits at the vertical middle of the plot */
+.scale__ticks {
+  position: absolute;
+  inset-inline: 0;
+  top: 4.2rem;
+  height: 1.4rem;
+  border-top: 1px solid var(--rule-strong);
+}
+.scale__tick {
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 0.4rem;
+  background: var(--rule-strong);
+}
+.scale__tick--major { height: 0.85rem; background: var(--ink-3); }
+.scale__num {
+  position: absolute;
+  top: 1.05rem;
+  transform: translateX(-50%);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.scale__band {
+  position: absolute;
+  top: 3.35rem;
+  height: 3.1rem;
+  background: var(--amber-wash);
+  border-inline: 1px dashed var(--amber);
+}
+
+.scale__mark {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  text-align: center;
+  width: max-content;
+  max-width: 11rem;
+}
+.scale__mark::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 1px;
+  height: 1.1rem;
+  background: var(--ink);
+}
+.scale__mark--graense { top: auto; bottom: 0; }
+.scale__mark--graense::after { top: auto; bottom: 100%; height: 2.9rem; }
+
+.scale__mark-value {
+  display: block;
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.scale__mark-unit { font-size: 0.8rem; font-weight: 400; color: var(--ink-2); }
+.scale__mark-name {
+  display: block;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  line-height: 1.15;
+  margin-top: 0.15rem;
+}
+
+.scale__notes {
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 1.15rem 0 0;
+  border-top: 1px solid var(--rule);
+  display: grid;
+  gap: 0.7rem;
+  font-size: 0.95rem;
+  color: var(--ink-2);
+}
+.scale__notes-value { color: var(--ink); font-weight: 600; margin-right: 0.35rem; }
+.scale__notes .src { margin-left: 0.35rem; }
+
+@media (max-width: 34rem) {
+  /* Below this the two marks collide; stack the scale into a plain list. */
+  .scale__plot { display: none; }
+  .scale__notes { border-top: 0; margin-top: 1rem; padding-top: 0; }
+}
+
+/* --------------------------------------------------------- key figures --- */
+
+.figures {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.figure {
+  background: var(--surface);
+  padding: clamp(1.1rem, 2.5vw, 1.6rem);
+}
+.figure__value {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  line-height: 1;
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+.figure__unit {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 0.35rem 0 0;
+}
+.figure__text { margin: 0.7rem 0 0.9rem; font-size: 0.98rem; color: var(--ink-2); }
+
+/* ------------------------------------------------------------ register --- */
+/* Posts listed the way a case file lists its documents. */
+
+.register { list-style: none; margin: calc(var(--step) * 4) 0 0; padding: 0; }
+
+.register__row {
+  display: grid;
+  grid-template-columns: 10.5rem minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 0.35rem 1.25rem;
+  padding: 0.95rem 0.5rem 0.95rem 0.65rem;
+  border-bottom: 1px solid var(--rule);
+  border-left: 2px solid transparent;
+  transition: background-color 120ms ease, border-left-color 120ms ease;
+}
+.register__row:first-child { border-top: 1px solid var(--rule); }
+.register__row:hover { background: var(--surface); border-left-color: var(--survey); }
+
+.register__date {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.register__date-short { display: none; }
+
+.register__title {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.28rem;
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: 0.002em;
+}
+.register__title a { color: var(--ink); text-decoration: none; }
+.register__title a:hover { color: var(--survey); text-decoration: underline; }
+
+.register__excerpt {
+  margin: 0.3rem 0 0;
+  font-size: 0.95rem;
+  color: var(--ink-2);
+}
+
+@media (max-width: 46rem) {
+  .register__row { grid-template-columns: minmax(0, 1fr) auto; }
+  .register__date { grid-column: 1 / -1; order: -1; }
+  .register__date-full { display: none; }
+  .register__date-short { display: inline; }
+}
+
+/* ------------------------------------------------------ document (post) -- */
+
+.doc__head { padding-block: clamp(2rem, 5vw, 3.25rem) 0; }
+
+.doc__title {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(2.1rem, 5vw, 3.35rem);
+  line-height: 1.02;
+  letter-spacing: -0.011em;
+  margin: 0;
+  max-width: 24ch;
+}
+
+.doc__summary {
+  margin: calc(var(--step) * 4) 0 0;
+  max-width: var(--measure);
+  font-size: 1.15rem;
+  color: var(--ink-2);
+}
+
+.doc__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 2.25rem;
+  margin: calc(var(--step) * 6) 0 calc(var(--step) * 4);
+}
+.doc__meta-item dt {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.doc__meta-item dd {
+  margin: 0.1rem 0 0;
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
+.doc__foot { padding-block: clamp(2rem, 5vw, 3.5rem); }
+
+.pager {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.pager__link {
+  text-decoration: none;
+  max-width: 24rem;
+  display: block;
+}
+.pager__link--next { margin-left: auto; text-align: right; }
+.pager__dir {
+  display: block;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.pager__title {
+  display: block;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  line-height: 1.2;
+  color: var(--ink);
+  margin-top: 0.15rem;
+}
+.pager__link:hover .pager__title { color: var(--survey); }
+
+/* --------------------------------------------------------------- prose --- */
+
+.prose {
+  padding-block: clamp(1.5rem, 4vw, 2.5rem) 0;
+  /* Long URLs and identifiers appear throughout the older technical posts;
+     without this they push the whole page sideways on a phone. */
+  overflow-wrap: break-word;
+}
+.prose > * { max-width: var(--measure); }
+
+/* Older posts embed fixed-width players and demos. */
+.prose iframe,
+.prose embed,
+.prose object,
+.prose video { max-width: 100%; }
+
+.prose p,
+.prose ul,
+.prose ol,
+.prose dl { margin: 0 0 1.35em; }
+
+/* h1 is supplied by the layout, but a few posts carry one in the body — style
+   it as a section head so it never lands unstyled. */
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  font-family: var(--display);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.004em;
+  margin: 2.4em 0 0.65em;
+  scroll-margin-top: 1.5rem;
+}
+.prose h1, .prose h2 { font-size: clamp(1.5rem, 3vw, 1.95rem); }
+.prose h3 { font-size: clamp(1.25rem, 2.4vw, 1.5rem); color: var(--ink); }
+.prose h4 {
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-2);
+}
+.prose > h1:first-child, .prose > h2:first-child, .prose > h3:first-child { margin-top: 0; }
+
+.prose h1, .prose h2 {
+  padding-top: 0.55em;
+  border-top: 1px solid var(--rule);
+}
+.prose > h1:first-child, .prose > h2:first-child { padding-top: 0; border-top: 0; }
+
+.prose li { margin-bottom: 0.5em; }
+.prose li > ul, .prose li > ol { margin-top: 0.5em; }
+
+.prose strong { font-weight: 600; }
+
+/* Citations. Nearly every claim on this site is followed by a link to the PDF
+   it rests on, so those links are marked as documents rather than left to look
+   like ordinary prose links — quietly, because there are hundreds of them. */
+.prose a[href$=".pdf"],
+.prose a[href*=".pdf#"] {
+  text-decoration-color: var(--rule-strong);
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+}
+.prose a[href$=".pdf"]::after,
+.prose a[href*=".pdf#"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.62em;
+  height: 0.78em;
+  margin-left: 0.22em;
+  vertical-align: -0.02em;
+  opacity: 0.55;
+  background-color: currentColor;
+  /* Longhand, and an external file rather than a data URI: the libsass build
+     GitHub Pages still runs rejects both a data URI in a custom property and
+     the `center / contain` shorthand (it reads the slash as division). */
+  -webkit-mask-image: url("/assets/img/doc.svg");
+  mask-image: url("/assets/img/doc.svg");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+.prose a[href$=".pdf"]:hover,
+.prose a[href*=".pdf#"]:hover { text-decoration-color: var(--survey); }
+
+.prose blockquote {
+  margin: 1.8em 0;
+  padding: 0.1em 0 0.1em 1.4em;
+  border-left: 3px solid var(--survey);
+  color: var(--ink-2);
+  font-style: italic;
+}
+.prose blockquote p:last-child { margin-bottom: 0; }
+/* A heading opening a blockquote (the KLADDE banners) shouldn't drag in the
+   section-divider rule that .prose h1/h2 carry. */
+.prose blockquote > :first-child { margin-top: 0; }
+.prose blockquote h1,
+.prose blockquote h2,
+.prose blockquote h3 {
+  border-top: 0;
+  padding-top: 0;
+  font-style: normal;
+}
+
+.prose figure { margin: 2em 0; }
+.prose img { display: block; border-radius: 2px; }
+.prose figcaption,
+.prose img + em {
+  font-family: var(--display);
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-3);
+}
+
+.prose hr {
+  border: 0;
+  height: 1px;
+  background: var(--rule);
+  margin: 2.5em 0;
+}
+
+/* Tables carry the numbers in the faktaark, so they get real treatment.
+   `display:block` lets a wide table scroll on its own instead of pushing the
+   page sideways. */
+.prose table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  margin: 1.9em 0;
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+}
+.prose thead th {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  text-align: left;
+  vertical-align: bottom;
+  border-bottom: 2px solid var(--ink-3);
+  padding: 0.5rem 0.9rem 0.45rem 0;
+}
+.prose tbody td {
+  border-bottom: 1px solid var(--rule);
+  padding: 0.55rem 0.9rem 0.55rem 0;
+  vertical-align: top;
+}
+.prose tbody tr:hover { background: var(--survey-wash); }
+.prose th:last-child, .prose td:last-child { padding-right: 0; }
+
+/* Code — the technical notes still need to read well. */
+.prose code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--surface-sunk);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 0.08em 0.3em;
+}
+.prose pre {
+  font-family: var(--mono);
+  font-size: 0.86rem;
+  line-height: 1.55;
+  background: var(--surface-sunk);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  margin: 1.7em 0;
+}
+.prose pre code {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-size: inherit;
+}
+.prose .highlighter-rouge { max-width: var(--measure); }
+
+/* Syntax highlighting. Rouge emits the tokens; this is a deliberately narrow
+   palette built from the site's own colours rather than a stock theme, so code
+   sits in the same world as everything else. Keyword, name, literal, comment —
+   four roles, nothing more. */
+.prose .highlight {
+  --tok-key: #8a2f6b;
+  --tok-lit: #0a6e7d;
+  --tok-com: #6a7a84;
+  --tok-nam: #1d4f7a;
+}
+@media (prefers-color-scheme: dark) {
+  .prose .highlight {
+    --tok-key: #e88cc0;
+    --tok-lit: #57c6d6;
+    --tok-com: #7b8d97;
+    --tok-nam: #8fc0e8;
+  }
+}
+
+.prose .highlight .k,  .prose .highlight .kc, .prose .highlight .kd,
+.prose .highlight .kn, .prose .highlight .kr, .prose .highlight .ow {
+  color: var(--tok-key);
+  font-weight: 600;
+}
+.prose .highlight .s,  .prose .highlight .se, .prose .highlight .sh,
+.prose .highlight .dl, .prose .highlight .mi { color: var(--tok-lit); }
+.prose .highlight .c,  .prose .highlight .cm { color: var(--tok-com); font-style: italic; }
+.prose .highlight .nc, .prose .highlight .nf, .prose .highlight .nt,
+.prose .highlight .na, .prose .highlight .nn, .prose .highlight .nd,
+.prose .highlight .bp, .prose .highlight .nb { color: var(--tok-nam); }
+.prose .highlight .err { color: var(--amber); }
+.prose .highlight .o, .prose .highlight .p { color: var(--ink-2); }
+
+/* Footnotes */
+.prose .footnotes {
+  margin-top: 3em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--rule);
+  font-size: 0.94rem;
+  color: var(--ink-2);
+}
+.prose sup[role="doc-noteref"] a,
+.prose .footnote { text-decoration: none; font-family: var(--mono); font-size: 0.8em; }
+
+/* Mermaid diagrams are generated into the markdown by bin/mermaid2svg.sh —
+   keep them from overflowing on narrow screens. */
+.mermaid-svg {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1.9em 0;
+}
+.mermaid-svg svg { max-width: 100%; height: auto; }
+
+/* The mermaid source block is kept in the markdown for editing; the rendered
+   SVG that follows it is what readers should see. */
+.prose div.language-mermaid { display: none; }
+
+/* -------------------------------------------------------- VVM-vilkår --- */
+/* A numbered list is right here: these are the conditions in the order the
+   permit sets them out, and the number is how they get referred to. */
+
+.vilkaar-block { margin-block: clamp(2.5rem, 6vw, 4rem); }
+
+.vilkaar {
+  list-style: none;
+  counter-reset: vilkaar;
+  margin: calc(var(--step) * 6) 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+}
+
+.vilkaar__item {
+  counter-increment: vilkaar;
+  position: relative;
+  background: var(--surface);
+  padding: clamp(1.15rem, 2.5vw, 1.7rem);
+}
+.vilkaar__item::before {
+  content: counter(vilkaar, decimal-leading-zero);
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--ink-3);
+}
+
+.vilkaar__status {
+  float: right;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  padding: 0.1rem 0.4rem;
+  color: var(--ink-3);
+}
+.vilkaar__item--ikke-opfyldt .vilkaar__status { color: var(--amber); }
+.vilkaar__item--opfyldt .vilkaar__status { color: var(--survey); }
+
+.vilkaar__name {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.15;
+  margin: 0.3rem 0 0;
+}
+.vilkaar__text { margin: 0.55rem 0 0; font-size: 0.98rem; color: var(--ink-2); }
+
+/* ------------------------------------------------------------- archive --- */
+
+.archive-year { margin-block: clamp(2rem, 5vw, 3rem); }
+
+.archive-year__label {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.05em;
+  color: var(--ink-3);
+  margin: 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--ink-3);
+}
+.archive-year .register { margin-top: 0; }
+.archive-year .register__row:first-child { border-top: 0; }
+
+/* ------------------------------------------------------------ colophon --- */
+
+.colophon { margin-top: clamp(3rem, 8vw, 5rem); }
+
+.colophon__inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: clamp(1.5rem, 4vw, 3rem);
+  padding-block: clamp(2rem, 5vw, 3rem) clamp(2.5rem, 6vw, 4rem);
+}
+.colophon__title {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.35rem;
+  margin: 0 0 0.5rem;
+}
+.colophon__note { margin: 0; font-size: 0.95rem; color: var(--ink-2); max-width: 38ch; }
+.colophon__links { list-style: none; margin: 0; padding: 0; font-size: 0.95rem; }
+.colophon__links li { margin-bottom: 0.3rem; }
+
+/* ------------------------------------------------------------- a11y/UX --- */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* --------------------------------------------------------------- print --- */
+/* Høringssvar get printed and PDF'd for submission — make that version clean. */
+
+@media print {
+  :root {
+    --paper: #fff;
+    --surface: #fff;
+    --surface-sunk: #fff;
+    --ink: #000;
+    --ink-2: #333;
+    --ink-3: #555;
+    --rule: #bbb;
+    --rule-strong: #888;
+    --survey: #000;
+  }
+  body { font-size: 11pt; background: #fff; }
+  .masthead__nav,
+  .skip-link,
+  .pager,
+  .colophon__links,
+  .hero__actions,
+  .more,
+  .rule--ticks { display: none; }
+  .colophon { margin-top: 1.5rem; border-top: 1px solid #bbb; }
+  .doc__title { font-size: 22pt; }
+  .prose > * { max-width: none; }
+  .prose h2, .prose h3 { break-after: avoid; }
+  .prose pre, .prose table, .prose figure, .mermaid-svg { break-inside: avoid; }
+  a { color: #000; }
+}

@@ -1,0 +1,62 @@
+# Nøgletal for vejstøjsagen, brugt af forsiden og /vejstoej/.
+# Alle tal skal kunne belægges med en kilde. Ret her — ikke i templates.
+
+title: Giber Ringvej
+subtitle: Vejstøj, VVM-vilkår og de svar der udeblev
+
+# Instrumentskalaen på forsiden. Værdier i dB (Lden).
+skala:
+  min: 45
+  max: 70
+  maerker:
+    - vaerdi: 53
+      navn: WHO's anbefaling
+      note: Over dette niveau ses øget risiko for iskæmisk hjertesygdom.
+      kilde: https://iris.who.int/server/api/core/bitstreams/71c1d252-463d-40a9-842e-5126d7fdbdec/content
+      kilde_navn: WHO, 2018
+      type: anbefaling
+    - vaerdi: 58
+      navn: Miljøstyrelsens grænseværdi
+      note: Bygger på ældre spørgeskemaundersøgelser af støjgener, ikke sundhedseffekter.
+      kilde: https://mst.dk/media/asxfobqt/stoej_fra_veje_2007.pdf
+      kilde_navn: Miljøstyrelsen, 2007
+      type: graense
+
+# Gruppens status på VVM-vilkårene. Ordlyd og status redigeres her.
+# status: opfyldt | delvis | ikke-opfyldt
+vilkaar:
+  - navn: Afskærmende beplantning
+    status: ikke-opfyldt
+    status_tekst: Ikke opfyldt
+    tekst: >-
+      Den beplantning der skulle skærme naboerne, er ikke etableret i det
+      omfang miljøkonsekvensvurderingen forudsatte.
+  - navn: Støjreducerende asfalt
+    status: ikke-opfyldt
+    status_tekst: Ikke opfyldt
+    tekst: >-
+      Den støjreducerende belægning har ikke leveret den dæmpning der blev
+      lagt til grund, og slides desuden ned over tid.
+  - navn: Støjpuljen
+    status: ikke-opfyldt
+    status_tekst: Uafklaret
+    tekst: >-
+      Den afsatte pulje til støjafskærmning er ikke blevet anvendt til
+      formålet. Se "De 19 millioner der forsvandt".
+
+noegletal:
+  - tal: "168.880"
+    enhed: aarhusianere
+    tekst: er udsat for vejstøj over WHO's anbefalede grænse på 53 dB.
+    kilde: https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=28
+    kilde_navn: Støjhandlingsplan 2024, Aarhus Kommune
+  - tal: "69"
+    enhed: nye tilfælde om året
+    tekst: af iskæmisk hjertesygdom i Aarhus forårsages af vejstøj.
+    kilde: https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=28
+    kilde_navn: Støjhandlingsplan 2024, Aarhus Kommune
+  - tal: "5"
+    enhed: dB's forskel
+    tekst: mellem WHO's anbefaling og den danske grænseværdi, der stadig lægges til grund for nye veje.
+    kilde: https://mst.dk/media/asxfobqt/stoej_fra_veje_2007.pdf
+    kilde_navn: Miljøstyrelsen, 2007

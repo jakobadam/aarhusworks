@@ -4,8 +4,6 @@ author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
 categories: vejstøj
 ---
 
-# Aarhus som ‘City 30’-by?
-
 _Dette er et høringssvar afgivet på vegne af Giber Ringvej Gruppe til Aarhus Kommunes 'Forslag til Grøn
 Mobilitetsplan' –
 det originale høringsvar kan

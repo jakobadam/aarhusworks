@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="doc">
+  <header class="doc__head wrap">
+    {%- if page.eyebrow -%}<p class="eyebrow">{{ page.eyebrow }}</p>{%- endif -%}
+    <h1 class="doc__title">{{ page.title }}</h1>
+    {%- if page.summary -%}<p class="doc__summary">{{ page.summary }}</p>{%- endif -%}
+    <div class="rule rule--ticks" role="presentation"></div>
+  </header>
+
+  <div class="prose wrap">
+    {{ content }}
+  </div>
+</article>

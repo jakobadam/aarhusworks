@@ -1,0 +1,73 @@
+---
+layout: default
+---
+{%- assign cat = page.categories | first -%}
+{%- assign is_case = false -%}
+{%- if cat == site.campaign_category %}{% assign is_case = true %}{% endif -%}
+
+<article class="doc{% if is_case %} doc--case{% endif %}" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="doc__head wrap">
+    {%- if is_case -%}
+      <p class="eyebrow eyebrow--case">Sagsakt · Vejstøj</p>
+    {%- elsif cat -%}
+      <p class="eyebrow">{{ cat }}</p>
+    {%- else -%}
+      <p class="eyebrow">Note</p>
+    {%- endif -%}
+
+    <h1 class="doc__title" itemprop="name headline">{{ page.title | default: page.slug }}</h1>
+
+    {%- comment -%}
+      Documents here move from draft to submitted. `status: kladde` in the front
+      matter marks one that is published for transparency but not yet sent.
+    {%- endcomment -%}
+    {%- if page.status -%}
+      <p class="status-flag status-flag--{{ page.status }}">{{ page.status_tekst | default: page.status }}</p>
+    {%- endif -%}
+
+    <dl class="doc__meta">
+      <div class="doc__meta-item">
+        <dt>Dato</dt>
+        <dd><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include date-da.html date=page.date %}</time></dd>
+      </div>
+      {%- if page.author -%}
+      <div class="doc__meta-item">
+        <dt>Afsender</dt>
+        <dd itemprop="author">{{ page.author }}</dd>
+      </div>
+      {%- endif -%}
+      {%- if page.journalnr -%}
+      <div class="doc__meta-item">
+        <dt>Journalnr.</dt>
+        <dd class="u-mono">{{ page.journalnr }}</dd>
+      </div>
+      {%- endif -%}
+    </dl>
+    <div class="rule rule--ticks" role="presentation"></div>
+  </header>
+
+  <div class="prose wrap" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <footer class="doc__foot wrap">
+    <div class="rule" role="presentation"></div>
+    {%- assign prev = page.previous -%}
+    {%- assign next = page.next -%}
+    <nav class="pager" aria-label="Flere skriverier">
+      {%- if prev -%}
+        <a class="pager__link pager__link--prev" href="{{ prev.url | relative_url }}">
+          <span class="pager__dir">Forrige</span>
+          <span class="pager__title">{{ prev.title | default: prev.slug }}</span>
+        </a>
+      {%- endif -%}
+      {%- if next -%}
+        <a class="pager__link pager__link--next" href="{{ next.url | relative_url }}">
+          <span class="pager__dir">Næste</span>
+          <span class="pager__title">{{ next.title | default: next.slug }}</span>
+        </a>
+      {%- endif -%}
+    </nav>
+  </footer>
+</article>

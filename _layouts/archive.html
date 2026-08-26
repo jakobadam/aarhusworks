@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{%- assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+
+<article class="doc">
+  <header class="doc__head wrap">
+    <p class="eyebrow">Arkiv</p>
+    <h1 class="doc__title">{{ page.title }}</h1>
+    {%- if page.summary -%}<p class="doc__summary">{{ page.summary }}</p>{%- endif -%}
+    <dl class="doc__meta">
+      <div class="doc__meta-item">
+        <dt>Antal</dt>
+        <dd>{{ site.posts.size }} skriverier</dd>
+      </div>
+      <div class="doc__meta-item">
+        <dt>Periode</dt>
+        <dd>{{ site.posts.last.date | date: "%Y" }}–{{ site.posts.first.date | date: "%Y" }}</dd>
+      </div>
+    </dl>
+    <div class="rule rule--ticks" role="presentation"></div>
+  </header>
+
+  <div class="wrap">
+    {%- if page.content != "" -%}
+      <div class="prose">{{ content }}</div>
+    {%- endif -%}
+
+    {%- for year in years -%}
+      <section class="archive-year" aria-labelledby="aar-{{ year.name }}">
+        <h2 class="archive-year__label" id="aar-{{ year.name }}">{{ year.name }}</h2>
+        {%- include post-list.html posts=year.items -%}
+      </section>
+    {%- endfor -%}
+  </div>
+</article>
