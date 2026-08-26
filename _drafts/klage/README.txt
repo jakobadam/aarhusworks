@@ -1,13 +1,18 @@
-Klage-arbejdsmappe for Giber Ringvej Gruppen
-============================================
+Arbejdsmappe for Giber Ringvej Gruppens sag
+===========================================
 
-Denne mappe indeholder klagedokumenterne og tilhoerende arbejdsdokumenter.
+Denne mappe indeholder sagens hoveddokumenter og tilhoerende arbejdsdokumenter.
 Kildedokumenter (PDF'er) ligger i assets og er tilgaengelige online - der kopieres
-ikke PDF'er herop. Klagerne bruger i stedet URL-links til kildedokumenterne.
+ikke PDF'er herop. Dokumenterne bruger i stedet URL-links til kildedokumenterne.
 
-KLAGEDOKUMENTER (tre separate spor):
+BEMAERK: kun to af de tre spor er klager. Ankestyrelsens kommunale tilsyn er
+IKKE en klageinstans, men en tilsynsmyndighed, der efter kommunestyrelseslovens
+§ 48 a selv beslutter, om der er anledning til at rejse en sag. Hoveddokumentet
+er derfor en ANMODNING om tilsynssag - ikke en klage.
+
+HOVEDDOKUMENTER (tre separate spor):
 -------------------------------------
-- klage-ankestyrelsen.md       HOVED-KLAGE til Ankestyrelsens kommunale tilsyn
+- anmodning-om-tilsynssag-ankestyrelsen.md       HOVEDDOKUMENT — anmodning til Ankestyrelsens kommunale tilsyn
                                Forvaltningsmæssige mangler, manglende genoptagelse,
                                manglende dokumentation for VVM-vilkaarsopfyldelse.
                                Trigger: kommunens afvisning 25/2/2026 og 8/4/2026.

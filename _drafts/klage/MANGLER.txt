@@ -1,0 +1,144 @@
+MANGLER - Dokumenter og oplysninger der stadig mangler i klagebasen
+Opdateret: maj 2026
+=====================================================================
+
+Disse dokumenter er refereret til i klageudkastet eller er nødvendige for at
+understøtte klagen, men er endnu ikke fundet i filsystemet. De bør fremskaffes
+og lægges ind i den relevante temamappe.
+
+Prioritet: KRITISK = klagen kan ikke indgives uden, HØJTPRIORITERET = stærkt
+ønskelig dokumentation, ØNSKELIG = understøtter men er ikke afgørende.
+
+
+=== KRITISK ===
+
+1. VVM-tilladelsen (2018) — LØST                                 → Bilag 9
+   Filen 2018-vvm-tilladelse.pdf er tilføjet (10 sider, 12. oktober 2018).
+   URL: https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf
+   Nøglevilkår: 2 (beplantning), 5 (støjdæmpende belægning), 7 (20 mio. kr.).
+
+2. Landzonetilladelse ved Ingerslevvej 72 — LØST                 → Bilag 7
+   Filen 2022-landzonetilladelse-deponivold.pdf er allerede i assets/giber-ringvej/.
+   Det ER samme sag som volden ved Kølsmosevej (S2022-9075, 27. januar 2022).
+   Begrundelsen citerer direkte "barriere-effekt i forhold til ejendommen
+   Ingerslevvej 72". Tilhørende miljøvurderings-screening (26. januar 2022)
+   ligger i assets/aak-stoejhandlingsplan-2024/lanzonetilladelser/jordvold-kølsmosevej.pdf.
+   URL: https://aarhusworks.com/assets/giber-ringvej/2022-landzonetilladelse-deponivold.pdf
+
+3. Kommunens redegørelser 1-3 og GRGs modredegørelser 1-3       → Bilag 2a-4b
+   De formelle redegørelsesdokumenter fra kommunen og GRGs svar på dem
+   (formentlig fra 2022-2024 korrespondancen). Disse er kernen i det
+   forudgående forløb og er nødvendige for at vise det samlede forløb.
+   → Placer i: 40-moeder-og-korrespondance
+   → Tilgås via GRGs eget arkiv eller via aktindsigt.
+
+
+=== HØJTPRIORITERET ===
+
+4. Mailkorrespondance om erkendelse af misvisende oplysninger    → Bilag 5
+   UDGÅR. Bilag 5 er vurderet ufornøden og markeret "udgår" i klagen og
+   bilagslisten. Der findes formentlig ingen selvstændig "misvisende"-mail;
+   erkendelsen bor i den formelle redegørelse 2 (bilag 3), som citeres
+   ordret i klagens afsnit 3.1: "Det var misvisende, at det fremgik, at der
+   var etableret 16 støjvolde...". Den er tillige bekræftet ved aktindsigt
+   den 19. maj 2025 (bilag 6) og underbygget af Rambølls annotationer
+   (bilag 17). Ingen yderligere fremskaffelse nødvendig.
+
+5. Aktindsigtsforløb (uddrag) — LØST                            → Bilag 6
+   Filen 2025-05-20-mil-aktindsigt-mails.pdf er tilføjet. Dokumenterer
+   GRGs aktindsigtsanmodninger 16. marts–12. maj 2025 om al dokumentation
+   vedr. 20-mio-puljen samt kommunens svar (marts–maj 2025) — herunder
+   den drypvise udlevering, forvaltningens erklæring om "fuldstændig"
+   aktindsigt den 9. maj (før flere mails dukkede op 16.+19. maj),
+   erkendelsen af manglende økonomistyring (18. marts) og bekræftelsen
+   af, at TU er orienteret om Rambølls "misvisende formulering" (19. maj).
+   URL: https://aarhusworks.com/assets/giber-ringvej/2025-05-20-mil-aktindsigt-mails.pdf
+   Anvendt i klagen: afsnit 4.8 (aktindsigt) og afsnit 3.1 (regnskab).
+
+6. Underliggende notater som Rambøll refererer til
+   Rambøll refererer i sin kommentering (marts 2026) til egne notater om
+   projektforløbet, VVM-tilladelsen og projekteringsmæssige støjtiltag.
+   Disse notater er ikke kommet os i hænde.
+   Konkret ønsket (jf. udkast til mail til MTM):
+     a) Notat vedr. projektforløbet
+     b) Notat vedr. VVM-tilladelsen
+     c) Notat vedr. projekteringsmæssige tiltag i relation til støj
+     d) Notat vedr. støjdæmpning ved Nymarks Allé
+     (mappe\todo.txt: "Se notat vedr. Støjdæmpning ved Nymarks Allé")
+   → Placer i: 10-pulje-20-mio\ramboll-svar
+   → Anmod via aktindsigt eller via mail til MTM.
+
+7. Rambøll-kommenteret beplantningsfaktaark (PDF)               → Bilag 17 del
+   Bilag2e i Rambølls kommenteringspakke fra marts 2026.
+   Vi har kun OCR-tekstudtrækket (2026-ramboell-Bilag2e-...).
+   Selve PDF-filen er ikke i vores mappe.
+   → Placer i: 20-beplantning\ramboll-svar
+   → Anmod om fuld Rambøll-kommenteringspakke fra MTM.
+
+8. Rambøll Bilag2a (kommenteret version af faktaark redegørelse 1)
+   I session-state-OCR hedder filen Bilag2a, men den svarer muligvis til
+   den allerede kopierede "2026-03-ramboell-kommentering-2025-05-faktaark-
+   pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf". Verificer at det
+   er den korrekte/komplette fil.
+   → Placer evt. i: 10-pulje-20-mio\ramboll-svar
+
+9. Landzonetilladelse for Testrup-voldene
+   Voldene ved Testrup omtales i klagen som godkendt til visuel
+   afskærmning (ikke støj) og beliggende i område under 53 dB Lden.
+   Den konkrete landzonetilladelse er ikke fundet.
+   → Placer i: 10-pulje-20-mio\aktindsigt
+   → Anmod via aktindsigt.
+
+10. Landzonetilladelse for Nymarks Allé
+    Støjvolden ved Nymarks Allé omtales i Rambølls kommentering.
+    Den tilhørende landzonetilladelse er ikke fundet.
+    (mappe\todo.txt: "Ingerslevvej 72 barriereeffekt??")
+    → Placer i: 10-pulje-20-mio\aktindsigt
+    → Anmod via aktindsigt.
+
+
+=== ØNSKELIG ===
+
+11. Fotodokumentation vedrørende manglende beplantning           → Bilag 8 del
+    Aktuel fotodokumentation langs Giber Ringvej, der viser fraværet
+    af slørende beplantning ved bysamfundene.
+    → Placer i: 20-beplantning\jeres-notater
+    → Kan tages af GRG selv.
+
+12. Kommunens redegørelse om støjhandlingsplan
+    Kommunens svar på GRGs høringsbidrag til støjhandlingsplanen.
+    Vi har bidragsnotatet men ikke kommunens svar.
+    → Placer i: 30-vejstoej-kvs\kommunens-svar
+
+13. Effektkort (støjkort) for hele strækningen
+    Nævnt i materialet som reference for, om jordvolde og vejsænkninger
+    er medtaget som støjtiltag. Vi har effekt-af-tiltag-notatet men
+    eventuelt ikke det fulde kortmateriale.
+    → Placer i: 10-pulje-20-mio\retsgrundlag
+
+14. Tidslinje som selvstændigt PDF-bilag                         → Bilag 1
+    Klagens bilag 1 er "Tidslinje - Giber Ringvej Gruppen".
+    En tekstversion findes i 00-overblik\tidslinje.txt men ikke som
+    færdigt bilag-dokument.
+    → Placer i: 90-bilag-endelig når klagen er klar
+
+15. Dom fra Retten i Aarhus (81190-dom.pdf) - nu kopieret
+    Status: KOPIERET til 10-pulje-20-mio\retsgrundlag\81190-dom.pdf
+    Dom af 7. april 2025 om erstatning for nærføringsgener fra
+    Giber Ringvej. Understøtter at vejens støjgener er reelle og
+    dokumenterede.
+
+
+=== NOTER OM MANGLENDE SAMMENHÆNG ===
+
+- Bilag 2a-4b i klageudkastet refererer til et forløb med kommunens
+  redegørelser og GRGs svar. Det er uklart, om disse er separate
+  dokumenter eller uddrag af høringssvaret fra november 2024.
+  Afklar med GRG, hvad der menes med hhv. "redegørelse 1-3" og
+  "modredegørelse 1-3".
+
+- Mappe\todo.txt indeholder to korte noter, der endnu ikke er fulgt op:
+    "Ingerslevvej 72 barriereeffekt??"
+    "Se notat vedr. Støjdæmpning ved Nymarks Allé / Volden er udført."
+  Disse indikerer, at der er relevante dokumenter om disse to steder,
+  som endnu ikke er indhentet.

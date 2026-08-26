@@ -740,7 +740,7 @@ categories: vejstøj
     <div class="tl-body">
       <span class="tl-tag">Åbning</span>
       <p class="tl-title">Giber Ringvej åbner for trafik</p>
-      <p class="tl-text">Beplantningen er ikke etableret. Belægningen er KVS — ikke den støjreducerende SRS, projektet <a href="/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3">ifølge Rambøll</a> havde forudsat. Vejen udløser flest <a href="/assets/giber-ringvej/stoejhandlingsplan-hoeringsbidrag.pdf">høringssvar</a> af alle kommunale veje i kommunens støjhandlingsplan.</p>
+      <p class="tl-text">Beplantningen er ikke etableret. Belægningen er KVS — ikke den støjreducerende SRS, projektet <a href="/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3">ifølge Rambøll</a> havde forudsat. Vejen udløser flest <a href="/assets/giber-ringvej/stoejhandlingsplan-hoeringsbidrag.pdf">høringssvar</a> af alle kommunale veje i kommunens støjhandlingsplan — 52 af 321 bidrag.</p>
     </div>
   </li>
 
@@ -971,6 +971,19 @@ categories: vejstøj
       <span class="tl-spor tl-spor--proces">Spor · Sagsbehandling</span>
       <p class="tl-title">"Vi er juridisk uenige"</p>
       <p class="tl-text">GRG fremlægger tre <a href="/assets/giber-ringvej/2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf">afklaringsnotater</a>. Direktøren erklærer, at parterne er <em>"juridisk uenige"</em>, og at det er <em>"formålsløst at fortsætte med at sende notater frem og tilbage"</em>. GRG varsler klage — <a href="/assets/giber-ringvej/2026-04-referat-GRG-og-MTM.txt">referatet</a>.</p>
+    </div>
+  </li>
+
+  <li class="tl-item tl-item--slim">
+    <div class="tl-date">
+      <span class="tl-year">2026</span>
+      <span class="tl-month">Jun</span>
+    </div>
+    <div class="tl-dot"></div>
+    <div class="tl-body">
+      <span class="tl-spor tl-spor--beplantning">Spor · Beplantning</span>
+      <p class="tl-title">Hullet, hvor kommunen selv har målt højest</p>
+      <p class="tl-text">Forvaltningens beplantningsforslag dækker ikke den strækning ved Mårslet, som kommunens egen <a href="/assets/giber-ringvej/2019-landsskabstrategi.pdf">landskabsstrategi</a> udpeger til <em>"visuel støjskærmning (beplantning) nordside af vej"</em>. Kommunen beskriver den selv som strækningen <em>"mellem rundkørsel og Mustrupvej"</em> — og dér ligger Damgårdstoften 65, hvor <a href="/assets/mtm-modsvar/2023-08-VM-accoustics-m%C3%A5lt-trafikst%C3%B8j.pdf#page=5">kommunens egen måling</a> gav den højeste af ti værdier: 57,4 dB. Rådmanden bad i april forvaltningen undersøge hullet. Den 12. juni <a href="/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf">svarede</a> forvaltningen: <em>"Vi vender tilbage snarest muligt."</em> Der er ikke kommet svar.</p>
     </div>
   </li>
 

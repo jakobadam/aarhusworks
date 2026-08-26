@@ -1,0 +1,114 @@
+Arbejdsoverblik over bilag og kilder
+
+Bilagsliste - Giber Ringvej Gruppen
+====================================
+Base-URL: https://aarhusworks.com/assets/giber-ringvej/
+
+Alle PDF-kildedokumenter ligger i assets og er tilgaengelige via URL.
+Klagen refererer til dem som bilag med link (ikke lokale kopier).
+
+--- KLAGENS BILAG (jf. klage.md § 8) ---
+
+Bilag 1   Tidslinje - Giber Ringvej Gruppen
+          [oprettes som separat dokument]
+
+Bilag 2a  Kommunens redegoerelse 1
+          MANGLER - se MANGLER.txt
+
+Bilag 2b  Modredegoerelse 1 (GRG)
+          MANGLER - se MANGLER.txt
+
+Bilag 3a  Kommunens redegoerelse 2
+          MANGLER - se MANGLER.txt
+
+Bilag 3b  Modredegoerelse 2 (GRG)
+          MANGLER - se MANGLER.txt
+
+Bilag 4a  Kommunens redegoerelse 3
+          MANGLER - se MANGLER.txt
+
+Bilag 4b  Modredegoerelse 3 (GRG)
+          MANGLER - se MANGLER.txt
+
+Bilag 5   UDGÅR - selvstændig "misvisende"-mail er ufornøden
+          Erkendelsen er dokumenteret ordret i redegoerelse 2 (bilag 3),
+          bekraeftet ved aktindsigt 19. maj 2025 (bilag 6) og underbygget
+          af Ramboells annotationer (bilag 17). Se MANGLER.txt.
+
+Bilag 6   Aktindsigtsforloebet (uddrag)
+          https://aarhusworks.com/assets/giber-ringvej/2025-05-20-mil-aktindsigt-mails.pdf
+          GRGs anmodninger 16. marts-12. maj 2025 + kommunens svar (marts-maj 2025)
+
+Bilag 7   Landzonetilladelse - jordvold ved Koelsmosevej/Ingerslevvej
+          MANGLER - se MANGLER.txt
+
+Bilag 8   Uddrag af VVM-redegoerelse, VVM-kortbilag og fotodokumentation
+          https://aarhusworks.com/assets/giber-ringvej/2013-vvm-kortbilag.pdf
+          https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf  [VVM-redegoerelse, Tillaeg 43]
+
+Bilag 9   VVM-tilladelsen (Bering-Beder vejen, 12. oktober 2018)
+          https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf
+          Vilkaar 2 (beplantning/landskab), 5 (stoejdaempende belaegning), 7 (20 mio. kr.)
+
+Bilag 10  Ramboell-dokumentation om stoajtiltag og beplantning
+          https://aarhusworks.com/assets/giber-ringvej/mappe/2026-03-ramboell-kommentering-af-faktaark.pdf
+          https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegoerelse-for-beplantning.pdf
+
+Bilag 11  Projektindstillingen og VVM-tilpasninger 2019
+          https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf
+          https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf
+
+Bilag 12  Afklaringsnotat 1 - VVM og vejstoej (8. april 2026)
+          https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf
+
+Bilag 13  Afklaringsnotat 2 - Puljen paa 20 mio. kr. (8. april 2026)
+          https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf
+
+Bilag 14  Afklaringsnotat 3 - Sloerende beplantning (8. april 2026)
+          https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-3-sloerende-beplantning-giber-ringvej.pdf
+
+Bilag 15  Referat af moede GRG og Teknik og Miljo (8. april 2026)
+          [lokal fil: 2026-04-referat-GRG-og-MTM.txt]
+
+Bilag 16  Vejdirektoratets notat om klimavenlig asfalt (2019)
+          https://aarhusworks.com/assets/giber-ringvej/asfalt-vejdirektoratet-KVS-konklusionsnotat.pdf
+
+Bilag 17  Rambolls kommentering af faktaark med bilag 2a-2f (marts 2026)
+          https://aarhusworks.com/assets/giber-ringvej/mappe/2026-03-ramboell-kommentering-af-faktaark.pdf
+          https://aarhusworks.com/assets/giber-ringvej/mappe/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf
+          https://aarhusworks.com/assets/giber-ringvej/mappe/2026-03-ramboell-Bilag2b-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2_Kommenteret.pdf
+          https://aarhusworks.com/assets/giber-ringvej/mappe/2026-03-ramboell-Bilag2c-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2-efter-aktindsigt_Kommenteret.pdf
+          https://aarhusworks.com/assets/giber-ringvej/mappe/2026-03-ramboell-Bilag2d-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3_Kommenteret.pdf
+          https://aarhusworks.com/assets/giber-ringvej/mappe/2026-03-mtm-kommentering-2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf
+          [Bilag2e beplantning + Bilag2f VVM: kun OCR-tekst tilgaengelig - se MANGLER.txt]
+
+
+--- OEVRIGE RELEVANTE KILDEDOKUMENTER (ikke klagebilag) ---
+
+Retsgrundlag/kontekst:
+  https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf
+  https://aarhusworks.com/assets/giber-ringvej/2016-kommunalplan-tillaeg-sammenfattende-redegoerelse.pdf
+  https://aarhusworks.com/assets/giber-ringvej/2019-08-effekt-af-tiltag.pdf
+
+GRGs faktaark (maj 2025):
+  https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf
+  https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2.pdf
+  https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2-efter-aktindsigt.pdf
+  https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3.pdf
+  https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf
+  https://aarhusworks.com/assets/giber-ringvej/2025-05-faktaark-vvm-og-vejstoej.pdf
+
+Hoeringssvar og moedespor:
+  https://aarhusworks.com/assets/giber-ringvej/2024-11-hoeringssvar-2-aak-2024-v4-med-besvarelse-fra-Ramboell.pdf
+  https://aarhusworks.com/assets/giber-ringvej/stoejhandlingsplan-hoeringsbidrag.pdf
+
+Asfalt/KVS-baggrund:
+  https://aarhusworks.com/assets/giber-ringvej/asfalt-vejdirektoratet-asfalt.pdf
+  https://aarhusworks.com/assets/giber-ringvej/asfalt-vejdirektoratet-KVS-konklusionsnotat.pdf
+
+Dom:
+  https://aarhusworks.com/assets/giber-ringvej/81190-dom.pdf
+
+WHO-stoejvejledning:
+  https://aarhusworks.com/assets/giber-ringvej/who-noise-guidelines-europe-2018.pdf
+
