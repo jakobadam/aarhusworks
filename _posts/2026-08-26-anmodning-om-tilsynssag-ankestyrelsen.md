@@ -56,14 +56,23 @@ Intern mailkorrespondance frigivet ved aktindsigt (bilag 21, 22, 28 og 39) er ve
 
 ## Resumé
 
-**Sagen kort.** Aarhus Kommune meddelte i 2018 VVM-tilladelse til Giber Ringvej på tre bindende vilkår: slørende beplantning ved bysamfundene (vilkår 2), støjdæmpende vejbelægning (vilkår 5) og en pulje på ca. 20 mio. kr. til øget støjdæmpning (vilkår 7). Kommunen var samtidig bygherre og har selv vurderet, om vilkårene er opfyldt — på grundlag af en vurdering fra den rådgiver, der projekterede anlægget. Snart otte år senere fastholder kommunen, at alle tre vilkår er opfyldt, men kan ikke oplyse, på hvilket grundlag.
+**Sagen kort.** Aarhus Kommune meddelte i 2018 VVM-tilladelse til Giber Ringvej på tre bindende vilkår: slørende beplantning ved bysamfundene (vilkår 2), støjdæmpende vejbelægning (vilkår 5) og supplerende støjdæmpning ved fem navngivne lokaliteter inden for en ramme på ca. 20 mio. kr. (vilkår 7). Kommunen var samtidig bygherre og har selv vurderet, om vilkårene er opfyldt — på grundlag af en vurdering fra den rådgiver, der projekterede anlægget. Snart otte år senere fastholder kommunen, at alle tre vilkår er opfyldt.
 
-**Det afgørende er ikke uenighed om støj, men fravær af dokumentation.** Kommunen har selv oplyst:
+**To af vilkårene er ikke overholdt, og det følger af kommunens eget materiale.**
 
-* at der ikke er ført regnskab med puljen, og at et sådant ikke kan udarbejdes: *"det er ikke muligt at lave en opgørelse af, hvad omkostningerne til de besluttede tiltag reelt har været"*
+* **Vilkår 2:** Den slørende beplantning er ikke etableret. Kommunens rådgiver oplyser selv, at den på den strækning, kommunens eget projekteringsgrundlag udpeger, er *"formegentlig fravalgt af økonomiske årsager"*. Der foreligger ingen afgørelse om at fravige vilkåret.
+* **Vilkår 7:** Ingen af de tre støjskærme, som vilkårets eget beslutningsgrundlag prissatte til i alt 16,7 mio. kr., er opført, og facadetilskuddet ses ikke gennemført. De tiltag, kommunen i stedet påberåber sig, er efter kommunens og rådgiverens egne skriftlige udsagn enten forudsat i VVM-grundlaget, hjemlet i andre vilkår eller slet ikke støjtiltag.
+
+Ingen af disse faktiske forhold er bestridt. **Der foreligger dermed et ulovligt forhold**, som kommunen efter planlovens § 51, stk. 3 har pligt til at foranledige lovliggjort.
+
+**Hertil kommer, at kommunen ikke kan oplyse, hvad dens modsatte konklusion hviler på.** Kommunen har selv oplyst:
+
+* at der ikke er ført regnskab med rammen, og at et sådant ikke kan udarbejdes: *"det er ikke muligt at lave en opgørelse af, hvad omkostningerne til de besluttede tiltag reelt har været"*
 * at rådgiveren skriftligt har tiltrådt, at mindst fire af de tiltag, kommunen påberåber sig, ikke er støjtiltag
 * at forvaltningen så sent som i august 2025 måtte spørge sin egen rådgiver, om beplantningen overhovedet var et krav: *"er det bare uforpligtende eksempler i VVM'en eller er det forudsætninger for projektet?"* — seks måneder før borgmesteren afviste, at den var det
 * at der for vejbelægningen hverken er oplyst referencebelægning, belægningstype eller dokumenteret støjreduktion
+
+Det påberåbes af to grunde: det er et selvstændigt brud på pligten til at oplyse sagen, og det er grunden til, at det må påhvile kommunen at godtgøre, at vilkårene alligevel er overholdt. For **vilkår 5** er det indsigelsen i sin helhed; dér gøres det ikke gældende, at vilkåret er tilsidesat.
 
 Dertil kommer, at den byrådsbeslutning, vilkår 7 udtrykkeligt henviser til, fastslår, at den allerede skitserede støjafskærmning *"fastholdes **og** suppleres med"* øget støjdæmpning inden for rammen. Rammen er dermed additionen — ikke betaling for det, projektet i forvejen skyldte.
 
@@ -73,11 +82,11 @@ Rammen var ikke en videreførelse af en faglig anbefaling. Forvaltningen anbefal
 
 Forløbet er bemærket i byrådet. Et medlem af By- og Planudvalget skrev i januar 2026, at borgerne *"blev lovet beplantning, og der er ikke sket noget"*, og i maj 2026, at *"de nødvendige og lovede støjløsninger er ikke fulgt med."*
 
-**Hvorfor det er et legalitetsspørgsmål.** Efter planlovens § 51 *påser* kommunalbestyrelsen, at *"vilkår fastsat i tilladelser (...) overholdes"*, og den **skal** foranledige et ulovligt forhold lovliggjort. Det er en lovbestemt pligt — ikke et skøn og ikke et spørgsmål om god forvaltningsskik. Anmodningen beder ikke Ankestyrelsen om at efterprøve støjberegninger, men om at tage stilling til, om en myndighed lovligt kan konstatere, at dens egne bindende vilkår er overholdt, uden at kunne oplyse grundlaget.
+**Hvorfor det er et legalitetsspørgsmål.** Efter planlovens § 51 *påser* kommunalbestyrelsen, at *"vilkår fastsat i tilladelser (...) overholdes"*, og den **skal** foranledige et ulovligt forhold lovliggjort, medmindre forholdet har underordnet betydning. Det er en lovbestemt pligt — ikke et skøn og ikke et spørgsmål om god forvaltningsskik. Anmodningen beder ikke Ankestyrelsen om at efterprøve støjberegninger. Den beder styrelsen tage stilling til, om kommunen har iagttaget den pligt, når to af tilladelsens vilkår efter kommunens eget materiale ikke er gennemført, og kommunen hverken har truffet afgørelse om fravigelse eller kan oplyse grundlaget for sin modsatte opfattelse.
 
 **Kommunen har afgjort sin egen sag.** Aarhus Kommune har bygget vejen, fastsat vilkårene og selv konstateret, at de er opfyldt — og udfaldet har direkte økonomisk betydning for kommunen. Efter Ombudsmandens praksis er en myndighed inhabil, når den selv er part i sagen; vurderingen er objektiv, og en kommune kan ikke argumentere sig ud af den ved at henvise til, at den mener at have handlet sagligt. Da substitution ikke er mulig, må kommunen afgøre sagen alligevel — men skal da erkende inhabiliteten, indhente en uafhængig faglig vurdering og begrunde særligt udførligt. Ingen af delene er sket. Det bør efter fast praksis føre til en skærpet prøvelse og til, at det påhviler kommunen at godtgøre, at vilkårene er opfyldt (afsnit 4.9).
 
-**Hvorfor tilsynet.** Kommunen har to gange — 25. februar og 8. april 2026 — afvist at genoptage sagen uden at forholde sig konkret til indsigelserne, og har ikke truffet nogen afgørelse om vilkårsopfyldelse. Der foreligger derfor ingen afgørelse at påklage til et klagenævn. Det er selve fraværet af en dokumenteret stillingtagen, sagen angår.
+**Hvorfor tilsynet.** Kommunen har to gange — 25. februar og 8. april 2026 — afvist at genoptage sagen uden at forholde sig konkret til indsigelserne, og har ikke truffet nogen afgørelse om vilkårsopfyldelse. Der foreligger derfor ingen afgørelse at påklage til et klagenævn. Anmodningen angår, om kommunen har iagttaget den tilsyns- og lovliggørelsespligt, planlovens § 51 pålægger den — et legalitetsspørgsmål, som tilsynet kan tage stilling til.
 
 ---
 
@@ -87,15 +96,17 @@ Denne anmodning fremsendes til Ankestyrelsens kommunale tilsyn i medfør af [**k
 
 **Afsendernes tilknytning til sagen:** Det er afsenderne bekendt, at det kommunale tilsyn ikke er en klageinstans, men en tilsynsmyndighed, der efter [kommunestyrelseslovens § 48 a](https://danskelove.dk/kommunestyrelsesloven/48a) selv beslutter, om der er anledning til at rejse en sag. En henvendelse hertil forudsætter ikke partsstatus, og afsenderen bliver ikke part i en eventuel tilsynssag. Tilknytningen oplyses alene, fordi den forklarer sagens tilvejebringelse: samtlige afsendere er beboere i områderne langs Giber Ringvej (Bering-Beder vejen) og er direkte og væsentligt berørte af vejens støj- og landskabspåvirkning. GRG har fulgt sagen tæt siden 2023 og har dokumenteret de forhold, denne anmodning beskriver.
 
-Anmodningen anfægter **ikke** VVM-tilladelsen, dens gyldighed eller indholdet af dens vilkår — tværtimod påberåbes de. Den angår heller ikke kommunens faglige støjskøn, som tilsynet ikke skal efterprøve. Spørgsmålet er alene, om kommunen lovligt har kunnet anse tre bindende vilkår for opfyldt — eller fravige dem — uden korrekt sagsoplysning, uden dokumenteret retlig vurdering og uden at genoptage sagen, da fejlene blev erkendt.
+Anmodningen anfægter **ikke** VVM-tilladelsen, dens gyldighed eller indholdet af dens vilkår — tværtimod påberåbes de. Den angår heller ikke kommunens faglige støjskøn, som tilsynet ikke skal efterprøve.
+
+Spørgsmålet er, om kommunen har iagttaget sin pligt efter planlovens § 51, når to af tilladelsens vilkår efter kommunens eget materiale ikke er gennemført (vilkår 2 og 7), og kommunen hverken har truffet afgørelse om at fravige dem eller kan oplyse grundlaget for at anse dem for opfyldt. For det tredje vilkår (vilkår 5) gøres det ikke gældende, at det er tilsidesat; dér angår spørgsmålet alene kommunens sagsoplysning. Afgrænsningen uddybes i afsnit 3.
 
 De tre vilkår gengives her ordret og omtales i det følgende ved deres numre. Ordlyden gentages kun, hvor et konkret argument beror på den.
 
-| Vilkår | Ordlyd i VVM-tilladelsen af 12. oktober 2018 | Hvad kommunen ikke har kunnet dokumentere |
+| Vilkår | Ordlyd i VVM-tilladelsen af 12. oktober 2018 | Hvad der gøres gældende |
 |---|---|---|
-| **2**<br>*Slørende beplantning* | *"At udformningen af de samlede anlæg – veje, skråningsanlæg, støjvolde, beplantning mv - tilpasses det omgivende landskab i overensstemmelse med landskabets karakter i henhold til anvisningerne i VVM redegørelsen."* (s. 2) | At beplantningen er etableret, hvor anvisningerne forudsatte den — eller at vilkåret er fraveget ved en dokumenteret beslutning (afsnit 3.3) |
-| **5**<br>*Støjdæmpende vejbelægning* | *"At hele det nye vejanlæg inklusiv forbindelsen fra Oddervej til Beder Landevej, undtagen sekundære veje og stier, udformes med støjdæmpende vejbelægning, og med støjafskærmning langs nordsiden af vejanlægget ved Tranbjerg."* (s. 3) | Hvilken referencebelægning og hvilken støjreduktion der er lagt til grund for at anse den udlagte KVS-belægning for støjdæmpende (afsnit 3.2) |
-| **7**<br>*Pulje på ca. 20 mio. kr.* | *"At der suppleres med øget støjdæmpning ved boliger i det åbne land, ved Tranbjerg, ved Mårslet, ved forlængelsen til Beder Landevej og ved Kolt, inden for en økonomisk ramme på ca. 20 mio. kr., jf. Byrådsbeslutningen den 14. september 2016."* (s. 3) | Hvilke tiltag der udgør den supplerende støjdæmpning, og hvad de har kostet — kommunen oplyser selv, at en opgørelse ikke kan udarbejdes (afsnit 3.1) |
+| **2**<br>*Slørende beplantning* | *"At udformningen af de samlede anlæg – veje, skråningsanlæg, støjvolde, beplantning mv - tilpasses det omgivende landskab i overensstemmelse med landskabets karakter i henhold til anvisningerne i VVM redegørelsen."* (s. 2) | **Ikke overholdt.** Beplantningen er ikke etableret, hvor anvisningerne forudsatte den, og vilkåret er ikke fraveget ved nogen dokumenteret beslutning (afsnit 3.3) |
+| **5**<br>*Støjdæmpende vejbelægning* | *"At hele det nye vejanlæg inklusiv forbindelsen fra Oddervej til Beder Landevej, undtagen sekundære veje og stier, udformes med støjdæmpende vejbelægning, og med støjafskærmning langs nordsiden af vejanlægget ved Tranbjerg."* (s. 3) | **Sagsoplysning.** Hverken referencebelægning eller støjreduktion er oplyst som grundlag for at anse den udlagte KVS-belægning for støjdæmpende. Det gøres ikke gældende, at vilkåret er tilsidesat (afsnit 3.2) |
+| **7**<br>*Supplerende støjdæmpning fem steder, ramme ca. 20 mio. kr.* | *"At der suppleres med øget støjdæmpning ved boliger i det åbne land, ved Tranbjerg, ved Mårslet, ved forlængelsen til Beder Landevej og ved Kolt, inden for en økonomisk ramme på ca. 20 mio. kr., jf. Byrådsbeslutningen den 14. september 2016."* (s. 3) | **Ikke overholdt.** Ingen af de tre støjskærme, beslutningsgrundlaget prissatte, er opført, og facadetilskuddet ses ikke gennemført. Kommunen oplyser selv, at en opgørelse ikke kan udarbejdes (afsnit 3.1) |
 
 Ved siden af den manglende opfyldelse angår anmodningen kommunens håndtering af sagen: mangelfuld sagsoplysning, tre indbyrdes uforenelige redegørelser, manglende genoptagelse trods erkendte fejl, og en efterfølgende indskrænkende omfortolkning af vilkårene, som ingen dokumenteret myndighedsbeslutning ligger bag (afsnit 4).
 
@@ -173,11 +184,15 @@ Hertil kommer, at forvaltningen oplyser, at anlægsregnskabet endnu ikke er ende
 
 ## 2. Sagens baggrund og anledning
 
-### 2.1 Sagens kerne — tre bindende vilkår, ingen dokumenteret opfyldt
+### 2.1 Sagens kerne — to vilkår, der ikke er overholdt
 
-Kommunen fastholder, at alle tre vilkår er opfyldt, men har ikke fremlagt dokumentation, der kan efterprøves. **Det er dette forhold — den manglende dokumentation for opfyldelse, ikke en faglig uenighed om støjberegninger — der er anmodningens genstand.**
+Kommunen fastholder, at alle tre vilkår er opfyldt. **For vilkår 2 og 7 gøres det gældende, at de ikke er — og at det følger af kommunens eget materiale.**
 
-Forskellen er afgørende for, hvad tilsynet skal tage stilling til. GRG beder ikke Ankestyrelsen om at afgøre, hvor meget en belægning dæmper, hvor høj en vold bør være, eller hvor mange træer der skal plantes. De beder styrelsen tage stilling til, om en myndighed lovligt kan konstatere, at dens egne bindende vilkår er overholdt, når den ikke kan oplyse, hvad den har lagt til grund.
+Den slørende beplantning er ikke etableret; kommunens rådgiver oplyser selv, at den er *"formegentlig fravalgt af økonomiske årsager"*. Ingen af de tre støjskærme, som vilkår 7's eget beslutningsgrundlag prissatte til i alt 16,7 mio. kr., er opført. Ingen af delene er bestridt. Der foreligger heller ingen afgørelse om at fravige vilkårene. **Der er dermed tale om et ulovligt forhold**, som kommunen efter planlovens § 51, stk. 3 har pligt til at foranledige lovliggjort.
+
+**Hvad sagen så ikke handler om.** Anmodningen bygger ikke på, at kommunen har svaret utilfredsstillende. Den bygger på to fysiske forhold, der enten består eller ikke består — og som efter det fremlagte består. Kommunens manglende evne til at redegøre for sin modsatte opfattelse er et selvstændigt forhold, der behandles i afsnit 4, og som er grunden til, at bevisbyrden må vende (afsnit 4.9).
+
+**Hvad anmodningen ikke angår.** GRG beder ikke Ankestyrelsen om at afgøre, hvor meget en belægning dæmper, hvor høj en vold bør være, eller hvor mange træer der skal plantes. Kommunens støjfaglige skøn efterprøves ikke. For **vilkår 5** gøres der efter samme afgrænsning ikke gældende, at vilkåret er tilsidesat — dér angår indsigelsen alene, at kommunen har konstateret vilkåret opfyldt uden at kunne angive den målestok, vilkåret forudsætter (afsnit 3.2).
 
 ### 2.2 Kommunens dobbeltrolle — og fraværet af en kontrolinstans
 
@@ -211,19 +226,21 @@ Kommunen har haft rig lejlighed til at rette op og har nægtet. At myndigheden a
 
 ---
 
-## 3. De tre vilkår og kommunens manglende dokumentation
+## 3. De tre vilkår
 
-De tre vilkår gennemgås hver for sig efter samme opbygning: hvad vilkåret kræver, hvad kommunen har gjort og oplyst, og hvad der ikke er dokumenteret. Hvert underafsnit slutter med en konklusion.
+De tre vilkår gennemgås hver for sig efter samme opbygning: hvad vilkåret kræver, hvad kommunen har gjort og oplyst, og hvad der følger heraf. Hvert underafsnit slutter med en konklusion.
+
+**De tre vilkår føres ikke på samme grundlag, og det oplyses her.** For **vilkår 2 og 7** gøres det principalt gældende, at vilkårene ikke er overholdt — at der altså foreligger et ulovligt forhold, som kommunen efter planlovens § 51, stk. 3 har pligt til at foranledige lovliggjort. For **vilkår 5** gøres dette ikke gældende; dér angår indsigelsen alene, at kommunen har konstateret vilkåret opfyldt uden at kunne oplyse grundlaget.
 
 Samlet er billedet dette:
 
-| Vilkår | Kommunens standpunkt | Det, der ikke er dokumenteret |
+| Vilkår | Kommunens standpunkt | Hvad der gøres gældende |
 |---|---|---|
-| **7** · pulje på ca. 20 mio. kr. | Rammen er anvendt — men en opgørelse *"er ikke muligt"* at lave | Hvilke tiltag der udgør den **supplerende** dæmpning, og hvad de har kostet. Ingen af de tre støjskærme, beslutningsgrundlaget prissatte til 16,7 mio. kr., er opført (afsnit 3.1) |
-| **5** · støjdæmpende vejbelægning | Den udlagte KVS-asfalt opfylder vilkåret | Hverken referencebelægning, KVS-type eller dokumenteret støjreduktion er oplyst (afsnit 3.2) |
-| **2** · slørende beplantning | Beplantningen var *"ikke forudsat etableret"* | Nogen afgørelse om at fravige vilkåret. Rådgiveren oplyser, at beplantningen er *"formegentlig fravalgt af økonomiske årsager"* (afsnit 3.3) |
+| **7** · supplerende støjdæmpning fem steder, ramme ca. 20 mio. kr. | Rammen er anvendt — men en opgørelse *"er ikke muligt"* at lave | **Ikke overholdt.** Ingen af de tre støjskærme, beslutningsgrundlaget prissatte til 16,7 mio. kr., er opført, og facadetilskuddet ses ikke gennemført. Subsidiært: grundlaget kan ikke oplyses (afsnit 3.1) |
+| **2** · slørende beplantning | Beplantningen var *"ikke forudsat etableret"* | **Ikke overholdt.** Beplantningen er ikke etableret, og rådgiveren oplyser, at den er *"formegentlig fravalgt af økonomiske årsager"*. Der foreligger ingen afgørelse om fravigelse (afsnit 3.3) |
+| **5** · støjdæmpende vejbelægning | Den udlagte KVS-asfalt opfylder vilkåret | **Sagsoplysning.** Hverken referencebelægning, KVS-type eller dokumenteret støjreduktion er oplyst. Der gøres ikke gældende, at vilkåret er tilsidesat (afsnit 3.2) |
 
-Fælles for alle tre er, at indsigelsen ikke angår kommunens skøn, men fraværet af det grundlag, et skøn skulle hvile på.
+For alle tre gælder, at indsigelsen ikke angår kommunens støjfaglige skøn. Hvor der er fremlagt dokumentation, bestrides den ikke; hvor der ikke er, gøres det gældende, at det påhviler kommunen at godtgøre, at vilkåret er overholdt.
 
 **Afsnit 3.1 er det længste**, fordi puljen er det forhold, kommunen har givet flest og indbyrdes skiftende forklaringer på. Det er bygget i to led: først **hvad rammen dækkede** efter det beslutningsgrundlag fra 2016, vilkåret selv henviser til; dernæst **hvad kommunen har oplyst** om anvendelsen i sine tre redegørelser. Den detaljerede gennemgang af de enkelte poster, kommunen påberåber sig — A til E — er henlagt til **tillægget** sidst i anmodningen.
 
@@ -523,13 +540,26 @@ Hertil kommer, at omfortolkningen er fremsat af bygherrens rådgiver — ikke i 
 
 #### Konklusion for vilkår 7
 
-Kommunen har ikke kunnet oplyse det grundlag, hvorpå den har konstateret, at vilkår 7 er opfyldt — og har over for GRG udtrykkeligt oplyst, at en opgørelse ikke kan udarbejdes. Det er ikke dokumenteret:
+**Principalt gøres det gældende, at vilkår 7 ikke er overholdt, og at der dermed foreligger et ulovligt forhold i planlovens § 51, stk. 3's forstand.**
+
+Vilkåret pålægger supplerende, øget støjdæmpning ved fem navngivne lokaliteter. Det følger af kommunens eget materiale, at foranstaltningerne ikke er gennemført:
+
+* **Ingen af de tre støjskærme**, som vilkårets eget beslutningsgrundlag prissatte til i alt 16,7 mio. kr. — ved Kolt, Tranbjerg og Mårslet — er opført. Det fremgår af kommunens egen opgørelse, jf. [bilag 2, s. 4](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4), hvori der optræder én støjskærm: den langs Landevejen, som vilkår 5 og 6 pålagde kommunen uafhængigt af rammen.
+* **Facadetilskuddet** til boliger i det åbne land ses ikke gennemført, og kommunen har ikke oplyst, om den overhovedet har undersøgt, hvilke ejendomme der var berettigede (jf. ovenfor og bilag 49).
+* De poster, kommunen i stedet henfører til rammen, er efter **kommunens og rådgiverens egne skriftlige udsagn** enten forudsat i VVM-grundlaget, hjemlet i andre vilkår, eller ikke støjtiltag. Rambøll har tiltrådt dette for mindst fire tiltag, jf. [bilag 22, s. 5](https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf#page=5), og kommunen har erkendt, at det var *"misvisende, at det fremgik, at der var etableret 16 støjvolde"*.
+
+Vilkåret er dermed ikke opfyldt ved de foranstaltninger, kommunen påberåber sig, og der foreligger ingen afgørelse om at fravige det.
+
+**Subsidiært** gøres det gældende, at kommunen under alle omstændigheder ikke har kunnet oplyse det grundlag, hvorpå den har konstateret vilkåret opfyldt — og over for GRG udtrykkeligt har oplyst, at en opgørelse ikke kan udarbejdes. Det er ikke dokumenteret:
+
 * hvilke konkrete tiltag der udgør den supplerende øgede støjdæmpning
 * at de påberåbte tiltag ikke allerede indgik i basisprojektet eller er hjemlet i andre vilkår
 * at de opgjorte poster alle har dokumenteret støjdæmpende effekt
-* at puljens midler faktisk er anvendt til gyldige støjtiltag — eller omvendt, hvor et eventuelt restbeløb befinder sig
+* at rammens midler faktisk er anvendt til gyldige støjtiltag — eller omvendt, hvor et eventuelt restbeløb befinder sig
 
-Selv efter Rambølls eget misvisende estimat, jf. [bilag 2, s. 4](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4), var der mindst 2,72 mio. kr. tilbage. En korrekt opgørelse — der ekskluderer de poster som Rambøll selv har indrømmet ikke udgør støjtiltag — vil efterlade et væsentligt større restbeløb.
+Selv efter Rambølls eget estimat, jf. [bilag 2, s. 4](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4), var der mindst 2,72 mio. kr. tilbage. En korrekt opgørelse — der ekskluderer de poster, Rambøll selv har tiltrådt ikke udgør støjtiltag — vil efterlade et væsentligt større restbeløb.
+
+Det manglende regnskab gøres altså ikke gældende som selve forholdet. Det gøres gældende som grunden til, at kommunen ikke kan afkræfte det: har myndigheden hverken foranstaltningerne eller opgørelsen, kan den ikke henvise til, at midlerne blev anvendt et andet sted i projektet.
 
 **Det gøres ikke gældende, at ingen poster kan medregnes.** GRG anerkender udtrykkeligt, at der blandt de gennemførte tiltag findes poster, som efter det foreliggende fremstår som ægte supplerende støjdæmpning. VVM-tilpasningerne af 2019 anfører således om to volde, jf. [bilag 10b](https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf), at *"Langs nordsiden af Torshøjvej anlægges to støjvolde, der ikke var indeholdt i det oprindelige projektforslag."* Sådanne tiltag er netop den type disposition, vilkår 7 tager sigte på. Indsigelsen angår ikke, at der er gennemført støjtiltag, men at kommunens opgørelse ikke sondrer mellem disse og de poster, der tilhører basisprojektet, er hjemlet i andre vilkår eller efter kommunens og rådgiverens egne udsagn slet ikke er støjtiltag — og at ingen af posterne er prissat hver for sig.
 
@@ -610,11 +640,18 @@ Dommen kan derfor ikke påberåbes som dokumentation for, at vilkår 5 er opfyld
 
 #### Konklusion for vilkår 5
 
-Kommunen har ikke oplyst det grundlag, hvorpå den har konstateret, at vilkår 5 er opfyldt. Det er ikke dokumenteret:
+**Dette vilkår føres på et andet grundlag end vilkår 2 og 7, og det oplyses udtrykkeligt.**
+
+Der er udlagt en belægning, og GRG gør **ikke** gældende, at vilkår 5 er tilsidesat, eller at der foreligger et ulovligt forhold. Det ville forudsætte en måling, GRG ikke har adgang til at foretage, og en efterprøvelse af et fagligt skøn, som ikke tilkommer tilsynet.
+
+Det, der gøres gældende, er et **sagsoplysningsspørgsmål**: at kommunen har konstateret et bindende vilkår opfyldt uden at kunne oplyse, hvad konstateringen hviler på. Et vilkår om *støjdæmpende* vejbelægning forudsætter en målestok — dæmpende i forhold til hvad, og med hvilken virkning. Ingen af delene er oplyst:
+
 * hvilken konkret KVS-type der er udlagt
 * hvilken referencebelægning kommunen har lagt til grund for at anse vilkåret for opfyldt
 * hvilken støjreduktion den faktisk udlagte belægning giver i forhold til den belægning, der ellers ville være udlagt
-* at substitutionen af den i VVM-grundlaget forudsatte SRS-belægning med KVS er sket på et dokumenteret, retligt grundlag
+* at substitutionen af den i VVM-grundlaget forudsatte SRS-belægning med KVS er sket på et dokumenteret, retligt grundlag — og at kommunen som planmyndighed har forholdt sig til, at Vejdirektoratet nedjusterede den forudsatte reduktion, inden belægningen blev udlagt
+
+Anmodningen beder derfor for dette vilkårs vedkommende ikke om, at Ankestyrelsen fastslår en tilsidesættelse, men om en stillingtagen til, om en myndighed kan anse et vilkår for opfyldt uden at kunne angive den målestok, vilkåret forudsætter.
 
 GRGs tre konkrete spørgsmål i afklaringsnotat 1, jf. [bilag 11](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf), står fortsat ubesvarede.
 
@@ -628,7 +665,7 @@ Vilkår 2 fastsætter ikke selv, hvad der skal plantes hvor. Det henviser — *"
 
 > *"Det landskabelige indgreb afbødes ved afrunding af skråningsanlæg og ved at etablere ny beplantning i sammenhæng med det omgivende landskab."*
 
-**VVM-redegørelsen**, jf. [bilag 19, s. 77](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=77), uddyber. Det bemærkes indledningsvis, at det dokument, GRG fremlægger som bilag 19, på sin forside bærer betegnelsen *"Forslag i offentlig høring 1/12 2014 – 28/2 2015"*. Aarhus Kommune publicerer ikke nogen anden udgave som projektets VVM-redegørelse, og den vedlagte fil er byte-identisk med den, kommunen selv offentliggør. Afgørende er dog, at **kommunen selv lægger netop dette dokument til grund**: forvaltningens bestilling af 7. august 2025 henviser til det, Rambølls notat af august 2025 gennemgår det strækning for strækning, og forvaltningens svar af 16. oktober 2025 gengiver Rambølls konklusion om, hvad der *"ud fra VVM-rapporten"* kunne forventes. Skulle kommunen gøre gældende, at et andet dokument er det relevante, anmodes Ankestyrelsen om at pålægge den at fremlægge det. Redegørelsen anfører:
+**VVM-redegørelsen**, jf. [bilag 19, s. 77](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=77), uddyber. Det bemærkes indledningsvis, at det dokument, GRG fremlægger som bilag 19, på sin forside bærer betegnelsen *"Forslag i offentlig høring 1/12´ 14 - 28/2´ 15"*. Aarhus Kommune publicerer ikke nogen anden udgave som projektets VVM-redegørelse, og den vedlagte fil er byte-identisk med den, kommunen selv offentliggør. Afgørende er dog, at **kommunen selv lægger netop dette dokument til grund**: forvaltningens bestilling af 7. august 2025 henviser til det, Rambølls notat af august 2025 gennemgår det strækning for strækning, og forvaltningens svar af 16. oktober 2025 gengiver Rambølls konklusion om, hvad der *"ud fra VVM-rapporten"* kunne forventes. Skulle kommunen gøre gældende, at et andet dokument er det relevante, anmodes Ankestyrelsen om at pålægge den at fremlægge det. Redegørelsen anfører:
 
 > *"Hvor der er nærliggende tæt bebyggelse ønskes vejanlægget sløret med en beplantning, så den visuelle støj begrænses."*
 
@@ -694,13 +731,17 @@ Vilkåret er ikke en illustrativ hensigtserklæring. VVM-tilladelsen anfører ud
 
 Der er ikke etableret slørende beplantning ved bysamfundene langs Giber Ringvej. Dette beror ikke alene på GRGs vurdering, men fremgår af Rambølls egen strækningsvise gennemgang i notatet af 19. august 2025, jf. [bilag 9, s. 4](https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf#page=4):
 
-| Strækning (Rambølls inddeling) | Rambølls egen beskrivelse |
-|---|---|
-| **Beder Landevej – Tandervej** | Beplantning ikke anvendt som landskabeligt element mellem Oddervej og Tandervej. Vest for Nymarksvej er beplantning fravalgt efter et ønske fra borgergrupper, fremsat i en dialog *"uden om Rambølls involvering"* |
-| **Tandervej – Mustrupvej** | VVM-redegørelsens visualisering (Fig. 44) og Landskabsstrategien angiver begge beplantning som afskærmning mod visuel støj. *"Beplantning er formegentlig fravalgt af økonomiske årsager."* |
-| **Mustrupvej – Giber Ådal** | Anlagt *"med flade skråninger uden beplantning"*. Den beplantning ved Testrup Bæk, VVM-redegørelsen åbner for (Fig. 50), er ikke gennemført: Landskabsstrategien *"lægger ikke op til at gennemføre den eventuelle beplantning"* |
+| Strækning (Rambølls inddeling) | Rambølls egen beskrivelse | Gøres gældende |
+|---|---|---|
+| **Beder Landevej – Tandervej** | *"I det store åbne landskab mellem Oddervej og Tandervej gør VVM-redegørelsen ikke brug af beplantning som landskabeligt element."* Vest for Nymarksvej er beplantning fravalgt efter et ønske fra borgergrupper, fremsat i en kommunikation *"uden om Rambøll's involvering i projektet"* | **Ikke som manglende opfyldelse** — VVM-redegørelsen fraråder selv beplantning her. Men den påberåbte dialog er ikke dokumenteret, jf. nedenfor |
+| **Tandervej – Mustrupvej** | VVM-redegørelsens visualisering (Fig. 44) og Landskabsstrategien angiver begge beplantning som afskærmning mod visuel støj. *"Beplantning er formegentlig fravalgt af økonomiske årsager."* | **Ja** |
+| **Mustrupvej – Giber Ådal** | Anlagt *"med flade skråninger uden beplantning"*. Den beplantning ved Testrup Bæk, VVM-redegørelsen åbner for (Fig. 50), er ikke gennemført: Landskabsstrategien *"lægger ikke op til at gennemføre den eventuelle beplantning"* | **Ja** |
 
-Rådgiverens egen gennemgang dokumenterer dermed, at den slørende beplantning ikke er etableret på nogen af de strækninger, hvor VVM-redegørelsen forudsatte den ved tæt bebyggelse. På den ene strækning, hvor både VVM-redegørelsens visualisering og Landskabsstrategien udtrykkeligt angav beplantning, er begrundelsen for fravalget efter Rambølls eget udsagn økonomisk — og angivet med forbeholdet *"formegentlig"*, dvs. uden at rådgiveren selv kender grundlaget.
+**Anmodningen gør ikke gældende, at der mangler beplantning overalt.** På strækningen Oddervej–Tandervej fraråder VVM-redegørelsen udtrykkeligt beplantning, jf. [bilag 19, s. 244](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=244): *"For at bevare denne karakter bør der ikke etableres beplantning på skråningsanlæg på strækningen, heller ikke ved Nymarksvej."* Det samme gælder strækningen fra Enslevvej til E45, hvor det *"anbefales ikke at etablere beplantning på eller ved skråningsanlæg, da udsynet til Langhøj skal opretholdes"* ([s. 245](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=245)). At der ikke er plantet dér, er i overensstemmelse med anvisningerne, og forholdet forfølges ikke.
+
+Indsigelsen angår de to strækninger ved Mårslet, hvor anvisningerne peger den modsatte vej. På den ene — Tandervej–Mustrupvej — angav både VVM-redegørelsens visualisering og Landskabsstrategien udtrykkeligt beplantning, og begrundelsen for fravalget er efter Rambølls eget udsagn økonomisk, angivet med forbeholdet *"formegentlig"*, dvs. uden at rådgiveren selv kender grundlaget.
+
+**Anvisningerne er alternativspecifikke.** Det bemærkes for en ordens skyld, at VVM-redegørelsens kapitel 17 opdeler sine anvisninger efter de undersøgte linjeføringer (A, B1 og C). VVM-tilladelsen er meddelt til *"linjeføring A (den nordlige)"*, jf. [bilag 8, s. 2](https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=2). Det er derfor anvisningerne under **alternativ A**, vilkår 2 henviser til; anvisninger, der efter deres overskrift angår alternativ B1 eller C, vedrører linjeføringer, der ikke blev gennemført.
 
 #### Kommunens forklaring
 
@@ -730,7 +771,13 @@ Tre forhold følger heraf.
 
 **For det tredje** blev spørgsmålet stillet på grundlag af GRGs eget materiale. Bestillingen vedlægger udtrykkeligt *"vedhæftede dokument fra Giber Ringvej Gruppen, hvor de bl.a. henviser til VVM'en"* — det faktaark om beplantning af 22. maj 2025, som forvaltningen syv måneder senere besvarede med, at man *"ikke [havde] kommenteret nærmere på dette faktaark"*, jf. afsnit 4.6. Faktaarket var altså tilstrækkeligt til at få forvaltningen til at bestille en redegørelse hos sin rådgiver, men blev over for afsenderen afvist som ikke kommenteret.
 
-**Rambølls notat om beplantning (august 2025)**, jf. [bilag 9, s. 4](https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf#page=4), henviser til en intern *"Landskabsstrategi"* af 24.01.2019 som grundlag for detailprojekteringen. Rambøll oplyser desuden at der vest for Nymarksvej blev fravalgt beplantning efter dialog med borgergrupper — men uden Rambølls involvering.
+**Rambølls notat om beplantning (august 2025)**, jf. [bilag 9, s. 4](https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf#page=4), henviser til en intern *"Landskabsstrategi"* af 24.01.2019 som grundlag for detailprojekteringen. Rambøll anfører desuden om strækningen vest for Nymarksvej:
+
+> *"Der er i forbindelse med udformningen af detailprojektet udtrykt ønske fra borgergrupper i området om at strækningen vest for Nymarksvej ikke beplantes, så udsigten over det åbne land mod syd bibeholdes. Denne kommunikation er foregået mellem Aarhus kommunes projektleder og de relevante borgergrupper uden om Rambøll's involvering i projektet."*
+
+**Den dialog er ikke dokumenteret.** Som anført ovenfor gøres det ikke gældende, at der mangler beplantning på netop den strækning. Oplysningen gengives, fordi den er kommunens gennemgående begrundelsesform: fravalg af beplantning henføres til en borgerdialog, som ingen har kunnet fremlægge journaliseret dokumentation for — hverken hvem der deltog, hvornår den fandt sted, hvilket mandat deltagerne havde, eller hvem der traf beslutningen. Rambøll, der har udarbejdet både Landskabsstrategien og notatet, var efter eget udsagn ikke til stede. Den samme begrundelsesform anvendes om tiltaget ved Nymarks Allé under vilkår 7, hvor det anføres, at *"De berørte borgere i Mårslet ønskede ikke en udformning af de støjreducerende tiltag der reducerede udsigten mod syd"* (tillægget, B5) — også dér uden dokumentation.
+
+En udokumenteret dialog kan ikke bære en fravigelse af et bindende vilkår, uanset hvilken strækning den angår.
 
 **Forvaltningens svar (16. oktober 2025)**, jf. [bilag 4, s. 6](https://aarhusworks.com/assets/giber-ringvej/2025-10-redegoerelse-3-samt-beplantning-emails.pdf#page=6). Forvaltningen havde bedt Rambøll gennemgå VVM-rapporten for udestående med beplantning, og gengiver resultatet således: *"Rambøll konkluderede, at der var to områder langs Giber Ringvej omkring Mårslet, hvor der ud fra VVM-rapporten kunne argumenteres for en forventning om, at der skulle etableres afskærmende beplantning, uden at det dog fremgår som tydelige krav."* Teknik og Miljø har i marts 2026 uddybet standpunktet, jf. [bilag 18, s. 1](https://aarhusworks.com/assets/giber-ringvej/2026-03-mtm-kommentering-2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf#page=1): *"det er ikke Teknik og Miljøs vurdering, at beplantningen er et direkte krav i VVM'en."*
 
@@ -764,11 +811,27 @@ Og i Landskabsstrategiens overordnede principafsnit, gældende for hele strækni
 
 Det dokument Rambøll selv påberåber sig som begrundelse for fravalget specificerer således eksplicit den beplantning, der er fravalgt. Rambøll kan i notatet af august 2025 alene anføre, at beplantning er *"formegentlig"* fravalgt — dvs. Rambøll kender ikke selv baggrunden for, at Landskabsstrategiens egen anvisning ikke er fulgt.
 
+**Hvor Landskabsstrategien fraviger VVM-redegørelsen, sker det uden nogen afgørelse.**
+
+VVM-redegørelsen visualiserer beplantning som afværgeforanstaltning to steder ved Mårslet: **Figur 44** (s. 85), udsigten fra Mårslet langs Tandervej mod syd, hvor beplantningen *"vil sløre bilerne i landskabet"* — og **Figur 49 og 50** (s. 88–89), dæmningen ved sidegrenen af Giber Å syd for Testrupvej, hvor *"afskærmende beplantning slører bilerne, set fra byen"*.
+
+Landskabsstrategien behandler de to steder forskelligt. For **st. 9.200–9.660 "Vest for Tandervej"** tiltræder den anvisningen: *"Visuel støjskærmning (beplantning) nordside af vej"*. For **st. 7.750–8.700 "Giber Ådal"** fraviger den den derimod udtrykkeligt, jf. [bilag 20](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf):
+
+> *"Dæmningen rækker som en landskabstunge ud i ådalen. Arbejde med beplantning nedenfor dæmning ved faunapassagerne og bassinerne, men **lade dæmning stå uden beplantning** og understreg ådalen med kig ud over de store vidder."*
+
+**Anmodningen bestrider ikke den landskabsfaglige vurdering.** Det kan udmærket være rigtigt, at ådalen bør stå åben. Men VVM-redegørelsen anviste det modsatte for netop den dæmning, og fravigelsen er truffet i et internt rådgiverdokument — ikke i nogen afgørelse fra planmyndigheden. Det er det samme mønster som ved beløbsrammen (afsnit 3.1): et bindende vilkår indskrænkes i et notat.
+
+Forholdet har tillige den betydning, at Landskabsstrategien ikke kan påberåbes som en udtømmende udmøntning af vilkår 2 *og* som en fravigelse af det på samme tid. Fraviger strategien redegørelsens anvisninger, forudsætter det en stillingtagen fra myndigheden. En sådan er ikke fremlagt.
+
+Det bemærkes endelig, at strategiens egen anvisning for samme strækning — *"arbejde med beplantning nedenfor dæmning ved faunapassagerne og bassinerne"* — heller ikke ses gennemført: Rambøll oplyser om strækningen Mustrupvej–Giber Ådal, at den er anlagt *"med flade skråninger uden beplantning"*, jf. [bilag 9, s. 4](https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf#page=4).
+
 **Det referat, der kunne afklare spørgsmålet, kan ikke findes.** Giber Ringvej Gruppen har gentagne gange bedt om journaliseret dokumentation for den borgerdialog, fravalget begrundes med. Forvaltningen svarede den 27. maj 2026, jf. [bilag 41](https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf):
 
 > *"Vi kan desværre ikke finde referat fra mødet med fællesrådene d. 24. januar 2019, hvor der blev drøftet støj."*
 
 Datoen er ikke tilfældig. **Landskabsstrategien bærer nøjagtig samme dato — 24. januar 2019.** På den dag, hvor det dokument blev udarbejdet, som kommunen påberåber sig som grundlag for detailprojekteringens behandling af beplantning, blev der altså holdt et møde med fællesrådene om støj. Referatet findes ikke i kommunens arkiv.
+
+Det gøres ikke gældende, at mødet med fællesrådene og den borgerdialog, Rambøll henviser til, nødvendigvis er det samme. Det gøres gældende, at **ingen af dem er dokumenteret**. Kommunen har på intet tidspunkt fremlagt journaliseret dokumentation for nogen dialog, der kan bære et fravalg af beplantning, og har for det ene møde, der er identificeret ved dato, oplyst, at referatet ikke kan findes.
 
 Det har to konsekvenser. For det første er den dialog, fravalget begrundes med, fortsat udokumenteret — nu bekræftet af forvaltningen selv. For det andet er fællesrådene netop de *lokalområder*, byrådsbeslutningen af 14. september 2016 foreskrev inddraget i *"en nærmere afklaring af støjafskærmningen"* (jf. afsnit 3.1). Det ene dokument, der kunne vise, om den forudsatte inddragelse fandt sted, og hvad der blev drøftet om beplantning, kan myndigheden ikke fremlægge.
 
@@ -795,7 +858,7 @@ En myndighed kan ikke afslutte oplysningen af en sag med den begrundelse, at par
 Der foreligger ikke:
 * en dokumenteret myndighedsafgørelse om fravalg af beplantning
 * en retlig vurdering af om den interne "Landskabsstrategi" kunne tilsidesætte vilkår 2
-* journaliseret dokumentation for den borgerdialog, der påberåbes som begrundelse for fravalget vest for Nymarksvej — herunder hvem der deltog, hvornår den fandt sted, og hvem der traf den endelige beslutning
+* journaliseret dokumentation for den borgerdialog, der påberåbes som begrundelse for fravalg af beplantning — herunder hvem der deltog, hvornår den fandt sted, og hvem der traf den endelige beslutning
 * en samlet strækningsvis oversigt over den forudsatte, den etablerede og den fravalgte beplantning
 
 #### Kommunen handler nu — men halvhjertet og selvmodsigende
@@ -828,7 +891,16 @@ Giber Ringvej Gruppen forelagde udtrykkeligt forholdet for forvaltningen i afkla
 
 Planen dækker desuden kun dele af de strækninger, VVM-redegørelsen forudsatte beplantning ved.
 
-**Hullet ved Mårslet.** Forvaltningens eget beplantningsforslag, fremlagt på mødet 8. april 2026, dækker ikke strækningen st. 9.200–9.660 ved Mårslet — netop den strækning, hvor Landskabsstrategien eksplicit angiver *"Visuel støjskærmning (beplantning) nordside af vej"*, jf. [bilag 20](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf). GRG påpegede forholdet på mødet, og **rådmanden bad forvaltningen undersøge det**, jf. [bilag 14](https://aarhusworks.com/assets/giber-ringvej/2026-04-referat-GRG-og-MTM.txt).
+**Hullet ved Mårslet.** Forvaltningens beplantningsforslag består af to adskilte bælter. Det fremgår af de to skitsetegninger af 24. september 2025 og af de tilhørende kortudsnit, jf. [bilag 39](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-09-26-mail-vs-redegoerelse-for-beplantning-prisoverslag.pdf):
+
+* et bælte ved **Tandervej**, tegnet fra rundkørslen og mod nordvest — skitsen er påført *"Station 9400/9500/9600"*
+* et bælte ved **Mustrupvej**, tegnet fra Mustrupvej-krydset og mod nordvest — skitsen er påført *"Station 8500-8700"*
+
+**Mellem de to bælter ligger en udækket strækning på ca. 700 meter.** Den strækker sig fra Mustrupvej og mod øst, indtil Tandervej-bæltet begynder. Det er den strækning, forvaltningen selv betegner som den *"mellem rundkørsel og Mustrupvej"*.
+
+Forholdet har to konsekvenser. For det første dækker forslaget kun den østlige del af st. 9.200–9.660 — netop den strækning, hvor Landskabsstrategien eksplicit angiver *"Visuel støjskærmning (beplantning) nordside af vej"*, jf. [bilag 20](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf). For det andet er det på den udækkede strækning, boligbebyggelsen ligger.
+
+GRG påpegede forholdet på mødet 8. april 2026, og **rådmanden bad forvaltningen undersøge det**, jf. [bilag 14](https://aarhusworks.com/assets/giber-ringvej/2026-04-referat-GRG-og-MTM.txt).
 
 GRG gentog forholdet skriftligt den 10. juni 2026 med spørgsmålet, om beplantningen kan udvides til også at dække hullet, jf. [bilag 41, s. 2](https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf#page=2). Forvaltningen bestred ikke, at strækningen ikke er dækket. Den svarede den 12. juni 2026, jf. [bilag 41, s. 1](https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf#page=1):
 
@@ -868,11 +940,23 @@ En vurdering af, at et bindende vilkår ikke indeholder et krav, kræver en begr
 
 #### Konklusion for vilkår 2
 
-Kommunen har ikke oplyst det grundlag, hvorpå den har konstateret, at vilkår 2 er opfyldt — og har ikke truffet nogen dokumenteret beslutning om at fravige det. Der foreligger ikke:
+**Principalt gøres det gældende, at vilkår 2 ikke er overholdt, og at der dermed foreligger et ulovligt forhold i planlovens § 51, stk. 3's forstand.**
+
+Det beror ikke på en vurdering fra GRG's side. Det følger af kommunens eget materiale:
+
+* Den slørende beplantning er **ikke etableret** på de strækninger ved bysamfundene, hvor VVM-redegørelsen forudsatte den. Det fremgår af Rambølls egen strækningsvise gennemgang af 19. august 2025, jf. [bilag 9, s. 4](https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf#page=4), og er ikke bestridt af kommunen.
+* På strækningen st. 9.200–9.660 — hvor kommunens eget projekteringsgrundlag, Landskabsstrategien af 24. januar 2019, udtrykkeligt anviser *"Visuel støjskærmning (beplantning) nordside af vej"* — er beplantningen efter rådgiverens eget udsagn *"formegentlig fravalgt af økonomiske årsager"*.
+* Et fravalg er ikke en opfyldelse. Der foreligger **ingen afgørelse** om at fravige vilkåret, og ingen retlig vurdering af, om det kunne fraviges.
+* At forholdet består, bekræftes af kommunens egen adfærd: forvaltningen har siden 2025 arbejdet på at etablere beplantning ved Mårslet og har prissat foranstaltningen. En myndighed, der arbejder på at etablere en foranstaltning, tilkendegiver derved, at den ikke er etableret.
+
+**Subsidiært** — skulle Ankestyrelsen finde, at vilkårets nærmere indhold ikke lader sig fastlægge med tilstrækkelig sikkerhed — gøres det gældende, at kommunen da under alle omstændigheder ikke har oplyst det grundlag, hvorpå den har konstateret vilkåret opfyldt. Der foreligger ikke:
+
 * en formel administrativ afgørelse om at fravige eller indskrænke vilkårets krav om slørende beplantning
 * en retlig vurdering af, om den interne Landskabsstrategi lovligt kunne tilsidesætte et bindende VVM-vilkår
-* journaliseret dokumentation for den borgerdialog, der påberåbes som begrundelse for fravalget vest for Nymarksvej
-* at det nuværende beplantningsforslag (fremlagt 8. april 2026) dækker de strækninger, VVM-redegørelsen og Landskabsstrategien selv udpeger — forslaget indeholder tværtimod et hul netop ved Mårslet, den strækning Landskabsstrategien eksplicit angiver skal beplantes
+* journaliseret dokumentation for den borgerdialog, der påberåbes som begrundelse for fravalg af beplantning
+* nogen stillingtagen til, at det nuværende beplantningsforslag (fremlagt 8. april 2026) ikke dækker de strækninger, VVM-redegørelsen og Landskabsstrategien selv udpeger — forslaget indeholder tværtimod et hul netop ved Mårslet, den strækning Landskabsstrategien eksplicit angiver skal beplantes
+
+Fraværet af dokumentation påberåbes dermed ikke som selve forholdet, men som grunden til, at det påhviler kommunen at godtgøre, at vilkåret alligevel er overholdt.
 
 ---
 
@@ -1159,7 +1243,9 @@ Fordelingen har en praktisk grund. GRG kan ikke føre bevis for, hvad en ramme, 
 
 ## 5. Anmodning til Ankestyrelsen
 
-Giber Ringvej Gruppen anmoder Ankestyrelsen om at udtale sig om lovligheden af Aarhus Kommunes sagsbehandling. Nedenstående er de forhold, der efter GRG's opfattelse bør indgå i vurderingen. Opregningen er ikke udtryk for en forventning om, at hvert enkelt punkt besvares særskilt.
+**Det bærende spørgsmål** er, om Aarhus Kommune har iagttaget sin pligt efter [planlovens § 51](https://danskelove.dk/planloven/51) til at påse, at vilkår i tilladelser overholdes, og til at foranledige et ulovligt forhold lovliggjort — når vilkår 2 og 7 efter kommunens eget materiale ikke er gennemført, og der ikke er truffet nogen afgørelse om at fravige dem.
+
+Giber Ringvej Gruppen anmoder på den baggrund Ankestyrelsen om at udtale sig om lovligheden af Aarhus Kommunes sagsbehandling. Nedenstående er de forhold, der efter GRG's opfattelse bør indgå i vurderingen. Opregningen er ikke udtryk for en forventning om, at hvert enkelt punkt besvares særskilt.
 
 Spørgsmål **A–E** angår det beslutningsgrundlag, vilkår 7 henviser til — de to notater fra 2016, som kommunen ikke fremlagde ved aktindsigten i maj 2026, og som GRG efterfølgende selv har fremskaffet i Aarhus Byrådsarkiv (afsnit 4.1). Spørgsmål **1–14** angår den dokumentation, kommunen har fremlagt siden 2023, og sagsbehandlingen i øvrigt.
 
@@ -1201,7 +1287,7 @@ Spørgsmål **A–E** angår det beslutningsgrundlag, vilkår 7 henviser til —
 
 11. Om Aarhus Kommune lovligt har kunnet lægge en vurdering af vilkårsopfyldelsen til grund, som er udarbejdet af den rådgiver, hvis eget projekterings- og anlægsarbejde er genstand for vurderingen, uden nogen form for uafhængig efterprøvelse — herunder når det materiale, rådgiveren fremsendte som officiel sammenfatning, ikke gengav rådgiverens egne forbehold i de underliggende svar (afsnit 4.4).
 
-12. Om Aarhus Kommune har iagttaget sin pligt efter **planlovens § 51** til at påse, at *"vilkår fastsat i tilladelser, dispensationer m.v. overholdes"*, og til at *"foranledige et ulovligt forhold lovliggjort"* — når kommunen ikke har fremlagt noget efterprøvbart grundlag for sin konstatering af, at vilkår 2, 5 og 7 er opfyldt.
+12. Om Aarhus Kommune har iagttaget sin pligt efter **planlovens § 51** til at påse, at *"vilkår fastsat i tilladelser, dispensationer m.v. overholdes"*, og til at *"foranledige et ulovligt forhold lovliggjort"* — når den slørende beplantning efter kommunens eget materiale ikke er etableret (**vilkår 2**), og ingen af de foranstaltninger, vilkårets eget beslutningsgrundlag prissatte, er gennemført (**vilkår 7**), uden at kommunen har truffet nogen afgørelse om at fravige vilkårene. Ankestyrelsen anmodes herunder om at tage stilling til, om forholdet kan anses for at have *"underordnet betydning"* i bestemmelsens forstand, og — hvis ikke — hvad lovliggørelsespligten indebærer.
 
 13. Om de forudsætninger, byrådsbeslutningen af 14. september 2016 knytter til rammen på ca. 20 mio. kr. — at den skitserede støjafskærmning *"fastholdes og suppleres med"* øget støjdæmpning, og at *"lokalområderne inddrages i en nærmere afklaring af støjafskærmningen"* — er iagttaget.
 
@@ -1215,7 +1301,9 @@ Spørgsmål **A–E** angår det beslutningsgrundlag, vilkår 7 henviser til —
 
 Giber Ringvej Gruppen har siden 2023 søgt spørgsmålene afklaret gennem dialog — ved høringssvar, faktaark, modredegørelser, foretræde for Teknisk Udvalg, afklaringsnotater og møder med forvaltning, rådmand og borgmester. Tre år og tre redegørelser senere står de bærende spørgsmål ubesvarede, og forvaltningen har erklæret videre dialog formålsløs. Den vej er udtømt.
 
-Anmodningen hviler derfor ikke på, at GRG er utilfredse med kommunens svar, men på at svarene ikke kan efterprøves. Kommunen har oplyst, at en opgørelse over puljens anvendelse ikke kan udarbejdes; at beplantningen ikke er et krav, den selv i august 2025 spurgte sin rådgiver om; og at belægningen er støjdæmpende, uden at oplyse i forhold til hvad. Det er ikke skøn, tilsynet skal efterprøve — det er fravær af det grundlag, et skøn skulle hvile på.
+Anmodningen hviler ikke på, at GRG er utilfredse med kommunens svar. Den hviler på to forhold, som ingen af parterne bestrider: **den slørende beplantning er ikke etableret, og ingen af de foranstaltninger, vilkår 7's beslutningsgrundlag prissatte, er gennemført.** Der er ikke truffet nogen afgørelse om at fravige vilkårene. Det er et ulovligt forhold, og planlovens § 51, stk. 3 pålægger kommunen at foranledige det lovliggjort.
+
+At kommunen samtidig ikke kan oplyse, hvad dens modsatte opfattelse hviler på — at en opgørelse ikke kan udarbejdes; at beplantningen ikke er et krav, den selv i august 2025 spurgte sin rådgiver om; og at belægningen er støjdæmpende, uden at oplyse i forhold til hvad — er ikke sagens genstand, men dens forklaring. Det er ikke skøn, tilsynet skal efterprøve; det er fraværet af det grundlag, et skøn skulle hvile på.
 
 Giber Ringvej Gruppen anmoder Ankestyrelsen om at udtale, at Aarhus Kommune har pligt til at genoptage sagen og oplyse den korrekt. Formålet er ikke en udtalelse for dens egen skyld: det er, at den supplerende støjdæmpning gennemføres ved de fem lokaliteter, vilkår 7 navngiver; at kommunen redegør for, hvilken støjdæmpning den udlagte vejbelægning yder, og i forhold til hvad; og at den afskærmende beplantning etableres langs bysamfundene, som VVM-grundlaget forudsatte. Snart otte år efter tilladelsen bor der mennesker langs vejen, for hvem det spørgsmål ikke er af akademisk art.
 
@@ -1302,11 +1390,11 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-mtm-kommentering-2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf)
 * **Bilag 19:** VVM-redegørelse for Bering-Beder vejen — Tillæg nr. 43 til Kommuneplan 2013 (286 sider)  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf)  
-  *Miljørapport og VVM-redegørelse er efter kommunens eget valg udarbejdet som ét samlet dokument, jf. den sammenfattende redegørelse s. 1. Dokumentet bærer betegnelsen "Forslag i offentlig høring 1/12 2014 – 28/2 2015"; det er den udgave, Aarhus Kommune fortsat selv publicerer som projektets VVM-redegørelse (aarhus.dk/media/41qmamcj/vvm-redegoerelse_beringbeder.pdf), og den her vedlagte fil er byte-identisk hermed. Det er dermed de anvisninger, vilkår 2 henviser til*
+  *Miljørapport og VVM-redegørelse er efter kommunens eget valg udarbejdet som ét samlet dokument, jf. den sammenfattende redegørelse s. 1. Dokumentet bærer betegnelsen "Forslag i offentlig høring 1/12´ 14 - 28/2´ 15"; det er den udgave, Aarhus Kommune fortsat selv publicerer som projektets VVM-redegørelse (aarhus.dk/media/41qmamcj/vvm-redegoerelse_beringbeder.pdf), og den her vedlagte fil er byte-identisk hermed. Det er dermed de anvisninger, vilkår 2 henviser til*
 * **Bilag 20:** Rambølls Landskabsstrategi — oversigtsplan af 24. januar 2019  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf) ·
   [Udsnit: tiltagsliste St. 9.200–9.660 "Vest for Tandervej"](https://aarhusworks.com/assets/giber-ringvej/klage/2019-landskabsstrategi-st9200-9660-vest-for-tandervej.png)  
-  *Rambølls eget interne implementeringsdokument for vilkår 2; specificerer eksplicit "Visuel støjskærmning (beplantning) nordside af vej" ved st. 9.200–9.660 (Tandervej–Mustrupvej) — den strækning Rambøll indrømmer ikke er beplantede*
+  *Rambølls eget interne implementeringsdokument for vilkår 2. Strategien opdeler vejen i stationeringsafsnit med tiltag for hvert. For st. 9.200–9.660 "Vest for Tandervej" specificerer den eksplicit "Visuel støjskærmning (beplantning) nordside af vej" — den strækning Rambøll indrømmer ikke er beplantet. For st. 7.750–8.700 "Giber Ådal" — hvor VVM-redegørelsens Figur 49 og 50 er optaget — indeholder strategien derimod ingen anvisning om beplantning; jf. afsnit 3.3*
 * **Bilag 21:** Intern korrespondance mellem Aarhus Kommune og Rambøll — notatets bestilling, redigering og genbesøg (marts 2023 – september 2024)  
   Udskrifter af originalmailene:  
   · [SV: Vedr. støj fra Giber Ringvej (21. marts 2023)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-03-21-mail-sv-vedr-stoej-fra-giber-ringvej.pdf) — indeholder tillige forvaltningens interne dagsorden af 15. marts 2023 nederst i tråden  
@@ -1368,7 +1456,7 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
   · [Redegørelse for beplantning langs Giber Ringvej (7. august 2025)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-07-mail-bestilling-af-redegoerelse-for-beplantning.pdf) — forvaltningens bestilling hos Rambøll, med spørgsmålet *"er det bare uforpligtende eksempler i VVM'en eller er det forudsætninger for projektet?"*  
   · [Vende redegørelse for beplantning langs Giber Ringvej (27. august 2025)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-27-mail-vende-redegoerelse-for-beplantning.pdf) — mødeindkaldelse om udkastet forud for færdiggørelsen  
   · [VS: Redegørelse for beplantning langs Giber Ringvej prisoverslag (26. september 2025)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-09-26-mail-vs-redegoerelse-for-beplantning-prisoverslag.pdf) — prisoverslaget på ca. 100.000 kr., forslaget om et 20 m bredt bælte på frivillig basis, og byrumschefens anvisning om, at *"det skal betales af Giber Ringvejs projektet"*  
-  · Rambølls skitsetegninger af 24. september 2025, st. 8500–8700 ved Mårslet, påført *"FORELØBIGT TRYK"*: [E-9805-S0500](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-09-24-ramboell-skitse-e-9805-s0500.pdf) og [E-9805-S0501](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-09-24-ramboell-skitse-e-9805-s0501.pdf)  
+  · Rambølls to skitsetegninger af 24. september 2025 ved Mårslet, begge påført *"FORELØBIGT TRYK"*: [E-9805-S0500](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-09-24-ramboell-skitse-e-9805-s0500.pdf) — *"Station 8500-8700"* (ved Mustrupvej) — og [E-9805-S0501](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-09-24-ramboell-skitse-e-9805-s0501.pdf) — *"Station 9400/9500/9600"* (ved Tandervej). De to tegninger dokumenterer, at forslaget består af to adskilte bælter med en udækket strækning imellem; jf. afsnit 3.3  
   · Aktindsigten indeholder tillige Rambølls notat om beplantning, som er byte-identisk med det, der er fremlagt som **bilag 9**, og som derfor ikke gentages her  
   Kortudsnit indlejret i mailene, udtrukket til selvstændige filer:  
   · [Forvaltningens røde markering, 7. august 2025 — vest for Tandervej](https://aarhusworks.com/assets/giber-ringvej/klage/2025-08-07-mtm-bestilling-roed-markering-vest-for-tandervej.png)  
@@ -1510,9 +1598,9 @@ Landzonetilladelsen dagen efter nævner slet ikke støj, men alene *"visuel afsk
 
 ### B5) Nymarks Allé — supplerende støjdæmpning eller nyttiggørelse af overskudsjord?
 
-Her er problemet af en anden art end ved B1–B4. Rambøll beskriver i sit notat af 25. marts 2026, jf. [bilag 16a](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4) (s. 4), tiltaget således: *"Støjtiltagene der er udført på nordsiden af Giber Ringvej mellem Tandervej og Nymarksvej, er udført som dyrkningsskråninger med en flad hældning på 1:10. Formålet er netop at de ikke er synlige i landskabet, i overensstemmelse med anbefalingerne i VVM-rapporten. (Afsnit 17.1.1 Afværge og overvågningstiltag, Landskab s 244 i originalt dokument)"* Det bestrides ikke, at skråningen er anlagt. Det bestrides heller ikke, at en støjvold hensigtsmæssigt kan udformes med flade skråninger, så arealet efterfølgende kan dyrkes — en sådan udformning tjener netop tillige vilkår 2's krav om landskabelig tilpasning, og udformningen er ikke i sig selv et problem. Anlægget er da også i sin tid ansøgt og godkendt netop som en støjvold. Rambøll ansøgte den 1. maj 2019 på Aarhus Kommunes vegne om landzonetilladelse til *"en støjvold Mellem Tandervej og Nymarksved ved Mårslet"*, jf. [bilag 32](https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=5). Af ansøgningen fremgår:
+Her er problemet af en anden art end ved B1–B4. Rambøll beskriver i sit notat af 25. marts 2026, jf. [bilag 16a](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4) (s. 4), tiltaget således: *"Støjtiltagene der er udført på nordsiden af Giber Ringvej mellem Tandervej og Nymarksvej, er udført som dyrkningsskråninger med en flad hældning på 1:10. Formålet er netop at de ikke er synlige i landskabet, i overensstemmelse med anbefalingerne i VVM-rapporten. (Afsnit 17.1.1 Afværge og overvågningstiltag, Landskab s 244 i originalt dokument)"* Det bestrides ikke, at skråningen er anlagt. Det bestrides heller ikke, at en støjvold hensigtsmæssigt kan udformes med flade skråninger, så arealet efterfølgende kan dyrkes — en sådan udformning tjener netop tillige vilkår 2's krav om landskabelig tilpasning, og udformningen er ikke i sig selv et problem. Anlægget er da også i sin tid ansøgt og godkendt netop som en støjvold. Rambøll ansøgte den 1. maj 2019 på Aarhus Kommunes vegne om landzonetilladelse til *"en støjvold Mellem Tandervej og Nymarksved ved Mårslet"*, jf. [bilag 32, s. 5](https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=5). Tilladelsen gengiver ansøgningens beskrivelse af anlægget, jf. [bilag 32, s. 1](https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=1):
 
-> *"Støjvolden nedbringer støjen fra vejanlægget på de nærliggende bebyggelser. Den samlede støjvold er ca. 750 meter lang, 3-6 meter bred fra skråningskant til top, og placeres 2-12 meter nord for Bering-Beder Vejen. Støjvolden etableres med en 2 meter bred top (kronebredde), 1 meter over terræn og med et skråningsanlæg 1:2 mod Bering-Beder Vejen og et skråningsanlæg 1:10 på bagsiden."*
+> *"Den samlede støjvold er ca. 750 meter lang, 3-6 meter bred fra skråningskant til top, og placeres 2-12 meter nord for Bering-Beder Vejen. Støjvolden etableres med en 2 meter bred top (kronebredde), 1 meter over terræn og med et skråningsanlæg 1:2 mod Bering-Beder Vejen og et skråningsanlæg 1:10 på bagsiden."*
 
 Kommunen meddelte tilladelsen den 27. maj 2019 og lagde herved udtrykkeligt vægt på støjhensynet. Formålet angives som *"at begrænse støjpåvirkningen af omkringliggende ejendomme"*, og i begrundelsen anføres, *"at der er tale om en støjvold, der nedbringer støjen fra vejanlægget på de nærliggende bebyggelser."* At der er tale om samme anlæg, fremgår af ansøgningens Figur 1, hvor volden er indtegnet langs sydsiden af boligbebyggelsen ved Nymarks Allé fra Tandervej til Nymarksvej — samme strækning og samme skråningsanlæg 1:10, som Rambøll i 2026 betegner dyrkningsskråninger.
 
@@ -1575,7 +1663,7 @@ Rambøll forholder sig ikke retligt til denne dobbelthjemmel. Notatet konstatere
 
 ### D) Flytning af vej mellem Oddervej og Beder Landevej
 
-VVM-tilpasningerne (2019), jf. [bilag 10b](https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf#page=12) (s. 12), beskriver flytningen således: *"Mellem Oddervej og Beder Landevej er vejen flyttet længere mod syd, således oversigtsforholdene i krydsområdet sikres, hvilket giver mulighed for at etablere en vold med tilpas afstand til et nyt boligområde ... Volden vil ved denne flytning af vejen ikke være dominerende, og kan med en flad skråning sikre en rekreativ værdi."*
+VVM-tilpasningerne (2019), jf. [bilag 10b](https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf#page=12) (s. 12), beskriver flytningen således: *"Mellem Oddervej og Beder Landevej er vejen (...) flyttet længere mod syd, således oversigtsforholdene i krydsområdet sikres, hvilket giver mulighed for at etablere en vold med tilpas afstand til et nyt boligområde ... Volden vil ved denne flytning af vejen ikke være dominerende, og kan med en flad skråning sikre en rekreativ værdi."*
 
 Efter dokumentets egen ordlyd er flytningens formål at sikre *oversigtsforholdene i krydsområdet* — en trafiksikkerhedsdisponering. Volden er en heraf *afledt mulighed* (*"hvilket giver mulighed for"*) og beskrives som en ikke-dominerende, flad skråning med *"rekreativ værdi"*. At selve vejflytningen — en trafiksikkerhedsforanstaltning — henføres til støjpuljen, er ikke i overensstemmelse med tilpasningsdokumentets egen begrundelse, og der er ikke fremlagt nogen udskilt opgørelse over, hvilken andel af flytningsomkostningen der skulle udgøre støjdæmpning.
 
