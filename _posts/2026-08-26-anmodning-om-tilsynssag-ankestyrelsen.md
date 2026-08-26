@@ -155,6 +155,16 @@ Forholdet ses tillige af kommunens egen opgørelse over høringsbidragene til st
 
 Det kan forudses gjort gældende, at foranstaltningerne efter deres natur hørte til anlægsfasen, og at sagen er forældet ved vejens aflevering. Det er ikke tilfældet efter kommunens egen fremstilling. Forvaltningen oplyste i november 2023, at *"projektet [er] fortsat ikke afsluttet og der foreligger derfor ikke et endeligt anlægsregnskab endnu"*, jf. [bilag 33, s. 1](https://aarhusworks.com/assets/giber-ringvej/2023-11-22-mtm-svar-pulje-og-kommunalfuldmagt.pdf#page=1). Borgmesteren oplyste i februar 2026, at beplantning vil kunne etableres *"inden for projektets resterende økonomi"*. Og forvaltningen arbejder fortsat i 2026 på at etablere beplantning ved Mårslet (afsnit 3.3). Kommunen behandler altså selv projektet som uafsluttet. Hertil kommer, at tilsynspligten efter planlovens § 51 er løbende, og at et vilkår består, indtil det er opfyldt eller lovligt fraveget.
 
+**Forholdet har aktuel karakter, fordi muligheden for at opfylde vilkår 2 kan forsvinde undervejs.** Beplantningen skal stå på arealer, kommunen ikke råder over, og som den efter eget udsagn kun kan erhverve ved frivillig aftale (afsnit 3.3 og 4.8). Opfyldelsen forudsætter dermed, at arealerne fortsat er til at få fat i.
+
+Om netop det areal, hvor Landskabsstrategien anviser beplantning, og som forvaltningen selv markerede i august 2025, skrev forvaltningen den 26. september 2025 internt, jf. [bilag 39](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-09-26-mail-vs-redegoerelse-for-beplantning-prisoverslag.pdf):
+
+> *"Arealet ved Tandervej kan sandsynligvis sælges til en udvikler, som vil bygge et supermarked, hvis det er tilfældet så bliver arealet væsentligt dyrere."*
+
+Det gøres ikke gældende, at et salg er besluttet eller nært forestående; det er ikke oplyst. Det gøres gældende, at kommunen samtidig med at afvise, at beplantningen er et krav, selv har peget på en disposition, der kan gøre opfyldelsen dyrere eller umulig — og at der ikke foreligger nogen stillingtagen til, hvordan vilkår 2 i så fald opfyldes på strækningen (afsnit 3.3).
+
+Hertil kommer, at forvaltningen oplyser, at anlægsregnskabet endnu ikke er endeligt (jf. ovenfor). Både den faktiske og den økonomiske mulighed for at bringe forholdet i orden består altså i dag. Jo længere spørgsmålet står uafklaret, jo større er risikoen for, at det ikke længere gør.
+
 **Spørgsmålet rækker ud over denne sag.** En kommune, der anlægger et VVM-pligtigt projekt, vil altid være både bygherre og den myndighed, der fastsætter og påser vilkårene. Spørgsmålet om, på hvilket grundlag en sådan myndighed lovligt kan konstatere, at dens egne vilkår er opfyldt, er derfor ikke særegent for Giber Ringvej. Det er efter GRG's opfattelse netop et spørgsmål, der er egnet til at understøtte tilsynets formål.
 
 **Hvad der anmodes om.** GRG anmoder om en vejledende udtalelse om lovligheden af kommunens sagsbehandling og om dens pligt til at genoptage sagen og oplyse den korrekt, jf. afsnit 5 og 6. Der anmodes ikke om, at Ankestyrelsen efterprøver støjfaglige vurderinger eller kommunens skøn.
@@ -804,9 +814,7 @@ To forhold har betydning.
 
 **Løsningen beror på frivillighed.** Forvaltningen anfører selv, at man *"er afhængig af at det bliver på frivillig basis, da vi ikke kan ekspropriere til arealerne"*. En bindende forpligtelse efter en VVM-tilladelse kan ikke anses for opfyldt gennem en foranstaltning, hvis gennemførelse afhænger af, om private lodsejere frivilligt medvirker. Så længe det er tilfældet, foreligger der ingen sikkerhed for, at vilkår 2 bliver opfyldt — og heller ingen redegørelse for, hvad kommunen agter at gøre, hvis frivillige aftaler ikke opnås.
 
-**Arealet ved Tandervej overvejes solgt til bebyggelse.** Samme mail afsluttes med:
-
-> *"Arealet ved Tandervej kan sandsynligvis sælges til en udvikler, som vil bygge et supermarked, hvis det er tilfældet så bliver arealet væsentligt dyrere."*
+**Arealet ved Tandervej overvejes solgt til bebyggelse.** Samme mail afsluttes med bemærkningen om, at arealet *"sandsynligvis [kan] sælges til en udvikler, som vil bygge et supermarked"*, hvorved det bliver *"væsentligt dyrere"* (citeret i sin helhed i afsnit 1.3).
 
 Det areal, der her er tale om, er efter forvaltningens egen markering af 7. august 2025 og efter Landskabsstrategiens anvisning netop det sted, hvor den afskærmende beplantning skulle etableres. At kommunen samtidig overvejer at afhænde arealet til byggeri, uden at der foreligger nogen dokumenteret stillingtagen til, hvordan vilkår 2 i så fald opfyldes på strækningen, er ikke foreneligt med pligten efter planlovens § 51 til at påse, at vilkår i tilladelser overholdes. Ankestyrelsen anmodes om at tage stilling hertil.
 
