@@ -319,8 +319,6 @@ Det besvarer kommunens gennemgående forsvar om, at *"grænseværdierne for stø
 
 Boligen ligger dermed under den vejledende grænseværdi på 58 dB. Netop derfor får den intet efter en tærskelbetragtning — og netop derfor blev rammen afsat. Den foranstaltning, beslutningsgrundlaget prissatte for Mårslet, var en 4 meter høj skærm med en beregnet virkning på **2,5 dB**. En dæmpning af den størrelsesorden er, hvad de ca. 20 mio. kr. skulle levere til boliger som denne. Ingen del af den er udført.
 
-Rapportens egen konklusion — at grænseværdien er *"overholdt i alle målingerne"* — er behæftet med to forbehold, rapporten selv angiver: resultaterne er *"inklusive baggrundsstøj"*, der vurderes at bidrage med 0,5–1,5 dB, og den samlede standardafvigelse er opgjort til **2,3 dB** ([s. 5](https://aarhusworks.com/assets/mtm-modsvar/2023-08-VM-accoustics-m%C3%A5lt-trafikst%C3%B8j.pdf#page=5)). Målingerne kan derfor ikke bære en konklusion om afstanden til grænseværdien på decimalniveau — i nogen retning. Det er uden betydning for vilkår 7, som ikke er tærskelbaseret, men har betydning for den vægt, kommunens gennemgående forsvar om overholdte grænseværdier kan tillægges.
-
 **Forvaltningen frarådede foranstaltningerne. Udvalget besluttede dem alligevel.** I samme notat anbefalede Teknik og Miljø udtrykkeligt at undlade dem, jf. [bilag 46, s. 4–5](https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=4):
 
 > *"I forhold til Kolt anbefaler Teknik og Miljø, at der **ikke** tilføjes projektet nogen støjafskærmning."*
