@@ -72,7 +72,7 @@ Ingen af disse faktiske forhold er bestridt. **Der foreligger dermed et ulovligt
 * at forvaltningen så sent som i august 2025 måtte spørge sin egen rådgiver, om beplantningen overhovedet var et krav: *"er det bare uforpligtende eksempler i VVM'en eller er det forudsætninger for projektet?"* — seks måneder før borgmesteren afviste, at den var det
 * at der for vejbelægningen hverken er oplyst referencebelægning, belægningstype eller dokumenteret støjreduktion
 
-Det påberåbes af to grunde: det er et selvstændigt brud på pligten til at oplyse sagen, og det er grunden til, at det må påhvile kommunen at godtgøre, at vilkårene alligevel er overholdt. For **vilkår 5** er det indsigelsen i sin helhed; dér gøres det ikke gældende, at vilkåret er tilsidesat.
+Det påberåbes af to grunde: det er et selvstændigt brud på pligten til at oplyse sagen, og det er grunden til, at det må påhvile kommunen at godtgøre, at vilkårene alligevel er overholdt. For **vilkår 5** er det indsigelsen principalt; subsidiært gøres gældende, at vilkåret ikke kan anses for overholdt.
 
 **Hvad rammen dækkede.** Den byrådsbeslutning, vilkår 7 henviser til, fastslår, at den allerede skitserede støjafskærmning *"fastholdes **og** suppleres med"* øget støjdæmpning inden for rammen. Rammen er dermed additionen — ikke betaling for det, projektet i forvejen skyldte. Det notat, rådgiveren selv angiver som kilde til beløbet, prissætter de tre skærme enkeltvis: Kolt 8,2, Tranbjerg 5,4 og Mårslet 3,1 mio. kr. Den eneste støjskærm, projektet faktisk har — den langs Landevejen ved Tranbjerg — skyldte kommunen efter vilkår 5 og 6 uafhængigt af rammen, og rådgiveren opgør den ikke desto mindre som anvendelse af den.
 
@@ -96,14 +96,14 @@ Denne anmodning fremsendes til Ankestyrelsens kommunale tilsyn i medfør af [**k
 
 Anmodningen anfægter **ikke** VVM-tilladelsen, dens gyldighed eller indholdet af dens vilkår — tværtimod påberåbes de. Den angår heller ikke kommunens faglige støjskøn, som tilsynet ikke skal efterprøve: GRG beder ikke Ankestyrelsen om at afgøre, hvor meget en belægning dæmper, hvor høj en vold bør være, eller hvor mange træer der skal plantes.
 
-Spørgsmålet er, om kommunen har iagttaget sin pligt efter planlovens § 51, når to af tilladelsens vilkår efter kommunens eget materiale ikke er gennemført (vilkår 2 og 7), og kommunen hverken har truffet afgørelse om at fravige dem eller kan oplyse grundlaget for at anse dem for opfyldt. For det tredje vilkår (vilkår 5) gøres det ikke gældende, at det er tilsidesat; dér angår spørgsmålet alene kommunens sagsoplysning. Afgrænsningen uddybes i afsnit 3.
+Spørgsmålet er, om kommunen har iagttaget sin pligt efter planlovens § 51, når to af tilladelsens vilkår efter kommunens eget materiale ikke er gennemført (vilkår 2 og 7), og kommunen hverken har truffet afgørelse om at fravige dem eller kan oplyse grundlaget for at anse dem for opfyldt. For det tredje vilkår (vilkår 5) angår spørgsmålet principalt kommunens sagsoplysning og subsidiært, om vilkåret er overholdt. Afgrænsningen uddybes i afsnit 3.
 
 De tre vilkår gengives her ordret og omtales i det følgende ved deres numre. Ordlyden gentages kun, hvor et konkret argument beror på den.
 
 | Vilkår | Ordlyd i VVM-tilladelsen af 12. oktober 2018 | Hvad der gøres gældende |
 |---|---|---|
 | **2**<br>*Slørende beplantning* | *"At udformningen af de samlede anlæg – veje, skråningsanlæg, støjvolde, beplantning mv - tilpasses det omgivende landskab i overensstemmelse med landskabets karakter i henhold til anvisningerne i VVM redegørelsen."* (s. 2) | **Ikke overholdt.** Beplantningen er ikke etableret, hvor anvisningerne forudsatte den, og vilkåret er ikke fraveget ved nogen dokumenteret beslutning (afsnit 3.3) |
-| **5**<br>*Støjdæmpende vejbelægning* | *"At hele det nye vejanlæg inklusiv forbindelsen fra Oddervej til Beder Landevej, undtagen sekundære veje og stier, udformes med støjdæmpende vejbelægning, og med støjafskærmning langs nordsiden af vejanlægget ved Tranbjerg."* (s. 3) | **Sagsoplysning.** Hverken referencebelægning eller støjreduktion er oplyst som grundlag for at anse den udlagte KVS-belægning for støjdæmpende. Det gøres ikke gældende, at vilkåret er tilsidesat (afsnit 3.2) |
+| **5**<br>*Støjdæmpende vejbelægning* | *"At hele det nye vejanlæg inklusiv forbindelsen fra Oddervej til Beder Landevej, undtagen sekundære veje og stier, udformes med støjdæmpende vejbelægning, og med støjafskærmning langs nordsiden af vejanlægget ved Tranbjerg."* (s. 3) | **Principalt sagsoplysning:** hverken referencebelægning eller støjreduktion er oplyst som grundlag for at anse den udlagte KVS-belægning for støjdæmpende. **Subsidiært:** vilkåret kan ikke anses for overholdt (afsnit 3.2) |
 | **7**<br>*Supplerende støjdæmpning fem steder, ramme ca. 20 mio. kr.* | *"At der suppleres med øget støjdæmpning ved boliger i det åbne land, ved Tranbjerg, ved Mårslet, ved forlængelsen til Beder Landevej og ved Kolt, inden for en økonomisk ramme på ca. 20 mio. kr., jf. Byrådsbeslutningen den 14. september 2016."* (s. 3) | **Ikke overholdt.** Ingen af de tre støjskærme, beslutningsgrundlaget prissatte, er opført, og facadetilskuddet ses ikke gennemført. Kommunen oplyser selv, at en opgørelse ikke kan udarbejdes (afsnit 3.1) |
 
 Ved siden af den manglende opfyldelse angår anmodningen kommunens håndtering af sagen: mangelfuld sagsoplysning, tre indbyrdes uforenelige redegørelser, manglende genoptagelse trods erkendte fejl, og en efterfølgende indskrænkende omfortolkning af vilkårene, som ingen dokumenteret myndighedsbeslutning ligger bag (afsnit 4).
@@ -226,7 +226,7 @@ Kommunen har haft rig lejlighed til at rette op og har nægtet. At myndigheden a
 
 De tre vilkår gennemgås hver for sig efter samme opbygning: hvad vilkåret kræver, hvad kommunen har gjort og oplyst, og hvad der følger heraf. Hvert underafsnit slutter med en konklusion.
 
-**De tre vilkår føres ikke på samme grundlag, og det oplyses her.** For **vilkår 2 og 7** gøres det principalt gældende, at vilkårene ikke er overholdt — at der altså foreligger et ulovligt forhold, som kommunen efter planlovens § 51, stk. 3 har pligt til at foranledige lovliggjort. For **vilkår 5** gøres dette ikke gældende; dér angår indsigelsen alene, at kommunen har konstateret vilkåret opfyldt uden at kunne oplyse grundlaget.
+**De tre vilkår føres ikke på samme grundlag, og det oplyses her.** For **vilkår 2 og 7** gøres det principalt gældende, at vilkårene ikke er overholdt — at der altså foreligger et ulovligt forhold, som kommunen efter planlovens § 51, stk. 3 har pligt til at foranledige lovliggjort. For **vilkår 5** gøres principalt gældende, at kommunen har konstateret vilkåret opfyldt uden at kunne oplyse grundlaget, og subsidiært — hvis der skal tages stilling til overholdelsen — at vilkåret ikke kan anses for overholdt. Rækkefølgen er tilsigtet: kommunen råder alene over de oplysninger, spørgsmålet afhænger af.
 
 Samlet er billedet dette:
 
@@ -234,7 +234,7 @@ Samlet er billedet dette:
 |---|---|---|
 | **7** · supplerende støjdæmpning fem steder, ramme ca. 20 mio. kr. | Rammen er anvendt — men en opgørelse *"er ikke muligt"* at lave | **Ikke overholdt.** Ingen af de tre støjskærme, beslutningsgrundlaget prissatte til 16,7 mio. kr., er opført, og facadetilskuddet ses ikke gennemført. Subsidiært: grundlaget kan ikke oplyses (afsnit 3.1) |
 | **2** · slørende beplantning | Beplantningen var *"ikke forudsat etableret"* | **Ikke overholdt.** Beplantningen er ikke etableret, og rådgiveren oplyser, at den er *"formegentlig fravalgt af økonomiske årsager"*. Der foreligger ingen afgørelse om fravigelse (afsnit 3.3) |
-| **5** · støjdæmpende vejbelægning | Den udlagte KVS-asfalt opfylder vilkåret | **Sagsoplysning.** Hverken referencebelægning, KVS-type eller dokumenteret støjreduktion er oplyst. Der gøres ikke gældende, at vilkåret er tilsidesat (afsnit 3.2) |
+| **5** · støjdæmpende vejbelægning | Den udlagte KVS-asfalt opfylder vilkåret | **Principalt sagsoplysning:** hverken referencebelægning, KVS-type eller dokumenteret støjreduktion er oplyst. **Subsidiært:** vilkåret kan ikke anses for overholdt (afsnit 3.2) |
 
 For alle tre gælder, at indsigelsen ikke angår kommunens støjfaglige skøn. Hvor der er fremlagt dokumentation, bestrides den ikke; hvor der ikke er, gøres det gældende, at det påhviler kommunen at godtgøre, at vilkåret er overholdt.
 
@@ -540,21 +540,29 @@ VVM-redegørelsens støjberegninger og vilkår 5 var baseret på forudsætningen
 
 I stedet for SRS valgte kommunen KVS (klimavenligt slidlag) — en belægning der primært er udviklet til at reducere brændstofforbrug og CO₂-udslip. Rambøll begrunder valget med at KVS har en "længerevarende støjreducerende effekt."
 
-Anmodningen gør ikke gældende, at KVS er uden støjdæmpende egenskaber. Den gør gældende, at kommunen ikke har oplyst, hvilken støjdæmpning den har lagt til grund, eller i forhold til hvad. Hverken Rambøll eller kommunen har dokumenteret:
+Anmodningen gør ikke gældende, at KVS er uden støjdæmpende egenskaber. Den gør gældende, at kommunen ikke har oplyst, hvilken støjdæmpning den har lagt til grund, eller i forhold til hvad — hverken belægningstypens betegnelse, referencen eller reduktionen, og heller ikke grundlaget for at anse vilkåret for opfyldt, når den i VVM-grundlaget forudsatte belægningstype blev erstattet af en anden. De enkelte punkter er opregnet i konklusionen for dette vilkår nedenfor.
 
-* hvilken konkret KVS-type der er udlagt
-* hvilken støjreduktion KVS giver i forhold til den forudsatte SRS — eller i forhold til den belægning, der i øvrigt ville være udlagt
-* på hvilket grundlag vilkår 5 er anset for opfyldt, når den i VVM-grundlaget forudsatte belægningstype er erstattet af en anden
+#### Støjtallet er opgjort mod den ene af to referencer
 
-#### Vejdirektoratets data
+Vejdirektoratets eget materiale om KVS besvarer ikke det spørgsmål, vilkår 5 stiller — og det fremgår af materialet selv.
 
-Vejdirektoratets egne data rejser spørgsmålet, jf. [bilag 15, s. 4](https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=4). Notatet oplyser udtrykkeligt, at den fremhævede reduktion på *"ca. 2 dB"* er opgjort i forhold til *"en accepteret reference, SMA11"* — en grovere, mere støjende belægningstype — og at SMA8 i dag udgør *"ca. 70 %"* af statsvejnettet mod ca. 30 % SMA11.
+**Notatet fastlægger, hvad KVS skal måles imod,** jf. [bilag 15, s. 2](https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2):
 
-Notatets Figur 1 — *"visning af KVS støjreducerende egenskaber over tid for KVS, sammenlignet med en SMA8, SMA11 og SRS"* — gengiver trendlinjerne grafisk. **Efter GRGs aflæsning af figuren** følges kurverne for KVS og SMA8 tæt gennem hele levetiden, og ved nyudlægning ligger SMA8-kurven lavest. Notatet angiver ikke tal for forskellen mellem KVS og SMA8, og aflæsningen påberåbes derfor ikke som en måling, men som anledning til det spørgsmål, kommunen ikke har besvaret: hvilken støjreduktion KVS giver i forhold til den belægning, der ellers ville være udlagt. Det er den sammenligning, vilkår 5 forudsætter — og den findes ikke i noget materiale, kommunen har fremlagt.
+> *"Det faktiske vejnet afspejler en belægningssammensætning med en fordeling på ca. 30 % SMA11 og ca. 70 % SMA8. Denne sammensætning er typisk anvendt henover de seneste ca. 5 år og forventes fortsat frem over, når der udlægges nye belægninger på statsvejene. Denne fordeling skal dermed ses som det alternativ til udlægningen af KVS, som KVS holdes op mod."*
 
-![Figur 1 fra Vejdirektoratets notat (bilag 15): trendlinjer for støjudviklingen for KVS, SMA8, SMA11 og SRS over belægningens levetid. KVS (orange) og SMA8 (grøn) følges tæt; ved år 0 ligger SMA8 lavere (mere støjsvag) end KVS. Den fremhævede reduktion på ca. 2 dB er målt i forhold til SMA11 (blå).](https://aarhusworks.com/assets/giber-ringvej/klage/2019-vejdirektoratet-kvs-figur1-stoejtrendlinjer-kvs-sma8-sma11-srs.png)
+**De to fordele ved KVS opgøres derefter ikke på samme grundlag.** Brændstofbesparelsen angives i forhold til begge: *"1,1 % i forhold til SMA8 og 1,5 % i forhold til SMA11"*. Støjreduktionen angives kun i forhold til den ene — KVS *"har ydermere påvist en evne til at reducere støj fra belægningen, svarende til ca. 2dB, opgjort ved den normale tilgang til at relatere støjreduktion fra en accepteret reference, SMA11"*. Det er den grovere af de to typer, som efter notatet udgør ca. 30 %. For SMA8, der udgør ca. 70 %, anfører notatet **intet støjtal**.
 
-*Figur 1 (bilag 15). Notatet angiver udtrykkeligt, at den fremhævede reduktion på ca. 2 dB er målt mod SMA11 (blå). Kurverne for KVS (orange) og SMA8 (grøn) følges efter GRGs aflæsning tæt gennem levetiden; notatet angiver ikke tal for forskellen mellem de to.*
+**Transportministerens orientering peger samme vej.** Vejdirektoratet henfører dér standardbelægningen og KVS til samme kategori, jf. [bilag 29, s. 1](https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=1): *"Derfor ønsker Vejdirektoratet fremover at benytte sig af mindre støjende slidlagstyper (SMA 8 std eller SMA 8 KVS) fremfor støjreducerende slidlag (SMA 8 SRS)."* Om forholdet mellem de to anføres, jf. [bilag 29, s. 1–2](https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=1):
+
+> *"Derfor er det ikke usandsynligt, at SMA 8 KVS’en har et højere initialt støjniveau, men at den med tiden vil have bedre støjegenskaber end SMA 8 SRS’en og SMA 8 std’en."*
+
+Forventningen om, at KVS med tiden bliver bedre end standardbelægningen, er en antagelse — regressionslinjen er efter notatet *"beregnet af to målinger"*, og der er *"stadig stor usikkerhed på, hvordan belægningens støjegenskaber vil udvikle sig med alderen"*. Om det **initiale** støjniveau anfører den nationale vejmyndighed omvendt, at det ikke er usandsynligt, at KVS ligger **højere** end standardbelægningen.
+
+Det gøres ikke gældende, at KVS er uden støjdæmpende egenskaber. Det, materialet viser, er snævrere og mere præcist: i det eneste dokument, der overhovedet sætter tal på KVS' støjreduktion, er tallet opgjort mod SMA11 — og netop den sammenligning, vilkår 5 forudsætter, findes ikke. Hertil kommer, at 30/70-fordelingen er Vejdirektoratets opgørelse over *statsvejnettet*. Hvad alternativet var på Giber Ringvej, som er en kommunevej, er præcis det, kommunen aldrig har oplyst.
+
+![Figur 1 fra Vejdirektoratets notat (bilag 15): trendlinjer for støjudviklingen for KVS, SMA8, SMA11 og SRS over belægningens levetid.](https://aarhusworks.com/assets/giber-ringvej/klage/2019-vejdirektoratet-kvs-figur1-stoejtrendlinjer-kvs-sma8-sma11-srs.png)
+
+*Figur 1 (bilag 15, s. 4) — notatets egen gengivelse af støjudviklingen over levetiden for KVS, SMA8, SMA11 og SRS. Notatet angiver tal for KVS i forhold til SMA11, men ikke for KVS i forhold til SMA8.*
 
 #### Problemets kerne
 
@@ -562,17 +570,37 @@ Vilkår 5 kræver "støjdæmpende vejbelægning." VVM-grundlaget forudsatte en b
 
 Et vilkår, der kræver en *støjdæmpende* belægning, forudsætter en målestok: dæmpende i forhold til hvad, og med hvilken virkning. Kommunen har ikke oplyst nogen af delene — hverken referencebelægningen, den udlagte KVS-types betegnelse eller den støjreduktion, den er anset for at levere. Kommunen har heller ikke forholdt sig retligt til, at den i VVM-grundlaget forudsatte belægningstype blev erstattet af en anden. Det er dette fravær af grundlag, anmodningen angår — ikke en påstand om, at KVS er uden virkning.
 
+#### Der forelå en målestok
+
+Kravet om en *støjdæmpende* vejbelægning svæver ikke i luften. Et dansk system til støjmæssig klassificering af slidlag — SRS-systemet — blev indført i november 2006. Vejdirektoratet oplyser, at der derefter er *"udarbejdet et 2. generationssystem for dokumentation af støjreducerende slidlag som blev offentliggjort i marts 2013"*, og angiver som kilde hertil vejreglen *"2.G – System for dokumentation af støjreducerende slidlag ”SRS”. Vejregler. Marts 2013."*, jf. [bilag 51, s. 13 og 99](https://aarhusworks.com/assets/giber-ringvej/2015-05-vejdirektoratet-rapport-540-optimering-af-stoejreducerende-slidlag.pdf#page=13). Systemet forelå altså i sin anden generation fem år før VVM-tilladelsen af 12. oktober 2018.
+
+Systemet har faste tærskler, jf. [bilag 52, s. 10](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=10):
+
+> *"Ved deklarering af et slidlags støjreducerende egenskaber i 2. generation af SRS-systemet (...) skal den målte støjreduktion overholde nedenstående krav: • SRS standard: Krav til støjreduktion er ≥ 4,0 dB • SRS speciel: Krav til støjreduktion er ≥ 7,0 dB. SRS klassifikationen kan foretages for hastigheder på 50 samt 80 km/t."*
+
+Vejanlægget er i VVM-redegørelsen projekteret som *"en almindelig landevej til 80 km/t"*, jf. [bilag 19, s. 9](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=9) — altså netop en af de to hastigheder, systemet klassificerer ved.
+
+**To præciseringer, så anbringendet ikke rækker videre, end det skal.** For det første er vejregler som udgangspunkt vejledende. Det gøres ikke gældende, at kommunen var *forpligtet* til at anvende SRS-systemet; det gøres gældende, at der forelå en fagligt anerkendt og offentliggjort målestok for netop den egenskab, vilkåret kræver. For det andet er de nævnte tærskler opgjort i forhold til SRS-systemets eget referenceniveau, som udtrykker *"den gennemsnitlige støj for AB 11t- og SMA 11-slidlag"*, jf. [bilag 52, s. 9](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=9), mens KVS-tallet på ca. 2 dB er opgjort i forhold til SMA11 alene. **De to tal er derfor ikke indbyrdes sammenlignelige**, og tærsklerne anføres alene som dokumentation for, at der fandtes objektive kriterier at dokumentere efter.
+
+Der forelå altså et offentliggjort, nationalt system til at dokumentere netop det, vilkår 5 kræver, anvendeligt ved netop denne vejs projekterede hastighed. **Hverken kommunen eller dens rådgiver har oplyst, om den udlagte belægning har nogen SRS-klassifikation** — eller har forholdt sig til systemet overhovedet.
+
+At vilkåret kunne have haft et konkret indhold, fremgår også af, at Vejdirektoratet i marts 2015 — tre år før tilladelsen — opgjorde, at drænasfalt kan optimeres til *"en gennemsnitlig støjdæmpning over slidlagenes levetid på op mod 4 dB i forhold til tæt asfaltbeton belægning og 4,5 dB i forhold til SMA11"*, og at den støjreducerende effekt *"ser ud til at være bedst for veje med hastigheder på 80 km/t eller mere, og på sådanne veje vil der ikke være behov for rensning af slidlagene"*, jf. [bilag 52, s. 4](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=4). Samme rapport anfører også ulemperne: kortere levetid end SMA-belægninger, højere anlægs- og vedligeholdelsesudgifter og *"måske 50 % mere salt end normalt"*.
+
+**Det gøres udtrykkeligt ikke gældende, at kommunen skulle have valgt drænasfalt eller nogen anden bestemt belægning** — valget mellem belægningstyper er et fagligt skøn, som tilsynet ikke skal efterprøve, og de anførte ulemper er reelle. Oplysningerne påberåbes alene for, at vilkårets krav var operationaliserbart: når kommunen ikke kan angive nogen målestok, skyldes det ikke, at feltet manglede en.
+
 #### Forudsætningen blev nedjusteret af Vejdirektoratet — før vejen blev belagt
 
 VVM-grundlagets forudsætning om en støjreducerende belægning blev i projektperioden væsentligt svækket af den nationale vejmyndighed. Transportministeren orienterede i folketingsåret 2019-20 Transportudvalget om Vejdirektoratets revurdering af SRS-belægningen, jf. [bilag 29, s. 1](https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=1):
 
-> *"Det har imidlertid vist sig, at SRS har nogle udfordringer på både strukturel og akustisk holdbarhed."*
+> *"Det har imidlertid vist sig, at SRS har nogle udfordringer på både strukturel og akustisk holdbarhed, hvilket resulterer i en kortere levetid og en større støjemission, efterhånden som den ældes."*
 
 Og om den forudsatte effekt:
 
 > *"[Der er tidligere regnet med] en støjreduktion på 2,4 dB i forhold til den traditionelle asfalttype SMA 11 (...). Med den reviderede trendlinje for støjudviklingen af SMA 8 SRS (...) **vurderes støjreduktionen snarere at være i størrelsesordenen ca. 1 dB.**"*
 
-Nedjusteringen var ikke ubetydelig. Den medførte på landsplan, at antallet af boliger, der måtte anses for støjbelastede, steg væsentligt.
+Nedjusteringen var ikke ubetydelig. Ingeniøren gengiver en senere orientering fra transportministeren til Transportudvalget om den reviderede støjkortlægning, hvorefter den forudsatte effekt af SRS blev fastsat til −1,3 dB mod tidligere −2,4 dB, og **8.227 boliger langs statsvejene derved skiftede status til støjbelastede** — fra 106.441 til 114.668. Ministeren anførte efter samme gengivelse, at *"asfalttypen ikke lever op til forventningen om støjreduktion"*, jf. [bilag 50](https://ing.dk/artikel/ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet).
+
+En forskel på ca. 1 dB i den forudsatte virkning af en vejbelægning er altså ikke en teoretisk størrelse. Det bemærkes, at dette angår beregnede støjkort og ikke de målinger ved ti boliger, der er omtalt i afsnit 3.1.
 
 Dette har direkte betydning for vilkår 5. VVM-redegørelsens støjberegninger og de forsikringer, borgerne fik under processen, hvilede på forudsætningen om en støjreducerende belægning af netop den type, hvis virkning Vejdirektoratet nu nedjusterede til under det halve. Orienteringen til Folketinget ligger tidsmæssigt **før** udlægningen af belægningen på Giber Ringvej.
 
@@ -603,16 +631,23 @@ Dommen kan derfor ikke påberåbes som dokumentation for, at vilkår 5 er opfyld
 
 **Dette vilkår føres på et andet grundlag end vilkår 2 og 7, og det oplyses udtrykkeligt.**
 
-Der er udlagt en belægning, og GRG gør **ikke** gældende, at vilkår 5 er tilsidesat, eller at der foreligger et ulovligt forhold. Det ville forudsætte en måling, GRG ikke har adgang til at foretage, og en efterprøvelse af et fagligt skøn, som ikke tilkommer tilsynet.
+Der er udlagt en belægning. GRG kan derfor ikke — som ved vilkår 2 og 7 — henvise til, at det, vilkåret kræver, beviseligt ikke findes. At der er udlagt *en* belægning, godtgør imidlertid ikke, at der er udlagt en *støjdæmpende* belægning; det er to forskellige spørgsmål, og kun det andet er vilkårets. Vilkåret føres derfor principalt som et sagsoplysningsspørgsmål og subsidiært som et spørgsmål om overholdelse.
 
-Det, der gøres gældende, er et **sagsoplysningsspørgsmål**: at kommunen har konstateret et bindende vilkår opfyldt uden at kunne oplyse, hvad konstateringen hviler på. Et vilkår om *støjdæmpende* vejbelægning forudsætter en målestok — dæmpende i forhold til hvad, og med hvilken virkning. Ingen af delene er oplyst:
+**Principalt** gøres gældende, at kommunen har konstateret et bindende vilkår opfyldt uden at kunne oplyse, hvad konstateringen hviler på. Et vilkår om *støjdæmpende* vejbelægning forudsætter en målestok — dæmpende i forhold til hvad, og med hvilken virkning. Ingen af delene er oplyst:
 
 * hvilken konkret KVS-type der er udlagt
 * hvilken referencebelægning kommunen har lagt til grund for at anse vilkåret for opfyldt
 * hvilken støjreduktion den faktisk udlagte belægning giver i forhold til den belægning, der ellers ville være udlagt
+* om den udlagte belægning har nogen klassifikation efter det SRS-system, der har været vejregel siden marts 2013, og som klassificerer ved bl.a. 80 km/t
 * at substitutionen af den i VVM-grundlaget forudsatte SRS-belægning med KVS er sket på et dokumenteret, retligt grundlag — og at kommunen som planmyndighed har forholdt sig til, at Vejdirektoratet nedjusterede den forudsatte reduktion, inden belægningen blev udlagt
 
-Anmodningen beder derfor for dette vilkårs vedkommende ikke om, at Ankestyrelsen fastslår en tilsidesættelse, men om en stillingtagen til, om en myndighed kan anse et vilkår for opfyldt uden at kunne angive den målestok, vilkåret forudsætter.
+**Subsidiært** gøres gældende, at vilkår 5 ikke kan anses for overholdt. Et vilkår om en *støjdæmpende* vejbelægning må antages at tilføre noget ud over den belægning, der ellers ville være udlagt; ellers ville vilkåret være uden selvstændigt indhold, og der er en formodning imod at fortolke et vilkår sådan, at det intet tilføjer. Den nationale vejmyndighed henfører selv standardbelægningen og KVS til samme kategori — *"mindre støjende slidlagstyper (SMA 8 std eller SMA 8 KVS)"* — og anfører om det initiale støjniveau, at det *"ikke [er] usandsynligt, at SMA 8 KVS’en har et højere initialt støjniveau"* end bl.a. SMA 8 std, jf. [bilag 29, s. 1–2](https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=1). Nogen støjreduktion for KVS i forhold til SMA8 er ikke opgjort i noget materiale i sagen.
+
+Det bemærkes, at Vejdirektoratets udsagn angår SMA 8 KVS. Om det er netop den type, der er udlagt på Giber Ringvej, er ikke oplyst — det er det første af de tre spørgsmål, kommunen ikke har besvaret. Kommunen kan derfor ikke henvise til, at udsagnene angår en anden belægning, uden samtidig at oplyse hvilken. På det foreliggende grundlag er det ikke godtgjort, at der er udlagt en *støjdæmpende* vejbelægning i vilkårets forstand.
+
+Det bemærkes udtrykkeligt, at den subsidiære påstand ikke hviler på en påstand om, at KVS er uden virkning, og ikke forudsætter, at Ankestyrelsen efterprøver et akustisk skøn. Der er derfor ingen modstrid mellem den subsidiære påstand og det, der er anført ovenfor om, at valget mellem belægningstyper er et fagligt skøn: GRG beder ikke om en efterprøvelse af det skøn, men gør gældende, at kommunen ikke har godtgjort at have udøvet det på et grundlag, der kan bære konklusionen. Den hviler på, at oplysningerne om, hvilken KVS-type der er udlagt, mod hvilken reference den er vurderet, og med hvilken reduktion, alene beror hos kommunen, og at kommunen trods gentagne anmodninger ikke har oplyst nogen af dem. Den usikkerhed, det efterlader, må bæres af den myndighed, der både er bygherre og tilsynsmyndighed, og som selv råder over oplysningerne.
+
+Anmodningen beder derfor for dette vilkårs vedkommende principalt om en stillingtagen til, om en myndighed kan anse et vilkår for opfyldt uden at kunne angive den målestok, vilkåret forudsætter — og subsidiært, hvis der skal tages stilling til overholdelsen, om vilkåret på det foreliggende grundlag kan anses for overholdt.
 
 GRGs tre konkrete spørgsmål i afklaringsnotat 1, jf. [bilag 11](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf), står fortsat ubesvarede.
 
@@ -1165,7 +1200,7 @@ Spørgsmål **A–E** angår det beslutningsgrundlag, vilkår 7 henviser til —
 
 4. Om det beplantningsforslag, kommunen fremlagde den 8. april 2026, kan anses for at opfylde **vilkår 2**, når det efter det oplyste ikke dækker den strækning ved Mårslet, som både VVM-redegørelsens visualiseringer og kommunens egen Landskabsstrategi udtrykkeligt udpeger — og når gennemførelsen beror på frivillige aftaler med private lodsejere, som kommunen ikke kan gennemtvinge (afsnit 3.3).
 
-5. Om kommunen havde pligt til at dokumentere, hvilken referencebelægning og hvilken konkret støjreduktion der er lagt til grund ved vurderingen af KVS-belægningen som opfyldelse af **vilkår 5** om støjdæmpende vejbelægning — herunder hvilken konkret KVS-type der er udlagt, og om udskiftningen af den i VVM-grundlaget forudsatte SRS-belægning med KVS er sket på et dokumenteret retligt grundlag (afsnit 3.2).
+5. Om kommunen havde pligt til at dokumentere, hvilken referencebelægning og hvilken konkret støjreduktion der er lagt til grund ved vurderingen af KVS-belægningen som opfyldelse af **vilkår 5** om støjdæmpende vejbelægning — herunder hvilken konkret KVS-type der er udlagt, om den udlagte belægning har nogen klassifikation efter det SRS-system, der siden marts 2013 har foreligget som vejregel i sin anden generation, og om udskiftningen af den i VVM-grundlaget forudsatte SRS-belægning med KVS er sket på et dokumenteret retligt grundlag (afsnit 3.2).
 
 6. Om kommunen havde pligt til at genoptage sagen og foretage en fornyet, korrekt vurdering — herunder at korrigere oplysningerne om støjvolde og støjtiltag — efter at Rambølls estimat blev erkendt misvisende, og efter at der fremkom yderligere oplysninger gennem aktindsigt, modredegørelser og afklaringsnotater.
 
@@ -1177,13 +1212,15 @@ Spørgsmål **A–E** angår det beslutningsgrundlag, vilkår 7 henviser til —
 
 10. Om kommunen som planmyndighed havde pligt til at forholde sig til, om forudsætningen bag **vilkår 5** fortsat kunne anses for opfyldt, efter at Vejdirektoratet havde nedjusteret den forudsatte støjreduktion for den planlagte belægningstype fra ca. 2,4 dB til ca. 1 dB — en revurdering, der forelå, inden belægningen blev udlagt.
 
-11. Om Aarhus Kommune lovligt har kunnet lægge en vurdering af vilkårsopfyldelsen til grund, som er udarbejdet af den rådgiver, hvis eget projekterings- og anlægsarbejde er genstand for vurderingen, uden nogen form for uafhængig efterprøvelse — herunder når det materiale, rådgiveren fremsendte som officiel sammenfatning, ikke gengav rådgiverens egne forbehold i de underliggende svar (afsnit 4.4).
+11. Om **vilkår 5** subsidiært må anses for ikke overholdt, når et vilkår om en *støjdæmpende* vejbelægning forudsætter, at belægningen dæmper i forhold til den, der ellers ville være udlagt; når der ikke i sagen foreligger nogen opgørelse af den udlagte belægnings støjreduktion i forhold til SMA8 — den type, den nationale vejmyndighed henfører til samme kategori som KVS, og i forhold til hvilken det efter samme myndighed *"ikke [er] usandsynligt"*, at KVS har et højere initialt støjniveau; og når det heller ikke er oplyst, om belægningen har nogen klassifikation efter det SRS-system, der siden marts 2013 har foreligget som vejregel i sin anden generation, og som klassificerer ved bl.a. 80 km/t (afsnit 3.2).
 
-12. Om Aarhus Kommune har iagttaget sin pligt efter **planlovens § 51** til at påse, at *"vilkår fastsat i tilladelser, dispensationer m.v. overholdes"*, og til at *"foranledige et ulovligt forhold lovliggjort"* — når den slørende beplantning efter kommunens eget materiale ikke er etableret (**vilkår 2**), og ingen af de foranstaltninger, vilkårets eget beslutningsgrundlag prissatte, er gennemført (**vilkår 7**), uden at kommunen har truffet nogen afgørelse om at fravige vilkårene. Ankestyrelsen anmodes herunder om at tage stilling til, om forholdet kan anses for at have *"underordnet betydning"* i bestemmelsens forstand, og — hvis ikke — hvad lovliggørelsespligten indebærer.
+12. Om Aarhus Kommune lovligt har kunnet lægge en vurdering af vilkårsopfyldelsen til grund, som er udarbejdet af den rådgiver, hvis eget projekterings- og anlægsarbejde er genstand for vurderingen, uden nogen form for uafhængig efterprøvelse — herunder når det materiale, rådgiveren fremsendte som officiel sammenfatning, ikke gengav rådgiverens egne forbehold i de underliggende svar (afsnit 4.4).
 
-13. Om de forudsætninger, byrådsbeslutningen af 14. september 2016 knytter til rammen på ca. 20 mio. kr. — at den skitserede støjafskærmning *"fastholdes og suppleres med"* øget støjdæmpning, og at *"lokalområderne inddrages i en nærmere afklaring af støjafskærmningen"* — er iagttaget.
+13. Om Aarhus Kommune har iagttaget sin pligt efter **planlovens § 51** til at påse, at *"vilkår fastsat i tilladelser, dispensationer m.v. overholdes"*, og til at *"foranledige et ulovligt forhold lovliggjort"* — når den slørende beplantning efter kommunens eget materiale ikke er etableret (**vilkår 2**), og ingen af de foranstaltninger, vilkårets eget beslutningsgrundlag prissatte, er gennemført (**vilkår 7**), uden at kommunen har truffet nogen afgørelse om at fravige vilkårene. Ankestyrelsen anmodes herunder om at tage stilling til, om forholdet kan anses for at have *"underordnet betydning"* i bestemmelsens forstand, og — hvis ikke — hvad lovliggørelsespligten indebærer.
 
-14. Om Aarhus Kommune har været **myndighedsinhabil** ved sine konstateringer af, at vilkår 2, 5 og 7 er opfyldt, når kommunen selv er bygherre for anlægget og har en økonomisk interesse i udfaldet — og om kommunen i givet fald har iagttaget de forholdsregler, myndighedsinhabilitet udløser, herunder at forholde sig til inhabiliteten, inddrage en uafhængig faglig vurdering og give en særlig udførlig begrundelse for en afgørelse, der er begunstigende for myndigheden selv. Ankestyrelsen anmodes tillige om at tage stilling til, om forholdet — i lyset af [FOB 1997.150](https://www.retsinformation.dk/eli/fob/1997/150) — bør føre til en skærpet prøvelse inden for legalitetstilsynets rammer, og til, om det påhviler kommunen at kunne redegøre for grundlaget for sin egen konstatering af vilkårsopfyldelse (afsnit 4.9).
+14. Om de forudsætninger, byrådsbeslutningen af 14. september 2016 knytter til rammen på ca. 20 mio. kr. — at den skitserede støjafskærmning *"fastholdes og suppleres med"* øget støjdæmpning, og at *"lokalområderne inddrages i en nærmere afklaring af støjafskærmningen"* — er iagttaget.
+
+15. Om Aarhus Kommune har været **myndighedsinhabil** ved sine konstateringer af, at vilkår 2, 5 og 7 er opfyldt, når kommunen selv er bygherre for anlægget og har en økonomisk interesse i udfaldet — og om kommunen i givet fald har iagttaget de forholdsregler, myndighedsinhabilitet udløser, herunder at forholde sig til inhabiliteten, inddrage en uafhængig faglig vurdering og give en særlig udførlig begrundelse for en afgørelse, der er begunstigende for myndigheden selv. Ankestyrelsen anmodes tillige om at tage stilling til, om forholdet — i lyset af [FOB 1997.150](https://www.retsinformation.dk/eli/fob/1997/150) — bør føre til en skærpet prøvelse inden for legalitetstilsynets rammer, og til, om det påhviler kommunen at kunne redegøre for grundlaget for sin egen konstatering af vilkårsopfyldelse (afsnit 4.9).
 
 *Note: Den stykkevise og forsinkede aktindsigt er beskrevet i afsnit 4.7 og påberåbes som dokumentation for sagens illoyale sagsoplysning. En eventuel selvstændig klage over selve aktindsigtssagsbehandlingen efter offentlighedsloven henhører under Folketingets Ombudsmand og forbeholdes. Landskabsstrategien af 24. januar 2019 — det centrale interne dokument, kommunen påberåber sig som begrundelse for fravalget af beplantning under vilkår 2 — er nu fremskaffet og vedlagt som bilag 20. Dokumentet understøtter i strid med kommunens fremstilling ikke fravalget, men tværtimod eksplicit kræver beplantning på den pågældende strækning.*
 
@@ -1410,6 +1447,20 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
   Udskrift af den mail, kortet var vedhæftet: [RE: Støjkort Giber Landevej, 22. september 2023](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-09-22-mail-re-stoejkort-giber-landevej.pdf) · originalfilen i Outlook-format (.msg) beror i samme mappe  
   *Titelfeltets angivelser er aflæst på kortbladet. At kortet angår nærværende vejanlæg, fremgår af de dækkede veje — Torshøjvej, Enslevvej, Hovvejen og Kølsmosevej — som alle optræder på projektets eget effektkort, bilag 10c.*  
   *Anvendt i afsnit 3.1, 5.*
+
+* **Bilag 50:** Ingeniøren, *"Ny asfalt overvurderet: 8200 flere boliger støjbelastet"*, 23. juni 2020  
+  [Se artiklen](https://ing.dk/artikel/ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet)  
+  *Anvendt i afsnit 3.2.*
+
+* **Bilag 51:** Vejdirektoratet, *"Optimering af støjreducerende slidlag"*, Rapport nr. 540, maj 2015  
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2015-05-vejdirektoratet-rapport-540-optimering-af-stoejreducerende-slidlag.pdf)  
+  *Påberåbes for oplysningen om, at 2. generationssystemet for dokumentation af støjreducerende slidlag blev offentliggjort som vejregel i marts 2013 (s. 13, med kildeangivelse s. 99), og for klassifikationstærsklerne 4,0 dB og 7 dB (s. 28 og 31).*  
+  *Anvendt i afsnit 3.2.*
+
+* **Bilag 52:** Vejdirektoratet, *"Undersøgelser af drænasfalt som støjreducerende slidlag"*, Rapport nr. 530, marts 2015  
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf)  
+  *Påberåbes alene for, at vilkårets krav var operationaliserbart på tidspunktet for tilladelsen — ikke som anbringende om, at en bestemt belægning skulle have været valgt.*  
+  *Anvendt i afsnit 3.2.*
 
 ## Tillæg — Gennemgang af de poster, kommunen påberåber sig
 
