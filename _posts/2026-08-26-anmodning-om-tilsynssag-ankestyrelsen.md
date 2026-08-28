@@ -598,7 +598,7 @@ Og om den forudsatte effekt:
 
 > *"[Der er tidligere regnet med] en støjreduktion på 2,4 dB i forhold til den traditionelle asfalttype SMA 11 (...). Med den reviderede trendlinje for støjudviklingen af SMA 8 SRS (...) **vurderes støjreduktionen snarere at være i størrelsesordenen ca. 1 dB.**"*
 
-Nedjusteringen var ikke ubetydelig. Ingeniøren gengiver en senere orientering fra transportministeren til Transportudvalget om den reviderede støjkortlægning, hvorefter den forudsatte effekt af SRS blev fastsat til −1,3 dB mod tidligere −2,4 dB, og **8.227 boliger langs statsvejene derved skiftede status til støjbelastede** — fra 106.441 til 114.668. Ministeren anførte efter samme gengivelse, at *"asfalttypen ikke lever op til forventningen om støjreduktion"*, jf. [bilag 50](https://ing.dk/artikel/ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet).
+Nedjusteringen var ikke ubetydelig. Transportministeren orienterede den 22. juni 2020 Transportudvalget om resultatet af Vejdirektoratets reviderede støjkortlægning, jf. [TRU Alm.del 2019-20, bilag 407](https://www.ft.dk/samling/20191/almdel/TRU/bilag/407/2214422/index.htm). Efter Ingeniørens gengivelse af orienteringen blev den forudsatte effekt af SRS fastsat til −1,3 dB mod tidligere −2,4 dB, og **8.227 boliger langs statsvejene skiftede derved status til støjbelastede** — fra 106.441 til 114.668; ministeren anførte samme sted, at *"asfalttypen ikke lever op til forventningen om støjreduktion"*, jf. [bilag 50](https://ing.dk/artikel/ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet). Tallene gengives her efter bilag 50; selve orienteringen bør indhentes og fremlægges.
 
 En forskel på ca. 1 dB i den forudsatte virkning af en vejbelægning er altså ikke en teoretisk størrelse. Det bemærkes, at dette angår beregnede støjkort og ikke de målinger ved ti boliger, der er omtalt i afsnit 3.1.
 
@@ -1450,7 +1450,7 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
 
 * **Bilag 50:** Ingeniøren, *"Ny asfalt overvurderet: 8200 flere boliger støjbelastet"*, 23. juni 2020  
   [Se artiklen](https://ing.dk/artikel/ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet)  
-  *Anvendt i afsnit 3.2.*
+  *Anvendt i afsnit 3.2. Artiklen gengiver transportministerens orientering til Folketingets Transportudvalg af 22. juni 2020 om resultatet af Vejdirektoratets reviderede støjkortlægning (TRU Alm.del 2019-20, bilag 407). Selve orienteringen er ikke fremlagt; den bør indhentes, så tallene kan påberåbes efter primærkilden.*
 
 * **Bilag 51:** Vejdirektoratet, *"Optimering af støjreducerende slidlag"*, Rapport nr. 540, maj 2015  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2015-05-vejdirektoratet-rapport-540-optimering-af-stoejreducerende-slidlag.pdf)  
