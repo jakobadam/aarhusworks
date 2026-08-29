@@ -526,7 +526,7 @@ Det manglende regnskab gøres altså ikke gældende som selve forholdet. Det gø
 
 ### 3.2 Vilkår 5 — Støjdæmpende vejbelægning
 
-GRG rejste vilkår 5 formelt i afklaringsnotat 1 af 8. april 2026, jf. [bilag 11, s. 5](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf#page=5), med spørgsmålet om, hvorvidt KVS-asfalten (klimavenligt slidlag) kan betragtes som støjreducerende belægning. Spørgsmålet er ikke besvaret: forvaltningen afviste at tage stilling (jf. afsnit 2.3).
+GRG rejste vilkår 5 formelt i afklaringsnotat 1 af 8. april 2026, jf. [bilag 11, s. 5](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf#page=5), med spørgsmålet om, hvorvidt KVS-asfalten (klimavenligt slidlag) kan betragtes som støjreducerende belægning. Spørgsmålet er ikke besvaret: forvaltningen afviste at tage stilling (jf. afsnit 2.3). Det var da allerede stillet skriftligt til forvaltningen i juni 2024 og besvaret to gange uden angivelse af noget tal (jf. nedenfor).
 
 #### Den forudsatte belægning: SRS
 
@@ -644,6 +644,24 @@ Det er af betydning at være præcis om, hvad der blev afgjort, og hvad der ikke
 Forskellen er ikke teknisk. Et svar om, at KVS svarer til SRS, forudsætter, at SRS var den rigtige målestok — men SRS' forudsatte virkning var på det tidspunkt allerede nedjusteret af Vejdirektoratet (jf. ovenfor). At to belægninger er indbyrdes ligeværdige, godtgør ikke, at nogen af dem leverer den dæmpning, vilkåret kræver.
 
 Dommen kan derfor ikke påberåbes som dokumentation for, at vilkår 5 er opfyldt.
+
+#### Spørgsmålet blev stillet skriftligt i 2024 — og besvaret uden tal
+
+Spørgsmålet om, hvilken støjdæmpning kommunen har lagt til grund, blev ikke først rejst i afklaringsnotat 1. GRG stillede det skriftligt til forvaltningen den 26. juni 2024, jf. [bilag 54a, s. 4](https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf#page=4):
+
+> *"Hvilken effekt af støjdæmpende asfalt anvendtes i støjberegningerne for GR?"*
+
+Efter rykker af 3. september 2024 svarede Teknik og Miljø den 4. september 2024, jf. [bilag 54a, s. 1](https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf#page=1):
+
+> *"Korrektion i forhold til belægningstype følger vejledningen til støjberegningsmodellen. I Giber Ringvej-projektet er der anvendt såkaldt Klimavenlig Asfalt (KVS) som har støjreducerende egenskaber og en bedre holdbarhed, som bevarer de støjreducerende egenskaber i højere grad en traditionel støjdæmpende asfalt. Se evt. rapport herom fra Vejdirektoratet."*
+
+Svaret angiver en metode og en belægningsbetegnelse, men ingen værdi. GRG spurgte igen den 20. september 2024, denne gang udtrykkeligt om *"forventede i vvm/reelle effekt af den støjdæmpende asfalt"*, og fik, jf. [bilag 54b, s. 1](https://aarhusworks.com/assets/giber-ringvej/2024-09-20-mail-mtm-asfalt-stoejdaempende.pdf#page=1):
+
+> *"Mht. asfaltbelægning er der taget hensyn til, at asfaltbelægningens støjbidrag ændrer sig over tid, idet man tager et gennemsnit af den samlede støjudbredelse over belægningens levetid."*
+
+Også dette svar beskriver, **hvordan** der regnes, ikke **hvad** der er regnet med. Forløbet er dermed det samme i september 2024 og i april 2026: kommunen henviser til beregningsmetoden, men oplyser ikke den værdi, metoden er anvendt med. Spørgsmålet har stået ubesvaret i skriftlig korrespondance i knap to år, før det blev formaliseret i afklaringsnotat 1.
+
+Det bemærkes for fuldstændighedens skyld, at GRG i samme punkt i 2024-mailen anførte en formodning om, at der var regnet med 4 dB. Den formodning påberåbes ikke som dokumentation for noget — den var netop et forsøg på at fremkalde det tal, kommunen fortsat ikke har oplyst.
 
 **Rambølls kommentering forholder sig ikke til de konkrete dokumentationsspørgsmål vedrørende vilkår 5 og KVS.** GRG har i afklaringsnotat 1 stillet tre konkrete spørgsmål: (1) Hvad er referencebelægningen? (2) Hvilken KVS-type er udlagt? (3) Hvilken dokumenteret støjreduktion kan lægges til grund? Ingen af disse er besvaret — hverken af Rambøll i marts 2026 eller af forvaltningen på mødet 8. april 2026.
 
@@ -1497,6 +1515,16 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
 * **Bilag 53c:** Aarhus Kommune, *"Støjhandlingsplan 2024"*  
   [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf)  
   *Påberåbes alene for, at formuleringen står uændret i den gældende plan (s. 22). Det bemærkes, at dokumentets løbende sidehoved lyder* "Støjhandlingsplan 2023"*, mens planen af kommunen selv offentliggøres som 2024-planen.*  
+  *Anvendt i afsnit 3.2.*
+
+* **Bilag 54a:** Korrespondance mellem Giber Ringvej Gruppen og Aarhus Kommune, Teknik og Miljø — GRGs spørgsmål af 26. juni 2024, rykker af 3. september 2024 og forvaltningens svar af 4. september 2024  
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf)  
+  *Påberåbes for, at spørgsmålet om belægningens forudsatte støjeffekt blev stillet skriftligt allerede i juni 2024, og at svaret angiver beregningsmetode og belægningsbetegnelse, men ingen værdi.*  
+  *Anvendt i afsnit 3.2.*
+
+* **Bilag 54b:** Mail fra Aarhus Kommune, Teknik og Miljø, af 20. september 2024 om effekten af støjdæmpende asfalt (svar på GRGs fornyede forespørgsel samme dag)  
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2024-09-20-mail-mtm-asfalt-stoejdaempende.pdf)  
+  *Påberåbes for, at også det opfølgende svar beskriver beregningsmetoden uden at angive den forudsatte støjreduktion.*  
   *Anvendt i afsnit 3.2.*
 
 *Bilag 53a–53c er offentliggjort af Aarhus Kommune på kommunens side om støjhandlingsplaner. Filerne ligger i denne fremstilling under mappen* `aak-stoejhandlingsplan-2024`, *som er GRGs arbejdsmappe fra høringen over 2024-planen; mappenavnet siger intet om det enkelte dokuments årstal.*
