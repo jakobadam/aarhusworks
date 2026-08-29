@@ -681,8 +681,6 @@ Redegørelsen illustrerer princippet, jf. [bilag 7](https://aarhusworks.com/asse
 
 *[Figur 44](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=85) (s. 85): *"Visualisering af udsigt fra Mårslet langs Tandervej mod syd med beplantning langs Bering-Beder vejen, som vil sløre bilerne i landskabet."* Netop denne strækning (Tandervej–Mustrupvej) er den, hvor Rambøll efterfølgende erkender, at beplantningen er "formegentlig fravalgt af økonomiske årsager".*
 
-Figuren indgår i det dokument, der efter sin egen forside var *"Forslag i offentlig høring 1/12´ 14 - 28/2´ 15"*. Det var dermed dette materiale — vejen med slørende beplantning — offentligheden tog stilling til.
-
 **VVM-redegørelsen viser desuden beplantningens virkning direkte — og den viser den set fra Mårslet.** På strækningen mellem Mårslet og Testrup, hvor vejen føres over en sidegren af Giber Å på en dæmning, indeholder redegørelsen to visualiseringer fra samme standpunkt — først anlægget som det vil fremstå umiddelbart efter etableringen, dernæst det samme med beplantning på skråningsanlæggene.
 
 Standpunktet er angivet på redegørelsens eget kort over fotostandpunkter, jf. [bilag 19, s. 69](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=69). **Fotostandpunkt 6 ligger inde i Mårslet**, ved boligbebyggelsen omkring Mustrupvej på byens sydvestlige kant, med synsfeltet vendt mod sydvest over ådalen. Det er altså udsigten fra Mårslet, de to visualiseringer gengiver; i baggrunden ses Testrup. Redegørelsen anfører selv om strækningen, at *"umiddelbart øst for Testrup føres vejen over Testrupvej på en dæmning"*, jf. [s. 89](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=89).
