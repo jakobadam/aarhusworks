@@ -1,7 +1,7 @@
 # Modstanderanalyse — klage til Ankestyrelsen
 
 **Rolle:** Simuleret juridisk rådgiver for Aarhus Kommune, Teknik og Miljø, jf. `.github/agents/kommunal-modstander.md`
-**Genstand:** `_drafts/klage/klage-ankestyrelsen.md` (1012 linjer, udkast dateret 6. maj 2026)
+**Genstand:** `_drafts/klage/anmodning-om-tilsynssag-ankestyrelsen.md` (1012 linjer, udkast dateret 6. maj 2026)
 **Dato for gennemgang:** 17. august 2026
 **Formål:** Finde og lukke huller, før kommunen finder dem.
 
@@ -9,9 +9,29 @@ Sværhedsgrad: 🟢 let at parere · 🟡 sårbar · 🔴 kritisk svaghed
 
 ---
 
+## Efterskrift — sagen har flyttet sig afgørende (19. august 2026)
+
+Efter denne analyse blev skrevet, er der fremkommet dokumenter, der ændrer sagens tyngdepunkt. Analysens vurderinger nedenfor er stadig gyldige, men de angår en klage, der var væsentligt svagere end den nuværende.
+
+**Beslutningsgrundlaget for de 20 mio. kr. er nu fremlagt.** COWI-notatet af 1. august 2016 (bilag 42) og Teknik og Miljøs notat af 1. september 2016 (bilag 46) viser, at rammen er summen af fem prissatte foranstaltninger — og at skemaets fem poster er nøjagtig de fem lokaliteter, vilkår 7 nævner. Rambølls påstand om, at rammen er *"blot en omtrentlig angivelse (...) uden at angive en specifik værdi for det ønskede niveau"*, er dermed modbevist af det dokument, rådgiveren selv udpeger som kilde — og modsigelsen findes inden for samme fem-siders notat (s. 1 mod s. 3).
+
+**Ingen af de tre prissatte støjskærme er opført** (16,7 mio. kr.). Den eneste skærm i projektet er den langs Landevejen ved Tranbjerg, som vilkår 5 og 6 pålagde kommunen uafhængigt — og som rådgiveren opgør som anvendelse af puljen.
+
+**Forvaltningen frarådede, udvalget besluttede alligevel.** Rammen er en politisk beslutning truffet mod forvaltningens indstilling, om at gøre mere end grænseværdierne krævede. Grænseværdi-forsvaret er dermed uholdbart: at grænserne var overholdt, var forudsætningen for beslutningen.
+
+**MTM's skema bytter om på Mårslet og Tranbjerg** i forhold til COWI, og forvaltningens indstilling om at undlade dæmpning ved Mårslet er begrundet med en effektværdi (1,5 dB), der efter grundlaget hører til Tranbjerg. Mårslets faktiske tal var 2,5 dB.
+
+**To skriftlige udsagn fra et byrådsmedlem** (Anette Poulsen, By- og Planudvalget): at beplantning blev lovet og intet er sket, og at *"de nødvendige og lovede støjløsninger er ikke fulgt med"*.
+
+**Nye afsnit siden analysen:** 1.1 (planlovens § 51 og § 63), 1.2 (hvorfor tilsynet er rette instans), 4.9 (at der arbejdes med sagen, afhjælper den ikke). Nye bilag: 37, 40–46.
+
+**Den tilbageværende hovedrisiko er uændret** og er ikke en indholdsmæssig svaghed: Ankestyrelsen kan afvise at rejse sagen efter opportunitetsprincippet. Det er dét, afsnit 1.2 og 4.9 og det omskrevne resumé skal modvirke.
+
+---
+
 ## Status pr. 17. august 2026
 
-**✅ ANVENDT i `klage-ankestyrelsen.md`:**
+**✅ ANVENDT i `anmodning-om-tilsynssag-ankestyrelsen.md`:**
 
 | Fund | Hvad der er gjort |
 |---|---|
