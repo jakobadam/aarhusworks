@@ -70,7 +70,7 @@ Ingen af disse faktiske forhold er bestridt. **Der foreligger dermed et ulovligt
 * at der ikke er ført regnskab med rammen, og at et sådant ikke kan udarbejdes: *"det er ikke muligt at lave en opgørelse af, hvad omkostningerne til de besluttede tiltag reelt har været"*
 * at rådgiveren skriftligt har tiltrådt, at mindst fire af de tiltag, kommunen påberåber sig, ikke er støjtiltag
 * at forvaltningen så sent som i august 2025 måtte spørge sin egen rådgiver, om beplantningen overhovedet var et krav: *"er det bare uforpligtende eksempler i VVM'en eller er det forudsætninger for projektet?"* — seks måneder før borgmesteren afviste, at den var det
-* at der for vejbelægningen hverken er oplyst referencebelægning, belægningstype eller dokumenteret støjreduktion
+* at der for vejbelægningen hverken er oplyst referencebelægning, belægningstype eller dokumenteret støjreduktion — skønt kommunen i sine egne støjhandlingsplaner tillægger begrebet *støjreducerende belægning* et kvantificeret indhold på 1–4 dB
 
 Det påberåbes af to grunde: det er et selvstændigt brud på pligten til at oplyse sagen, og det er grunden til, at det må påhvile kommunen at godtgøre, at vilkårene alligevel er overholdt. For **vilkår 5** er det indsigelsen principalt; subsidiært gøres gældende, at vilkåret ikke kan anses for overholdt.
 
@@ -572,7 +572,19 @@ Et vilkår, der kræver en *støjdæmpende* belægning, forudsætter en målesto
 
 #### Der forelå en målestok
 
-Kravet om en *støjdæmpende* vejbelægning svæver ikke i luften. Et dansk system til støjmæssig klassificering af slidlag — SRS-systemet — blev indført i november 2006. Vejdirektoratet oplyser, at der derefter er *"udarbejdet et 2. generationssystem for dokumentation af støjreducerende slidlag som blev offentliggjort i marts 2013"*, og angiver som kilde hertil vejreglen *"2.G – System for dokumentation af støjreducerende slidlag ”SRS”. Vejregler. Marts 2013."*, jf. [bilag 51, s. 13 og 99](https://aarhusworks.com/assets/giber-ringvej/2015-05-vejdirektoratet-rapport-540-optimering-af-stoejreducerende-slidlag.pdf#page=13). Systemet forelå altså i sin anden generation fem år før VVM-tilladelsen af 12. oktober 2018.
+Kravet om en *støjdæmpende* vejbelægning svæver ikke i luften. På beslutningstidspunktet havde begrebet et kvantificeret indhold — i kommunens egne planer og i den nationale vejregel.
+
+**Kommunens egne støjhandlingsplaner sætter tal på.** Aarhus Kommune offentliggør tre støjhandlingsplaner: *"Støjhandlingsplan for større veje i Aarhus Kommune"* (november 2011), *"Støjhandlingsplan 2018"* og *"Støjhandlingsplan 2024"*. Den første er den, der forelå, mens VVM-redegørelsen blev udarbejdet og kommuneplantillægget behandlet. Den opgør kommunens virkemidler mod vejstøj med kildeangivelse til *"undersøgelser foretaget af Miljøstyrelsen"* og opregner blandt dem *"Støjreducerende tyndlagsbelægning"* og *"To-lags drænasfalt"*, jf. [bilag 53a, s. 10](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf#page=10). Om det første anføres, jf. [bilag 53a, s. 14](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf#page=14):
+
+> *"Isoleret set kan brugen af støjreducerende tyndlagsbelægninger reducere støjbelastningen på de tilgrænsende boliger og arealer med mellem 1 og 4 dB (en ændring på 3 dB svarer f.eks. til en halvering af trafikken). Effekten kan aftage over belægningens levetid og er afhængig af den nærmere specifikation på belægningen."*
+
+Samme størrelsesorden går igen i de senere planer. Støjhandlingsplan 2018 — dateret august 2018, få uger før VVM-tilladelsen — opregner *"Støjreducerende belægninger"* med *"1-4"* dB i sin oversigt over virkemidler, jf. [bilag 53b, s. 17](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf#page=17), og anfører om den planlagte indsats, jf. [bilag 53b, s. 19](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf#page=19): *"Støjniveauet langs de veje der får støjreducerende belægninger forventes at falde med 1,5 til 4 dB. Den største dæmpning vil opleves i belægningens første leveår. Efter ca. 3 år er effekten halveret."* Formuleringen står uændret i Støjhandlingsplan 2024, jf. [bilag 53c, s. 22](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=22).
+
+**Det er kommunens eget begrebsapparat.** Vilkår 5 siger *"støjdæmpende vejbelægning"*; støjhandlingsplanerne kvantificerer *"støjreducerende belægninger"*. At kommunens egen side ikke sondrer mellem de to udtryk, fremgår af sagens dokumenter: Rambøll gengiver i redegørelse 1 vilkåret som et krav om *"støjreducerende vejbelægning"*, jf. [bilag 2, s. 2](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=2) (om afvigelserne mellem den gengivne og den meddelte vilkårstekst i øvrigt, se afsnit 4.1), og betegner den forudsatte belægningstype som *"SRS, støjreducerende slidlag"*, jf. [bilag 16a, s. 3](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3).
+
+VVM-redegørelsen selv angiver derimod forudsætningen kvalitativt: *"På nye vejstrækninger er der regnet med ny og mindre støjende asfaltbelægning"*, jf. [bilag 19, s. 252](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=252) — uden angivelse af belægningstype eller indregnet dB-virkning. Det kvantitative indhold lå i kommunens egne støjhandlingsplaner, ikke i redegørelsen.
+
+**Der forelå desuden en national målestok.** Et dansk system til støjmæssig klassificering af slidlag — SRS-systemet — blev indført i november 2006. Vejdirektoratet oplyser, at der derefter er *"udarbejdet et 2. generationssystem for dokumentation af støjreducerende slidlag som blev offentliggjort i marts 2013"*, og angiver som kilde hertil vejreglen *"2.G – System for dokumentation af støjreducerende slidlag ”SRS”. Vejregler. Marts 2013."*, jf. [bilag 51, s. 13 og 99](https://aarhusworks.com/assets/giber-ringvej/2015-05-vejdirektoratet-rapport-540-optimering-af-stoejreducerende-slidlag.pdf#page=13). Systemet forelå altså i sin anden generation fem år før VVM-tilladelsen af 12. oktober 2018.
 
 Systemet har faste tærskler, jf. [bilag 52, s. 10](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=10):
 
@@ -580,11 +592,15 @@ Systemet har faste tærskler, jf. [bilag 52, s. 10](https://aarhusworks.com/asse
 
 Vejanlægget er i VVM-redegørelsen projekteret som *"en almindelig landevej til 80 km/t"*, jf. [bilag 19, s. 9](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=9) — altså netop en af de to hastigheder, systemet klassificerer ved.
 
-**To præciseringer, så anbringendet ikke rækker videre, end det skal.** For det første er vejregler som udgangspunkt vejledende. Det gøres ikke gældende, at kommunen var *forpligtet* til at anvende SRS-systemet; det gøres gældende, at der forelå en fagligt anerkendt og offentliggjort målestok for netop den egenskab, vilkåret kræver. For det andet er de nævnte tærskler opgjort i forhold til SRS-systemets eget referenceniveau, som udtrykker *"den gennemsnitlige støj for AB 11t- og SMA 11-slidlag"*, jf. [bilag 52, s. 9](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=9), mens KVS-tallet på ca. 2 dB er opgjort i forhold til SMA11 alene. **De to tal er derfor ikke indbyrdes sammenlignelige**, og tærsklerne anføres alene som dokumentation for, at der fandtes objektive kriterier at dokumentere efter.
-
 Der forelå altså et offentliggjort, nationalt system til at dokumentere netop det, vilkår 5 kræver, anvendeligt ved netop denne vejs projekterede hastighed. **Hverken kommunen eller dens rådgiver har oplyst, om den udlagte belægning har nogen SRS-klassifikation** — eller har forholdt sig til systemet overhovedet.
 
 At vilkåret kunne have haft et konkret indhold, fremgår også af, at Vejdirektoratet i marts 2015 — tre år før tilladelsen — opgjorde, at drænasfalt kan optimeres til *"en gennemsnitlig støjdæmpning over slidlagenes levetid på op mod 4 dB i forhold til tæt asfaltbeton belægning og 4,5 dB i forhold til SMA11"*, og at den støjreducerende effekt *"ser ud til at være bedst for veje med hastigheder på 80 km/t eller mere, og på sådanne veje vil der ikke være behov for rensning af slidlagene"*, jf. [bilag 52, s. 4](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=4). Samme rapport anfører også ulemperne: kortere levetid end SMA-belægninger, højere anlægs- og vedligeholdelsesudgifter og *"måske 50 % mere salt end normalt"*.
+
+**Tre præciseringer, så anbringendet ikke rækker videre, end det skal.** For det første er vejregler som udgangspunkt vejledende. Det gøres ikke gældende, at kommunen var *forpligtet* til at anvende SRS-systemet; det gøres gældende, at der forelå en fagligt anerkendt og offentliggjort målestok for netop den egenskab, vilkåret kræver.
+
+For det andet er de tre talsæt opgjort på hvert sit grundlag og kan **ikke sammenregnes**. SRS-tærsklerne er opgjort i forhold til SRS-systemets eget referenceniveau, som udtrykker *"den gennemsnitlige støj for AB 11t- og SMA 11-slidlag"*, jf. [bilag 52, s. 9](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=9). KVS-tallet på ca. 2 dB er opgjort i forhold til SMA11 alene. Og støjhandlingsplanernes interval er angivet uden reference overhovedet. Der drages derfor ingen slutning af typen, at det ene tal er en bestemt brøkdel af det andet. Det, oplysningerne viser, er alene, hvilken størrelsesorden begrebet *støjreducerende belægning* havde i fagligt og kommunalt sprogbrug, da beslutningen blev truffet.
+
+For det tredje angår støjhandlingsplanernes tal udskiftning af slidlag på eksisterende byveje, mens Giber Ringvej er et nyanlæg projekteret til 80 km/t. Den forskel svækker ikke sammenligningen af størrelsesorden: SRS-systemet klassificerer netop ved både 50 og 80 km/t, og drænasfaltens effekt er efter Vejdirektoratet *bedst* ved 80 km/t eller derover, jf. bilag 52, s. 4, som gengivet ovenfor.
 
 **Det gøres udtrykkeligt ikke gældende, at kommunen skulle have valgt drænasfalt eller nogen anden bestemt belægning** — valget mellem belægningstyper er et fagligt skøn, som tilsynet ikke skal efterprøve, og de anførte ulemper er reelle. Oplysningerne påberåbes alene for, at vilkårets krav var operationaliserbart: når kommunen ikke kan angive nogen målestok, skyldes det ikke, at feltet manglede en.
 
@@ -639,6 +655,7 @@ Der er udlagt en belægning. GRG kan derfor ikke — som ved vilkår 2 og 7 — 
 * hvilken referencebelægning kommunen har lagt til grund for at anse vilkåret for opfyldt
 * hvilken støjreduktion den faktisk udlagte belægning giver i forhold til den belægning, der ellers ville være udlagt
 * om den udlagte belægning har nogen klassifikation efter det SRS-system, der har været vejregel siden marts 2013, og som klassificerer ved bl.a. 80 km/t
+* hvordan den udlagte belægning forholder sig til det interval på 1–4 dB, kommunen selv tillægger begrebet *støjreducerende belægning* i sine egne støjhandlingsplaner — hverken inden for eller uden for intervallet er der anført noget tal
 * at substitutionen af den i VVM-grundlaget forudsatte SRS-belægning med KVS er sket på et dokumenteret, retligt grundlag — og at kommunen som planmyndighed har forholdt sig til, at Vejdirektoratet nedjusterede den forudsatte reduktion, inden belægningen blev udlagt
 
 **Subsidiært** gøres gældende, at vilkår 5 ikke kan anses for overholdt. Et vilkår om en *støjdæmpende* vejbelægning må antages at tilføre noget ud over den belægning, der ellers ville være udlagt; ellers ville vilkåret være uden selvstændigt indhold, og der er en formodning imod at fortolke et vilkår sådan, at det intet tilføjer. Den nationale vejmyndighed henfører selv standardbelægningen og KVS til samme kategori — *"mindre støjende slidlagstyper (SMA 8 std eller SMA 8 KVS)"* — og anfører om det initiale støjniveau, at det *"ikke [er] usandsynligt, at SMA 8 KVS’en har et højere initialt støjniveau"* end bl.a. SMA 8 std, jf. [bilag 29, s. 1–2](https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=1). Nogen støjreduktion for KVS i forhold til SMA8 er ikke opgjort i noget materiale i sagen.
@@ -1461,6 +1478,23 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf)  
   *Påberåbes alene for, at vilkårets krav var operationaliserbart på tidspunktet for tilladelsen — ikke som anbringende om, at en bestemt belægning skulle have været valgt.*  
   *Anvendt i afsnit 3.2.*
+
+* **Bilag 53a:** Aarhus Kommune, Teknik og Miljø, Trafik og Veje, *"Støjhandlingsplan for større veje i Aarhus Kommune"*, november 2011 (forslaget i offentlig høring 27. juni – 9. september 2011)  
+  [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf)  
+  *Påberåbes for, at kommunen selv tillægger begrebet* støjreducerende belægning *et kvantificeret indhold (1–4 dB, s. 14) og selv opregner to-lags drænasfalt blandt sine virkemidler (s. 10). Dette er den støjhandlingsplan, der forelå, mens VVM-redegørelsen blev udarbejdet og kommuneplantillægget behandlet.*  
+  *Anvendt i afsnit 3.2.*
+
+* **Bilag 53b:** Aarhus Kommune, *"Støjhandlingsplan 2018"*, august 2018  
+  [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf)  
+  *Påberåbes for samme interval (1–4 dB, s. 17; 1,5–4 dB, s. 19) i den plan, der forelå få uger før VVM-tilladelsen af 12. oktober 2018 — og for planens egen tilføjelse om, at effekten er halveret efter ca. 3 år.*  
+  *Anvendt i afsnit 3.2.*
+
+* **Bilag 53c:** Aarhus Kommune, *"Støjhandlingsplan 2024"*  
+  [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf)  
+  *Påberåbes alene for, at formuleringen står uændret i den gældende plan (s. 22).*  
+  *Anvendt i afsnit 3.2.*
+
+*Bilag 53a–53c er offentliggjort af Aarhus Kommune på kommunens side om støjhandlingsplaner. Filerne ligger i denne fremstilling under mappen* `aak-stoejhandlingsplan-2024`, *som er GRGs arbejdsmappe fra høringen over 2024-planen; mappenavnet siger intet om det enkelte dokuments årstal.*
 
 ## Tillæg — Gennemgang af de poster, kommunen påberåber sig
 
