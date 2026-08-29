@@ -234,7 +234,7 @@ Samlet er billedet dette:
 |---|---|---|
 | **7** · supplerende støjdæmpning fem steder, ramme ca. 20 mio. kr. | Rammen er anvendt — men en opgørelse *"er ikke muligt"* at lave | **Ikke overholdt.** Ingen af de tre støjskærme, beslutningsgrundlaget prissatte til 16,7 mio. kr., er opført, og facadetilskuddet ses ikke gennemført. Subsidiært: grundlaget kan ikke oplyses (afsnit 3.1) |
 | **2** · slørende beplantning | Beplantningen var *"ikke forudsat etableret"* | **Ikke overholdt.** Beplantningen er ikke etableret, og rådgiveren oplyser, at den er *"formegentlig fravalgt af økonomiske årsager"*. Der foreligger ingen afgørelse om fravigelse (afsnit 3.3) |
-| **5** · støjdæmpende vejbelægning | Den udlagte KVS-asfalt opfylder vilkåret | **Principalt sagsoplysning:** hverken referencebelægning, KVS-type eller dokumenteret støjreduktion er oplyst. **Subsidiært:** vilkåret kan ikke anses for overholdt (afsnit 3.2) |
+| **5** · støjdæmpende vejbelægning | Den udlagte KVS-asfalt opfylder vilkåret | **Principalt sagsoplysning:** hverken referencebelægning, KVS-type eller dokumenteret støjreduktion er oplyst — skønt kommunen selv opgør begrebet til 1–4 dB. **Subsidiært:** vilkåret kan ikke anses for overholdt (afsnit 3.2) |
 
 For alle tre gælder, at indsigelsen ikke angår kommunens støjfaglige skøn. Hvor der er fremlagt dokumentation, bestrides den ikke; hvor der ikke er, gøres det gældende, at det påhviler kommunen at godtgøre, at vilkåret er overholdt.
 
@@ -570,13 +570,17 @@ Vilkår 5 kræver "støjdæmpende vejbelægning." VVM-grundlaget forudsatte en b
 
 Et vilkår, der kræver en *støjdæmpende* belægning, forudsætter en målestok: dæmpende i forhold til hvad, og med hvilken virkning. Kommunen har ikke oplyst nogen af delene — hverken referencebelægningen, den udlagte KVS-types betegnelse eller den støjreduktion, den er anset for at levere. Kommunen har heller ikke forholdt sig retligt til, at den i VVM-grundlaget forudsatte belægningstype blev erstattet af en anden. Det er dette fravær af grundlag, anmodningen angår — ikke en påstand om, at KVS er uden virkning.
 
-#### Der forelå en målestok
+#### Forventningen til belægningen var kvantificeret
 
 Kravet om en *støjdæmpende* vejbelægning svæver ikke i luften. På beslutningstidspunktet havde begrebet et kvantificeret indhold — i kommunens egne planer og i den nationale vejregel.
 
-**Kommunens egne støjhandlingsplaner sætter tal på.** Aarhus Kommune offentliggør tre støjhandlingsplaner: *"Støjhandlingsplan for større veje i Aarhus Kommune"* (november 2011), *"Støjhandlingsplan 2018"* og *"Støjhandlingsplan 2024"*. Den første er den, der forelå, mens VVM-redegørelsen blev udarbejdet og kommuneplantillægget behandlet. Den opgør kommunens virkemidler mod vejstøj med kildeangivelse til *"undersøgelser foretaget af Miljøstyrelsen"* og opregner blandt dem *"Støjreducerende tyndlagsbelægning"* og *"To-lags drænasfalt"*, jf. [bilag 53a, s. 10](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf#page=10). Om det første anføres, jf. [bilag 53a, s. 14](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf#page=14):
+**Kommunens egne støjhandlingsplaner sætter tal på.** Aarhus Kommune offentliggør i dag tre støjhandlingsplaner på sin hjemmeside: *"Støjhandlingsplan for større veje i Aarhus Kommune"* (november 2011), *"Støjhandlingsplan 2018"* og *"Støjhandlingsplan 2024"*. Den første er den, der forelå, mens VVM-redegørelsen blev udarbejdet og kommuneplantillægget behandlet. Den opgør kommunens virkemidler mod vejstøj med kildeangivelse til *"undersøgelser foretaget af Miljøstyrelsen"* og opregner blandt dem *"Støjreducerende tyndlagsbelægning"* og *"To-lags drænasfalt"*, jf. [bilag 53a, s. 10](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf#page=10). Om det første anføres, jf. [bilag 53a, s. 14](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf#page=14):
 
 > *"Isoleret set kan brugen af støjreducerende tyndlagsbelægninger reducere støjbelastningen på de tilgrænsende boliger og arealer med mellem 1 og 4 dB (en ændring på 3 dB svarer f.eks. til en halvering af trafikken). Effekten kan aftage over belægningens levetid og er afhængig af den nærmere specifikation på belægningen."*
+
+![Figur fra Aarhus Kommunes støjhandlingsplan for større veje (bilag 53a, s. 10): oversigt over virkemidler mod vejstøj med angivelse af reduktion i dB.](https://aarhusworks.com/assets/giber-ringvej/klage/2011-aak-stoejhandlingsplan-virkemidler-figur.png)
+
+*Kommunens egen figur over virkemidler mod vejstøj (bilag 53a, s. 10), opgjort efter Miljøstyrelsens undersøgelser. Belægninger optræder som to selvstændige virkemidler, og figuren placerer to-lags drænasfalt højere på skalaen end den støjreducerende tyndlagsbelægning. Der udledes her ikke noget dB-tal for drænasfalt af figuren.*
 
 Samme størrelsesorden går igen i de senere planer. Støjhandlingsplan 2018 — dateret august 2018, få uger før VVM-tilladelsen — opregner *"Støjreducerende belægninger"* med *"1-4"* dB i sin oversigt over virkemidler, jf. [bilag 53b, s. 17](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf#page=17), og anfører om den planlagte indsats, jf. [bilag 53b, s. 19](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf#page=19): *"Støjniveauet langs de veje der får støjreducerende belægninger forventes at falde med 1,5 til 4 dB. Den største dæmpning vil opleves i belægningens første leveår. Efter ca. 3 år er effekten halveret."* Formuleringen står uændret i Støjhandlingsplan 2024, jf. [bilag 53c, s. 22](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf#page=22).
 
@@ -1480,7 +1484,8 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
   *Anvendt i afsnit 3.2.*
 
 * **Bilag 53a:** Aarhus Kommune, Teknik og Miljø, Trafik og Veje, *"Støjhandlingsplan for større veje i Aarhus Kommune"*, november 2011 (forslaget i offentlig høring 27. juni – 9. september 2011)  
-  [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf)  
+  [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf) ·
+  [Figur — kommunens virkemidler mod vejstøj (s. 10)](https://aarhusworks.com/assets/giber-ringvej/klage/2011-aak-stoejhandlingsplan-virkemidler-figur.png)  
   *Påberåbes for, at kommunen selv tillægger begrebet* støjreducerende belægning *et kvantificeret indhold (1–4 dB, s. 14) og selv opregner to-lags drænasfalt blandt sine virkemidler (s. 10). Dette er den støjhandlingsplan, der forelå, mens VVM-redegørelsen blev udarbejdet og kommuneplantillægget behandlet.*  
   *Anvendt i afsnit 3.2.*
 
@@ -1491,7 +1496,7 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
 
 * **Bilag 53c:** Aarhus Kommune, *"Støjhandlingsplan 2024"*  
   [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf)  
-  *Påberåbes alene for, at formuleringen står uændret i den gældende plan (s. 22).*  
+  *Påberåbes alene for, at formuleringen står uændret i den gældende plan (s. 22). Det bemærkes, at dokumentets løbende sidehoved lyder* "Støjhandlingsplan 2023"*, mens planen af kommunen selv offentliggøres som 2024-planen.*  
   *Anvendt i afsnit 3.2.*
 
 *Bilag 53a–53c er offentliggjort af Aarhus Kommune på kommunens side om støjhandlingsplaner. Filerne ligger i denne fremstilling under mappen* `aak-stoejhandlingsplan-2024`, *som er GRGs arbejdsmappe fra høringen over 2024-planen; mappenavnet siger intet om det enkelte dokuments årstal.*
