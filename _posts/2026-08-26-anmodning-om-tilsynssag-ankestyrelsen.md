@@ -659,7 +659,7 @@ Svaret angiver en metode og en belægningsbetegnelse, men ingen værdi. GRG spur
 
 > *"Mht. asfaltbelægning er der taget hensyn til, at asfaltbelægningens støjbidrag ændrer sig over tid, idet man tager et gennemsnit af den samlede støjudbredelse over belægningens levetid."*
 
-Også dette svar beskriver, **hvordan** der regnes, ikke **hvad** der er regnet med. Forløbet er dermed det samme i september 2024 og i april 2026: kommunen henviser til beregningsmetoden, men oplyser ikke den værdi, metoden er anvendt med. Spørgsmålet har stået ubesvaret i skriftlig korrespondance i knap to år, før det blev formaliseret i afklaringsnotat 1.
+Også dette svar beskriver, **hvordan** der regnes, ikke **hvad** der er regnet med. Forløbet er dermed det samme i september 2024 og i april 2026: kommunen henviser til beregningsmetoden, men oplyser ikke den værdi, metoden er anvendt med. Spørgsmålet har dermed været stillet — og besvaret uden tal — i knap to år, før det blev formaliseret i afklaringsnotat 1.
 
 Det bemærkes for fuldstændighedens skyld, at GRG i samme punkt i 2024-mailen anførte en formodning om, at der var regnet med 4 dB. Den formodning påberåbes ikke som dokumentation for noget — den var netop et forsøg på at fremkalde det tal, kommunen fortsat ikke har oplyst.
 
