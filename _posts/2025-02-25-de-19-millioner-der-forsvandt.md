@@ -63,7 +63,7 @@ Forvaltningen erkender dog, at de overhovedet ikke har styr på økonomien. Dett
 
 ## Et formålsløst differenskort
 
-Forvaltningen har medsendt et [differenskort](/assets/de-19-millioner-der-forsvandt-2025/ramboell-differenskort.pdf) som
+Forvaltningen har medsendt et [differenskort](/assets/de-19-millioner-der-forsvandt-2025/differenskort.pdf) som
 et slags nyt gæt på, hvad pengene kunne være gået til.
 
 Kortet viser forskellen i niveau i terrænet før / efter vejen. Kortet er dog ekstremt svært at tyde, da farveforskellen
