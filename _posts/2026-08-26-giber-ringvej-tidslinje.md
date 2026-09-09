@@ -284,7 +284,7 @@ categories: vejstøj
   .tl-table th,
   .tl-table td {
     text-align: left;
-    padding: 0.4rem 0.7rem 0.4rem 0;
+    padding: 0.4rem;
     border-bottom: 1px solid #e5e5e5;
     vertical-align: top;
   }
@@ -301,7 +301,6 @@ categories: vejstøj
   .tl-table th.num {
     text-align: right;
     white-space: nowrap;
-    padding-right: 0;
   }
 
   .tl-table tr.sum td {
