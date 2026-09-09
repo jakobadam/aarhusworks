@@ -1,3 +1,7 @@
+---
+title: "Anmodning om tilsynssag"
+author: Giber Ringvej Gruppen
+---
 
 > ## ⚠️ KLADDE — IKKE INDGIVET
 >
@@ -6,8 +10,6 @@
 > Udkastet er ufuldstændigt: afsendernes adresser mangler, og afsendelsesdatoen er ikke fastsat. Indholdet kan ændre sig, og formuleringer bør ikke citeres som Giber Ringvej Gruppens endelige standpunkt.
 
 ---
-
-# Anmodning om tilsynssag
 
 **Til:**  
 Ankestyrelsen — Det kommunale tilsyn
@@ -18,7 +20,7 @@ Aarhus Kommunes dispositioner og sagsbehandling i forbindelse med bindende VVM-v
 **Udarbejdet af:**  
 Giber Ringvej Gruppen (i det følgende **GRG**)
 
-- Jane Simonsen *[TODO: indsæt adresse]*
+- Jane Simonsen, Beringvej 23, 8361 Hasselager
 - Carina Graae Rasmussen *[TODO: indsæt adresse]*
 - Claus Falkenstrøm *[TODO: indsæt adresse]*
 - Michael Bisgaard *[TODO: indsæt adresse]*
