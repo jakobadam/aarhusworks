@@ -175,7 +175,7 @@ Dobbeltrollen er ikke usædvanlig. Men den er efter Ombudsmandens praksis inhabi
 
 ### 2.2 Sagsforløbet i hovedtræk
 
-Giber Ringvej Gruppen har siden 2023 dokumenteret en række fejl, uklarheder og retlige problemer ved kommunens opfyldelse af VVM-vilkårene og har gjort kommunen opmærksom herpå ved formelle henvendelser, faktaark, modredegørelser, foretræde for Teknisk Udvalg og møder. Kommunen har fastholdt sine konklusioner. Det fulde, annoterede forløb 2014–2026 fremgår af [bilag 1](https://aarhusworks.com/vejst%C3%B8j/2026/08/07/giber-ringvej-tidslinje.html).
+Giber Ringvej Gruppen har siden 2023 dokumenteret en række fejl, uklarheder og retlige problemer ved kommunens opfyldelse af VVM-vilkårene og har gjort kommunen opmærksom herpå ved formelle henvendelser, faktaark, modredegørelser, foretræde for Teknisk Udvalg og møder. Kommunen har fastholdt sine konklusioner. Det fulde, annoterede forløb 2014–2026 fremgår af [bilag 1](https://aarhusworks.com/vejst%C3%B8j/2026/08/26/giber-ringvej-tidslinje.html).
 
 Tre forhold vedrørende puljen (vilkår 7) går igen i det følgende og dokumenteres i [afsnit 3.1](#afsnit-3-1): det beslutningsgrundlag, vilkåret selv henviser til; det manglende regnskab, som både forvaltning og rådgiver har erkendt skriftligt; og rådgiverens efterfølgende indrømmelse af, at mindst fire påberåbte tiltag ikke er støjtiltag.
 
@@ -598,7 +598,7 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
 *Bilagene er nummereret fortløbende. Nummer 31 er udgået under udarbejdelsen og anvendes ikke. Enkelte numre er opdelt i underbilag (10a–c, 16a–f, 53a–c, 54a–b); fortegnelsen omfatter i alt 67 poster.*
 
 * **Bilag 1:** Tidslinje — Giber Ringvej Gruppen  
-  [Se tidslinjen](https://aarhusworks.com/vejst%C3%B8j/2026/08/07/giber-ringvej-tidslinje.html)  
+  [Se tidslinjen](https://aarhusworks.com/vejst%C3%B8j/2026/08/26/giber-ringvej-tidslinje.html)  
   *Anvendt i [afsnit 2.2](#afsnit-2-2).*
 * **Bilag 2:** Rambølls redegørelse 1 — notat vedrørende støj af 9. maj 2023  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf)  
