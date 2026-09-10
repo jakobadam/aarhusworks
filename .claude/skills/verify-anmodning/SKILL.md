@@ -28,13 +28,20 @@ volume fills with gems; later runs are the ~40s build alone.
 
 ## What it checks, and why each one is there
 
-**Front matter and the title.** The post once had no front matter at all.
-Jekyll then titleizes the *filename* into the page `<h1>`
-("Anmodning Om Tilsynssag Ankestyrelsen") while the document's own
-`# Anmodning om tilsynssag` renders right below it — two stacked titles.
-The fix is a `title:` in front matter and no h1 in the body; the script
-enforces both, and `-Build` asserts the rendered page has exactly one `<h1>`
-matching the front matter title.
+**Exactly one title renders.** The post used to show two stacked titles: it
+had no front matter, so Jekyll titleized the *filename* into the page `<h1>`
+("Anmodning Om Tilsynssag Ankestyrelsen"), and the document's own
+`# Anmodning om tilsynssag` rendered right below it.
+
+Either source of the title is fine. The post currently has no front matter and
+takes its title from the filename — `2026-08-26-anmodning-om-tilsynssag.md`
+renders as "Anmodning Om Tilsynssag" — and the script reports which title that
+yields rather than demanding front matter. Adding `title:` to front matter is
+equally valid and gives control over the casing ("Anmodning om tilsynssag").
+What is always wrong is an h1 in the body, because it stacks a second title
+under whichever one the layout already renders; the script rejects that either
+way, and `-Build` asserts the rendered page has exactly one `<h1>` carrying
+the expected text.
 
 **The published URL.** Jekyll's default permalink is
 `/:categories/:year/:month/:day/:title.html`. Adding `categories: vejstøj` to

@@ -24,18 +24,27 @@ if (-not (Test-Path $Post)) { Write-Host "ERROR: $Post not found"; exit 1 }
 $lines = @(Get-Content $Post)
 $raw = Get-Content $Post -Raw
 
-# --- Front matter -----------------------------------------------------------
-# Without it Jekyll titleizes the filename into the <h1>; combined with a
-# heading in the body that renders two titles stacked on the page.
+# --- Title ------------------------------------------------------------------
+# The invariant is that exactly one title renders, not that front matter
+# exists. With front matter the title comes from title:; without it Jekyll
+# titleizes the filename. Either is fine — what breaks the page is a heading
+# in the body on top of whichever one the layout already renders.
 $title = $null
+$bodyStart = 0
 if ($lines[0].Trim() -ne '---') {
-    $errors += "no front matter — Jekyll would build the title from the filename"
+    $slug = [IO.Path]::GetFileNameWithoutExtension($Post) -replace '^\d{4}-\d{2}-\d{2}-', ''
+    $title = (($slug -split '-') | ForEach-Object {
+        if ($_) { $_.Substring(0,1).ToUpper() + $_.Substring(1) }
+    }) -join ' '
+    $notes += "no front matter — Jekyll derives the title from the filename: `"$title`""
 } else {
     $close = 1
     while ($close -lt $lines.Count -and $lines[$close].Trim() -ne '---') { $close++ }
     if ($close -ge $lines.Count) {
         $errors += "front matter is never closed by a second '---'"
+        $bodyStart = $lines.Count
     } else {
+        $bodyStart = $close + 1
         $fm = $lines[1..($close - 1)]
         $titleLine = $fm | Where-Object { $_ -match '^\s*title\s*:' } | Select-Object -First 1
         if (-not $titleLine) {
@@ -50,15 +59,16 @@ if ($lines[0].Trim() -ne '---') {
         if (($fm -match '^\s*categories\s*:') -and -not ($fm -match 'redirect_from.*2026/08/26')) {
             $errors += "categories: in front matter moves the post's URL — add redirect_from for /2026/08/26/anmodning-om-tilsynssag.html or drop it"
         }
+    }
+}
 
-        # A body-level h1 duplicates the title the layout already renders.
-        $fenced = $false
-        for ($i = $close + 1; $i -lt $lines.Count; $i++) {
-            if ($lines[$i] -match '^\s*(```|~~~)') { $fenced = -not $fenced; continue }
-            if (-not $fenced -and $lines[$i] -match '^#\s+\S') {
-                $errors += "line $($i + 1) is a body-level h1 — the layout already renders the title"
-            }
-        }
+# A body-level h1 stacks a second title under whichever one the layout renders,
+# so it is wrong with or without front matter.
+$fenced = $false
+for ($i = $bodyStart; $i -lt $lines.Count; $i++) {
+    if ($lines[$i] -match '^\s*(```|~~~)') { $fenced = -not $fenced; continue }
+    if (-not $fenced -and $lines[$i] -match '^#\s+\S') {
+        $errors += "line $($i + 1) is a body-level h1 — the layout already renders the title"
     }
 }
 
