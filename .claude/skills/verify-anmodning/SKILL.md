@@ -6,9 +6,11 @@ description: Verify the Ankestyrelsen filing (_posts/2026-08-26-anmodning-om-til
 # Verify the Ankestyrelsen filing
 
 `_posts/2026-08-26-anmodning-om-tilsynssag-ankestyrelsen.md` is a ~1000-line
-administrative complaint with ~90 cited bilag and ~235 internal
-cross-references. Prose review is a human job; what tooling catches here is
-links and headings silently breaking.
+administrative complaint citing ~90 distinct bilag, with ~235 internal
+cross-reference links pointing at some two dozen distinct targets. The script
+counts distinct paths and targets, so its totals are smaller than the number
+of links in the text. Prose review is a human job; what tooling catches here
+is links and headings silently breaking.
 
 ## Run it
 

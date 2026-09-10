@@ -79,7 +79,7 @@ foreach ($a in $assets) {
 }
 foreach ($m in $missing) { $errors += "bilag link has no such file: $m" }
 foreach ($u in $uncommitted) { $errors += "bilag exists locally but is not committed (404 for readers): $u" }
-$notes += "$($assets.Count) bilag links checked, $($assets.Count - $missing.Count - $uncommitted.Count) committed"
+$notes += "$($assets.Count) distinct bilag paths checked, $($assets.Count - $missing.Count - $uncommitted.Count) committed"
 
 # --- Draft status -----------------------------------------------------------
 if ($raw -notmatch 'KLADDE') {
@@ -129,7 +129,7 @@ if ($Build) {
             ForEach-Object { [System.Uri]::UnescapeDataString($_.Groups[1].Value) } | Sort-Object -Unique
         $dead = $anchors | Where-Object { -not $ids.ContainsKey($_) }
         foreach ($d in $dead) { $errors += "cross-reference points at nothing: #$d" }
-        $notes += "$($anchors.Count) internal anchors checked, $($anchors.Count - @($dead).Count) resolve"
+        $notes += "$($anchors.Count) distinct anchor targets checked, $($anchors.Count - @($dead).Count) resolve"
     }
 }
 
