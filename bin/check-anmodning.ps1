@@ -10,6 +10,7 @@
 [CmdletBinding()]
 param(
     [switch]$Build,
+    [switch]$Quotes,
     [string]$Post = '_posts/2026-08-26-anmodning-om-tilsynssag.md'
 )
 
@@ -101,6 +102,19 @@ $todo = @($lines | Where-Object { $_ -match '\[TODO' -or $_ -match '^\s*TODO\b' 
 if ($todo.Count -gt 0) {
     $notes += "$($todo.Count) unresolved [TODO] marker(s) — still a draft:"
     $todo | ForEach-Object { $notes += "    " + $_.Trim() }
+}
+
+# --- Quotes against their sources -------------------------------------------
+# Independent of -Build: this needs Python and the PDFs, not docker.
+if ($Quotes) {
+    Write-Host "Checking quotes against the cited PDFs..."
+    $quoteScript = Join-Path $PSScriptRoot 'check-quotes.py'
+    & python $quoteScript (Get-Location).Path (Resolve-Path $Post).Path
+    if ($LASTEXITCODE -eq 2) {
+        $errors += "quote check could not run (see message above)"
+    } elseif ($LASTEXITCODE -ne 0) {
+        $errors += "quotes could not be verified against their sources — see the list above"
+    }
 }
 
 # --- Rendered output --------------------------------------------------------

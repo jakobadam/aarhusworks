@@ -1,6 +1,6 @@
 ---
 name: verify-anmodning
-description: Verify the Ankestyrelsen filing (_posts/2026-08-26-anmodning-om-tilsynssag.md) after editing it — checks front matter and title rendering, that the published URL has not moved, that every bilag link points at a committed file, that internal cross-references resolve, and what TODOs remain before it can be filed. Use after any edit to that post, or when asked whether it still builds and renders correctly.
+description: Verify the Ankestyrelsen filing (_posts/2026-08-26-anmodning-om-tilsynssag.md) after editing it — checks that quoted text actually appears in the PDF it cites, that the title renders once, that the published URL has not moved, that every bilag link points at a committed file, that internal cross-references resolve, and what TODOs remain before it can be filed. Use after any edit to that post, or when asked whether it still builds and renders correctly.
 ---
 
 # Verify the Ankestyrelsen filing
@@ -16,8 +16,12 @@ is links and headings silently breaking.
 
 ```powershell
 pwsh bin/check-anmodning.ps1           # static — seconds
+pwsh bin/check-anmodning.ps1 -Quotes   # + every quote against the PDF it cites
 pwsh bin/check-anmodning.ps1 -Build    # + Jekyll build and rendered-output checks
 ```
+
+The three tiers are independent. `-Quotes` needs Python with PyMuPDF
+(`pip install pymupdf`) and the PDFs in `assets/`; `-Build` needs docker.
 
 Use `-Build` before saying the document is correct. The static tier cannot see
 what Jekyll actually produced, and the failure this repo has already hit —
@@ -50,6 +54,35 @@ match the sibling posts would move this post to `/vejstøj/2026/08/26/...` and
 Giber Ringvej posts — carries no category. If a category is ever genuinely
 wanted, add `redirect_from` for the old path; the script accepts that and
 rejects a bare category.
+
+**Quotes against their sources** (`-Quotes`). Every `"..."` in the document is
+matched against the text of the PDF it cites. Matching is exact containment
+after normalising whitespace, hyphenated line breaks, dashes and quote glyphs —
+never fuzzy. A 95%-similar quote is a defect in a filing like this, and a
+similarity threshold would hide precisely that. Ellipses and editorial brackets
+(`[er]`, `[k]ommunen`) are treated as wildcards, but the fragments around them
+must still appear *in order*, so an insertion cannot smuggle in a change of
+meaning.
+
+Read the output as four separate things:
+
+- *verified against the source they cite* — matched on the page the link names.
+- *verified, but on a different page* — the text is in that PDF, elsewhere.
+  The `#page=` anchor is wrong, or the quote picked up a neighbouring link.
+- *verified against another cited source* — no citation next to the quote, so
+  it was matched against every source the document cites. Usually a phrase
+  quoted again after being cited properly earlier. Weaker evidence: it confirms
+  the words exist somewhere in the material, not that this passage cites them.
+- *NOT FOUND* and *no citation and found nowhere* — the honest residue. These
+  need a human. Expect some to be document *titles* in quotation marks rather
+  than quotations, which this cannot distinguish.
+
+**What it cannot tell you.** Scanned PDFs with no text layer are named
+explicitly rather than counted as passing — nothing can verify those
+mechanically. It also cannot judge whether a quote is fair in context, only
+whether the words are present. Do not read a clean run as "the quotations are
+sound"; read it as "no quotation is verifiably wrong, and here is what is left
+for you to check."
 
 **Bilag links.** The test is whether the asset is *committed*, not whether it
 exists locally. A PDF sitting untracked in `assets/` resolves fine on this
