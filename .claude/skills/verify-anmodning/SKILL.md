@@ -1,11 +1,11 @@
 ---
 name: verify-anmodning
-description: Verify the Ankestyrelsen filing (_posts/2026-08-26-anmodning-om-tilsynssag-ankestyrelsen.md) after editing it — checks front matter and title rendering, that the published URL has not moved, that every bilag link points at a committed file, that internal cross-references resolve, and what TODOs remain before it can be filed. Use after any edit to that post, or when asked whether it still builds and renders correctly.
+description: Verify the Ankestyrelsen filing (_posts/2026-08-26-anmodning-om-tilsynssag.md) after editing it — checks front matter and title rendering, that the published URL has not moved, that every bilag link points at a committed file, that internal cross-references resolve, and what TODOs remain before it can be filed. Use after any edit to that post, or when asked whether it still builds and renders correctly.
 ---
 
 # Verify the Ankestyrelsen filing
 
-`_posts/2026-08-26-anmodning-om-tilsynssag-ankestyrelsen.md` is a ~1000-line
+`_posts/2026-08-26-anmodning-om-tilsynssag.md` is a ~1000-line
 administrative complaint citing ~90 distinct bilag, with ~235 internal
 cross-reference links pointing at some two dozen distinct targets. The script
 counts distinct paths and targets, so its totals are smaller than the number
@@ -61,6 +61,6 @@ send date). Treat the list as the pre-filing checklist.
 
 Errors are real defects in the published document. Notes are status. If the
 build tier reports the post rendering somewhere other than
-`_site/2026/08/26/anmodning-om-tilsynssag-ankestyrelsen.html`, stop and fix
+`_site/2026/08/26/anmodning-om-tilsynssag.html`, stop and fix
 the front matter before committing — that is a broken public URL, not a
 cosmetic issue.

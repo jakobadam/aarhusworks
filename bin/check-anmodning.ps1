@@ -1,4 +1,4 @@
-# Verifies _posts/2026-08-26-anmodning-om-tilsynssag-ankestyrelsen.md — the
+# Verifies _posts/2026-08-26-anmodning-om-tilsynssag.md — the
 # Ankestyrelsen filing. It is long, heavily cross-referenced and cites ~90
 # bilag by URL, so the things that break are links and headings, not prose.
 #
@@ -10,7 +10,7 @@
 [CmdletBinding()]
 param(
     [switch]$Build,
-    [string]$Post = '_posts/2026-08-26-anmodning-om-tilsynssag-ankestyrelsen.md'
+    [string]$Post = '_posts/2026-08-26-anmodning-om-tilsynssag.md'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -48,7 +48,7 @@ if ($lines[0].Trim() -ne '---') {
         # so adding a category moves the post and 404s the published URL.
         # Allowed only if a redirect_from preserves the old path.
         if (($fm -match '^\s*categories\s*:') -and -not ($fm -match 'redirect_from.*2026/08/26')) {
-            $errors += "categories: in front matter moves the post's URL — add redirect_from for /2026/08/26/anmodning-om-tilsynssag-ankestyrelsen.html or drop it"
+            $errors += "categories: in front matter moves the post's URL — add redirect_from for /2026/08/26/anmodning-om-tilsynssag.html or drop it"
         }
 
         # A body-level h1 duplicates the title the layout already renders.
@@ -101,9 +101,9 @@ if ($Build) {
         Select-Object -Last 3
     if ($LASTEXITCODE -ne 0) { $errors += "jekyll build failed" }
 
-    $expected = '_site/2026/08/26/anmodning-om-tilsynssag-ankestyrelsen.html'
+    $expected = '_site/2026/08/26/anmodning-om-tilsynssag.html'
     if (-not (Test-Path $expected)) {
-        $built = Get-ChildItem _site -Recurse -Filter 'anmodning-om-tilsynssag-*.html' -ErrorAction SilentlyContinue |
+        $built = Get-ChildItem _site -Recurse -Filter 'anmodning-om-tilsynssag*.html' -ErrorAction SilentlyContinue |
             Select-Object -First 1
         if ($built) {
             $errors += "post rendered to $($built.FullName.Replace($PWD.Path,'')) — the published URL $expected moved"
