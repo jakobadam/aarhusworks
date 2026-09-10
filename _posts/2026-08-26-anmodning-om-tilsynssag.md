@@ -171,7 +171,7 @@ Efter [kommunestyrelseslovens § 48 a](https://danskelove.dk/kommunestyrelseslov
 
 Aarhus Kommune har i dette projekt haft en dobbelt rolle: som **bygherre** for Giber Ringvej og som **planmyndighed** med ansvar for, at VVM-vilkårene overholdes. Teknik og Miljø har både projekteret og anlagt vejen og efterfølgende vurderet, om vilkårene er opfyldt. Rambøll A/S har været kommunens rådgiver i begge egenskaber — først som projekterende, siden som den, der vurderer, om det projekterede lever op til vilkårene.
 
-Dobbeltrollen er ikke usædvanlig. Men den er efter Ombudsmandens praksis inhabilitetsbegrundende, når myndigheden selv er part i den sag, den afgør ([afsnit 4.4](#afsnit-4-4)) — og den har en konkret konsekvens for dette sagsforløb: **der findes ikke i konstruktionen nogen instans, hvis opgave det er at konstatere, at et vilkår ikke er opfyldt.** Spørgsmålet om, hvorvidt vilkår 2, 5 og 7 er opfyldt, har på intet tidspunkt været forelagt nogen, der ikke selv har medvirket til det, der skal vurderes.
+Dobbeltrollen er ikke usædvanlig. Men den er efter Ombudsmandens praksis inhabilitetsbegrundende, når myndigheden selv er part i den sag, den afgør ([afsnit 4.4](#afsnit-4-4)) — og den har en konkret konsekvens for dette sagsforløb: **tilsynet med, om vilkårene er opfyldt, ligger hos den myndighed, der selv har bygget vejen og fastsat dem.** Spørgsmålet om, hvorvidt vilkår 2, 5 og 7 er opfyldt, har på intet tidspunkt været forelagt nogen, der ikke selv har medvirket til det, der skal vurderes.
 
 <a id="afsnit-2-2"></a>
 
