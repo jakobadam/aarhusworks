@@ -95,7 +95,9 @@ $notes += "$($assets.Count) distinct bilag paths checked, $($assets.Count - $mis
 if ($raw -notmatch 'KLADDE') {
     $notes += "the KLADDE banner is gone — this now reads as a filed document"
 }
-$todo = @($lines | Where-Object { $_ -match '\[TODO' })
+# Both the inline *[TODO: ...]* placeholders and bare "TODO ..." notes left at
+# the start of a line. Requiring line-start keeps the word out of prose.
+$todo = @($lines | Where-Object { $_ -match '\[TODO' -or $_ -match '^\s*TODO\b' })
 if ($todo.Count -gt 0) {
     $notes += "$($todo.Count) unresolved [TODO] marker(s) — still a draft:"
     $todo | ForEach-Object { $notes += "    " + $_.Trim() }
