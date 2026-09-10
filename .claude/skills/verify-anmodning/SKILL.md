@@ -9,8 +9,9 @@ description: Verify the Ankestyrelsen filing (_posts/2026-08-26-anmodning-om-til
 administrative complaint citing ~90 distinct bilag, with ~235 internal
 cross-reference links pointing at some two dozen distinct targets. The script
 counts distinct paths and targets, so its totals are smaller than the number
-of links in the text. Prose review is a human job; what tooling catches here
-is links and headings silently breaking.
+of links in the text. Judging the argument is a human job; what tooling catches
+here is links and headings silently breaking, and quotations drifting from the
+sources they rest on.
 
 ## Run it
 
