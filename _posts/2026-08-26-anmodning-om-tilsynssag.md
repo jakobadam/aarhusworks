@@ -177,7 +177,7 @@ Dobbeltrollen er ikke usædvanlig. Men den er efter Ombudsmandens praksis inhabi
 
 ### 2.2 Sagsforløbet i hovedtræk
 
-Giber Ringvej Gruppen har siden 2023 dokumenteret en række fejl, uklarheder og retlige problemer ved kommunens opfyldelse af VVM-vilkårene og har gjort kommunen opmærksom herpå ved formelle henvendelser, faktaark, modredegørelser, [foretræde for Teknisk Udvalg](https://dagsordener.aarhus.dk/vis?id=1232cd55-67bf-4142-849b-e59f9c772210&punktid=03d1c259-d0fd-41b3-99c8-cd0b83afd1bf) og møder. Kommunen har fastholdt sine konklusioner. Det fulde, annoterede forløb 2014–2026 fremgår af [bilag 1](https://aarhusworks.com/vejst%C3%B8j/2026/08/26/giber-ringvej-tidslinje.html).
+Giber Ringvej Gruppen har siden 2023 dokumenteret en række fejl, uklarheder og retlige problemer ved kommunens opfyldelse af VVM-vilkårene og har gjort kommunen opmærksom herpå ved formelle henvendelser, faktaark, modredegørelser, foretræde for Teknisk Udvalg og møder. Kommunen har fastholdt sine konklusioner. Det fulde, annoterede forløb 2014–2026 fremgår af [bilag 1](https://aarhusworks.com/vejst%C3%B8j/2026/08/26/giber-ringvej-tidslinje.html).
 
 Tre forhold vedrørende puljen (vilkår 7) går igen i det følgende og dokumenteres i [afsnit 3.1](#afsnit-3-1): det beslutningsgrundlag, vilkåret selv henviser til; det manglende regnskab, som både forvaltning og rådgiver har erkendt skriftligt; og rådgiverens efterfølgende indrømmelse af, at mindst fire påberåbte tiltag ikke er støjtiltag.
 
