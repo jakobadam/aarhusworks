@@ -46,7 +46,19 @@ def norm(s):
                  ('–', '-'), ('—', '-'), ('−', '-'),
                  (' ', ' ')):
         s = s.replace(a, b)
-    s = re.sub(r'-\s*\n\s*', '', s)                      # hyphenated line break
+    # PDF text layers break words across lines with a hyphen, but Danish
+    # administrative prose is also full of real compound hyphens
+    # ("VVM-bekendtgørelsen"), and a line break can fall on one of those.
+    # Removing the hyphen turns it into "VVMbekendtgørelsen"; keeping it
+    # turns a wrap into "anlægs-virkning". Dropping every hyphen on both
+    # sides is symmetric, so either spelling compares equal.
+    s = re.sub(r'-\s*\n\s*', '-', s)
+    s = s.replace('-', '')
+    # A footnote marker in a PDF text layer glues its digit to the preceding
+    # word ("miljøvurderingslovens1 § 57"), which no quotation reproduces.
+    # Only digits directly abutting a letter are dropped; every ordinary
+    # number in the text is preceded by a space and survives.
+    s = re.sub(r'(?<=[a-zæøåA-ZÆØÅ])\d{1,2}(?!\d)', '', s)
     s = re.sub(r'\s+', ' ', s)
     return s.strip().lower()
 
@@ -136,7 +148,21 @@ for m in QUOTE.finditer(raw):
         skipped += 1
         continue
 
-    link = LINK.search(raw[m.end(): m.end() + 260])
+    # A quote set as a block quote carries its citation in the lead-in line
+    # above it ("... bestemmer udtrykkeligt, jf. [bilag 56, s. 4](...):"),
+    # not after it. Looking only forward attaches such a quote to whatever
+    # link happens to open the next paragraph, which then reads as a wrong
+    # page anchor. Look backwards for these, forwards for everything else —
+    # a plain running-text quote preceded by an unrelated link must not be
+    # captured by it.
+    line_start = raw.rfind('\n', 0, m.start()) + 1
+    in_blockquote = raw[line_start:m.start()].lstrip().startswith('>')
+    link = None
+    if in_blockquote:
+        before = list(LINK.finditer(raw[max(0, m.start() - 300): m.start()]))
+        link = before[-1] if before else None
+    if link is None:
+        link = LINK.search(raw[m.end(): m.end() + 260])
     short = quote[:80].replace('\n', ' ')
 
     if link:

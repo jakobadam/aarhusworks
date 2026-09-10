@@ -58,9 +58,12 @@ rejects a bare category.
 
 **Quotes against their sources** (`-Quotes`). Every `"..."` in the document is
 matched against the text of the PDF it cites. Matching is exact containment
-after normalising whitespace, hyphenated line breaks, dashes and quote glyphs —
-never fuzzy. A 95%-similar quote is a defect in a filing like this, and a
-similarity threshold would hide precisely that. Ellipses and editorial brackets
+after normalisation — never fuzzy. A 95%-similar quote is a defect in a filing
+like this, and a similarity threshold would hide precisely that. Normalisation
+absorbs what a PDF text layer does to words rather than what an author does to
+a quotation: whitespace, dashes and quote glyphs, hyphens (dropped on both
+sides, since a line break can fall on a real compound hyphen such as
+*VVM-bekendtgørelsen*), and footnote markers glued to the preceding word. Ellipses and editorial brackets
 (`[er]`, `[k]ommunen`) are treated as wildcards, but the fragments around them
 must still appear *in order*, so an insertion cannot smuggle in a change of
 meaning.
@@ -70,6 +73,9 @@ Read the output as four separate things:
 - *verified against the source they cite* — matched on the page the link names.
 - *verified, but on a different page* — the text is in that PDF, elsewhere.
   The `#page=` anchor is wrong, or the quote picked up a neighbouring link.
+  Block quotes are attributed to the citation in the lead-in line *above*
+  them, which is where this document puts it; everything else to the next
+  link after the quote.
 - *verified against another cited source* — no citation next to the quote, so
   it was matched against every source the document cites. Usually a phrase
   quoted again after being cited properly earlier. Weaker evidence: it confirms
