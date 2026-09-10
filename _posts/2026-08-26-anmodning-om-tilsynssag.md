@@ -55,7 +55,8 @@ Ingen af disse faktiske forhold er bestridt. **Kommunen har alligevel aldrig tru
 
 **Hertil kommer, at kommunen ikke kan oplyse, hvad dens modsatte konklusion hviler på.** Kommunen har selv oplyst:
 
-* at der ikke er ført regnskab med rammen, og at et sådant ikke kan udarbejdes: [*"det er ikke muligt at lave en opgørelse af, hvad omkostningerne til de besluttede tiltag reelt har været"*](https://aarhusworks.com/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf#page=2)
+* at der ikke er ført regnskab med rammen, og at et sådant ikke kan udarbejdes: [*det er "ikke muligt at lave en opgørelse af, hvad omkostningerne til de besluttede tiltag reelt har
+  været"*](https://aarhusworks.com/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf#page=2)
 * at rådgiveren skriftligt har tiltrådt, at mindst fire af de tiltag, kommunen påberåber sig, ikke er støjtiltag
 * at forvaltningen så sent som i august 2025 måtte spørge sin egen rådgiver, om beplantningen overhovedet var et krav: [*"er det bare uforpligtende eksempler i VVM'en eller er det forudsætninger for projektet?"*](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-07-mail-bestilling-af-redegoerelse-for-beplantning.pdf) — seks måneder før borgmesteren afviste, at den var det
 * at der for vejbelægningen hverken er oplyst referencebelægning, belægningstype eller dokumenteret støjreduktion — skønt kommunen i sine egne støjhandlingsplaner angiver [1–4 dB](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf#page=14) for *støjreducerende belægninger*
@@ -63,6 +64,9 @@ Ingen af disse faktiske forhold er bestridt. **Kommunen har alligevel aldrig tru
 For **vilkår 5**, hvor der er udlagt en belægning, er sagsoplysningsmanglen den principale indsigelse; subsidiært gøres gældende, at vilkåret på det foreliggende grundlag ikke kan anses for overholdt.
 
 **Hvad rammen dækkede.** Den byrådsbeslutning, vilkår 7 henviser til, fastslår, at den allerede skitserede støjafskærmning [*"fastholdes **og** suppleres med"*](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf) øget støjdæmpning inden for rammen. Rammen er dermed additionen — ikke betaling for det, projektet i forvejen skyldte. Det [notat](https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=4), rådgiveren selv angiver som kilde til beløbet, prissætter tre skærme enkeltvis: Kolt 8,2, Tranbjerg 5,4 og Mårslet 3,1 mio. kr. Den eneste støjskærm, projektet faktisk har — den langs Landevejen ved Tranbjerg — skyldte kommunen efter vilkår 5 og 6 uafhængigt af rammen, og rådgiveren opgør den ikke desto mindre som anvendelse af den. Rammen var heller ikke en videreførelse af en faglig anbefaling: forvaltningen anbefalede udtrykkeligt at **undlade** øget støjdæmpning ved Mårslet, Tranbjerg og Kolt, Teknisk Udvalg besluttede det modsatte fire dage senere, og byrådet finansierede det i 2020.
+
+TODO Kolt 8,2, Tranbjerg 5,4 og Mårslet 3,1 mio. værdierne her er fra COWI og ikke den ombyttede 
+fra notatet.
 
 **Hvad der anmodes om.** Anmodningen beder ikke Ankestyrelsen om at efterprøve støjberegninger, og heller ikke om at afgøre, om vilkårene er overholdt — det ville være en planretlig bedømmelse. Den beder om en udtalelse om fire **kommunalretlige** forhold:
 
@@ -523,6 +527,8 @@ Identifikationen kan føres videre end vilkårsteksten: redegørelsens afsnit 1.
 ### 4.4 Myndighedsinhabilitet og fraværet af en uafhængig vurdering
 
 Aarhus Kommune har bygget vejen, fastsat vilkårene og selv afgjort, om de er opfyldt. Lyder svaret ja, sparer kommunen ca. 20 mio. kr.
+
+TODO Juster forrige sætning
 
 **Reglen.** [Forvaltningsloven](https://danskelove.dk/forvaltningsloven) regulerer kun personers habilitet. For myndigheder gælder en ulovbestemt grundsætning, som Ombudsmanden har formuleret i [FOB 2023-31](https://www.retsinformation.dk/eli/fob/2023/31): en myndighed er inhabil, når den *"selv er part i sagen eller i øvrigt har en særlig og uvedkommende interesse i dennes behandling og afgørelse"*. Vurderingen er *"objektiv og generel"* — myndigheden kan ikke argumentere sig ud af den ved at henvise til, at den mener at have handlet sagligt. Her er kommunen både bygherre og ejer af anlægget, og udfaldet har direkte økonomisk betydning for den.
 
