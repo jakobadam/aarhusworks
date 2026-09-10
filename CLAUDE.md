@@ -27,7 +27,7 @@ bundle exec jekyll serve
 
 There are no automated tests, lint scripts beyond the pre-commit hook below, or CI build step in this repo — "does it build with Jekyll and render correctly" is the practical check.
 
-The one exception is the Ankestyrelsen filing (`_posts/2026-08-26-anmodning-om-tilsynssag-ankestyrelsen.md`), which has `bin/check-anmodning.ps1` (`-Build` adds Jekyll build and rendered-output checks) — see the `verify-anmodning` skill for what it checks and why. Note the trap it guards: Jekyll's default permalink includes `:categories`, so adding a category to an existing post moves its URL and 404s the published address.
+The one exception is the Ankestyrelsen filing (`_posts/2026-08-26-anmodning-om-tilsynssag.md`), which has `bin/check-anmodning.ps1` (`-Build` adds Jekyll build and rendered-output checks) — see the `verify-anmodning` skill for what it checks and why. Note the trap it guards: Jekyll's default permalink includes `:categories`, so adding a category to an existing post moves its URL and 404s the published address.
 
 ## Mermaid diagrams in posts
 
