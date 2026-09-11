@@ -73,9 +73,11 @@ Read the output as four separate things:
 - *verified against the source they cite* — matched on the page the link names.
 - *verified, but on a different page* — the text is in that PDF, elsewhere.
   The `#page=` anchor is wrong, or the quote picked up a neighbouring link.
-  Block quotes are attributed to the citation in the lead-in line *above*
-  them, which is where this document puts it; everything else to the next
-  link after the quote.
+  A citation that *introduces* its quote — a block quote, or a link separated
+  from the quote by nothing but a colon — is attributed to that quote;
+  everything else to the next link after it. Getting this wrong reads as a
+  page mismatch, because the quote is checked against whichever source
+  happens to be linked next.
 - *verified against another cited source* — no citation next to the quote, so
   it was matched against every source the document cites. Usually a phrase
   quoted again after being cited properly earlier. Weaker evidence: it confirms

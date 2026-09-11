@@ -157,10 +157,18 @@ for m in QUOTE.finditer(raw):
     # captured by it.
     line_start = raw.rfind('\n', 0, m.start()) + 1
     in_blockquote = raw[line_start:m.start()].lstrip().startswith('>')
+
     link = None
-    if in_blockquote:
-        before = list(LINK.finditer(raw[max(0, m.start() - 300): m.start()]))
-        link = before[-1] if before else None
+    window = max(0, m.start() - 300)
+    before = list(LINK.finditer(raw[window:m.start()]))
+    if before:
+        between = raw[window + before[-1].end(): m.start()]
+        # "jf. [bilag 15, s. 2](...): *"..."*" — a citation separated from its
+        # quote by nothing but a colon introduces that quote, whether the quote
+        # follows in running text or as a block quote.
+        introduces = ':' in between and not between.strip(' *_"\r\n\t>:')
+        if in_blockquote or introduces:
+            link = before[-1]
     if link is None:
         link = LINK.search(raw[m.end(): m.end() + 260])
     short = quote[:80].replace('\n', ' ')
