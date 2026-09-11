@@ -68,7 +68,7 @@ For **vilkår 5**, hvor der er udlagt en belægning, er sagsoplysningsmanglen de
 **Hvad der anmodes om.** Anmodningen beder ikke Ankestyrelsen om at efterprøve støjberegninger, og heller ikke om at afgøre, om vilkårene er overholdt — det ville være en planretlig bedømmelse. Den beder om en udtalelse om fire **kommunalretlige** forhold:
 
 1. **Forelæggelsen for byrådet** — om forvaltningen har afviklet en byrådsbeslutning uden fornyet forelæggelse ([afsnit 4.1](#afsnit-4-1))
-2. **Den økonomiske disposition** — om en byrådsbevilget ramme på ca. 20 mio. kr. er disponeret uden beslutningsgrundlag og uden regnskab ([afsnit 4.2](#afsnit-4-2))
+2. **Den økonomiske disposition** — om en byrådsbevilget ramme på ca. 20 mio. kr. er disponeret uden dokumenteret beslutningsgrundlag og uden regnskab ([afsnit 4.2](#afsnit-4-2))
 3. **Sagsoplysningen og genoptagelsen** — om sagen er oplyst i overensstemmelse med officialprincippet, og om kommunen havde pligt til at genoptage den ([afsnit 4.3](#afsnit-4-3))
 4. **Myndighedsinhabiliteten** — om kommunen har iagttaget de forholdsregler, myndighedsinhabilitet udløser ([afsnit 4.4](#afsnit-4-4))
 
