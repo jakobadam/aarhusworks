@@ -140,6 +140,11 @@ for m in QUOTE.finditer(raw):
     # An unbalanced " anywhere in the document shifts every pair after it, so
     # a "quote" that opens on markdown punctuation is a mis-paired span, not
     # something to report against a source.
+    # An HTML attribute value is not a quotation: <a id="tillaeg-prissaetning">
+    # otherwise reads as one and gets checked against the nearest source.
+    if m.start() > 0 and raw[m.start() - 1] == '=':
+        skipped += 1
+        continue
     if '](' in quote or len(quote) > 600 or quote.lstrip()[:1] in '*])>|':
         skipped += 1
         continue
@@ -159,9 +164,24 @@ for m in QUOTE.finditer(raw):
     in_blockquote = raw[line_start:m.start()].lstrip().startswith('>')
 
     link = None
+
+    # In a table the citation lives in a cell of the same row — sometimes after
+    # the quote ("| quote ([bilag 22, s. 5]) |"), sometimes in an earlier cell
+    # ("| Rambøll, [bilag 16a, s. 3] | quote |"). Either way it must not be
+    # taken from a neighbouring paragraph, so the search is confined to the row.
+    if raw[line_start:m.start()].lstrip().startswith('|'):
+        row_end = raw.find('\n', m.end())
+        row_end = len(raw) if row_end < 0 else row_end
+        after = LINK.search(raw[m.end():row_end])
+        if after:
+            link = after
+        else:
+            in_row = list(LINK.finditer(raw[line_start:m.start()]))
+            link = in_row[-1] if in_row else None
+
     window = max(0, m.start() - 300)
     before = list(LINK.finditer(raw[window:m.start()]))
-    if before:
+    if link is None and before:
         between = raw[window + before[-1].end(): m.start()]
         # "jf. [bilag 15, s. 2](...): *"..."*" — a citation separated from its
         # quote by nothing but a colon introduces that quote, whether the quote
