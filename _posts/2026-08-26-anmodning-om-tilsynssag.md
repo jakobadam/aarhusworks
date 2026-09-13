@@ -200,7 +200,9 @@ At myndigheden anser parterne for *"juridisk uenige"*, fritager den ikke for pli
 
 ### 3.1 Vilkår 7 — Puljen på ca. 20 mio. kr.
 
-Forpligtelsen er at **supplere ved fem navngivne steder**. To ord afgør, hvad der kan tælle med: der skal *suppleres* med *øget* støjdæmpning. Rammen dækker det, der kommer oven i det, projektet i forvejen skyldte — ikke projektet selv. Det er uden betydning, om rammen læses som et loft eller som et beløb, der skulle anvendes: også med den første læsning består forpligtelsen til at supplere de fem steder uændret, og et loft over en indsats forudsætter en indsats at sætte loft over. Spørgsmålet er derfor ikke, hvor pengene blev af, men hvad der blev gjort hvert af de fem steder; beløbsrammen påberåbes først og fremmest som bevis for, **hvad der var forudsat**.
+Forpligtelsen er at **supplere ved fem navngivne steder**. To ord afgør, hvad der kan tælle med: der skal *suppleres* med *øget* støjdæmpning. Rammen dækker det, der kommer oven i det, projektet i forvejen skyldte — ikke projektet selv. Hvad der skulle suppleres med, er ikke overladt til skøn: det beslutningsgrundlag, vilkåret henviser til, prissætter tre navngivne støjskærme og et facadetilskud enkeltvis (nedenfor).
+
+**Subsidiært er det uden betydning, om rammen læses som et loft eller som et beløb, der skulle anvendes.** Også med loft-læsningen består forpligtelsen til at supplere de fem steder uændret, og et loft over en indsats forudsætter en indsats at sætte loft over. Spørgsmålet er derfor ikke, hvor pengene blev af, men hvad der blev gjort hvert af de fem steder; beløbsrammen påberåbes først og fremmest som bevis for, **hvad der var forudsat**.
 
 #### Vilkårets eget beslutningsgrundlag: "fastholdes og suppleres med"
 
