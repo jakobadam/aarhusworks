@@ -3,7 +3,9 @@
   "dependencies": {
     "@mermaid-js/mermaid-cli": "^11.4.0",
     "husky": "^9.1.6",
-    "lint-staged": "^15.2.10"
+    "lint-staged": "^15.2.10",
+    "marked": "^13.0.3",
+    "puppeteer": "^23.7.0"
   },
   "scripts": {
     "prepare": "husky",
@@ -12,6 +14,9 @@
   "lint-staged": {
     "*.md": [
       "sh bin/mermaid2svg.sh"
+    ],
+    "_posts/2026-08-26-anmodning-om-tilsynssag.md": [
+      "node bin/anmodning2pdf.mjs --stage"
     ]
   }
 }
