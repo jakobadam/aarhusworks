@@ -24,7 +24,11 @@ import puppeteer from 'puppeteer';
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const SOURCE = resolve(repo, '_posts/2026-08-26-anmodning-om-tilsynssag.md');
-const out = resolve(repo, 'assets/giber-ringvej/klage/anmodning-om-tilsynssag.pdf');
+// ANMODNING_PDF_OUT renders somewhere else — useful when a PDF viewer holds a
+// lock on the real file, which Windows enforces.
+const out = process.env.ANMODNING_PDF_OUT
+  ? resolve(process.env.ANMODNING_PDF_OUT)
+  : resolve(repo, 'assets/giber-ringvej/klage/anmodning-om-tilsynssag.pdf');
 const TITLE = 'Anmodning om tilsynssag — Giber Ringvej';
 
 const check = process.argv.includes('--check');
@@ -47,7 +51,51 @@ const headerDate = /TODO/.test(dateLine) || !dateLine
 // clickable.
 const body = marked.parse(md, { gfm: true, breaks: false });
 
+// Headings, header and footer want Helvetica Neue, which is a licensed
+// Monotype face: present on macOS, absent on Windows, and not installable
+// here. Inter is embedded straight after it so the headings look the same for
+// the recipient no matter which machine rendered the file — it is the closest
+// free neo-grotesque and its OFL licence permits embedding. Swap the first two
+// entries if you would rather have deterministic output than Helvetica Neue
+// winning wherever it happens to be installed.
+const SANS = '"Helvetica Neue", Inter, Helvetica, "Nimbus Sans", Arial, sans-serif';
+
+// Weights actually used below: 400 (header/footer), 700 (headings, th,
+// watermark) and 400 italic (emphasis inside headings and table cells).
+const FACES = [
+  ['inter-latin-400-normal.woff2', 400, 'normal'],
+  ['inter-latin-400-italic.woff2', 400, 'italic'],
+  ['inter-latin-700-normal.woff2', 700, 'normal'],
+  ['inter-latin-700-italic.woff2', 700, 'italic'],
+];
+
+function face([file, weight, style]) {
+  const path = resolve(repo, 'node_modules/@fontsource/inter/files', file);
+  if (!existsSync(path)) {
+    console.error(`FEJL: ${file} mangler — koer: npm install`);
+    process.exit(1);
+  }
+  const b64 = readFileSync(path).toString('base64');
+  return `@font-face{font-family:Inter;font-style:${style};font-weight:${weight};` +
+    `font-display:block;src:url(data:font/woff2;base64,${b64}) format("woff2");}`;
+}
+
+const fontFaces = FACES.map(face).join('\n');
+
+// The running header and footer stay on the installed fallback. Chrome renders
+// them as their own documents, which inherit none of the page CSS, and putting
+// a <style> block with the embedded face into the templates makes Chrome drop
+// them altogether — verified: no header, no footer, no page numbers. So the
+// 7.5-8pt running text is Arial (or whatever the stack resolves to) while the
+// headings are Inter. Do not "fix" this by re-adding <style> to the templates.
+// Chrome renders the header and footer as separate documents that do not
+// inherit the page CSS, so the stack has to be repeated inline — with single
+// quotes, since it sits inside a double-quoted style attribute.
+const SANS_ATTR = SANS.replaceAll('"', "'");
+
 const css = `
+  ${fontFaces}
+  :root { --sans: ${SANS}; }
   @page { size: A4; margin: 24mm 18mm 20mm 18mm; }
   html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   body {
@@ -55,7 +103,7 @@ const css = `
     color: #111; margin: 0; hyphens: auto;
   }
   h1, h2, h3, h4 {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: var(--sans);
     line-height: 1.25; break-after: avoid; margin: 1.4em 0 .5em;
   }
   h2 { font-size: 15pt; border-bottom: .8pt solid #bbb; padding-bottom: .15em; }
@@ -75,7 +123,7 @@ const css = `
   }
   thead { display: table-header-group; }
   th, td { border: .6pt solid #999; padding: 4pt 6pt; vertical-align: top; text-align: left; }
-  th { background: #f0f0f0; font-family: "Helvetica Neue", Arial, sans-serif; }
+  th { background: #f0f0f0; font-family: var(--sans); }
   tr { break-inside: avoid; }
   hr { border: 0; border-top: .6pt solid #ccc; margin: 1.4em 0; }
   img, svg { max-width: 100%; }
@@ -84,7 +132,7 @@ const css = `
   body.kladde::before {
     content: "KLADDE — IKKE INDGIVET";
     position: fixed; top: 44%; left: 0; right: 0;
-    text-align: center; font: 700 42pt/1 "Helvetica Neue", Arial, sans-serif;
+    text-align: center; font: 700 42pt/1 var(--sans);
     color: rgba(190, 30, 30, .13); transform: rotate(-28deg);
     letter-spacing: .04em; z-index: 0; pointer-events: none;
   }
@@ -127,14 +175,14 @@ if (existsSync(out) && readStamp() === stamp && !process.argv.includes('--force'
 // ---------------------------------------------------------------- render
 
 const headerHtml = `
-  <div style="font:7.5pt 'Helvetica Neue',Arial,sans-serif;color:#555;width:100%;
+  <div style="font:7.5pt ${SANS_ATTR};color:#555;width:100%;
               margin:0 18mm;display:flex;justify-content:space-between;
               border-bottom:.5pt solid #ccc;padding-bottom:3pt;">
     <span>${TITLE}${isDraft ? ' · KLADDE' : ''}</span><span>${headerDate}</span>
   </div>`;
 
 const footerHtml = `
-  <div style="font:8pt 'Helvetica Neue',Arial,sans-serif;color:#555;width:100%;
+  <div style="font:8pt ${SANS_ATTR};color:#555;width:100%;
               margin:0 18mm;text-align:right;">
     <span class="pageNumber"></span> af <span class="totalPages"></span>
   </div>`;
@@ -153,6 +201,14 @@ try {
     margin: { top: '24mm', bottom: '20mm', left: '18mm', right: '18mm' },
     tagged: true,
   });
+} catch (err) {
+  // Windows keeps the file locked while a PDF viewer has it open, and the
+  // error Chrome surfaces for that does not say so.
+  if (err?.code === 'EBUSY') {
+    console.error(`FEJL: ${rel(out)} er laast af et andet program — luk PDF'en i din fremviser og koer igen.`);
+    process.exit(1);
+  }
+  throw err;
 } finally {
   await browser.close();
 }
