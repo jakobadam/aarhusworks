@@ -106,12 +106,21 @@ if (check) {
     console.error(`FEJL: ${rel(out)} findes ikke — kør: node bin/anmodning2pdf.mjs`);
     process.exit(1);
   }
-  const known = existsSync(stampPath) ? readFileSync(stampPath, 'utf8').trim() : '';
-  if (known !== stamp) {
+  if (readStamp() !== stamp) {
     console.error(`FEJL: ${rel(out)} er forældet — kør: node bin/anmodning2pdf.mjs`);
     process.exit(1);
   }
   console.log(`OK — ${rel(out)} svarer til kilden.`);
+  process.exit(0);
+}
+
+// Chrome writes a fresh creation timestamp into every render, so re-rendering
+// an unchanged document still produces different bytes — and the hook would
+// add a 3 MB blob to the history on every commit. Skip when the source has not
+// moved; --force re-renders anyway (e.g. after changing the layout below).
+if (existsSync(out) && readStamp() === stamp && !process.argv.includes('--force')) {
+  if (stage) git(['add', '--', out, stampPath]);
+  console.log(`${rel(out)} er allerede aktuel — springer gengivelse over (--force gennemtvinger).`);
   process.exit(0);
 }
 
@@ -160,6 +169,10 @@ console.log(`Skrev ${rel(out)}${isDraft ? '  (KLADDE — der er stadig [TODO:-ma
 
 function rel(p) {
   return p.slice(repo.length + 1).replaceAll('\\', '/');
+}
+
+function readStamp() {
+  return existsSync(stampPath) ? readFileSync(stampPath, 'utf8').trim() : '';
 }
 
 function git(args) {
