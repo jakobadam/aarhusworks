@@ -36,8 +36,14 @@ const stage = process.argv.includes('--stage');
 
 // ---------------------------------------------------------------- source
 
-const md = readFileSync(SOURCE, 'utf8');
-const isDraft = md.includes('[TODO:');
+const source = readFileSync(SOURCE, 'utf8');
+const isDraft = source.includes('[TODO:');
+
+// Passages the web page wants but the PDF must not carry — the link to this
+// very PDF, above all. The markers are HTML comments, so they render as
+// nothing on aarhusworks.com and need no counterpart in the Jekyll build.
+const md = source.replace(/[^\S\n]*<!--\s*pdf:skip\s*-->[\s\S]*?<!--\s*\/pdf:skip\s*-->[^\S\n]*\n?/g, '');
+if (md === source) console.warn('Bemaerk: ingen <!-- pdf:skip -->-afsnit fundet i kilden.');
 
 // The header date is the filing's own "**Dato:**" line once it is filled in.
 const dateLine = md.match(/^\*\*Dato:\*\*\s*(.+)$/m)?.[1]?.trim() ?? '';
