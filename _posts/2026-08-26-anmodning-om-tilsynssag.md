@@ -367,7 +367,7 @@ De to figurer gengives her, da sammenstillingen er redegørelsens egen:
 <div class="parpair" markdown="0">
 <figure>
   <img src="https://aarhusworks.com/assets/giber-ringvej/klage/2026-vvm-figur49-s88-giber-aa-uden-beplantning.png" alt="Fotostandpunkt 6 ved Mårslet mod krydsningen af Giber Å. Vejens skråningsanlæg ses ubeplantet i horisonten med en pil og teksten Skråningsanlæg; bag det er erhvervsbebyggelse synlig.">
-  <figcaption><strong>Figur 49</strong> (<a href="https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=88">bilag 19, s. 88</a>): samme standpunkt <em>uden</em> beplantning. Skråningsanlægget er udpeget i selve figuren.</figcaption>
+  <figcaption><strong>Figur 49</strong> (<a href="https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=88">bilag 19, s. 88</a>): samme standpunkt uden beplantning. Redegørelsens egen billedtekst lyder: <em>"Visualisering af krydsningen af Giber Å. Skråningsanlæggene som de vil fremtræde umiddelbart efter vejens etablering. Terrænvisualisering 6."</em></figcaption>
 </figure>
 
 <figure>
@@ -376,7 +376,9 @@ De to figurer gengives her, da sammenstillingen er redegørelsens egen:
 </figure>
 </div>
 
-Figurerne gengives som dokumentation for, hvad redegørelsen anviste, og for at *afværgeforanstaltning* er redegørelsens eget ord om beplantningen. **Det gøres ikke gældende, at en visualisering i sig selv er et vilkår.** Forpligtelsen støttes på vilkår 2's henvisning til anvisningerne, på tilladelsens egen begrundelse og på Landskabsstrategien (nedenfor) — ikke på figurerne.
+**De to figurer er ikke to alternativer, men to tidspunkter.** Figur 49 viser efter sin egen billedtekst skråningsanlæggene *"som de vil fremtræde umiddelbart efter vejens etablering"*; figur 50 viser samme standpunkt med beplantningen, påført ordet *afværgeforanstaltning*. Redegørelsen fremstiller altså den ubeplantede tilstand som den midlertidige og den beplantede som den forudsatte — set fra et terrænvisualiseringspunkt inde i Mårslet. Det er den samme systematik som anvisningen på [s. 77](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=77), hvorefter vejanlægget ønskes sløret med beplantning, *"[h]vor der er nærliggende tæt bebyggelse"*, og som tilladelsens egen begrundelse, hvorefter det landskabelige indgreb *"afbødes (...) ved at etablere ny beplantning"*.
+
+**Det gøres ikke gældende, at figurerne i sig selv udgør vilkårstekst** — forpligtelsen følger af vilkår 2's henvisning til anvisningerne. Men figurerne dokumenterer, hvad anvisningerne gik ud på det sted, de angår, og at *afværgeforanstaltning* er redegørelsens eget ord om beplantningen ved bysamfundene.
 
 Om selve ådalspassagen anfører redegørelsen, at påvirkningen *"vurderes ikke at kunne afbødes med eksempelvis beplantning"*, men om dæmningen ved sidegrenen det modsatte, jf. [s. 244](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=244): *"Hvor vejen passerer over en sidegren af Giber Å umiddelbart syd for Testrupvej **kan dæmningen og biltrafikken eventuelt sløres med beplantning** (...) **afskærmende beplantning slører bilerne, set fra byen**."* Om passagen af Mårslet hedder det samme sted, at *"oplevelsen af afgravningen som et skår i landskabet [kan] afbødes ved dels at etablere **punktvise grupper af beplantning**"*, og at *"[p]å dele af strækningen kan der være behov for støjafskærmning, der foreslås etableret som landskabeligt tilpassede **beplantede støjvolde**."*
 

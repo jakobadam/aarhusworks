@@ -125,7 +125,12 @@ def find_in(rel, frags, cited=0):
 
 
 raw = POST.read_text(encoding='utf-8')
-all_assets = sorted(set(ANY_ASSET.findall(raw)))
+
+# The filing links to its own rendered PDF, which contains every word of the
+# filing. Left in the pool of cited sources it verifies every quote against
+# itself, so NOT FOUND drops to zero and the check goes blind. Exclude it.
+SELF = 'assets/giber-ringvej/klage/anmodning-om-tilsynssag.pdf'
+all_assets = sorted(a for a in set(ANY_ASSET.findall(raw)) if a != SELF)
 
 ok_cited = []        # verified on the cited page
 ok_otherpage = []    # verified, but the #page anchor points elsewhere
