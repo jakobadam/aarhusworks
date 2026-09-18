@@ -362,6 +362,22 @@ Vilkår 2 fastsætter ikke selv, hvad der skal plantes hvor. Det henviser — *"
 
 Redegørelsen viser desuden virkningen direkte, og den viser den set fra Mårslet: [Figur 49 og 50](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=89) (s. 88–89) gengiver samme standpunkt uden og med beplantning, det sidste påført teksten *"Beplantning som afværgeforanstaltning"* og med billedteksten *"Beplantning på skråningsanlæggene slører den visuelle støj fra bilerne"* — og redegørelsens eget kort over fotostandpunkter placerer **fotostandpunkt 6 inde i Mårslet** ([s. 69](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=69)). *Afværgeforanstaltning* er netop den term, VVM-tilladelsens begrundelse anvender om de foranstaltninger, tilladelsen er meddelt på grundlag af.
 
+De to figurer gengives her, da sammenstillingen er redegørelsens egen:
+
+<div class="parpair" markdown="0">
+<figure>
+  <img src="https://aarhusworks.com/assets/giber-ringvej/klage/2026-vvm-figur49-s88-giber-aa-uden-beplantning.png" alt="Fotostandpunkt 6 ved Mårslet mod krydsningen af Giber Å. Vejens skråningsanlæg ses ubeplantet i horisonten med en pil og teksten Skråningsanlæg; bag det er erhvervsbebyggelse synlig.">
+  <figcaption><strong>Figur 49</strong> (<a href="https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=88">bilag 19, s. 88</a>): samme standpunkt <em>uden</em> beplantning. Skråningsanlægget er udpeget i selve figuren.</figcaption>
+</figure>
+
+<figure>
+  <img src="https://aarhusworks.com/assets/giber-ringvej/klage/2026-vvm-figur50-s89-beplantning-som-afvaergeforanstaltning-maarslet-og-testrup.png" alt="Samme fotostandpunkt med et sammenhængende beplantningsbælte indtegnet i horisonten, som skjuler skråningsanlæg og bebyggelse. Figuren er påført teksten Beplantning som afværgeforanstaltning.">
+  <figcaption><strong>Figur 50</strong> (<a href="https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=89">bilag 19, s. 89</a>): samme standpunkt <em>med</em> beplantning, påført teksten <em>"Beplantning som afværgeforanstaltning"</em>. Redegørelsens egen billedtekst lyder: <em>"Visualisering af krydsningen af Giber Å. Beplantning på skråningsanlæggene slører den visuelle støj fra bilerne. Terrænvisualisering 6."</em></figcaption>
+</figure>
+</div>
+
+Figurerne gengives som dokumentation for, hvad redegørelsen anviste, og for at *afværgeforanstaltning* er redegørelsens eget ord om beplantningen. **Det gøres ikke gældende, at en visualisering i sig selv er et vilkår.** Forpligtelsen støttes på vilkår 2's henvisning til anvisningerne, på tilladelsens egen begrundelse og på Landskabsstrategien (nedenfor) — ikke på figurerne.
+
 Om selve ådalspassagen anfører redegørelsen, at påvirkningen *"vurderes ikke at kunne afbødes med eksempelvis beplantning"*, men om dæmningen ved sidegrenen det modsatte, jf. [s. 244](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=244): *"Hvor vejen passerer over en sidegren af Giber Å umiddelbart syd for Testrupvej **kan dæmningen og biltrafikken eventuelt sløres med beplantning** (...) **afskærmende beplantning slører bilerne, set fra byen**."* Om passagen af Mårslet hedder det samme sted, at *"oplevelsen af afgravningen som et skår i landskabet [kan] afbødes ved dels at etablere **punktvise grupper af beplantning**"*, og at *"[p]å dele af strækningen kan der være behov for støjafskærmning, der foreslås etableret som landskabeligt tilpassede **beplantede støjvolde**."*
 
 **På de åbne strækninger gøres intet gældende.** Redegørelsen fraråder selv beplantning mellem Oddervej og Tandervej — *"bør der ikke etableres beplantning på skråningsanlæg på strækningen, heller ikke ved Nymarksvej"* — og ved Enslevvej–E45, hvor *"udsynet til Langhøj skal opretholdes"* ([s. 244–245](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=244)). At der ikke er plantet dér, er i overensstemmelse med anvisningerne. Anvisningerne er altså ikke uensartede; de anvender ét princip på forskellige landskabstyper.

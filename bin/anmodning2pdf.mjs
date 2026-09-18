@@ -55,7 +55,26 @@ const headerDate = /TODO/.test(dateLine) || !dateLine
 // <a id="..."> anchor, so marked needs no heading-id extension for the 25
 // section links to resolve inside the PDF. Bilag URLs are left alone and stay
 // clickable.
-const body = marked.parse(md, { gfm: true, breaks: false });
+let body = marked.parse(md, { gfm: true, breaks: false });
+
+// Images are written as absolute aarhusworks.com URLs so the web page works.
+// Chrome would fetch those over the network, which makes the PDF depend on
+// being online and on the file already being live — render before pushing and
+// the page silently gets a blank gap instead. Inline the repo's own copy.
+const SITE = 'https://aarhusworks.com/';
+const MIME = { png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', gif: 'image/gif', svg: 'image/svg+xml' };
+let inlined = 0;
+body = body.replace(/(<img\b[^>]*?\bsrc=")([^"]+)(")/g, (whole, pre, src, post) => {
+  if (!src.startsWith(SITE)) return whole;
+  const local = resolve(repo, decodeURIComponent(src.slice(SITE.length)));
+  const mime = MIME[local.split('.').pop().toLowerCase()];
+  if (!existsSync(local) || !mime) {
+    console.error(`FEJL: billedet findes ikke i repoet: ${src}`);
+    process.exit(1);
+  }
+  inlined++;
+  return `${pre}data:${mime};base64,${readFileSync(local).toString('base64')}${post}`;
+});
 
 // Headings, header and footer want Helvetica Neue, which is a licensed
 // Monotype face: present on macOS, absent on Windows, and not installable
@@ -133,6 +152,19 @@ const css = `
   tr { break-inside: avoid; }
   hr { border: 0; border-top: .6pt solid #ccc; margin: 1.4em 0; }
   img, svg { max-width: 100%; }
+  figure { margin: 1.1em 0; break-inside: avoid; }
+  figure img { display: block; width: 100%; border: .6pt solid #bbb; }
+  /* A before/after pair is only worth embedding if both fit one page: keep the
+     pair together as one block and cap the heights so the reader can compare
+     without turning the sheet. */
+  .parpair { break-inside: avoid; }
+  .parpair figure { margin: .7em 0; }
+  .parpair img { width: auto; height: auto; max-width: 100%; max-height: 88mm; }
+  .parpair figcaption { margin-top: .3em; }
+  figcaption {
+    font: 9pt/1.4 var(--sans); color: #444;
+    margin-top: .45em; padding-left: .2em;
+  }
   code, pre { font-family: "Courier New", monospace; font-size: 9.5pt; }
   /* KLADDE-stempel — fjernes af sig selv, når de sidste TODO'er er udfyldt. */
   body.kladde::before {
@@ -227,7 +259,7 @@ writeFileSync(stampPath, stamp + '\n');
 // the source it was rendered from, the way bin/mermaid2svg.sh stages its SVGs.
 if (stage) git(['add', '--', out, stampPath]);
 
-console.log(`Skrev ${rel(out)}${isDraft ? '  (KLADDE — der er stadig [TODO:-markører i kilden)' : ''}`);
+console.log(`Skrev ${rel(out)} — ${inlined} indlejret billede(r)${isDraft ? ', KLADDE (der er stadig [TODO:-markører i kilden)' : ''}`);
 
 function rel(p) {
   return p.slice(repo.length + 1).replaceAll('\\', '/');
