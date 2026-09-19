@@ -36,7 +36,7 @@ Kalkværksvej 10, 8000 Aarhus C
 
 ### Om bilag og henvisninger
 
-Samtlige bilag vedlægges elektronisk. Bilagsfortegnelsen i [afsnit 7](#afsnit-7) angiver for hvert bilag dokumentets oprindelse, bevismæssige status og anvendelse i anmodningen.
+Samtlige bilag vedlægges elektronisk. Bilagsfortegnelsen i [afsnit 7](#afsnit-7) angiver for hvert bilag dokumentets oprindelse og bevismæssige status.
 
 Links og sidehenvisninger i teksten er alene en hjælp ved gennemlæsningen; det er de vedlagte filer, der udgør bilagsmaterialet.
 
@@ -647,157 +647,113 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
 *Bilagene er nummereret fortløbende. Nummer 31 er udgået under udarbejdelsen og anvendes ikke. Enkelte numre er opdelt i underbilag (10a–c, 16a–f, 53a–c, 54a–b); fortegnelsen omfatter i alt 67 poster.*
 
 * **Bilag 1:** Tidslinje — Giber Ringvej Gruppen  
-  [Se tidslinjen](https://aarhusworks.com/vejst%C3%B8j/2026/08/26/giber-ringvej-tidslinje.html)  
-  *Anvendt i [afsnit 2.2](#afsnit-2-2).*
+  [Se tidslinjen](https://aarhusworks.com/vejst%C3%B8j/2026/08/26/giber-ringvej-tidslinje.html)
 * **Bilag 2:** Rambølls redegørelse 1 — notat vedrørende støj af 9. maj 2023  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.3](#afsnit-4-3), [tillægget](#tillaeg) ([A](#tillaeg-a), [B](#tillaeg-b), [E](#tillaeg-e)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf)
 * **Bilag 3:** MTM's redegørelse 2 (januar 2025)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-01-mtm-redegoerelse-2.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.3](#afsnit-4-3), [tillægget](#tillaeg) ([B](#tillaeg-b)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-01-mtm-redegoerelse-2.pdf)
 * **Bilag 4:** Efterfølgende korrespondance om beplantning (maj–november 2025)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-10-redegoerelse-3-samt-beplantning-emails.pdf)  
-  *Anvendt i [afsnit 3.3](#afsnit-3-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-10-redegoerelse-3-samt-beplantning-emails.pdf)
 * **Bilag 5:** Aktindsigtskorrespondance — GRGs anmodninger af 16. marts–12. maj 2025 om al dokumentation og kommunikation vedr. 20-mio-puljen samt kommunens svar (marts–maj 2025)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-05-20-mil-aktindsigt-mails.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.3](#afsnit-4-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-05-20-mil-aktindsigt-mails.pdf)
 * **Bilag 6:** Landzonetilladelse — jordvold ved Kølsmosevej (27. januar 2022, sag S2022-9075)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2022-landzonetilladelse-deponivold.pdf)  
-  *Anvendt i [afsnit 4.2](#afsnit-4-2), [5](#afsnit-5), [tillægget](#tillaeg) ([B](#tillaeg-b)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2022-landzonetilladelse-deponivold.pdf)
 * **Bilag 7:** VVM-redegørelsens illustrationer af beplantning som afværgeforanstaltning  
   [Principillustration — slørende beplantning ved bysamfundene (Figur 17.3, s. 243)](https://aarhusworks.com/assets/giber-ringvej/klage/2026-vvm-principillustration-s243.png) ·
   [Visualisering fra Mårslet langs Tandervej (Figur 44, s. 85)](https://aarhusworks.com/assets/giber-ringvej/klage/2026-vvm-figur44-s85-visualisering-tandervej-maarslet.png) ·
-  [VVM-kortbilag (2013)](https://aarhusworks.com/assets/giber-ringvej/2013-vvm-kortbilag.pdf)  
-  *Anvendt i [afsnit 3.3](#afsnit-3-3).*
+  [VVM-kortbilag (2013)](https://aarhusworks.com/assets/giber-ringvej/2013-vvm-kortbilag.pdf)
 * **Bilag 8:** VVM-tilladelsen — Bering-Beder vejen (12. oktober 2018)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf)  
-  *Anvendt i [afsnit 1](#afsnit-1), [1.1](#afsnit-1-1), [1.2](#afsnit-1-2), [3.3](#afsnit-3-3), [4.3](#afsnit-4-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf)
 * **Bilag 9:** Rambølls notat *"Redegørelse for beplantning"* (19. august 2025)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf)  
-  *Anvendt i [afsnit 3.3](#afsnit-3-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf)
 * **Bilag 10a:** Projektindstilling af 6. august 2019 (godkendt af byrådet 28. august 2019)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf)  
-  *Anvendt i [afsnit 4.1](#afsnit-4-1).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf)
 * **Bilag 10b:** Bering-Beder vejen — tilpasninger af projektet i forhold til VVM-undersøgelsen (23. juli 2019)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [tillægget](#tillaeg) ([A](#tillaeg-a), [D](#tillaeg-d)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf)
 * **Bilag 10c:** Effektkort for støjtiltag (29. juli 2019, bilag 3 ved projektgodkendelsen)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-08-effekt-af-tiltag.pdf)  
-  *Anvendt i [tillægget](#tillaeg) ([B5](#tillaeg-b5)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-08-effekt-af-tiltag.pdf)
 * **Bilag 11:** Afklaringsnotat 1 — VVM og vejstøj (8. april 2026)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf)  
-  *Anvendt i [afsnit 2.3](#afsnit-2-3), [3.2](#afsnit-3-2).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf)
 * **Bilag 12:** Afklaringsnotat 2 — Puljen på 20 mio. kr. (8. april 2026)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf)  
-  *Anvendt i [afsnit 2.3](#afsnit-2-3), [tillægget](#tillaeg) ([B](#tillaeg-b)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf)
 * **Bilag 13:** Afklaringsnotat 3 — Slørende beplantning (8. april 2026)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-3-sloerende-beplantning-giber-ringvej.pdf)  
-  *Anvendt i [afsnit 2.3](#afsnit-2-3), [3.3](#afsnit-3-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-3-sloerende-beplantning-giber-ringvej.pdf)
 * **Bilag 14:** Referat af møde 8. april 2026  
   [Se referat](https://aarhusworks.com/assets/giber-ringvej/2026-04-referat-GRG-og-MTM.txt)  
-  *Udarbejdet af Giber Ringvej Gruppen og fremsendt til samtlige mødedeltagere — Teknik og Miljøs direktør, byrumschefen, rådmanden samt de deltagende byrådsmedlemmer. Forvaltningen har dermed haft lejlighed til at gøre indsigelse mod gengivelsen. Deltagerkredsen fremgår af referatet. [TODO: indsæt fremsendelsesdato, og — hvis ingen indsigelser er modtaget — sætningen: "Der er ikke over for Giber Ringvej Gruppen fremsat indsigelser mod referatets indhold."]*  
-  *Anvendt i [afsnit 2.3](#afsnit-2-3), [4.2](#afsnit-4-2), [tillægget](#tillaeg) ([B](#tillaeg-b)).*
+  *Udarbejdet af Giber Ringvej Gruppen og fremsendt til samtlige mødedeltagere — Teknik og Miljøs direktør, byrumschefen, rådmanden samt de deltagende byrådsmedlemmer. Forvaltningen har dermed haft lejlighed til at gøre indsigelse mod gengivelsen. Deltagerkredsen fremgår af referatet. [TODO: indsæt fremsendelsesdato, og — hvis ingen indsigelser er modtaget — sætningen: "Der er ikke over for Giber Ringvej Gruppen fremsat indsigelser mod referatets indhold."]*
 * **Bilag 15:** Vejdirektoratets notat "Klimavenlig asfalt" (21. august 2019)  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf) ·
-  [Figur 1 — støjtrendlinjer KVS/SMA8/SMA11/SRS](https://aarhusworks.com/assets/giber-ringvej/klage/2019-vejdirektoratet-kvs-figur1-stoejtrendlinjer-kvs-sma8-sma11-srs.png)  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2).*
+  [Figur 1 — støjtrendlinjer KVS/SMA8/SMA11/SRS](https://aarhusworks.com/assets/giber-ringvej/klage/2019-vejdirektoratet-kvs-figur1-stoejtrendlinjer-kvs-sma8-sma11-srs.png)
 * **Bilag 16a:** Rambølls samlede kommentering — notat af 25. marts 2026 *"Vedrørende støjforhold ved Giber Ringvej"* (5 sider)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [3.2](#afsnit-3-2), [4.3](#afsnit-4-3), [tillægget](#tillaeg) ([A](#tillaeg-a), [B5](#tillaeg-b5), [C](#tillaeg-c), [D](#tillaeg-d), [E](#tillaeg-e)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf)
 * **Bilag 16b:** Rambølls kommentering af GRGs faktaark "VVM og vejstøj"  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-vvm-og-vejstoej.pdf)  
-  *Anvendt i [afsnit 4.3](#afsnit-4-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-vvm-og-vejstoej.pdf)
 * **Bilag 16c:** Rambølls kommentering af GRGs faktaark om redegørelse 1  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.2](#afsnit-4-2), [tillægget](#tillaeg) ([B](#tillaeg-b)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf)
 * **Bilag 16d:** Rambølls kommentering af GRGs faktaark om redegørelse 2  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-Bilag2b-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2_Kommenteret.pdf)  
-  *Anvendt i [tillægget](#tillaeg) ([B](#tillaeg-b)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-Bilag2b-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2_Kommenteret.pdf)
 * **Bilag 16e:** Rambølls kommentering af GRGs faktaark om redegørelse 2 (efter aktindsigt)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-Bilag2c-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2-efter-aktindsigt_Kommenteret.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-Bilag2c-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2-efter-aktindsigt_Kommenteret.pdf)
 * **Bilag 16f:** Rambølls kommentering af GRGs faktaark om redegørelse 3  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-Bilag2d-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3_Kommenteret.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.2](#afsnit-4-2), [4.3](#afsnit-4-3), [tillægget](#tillaeg) ([A](#tillaeg-a)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-Bilag2d-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3_Kommenteret.pdf)
 * **Bilag 17:** Borgmester Anders Winnerskjolds svar af 25. februar 2026 (triggerdokument)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf)  
-  *Anvendt i [afsnit 2.3](#afsnit-2-3), [3.3](#afsnit-3-3), [4.2](#afsnit-4-2).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf)
 * **Bilag 18:** MTM's kommentering af faktaark om slørende beplantning (marts 2026)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-mtm-kommentering-2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf)  
-  *Anvendt i [afsnit 3.3](#afsnit-3-3), [4.3](#afsnit-4-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-mtm-kommentering-2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf)
 * **Bilag 19:** VVM-redegørelse for Bering-Beder vejen — Tillæg nr. 43 til Kommuneplan 2013 (286 sider)  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf)  
-  *Dokumentet bærer betegnelsen "Forslag i offentlig høring 1/12´ 14 - 28/2´ 15". Aarhus Kommune publicerer ikke nogen anden udgave som projektets VVM-redegørelse; den vedlagte fil er byte-identisk med kommunens egen. Jf. [afsnit 3.3](#afsnit-3-3) om, at kommunen selv lægger dokumentet til grund.*  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2), [3.3](#afsnit-3-3), [tillægget](#tillaeg) ([A](#tillaeg-a)).*
+  *Dokumentet bærer betegnelsen "Forslag i offentlig høring 1/12´ 14 - 28/2´ 15". Aarhus Kommune publicerer ikke nogen anden udgave som projektets VVM-redegørelse; den vedlagte fil er byte-identisk med kommunens egen. Jf. [afsnit 3.3](#afsnit-3-3) om, at kommunen selv lægger dokumentet til grund.*
 * **Bilag 20:** Rambølls Landskabsstrategi — oversigtsplan af 24. januar 2019  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf) ·
-  [Udsnit: tiltagsliste St. 9.200–9.660 "Vest for Tandervej"](https://aarhusworks.com/assets/giber-ringvej/klage/2019-landskabsstrategi-st9200-9660-vest-for-tandervej.png)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [3.3](#afsnit-3-3).*
+  [Udsnit: tiltagsliste St. 9.200–9.660 "Vest for Tandervej"](https://aarhusworks.com/assets/giber-ringvej/klage/2019-landskabsstrategi-st9200-9660-vest-for-tandervej.png)
 * **Bilag 21:** Intern korrespondance mellem Aarhus Kommune og Rambøll — notatets bestilling, redigering og genbesøg (marts 2023 – september 2024)  
   Udskrifter af originalmailene:  
   · [SV: Vedr. støj fra Giber Ringvej (21. marts 2023)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-03-21-mail-sv-vedr-stoej-fra-giber-ringvej.pdf) — indeholder tillige forvaltningens interne dagsorden af 15. marts 2023 nederst i tråden  
   · [Giber Ringvej – Notat om VVM-projekt kontra udførte projekt (24. marts 2023)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-03-24-mail-notat-om-vvm-projekt-kontra-udfoerte-projekt.pdf)  
   · [RE: Støjmåler ved Giber Ringvej (9. maj 2023)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-05-09-mail-re-stoejmaaler-ved-giber-ringvej.pdf) — tråden 1.–9. maj 2023 om redigeringen forud for offentliggørelse  
   · [Genbesøg af opgørelse for støjtiltag ved Giber Ringvej (25. september 2024)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-09-25-mail-genbesoeg-af-opgoerelse-for-stoejtiltag.pdf) og [Rambølls svar samme dag](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-09-25-mail-re-genbesoeg-af-opgoerelse-for-stoejtiltag.pdf)  
-  *Udleveret ved kommunens tredje udlevering i aktindsigtssagen den 16. og 19. maj 2025. Udskrifterne gengiver mailoplysninger, meddelelsestekst, tidligere meddelelser i tråden og vedhæftningslister som i originalfilerne. Indlejrede billeder er omsat til udskriftsformat, og kommunens overstregninger er bevaret. Originalfilerne i Outlook-format (.msg) vedlægges tillige.*  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.3](#afsnit-4-3), [4.4](#afsnit-4-4), [tillægget](#tillaeg) ([B5](#tillaeg-b5)).*
+  *Udleveret ved kommunens tredje udlevering i aktindsigtssagen den 16. og 19. maj 2025. Udskrifterne gengiver mailoplysninger, meddelelsestekst, tidligere meddelelser i tråden og vedhæftningslister som i originalfilerne. Indlejrede billeder er omsat til udskriftsformat, og kommunens overstregninger er bevaret. Originalfilerne i Outlook-format (.msg) vedlægges tillige.*
 * **Bilag 22:** Rambølls skriftlige besvarelse af GRGs høringssvar 2 (november 2024)  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf)  
   Originalfil (.msg): [Støj, Bering Beder, bemærkninger til høringssvar og differenskort](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-11-06-mail-bemaerkninger-til-hoeringssvar-og-differenskort.msg) ·
   [RE Støj, Bering Beder …](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-11-06-mail-re-bemaerkninger-til-hoeringssvar-og-differenskort.msg)  
   [Vedhæftningen som modtaget, med Rambølls egen filstempling af 4. november 2024](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-11-04-vedhaeftning-hoeringssvar-2-med-besvarelse-fra-ramboell.pdf)  
-  *Udleveret ved kommunens tredje udlevering i aktindsigtssagen den 16. og 19. maj 2025. Dokumentationsformen svarer til bilag 21; .msg-filerne vedlægges tillige. Rambølls svar står som kommentarer i dokumentet.*  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.3](#afsnit-4-3), [4.4](#afsnit-4-4), [tillægget](#tillaeg) ([B](#tillaeg-b)).*
+  *Udleveret ved kommunens tredje udlevering i aktindsigtssagen den 16. og 19. maj 2025. Dokumentationsformen svarer til bilag 21; .msg-filerne vedlægges tillige. Rambølls svar står som kommentarer i dokumentet.*
 * **Bilag 23:** Hvidbogen "Trafikstøj kræver handling" (Gate 21, Rambøll og FORCE Technology, april 2020)  
-  [Download PDF](https://aarhusworks.com/assets/vejstoej-forslag-2024/trafikstoej-kraever-handling-2020.pdf)  
-  *Anvendt i [tillægget](#tillaeg).*
+  [Download PDF](https://aarhusworks.com/assets/vejstoej-forslag-2024/trafikstoej-kraever-handling-2020.pdf)
 * **Bilag 24:** Miljøvurderingsscreening — jordvold ved Kølsmosevej (26. januar 2022)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf)  
-  *Anvendt i [tillægget](#tillaeg) ([B](#tillaeg-b)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf)
 * **Bilag 25:** Vejdirektoratets svar om økonomien ved jordvolde med overskudsjord, Stavtrup (3. februar 2025)  
-  [Download](https://aarhusworks.com/assets/giber-ringvej/2025-01-29-vejdirektoratet-stavtrup-jordvold-oekonomi.txt)  
-  *Anvendt i [tillægget](#tillaeg).*
+  [Download](https://aarhusworks.com/assets/giber-ringvej/2025-01-29-vejdirektoratet-stavtrup-jordvold-oekonomi.txt)
 * **Bilag 26:** Redegørelse 3 — kommunens mail af 2. april 2025  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.2](#afsnit-4-2).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf)
 * **Bilag 27:** Retten i Aarhus, dom af 7. april 2025 (BS-38128/2021-ARH), *Per Bob Siig Jensen mod Aarhus Kommune*  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf)  
-  *Sagen angik erstatning for nærføringsgener efter naboretlige regler, ikke opfyldelse af VVM-vilkår, og GRG var ikke part. Påberåbes alene for de oplysninger, kommunen og dens tidligere projektleder selv har afgivet under sagen.*  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2), [4.3](#afsnit-4-3), [tillægget](#tillaeg) ([B5](#tillaeg-b5), [E](#tillaeg-e)).*
+  *Sagen angik erstatning for nærføringsgener efter naboretlige regler, ikke opfyldelse af VVM-vilkår, og GRG var ikke part. Påberåbes alene for de oplysninger, kommunen og dens tidligere projektleder selv har afgivet under sagen.*
 * **Bilag 28:** Intern korrespondance mellem Aarhus Kommune og Rambøll om differenskortet (december 2024)  
   [SV: Genbesøg af opgørelse for støjtiltag ved Giber Ringvej (18.–20. december 2024)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-12-20-mail-sv-genbesoeg-af-opgoerelse-for-stoejtiltag.pdf)  
-  *Udleveret ved kommunens tredje udlevering i aktindsigtssagen den 16. og 19. maj 2025. Dokumentationsformen svarer til bilag 21; .msg-filen beror i samme mappe.*  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1).*
+  *Udleveret ved kommunens tredje udlevering i aktindsigtssagen den 16. og 19. maj 2025. Dokumentationsformen svarer til bilag 21; .msg-filen beror i samme mappe.*
 * **Bilag 29:** Transportministerens orientering til Folketingets Transportudvalg om Vejdirektoratets rapport om klimavenlig asfalt (TRU Alm.del 2019-20, bilag 63)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf)  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf)
 * **Bilag 30:** Differenskortet — Rambølls tegninger E-9805 / BBV-H-TV-1600 A til 1603 A af 17. december 2024, fremlagt som bilag 1 til redegørelse 2  
   [Download PDF](https://aarhusworks.com/assets/de-19-millioner-der-forsvandt-2025/differenskort.pdf)  
-  *Fire tegninger, st. 0-4000, 4000-7000, 7000-10000 og 10000-12550, mål 1:5000, gengivet som modtaget af GRG. Alle fire ark er stemplet "FORELØBIGT TRYK", og rubrikkerne Kontrol/Godk., Rev. og Rev. dato står tomme. Vedhæftningerne til den udleverede mail af 20. december 2024 (bilag 28) er ikke medudleveret ved aktindsigten.*  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1).*
+  *Fire tegninger, st. 0-4000, 4000-7000, 7000-10000 og 10000-12550, mål 1:5000, gengivet som modtaget af GRG. Alle fire ark er stemplet "FORELØBIGT TRYK", og rubrikkerne Kontrol/Godk., Rev. og Rev. dato står tomme. Vedhæftningerne til den udleverede mail af 20. december 2024 (bilag 28) er ikke medudleveret ved aktindsigten.*
 * **Bilag 32:** Landzonetilladelse til støjvold mellem Tandervej og Nymarksvej ved Mårslet (27. maj 2019, sag 201901879), med Rambølls ansøgning af 1. maj 2019  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf)  
-  *Anvendt i [tillægget](#tillaeg) ([B5](#tillaeg-b5)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf)
 * **Bilag 33:** Forvaltningens svar til GRG om puljens anvendelse (22. november 2023)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-11-22-mtm-svar-pulje-og-kommunalfuldmagt.pdf)  
-  *Anvendt i [afsnit 1.3](#afsnit-1-3), [3.1](#afsnit-3-1), [4.2](#afsnit-4-2), [tillægget](#tillaeg) ([B](#tillaeg-b), [E](#tillaeg-e)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-11-22-mtm-svar-pulje-og-kommunalfuldmagt.pdf)
 * **Bilag 34:** Teknik og Miljøs samlede svar til Giber Ringvej Gruppen (13. oktober 2023)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-10-13-mtm-svar-til-giber-ringvej-gruppen.pdf)  
-  *Anvendt i [afsnit 4.3](#afsnit-4-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-10-13-mtm-svar-til-giber-ringvej-gruppen.pdf)
 * **Bilag 35:** Giber Ringvej Gruppens bilag til foretræde for Teknisk Udvalg (20. marts 2023)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-03-20-grg-bilag-til-teknisk-udvalg.pdf)  
-  *Anvendt i [afsnit 4.3](#afsnit-4-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-03-20-grg-bilag-til-teknisk-udvalg.pdf)
 * **Bilag 36:** Teknik og Miljøs juridiske notat *"Rammerne for kommunal finansiering af støjafskærmende foranstaltninger ved eksisterende vej"* (13. april 2023)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-04-13-mtm-juridisk-notat-stoejafskaermning.pdf)  
-  *Anvendt i [afsnit 4.2](#afsnit-4-2).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-04-13-mtm-juridisk-notat-stoejafskaermning.pdf)
 * **Bilag 37:** Udvalgserklæring — Teknisk Udvalg, *"Kommuneplantillæg og VVM, Bering-Beder vejen - Endelig"*
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf)  
-  *Sagen blev behandlet på udvalgets møde den 5. september 2016; erklæringen er dateret den 9. september 2016, og det er den dato, byrådets beslutning henviser til ([bilag 56, s. 3](https://aarhusworks.com/assets/giber-ringvej/2016-09-14-bering-beder-inkl-bilagsliste.pdf#page=3)). Erklæringen angiver rammen som "ca. 20 mio. kr." og behandler facadetilskuddet som et selvstændigt "at"-punkt uden beløb: "At der – når det gælder spredt bebyggelse i åbent land – tilbydes tilskud til isolering af bygningers facader, på nærmere vilkår, og hvis støjniveauet overstiger 58 dB" (s. 1).*  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.1](#afsnit-4-1), [tillægget](#tillaeg) ([A](#tillaeg-a)).*
+  *Sagen blev behandlet på udvalgets møde den 5. september 2016; erklæringen er dateret den 9. september 2016, og det er den dato, byrådets beslutning henviser til ([bilag 56, s. 3](https://aarhusworks.com/assets/giber-ringvej/2016-09-14-bering-beder-inkl-bilagsliste.pdf#page=3)). Erklæringen angiver rammen som "ca. 20 mio. kr." og behandler facadetilskuddet som et selvstændigt "at"-punkt uden beløb: "At der – når det gælder spredt bebyggelse i åbent land – tilbydes tilskud til isolering af bygningers facader, på nærmere vilkår, og hvis støjniveauet overstiger 58 dB" (s. 1).*
 * **Bilag 38:** Referat af møde mellem Giber Ringvej Gruppen og Teknik og Miljø, 22. maj 2025  
   [Se referat](https://aarhusworks.com/assets/giber-ringvej/2025-05-referat-GRG-og-MTM.txt)  
-  *Giber Ringvej Gruppens egen samtidige nedskrivning; **ikke** fremsendt til forvaltningen. Påberåbes alene for forhold, der tillige fremgår af kommunens eget skriftlige materiale, jf. [afsnit 4.3](#afsnit-4-3).*  
-  *Anvendt i [afsnit 4.3](#afsnit-4-3).*
+  *Giber Ringvej Gruppens egen samtidige nedskrivning; **ikke** fremsendt til forvaltningen. Påberåbes alene for forhold, der tillige fremgår af kommunens eget skriftlige materiale, jf. [afsnit 4.3](#afsnit-4-3).*
 * **Bilag 39:** Intern korrespondance om beplantning frigivet ved aktindsigt (august–oktober 2025)  
   Udskrifter af originalmailene:  
   · [Redegørelse for beplantning langs Giber Ringvej (7. august 2025)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-07-mail-bestilling-af-redegoerelse-for-beplantning.pdf) — forvaltningens bestilling hos Rambøll, med spørgsmålet *"er det bare uforpligtende eksempler i VVM'en eller er det forudsætninger for projektet?"*  
@@ -810,107 +766,85 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
   · [Forslag til beplantningsbælte ved Tandervej, 26. september 2025](https://aarhusworks.com/assets/giber-ringvej/klage/2025-09-26-mtm-forslag-beplantningsbaelte-tandervej.png)  
   · [Forslag til beplantningsbælte ved Mustrupvej, 26. september 2025](https://aarhusworks.com/assets/giber-ringvej/klage/2025-09-26-mtm-forslag-beplantningsbaelte-mustrupvej.png)  
   Originalfiler i Outlook-format: [.msg-filerne](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-09-26-mail-vs-redegoerelse-for-beplantning-prisoverslag.msg) beror i samme mappe  
-  *Udleveret ved kommunens tredje udlevering i aktindsigtssagen den 16. og 19. maj 2025. Dokumentationsformen svarer til bilag 21; indlejrede kortudsnit er tillige udtrukket til selvstændige filer. Beregnede arealbeløb er overstreget ved kommunens udlevering; overstregningerne er gengivet som de fremstår. .msg-filerne vedlægges tillige.*  
-  *Anvendt i [afsnit 1.3](#afsnit-1-3), [3.3](#afsnit-3-3).*
+  *Udleveret ved kommunens tredje udlevering i aktindsigtssagen den 16. og 19. maj 2025. Dokumentationsformen svarer til bilag 21; indlejrede kortudsnit er tillige udtrukket til selvstændige filer. Beregnede arealbeløb er overstreget ved kommunens udlevering; overstregningerne er gengivet som de fremstår. .msg-filerne vedlægges tillige.*
 * **Bilag 40:** Mailtråd mellem Giber Ringvej Gruppen og Teknik og Miljø — rykkere for svar på faktaarkene (maj 2025 – februar 2026)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-2026-mailtraad-med-mtm-rykkere-for-svar-paa-faktaark.pdf)  
-  *Anvendt i [afsnit 4.3](#afsnit-4-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2025-2026-mailtraad-med-mtm-rykkere-for-svar-paa-faktaark.pdf)
 * **Bilag 41:** Mailtråd om opfølgning på mødet, aktindsigt i Rambølls notater og Landskabsstrategien (april–juni 2026)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [3.3](#afsnit-3-3), [4.3](#afsnit-4-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf)
 * **Bilag 42:** COWI, *"Bering-Beder vejen — Afklarende spørgsmål vedrørende trafikstøj (forslag A)"*, 1. august 2016  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-08-cowi-trafikstoej.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.3](#afsnit-4-3), [tillægget](#tillaeg) ([B5](#tillaeg-b5)).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-08-cowi-trafikstoej.pdf)
 * **Bilag 43:** Udkast til udvalgserklæring, Teknisk Udvalg, 1. september 2016  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-09-tu-udvalgserklaering.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-09-tu-udvalgserklaering.pdf)
 * **Bilag 44:** Notat fra Magistratsafdelingen for Teknik og Miljø til Teknisk Udvalg, 9. juni 2016  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-06-09-mtm-tu-notat.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-06-09-mtm-tu-notat.pdf)
 * **Bilag 45:** Foretræde for Teknisk Udvalg, de fem sydlige fællesråd, 6. juni 2016  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-06-foretraede-sydlige-faellesraad.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-06-foretraede-sydlige-faellesraad.pdf)
 * **Bilag 46:** Notat fra Teknik og Miljø til Teknisk Udvalg, 1. september 2016 — *"Bering-Beder vejen – svar på spørgsmål fra udvalgsbehandlingen den 20. juni 2016"*  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.3](#afsnit-4-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf)
 * **Bilag 47:** VM acoustics, *"Målt udendørs vejtrafikstøj ved Giber Ringvej i Århus kommune"*, rapport BE-01-060623, 6. juni 2023  
-  [Download PDF](https://aarhusworks.com/assets/mtm-modsvar/2023-08-VM-accoustics-m%C3%A5lt-trafikst%C3%B8j.pdf)  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1).*
+  [Download PDF](https://aarhusworks.com/assets/mtm-modsvar/2023-08-VM-accoustics-m%C3%A5lt-trafikst%C3%B8j.pdf)
 * **Bilag 48:** Aarhus Kommune, *"Oversigt høringsbidrag"* — samlet oversigt over høringsbidragene til kommunens støjhandlingsplan, juni 2024  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/stoejhandlingsplan-hoeringsbidrag.pdf)  
-  *Anvendt i [afsnit 1.3](#afsnit-1-3).*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/stoejhandlingsplan-hoeringsbidrag.pdf)
 * **Bilag 49:** Rambølls støjkort med kurver fra 58 dB — titelfeltet angiver *Giber Landevej, Aarhus Kommune, beregning år 2030, Torshøjvej til Kølsmosevej* (22. september 2023)  
   [Se kortet](https://aarhusworks.com/assets/giber-ringvej/klage/stoejkort-2030-torshoejvej-koelsmosevej-fra-58db.png) ·
   [Udsnit ved Hovvejen](https://aarhusworks.com/assets/giber-ringvej/klage/stoejkort-2030-udsnit-hovvejen-bebyggelse-over-58db.png)  
   Udskrift af den mail, kortet var vedhæftet: [RE: Støjkort Giber Landevej, 22. september 2023](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-09-22-mail-re-stoejkort-giber-landevej.pdf) · originalfilen i Outlook-format (.msg) beror i samme mappe  
-  *Titelfeltets angivelser er aflæst på kortbladet. At kortet angår nærværende vejanlæg, fremgår af de dækkede veje — Torshøjvej, Enslevvej, Hovvejen og Kølsmosevej — som alle optræder på projektets eget effektkort, bilag 10c.*  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1).*
+  *Titelfeltets angivelser er aflæst på kortbladet. At kortet angår nærværende vejanlæg, fremgår af de dækkede veje — Torshøjvej, Enslevvej, Hovvejen og Kølsmosevej — som alle optræder på projektets eget effektkort, bilag 10c.*
 
 * **Bilag 50:** Ingeniøren, *"Ny asfalt overvurderet: 8200 flere boliger støjbelastet"*, 23. juni 2020  
   [Se artiklen](https://ing.dk/artikel/ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet)  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2). Artiklen gengiver transportministerens orientering til Folketingets Transportudvalg af 22. juni 2020 om resultatet af Vejdirektoratets reviderede støjkortlægning (TRU Alm.del 2019-20, bilag 407). Selve orienteringen er ikke fremlagt; den bør indhentes, så tallene kan påberåbes efter primærkilden.*
+  *Artiklen gengiver transportministerens orientering til Folketingets Transportudvalg af 22. juni 2020 om resultatet af Vejdirektoratets reviderede støjkortlægning (TRU Alm.del 2019-20, bilag 407). Selve orienteringen er ikke fremlagt; den bør indhentes, så tallene kan påberåbes efter primærkilden.*
 
 * **Bilag 51:** Vejdirektoratet, *"Optimering af støjreducerende slidlag"*, Rapport nr. 540, maj 2015  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2015-05-vejdirektoratet-rapport-540-optimering-af-stoejreducerende-slidlag.pdf)  
-  *Påberåbes for oplysningen om, at 2. generationssystemet for dokumentation af støjreducerende slidlag blev offentliggjort som vejregel i marts 2013 (s. 13, med kildeangivelse s. 99), og for klassifikationstærsklerne 4,0 dB og 7 dB (s. 28 og 31).*  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2).*
+  *Påberåbes for oplysningen om, at 2. generationssystemet for dokumentation af støjreducerende slidlag blev offentliggjort som vejregel i marts 2013 (s. 13, med kildeangivelse s. 99), og for klassifikationstærsklerne 4,0 dB og 7 dB (s. 28 og 31).*
 
 * **Bilag 52:** Vejdirektoratet, *"Undersøgelser af drænasfalt som støjreducerende slidlag"*, Rapport nr. 530, marts 2015  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf)  
-  *Påberåbes alene for, at vilkårets krav var operationaliserbart på tidspunktet for tilladelsen — ikke som anbringende om, at en bestemt belægning skulle have været valgt.*  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2).*
+  *Påberåbes alene for, at vilkårets krav var operationaliserbart på tidspunktet for tilladelsen — ikke som anbringende om, at en bestemt belægning skulle have været valgt.*
 
 * **Bilag 53a:** Aarhus Kommune, Teknik og Miljø, Trafik og Veje, *"Støjhandlingsplan for større veje i Aarhus Kommune"*, november 2011 (forslaget i offentlig høring 27. juni – 9. september 2011)  
   [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf) ·
   [Figur — kommunens virkemidler mod vejstøj (s. 10)](https://aarhusworks.com/assets/giber-ringvej/klage/2011-aak-stoejhandlingsplan-virkemidler-figur.png)  
-  *Påberåbes for, at kommunen selv tillægger begrebet* støjreducerende belægning *et kvantificeret indhold (1–4 dB, s. 14) og selv opregner to-lags drænasfalt blandt sine virkemidler (s. 10). Dette er den støjhandlingsplan, der forelå, mens VVM-redegørelsen blev udarbejdet og kommuneplantillægget behandlet.*  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2).*
+  *Påberåbes for, at kommunen selv tillægger begrebet* støjreducerende belægning *et kvantificeret indhold (1–4 dB, s. 14) og selv opregner to-lags drænasfalt blandt sine virkemidler (s. 10). Dette er den støjhandlingsplan, der forelå, mens VVM-redegørelsen blev udarbejdet og kommuneplantillægget behandlet.*
 
 * **Bilag 53b:** Aarhus Kommune, *"Støjhandlingsplan 2018"*, august 2018  
   [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf)  
-  *Påberåbes for samme interval (1–4 dB, s. 17; 1,5–4 dB, s. 19) i den plan, der forelå få uger før VVM-tilladelsen af 12. oktober 2018 — og for planens egen tilføjelse om, at effekten er halveret efter ca. 3 år.*  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2).*
+  *Påberåbes for samme interval (1–4 dB, s. 17; 1,5–4 dB, s. 19) i den plan, der forelå få uger før VVM-tilladelsen af 12. oktober 2018 — og for planens egen tilføjelse om, at effekten er halveret efter ca. 3 år.*
 
 * **Bilag 53c:** Aarhus Kommune, *"Støjhandlingsplan 2024"*  
   [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf)  
-  *Påberåbes alene for, at formuleringen står uændret i den gældende plan (s. 22). Det bemærkes, at dokumentets løbende sidehoved lyder* "Støjhandlingsplan 2023"*, mens planen af kommunen selv offentliggøres som 2024-planen.*  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2).*
+  *Påberåbes alene for, at formuleringen står uændret i den gældende plan (s. 22). Det bemærkes, at dokumentets løbende sidehoved lyder* "Støjhandlingsplan 2023"*, mens planen af kommunen selv offentliggøres som 2024-planen.*
 
 * **Bilag 54a:** Korrespondance mellem Giber Ringvej Gruppen og Aarhus Kommune, Teknik og Miljø — GRGs spørgsmål af 26. juni 2024, rykker af 3. september 2024 og forvaltningens svar af 4. september 2024  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf)  
-  *Påberåbes for, at spørgsmålet om belægningens forudsatte støjeffekt blev stillet skriftligt allerede i juni 2024, og at svaret angiver beregningsmetode og belægningsbetegnelse, men ingen værdi.*  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2).*
+  *Påberåbes for, at spørgsmålet om belægningens forudsatte støjeffekt blev stillet skriftligt allerede i juni 2024, og at svaret angiver beregningsmetode og belægningsbetegnelse, men ingen værdi.*
 
 * **Bilag 54b:** Mail fra Aarhus Kommune, Teknik og Miljø, af 20. september 2024 om effekten af støjdæmpende asfalt (svar på GRGs fornyede forespørgsel samme dag)  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2024-09-20-mail-mtm-asfalt-stoejdaempende.pdf)  
-  *Påberåbes for, at også det opfølgende svar beskriver beregningsmetoden uden at angive den forudsatte støjreduktion.*  
-  *Anvendt i [afsnit 3.2](#afsnit-3-2).*
+  *Påberåbes for, at også det opfølgende svar beskriver beregningsmetoden uden at angive den forudsatte støjreduktion.*
 
 * **Bilag 55:** Referat af møde mellem Aarhus Kommune, Rambøll og fire fællesråd (Beder-Malling-Ajstrup, Tranbjerg, Mårslet og Kolt-Hasselager) den 24. januar 2019 om støjberegninger og stier  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/Referat%20m%C3%B8de%20med%20f%C3%A6llesr%C3%A5d%2024-01-2019.pdf)  
   *Udleveret af Aarhus Kommune, Teknik og Miljø, ved aktindsigt af 1./2. april 2025 (2. udlevering) i GRGs anmodning af 16./19. marts 2025.*  
-  *Påberåbes for, at rammen på ca. 20 mio. kr. ikke blev nævnt over for fællesrådene, at støjkortene blev nægtet udleveret, at Mårslet blev forelagt med forbehold, og at beplantning ikke blev drøftet.*  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1) og [3.3](#afsnit-3-3).*
+  *Påberåbes for, at rammen på ca. 20 mio. kr. ikke blev nævnt over for fællesrådene, at støjkortene blev nægtet udleveret, at Mårslet blev forelagt med forbehold, og at beplantning ikke blev drøftet.*
 
 * **Bilag 56:** Aarhus Byråd, referat af mødet den 14. september 2016, punkt 20 — *"Kommuneplantillæg og VVM, Bering-Beder vejen – Endelig"*, sag 13/048665, med bilagsfortegnelse  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-09-14-bering-beder-inkl-bilagsliste.pdf)  
   *Udskrift fra Aarhus Kommunes dagsordensystem. Bilagsfortegnelsen (s. 6–8) medtages ikke i systemets PDF-eksport af det enkelte punkt og er derfor sikret ved udskrift af websiden.*  
   *Indstillingens beslutningspunkt 3 (s. 4) bestemmer, at tilladelsen skal stille krav om afværgetiltag "efter de principper, som fremgår af udkastet til VVM-tilladelsen (bilag 5)". Udkastet er opført som "Bilag 5 Udkast til VVM tilladelse" i indstillingens bilagsfortegnelse (s. 6) og foreligger som bilag 58. Henvisningen går til denne fortegnelse; dokumentet indeholder tillige et andet "Bilag 5" — "Udkast til udvalgskonklusion" — under udvalgsbehandlingen (s. 8).*  
-  *Påberåbes for byrådsbeslutningens ordlyd (s. 3 og 5) og for, at Magistratens notat af 1. september 2016 forelå på sagen, anført som "Notat, MTM, 01.09.16" (s. 8). COWI-notatet er ikke nævnt ved navn eller dato; bilagslisten anfører "Bilag 4: Vurderinger vedr trafikstøj", og notatet foreligger som bilag 42.*  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1).*
+  *Påberåbes for byrådsbeslutningens ordlyd (s. 3 og 5) og for, at Magistratens notat af 1. september 2016 forelå på sagen, anført som "Notat, MTM, 01.09.16" (s. 8). COWI-notatet er ikke nævnt ved navn eller dato; bilagslisten anfører "Bilag 4: Vurderinger vedr trafikstøj", og notatet foreligger som bilag 42.*
 
 * **Bilag 57:** Aarhus Kommune, *"Bering-Beder Vejen – Anlægsoverslag og afløbsplan"*, revision 023 af 7. januar 2020 og revision 025 af 8. januar 2020  
   [Download rev023](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/Bilag%202_Anl%C3%A6gsoverslag%20og%20afl%C3%B8bsplan%20rev023.pdf) · [Download rev025](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/Bilag%202_Anl%C3%A6gsoverslag%20og%20afl%C3%B8bsplan%20rev025.pdf)  
   *Udleveret af Aarhus Kommune, Teknik og Miljø, ved aktindsigt af 1./2. april 2025 (2. udlevering) i GRGs anmodning af 16./19. marts 2025.*  
-  *Påberåbes for, at linjen "Støjdæmpende foranstaltninger" den 7. januar 2020 stod på 20,0 mio. kr. med skærmen ved Landevejen som selvstændig linje, og dagen efter på 16,0 mio. kr. mærket "[20 mio.kr.], ex. støjskærm Tranbjerg" med skærmen som underpost.*  
-  *Anvendt i [afsnit 4.2](#afsnit-4-2).*
+  *Påberåbes for, at linjen "Støjdæmpende foranstaltninger" den 7. januar 2020 stod på 20,0 mio. kr. med skærmen ved Landevejen som selvstændig linje, og dagen efter på 16,0 mio. kr. mærket "[20 mio.kr.], ex. støjskærm Tranbjerg" med skærmen som underpost.*
 
 * **Bilag 58:** Aarhus Kommune, *Tillæg nr. 43 til Kommuneplan 2013 med bilag 5 — udkast til VVM-tilladelse*, godkendt af Aarhus Byråd den 14. september 2016  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/tillaeg-til-kommuneplan-2013.pdf)  
   *Tillægget er efter sin egen kolofon (s. 2) godkendt af Aarhus Byråd den 14. september 2016 og offentligt tilgængeligt fra den 28. september 2016. Udkastet til VVM-tilladelse — indstillingens bilag 5 — er optaget s. 307–314 under overskriften "Udkast til principper for VVM tilladelse til Bering-Bedervejen".*  
   *Påberåbes for følgende forhold: at udkastet efter s. 307 "medtages i beslutning og offentliggørelse"; at tillæggets afsnit om VVM-tilladelsen (s. 6–7, indledt "Ved tilladelse til vejen skal det (...) sikres") under underoverskriften Støj gengiver byrådsbeslutningens sondring og forudsætninger — "fastholdes og suppleres med", Kolt-forudsætningen og kravet om inddragelse af lokalområderne — med de to afvigelser, der er anført nedenfor; passagen står uden for tillæggets opregning af retningslinjer, som afsluttes på s. 6; at udkastets vilkår 11 (s. 310) har de samme forudsætninger stående direkte i vilkårsteksten; og at udkastets vilkår 8, 9 og 10 (s. 309–310) er de vilkår, Rambølls redegørelse 1 gengiver som nr. 8, 9 og 10 i afsnit 1.4, hvis fjerde række, nr. 11, derimod gengiver den udstedte tilladelses vilkår 7 ([afsnit 4.3](#afsnit-4-3)). Redegørelsens afsnit 1.2 er ligeledes hentet herfra (s. 272).*  
-  *To forhold bemærkes af hensyn til fuldstændigheden: rammen angives både s. 7 og s. 310 som "ca. 16 mio. kr.", hvor erklæringen, byrådsbeslutningen og den udstedte tilladelse angiver ca. 20 mio. kr. ([afsnit 3.1](#afsnit-3-1)), og udkastets vilkår 11 indledes med en åbenbar redigeringsfejl: "At det i forbindelse med I forbindelse med byrådsbehandlingen er det besluttet at (...)".*  
-  *Anvendt i [afsnit 3.1](#afsnit-3-1), [4.3](#afsnit-4-3), [tillægget](#tillaeg).*
+  *To forhold bemærkes af hensyn til fuldstændigheden: rammen angives både s. 7 og s. 310 som "ca. 16 mio. kr.", hvor erklæringen, byrådsbeslutningen og den udstedte tilladelse angiver ca. 20 mio. kr. ([afsnit 3.1](#afsnit-3-1)), og udkastets vilkår 11 indledes med en åbenbar redigeringsfejl: "At det i forbindelse med I forbindelse med byrådsbehandlingen er det besluttet at (...)".*
 
 *Bilag 53a–53c er offentliggjort af Aarhus Kommune på kommunens side om støjhandlingsplaner. Filerne ligger i anmodningens elektroniske bilagsmateriale under mappen* `aak-stoejhandlingsplan-2024`, *som er GRGs arbejdsmappe fra høringen over 2024-planen; mappenavnet siger intet om det enkelte dokuments årstal.*
 
