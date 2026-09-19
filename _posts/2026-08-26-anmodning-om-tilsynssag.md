@@ -41,7 +41,7 @@ Samtlige bilag vedlægges elektronisk. Bilagsfortegnelsen i [afsnit 7](#afsnit-7
 Links og sidehenvisninger i teksten er alene en hjælp ved gennemlæsningen; det er de vedlagte filer, der udgør bilagsmaterialet.
 
 <!-- pdf:skip -->
-Anmodningen foreligger tillige som **paginéret PDF**, som er den udgave, der fremsendes: [anmodning-om-tilsynssag.pdf](https://aarhusworks.com/assets/giber-ringvej/klage/anmodning-om-tilsynssag.pdf). PDF'en genereres af kildeteksten ved hver ændring og er derfor identisk med denne side.
+Anmodningen foreligger tillige som [PDF](https://aarhusworks.com/assets/giber-ringvej/klage/anmodning-om-tilsynssag.pdf).
 <!-- /pdf:skip -->
 
 ---
