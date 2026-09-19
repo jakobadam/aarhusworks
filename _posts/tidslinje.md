@@ -9,7 +9,7 @@ Datoer og citater herunder er dem, anmodningen dokumenterer.
 - 2026-06-12: MTM undersøger, om vejrabatten "mellem rundkørsel og Mustrupvej" er bred nok til beplantning. Ingen tilbagemelding siden — hverken på rådmandens anmodning eller på forvaltningens eget tilsagn.
 - 2026-05-27: MTM oplyser, at Rambølls henvisninger til "notat vedr. …" er underafsnit i notatet selv. Anette Poulsen (By- og Plan) samme dag: "de nødvendige og lovede støjløsninger er ikke fulgt med".
 - 2026-05-03: GRG beder om de bilag, Rambølls notat bygger på. Ikke udleveret; GRG henvises til selv at søge i dagsordensystemet og byrådsarkivet.
-- 2026-04-08: Møde med MTM. Tre afklaringsnotater, 49 spørgsmål — fortsat ubesvarede. Direktør Seiding: "formålsløst at fortsætte med at sende notater frem og tilbage". Rådmand Bang afviser at svare på, om projektindstillingens "bl.a." er udtømmende. Kommunens eget referat: "GRG noterede sig, at forvaltningen ikke svarede konkret på de fremsendte spørgsmål, og oplyste, at gruppen på den baggrund vil overveje en klage."
+- 2026-04-08: Møde med MTM. Tre afklaringsnotater, 49 spørgsmål — fortsat ubesvarede. Direktør Seiding: "formålsløst at fortsætte med at sende notater frem og tilbage". Rådmand Bang afviser at svare på, om projektindstillingens "bl.a." er udtømmende. GRG's referat (fremsendt til alle deltagere): forvaltningen svarede ikke konkret på de fremsendte spørgsmål.
 - 2026-03-25: Rambølls kommentering. Rammen kaldes "blot en omtrentlig angivelse". KVS-belægningens merpris henføres til rammen for første gang.
 - 2026-02-25: Borgmester Winnerskjold afviser samlet genoptagelse. Beplantningen "ikke forudsat etableret".
 - 2026-01-20: Anette Poulsen til rådmanden: "Vi skylder dem – efter så lang tid – at de ved hvor sagen står."
