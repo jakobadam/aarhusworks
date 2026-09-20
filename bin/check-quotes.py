@@ -17,6 +17,7 @@ import pathlib
 import re
 import sys
 import unicodedata
+from urllib.parse import unquote
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
@@ -89,7 +90,10 @@ def source_pages(rel):
     """-> list of normalised page texts, or None if the source has no text."""
     if rel in _cache:
         return _cache[rel]
-    path = ROOT / rel
+    # Links are URL-encoded (æøå, spaces). Without decoding, fitz.open raises,
+    # the exception below swallows it, and a perfectly readable PDF is reported
+    # as a scan with no text layer — so its quotes are never checked at all.
+    path = ROOT / unquote(rel)
     pages = None
     try:
         if path.suffix.lower() == '.pdf':
