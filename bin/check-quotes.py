@@ -39,7 +39,10 @@ ELLIPSIS = re.compile(r'\(\s*\.\.\.\s*\)|\.\.\.|…')
 
 def norm(s):
     s = unicodedata.normalize('NFC', s)
-    s = s.replace('­', '')
+    # A soft hyphen marks a wrap the layout program inserted, and the text
+    # layer often keeps the line break as a space after it: "for<shy> ventes".
+    # Dropping the character alone leaves "for ventes", which matches nothing.
+    s = re.sub('­\\s*', '', s)
     s = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', s)      # inline link -> its text
     s = re.sub(r'[*_`]', '', s)                          # markdown emphasis
     for a, b in (('“', '"'), ('”', '"'), ('„', '"'),

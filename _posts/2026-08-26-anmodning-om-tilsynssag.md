@@ -352,6 +352,8 @@ Hertil kommer en national målestok: systemet til støjmæssig klassificering af
 * hvordan belægningen forholder sig til det interval på 1–4 dB, kommunen selv tillægger begrebet i sine egne støjhandlingsplaner
 * at substitutionen af den forudsatte SRS-belægning med KVS er sket på et dokumenteret grundlag, og at kommunen har forholdt sig til Vejdirektoratets nedjustering
 
+**Kommunens egen plan oplyser tillige, at effekten aftager.** Støjhandlingsplan 2018, der forelå få uger før tilladelsen, anfører, jf. [bilag 53b, s. 19](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf#page=19): *"Støjniveauet langs de veje der får støjreducerende belægninger forventes at falde med 1,5 til 4 dB. Den største dæmpning vil opleves i belægningens første leveår. **Efter ca. 3 år er effekten halveret.**"* Vejen åbnede i december 2022. Efter kommunens eget udsagn er den dæmpning, belægningen måtte have ydet, dermed omtrent halveret. Det gøres ikke gældende, at vilkåret kræver en vedvarende effekt på et bestemt niveau; forholdet anføres, fordi det skærper behovet for at kunne oplyse, hvilken reduktion belægningen ydede fra begyndelsen — og fordi kommunen ikke har oplyst at have forholdt sig til det.
+
 **Subsidiært** gøres gældende, at vilkåret ikke kan anses for overholdt. Et vilkår om en *støjdæmpende* vejbelægning må antages at tilføre noget ud over den belægning, der ellers ville være udlagt; ellers ville vilkåret være uden selvstændigt indhold. Den nationale vejmyndighed henfører selv standardbelægningen og KVS til samme kategori, og nogen støjreduktion for KVS i forhold til SMA8 er ikke opgjort i noget materiale i sagen. Den subsidiære påstand forudsætter ikke, at Ankestyrelsen efterprøver et akustisk skøn: oplysningerne beror alene hos kommunen, og den usikkerhed, deres fravær efterlader, må bæres af den myndighed, der både er bygherre og tilsynsmyndighed.
 
 <a id="afsnit-3-3"></a>
@@ -827,7 +829,7 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
 
 * **Bilag 51:** Vejdirektoratet, *"Optimering af støjreducerende slidlag"*, Rapport nr. 540, maj 2015  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2015-05-vejdirektoratet-rapport-540-optimering-af-stoejreducerende-slidlag.pdf)  
-  *Påberåbes for oplysningen om, at 2. generationssystemet for dokumentation af støjreducerende slidlag blev offentliggjort som vejregel i marts 2013 (s. 13, med kildeangivelse s. 99), og for klassifikationstærsklerne 4,0 dB og 7 dB (s. 28 og 31).*
+  *Vejreglen for dokumentation af støjreducerende slidlag. Klassifikationstærsklerne fremgår s. 28 og 31, og offentliggørelsestidspunktet s. 13 med kildeangivelse s. 99.*
 
 * **Bilag 52:** Vejdirektoratet, *"Undersøgelser af drænasfalt som støjreducerende slidlag"*, Rapport nr. 530, marts 2015  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf)  
@@ -835,45 +837,38 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
 
 * **Bilag 53a:** Aarhus Kommune, Teknik og Miljø, Trafik og Veje, *"Støjhandlingsplan for større veje i Aarhus Kommune"*, november 2011 (forslaget i offentlig høring 27. juni – 9. september 2011)  
   [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf) ·
-  [Figur — kommunens virkemidler mod vejstøj (s. 10)](https://aarhusworks.com/assets/giber-ringvej/klage/2011-aak-stoejhandlingsplan-virkemidler-figur.png)  
-  *Påberåbes for, at kommunen selv tillægger begrebet* støjreducerende belægning *et kvantificeret indhold (1–4 dB, s. 14) og selv opregner to-lags drænasfalt blandt sine virkemidler (s. 10). Dette er den støjhandlingsplan, der forelå, mens VVM-redegørelsen blev udarbejdet og kommuneplantillægget behandlet.*
+  [Figur — kommunens virkemidler mod vejstøj (s. 10)](https://aarhusworks.com/assets/giber-ringvej/klage/2011-aak-stoejhandlingsplan-virkemidler-figur.png)
 
 * **Bilag 53b:** Aarhus Kommune, *"Støjhandlingsplan 2018"*, august 2018  
-  [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf)  
-  *Påberåbes for samme interval (1–4 dB, s. 17; 1,5–4 dB, s. 19) i den plan, der forelå få uger før VVM-tilladelsen af 12. oktober 2018 — og for planens egen tilføjelse om, at effekten er halveret efter ca. 3 år.*
+  [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf)
 
 * **Bilag 53c:** Aarhus Kommune, *"Støjhandlingsplan 2024"*  
   [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf)  
   *Påberåbes alene for, at formuleringen står uændret i den gældende plan (s. 22). Det bemærkes, at dokumentets løbende sidehoved lyder* "Støjhandlingsplan 2023"*, mens planen af kommunen selv offentliggøres som 2024-planen.*
 
 * **Bilag 54a:** Korrespondance mellem Giber Ringvej Gruppen og Aarhus Kommune, Teknik og Miljø — GRGs spørgsmål af 26. juni 2024, rykker af 3. september 2024 og forvaltningens svar af 4. september 2024  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf)  
-  *Påberåbes for, at spørgsmålet om belægningens forudsatte støjeffekt blev stillet skriftligt allerede i juni 2024, og at svaret angiver beregningsmetode og belægningsbetegnelse, men ingen værdi.*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf)
 
 * **Bilag 54b:** Mail fra Aarhus Kommune, Teknik og Miljø, af 20. september 2024 om effekten af støjdæmpende asfalt (svar på GRGs fornyede forespørgsel samme dag)  
-  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2024-09-20-mail-mtm-asfalt-stoejdaempende.pdf)  
-  *Påberåbes for, at også det opfølgende svar beskriver beregningsmetoden uden at angive den forudsatte støjreduktion.*
+  [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2024-09-20-mail-mtm-asfalt-stoejdaempende.pdf)
 
 * **Bilag 55:** Referat af møde mellem Aarhus Kommune, Rambøll og fire fællesråd (Beder-Malling-Ajstrup, Tranbjerg, Mårslet og Kolt-Hasselager) den 24. januar 2019 om støjberegninger og stier  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/Referat%20m%C3%B8de%20med%20f%C3%A6llesr%C3%A5d%2024-01-2019.pdf)  
-  *Udleveret af Aarhus Kommune, Teknik og Miljø, ved aktindsigt af 1./2. april 2025 (2. udlevering) i GRGs anmodning af 16./19. marts 2025.*  
-  *Påberåbes for, at rammen på ca. 20 mio. kr. ikke blev nævnt over for fællesrådene, at støjkortene blev nægtet udleveret, at Mårslet blev forelagt med forbehold, og at beplantning ikke blev drøftet.*
+  *Udleveret af Aarhus Kommune, Teknik og Miljø, ved aktindsigt af 1./2. april 2025 (2. udlevering) i GRGs anmodning af 16./19. marts 2025.*
 
 * **Bilag 56:** Aarhus Byråd, referat af mødet den 14. september 2016, punkt 20 — *"Kommuneplantillæg og VVM, Bering-Beder vejen – Endelig"*, sag 13/048665, med bilagsfortegnelse  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2016-09-14-bering-beder-inkl-bilagsliste.pdf)  
   *Udskrift fra Aarhus Kommunes dagsordensystem. Bilagsfortegnelsen (s. 6–8) medtages ikke i systemets PDF-eksport af det enkelte punkt og er derfor sikret ved udskrift af websiden.*  
   *Indstillingens beslutningspunkt 3 (s. 4) bestemmer, at tilladelsen skal stille krav om afværgetiltag "efter de principper, som fremgår af udkastet til VVM-tilladelsen (bilag 5)". Udkastet er opført som "Bilag 5 Udkast til VVM tilladelse" i indstillingens bilagsfortegnelse (s. 6) og foreligger som bilag 58. Henvisningen går til denne fortegnelse; dokumentet indeholder tillige et andet "Bilag 5" — "Udkast til udvalgskonklusion" — under udvalgsbehandlingen (s. 8).*  
-  *Påberåbes for byrådsbeslutningens ordlyd (s. 3 og 5) og for, at Magistratens notat af 1. september 2016 forelå på sagen, anført som "Notat, MTM, 01.09.16" (s. 8). COWI-notatet er ikke nævnt ved navn eller dato; bilagslisten anfører "Bilag 4: Vurderinger vedr trafikstøj", og notatet foreligger som bilag 42.*
+  *Byrådsbeslutningen med bilagsfortegnelse. Bemærk, at COWI-notatet (bilag 42) ikke er nævnt ved navn eller dato i fortegnelsen, men anført som "Bilag 4: Vurderinger vedr trafikstøj"; Magistratens notat af 1. september 2016 er anført som "Notat, MTM, 01.09.16" (s. 8).*
 
 * **Bilag 57:** Aarhus Kommune, *"Bering-Beder Vejen – Anlægsoverslag og afløbsplan"*, revision 023 af 7. januar 2020 og revision 025 af 8. januar 2020  
   [Download rev023](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/Bilag%202_Anl%C3%A6gsoverslag%20og%20afl%C3%B8bsplan%20rev023.pdf) · [Download rev025](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/Bilag%202_Anl%C3%A6gsoverslag%20og%20afl%C3%B8bsplan%20rev025.pdf)  
-  *Udleveret af Aarhus Kommune, Teknik og Miljø, ved aktindsigt af 1./2. april 2025 (2. udlevering) i GRGs anmodning af 16./19. marts 2025.*  
-  *Påberåbes for, at linjen "Støjdæmpende foranstaltninger" den 7. januar 2020 stod på 20,0 mio. kr. med skærmen ved Landevejen som selvstændig linje, og dagen efter på 16,0 mio. kr. mærket "[20 mio.kr.], ex. støjskærm Tranbjerg" med skærmen som underpost.*
+  *Udleveret af Aarhus Kommune, Teknik og Miljø, ved aktindsigt af 1./2. april 2025 (2. udlevering) i GRGs anmodning af 16./19. marts 2025.*
 
 * **Bilag 58:** Aarhus Kommune, *Tillæg nr. 43 til Kommuneplan 2013 med bilag 5 — udkast til VVM-tilladelse*, godkendt af Aarhus Byråd den 14. september 2016  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/tillaeg-til-kommuneplan-2013.pdf)  
-  *Tillægget er efter sin egen kolofon (s. 2) godkendt af Aarhus Byråd den 14. september 2016 og offentligt tilgængeligt fra den 28. september 2016. Udkastet til VVM-tilladelse — indstillingens bilag 5 — er optaget s. 307–314 under overskriften "Udkast til principper for VVM tilladelse til Bering-Bedervejen".*  
-  *Påberåbes for følgende forhold: at udkastet efter s. 307 "medtages i beslutning og offentliggørelse"; at tillæggets afsnit om VVM-tilladelsen (s. 6–7, indledt "Ved tilladelse til vejen skal det (...) sikres") under underoverskriften Støj gengiver byrådsbeslutningens sondring og forudsætninger — "fastholdes og suppleres med", Kolt-forudsætningen og kravet om inddragelse af lokalområderne — med de to afvigelser, der er anført nedenfor; passagen står uden for tillæggets opregning af retningslinjer, som afsluttes på s. 6; at udkastets vilkår 11 (s. 310) har de samme forudsætninger stående direkte i vilkårsteksten; og at udkastets vilkår 8, 9 og 10 (s. 309–310) er de vilkår, Rambølls redegørelse 1 gengiver som nr. 8, 9 og 10 i afsnit 1.4, hvis fjerde række, nr. 11, derimod gengiver den udstedte tilladelses vilkår 7 ([afsnit 4.3](#afsnit-4-3)). Redegørelsens afsnit 1.2 er ligeledes hentet herfra (s. 272).*  
+  *Tillægget er efter sin egen kolofon (s. 2) godkendt af Aarhus Byråd den 14. september 2016 og offentligt tilgængeligt fra den 28. september 2016. Udkastet til VVM-tilladelse — indstillingens bilag 5 — er optaget s. 307–314 under overskriften "Udkast til principper for VVM tilladelse til Bering-Bedervejen".*
   *To forhold bemærkes af hensyn til fuldstændigheden: rammen angives både s. 7 og s. 310 som "ca. 16 mio. kr.", hvor erklæringen, byrådsbeslutningen og den udstedte tilladelse angiver ca. 20 mio. kr. ([afsnit 3.1](#afsnit-3-1)), og udkastets vilkår 11 indledes med en åbenbar redigeringsfejl: "At det i forbindelse med I forbindelse med byrådsbehandlingen er det besluttet at (...)".*
 * **Bilag 59:** Aarhus Kommune, Lokalplanlægning og VVM — *"Afgørelse om at etablering af en jordvold nord for Giber Ringvej ved Nymarksvej, ikke er omfattet af krav om miljøvurdering og tilladelse efter miljøvurderingsloven"* (14. september 2022)  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf)  
