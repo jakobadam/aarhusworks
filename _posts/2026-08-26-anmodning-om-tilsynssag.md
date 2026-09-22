@@ -831,11 +831,9 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
 
 * **Bilag 51:** Vejdirektoratet, *"Optimering af støjreducerende slidlag"*, Rapport nr. 540, maj 2015  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2015-05-vejdirektoratet-rapport-540-optimering-af-stoejreducerende-slidlag.pdf)  
-  *Vejreglen for dokumentation af støjreducerende slidlag. Klassifikationstærsklerne fremgår s. 28 og 31, og offentliggørelsestidspunktet s. 13 med kildeangivelse s. 99.*
 
 * **Bilag 52:** Vejdirektoratet, *"Undersøgelser af drænasfalt som støjreducerende slidlag"*, Rapport nr. 530, marts 2015  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf)  
-  *Vejdirektoratets undersøgelse af drænasfalt. Klassifikationskravene til SRS-belægninger fremgår s. 10.*
 
 * **Bilag 53a:** Aarhus Kommune, Teknik og Miljø, Trafik og Veje, *"Støjhandlingsplan for større veje i Aarhus Kommune"*, november 2011 (forslaget i offentlig høring 27. juni – 9. september 2011)  
   [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf) ·
@@ -846,7 +844,6 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
 
 * **Bilag 53c:** Aarhus Kommune, *"Støjhandlingsplan 2024"*  
   [Download PDF](https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2024.pdf)  
-  *Den gældende plan; formuleringen om støjreducerende belægning står s. 22. Bemærk, at dokumentets løbende sidehoved lyder* "Støjhandlingsplan 2023"*, mens planen af kommunen selv offentliggøres som 2024-planen.*
 
 * **Bilag 54a:** Korrespondance mellem Giber Ringvej Gruppen og Aarhus Kommune, Teknik og Miljø — GRGs spørgsmål af 26. juni 2024, rykker af 3. september 2024 og forvaltningens svar af 4. september 2024  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf)
