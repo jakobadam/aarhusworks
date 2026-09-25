@@ -22,7 +22,7 @@ Datoer og citater herunder er dem, anmodningen dokumenterer.
 - 2025-08-19: Rambøll: beplantningen er "formegentlig fravalgt af økonomiske årsager".
 - 2025-08-07: MTM spørger internt Rambøll: "er det bare uforpligtende eksempler i VVM'en eller er det forudsætninger for projektet?"
 - 2025-05-22: Møde med MTM. Beplantning stilles i udsigt.
-- 2025-04-07: Dom, Retten i Aarhus (BS-38128/2021). Kommunen har dér forklaret, at volden ved Nymarksvej er nyttiggørelse af overskudsjord med "færre omkostninger" end at køre jorden væk.
+- 2025-04-07: Dom, Retten i Aarhus (BS-38128/2021). Kommunen har dér forklaret, at jordvolden øst for Nymarksvej er nyttiggørelse af overskudsjord med "færre omkostninger" end at køre jorden væk. Dommen henviser til kommunens screeningsafgørelse af 14. september 2022 (sagsøgers bilag 26) — ikke fremlagt i vores materiale før september 2026, hvor den blev hentet på aarhus.dk.
 - 2025-04-02: Redegørelse 3: "det er ikke muligt at lave en opgørelse af, hvad omkostningerne til de besluttede tiltag reelt har været".
 - 2025-03 til 05: Aktindsigt i tre omgange. Kommunen erklærer den fuldstændig 9. maj; ved fortsat rykning fremkommer 16. og 19. maj den korrespondance, hvor Rambøll tiltræder, at mindst fire påberåbte tiltag ikke er støjtiltag.
 - 2025-01: Redegørelse 2 med differenskortet som dokumentation — et kort, rådgiver og forvaltning i december 2024 vidste ikke viste det, det skulle vise.
@@ -40,9 +40,17 @@ Datoer og citater herunder er dem, anmodningen dokumenterer.
 2023
 
 - 2023-11-22: MTM påberåber kommunalfuldmagtsreglerne som spærring for yderligere støjdæmpning — i strid med kommunens eget juridiske notat af 13. april 2023.
-- 2023-10-13: MTM's samlede svar til GRG nævner ikke puljespørgsmålet med ét ord.
+- 2023-10-13: MTM's samlede svar til GRG nævner ikke puljespørgsmålet med ét ord. Svaret gentager til gengæld ordret Rambølls standard: en støjvold kræver VVM-screening og landzonetilladelse, "Dette er udført for de støjvolde, som er etableret", og volden "skal have en dokumenteret støjdæmpende effekt".
+- 2023-10-12: Sammenligningssagen. Aarhus Kommune træffer § 25-afgørelse om at OPHÆVE et vilkår i VVM-tilladelsen til Viborgvej, fordi vilkåret "ikke kan gennemføres pga. manglende adkomst til arealerne" — begrundet, offentliggjort, med klagevejledning, og med udtrykkelig stillingtagen til myndighedsinhabiliteten. Intet tilsvarende er sket for vilkår 2 og 7.
+- 2023-06-29: MTM's notat til Teknisk Udvalg: "alle vilkår fra VVM-tilladelsen vedr. støjreducerende foranstaltninger er overholdt", herunder "16 støjvolde langs Giber Ringvej jf. kort vedlagt som bilag 4". Det er kortet med de røde markeringer.
 - 2023-05-09: Rambølls redegørelse 1. Puljens forbrug estimeres til 17,28 mio. kr., bl.a. via 16 "støjvolde". Vilkårene, der lægges til grund, viser sig at være udkastets fra 2016 — ikke tilladelsens.
 - 2023-03-20: Foretræde for Teknisk Udvalg om puljens anvendelse.
+
+2022 — kommunens egne screeningsafgørelser
+
+- 2022-09-14: Screening af jordvolden ØST for Nymarksvej: "Så vidt vides, indgik etablering af den aktuelle jordvold ikke som en del af VVM-redegørelsen ej heller VVM-tilladelsens vilkår 7". Henført under "Anlæg til bortskaffelse af affald". To ting mere: den sydlige vold i samme ansøgning blev trukket, fordi den ikke opfyldte kriterierne for nyttiggørelse — og afgørelsen angiver effekten som "12 dB", hvor rådgivernotatet i samme dokument siger "1-2 dB".
+- 2022-06-21: Rambøll ansøger på vegne af Vejanlæg om to jordvolde, syd og nord for vejen ved Nymarksvej.
+- 2022-01-26: Screening af jordvolden ved Kølsmosevej. Ordret samme sætning om vilkår 7, og: da der ikke er dokumenteret støjdæmpende effekt, "anses projektet primært som et anlæg til bortskaffelse af affald".
 
 Grundlaget
 
@@ -50,7 +58,9 @@ Grundlaget
 - 2020-01-07 og 01-08: Rammelinjen i anlægsoverslaget går fra 20,0 til 16,0 mio. kr., mærket "[20 mio.kr.], ex. støjskærm Tranbjerg". Ingen fremlagt beslutning.
 - 2019-08-28: Projektgodkendelsen. Ingen af de tre beslutningspunkter angår rammen.
 - 2019-01-24: Møde med fire fællesråd om støjberegninger og stier — rammen nævnes ikke. Landskabsstrategien bærer samme dato.
+- 2019-05-27: Landzonetilladelse til støjvolden mellem Tandervej og Nymarksvej — "2-12 meter nord for Bering-Beder Vejen", ca. 750 m. Det er den VESTLIGE vold (tillæggets B5), ikke den dommen handler om.
 - 2018-10-12: VVM-tilladelsen meddeles med vilkår 2 (slørende beplantning), 5 (støjdæmpende belægning) og 7 (supplerende støjdæmpning, ca. 20 mio. kr.).
+- 2018-08: Støjhandlingsplan 2018, få uger før tilladelsen: støjreducerende belægning giver 1,5-4 dB, men "Efter ca. 3 år er effekten halveret". Vejen åbnede i december 2022.
 - 2016-09-28: Kommuneplantillæg nr. 43 offentliggjort. Teksten og det optrykte udkast til VVM-tilladelse angiver begge ca. 16 mio. kr.
 - 2016-09-14: Byrådet vedtager indstillingen. Beslutningspunkt 3: tilladelsen skal stille krav "efter de principper, som fremgår af udkastet til VVM-tilladelsen (bilag 5)".
 - 2016-09-05, erklæring dateret 09-09: Teknisk Udvalg beslutter det modsatte af forvaltningens indstilling: den skitserede afskærmning "fastholdes og suppleres med" øget støjdæmpning inden for ca. 20 mio. kr.
