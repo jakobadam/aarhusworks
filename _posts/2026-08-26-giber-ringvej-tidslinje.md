@@ -133,7 +133,6 @@ categories: vejstøj
   .tl-spor--beplantning { border-left-color: #4a7c59; color: #4a7c59; }
   .tl-spor--belaegning  { border-left-color: #3d5a80; color: #3d5a80; }
   .tl-spor--pulje       { border-left-color: #c00;    color: #c00; }
-  .tl-spor--proces      { border-left-color: #888;    color: #777; }
 
   .tl {
     position: relative;
@@ -201,10 +200,6 @@ categories: vejstøj
   .tl-dot.red {
     background: #c00;
     box-shadow: 0 0 0 2px #c00;
-  }
-
-  .tl-dot.open {
-    background: #fff;
   }
 
   .tl-body {
@@ -312,52 +307,6 @@ categories: vejstøj
 
   .tl-table .nej { color: #c00; font-weight: 700; }
 
-  .tl-divider {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin: 0.5rem 0 0.5rem 7.4rem;
-  }
-
-  .tl-divider-label {
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-size: 0.65rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #aaa;
-    white-space: nowrap;
-  }
-
-  .tl-divider-line {
-    flex: 1;
-    height: 1px;
-    background: #ddd;
-  }
-
-  .kladde-banner {
-    border: 2px solid #c00;
-    background: #fff8f8;
-    padding: 0.85rem 1.1rem;
-    margin-bottom: 1.6rem;
-  }
-
-  .kladde-banner p {
-    margin: 0;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-size: 0.85rem;
-    line-height: 1.5;
-    color: #333;
-  }
-
-  .kladde-banner strong {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: #c00;
-    margin-bottom: 0.3rem;
-  }
-
   .timeline-footer {
     margin-top: 2.5rem;
     padding-top: 1rem;
@@ -411,8 +360,6 @@ categories: vejstøj
     .tl-title { font-size: 1rem; }
     .tl-text { font-size: 0.88rem; }
 
-    .tl-divider { margin-left: 1.55rem; }
-
     .tl-fig { margin: 0.9rem 0 0.2rem 0; }
   }
 
@@ -420,7 +367,7 @@ categories: vejstøj
   @media (max-width: 380px) {
     .timeline-headline { font-size: 1.6rem; }
     .tl-body { padding-left: 1.3rem; }
-    .tl-divider { margin-left: 1.3rem; }
+
   }
 
   /* --- Fund-boks --- */
@@ -458,10 +405,6 @@ categories: vejstøj
     left: calc(var(--tl-date-w) + var(--tl-gap) + var(--tl-dot-size) / 2 - 1px);
   }
 
-  .tl-divider {
-    margin-left: calc(var(--tl-date-w) + var(--tl-gap) + var(--tl-dot-size) + var(--tl-gap));
-  }
-
   /* --- Vaegtning: tunge poster mod lette ---
      Alle prikker har samme diameter, saa broedteksten flugter paa tvaers af
      posterne og alle centre rammer samme akse. Vaegten ligger i fyld og ring. */
@@ -487,12 +430,12 @@ categories: vejstøj
     .tl::before { left: calc(var(--tl-dot-size) / 2 - 1px); }
     /* Blokkene ovenfor staar uden for media-forespoergslen og ville ellers
        overskrive mobilreglerne, fordi de kommer senere i kaskaden. */
-    .tl-divider { margin-left: 1.55rem; }
+
     .tl-item--slim .tl-body { padding-top: 0.35rem; padding-bottom: 1.1rem; }
   }
 
   @media (max-width: 380px) {
-    .tl-divider { margin-left: 1.3rem; }
+
   }
 
   .ovrige {
@@ -687,6 +630,21 @@ categories: vejstøj
     </div>
   </li>
 
+  <li class="tl-item">
+    <div class="tl-date">
+      <span class="tl-year">2022</span>
+      <span class="tl-month">Jan + Sep</span>
+    </div>
+    <div class="tl-dot red"></div>
+    <div class="tl-body">
+      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
+      <p class="tl-title">To gange afgør kommunen selv, at voldene ikke hører under vilkår 7</p>
+      <p class="tl-text">Når en jordvold skal etableres, skal kommunen tage stilling til, om den kræver miljøvurdering. To af de afgørelser er offentliggjort, og de siger det samme. Om volden ved <a href="/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=3">Kølsmosevej</a> i januar: da der ikke er <em>"medsendt dokumentation for"</em> en støjdæmpende effekt, <em>"anses projektet primært som et anlæg til bortskaffelse af affald"</em>. Om volden <a href="/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=3">øst for Nymarksvej</a> i september, ordret samme sætning: anlægget indgik <em>"ikke som en del af VVM-redegørelsen ej heller VVM-tilladelsens vilkår 7, som omhandler ekstra støjafskærmning"</em>.</p>
+      <p class="tl-text">Samme ansøgning omfattede en vold syd for vejen. Den blev trukket, fordi den <em>"ikke [vurderes] at opfylde kriterierne i miljøbeskyttelsesloven til nyttiggørelse"</em> — kravet om en dokumenteret støjdæmpende effekt er altså ikke en formalitet, men det, der afgør, om jorden er et støjtiltag eller affald.</p>
+      <p class="tl-text"><strong>Det er de eneste to afgørelser, kommunen har fremlagt om de volde, puljen er brugt på.</strong> Begge siger, at anlægget ikke var vilkår 7. Et år senere opgøres 16 volde til 18,5 mio. kr. som netop opfyldelse af vilkår 7.</p>
+    </div>
+  </li>
+
   <li class="tl-item tl-item--key">
     <div class="tl-date">
       <span class="tl-year">2023</span>
@@ -699,6 +657,21 @@ categories: vejstøj
       <p class="tl-title">"16 støjvolde for 17,28 mio. kr." — og én eneste støjskærm</p>
       <p class="tl-text"><a href="/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=1">Rambølls redegørelse</a> henfører 17,28 mio. kr. til puljen — vilkår 7 dermed opfyldt. Men opgørelsen rummer en vejsænkning, rådgiveren selv senere kalder en <em>"tracérings-mæssig konsekvens"</em>, en skærm hjemlet i vilkår 5 og 6, samt tilkørselsveje og jorddeponier. De 16 volde prissættes under ét til 18,5 mio. kr. uden mængdeopgørelse.</p>
       <p class="tl-text">Opgørelsen er samtidig beviset for, hvad der <em>ikke</em> blev bygget. <a href="/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4">Listen på side 4</a> opregner alt, kommunen henfører til støj — og indeholder <strong>én støjskærm:</strong> <em>"Støjskærm langs Landevejen — ca. 5.200.000,00 kr."</em> De tre skærme fra 2016 optræder ikke. <a href="/2023/08/23/stoej-langs-giber-ringvej--et-modsvar-til-kommunen.html">GRG svarer samme måned</a>.</p>
+    </div>
+  </li>
+
+  <li class="tl-item tl-item--key">
+    <div class="tl-date">
+      <span class="tl-year">2023</span>
+      <span class="tl-month">Okt</span>
+    </div>
+    <div class="tl-dot red"></div>
+    <div class="tl-body">
+      <span class="tl-tag">Sammenligning</span>
+      <p class="tl-title">Sådan gør kommunen, når et vilkår <em>ikke</em> kan opfyldes</p>
+      <p class="tl-text">På et andet vejprojekt — udvidelsen af Viborgvej — kunne et vilkår i VVM-tilladelsen ikke gennemføres, fordi kommunen ikke kunne skaffe adgang til arealerne. Så gjorde den dette: bygherren, Aarhus Kommune, Vejanlæg, <a href="/assets/giber-ringvej/2023-10-12-aak-afgoerelse-ophaevelse-vilkaar-viborgvej.pdf">ansøgte kommunens egen VVM-myndighed</a> om at få vilkåret ophævet. Myndigheden traf en begrundet afgørelse, offentliggjorde den, gav klagevejledning til Miljø- og Fødevareklagenævnet — og skrev udtrykkeligt, at der forelå myndighedsinhabilitet, og hvordan den var håndteret.</p>
+      <p class="tl-text">Afgørelsen er dateret <strong>12. oktober 2023</strong>. Dagen efter sendte forvaltningen sit samlede svar til Giber Ringvej Gruppen — uden at nævne puljespørgsmålet.</p>
+      <p class="tl-text"><strong>For Giber Ringvejs vilkår 2 og 7 er intet af dette sket.</strong> Ingen ansøgning, ingen afgørelse, ingen offentliggørelse, ingen klagevejledning. Vilkårene er i stedet erklæret opfyldt.</p>
     </div>
   </li>
 
@@ -783,16 +756,13 @@ categories: vejstøj
 
 <div class="ovrige">
   <p class="ovrige-title">Øvrige poster i forløbet</p>
-  <p class="ovrige-intro">Tidslinjen ovenfor viser sagens elleve hovedpunkter. Nedenfor står de øvrige begivenheder med kilde, i samme rækkefølge.</p>
+  <p class="ovrige-intro">Tidslinjen ovenfor viser sagens tretten hovedpunkter. Nedenfor står de øvrige begivenheder med kilde, i samme rækkefølge.</p>
   <ul>
     <li><span class="ovr-dato">Maj 2019</span> Mårslet får en jordvold på én meter — mellem Tandervej og Nymarksvej &middot; <a href="/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=2">landzonetilladelse</a></li>
-    <li><span class="ovr-dato">Jan 2022</span> Kommunen afgør selv, at en af voldene ikke er et støjtiltag &middot; <a href="/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=3">Screeningsafgørelsen</a></li>
-    <li><span class="ovr-dato">Sep 2022</span> Samme konklusion om volden øst for Nymarksvej: den indgik <em>"ikke (...) [i] VVM-tilladelsens vilkår 7"</em>. Ansøgningens sydlige vold trækkes, fordi den ikke opfylder kravet om nyttiggørelse &middot; <a href="/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=3">afgørelsen</a></li>
     <li><span class="ovr-dato">Efterår 2022</span> Giber Ringvej åbner for trafik &middot; <a href="/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3">ifølge Rambøll</a> &middot; <a href="/assets/giber-ringvej/stoejhandlingsplan-hoeringsbidrag.pdf">høringssvar</a></li>
     <li><span class="ovr-dato">Mar 2023</span> De to spørgsmål, der stadig venter svar &middot; <a href="/assets/giber-ringvej/2023-03-20-grg-bilag-til-teknisk-udvalg.pdf">bilag</a></li>
     <li><span class="ovr-dato">Maj 2023</span> Svarene pilles ud af notatet, før udvalget ser det &middot; <a href="/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-05-09-mail-re-stoejmaaler-ved-giber-ringvej.pdf">aktindsigten</a></li>
     <li><span class="ovr-dato">Jun 2023</span> Forvaltningen til Teknisk Udvalg: <em>"alle vilkår fra VVM-tilladelsen vedr. støjreducerende foranstaltninger er overholdt"</em> &middot; <a href="/assets/mtm-modsvar/2023-08-MTM-vejst%C3%B8j-giber-ringvej.pdf#page=3">notatet</a></li>
-    <li><span class="ovr-dato">Okt 2023</span> Samme kommune, andet vejprojekt: et vilkår, der <em>"ikke kan gennemføres"</em>, bliver ophævet ved en begrundet afgørelse med klagevejledning. Det er ikke sket for Giber Ringvej &middot; <a href="/assets/giber-ringvej/2023-10-12-aak-afgoerelse-ophaevelse-vilkaar-viborgvej.pdf">Viborgvej-afgørelsen</a></li>
     <li><span class="ovr-dato">Nov 2023</span> "Ikke afregnet" — og kommunalfuldmagten som spærring &middot; <a href="/assets/giber-ringvej/2023-11-22-mtm-svar-pulje-og-kommunalfuldmagt.pdf">oplyser</a> &middot; <a href="/assets/giber-ringvej/2023-04-13-mtm-juridisk-notat-stoejafskaermning.pdf#page=3">notatet</a></li>
     <li><span class="ovr-dato">Sep 2024</span> Udvalgsformanden: "Vi skal have et faktatjek" &middot; <a href="/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-05-09-mail-re-stoejmaaler-ved-giber-ringvej.pdf">internt</a></li>
     <li><span class="ovr-dato">Apr 2025</span> I retten forklarer kommunen en af voldene som overskudsjord: <em>"færre omkostninger (...) end ved at flytte jorden"</em> &middot; <a href="/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=57">dommen, s. 57</a></li>
@@ -806,7 +776,7 @@ categories: vejstøj
     <li><span class="ovr-dato">Maj 2026</span> "Notat vedr. …" viser sig at være underafsnit i notatet selv &middot; <a href="/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf">forvaltningens svar</a></li>
     <li><span class="ovr-dato">Maj 2026</span> Byrådsmedlem: "de nødvendige og lovede støjløsninger er ikke fulgt med" &middot; <a href="/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf">mailen</a></li>
   </ul>
-  <p class="ovrige-slut"><strong>Hvor sagen står nu.</strong> Aarhus Kommune har to gange — i februar og april 2026 — afvist at genoptage sagen. Giber Ringvej Gruppen forbereder en anmodning til Ankestyrelsens kommunale tilsyn om at rejse en tilsynssag efter planlovens § 51.</p>
+  <p class="ovrige-slut"><strong>Hvor sagen står nu.</strong> Aarhus Kommune har to gange — i februar og april 2026 — afvist at genoptage sagen. Der er aldrig truffet nogen afgørelse om, at vilkårene skulle fraviges; de er erklæret opfyldt. Giber Ringvej Gruppen forbereder en anmodning til Ankestyrelsens kommunale tilsyn om at rejse en tilsynssag efter planlovens § 51.</p>
 </div>
 
 
