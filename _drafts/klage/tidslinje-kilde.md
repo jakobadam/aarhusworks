@@ -1,8 +1,20 @@
-Tidslinje — arbejdsnote
+Tidslinje — kilden til datoer og citater
 
-Kort forløb til eget brug, opdateret efter anmodningen til Ankestyrelsen.
-Den fulde, annoterede tidslinje er bilag 1: https://aarhusworks.com/vejst%C3%B8j/2026/08/26/giber-ringvej-tidslinje.html
-Datoer og citater herunder er dem, anmodningen dokumenterer.
+Dette er sagens kildeliste, ikke en fortælling. Hver dato og hvert citat
+skrives ind her først og efterprøves mod kilde-PDF'en, før det bruges andre
+steder. De to andre dokumenter er afledte:
+
+  bilag 1  _posts/2026-08-26-giber-ringvej-tidslinje.md
+           — fortællingen for en udefrakommende læser; har kun et udvalg
+  anmodningen  _posts/2026-08-26-anmodning-om-tilsynssag.md
+           — det juridiske dokument; citaterne verificeres af
+             bin/check-anmodning.ps1 -Quotes
+
+Retningen er én vej: ret her, skriv derefter videre. Modsat rettelse betyder
+tre steder at tage fejl — det er sket.
+
+Her må gerne stå ting, der endnu ikke er sikre nok til de andre to; marker
+dem i så fald med [uafklaret].
 
 2026
 
