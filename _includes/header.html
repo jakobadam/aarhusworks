@@ -1,9 +1,13 @@
 {%- comment -%}
-  No navigation: the site has no titled pages to link to, and minima's version
-  rendered an empty hamburger menu on phones.
+  Logo and site name. No navigation: the site has no titled pages to link to,
+  and minima's version rendered an empty hamburger menu on phones.
+  The logo is inlined so it takes its colour from CSS (fill: currentColor).
 {%- endcomment -%}
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      <span class="site-logo" aria-hidden="true">{% include logo.svg %}</span>
+      <span class="site-name">{{ site.title | escape }}</span>
+    </a>
   </div>
 </header>
