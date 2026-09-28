@@ -3,6 +3,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
+  {%- comment -%} The four faces nearly every page uses, fetched alongside the CSS instead of after it. {%- endcomment -%}
+  <link rel="preload" href="{{ "/assets/fonts/source-serif-4-400-normal.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "/assets/fonts/source-serif-4-400-italic.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "/assets/fonts/inter-700-normal.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "/assets/fonts/inter-400-normal.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="icon" href="{{ "/assets/images/logo.svg" | relative_url }}" type="image/svg+xml">
   <link rel="icon" href="{{ "/assets/images/favicon-32.png" | relative_url }}" sizes="32x32" type="image/png">

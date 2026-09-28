@@ -10,16 +10,30 @@
 //   Source Serif 4 — the successor of Source Serif Pro, Medium's body face
 //   Inter          — stands in for Medium's Söhne, which is not freely licensed
 
-@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/source-serif-4-400-normal.woff2") format("woff2"); }
-@font-face { font-family: "Source Serif 4"; font-style: italic; font-weight: 400; font-display: swap; src: url("fonts/source-serif-4-400-italic.woff2") format("woff2"); }
-@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 600 700; font-display: swap; src: url("fonts/source-serif-4-600-normal.woff2") format("woff2"); }
-@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("fonts/inter-400-normal.woff2") format("woff2"); }
-@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url("fonts/inter-500-normal.woff2") format("woff2"); }
-@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap; src: url("fonts/inter-600-normal.woff2") format("woff2"); }
-@font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap; src: url("fonts/inter-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 400; font-display: optional; src: url("fonts/source-serif-4-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: italic; font-weight: 400; font-display: optional; src: url("fonts/source-serif-4-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 600 700; font-display: optional; src: url("fonts/source-serif-4-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: optional; src: url("fonts/inter-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: optional; src: url("fonts/inter-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: optional; src: url("fonts/inter-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: optional; src: url("fonts/inter-700-normal.woff2") format("woff2"); }
 
-$serif: "Source Serif 4", "Source Serif Pro", Georgia, Cambria, "Times New Roman", serif;
-$sans:  Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+// font-display: optional -- the webfont is used if it arrives within the first
+// ~100 ms (the four faces below the header are preloaded, so on any ordinary
+// connection it does); otherwise the page stays in the fallback and never
+// swaps mid-read. The font is cached for the next page.
+//
+// Metric-matched fallbacks. Until the webfont arrives the browser draws the
+// local fallback; scaled to the same width and vertical metrics it breaks
+// lines in the same places, so the text does not jump when the font swaps.
+// Values measured in Chromium against the woff2 files above.
+@font-face { font-family: "Source Serif 4 Fallback"; font-style: normal; src: local("Georgia"); size-adjust: 107.4%; ascent-override: 96.8%; descent-override: 31.6%; line-gap-override: 0%; }
+@font-face { font-family: "Source Serif 4 Fallback"; font-style: italic; src: local("Georgia Italic"); size-adjust: 96.4%; ascent-override: 107.9%; descent-override: 35.3%; line-gap-override: 0%; }
+@font-face { font-family: "Inter Fallback"; font-weight: 400 600; src: local("Arial"); size-adjust: 106.6%; ascent-override: 91%; descent-override: 22.5%; line-gap-override: 0%; }
+@font-face { font-family: "Inter Fallback"; font-weight: 700; src: local("Arial Bold"); size-adjust: 102.4%; ascent-override: 94.7%; descent-override: 23.4%; line-gap-override: 0%; }
+
+$serif: "Source Serif 4", "Source Serif 4 Fallback", Georgia, Cambria, "Times New Roman", serif;
+$sans:  Inter, "Inter Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 $ink:    #242424;
 $muted:  #6b6b6b;
