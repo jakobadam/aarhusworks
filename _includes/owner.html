@@ -1,0 +1,12 @@
+{%- comment -%}
+  Sets `show_avatar` for include.post: true only when the post is written by
+  site.author_name, the portrait file exists, and the post has not opted out
+  with `hide_avatar: true`. Shared by the byline, the author card and the feed.
+{%- endcomment -%}
+{%- assign show_avatar = false -%}
+{%- assign avatar_file = site.static_files | where: "path", site.author_image | first -%}
+{%- if avatar_file and include.post.author and site.author_name and include.post.hide_avatar != true -%}
+  {%- if include.post.author contains site.author_name -%}
+    {%- assign show_avatar = true -%}
+  {%- endif -%}
+{%- endif -%}

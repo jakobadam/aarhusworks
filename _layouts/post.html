@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  {%- comment -%}
+    Posts that carry their own headline and masthead in the body (bilag 1's
+    timeline, for instance) set `hide_title: true`. The layout then adds no
+    header at all, so the page keeps exactly one <h1> and no byline floats
+    above the page's own masthead.
+  {%- endcomment -%}
+  {%- unless page.hide_title -%}
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    {%- if page.description -%}
+      <p class="post-subtitle">{{ page.description | escape }}</p>
+    {%- endif -%}
+    {%- include byline.html -%}
+  </header>
+  {%- endunless -%}
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- include owner.html post=page -%}
+  {%- if show_avatar -%}
+  <aside class="author-card">
+    <img class="author-card-avatar" src="{{ site.author_image | relative_url }}" alt="" width="64" height="64">
+    <div>
+      <p class="author-card-label">Skrevet af</p>
+      <p class="author-card-name">{{ site.author_name }}</p>
+      {%- if site.author_bio -%}<p class="author-card-bio">{{ site.author_bio }}</p>{%- endif -%}
+    </div>
+  </aside>
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <ul class="post-feed">
+      {%- for post in site.posts -%}
+        {%- assign teaser = post.description | default: post.excerpt | replace: "<", " <" | strip_html | normalize_whitespace | truncatewords: 32 -%}
+        {%- assign words = post.content | strip_html | number_of_words -%}
+        {%- assign minutes = words | divided_by: 230 | at_least: 1 -%}
+        {%- comment -%}
+          Thumbnail: `image:` in front matter if set (`image: false` for none),
+          otherwise the first <img> in the post.
+        {%- endcomment -%}
+        {%- assign thumb = nil -%}
+        {%- if post.image == false -%}
+        {%- elsif post.image -%}
+          {%- assign thumb = post.image | relative_url -%}
+        {%- elsif post.content contains "<img" -%}
+          {%- assign thumb = post.content | split: "<img" | slice: 1 | first | split: 'src="' | slice: 1 | first | split: '"' | first -%}
+        {%- endif -%}
+        {%- include owner.html post=post -%}
+        <li class="post-card">
+          <div class="post-card-main">
+            {%- if post.author -%}
+              <div class="post-card-author">
+                {%- if show_avatar -%}<img src="{{ site.author_image | relative_url }}" alt="" width="20" height="20">{%- endif -%}
+                <span>{{ post.author }}</span>
+              </div>
+            {%- endif -%}
+            <a class="post-card-link" href="{{ post.url | relative_url }}">
+              <h2 class="post-card-title">{{ post.title | escape }}</h2>
+              {%- if teaser != "" -%}<p class="post-card-teaser">{{ teaser }}</p>{%- endif -%}
+            </a>
+            <p class="post-card-meta">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{% include date-da.html date=post.date %}</time>
+              <span aria-hidden="true">·</span> {{ minutes }} min. læsning
+            </p>
+          </div>
+          {%- if thumb and thumb != "" -%}
+            <a href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true"><img class="post-card-thumb" src="{{ thumb }}" alt="" loading="lazy"></a>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">Følg via RSS</a></p>
+  {%- endif -%}
+</div>

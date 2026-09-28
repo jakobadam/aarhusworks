@@ -1,0 +1,7 @@
+{%- comment -%}
+  Danish date, e.g. "26. aug. 2026". Liquid's %b gives English month names.
+  Usage: {% include date-da.html date=page.date %}
+{%- endcomment -%}
+{%- assign m = include.date | date: "%-m" | minus: 1 -%}
+{%- assign months = "jan.,feb.,mar.,apr.,maj,jun.,jul.,aug.,sep.,okt.,nov.,dec." | split: "," -%}
+{{- include.date | date: "%-d" }}. {{ months[m] }} {{ include.date | date: "%Y" -}}

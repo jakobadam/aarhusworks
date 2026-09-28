@@ -1,0 +1,10 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="wrapper footer-inner">
+    <span class="p-name">{{ site.author_name | default: site.title | escape }}</span>
+    {%- if site.email -%}
+      <span aria-hidden="true">·</span> <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    {%- endif -%}
+    <span aria-hidden="true">·</span> <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+  </div>
+</footer>

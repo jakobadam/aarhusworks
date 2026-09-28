@@ -36,7 +36,9 @@ const stage = process.argv.includes('--stage');
 
 // ---------------------------------------------------------------- source
 
-const source = readFileSync(SOURCE, 'utf8');
+// Jekyll front matter (title only — no categories, see verify-anmodning) is
+// for the web page; marked would print it as a rule and a line of text.
+const source = readFileSync(SOURCE, 'utf8').replace(/^﻿?---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
 const isDraft = source.includes('[TODO:');
 
 // Passages the web page wants but the PDF must not carry — the link to this

@@ -2,6 +2,8 @@
 title: "Giber Ringvej: En tidslinje"
 author: Giber Ringvej Gruppen
 categories: vejstøj
+description: "Tre bindende VVM-vilkår — slørende beplantning, støjdæmpende vejbelægning og en pulje på ca. 20 mio. kr. — og hvad der siden er blevet af dem."
+hide_title: true   # siden har sin egen overskrift
 ---
 
 <style>
@@ -204,6 +206,10 @@ categories: vejstøj
 
   .tl-body {
     flex: 1;
+    /* Et flex-element er som standard mindst så bredt som sit indhold. Uden
+       dette tvinger tabellens min-width posten ud over skærmkanten på mobil;
+       tabellen scroller i stedet i sin egen .tl-tablewrap. */
+    min-width: 0;
     padding: 0.9rem 0 1.8rem 0;
     border-bottom: 1px solid #e5e5e5;
   }

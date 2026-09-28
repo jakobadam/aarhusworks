@@ -13,7 +13,7 @@ foretræde i Teknisk Udvalg den 4. juni 2025 [[slides fra foretræde]](/assets/h
 
 *Opdatering 5. juli 2025:* Rådmanden svarer i Stiften, [Jeg har selv Silkeborgvej udenfor mit soveværelse, men: Farten skal kun ned, hvor det giver mening](https://stiften.dk/debat/jeg-har-selv-silkeborgvej-udenfor-mit-sovevaerelse-men-farten-skal-kun-ned-hvor-det-giver-mening)
 
-# Konsekvenser ved at fastholde nuværende hastigheder
+## Konsekvenser ved at fastholde nuværende hastigheder
 
 Ved at beslutte at fastholde de nuværende skiltede hastighedsgrænser, går Aarhus Kommune glip af en række
 veldokumenterede fordele, som mange europæiske byer allerede har opnået gennem hastighedsnedsættelser:
@@ -32,7 +32,7 @@ Aarhus fravælger dermed et enkelt og billigt virkemiddel, der kan forbedre båd
 distancerer sig samtidig fra en række europæiske storbyer, fx København, London, Bruxelles, Amsterdam, Oslo, Paris,
 Helsinki m.fl., som med succes har gennemført lignende tiltag.
 
-# Baggrund for indstillingen
+## Baggrund for indstillingen
 
 Indstillingen om at fastholde nuværende hastighedsgrænser bygger primært på praktiske og organisatoriske hensyn. Den
 faglige analyse er udarbejdet af ekstern rådgiver, da forvaltningen aktuelt ikke har ressourcer til egne analyser eller
@@ -47,7 +47,7 @@ og kommende ny letbane osv.
 Datagrundlaget inkluderer desuden trafikmodeltal fra Gladsaxe, ikke Aarhus. Det har derfor i højere grad været et formål
 at minimere ressourceforbrug fremfor at finde de bedste løsninger for borgernes sundhed og klima.
 
-# Afsluttende bemærkning
+## Afsluttende bemærkning
 
 I lyset af ovenstående foreslås, at Byrådet formelt sløjfer ambitionen i Kommuneplanen om, at “støjgenerne minimeres, så
 alle borgere kan bo, arbejde og opholde sig i gode miljøer.”

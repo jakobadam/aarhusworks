@@ -1,0 +1,30 @@
+{%- comment -%}
+  Author line under a post title: portrait, name, reading time and date.
+
+  The portrait is shown only when the post is written by site.author_name and
+  the image file actually exists. Group documents (Giber Ringvej Gruppen alone,
+  or the Ankestyrelsen filing with no author) never get a personal photo.
+  A post can opt out explicitly with `hide_avatar: true`.
+{%- endcomment -%}
+{%- include owner.html post=page -%}
+{%- assign words = page.content | strip_html | number_of_words -%}
+{%- assign minutes = words | divided_by: 230 | at_least: 1 -%}
+<div class="byline">
+  {%- if show_avatar -%}
+    <img class="byline-avatar" src="{{ site.author_image | relative_url }}" alt="{{ site.author_name }}" width="44" height="44">
+  {%- endif -%}
+  <div class="byline-text">
+    {%- if page.author -%}
+      <span class="byline-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+    {%- endif -%}
+    <span class="byline-meta">
+      {{ minutes }} min. læsning <span aria-hidden="true">·</span>
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include date-da.html date=page.date %}</time>
+    </span>
+  </div>
+</div>
+
+<div class="post-actions">
+  <a href="mailto:?subject={{ page.title | url_encode }}&amp;body={{ page.url | absolute_url | url_encode }}">Del på mail</a>
+  <a href="{{ "/feed.xml" | relative_url }}">Følg via RSS</a>
+</div>

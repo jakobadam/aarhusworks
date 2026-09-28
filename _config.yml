@@ -20,6 +20,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aarhusworks.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  jakobadam
+lang: da
+
+# Byline. The portrait appears only on posts whose `author` contains
+# author_name, and only once the image file exists (see _includes/byline.html).
+author_name: Jakob Aarøe Dam
+author_image: /assets/profil.png
+author_bio: Talsperson for Giber Ringvej Gruppen. Skriver om vejstøj, trafik og kommunal forvaltning i Aarhus.
 
 # Build settings
 markdown: kramdown
@@ -28,14 +35,20 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Exclude from processing. Setting this list replaces Jekyll's defaults, so
+# they are repeated here. The rest is repository tooling that was being
+# published (aarhusworks.com/CLAUDE.html, /bin/, /package.json).
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CLAUDE.md
+  - README.md
+  - bin
+  - package.json
+  - package-lock.json
+  - serve-it.sh
