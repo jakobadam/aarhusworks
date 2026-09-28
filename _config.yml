@@ -26,7 +26,12 @@ lang: da
 # author_name, and only once the image file exists (see _includes/byline.html).
 author_name: Jakob Aarøe Dam
 author_image: /assets/profil.png
-author_bio: Talsperson for Giber Ringvej Gruppen. Skriver om vejstøj, trafik og kommunal forvaltning i Aarhus.
+# Bio in the author card, chosen by the post's category, or by `bio:` in the
+# post's front matter (which does not move its URL, unlike a category). A post
+# with neither gets `default`; leave that empty to show the name alone.
+author_bios:
+  vejstøj: Talsperson for Giber Ringvej Gruppen. Skriver om vejstøj, trafik og kommunal forvaltning i Aarhus.
+  default: ""
 
 # Build settings
 markdown: kramdown

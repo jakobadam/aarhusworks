@@ -30,7 +30,9 @@ layout: default
     <div>
       <p class="author-card-label">Skrevet af</p>
       <p class="author-card-name">{{ site.author_name }}</p>
-      {%- if site.author_bio -%}<p class="author-card-bio">{{ site.author_bio }}</p>{%- endif -%}
+      {%- assign bio_key = page.bio | default: page.categories.first | default: "default" -%}
+      {%- assign bio = site.author_bios[bio_key] | default: site.author_bios.default -%}
+      {%- if bio and bio != "" -%}<p class="author-card-bio">{{ bio }}</p>{%- endif -%}
     </div>
   </aside>
   {%- endif -%}

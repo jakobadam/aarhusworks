@@ -1,6 +1,7 @@
-﻿---
+---
 title: "Støj langs Giber Ringvej: Et modsvar til kommunen"
 author: Jakob Aarøe Dam
+bio: vejstøj
 ---
 
 _Opdateret 20. okt 2023 med, at linjeføring A kun var den mindst støjbelastende for et af støjintervallerne._
