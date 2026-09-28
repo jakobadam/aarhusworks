@@ -24,7 +24,7 @@ $sans:  Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica
 $ink:    #242424;
 $muted:  #6b6b6b;
 $rule:   #f2f2f2;
-$accent: #1a8917;   // Medium's green
+$accent: #e7131a;   // hover colour
 
 // minima variables, overridden before import
 $base-font-family: $serif;
@@ -312,6 +312,11 @@ a, a:hover, a:visited { color: inherit; }
 .post-card-author img { width: 20px; height: 20px; border-radius: 50%; object-fit: cover; }
 
 .post-card-link, .post-card-link:visited { text-decoration: none; display: block; color: inherit; }
+// minima underlines every link on hover; on the feed the title changes colour instead.
+.post-card-link:hover { text-decoration: none; }
+.post-card-link:hover .post-card-title,
+.post-card-link:focus-visible .post-card-title { color: $accent; }
+.post-card-title { transition: color 0.15s ease; }
 
 .post-card-title {
   font-family: $sans;
