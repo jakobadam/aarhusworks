@@ -183,8 +183,18 @@ a, a:hover, a:visited { color: inherit; }
 
   @media (max-width: $on-palm) { font-size: 18px; line-height: 28px; }
 
-  p:not([class]), ul:not([class]), ol:not([class]) { margin: 0 0 1.6em; }
-  li:not([class]) { margin-bottom: 0.5em; }
+  // Only paragraphs and lists written in markdown, i.e. direct children of the
+  // article (or of a blockquote / list item). Markup nested in a page's own
+  // components -- bilag 1's timeline -- keeps its own spacing.
+  > p, blockquote > p { margin: 0 0 1.6em; }
+  li > p { margin: 0 0 0.5em; }
+
+  > ul, > ol, blockquote > ul, blockquote > ol {
+    margin: 0 0 1.6em;
+    padding-left: 1.6em;
+  }
+  > ul > li, > ol > li, blockquote > ul > li, blockquote > ol > li { margin-bottom: 0.5em; padding-left: 0.2em; }
+  li > ul, li > ol { margin: 0.5em 0 0; padding-left: 1.4em; }
 
   h1:not([class]), h2:not([class]), h3:not([class]), h4:not([class]) {
     font-family: $sans;
