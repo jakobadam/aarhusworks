@@ -25,6 +25,8 @@ layout: default
         {%- elsif post.content contains "<img" -%}
           {%- assign thumb = post.content | split: "<img" | slice: 1 | first | split: 'src="' | slice: 1 | first | split: '"' | first -%}
         {%- endif -%}
+        {%- comment -%} Small copy made by bin/thumbs.cjs, if there is one. {%- endcomment -%}
+        {%- if thumb and site.data.thumbs[thumb] -%}{%- assign thumb = site.data.thumbs[thumb] | relative_url -%}{%- endif -%}
         {%- include owner.html post=post -%}
         <li class="post-card">
           <div class="post-card-main">
