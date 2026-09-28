@@ -9,10 +9,11 @@
 // reading a document here sends no request to a third party.
 //   Source Serif 4 — the successor of Source Serif Pro, Medium's body face
 //   Inter          — stands in for Medium's Söhne, which is not freely licensed
+// The upright Source Serif file is a variable font (weight axis), so one face
+// covers regular and bold.
 
-@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 400; font-display: optional; src: url("fonts/source-serif-4-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 200 900; font-display: optional; src: url("fonts/source-serif-4-400-normal.woff2") format("woff2"); }
 @font-face { font-family: "Source Serif 4"; font-style: italic; font-weight: 400; font-display: optional; src: url("fonts/source-serif-4-400-italic.woff2") format("woff2"); }
-@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 600 700; font-display: optional; src: url("fonts/source-serif-4-600-normal.woff2") format("woff2"); }
 @font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: optional; src: url("fonts/inter-400-normal.woff2") format("woff2"); }
 @font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: optional; src: url("fonts/inter-500-normal.woff2") format("woff2"); }
 @font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: optional; src: url("fonts/inter-600-normal.woff2") format("woff2"); }
