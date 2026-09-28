@@ -45,7 +45,8 @@ dem i så fald med [uafklaret].
 - 2024-12-20: Rambøll om differenskortet: "forsøgt lidt forskelligt, uden held". MTM svarer samme dag: "Jeg tænker godt de kan anvendes".
 - 2024-11-28: Rykker forvaltningen for svar vedr. faktatjek.
 - 2024-11: Rambøll tiltræder skriftligt i høringssvarsbesvarelsen, at mindst fire af de påberåbte tiltag ikke kan medregnes som støjtiltag. Forbeholdene når ikke frem i det officielle svar.
-- 2024-09-23: Foretræde til Støjhandlingsplanen. Loves faktatjek af støjvold + manglende træer.
+- 2024-09-25: Forvaltningen til Rambøll: "Teknisk Udvalg har derfor bedt os genbesøge den opgørelse med afsæt i borgerens påstande/spørgsmål." (aktindsigt-20-mio-mails/2024-09-25-mail-genbesoeg-af-opgoerelse-for-stoejtiltag.pdf)
+- 2024-09-23: Foretræde til Støjhandlingsplanen. Jesper Kjeldsen (S) — i dag rådmand — beder forvaltningen om et faktatjek af støjvold + manglende træer. [Kjeldsens rolle på mødet: uafklaret i kilderne; mailen af 25/9 nævner kun "Teknisk Udvalg".]
 - 2024-09-04 og 2024-09-20: MTM svarer om asfalten uden at angive nogen støjreduktion — kun beregningsmetode og belægningsbetegnelse.
 - 2024-06-26: GRG spørger, hvilken effekt af støjdæmpende asfalt der er regnet med i støjberegningerne.
 
