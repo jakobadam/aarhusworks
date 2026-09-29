@@ -2,18 +2,17 @@
 # Front matter tells Jekyll to process this file with Sass.
 ---
 
-// Medium's article register: a 680px column, Source Serif at 16/26 for the
+// Medium's article register: a 680px column, Roboto Serif at 16/26 for the
 // prose, a bold grotesque for titles and everything around the prose.
 //
 // Both faces are self-hosted from /assets/fonts (SIL Open Font License), so
 // reading a document here sends no request to a third party.
-//   Source Serif 4 — the successor of Source Serif Pro, Medium's body face
-//   Inter          — stands in for Medium's Söhne, which is not freely licensed
-// The upright Source Serif file is a variable font (weight axis), so one face
-// covers regular and bold.
+//   Roboto Serif — a wide newspaper serif drawn for screens, clear at 16px
+//   Inter        — stands in for Medium's Söhne, which is not freely licensed
 
-@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 200 900; font-display: optional; src: url("fonts/source-serif-4-400-normal.woff2") format("woff2"); }
-@font-face { font-family: "Source Serif 4"; font-style: italic; font-weight: 400; font-display: optional; src: url("fonts/source-serif-4-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Roboto Serif"; font-style: normal; font-weight: 400; font-display: optional; src: url("fonts/roboto-serif-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Roboto Serif"; font-style: italic; font-weight: 400; font-display: optional; src: url("fonts/roboto-serif-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Roboto Serif"; font-style: normal; font-weight: 600 700; font-display: optional; src: url("fonts/roboto-serif-700-normal.woff2") format("woff2"); }
 @font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: optional; src: url("fonts/inter-400-normal.woff2") format("woff2"); }
 @font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: optional; src: url("fonts/inter-500-normal.woff2") format("woff2"); }
 @font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: optional; src: url("fonts/inter-600-normal.woff2") format("woff2"); }
@@ -28,12 +27,12 @@
 // local fallback; scaled to the same width and vertical metrics it breaks
 // lines in the same places, so the text does not jump when the font swaps.
 // Values measured in Chromium against the woff2 files above.
-@font-face { font-family: "Source Serif 4 Fallback"; font-style: normal; src: local("Georgia"); size-adjust: 107.4%; ascent-override: 96.8%; descent-override: 31.6%; line-gap-override: 0%; }
-@font-face { font-family: "Source Serif 4 Fallback"; font-style: italic; src: local("Georgia Italic"); size-adjust: 96.4%; ascent-override: 107.9%; descent-override: 35.3%; line-gap-override: 0%; }
+@font-face { font-family: "Roboto Serif Fallback"; font-style: normal; src: local("Georgia"); size-adjust: 115.2%; ascent-override: 80.7%; descent-override: 20.8%; line-gap-override: 0%; }
+@font-face { font-family: "Roboto Serif Fallback"; font-style: italic; src: local("Georgia Italic"); size-adjust: 110.4%; ascent-override: 84.3%; descent-override: 21.7%; line-gap-override: 0%; }
 @font-face { font-family: "Inter Fallback"; font-weight: 400 600; src: local("Arial"); size-adjust: 106.6%; ascent-override: 91%; descent-override: 22.5%; line-gap-override: 0%; }
 @font-face { font-family: "Inter Fallback"; font-weight: 700; src: local("Arial Bold"); size-adjust: 102.4%; ascent-override: 94.7%; descent-override: 23.4%; line-gap-override: 0%; }
 
-$serif: "Source Serif 4", "Source Serif 4 Fallback", Georgia, Cambria, "Times New Roman", serif;
+$serif: "Roboto Serif", "Roboto Serif Fallback", Georgia, Cambria, "Times New Roman", serif;
 $sans:  Inter, "Inter Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 $ink:    #242424;
