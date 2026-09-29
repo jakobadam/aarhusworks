@@ -37,6 +37,7 @@
 @font-face { font-family: "Inter Fallback"; font-weight: 700; src: local("Arial Bold"); size-adjust: 102.4%; ascent-override: 94.7%; descent-override: 23.4%; line-gap-override: 0%; }
 
 $serif: "Roboto Serif", "Roboto Serif Fallback", Georgia, Cambria, "Times New Roman", serif;
+$display: "Source Serif 4", "Source Serif 4 Fallback", Georgia, serif;   // wordmark, feed titles
 $sans:  Inter, "Inter Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 $ink:    #242424;
@@ -98,7 +99,7 @@ a, a:hover, a:visited { color: inherit; }
 
 .site-title,
 .site-title:visited {
-  font-family: "Source Serif 4", "Source Serif 4 Fallback", Georgia, serif;
+  font-family: $display;
   font-size: 27px;
   font-weight: 700;
   letter-spacing: -0.03em;
@@ -350,11 +351,11 @@ a, a:hover, a:visited { color: inherit; }
 .post-card-title { transition: color 0.15s ease; }
 
 .post-card-title {
-  font-family: $sans;
+  font-family: $display;
   font-size: 28px;
   font-weight: 700;
   line-height: 34px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   margin: 0 0 6px;
   color: $ink;
 
