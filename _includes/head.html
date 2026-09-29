@@ -3,9 +3,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
-  {%- comment -%} The faces nearly every page uses (the wordmark, body text, titles), fetched alongside the CSS instead of after it. {%- endcomment -%}
+  {%- comment -%}
+    The faces the page draws, fetched alongside the CSS instead of after it:
+    the wordmark and titles on every page, Roboto Serif (body text) only on posts.
+  {%- endcomment -%}
+  {%- if page.layout == "post" %}
   <link rel="preload" href="{{ "/assets/fonts/roboto-serif-400-normal.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ "/assets/fonts/roboto-serif-400-italic.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "/assets/fonts/roboto-serif-700-normal.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
+  {%- endif %}
   <link rel="preload" href="{{ "/assets/fonts/source-serif-4-400-normal.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ "/assets/fonts/inter-700-normal.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ "/assets/fonts/inter-400-normal.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
