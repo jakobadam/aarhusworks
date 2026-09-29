@@ -2,7 +2,7 @@
 # Front matter tells Jekyll to process this file with Sass.
 ---
 
-// Medium's article register: a 680px column, Source Serif at 20/32 for the
+// Medium's article register: a 680px column, Source Serif at 16/26 for the
 // prose, a bold grotesque for titles and everything around the prose.
 //
 // Both faces are self-hosted from /assets/fonts (SIL Open Font License), so
@@ -43,7 +43,7 @@ $accent: #e7131a;   // hover colour
 
 // minima variables, overridden before import
 $base-font-family: $serif;
-$base-font-size:   20px;
+$base-font-size:   16px;
 $base-line-height: 1.6;
 $text-color:       $ink;
 $background-color: #ffffff;
@@ -196,12 +196,10 @@ a, a:hover, a:visited { color: inherit; }
 // own classes (bilag 1's timeline), while still beating minima's plain rules.
 
 .post-content {
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   letter-spacing: -0.003em;
   word-break: break-word;
-
-  @media (max-width: $on-palm) { font-size: 18px; line-height: 28px; }
 
   // Only paragraphs and lists written in markdown, i.e. direct children of the
   // article (or of a blockquote / list item). Markup nested in a page's own
@@ -223,9 +221,9 @@ a, a:hover, a:visited { color: inherit; }
     letter-spacing: -0.016em;
     margin: 1.95em 0 0.5em;
   }
-  h1:not([class]), h2:not([class]) { font-size: 24px; line-height: 30px; }
-  h3:not([class]) { font-size: 20px; line-height: 24px; }
-  h4:not([class]) { font-size: 18px; line-height: 24px; }
+  h1:not([class]), h2:not([class]) { font-size: 22px; line-height: 28px; }
+  h3:not([class]) { font-size: 18px; line-height: 24px; }
+  h4:not([class]) { font-size: 16px; line-height: 22px; }
 
   a:not([class]) { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
 
@@ -283,8 +281,8 @@ a, a:hover, a:visited { color: inherit; }
   table:not([class]) th { background: transparent; font-weight: 600; border-bottom: 2px solid $ink; text-align: left; }
   table:not([class]) tr:nth-child(even) { background: transparent; }
 
-  code { font-size: 16px; background: $rule; padding: 2px 4px; border: 0; border-radius: 3px; }
-  pre { font-size: 15px; background: #f9f9f9; border: 0; border-radius: 4px; padding: 20px; }
+  code { font-size: 14px; background: $rule; padding: 2px 4px; border: 0; border-radius: 3px; }
+  pre { font-size: 14px; background: #f9f9f9; border: 0; border-radius: 4px; padding: 20px; }
   pre code { background: none; padding: 0; }
 }
 
