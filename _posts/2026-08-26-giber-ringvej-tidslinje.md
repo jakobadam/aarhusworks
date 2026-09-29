@@ -7,8 +7,13 @@ hide_title: true   # siden har sin egen overskrift
 ---
 
 <style>
+  /* Samme skrifter som resten af sitet: Roboto Serif til teksten, Source
+     Serif til overskrifterne og Inter til etiketter, datoer og tabeller. */
   .timeline-wrap {
-    font-family: Georgia, 'Times New Roman', serif;
+    --tl-serif: "Roboto Serif", "Roboto Serif Fallback", Georgia, serif;
+    --tl-display: "Source Serif 4", "Source Serif 4 Fallback", Georgia, serif;
+    --tl-sans: Inter, "Inter Fallback", -apple-system, "Segoe UI", Arial, sans-serif;
+    font-family: var(--tl-serif);
     max-width: 720px;
     margin: 0 auto;
     color: #111;
@@ -24,7 +29,7 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .timeline-kicker {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.72rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -33,7 +38,7 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .timeline-headline {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: var(--tl-display);
     font-size: 2.6rem;
     font-weight: 900;
     line-height: 1.05;
@@ -82,7 +87,7 @@ hide_title: true   # siden har sin egen overskrift
 
   .track-nr {
     display: block;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.66rem;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -92,7 +97,7 @@ hide_title: true   # siden har sin egen overskrift
 
   .track-name {
     display: block;
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: var(--tl-display);
     font-size: 1.02rem;
     font-weight: 700;
     line-height: 1.2;
@@ -108,7 +113,7 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .track-status {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.78rem;
     line-height: 1.45;
     color: #111;
@@ -122,7 +127,7 @@ hide_title: true   # siden har sin egen overskrift
   /* --- Spormarkering på tidslinjeposter --- */
   .tl-spor {
     display: inline-block;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.6rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -168,7 +173,7 @@ hide_title: true   # siden har sin egen overskrift
 
   .tl-year {
     display: block;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 1.15rem;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -178,7 +183,7 @@ hide_title: true   # siden har sin egen overskrift
 
   .tl-month {
     display: block;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.68rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -219,7 +224,7 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .tl-tag {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.65rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -229,6 +234,7 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .tl-title {
+    font-family: var(--tl-display);
     font-size: 1.05rem;
     font-weight: 700;
     line-height: 1.25;
@@ -261,7 +267,7 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .tl-fig figcaption {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.72rem;
     line-height: 1.45;
     color: #777;
@@ -277,7 +283,7 @@ hide_title: true   # siden har sin egen overskrift
     border-collapse: collapse;
     width: 100%;
     min-width: 22rem;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.8rem;
     line-height: 1.4;
   }
@@ -317,7 +323,7 @@ hide_title: true   # siden har sin egen overskrift
     margin-top: 2.5rem;
     padding-top: 1rem;
     border-top: 3px solid #111;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.78rem;
     letter-spacing: 0.04em;
     color: #666;
@@ -388,7 +394,7 @@ hide_title: true   # siden har sin egen overskrift
   .track-nr a:hover { color: #c00; border-bottom-color: #c00; }
 
   .kladde-note {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-serif);   /* Inter har ingen kursiv her */
     font-size: 0.76rem;
     line-height: 1.5;
     font-style: italic;
@@ -451,7 +457,7 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .ovrige-title {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.72rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -479,7 +485,7 @@ hide_title: true   # siden har sin egen overskrift
   .ovrige .ovr-dato {
     display: inline-block;
     min-width: 5.4rem;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--tl-sans);
     font-size: 0.78rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
