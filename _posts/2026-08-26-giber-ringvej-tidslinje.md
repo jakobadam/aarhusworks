@@ -16,7 +16,7 @@ hide_title: true   # siden har sin egen overskrift
     font-family: var(--tl-serif);
     max-width: 720px;
     margin: 0 auto;
-    color: #111;
+    color: #242424;
   }
 
   /* Uden dette lægges padding og rammer oven i procentbredder,
@@ -30,7 +30,8 @@ hide_title: true   # siden har sin egen overskrift
 
   .timeline-kicker {
     font-family: var(--tl-sans);
-    font-size: 0.72rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #c00;
@@ -38,20 +39,21 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .timeline-headline {
-    font-family: var(--tl-display);
-    font-size: 2.6rem;
-    font-weight: 900;
-    line-height: 1.05;
-    margin: 0 0 0.5rem 0;
-    color: #111;
+    font-family: var(--tl-sans);
+    font-size: 2.625rem;
+    font-weight: 700;
+    line-height: 1.24;
+    letter-spacing: -0.016em;
+    margin: 0 0 1rem 0;
+    color: #242424;
   }
 
   .timeline-deck {
-    font-size: 1.1rem;
-    color: #444;
-    line-height: 1.55;
-    border-top: 3px solid #111;
-    border-bottom: 1px solid #ccc;
+    font-size: 1.125rem;
+    color: #242424;
+    line-height: 1.6;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
     padding: 0.9rem 0;
     margin-bottom: 2.5rem;
   }
@@ -77,7 +79,7 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .track {
-    border-top: 3px solid #111;
+    border-top: 3px solid #242424;
     padding-top: 0.7rem;
   }
 
@@ -88,35 +90,35 @@ hide_title: true   # siden har sin egen overskrift
   .track-nr {
     display: block;
     font-family: var(--tl-sans);
-    font-size: 0.66rem;
+    font-size: 0.75rem;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: #888;
+    color: #6b6b6b;
     margin-bottom: 0.2rem;
   }
 
   .track-name {
     display: block;
-    font-family: var(--tl-display);
-    font-size: 1.02rem;
+    font-family: var(--tl-sans);
+    font-size: 1.05rem;
     font-weight: 700;
     line-height: 1.2;
-    color: #111;
+    color: #242424;
     margin-bottom: 0.5rem;
   }
 
   .track-req {
-    font-size: 0.82rem;
+    font-size: 0.9375rem;
     line-height: 1.5;
-    color: #555;
+    color: #6b6b6b;
     margin: 0 0 0.6rem 0;
   }
 
   .track-status {
     font-family: var(--tl-sans);
-    font-size: 0.78rem;
+    font-size: 0.875rem;
     line-height: 1.45;
-    color: #111;
+    color: #242424;
     margin: 0;
     padding-top: 0.5rem;
     border-top: 1px solid #e5e5e5;
@@ -128,10 +130,10 @@ hide_title: true   # siden har sin egen overskrift
   .tl-spor {
     display: inline-block;
     font-family: var(--tl-sans);
-    font-size: 0.6rem;
+    font-size: 0.75rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: #666;
+    color: #6b6b6b;
     border-left: 3px solid #bbb;
     padding: 0.05rem 0 0.05rem 0.45rem;
     margin-bottom: 0.35rem;
@@ -155,7 +157,7 @@ hide_title: true   # siden har sin egen overskrift
     top: 0;
     bottom: 0;
     width: 2px;
-    background: #111;
+    background: #242424;
   }
 
   .tl-item {
@@ -177,17 +179,17 @@ hide_title: true   # siden har sin egen overskrift
     font-size: 1.15rem;
     font-weight: 700;
     letter-spacing: 0.02em;
-    color: #111;
+    color: #242424;
     line-height: 1;
   }
 
   .tl-month {
     display: block;
     font-family: var(--tl-sans);
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #888;
+    color: #6b6b6b;
     margin-top: 0.15rem;
   }
 
@@ -196,9 +198,9 @@ hide_title: true   # siden har sin egen overskrift
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #111;
+    background: #242424;
     border: 2px solid #fff;
-    box-shadow: 0 0 0 2px #111;
+    box-shadow: 0 0 0 2px #242424;
     margin-top: 1.35rem;
     position: relative;
     z-index: 1;
@@ -225,7 +227,7 @@ hide_title: true   # siden har sin egen overskrift
 
   .tl-tag {
     font-family: var(--tl-sans);
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: #c00;
@@ -234,24 +236,24 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .tl-title {
-    font-family: var(--tl-display);
-    font-size: 1.05rem;
+    font-family: var(--tl-sans);
+    font-size: 1.1rem;
     font-weight: 700;
     line-height: 1.25;
     margin: 0 0 0.4rem 0;
-    color: #111;
+    color: #242424;
   }
 
   .tl-text {
-    font-size: 0.9rem;
-    color: #444;
+    font-size: 1rem;
+    color: #242424;
     line-height: 1.6;
     margin: 0;
   }
 
   .tl-text em {
     font-style: italic;
-    color: #333;
+    color: #242424;
   }
 
   .tl-fig {
@@ -268,9 +270,9 @@ hide_title: true   # siden har sin egen overskrift
 
   .tl-fig figcaption {
     font-family: var(--tl-sans);
-    font-size: 0.72rem;
+    font-size: 0.875rem;
     line-height: 1.45;
-    color: #777;
+    color: #6b6b6b;
     margin-top: 0.45rem;
   }
 
@@ -297,11 +299,12 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .tl-table th {
-    font-size: 0.64rem;
+    background: transparent;   /* minimas graa hovedcelle giver for lav kontrast */
+    font-size: 0.75rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: #888;
-    border-bottom: 2px solid #111;
+    color: #6b6b6b;
+    border-bottom: 2px solid #242424;
   }
 
   .tl-table td.num,
@@ -312,9 +315,9 @@ hide_title: true   # siden har sin egen overskrift
 
   .tl-table tr.sum td {
     font-weight: 700;
-    color: #111;
+    color: #242424;
     border-bottom: none;
-    border-top: 2px solid #111;
+    border-top: 2px solid #242424;
   }
 
   .tl-table .nej { color: #c00; font-weight: 700; }
@@ -322,18 +325,18 @@ hide_title: true   # siden har sin egen overskrift
   .timeline-footer {
     margin-top: 2.5rem;
     padding-top: 1rem;
-    border-top: 3px solid #111;
+    border-top: 1px solid #e6e6e6;
     font-family: var(--tl-sans);
     font-size: 0.78rem;
     letter-spacing: 0.04em;
-    color: #666;
+    color: #6b6b6b;
   }
 
   /* --- Mobil --- */
   @media (max-width: 620px) {
     .timeline-wrap { padding: 0 0.9rem; }
 
-    .timeline-headline { font-size: 1.85rem; }
+    .timeline-headline { font-size: 2rem; line-height: 1.19; }
     .timeline-deck { font-size: 1rem; padding: 0.8rem 0; margin-bottom: 1.8rem; }
 
     /* Tidslinjen: streg helt til venstre, dato som etiket over teksten */
@@ -370,14 +373,14 @@ hide_title: true   # siden har sin egen overskrift
     }
 
     .tl-title { font-size: 1rem; }
-    .tl-text { font-size: 0.88rem; }
+    .tl-text { font-size: 1rem; }
 
     .tl-fig { margin: 0.9rem 0 0.2rem 0; }
   }
 
   /* Meget smalle skærme */
   @media (max-width: 380px) {
-    .timeline-headline { font-size: 1.6rem; }
+    .timeline-headline { font-size: 1.75rem; }
     .tl-body { padding-left: 1.3rem; }
 
   }
@@ -395,10 +398,10 @@ hide_title: true   # siden har sin egen overskrift
 
   .kladde-note {
     font-family: var(--tl-serif);   /* Inter har ingen kursiv her */
-    font-size: 0.76rem;
+    font-size: 0.875rem;
     line-height: 1.5;
     font-style: italic;
-    color: #888;
+    color: #6b6b6b;
     margin: 0 0 2.4rem 0;
   }
 
@@ -427,13 +430,13 @@ hide_title: true   # siden har sin egen overskrift
   .tl-item--slim .tl-title {
     font-size: 0.95rem;
     font-weight: 600;
-    color: #333;
+    color: #242424;
     margin-bottom: 0.25rem;
   }
-  .tl-item--slim .tl-text { font-size: 0.86rem; }
+  .tl-item--slim .tl-text { font-size: 0.9375rem; }
   .tl-item--slim .tl-dot {
     background: #fff;
-    box-shadow: 0 0 0 2px #999;
+    box-shadow: 0 0 0 2px #8c8c8c;
   }
 
   @media (max-width: 620px) {
@@ -451,14 +454,14 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .ovrige {
-    border-top: 3px solid #111;
+    border-top: 1px solid #e6e6e6;
     padding: 1.1rem 0 0 0;
     margin: 2.6rem 0 0 0;
   }
 
   .ovrige-title {
     font-family: var(--tl-sans);
-    font-size: 0.72rem;
+    font-size: 0.75rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #c00;
@@ -466,15 +469,15 @@ hide_title: true   # siden har sin egen overskrift
   }
 
   .ovrige-intro {
-    font-size: 0.9rem;
-    color: #555;
+    font-size: 0.9375rem;
+    color: #6b6b6b;
     margin: 0 0 1.1rem 0;
   }
 
   .ovrige ul { list-style: none; margin: 0; padding: 0; }
 
   .ovrige li {
-    font-size: 0.92rem;
+    font-size: 1rem;
     line-height: 1.5;
     padding: 0.45rem 0;
     border-bottom: 1px solid #e6e6e6;
@@ -489,7 +492,7 @@ hide_title: true   # siden har sin egen overskrift
     font-size: 0.78rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #888;
+    color: #6b6b6b;
   }
 
   @media (max-width: 640px) {
@@ -503,7 +506,24 @@ hide_title: true   # siden har sin egen overskrift
     padding-top: 1.1rem;
     border-top: 3px solid #c00;
   }
-</style>
+
+  /* --- Tilpasning til resten af sitet --- */
+  /* Flere afsnit i samme post skal have luft imellem, som i brødteksten */
+  .tl-text + .tl-text { margin-top: 0.8rem; }
+  /* minimas tabel har rammer om hver celle og grå striber; sitets tabeller har kun vandrette streger */
+  .tl-table th, .tl-table td { border: 0; border-bottom: 1px solid #e6e6e6; }
+  .tl-table th { border-bottom: 1px solid #242424; }
+  .tl-table tr.sum td { border-bottom: 0; border-top: 1px solid #242424; }
+  .tl-table { border: 0; color: #242424; }
+  .tl-table tr:nth-child(even) { background: transparent; }
+  /* Inter er bredere end Arial Narrow, saa "Efteraar 2022" skal kunne staa paa en linje */
+  /* Dato i egen kolonne, saa lange poster ikke brydes ind under datoen */
+  .ovrige li { position: relative; padding-left: 8rem; }
+  .ovrige .ovr-dato { position: absolute; left: 0; top: 0.6rem; min-width: 0; }
+  @media (max-width: 640px) {
+    .ovrige li { padding-left: 0; }
+    .ovrige .ovr-dato { position: static; }
+  }</style>
 
 <div class="timeline-wrap">
 
