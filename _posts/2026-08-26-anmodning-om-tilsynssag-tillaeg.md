@@ -28,6 +28,24 @@ Giber Ringvej Gruppen (GRG)
 
 *Dette tillæg hører til [afsnit 3.1](https://aarhusworks.com/2026/08/26/anmodning-om-tilsynssag.html#afsnit-3-1) om vilkår 7. Det gennemgår enkeltvis de poster, kommunen har opgjort som anvendelse af rammen på ca. 20 mio. kr.*
 
+<a id="tillaeg-kort"></a>
+
+## Kort fortalt
+
+Kommunens eneste regnskab for rammen er Rambølls notat af 9. maj 2023. Det opgør støjtiltag for 30,53 mio. kr., trækker det pligtige fra og når frem til 17,28 mio. kr. Gennemgangen viser for hver post:
+
+| Post | Beløb | Hvorfor posten ikke dokumenterer *supplerende* støjdæmpning | Afsnit |
+|---|---:|---|---|
+| Fradraget fra 30,53 til 17,28 mio. kr. | — | Regnet på vilkår i udkastets affattelse; 7,55 mio. kr. af fradraget svarer ikke til nogen post, og 2,72 mio. kr. af rammen er uforklaret | [Regnskabet](#tillaeg-regnskab) |
+| Længdeprofil (vejsænkninger) | 4,50 mio. kr. | Sænkningen syd om Mårslet var forudsat i VVM-grundlaget; sænkningen ved Enslev kalder rådgiveren selv en *"tracérings-mæssig konsekvens"* | [A](#tillaeg-a) |
+| 16 støjvolde | 18,50 mio. kr. | Rådgiveren har tiltrådt, at mindst fire af de påberåbte tiltag ikke kan medregnes; kommunens egne screeningsafgørelser henfører to anlæg til bortskaffelse af affald; prisen er ikke underbygget af mængder, og det er ikke oplyst, hvilken merudgift volde af overskudsjord har medført | [B](#tillaeg-b) |
+| Støjskærm og asfalt langs Landevejen | 5,70 mio. kr. | Pligtige efter vilkår 5 og 6, uanset puljen | [C](#tillaeg-c) |
+| Vejflytning mellem Oddervej og Beder Landevej | ikke opgjort | Begrundet med oversigtsforhold i krydset — trafiksikkerhed, ikke støj | [D](#tillaeg-d) |
+| Støttemur og KVS-belægningens merpris | 0,90 mio. kr. + ikke opgjort | Anlæg, projektet havde brug for af andre grunde; ingen støjmæssig merudgift udskilt | [E](#tillaeg-e) |
+| Støjkassetter på autoværn | 0,93 mio. kr. | Bestrides ikke | — |
+
+<a id="tillaeg-regnskab"></a>
+
 ## Kommunens regnskab for puljen
 
 Vilkår 7 kræver, at der *"suppleres med øget støjdæmpning"* inden for ca. 20 mio. kr. De to ord **suppleres** og **øget** afgør, hvad der kan tælle med: puljen skal betale for tiltag, der kommer *oven i* det, projektet i forvejen skyldte.
@@ -52,7 +70,11 @@ De 30,53 mio. kr. er altså ikke puljens forbrug. Beløbet omfatter både det pl
 
 > *"Hvis pkt. 8, 9 og 10 udgår, bliver det samlede beløb 17.280.000 kr."*
 
-Punkterne 8, 9 og 10 er ikke tilladelsens vilkår, men **udkastets** — nummereret og affattet som i det kommuneplantillæg, redegørelsen selv henviser til, jf. [bilag 58, s. 309–310](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/tillaeg-til-kommuneplan-2013.pdf#page=309) og [afsnit 4.3](https://aarhusworks.com/2026/08/26/anmodning-om-tilsynssag.html#afsnit-4-3). Redegørelsens fjerde række, nr. 11, gengiver derimod tilladelsens vilkår 7 ordret; det er alene de tre punkter, fradraget regnes på, der er udkastets. Meningen er, at det pligtige trækkes fra, og at resten er puljens. **Det gøres ikke gældende, at fradraget skulle have været mindre, eller at et andet beløb er det rigtige** — udkastets vilkår 10 om støjvolde ved Tranbjerg er ikke i modstrid med, at afskærmningen dér var pligtig efter tilladelsens vilkår 5. Det gøres gældende, at et fradrag, der er regnet på vilkår i en affattelse, kommunen aldrig meddelte, ikke kan efterprøves mod den afgørelse, den traf. Det er ikke afgørende, om et fradrag regnet mod tilladelsens vilkår 5 og 6 ville have givet samme beløb; det afgørende er, at kommunen ikke har foretaget den sammenholdelse, og at den ikke kan foretages ud fra notatet, som opgør posterne samlet og ikke enkeltvis.
+Meningen er, at det pligtige trækkes fra, og at resten er puljens. Men punkterne 8, 9 og 10 er ikke tilladelsens vilkår. De er **udkastets** — nummereret og affattet som i det kommuneplantillæg, redegørelsen selv henviser til, jf. [bilag 58, s. 309–310](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/tillaeg-til-kommuneplan-2013.pdf#page=309) og [afsnit 4.3](https://aarhusworks.com/2026/08/26/anmodning-om-tilsynssag.html#afsnit-4-3). Kun redegørelsens fjerde række, nr. 11, gengiver tilladelsens vilkår 7 ordret.
+
+**Det gøres ikke gældende, at fradraget skulle have været mindre, eller at et andet beløb er det rigtige.** Udkastets vilkår 10 om støjvolde ved Tranbjerg er ikke i modstrid med, at afskærmningen dér var pligtig efter tilladelsens vilkår 5.
+
+Det gøres gældende, at fradraget ikke kan efterprøves mod den afgørelse, kommunen traf, fordi det er regnet på vilkår i en affattelse, kommunen aldrig meddelte. Det er ikke afgørende, om et fradrag regnet mod tilladelsens vilkår 5 og 6 ville have givet samme beløb. Det afgørende er, at kommunen ikke har foretaget den sammenholdelse, og at den ikke kan foretages ud fra notatet, som opgør posterne samlet og ikke enkeltvis.
 
 **Men fradraget kan ikke følges.** Differencen er 13,25 mio. kr. Af den svarer 5,70 mio. kr. til to navngivne poster i skemaet: støjskærmen og asfalten langs Landevejen. **De resterende 7,55 mio. kr. svarer ikke til nogen post.** Beløbet kan alene være taget fra posten "Støjvolde", men notatet oplyser hverken hvor stor en del af de 18,5 mio. kr., hvilke af de 16 volde det angår, eller efter hvilket kriterium.
 
@@ -68,7 +90,7 @@ Det er dette regnskab — ét notat, to totaler og et fradrag, der ikke kan efte
 
 Puljeopgørelsen omfatter to adskilte vejsænkninger — én syd om Mårslet og én sydøst for Enslev — som behandles hver for sig nedenfor.
 
-**Mårslet-sænkningen**
+### Sænkningen syd om Mårslet
 
 VVM-redegørelsen omtaler udtrykkeligt sænkningen af vejen, jf. [bilag 19](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=39) (s. 39): *"Bering-Beder vejen er af støjmæssige og visuelle hensyn sænket på strækningen syd om Mårslet."* Sænkningen var dermed forudsat allerede i VVM-grundlaget og udgør en del af basisprojektet. Ikke desto mindre fremlagde forvaltningen i 2025 et differenskort til støtte for, at sænkningen skulle have en "supplerende" karakter, og posten indgår fortsat i forvaltningens opgørelse over puljens anvendelse.
 
@@ -80,7 +102,7 @@ Betragtningen kan ikke begrunde, at sænkningen medregnes under puljen. En terr�
 
 Det følger direkte af vilkårets eget beslutningsgrundlag. Byrådsbeslutningen af 14. september 2016 sondrer udtrykkeligt mellem det, der *fastholdes* fra VVM-materialet, og det, der *suppleres* med inden for rammen — og henfører netop længdeprofil-dispositioner til den første kategori: *"At det i VVM-en skitserede længdeprofil ved Giber Å fastholdes"*, jf. [bilag 37, s. 2](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=2). En sænkning, der er skitseret i VVM-materialet, er efter beslutningens egen systematik noget, der fastholdes — ikke noget, rammen på de ca. 20 mio. kr. skulle betale for. Rambøll har desuden ikke fremlagt nogen selvstændig omkostningsopgørelse for, hvilken andel af de ca. 20 mio. kr. Mårslet-sænkningen skulle have lagt beslag på. Så længe en post, der er født i VVM-grundlaget, medregnes som supplerende støjdæmpning uden dokumentation, kan puljens anvendelse ikke anses for godtgjort.
 
-**Sænkningen sydøst for Enslev — en selvstændigt prissat post**
+### Sænkningen sydøst for Enslev — en selvstændigt prissat post
 
 Ud over Mårslet-sænkningen indgår der i puljeopgørelsen en anden, adskilt post: sænkningen af vejens længdeprofil sydøst for Enslev, mellem Enslevvej og Landevejen. Strækningen er samtidig genstand for en dokumenteret linjeføringsjustering: VVM-tilpasningerne af 2019, jf. [bilag 10b, s. 6](https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf#page=6), beskriver en *"justering af linjeføringen mellem Enslevvej og Landevejen"*, hvor linjeføringen flyttes op til 25 m mod syd.
 
@@ -94,7 +116,9 @@ Rambøll fremlægger dermed selv en skriftlig, utvetydig karakteristik af, at en
 
 ## B) Jordvoldene — en for en
 
-Målestokken for gennemgangen nedenfor er ikke GRGs egen — det er Rambølls. Redegørelse 1 fastslår selv den retlige standard for, hvornår et jordarbejde kan medregnes som et støjtiltag, jf. [bilag 2](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4) (s. 4): *"I forbindelse med etablering af en støjvold skal der udarbejdes en VVM-screening, og der skal søges en landzonetilladelse. (...) Det betyder, at en støjvold skal have en dokumenteret støjdæmpende effekt, ellers kan der ikke opnås tilladelser til at etablere støjvolden."* **Forvaltningen har gjort standarden til sin egen.** Teknik og Miljø gentog passagen ordret i sit samlede svar til GRG af 13. oktober 2023, jf. [bilag 34, s. 2](https://aarhusworks.com/assets/giber-ringvej/2023-10-13-mtm-svar-til-giber-ringvej-gruppen.pdf#page=2). Målestokken er dermed ikke alene rådgiverens, men myndighedens egen skriftlige retsopfattelse.
+Målestokken for gennemgangen nedenfor er ikke GRGs egen — det er Rambølls. Redegørelse 1 fastslår selv den retlige standard for, hvornår et jordarbejde kan medregnes som et støjtiltag, jf. [bilag 2](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4) (s. 4): *"I forbindelse med etablering af en støjvold skal der udarbejdes en VVM-screening, og der skal søges en landzonetilladelse. (...) Det betyder, at en støjvold skal have en dokumenteret støjdæmpende effekt, ellers kan der ikke opnås tilladelser til at etablere støjvolden."*
+
+**Forvaltningen har gjort standarden til sin egen.** Teknik og Miljø gentog passagen ordret i sit samlede svar til GRG af 13. oktober 2023, jf. [bilag 34, s. 2](https://aarhusworks.com/assets/giber-ringvej/2023-10-13-mtm-svar-til-giber-ringvej-gruppen.pdf#page=2). Målestokken er dermed ikke alene rådgiverens, men myndighedens egen skriftlige retsopfattelse.
 
 **Og begge dokumenter oplyser, at dokumentationen findes.** Umiddelbart efter den citerede passage anføres — enslydende i [bilag 2, s. 4](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4) og [bilag 34, s. 2](https://aarhusworks.com/assets/giber-ringvej/2023-10-13-mtm-svar-til-giber-ringvej-gruppen.pdf#page=2): *"Dette er udført for de støjvolde, som er etableret i forbindelse med projektet for Giber Ringvej."* Kommunen har altså skriftligt oplyst, at der for hver etableret støjvold foreligger **både en VVM-screening og en landzonetilladelse** — og at en vold kun kan tillades, hvis dens støjdæmpende effekt er dokumenteret. Det er vanskeligt at forene med, at kommunen fire gange har oplyst, at en opgørelse over rammens anvendelse ikke kan udarbejdes ([afsnit 3.1](https://aarhusworks.com/2026/08/26/anmodning-om-tilsynssag.html#afsnit-3-1)): de dokumenter, der for hvert anlæg ville vise formål og dokumenteret virkning, findes efter myndighedens eget udsagn.
 
@@ -105,6 +129,8 @@ Rambøll har vurderet, at der er etableret 16 støjvolde. MTM har erkendt, jf. [
 > *"Her er det korrekt, at det var misvisende, at det fremgik, at der var etableret 16 støjvolde, da ikke alle jorddepoterne er anlagt som deciderede støjvolde. **Det betyder dog ikke, at de ikke kan have en støjdæmpende effekt.**"*
 
 Forbeholdet i sidste punktum gengives med, fordi det er kommunens egen. Det ændrer ikke erkendelsen: at et jorddepot *kan* have en effekt, er ikke det samme som, at det er anlagt som støjtiltag — og det er ikke den *dokumenterede* effekt, rådgiveren selv opstiller som betingelse (jf. ovenfor). Forholdet uddybes nedenfor under "Kommunens forsvar rækker ikke".
+
+### B1–B4) Fire volde, som efter kommunens egne dokumenter ikke er støjtiltag
 
 I sin skriftlige besvarelse af GRGs høringssvar (november 2024), jf. [bilag 22, s. 5–6](https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf#page=5), har Rambøll for mindst fire af de påberåbte tiltag tiltrådt, at de ikke kan medregnes som støjtiltag — men **ingen af disse forbehold fremgår af det sammenfattende notat**, der efterfølgende er fremsendt til GRG:
 
@@ -117,9 +143,24 @@ I sin skriftlige besvarelse af GRGs høringssvar (november 2024), jf. [bilag 22,
 
 Marts 2026-tilkendegivelserne fremgår af [bilag 16c, s. 3](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=3). Ingen af forbeholdene er gengivet i det sammenfattende notat, kommunen fremsendte som sit officielle svar.
 
+<figure>
+  <img src="https://aarhusworks.com/assets/giber-ringvej/tillaeg-kort/b1-letbanen.jpg" alt="Kortudsnit ved Oddervej og letbanen i Beder med tre røde arealer langs vejen.">
+  <figcaption><strong>B1, Letbane-volden</strong> — udsnit af <a href="https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf">bilag 61</a> ved Oddervej og letbanen (Bro nr. 16), hvor GRGs høringssvar udpegede volden (<a href="https://aarhusworks.com/assets/giber-ringvej/2024-11-h%C3%B8ringssvar-2-aak-2024-v4-med-besvarelse-fra-Ramb%C3%B8ll.pdf#page=4">bilag 22, s. 4</a>). Kortet navngiver ikke de røde arealer og angiver ikke, hvilket af dem der er letbanevolden.</figcaption>
+</figure>
+
 **B2 hører efter rådgiverens egen forklaring til basisprojektet.** Et anlæg, der er *"en del af projektet for at skabe adgang til ejendomme"*, er hverken supplerende eller øget støjdæmpning; det er en del af det, byrådsbeslutningen betegner som det, der *fastholdes*. Der gøres ikke gældende noget om anlæggets lovlighed i øvrigt.
 
+<figure>
+  <img src="https://aarhusworks.com/assets/giber-ringvej/tillaeg-kort/b2-mustrupvej.jpg" alt="Kortudsnit ved vejoverføringen ved Mustrupvej med et smalt rødt areal syd for vejen, påtegnet 1740 m².">
+  <figcaption><strong>B2, Mustrupvej-volden</strong> — udsnit af <a href="https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf">bilag 61</a> ved vejoverføringen ved Mustrupvej (Bro nr. 13). Det røde areal syd for vejen er påtegnet 1740 m².</figcaption>
+</figure>
+
 **B3 er godkendt med en begrundelse, der ikke angår støj.** Anlægget ved Testrup Højskole er meddelt landzonetilladelse den 24. marts 2021 til *"etablering af bakker ved Testrup Højskole på Tingskovvej 12"*. Efter det for GRG oplyste nævner tilladelsen ikke støj, men begrunder med udsynet: *"Vi har herudover lagt vægt på, at bakkerne/volden vil medvirke til, at der fra højskolen ikke er direkte udsigt til Beder-Bering vejen."* Det svarer til Rambølls senere tilkendegivelse om samme anlæg: *"Den er ikke anlagt som støjvold."*
+
+<figure>
+  <img src="https://aarhusworks.com/assets/giber-ringvej/tillaeg-kort/b3-testrup.jpg" alt="Kortudsnit ved Testrup og Testrupvej med to røde, buede arealer syd for vejen.">
+  <figcaption><strong>B3, Testrup-volden</strong> — udsnit af <a href="https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf">bilag 61</a> ved Testrup, hvor kortet markerer to røde arealer syd for vejen.</figcaption>
+</figure>
 
 Forholdet er forelagt forvaltningen som spørgsmål C4 i afklaringsnotat 2 af 8. april 2026 — *"jordvoldene er godkendt med henblik på at afskærme udsynet til vejen (visuel afskærmning, ikke støj). Er volden et støjtiltag?"* — jf. [bilag 12, s. 4](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf#page=4). Spørgsmålet er ikke besvaret.
 
@@ -133,52 +174,54 @@ Forholdet er forelagt forvaltningen som spørgsmål C4 i afklaringsnotat 2 af 8.
 
 Landzonetilladelsen dagen efter nævner slet ikke støj, men alene *"visuel afskærmning"*, jf. [bilag 6, s. 1](https://aarhusworks.com/assets/giber-ringvej/2022-landzonetilladelse-deponivold.pdf#page=1). At samme anlæg godt et år senere optræder som ét af "16 støjvolde" i puljeopgørelsen — uden at nogen faktisk omstændighed ved det er ændret — modsiger kommunens egen samtidige, skriftlige afgørelse.
 
+<figure>
+  <img src="https://aarhusworks.com/assets/giber-ringvej/tillaeg-kort/b4-koelsmosevej.jpg" alt="Kortudsnit ved Kølsmosevej og Ingerslevvej med et rødt areal nord for vejen, påtegnet 7650 m², og et større rødt areal syd for vejen, påtegnet 17140 m².">
+  <figcaption><strong>B4, Kølsmosevej/Ingerslevvej</strong> — udsnit af <a href="https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf">bilag 61</a>. Screeningsafgørelsen angår volden syd for vejen, som efter afgørelsen dækker 17.200 m². Kortet påtegner arealet syd for vejen 17140 m². Det røde areal nord for vejen (7650 m²) er et andet anlæg.</figcaption>
+</figure>
+
 **Og det er ikke et enkeltstående tilfælde.** Knap otte måneder senere traf kommunen en tilsvarende afgørelse om en jordvold øst for Nymarksvej i Mårslet ([B6](#tillaeg-b6) nedenfor). **De to screeningsafgørelser er de eneste, kommunen har fremlagt, og begge fastslår, at anlægget ikke indgik i vilkår 7.**
 
 **Kommunens forsvar rækker ikke.** Over for disse erkendelser gøres gældende, at voldene uanset kvalifikation har en virkning: *"Enhver vold placeret mellem et givent punkt og en støjkilde vil have en effekt"*, jf. [bilag 16d, s. 1](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-Bilag2b-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2_Kommenteret.pdf#page=1); tilsvarende på mødet 8. april 2026, *"at en jordvold altid har en effekt"*, jf. [bilag 14](https://aarhusworks.com/assets/giber-ringvej/2026-04-referat-GRG-og-MTM.txt). Men en teoretisk mulig effekt er ikke den *dokumenterede* effekt, Rambøll selv opstiller som kravet. Lægges betragtningen til grund, kan ethvert jordarbejde langs vejen medregnes under vilkår 7, og vilkåret mister sit selvstændige indhold.
 
 <a id="tillaeg-b5"></a>
 
-## B5) Nymarks Allé — supplerende støjdæmpning eller nyttiggørelse af overskudsjord?
+### B5) Nymarks Allé — godkendt som støjvold, forklaret som landskab
 
-Her er problemet af en anden art end ved B1–B4. Rambøll beskriver i sit notat af 25. marts 2026, jf. [bilag 16a](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4) (s. 4), tiltaget således: *"Støjtiltagene der er udført på nordsiden af Giber Ringvej mellem Tandervej og Nymarksvej, er udført som dyrkningsskråninger med en flad hældning på 1:10. Formålet er netop at de ikke er synlige i landskabet, i overensstemmelse med anbefalingerne i VVM-rapporten. (Afsnit 17.1.1 Afværge og overvågningstiltag, Landskab s 244 i originalt dokument)"* Det bestrides ikke, at skråningen er anlagt. Det bestrides heller ikke, at en støjvold hensigtsmæssigt kan udformes med flade skråninger, så arealet efterfølgende kan dyrkes — en sådan udformning tjener netop tillige vilkår 2's krav om landskabelig tilpasning, og udformningen er ikke i sig selv et problem. Anlægget er da også i sin tid ansøgt og godkendt netop som en støjvold. Rambøll ansøgte den 1. maj 2019 på Aarhus Kommunes vegne om landzonetilladelse til *"en støjvold Mellem Tandervej og Nymarksved ved Mårslet"*, jf. [bilag 32, s. 5](https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=5). Tilladelsen gengiver ansøgningens beskrivelse af anlægget, jf. [bilag 32, s. 1](https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=1):
+Langs nordsiden af vejen mellem Tandervej og Nymarksvej er jorden hævet ca. 1 meter over terræn på en strækning af ca. 750 meter. Kommunen har givet to forskellige forklaringer på, hvad anlægget er.
+
+<figure>
+  <img src="https://aarhusworks.com/assets/giber-ringvej/tillaeg-kort/b5-nymarks-alle.jpg" alt="Kortudsnit mellem Tandervej og Nymarksvej med et langt, smalt rødt areal nord for vejen, påtegnet 18210 m².">
+  <figcaption><strong>B5, Nymarks Allé</strong> — udsnit af <a href="https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf">bilag 61</a> mellem Tandervej og Nymarksvej. Det lange røde areal nord for vejen er påtegnet 18210 m².</figcaption>
+</figure>
+
+**I 2019 blev det ansøgt og godkendt som støjvold.** Rambøll ansøgte den 1. maj 2019 på Aarhus Kommunes vegne om landzonetilladelse til *"en støjvold Mellem Tandervej og Nymarksved ved Mårslet"*, jf. [bilag 32, s. 5](https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=5). Tilladelsen gengiver ansøgningens beskrivelse af anlægget, jf. [bilag 32, s. 1](https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=1):
 
 > *"Den samlede støjvold er ca. 750 meter lang, 3-6 meter bred fra skråningskant til top, og placeres 2-12 meter nord for Bering-Beder Vejen. Støjvolden etableres med en 2 meter bred top (kronebredde), 1 meter over terræn og med et skråningsanlæg 1:2 mod Bering-Beder Vejen og et skråningsanlæg 1:10 på bagsiden."*
 
 Kommunen meddelte tilladelsen den 27. maj 2019 og lagde herved udtrykkeligt vægt på støjhensynet. Formålet angives som *"at begrænse støjpåvirkningen af omkringliggende ejendomme"*, og i begrundelsen anføres, *"at der er tale om en støjvold, der nedbringer støjen fra vejanlægget på de nærliggende bebyggelser."* At der er tale om samme anlæg, fremgår af ansøgningens Figur 1, hvor volden er indtegnet langs sydsiden af boligbebyggelsen ved Nymarks Allé fra Tandervej til Nymarksvej — samme strækning og samme skråningsanlæg 1:10, som Rambøll i 2026 betegner dyrkningsskråninger.
 
-Tilladelsen fastlægger dermed anlæggets omfang og mål og dokumenterer, at kommunen i 2019 selv betragtede det som en støjvold. Det gøres ikke gældende, at anlægget er uden støjmæssig virkning, eller at dets udformning er kritisabel.
+**I 2026 forklares det som landskab.** Rambøll beskriver i sit notat af 25. marts 2026 samme anlæg således, jf. [bilag 16a, s. 4](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4): *"Støjtiltagene der er udført på nordsiden af Giber Ringvej mellem Tandervej og Nymarksvej, er udført som dyrkningsskråninger med en flad hældning på 1:10. Formålet er netop at de ikke er synlige i landskabet, i overensstemmelse med anbefalingerne i VVM-rapporten. (Afsnit 17.1.1 Afværge og overvågningstiltag, Landskab s 244 i originalt dokument)"*
 
-**Sammenholdt med det, rammen var beregnet på.** Den foranstaltning, COWI prissatte for Mårslet, og som indgår i de ca. 20 mio. kr., adskiller sig markant fra det udførte:
+Samme sted oplyser rådgiveren, at udformningen blev valgt frem for en højere vold: *"De berørte borgere i Mårslet ønskede ikke en udformning af de støjreducerende tiltag der reducerede udsigten mod syd over markerne. De ønskede heller ikke en vold udformet med ensartet højde over vejbanen, da det ville give et teknisk og unaturligt udtryk, selvom den støjreducerende effekt ville have været højere."* Efter rådgiverens egen forklaring er anlægget altså udformet efter landskabelige hensyn og med en lavere støjdæmpning end den, der kunne være opnået.
 
-| | COWI, 1. august 2016 ([bilag 42](https://aarhusworks.com/assets/giber-ringvej/2016-08-cowi-trafikstoej.pdf)) | Udført ved Nymarks Allé |
-|---|---|---|
-| Type | Støjskærm | Jordvold / dyrkningsskråning |
-| Højde | **4 m** | **1 m** over terræn |
-| Længde | 450 m | ca. 750 m |
-| Beregnet effekt | −2,5 dB | ikke opgjort |
-| Pris | 3,1 mio. kr. | ikke udskilt |
-| Formål | supplerende støjdæmpning | *"netop at de ikke er synlige i landskabet"* |
+**Det, der bestrides.** Det bestrides ikke, at anlægget er etableret, at det har en vis støjmæssig virkning, eller at en støjvold hensigtsmæssigt kan udformes med flade skråninger, så arealet efterfølgende kan dyrkes — en sådan udformning tjener netop tillige vilkår 2's krav om landskabelig tilpasning. Spørgsmålet er ikke, hvad anlægget kaldes, men om det er dokumenteret som den **supplerende** ("øgede") støjdæmpning, vilkår 7 kræver. Det er det ikke:
 
-Det gøres ikke gældende, at kommunen var bundet til at opføre præcis den skærm, COWI beskrev; detailprojekteringen kan lovligt vælge en anden løsning. **Det gøres gældende, at kommunen aldrig har oplyst, hvad der trådte i stedet for den — eller med hvilken virkning.** Hverken placeringen af den forudsatte foranstaltning, den valgte løsning, dens støjreduktion eller dens træk på rammen er oplyst (jf. [afsnit 3.1](https://aarhusworks.com/2026/08/26/anmodning-om-tilsynssag.html#afsnit-3-1)).
+* **Hverken pris eller virkning er udskilt.** Anlægget indgår i opgørelsen over rammens anvendelse som en af de volde, der samlet er prissat til 18,5 mio. kr. Hvor stor en del af beløbet det udgør, og hvor meget det dæmper, er ikke oplyst.
+* **Virkningen falder ikke ved boligerne.** Effektkortet, jf. [bilag 10c](https://aarhusworks.com/assets/giber-ringvej/2019-08-effekt-af-tiltag.pdf), viser, at den beregnede effekt i altovervejende grad falder på åbent land, og at skråningen er anlagt, hvor vejen i forvejen er ført ned i terrænet og dermed allerede afskærmet. Boligbebyggelsen længere mod vest — mellem Tandervej og Mustrupvej, hvor vejen ligger hævet — er ikke tilgodeset. Vilkår 7 kræver netop *"øget støjdæmpning ved **boliger** ... ved Mårslet"*. Indvendingen angår tiltagets **placering**, ikke størrelsen af dets virkning.
+* **Borgerdialogen er ikke dokumenteret.** Der ses ikke fremlagt journaliseret dokumentation for, hvilke borgere der blev hørt, hvornår dialogen fandt sted, hvilket mandat de pågældende havde, eller hvordan ønsket blev afvejet over for vilkår 7's krav. En lokal dialog kan ikke i sig selv dokumentere, at et bindende VVM-vilkår er opfyldt eller lovligt fraveget.
 
-Spørgsmålet er derfor ikke, hvad anlægget kaldes, men om det udgør den **supplerende** ("øgede") støjdæmpning, vilkår 7 kræver — eller om der er tale om en hensigtsmæssig placering af overskudsjord, som tillige har en støjmæssig virkning. To forhold taler for det sidste: den beregnede virkning, som kommunens eget effektkort opgør, jf. nedenfor om tiltagets placering, og rådgiverens egen angivelse af formålet — *"netop at de ikke er synlige i landskabet"*. Om den forklaring, kommunen har afgivet over for domstolen, se [B6](#tillaeg-b6); den angår et andet anlæg.
-
-Rambøll henviser desuden til, at *"De berørte borgere i Mårslet ønskede ikke en udformning af de støjreducerende tiltag der reducerede udsigten mod syd over markerne"*, jf. [bilag 16a](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4) (s. 4). Der ses imidlertid ikke fremlagt journaliseret dokumentation for, hvilke borgere der blev hørt, hvornår dialogen fandt sted, hvilket mandat de pågældende havde, eller hvordan ønsket blev afvejet over for vilkår 7's krav om *"øget støjdæmpning ved boliger ... ved Mårslet"*. En lokal dialog kan ikke i sig selv dokumentere, at et bindende VVM-vilkår er opfyldt eller lovligt fraveget.
-
-**Tiltagets placering er vanskeligt forenelig med vilkårets formål.** Effektkortet, jf. [bilag 10c](https://aarhusworks.com/assets/giber-ringvej/2019-08-effekt-af-tiltag.pdf), viser, at den beregnede effekt i altovervejende grad falder på åbent land, og at skråningen er anlagt, hvor vejen i forvejen er ført ned i terrænet og dermed allerede afskærmet. Boligbebyggelsen længere mod vest — mellem Tandervej og Mustrupvej, hvor vejen ligger hævet — er ikke tilgodeset. Vilkår 7 kræver netop *"øget støjdæmpning ved **boliger** ... ved Mårslet"*. Det gøres ikke gældende, at beslutningsgrundlaget fastlagde en bestemt placering — COWI-notatet angiver ingen stationering. Indvendingen angår tiltagets **placering**, ikke størrelsen af dets virkning.
-
-**Det er tillige den strækning, hvor kommunen lod måle.** Den 9. maj 2023 gav forvaltningen grønt lys til støjmålinger *"snarest muligt"* ved en række navngivne adresser, jf. [bilag 21](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-05-09-mail-re-stoejmaaler-ved-giber-ringvej.pdf). To af dem — **Mustrupvej 55** og **Damgårdstoften 65** — ligger på den strækning i Mårslet, hvor der ikke er udført støjdæmpende tiltag, og hvor beslutningsgrundlaget prissatte en 4 meter høj skærm i 450 meters længde. Ved Damgårdstoften 65 blev den højeste af de ti værdier målt ([afsnit 3.1](https://aarhusworks.com/2026/08/26/anmodning-om-tilsynssag.html#afsnit-3-1)). Det gøres ikke gældende, at kommunen herved har truffet nogen afgørelse om behovet; målingerne blev foretaget hos de beboere, der havde henvendt sig.
-
-GRG bestrider ikke, at anlægget er etableret, eller at terrænet er hævet som beskrevet af rådgiveren. Det ændrer imidlertid ikke ved den retlige vurdering: et tiltag med en hældning på 1:10, hvis erklærede formål er visuel usynlighed, hører under vilkår 2 (landskab) — ikke under den supplerende støjdæmpning i vilkår 7.
-
-**Om dette anlæg foreligger der dermed to forklaringer.** Over for GRG: *dyrkningsskråninger*, hvis formål *"netop er at de ikke er synlige i landskabet"*. Og i opgørelsen over rammens anvendelse: en af de volde, der samlet er prissat til 18,5 mio. kr. som supplerende støjdæmpning efter vilkår 7. De to forklaringer er vanskeligt forenelige, og kommunen har ikke udskilt, hvad der ved dette anlæg skulle udgøre den supplerende indsats. Om den vold, kommunen over for retten har forklaret sig om, se [B6](#tillaeg-b6).
+**Tre fremstillinger af samme anlæg.** Over for landzonemyndigheden i 2019: en støjvold, der *"nedbringer støjen fra vejanlægget på de nærliggende bebyggelser"*. Over for GRG i 2026: dyrkningsskråninger, hvis formål *"netop er at de ikke er synlige i landskabet"*. Og i opgørelsen over rammens anvendelse: supplerende støjdæmpning efter vilkår 7. Fremstillingerne er ikke forligt, og kommunen har ikke udskilt, hvad der ved dette anlæg skulle udgøre den supplerende indsats.
 
 <a id="tillaeg-b6"></a>
 
-## B6) Jordvolden øst for Nymarksvej — kommunens egen afgørelse
+### B6) Jordvolden øst for Nymarksvej — kommunens egen afgørelse
 
 Dette anlæg er et andet end B5. Det ligger **øst for Nymarksvej**, på matr. 22b Mårslet By, og er efter kommunens egen afgørelse *"på ca. 19.000 m3"* med *"en højde på ca. 5m ift. Giber Ringvej"*, jf. [bilag 59, s. 2](https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=2). Afgørelsen angiver anlæggets matrikel og gengiver dets placering på oversigtskort og tværsnit.
+
+<figure>
+  <img src="https://aarhusworks.com/assets/giber-ringvej/tillaeg-kort/b6-oest-for-nymarksvej.jpg" alt="Kortudsnit øst for Nymarksvej med et rødt areal nord for vejen, påtegnet 7550 m².">
+  <figcaption><strong>B6, øst for Nymarksvej</strong> — udsnit af <a href="https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf">bilag 61</a> ved Nymarksvej (Bro nr. 15). Kortet markerer et rødt areal nord for vejen øst for Nymarksvej, påtegnet 7550 m². Om det er det anlæg, afgørelsen angår, fremgår ikke af kortet (se nedenfor).</figcaption>
+</figure>
 
 **Kommunen har selv afgjort, at anlægget ikke hører under vilkår 7.** I screeningsafgørelsen af 14. september 2022 anfører Aarhus Kommune, Lokalplanlægning og VVM, jf. [bilag 59, s. 3](https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=3):
 
@@ -188,7 +231,9 @@ Første punktum er ordret det samme som i screeningsafgørelsen om jordvolden ve
 
 **Alligevel indgår anlægget i opgørelsen over rammen.** Forvaltningens notat til Teknisk Udvalg af 29. juni 2023 konkluderer opsummerende, at *"alle vilkår fra VVM-tilladelsen vedr. støjreducerende foranstaltninger er overholdt"*, herunder at *"[d]er er samlet etableret 16 støjvolde langs Giber Ringvej jf. kort vedlagt som bilag 4"*, jf. [bilag 60, s. 3](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-vejst%C3%B8j-giber-ringvej.pdf#page=3). Kortet foreligger som [bilag 61](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf) og markerer med rødt en række arealer langs vejen — heriblandt øst for Nymarksvej — med et areal i m² påtegnet hvert af dem. Redegørelse 1 prissætter de 16 volde samlet til ca. 18,5 mio. kr. som anvendelse af vilkår 7's ramme ([bilag 2, s. 3](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=3)).
 
-**Her støder anmodningen mod en grænse i det fremlagte.** Kortets signaturforklaring omfatter linjeføring, støttemur og støjdæmpende autoværn, men forklarer ikke de røde arealer, og hverken notatet eller redegørelsen knytter et beløb, et areal eller et navn til den enkelte vold. **GRG kan derfor ikke af det fremlagte fastslå, om netop dette anlæg er blandt de 16** — og gør det ikke gældende. Det er myndigheden, der råder over oplysningen: efter kommunens eget udsagn foreligger der for hver etableret støjvold både en VVM-screening og en landzonetilladelse (ovenfor, [afsnit B](#tillaeg-b)). Det gøres gældende, at kommunen for de to anlæg, hvor en screeningsafgørelse *er* fremlagt, selv har fastslået det modsatte af, hvad den samme år forelagde Teknisk Udvalg — og at de to fremstillinger på intet tidspunkt er forligt.
+**Her støder anmodningen mod en grænse i det fremlagte.** Kortets signaturforklaring omfatter linjeføring, støttemur og støjdæmpende autoværn, men forklarer ikke de røde arealer, og hverken notatet eller redegørelsen knytter et beløb, et areal eller et navn til den enkelte vold. **GRG kan derfor ikke af det fremlagte fastslå, om netop dette anlæg er blandt de 16** — og gør det ikke gældende.
+
+Det er myndigheden, der råder over oplysningen: efter kommunens eget udsagn foreligger der for hver etableret støjvold både en VVM-screening og en landzonetilladelse (ovenfor, [afsnit B](#tillaeg-b)). Det gøres gældende, at kommunen for de to anlæg, hvor en screeningsafgørelse *er* fremlagt, selv har fastslået det modsatte af, hvad den samme år forelagde Teknisk Udvalg — og at de to fremstillinger på intet tidspunkt er forligt.
 
 **Kravet om nyttiggørelse afgjorde, hvad der kunne bygges.** Ansøgningen af 21. juni 2022, indgivet af Rambøll på vegne af Vejanlæg og Bydesign, omfattede to jordvolde, syd og nord for vejen. Den sydlige blev trukket, fordi den *"ikke [vurderes] at opfylde kriterierne i miljøbeskyttelsesloven til nyttiggørelse og vil dermed være omfattet af godkendelsespligt"*, og fordi *"der ikke kan meddeles miljøgodkendelse til den sydlige jordvold"* ([bilag 59, s. 1](https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=1)). Kravet om en dokumenteret støjdæmpende effekt er altså ikke en formalitet: det var afgørende for, om volden kunne etableres.
 
@@ -214,7 +259,31 @@ Det erkendes, at udsagnet er fremsat i en anden retlig sammenhæng: anbringendet
 
 Det tilføjes, at kommunens processuelle interesse i erstatningssagen var modsat den, kommunen har i nærværende sag: over for sagsøgeren tjente det kommunen at nedtone voldens karakter af pligtmæssig støjdæmpning, mens den over for Giber Ringvej Gruppen opgøres som netop dette. Uoverensstemmelsen indgår i grundlaget for indsigelsen om kommunens sagsoplysning ([afsnit 4.3](https://aarhusworks.com/2026/08/26/anmodning-om-tilsynssag.html#afsnit-4-3)).
 
----
+<a id="tillaeg-prissaetning"></a>
+
+### B7) Prisen på de 16 volde
+
+Rambølls estimat, jf. [bilag 2, s. 3](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=3), opgør den samlede pris for alle 16 støjvolde til 18,5 mio. kr. Men beløbet er opgjort for samtlige støjvolde i projektet under ét — uden at udskille, hvilke volde der udgør *supplerende* øget støjdæmpning under vilkår 7, og hvilke der indgår i basisprojektet. Dertil kommer, at støjafskærmningen ved Tranbjerg og langs Landevejen forbi Tingskovparken er en selvstændig foranstaltning (en støjvæg), hjemlet i vilkår 5 og 6 — ikke en pulje-post. Det er derfor kun en delmængde af de opgjorte tiltag, der kan henføres til puljen under vilkår 7.
+
+Beløbet er ikke underbygget af nogen mængdeopgørelse. Notatet oplyser ganske vist de enhedspriser, en støjvold prissættes efter — *"Arealerhvervelse, ca. 20 kr./m2"*, *"Afrømning af eksisterende muld, ca. 20 kr./m3"*, *"Afgravning og indbygning af råjord, ca. 35 kr./m3"*, *"Genudlægning af muld, ca. 12 kr./m2"* samt et tillæg til projektering, administration og tilsyn på *"generelt ca. 30% af anlægsudgifterne"*. Men de mængder, enhedspriserne skal ganges med, oplyses ikke: hverken areal eller jordvolumen er angivet for nogen af de 16 volde, og de er ikke opregnet enkeltvis. Det gælder også den post, der dominerer regnestykket: kubikmeter råjord til 35 kr.
+
+**Kommunen anmodes om at fremlægge den mængdeopgørelse — areal og jordvolumen pr. vold — som enhedspriserne er anvendt på.** Uden den kan de 18,5 mio. kr. ikke efterprøves af nogen, heller ikke af den, der accepterer enhedspriserne.
+
+Hvidbogen *"Trafikstøj kræver handling"* (april 2020), udarbejdet af Gate 21, Rambøll og FORCE Technology, jf. [bilag 23](https://aarhusworks.com/assets/vejstoej-forslag-2024/trafikstoej-kraever-handling-2020.pdf#page=46) (s. 46), angiver om jordvoldes økonomi: *"Økonomien for jordvolde er svær at angive, da den afhænger helt af projektet, og om der er mulighed for at anvende overskudsjord fra bygge- og anlægsprojekter. I så fald kan etablering af en jordvold være forbundet med meget små eller ingen omkostninger."* Giber Ringvej-projektet havde overskudsjord. Jordvolde med overskudsjord sparer efter hvidbogens egen beskrivelse projektet for udgifter til jorddeponi og udgør ikke nødvendigvis i sig selv en merudgift.
+
+Vejdirektoratet bekræfter samme sammenhæng i praksis. Adspurgt om økonomien ved de daværende planlagte støjvolde ved Stavtrup, svarer Vejdirektoratet, jf. [bilag 25](https://aarhusworks.com/assets/giber-ringvej/2025-01-29-vejdirektoratet-stavtrup-jordvold-oekonomi.txt) (3. februar 2025): *"Der er omkostninger i forbindelse med etablering af støjvolden ved Stavtrup. Omkostningerne skyldes at jorden skal kalkstabiliseres, hvilket koster en del i anlægsomkostninger. Det er stadig billigere end at køre al jorden til deponi."* Selv når der er reelle udgifter til jordbehandling, er en støjvold med overskudsjord altså efter vejmyndighedens egen erfaring billigere end alternativet — ikke en merudgift på niveau med Rambølls opgjorte enhedspris.
+
+Aarhus Kommune har selv anlagt samme betragtning over for Retten i Aarhus. Om jordvolden øst for Nymarksvej anførte kommunen, at der er *"færre omkostninger forbundet med etableringen af støjvolden, end der ville være ved at flytte jorden og anvende den et andet sted"*, jf. [bilag 27, s. 57](https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=57) og citatet i [afsnit B6](#tillaeg-b6) ovenfor. Udsagnet angår ét anlæg og sammenligner to måder at håndtere den samme jord på; det gøres ikke gældende, at voldene samlet var uden omkostninger.
+
+Tre af hinanden uafhængige kilder — hvidbogen, vejmyndigheden og kommunen selv under en retssag — beskriver jordvolde af overskudsjord som billige eller ligefrem omkostningsbesparende i forhold til deponi. Det rejser spørgsmålet, hvilken **merudgift** posten på 18,5 mio. kr. dækker. Kommunen har ikke fremlagt det regnestykke, der kunne besvare det, og har efter eget udsagn ikke ført det regnskab, der skulle til.
+
+**Anvendelsen af overskudsjord var en forudsætning allerede, da rammen blev fastsat.** Da Teknisk Udvalg i september 2016 behandlede netop spørgsmålet om støjdæmpende foranstaltninger og finansieringen heraf, oplyste forvaltningen ifølge udvalgserklæringen, jf. [bilag 37, s. 4](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=4):
+
+> *"Kommunen har noget overskudsjord, man gerne vil anvende."*
+
+Oplysningen blev givet i umiddelbar sammenhæng med den drøftelse, der førte til rammen på de ca. 20 mio. kr. Nyttiggørelsen af overskudsjord indgik altså i forudsætningerne, da beløbet blev fastsat — den er ikke en efterfølgende merudgift, rammen skulle dække. Det skærper spørgsmålet om, hvorledes 18,5 mio. kr. af rammen kan henføres til jordvolde, hvis etablering efter kommunens egen forklaring for retten var billigere end alternativet.
+
+Rambøll svarer i marts 2026 kun generelt, at der *"altid [vil] være udgifter forbundet med etableringen af en støjvold, fraregnet balancen mellem overskud/underskud af jord i et anlægsprojekt"*, og nævner planlægning, projektering, arealopkøb og udførelse, jf. [bilag 16a](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=5) (s. 5). Dette er ikke en opgørelse over puljens anvendelse. Rambøll udskiller fortsat ikke, hvilke konkrete merudgifter der kan henføres til supplerende støjdæmpning under vilkår 7, og hvilke udgifter der angår almindelige jord-, terræn-, adgangs-, landskabs- eller trafiksikkerhedsarbejder i basisprojektet.
 
 <a id="tillaeg-c"></a>
 
@@ -237,34 +306,6 @@ Efter dokumentets egen ordlyd er flytningens formål at sikre *oversigtsforholde
 Rambøll forsøger i sit notat at nedtone betydningen af VVM-tilpasningernes begrundelse ved at anføre, at *"Begrundelsen for de enkelte ændringer er derfor af sekundær betydning i forhold til dokumentets formål"*, jf. [bilag 16a](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3) (s. 3). Det bestrides. Når kommunen efterfølgende vil henføre en konkret projektændring til puljen under vilkår 7, er ændringens begrundelse netop central: den viser, om posten er en støjdæmpende foranstaltning, en trafiksikkerhedsdisponering, en landskabelig tilpasning eller en del af basisprojektet.
 
 Rambøll besvarer imidlertid et andet spørgsmål end det, GRG har rejst. I sit notat af 25. marts 2026, jf. [bilag 16a](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=5) (s. 5), anfører Rambøll, at *"denne vold er omfattet af den udstukne ramme"*. Men GRGs indsigelse angår ikke, om en vold kan rummes i rammen — den angår henføringen af selve vejflytningen, hvis formål ifølge VVM-tilpasningerne er oversigtsforhold, til den supplerende støjdæmpning under vilkår 7.
-
-<a id="tillaeg-prissaetning"></a>
-
-## Prissætning
-
-Rambølls estimat, jf. [bilag 2, s. 3](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=3), opgør den samlede pris for alle 16 støjvolde til 18,5 mio. kr. Men beløbet er opgjort for samtlige støjvolde i projektet under ét — uden at udskille, hvilke volde der udgør *supplerende* øget støjdæmpning under vilkår 7, og hvilke der indgår i basisprojektet. Dertil kommer, at støjafskærmningen ved Tranbjerg og langs Landevejen forbi Tingskovparken er en selvstændig foranstaltning (en støjvæg), hjemlet i vilkår 5 og 6 — ikke en pulje-post. Det er derfor kun en delmængde af de opgjorte tiltag, der kan henføres til puljen under vilkår 7.
-
-Beløbet er ikke underbygget af nogen mængdeopgørelse. Notatet oplyser ganske vist de enhedspriser, en støjvold prissættes efter — *"Arealerhvervelse, ca. 20 kr./m2"*, *"Afrømning af eksisterende muld, ca. 20 kr./m3"*, *"Afgravning og indbygning af råjord, ca. 35 kr./m3"*, *"Genudlægning af muld, ca. 12 kr./m2"* samt et tillæg til projektering, administration og tilsyn på *"generelt ca. 30% af anlægsudgifterne"*. Men de mængder, enhedspriserne skal ganges med, oplyses ikke: hverken areal eller jordvolumen er angivet for nogen af de 16 volde, og de er ikke opregnet enkeltvis. De 18,5 mio. kr. kan derfor ikke efterprøves — heller ikke af den, der accepterer enhedspriserne. Det gælder navnlig den post, der dominerer regnestykket: kubikmeter råjord til 35 kr.
-
-**Kommunen anmodes om at fremlægge den mængdeopgørelse — areal og jordvolumen pr. vold — som enhedspriserne er anvendt på.** Uden den kan de 18,5 mio. kr. ikke efterprøves af nogen, heller ikke af den, der accepterer enhedspriserne.
-
-Hvidbogen *"Trafikstøj kræver handling"* (april 2020), udarbejdet af Gate 21, Rambøll og FORCE Technology, jf. [bilag 23](https://aarhusworks.com/assets/vejstoej-forslag-2024/trafikstoej-kraever-handling-2020.pdf#page=46) (s. 46), angiver om jordvoldes økonomi: *"Økonomien for jordvolde er svær at angive, da den afhænger helt af projektet, og om der er mulighed for at anvende overskudsjord fra bygge- og anlægsprojekter. I så fald kan etablering af en jordvold være forbundet med meget små eller ingen omkostninger."* Giber Ringvej-projektet havde overskudsjord. Jordvolde med overskudsjord sparer efter hvidbogens egen beskrivelse projektet for udgifter til jorddeponi og udgør ikke nødvendigvis i sig selv en merudgift.
-
-Vejdirektoratet bekræfter samme sammenhæng i praksis. Adspurgt om økonomien ved de daværende planlagte støjvolde ved Stavtrup, svarer Vejdirektoratet, jf. [bilag 25](https://aarhusworks.com/assets/giber-ringvej/2025-01-29-vejdirektoratet-stavtrup-jordvold-oekonomi.txt) (3. februar 2025): *"Der er omkostninger i forbindelse med etablering af støjvolden ved Stavtrup. Omkostningerne skyldes at jorden skal kalkstabiliseres, hvilket koster en del i anlægsomkostninger. Det er stadig billigere end at køre al jorden til deponi."* Selv når der er reelle udgifter til jordbehandling, er en støjvold med overskudsjord altså efter vejmyndighedens egen erfaring billigere end alternativet — ikke en merudgift på niveau med Rambølls opgjorte enhedspris.
-
-Aarhus Kommune har selv anlagt samme betragtning over for Retten i Aarhus. Om jordvolden øst for Nymarksvej anførte kommunen, at der er *"færre omkostninger forbundet med etableringen af støjvolden, end der ville være ved at flytte jorden og anvende den et andet sted"*, jf. [bilag 27, s. 57](https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=57) og citatet i [afsnit B6](#tillaeg-b6) ovenfor.
-
-Kommunen har således over for retten oplyst, at den valgte placering af jorden var **billigere** end alternativet — at bortkøre den. Udsagnet angår ét anlæg og sammenligner to måder at håndtere den samme jord på; det gøres ikke gældende, at voldene samlet var uden omkostninger.
-
-Tre af hinanden uafhængige kilder — hvidbogen, vejmyndigheden og kommunen selv under en retssag — beskriver jordvolde af overskudsjord som billige eller ligefrem omkostningsbesparende i forhold til deponi. Det rejser spørgsmålet, hvilken **merudgift** posten på 18,5 mio. kr. dækker. Kommunen har ikke fremlagt det regnestykke, der kunne besvare det, og har efter eget udsagn ikke ført det regnskab, der skulle til.
-
-**Anvendelsen af overskudsjord var en forudsætning allerede, da rammen blev fastsat.** Da Teknisk Udvalg i september 2016 behandlede netop spørgsmålet om støjdæmpende foranstaltninger og finansieringen heraf, oplyste forvaltningen ifølge udvalgserklæringen, jf. [bilag 37, s. 4](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=4):
-
-> *"Kommunen har noget overskudsjord, man gerne vil anvende."*
-
-Oplysningen blev givet i umiddelbar sammenhæng med den drøftelse, der førte til rammen på de ca. 20 mio. kr. Nyttiggørelsen af overskudsjord indgik altså i forudsætningerne, da beløbet blev fastsat — den er ikke en efterfølgende merudgift, rammen skulle dække. Det skærper spørgsmålet om, hvorledes 18,5 mio. kr. af rammen kan henføres til jordvolde, hvis etablering efter kommunens egen forklaring for retten var billigere end alternativet.
-
-Rambøll svarer i marts 2026 kun generelt, at der *"altid [vil] være udgifter forbundet med etableringen af en støjvold, fraregnet balancen mellem overskud/underskud af jord i et anlægsprojekt"*, og nævner planlægning, projektering, arealopkøb og udførelse, jf. [bilag 16a](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=5) (s. 5). Dette er ikke en opgørelse over puljens anvendelse. Rambøll udskiller fortsat ikke, hvilke konkrete merudgifter der kan henføres til supplerende støjdæmpning under vilkår 7, og hvilke udgifter der angår almindelige jord-, terræn-, adgangs-, landskabs- eller trafiksikkerhedsarbejder i basisprojektet.
 
 <a id="tillaeg-e"></a>
 
