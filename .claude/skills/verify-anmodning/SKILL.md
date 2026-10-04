@@ -43,7 +43,7 @@ had no front matter, so Jekyll titleized the *filename* into the page `<h1>`
 `# Anmodning om tilsynssag` rendered right below it.
 
 Either source of the title is fine; both posts now carry `title:` in front
-matter ("Anmodning om tilsynssag", "Tillæg til anmodning om tilsynssag"). Without
+matter ("Anmodning om tilsynssag", "Støjpuljen, post for post"). Without
 front matter Jekyll titleizes the filename, and the script reports which title
 that yields rather than demanding front matter.
 What is always wrong is an h1 in the body, because it stacks a second title

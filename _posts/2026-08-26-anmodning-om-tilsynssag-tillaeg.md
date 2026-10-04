@@ -1,6 +1,6 @@
 ---
-title: 'Tillæg til anmodning om tilsynssag'
-description: 'Gennemgang af de poster, Aarhus Kommune påberåber sig som anvendelse af rammen på ca. 20 mio. kr. i VVM-tilladelsens vilkår 7.'
+title: 'Støjpuljen, post for post'
+description: 'Tillæg til anmodning om tilsynssag. Det, Aarhus Kommune regner som øget støjdæmpning under vilkår 7: volde, vejsænkning og en skærm, der var pligtig i forvejen.'
 ---
 
 > ## ⚠️ KLADDE — IKKE INDGIVET

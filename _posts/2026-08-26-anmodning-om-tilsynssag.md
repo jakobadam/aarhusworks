@@ -886,7 +886,7 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2023-10-12-aak-afgoerelse-ophaevelse-vilkaar-viborgvej.pdf)  
   *Angår et andet vejprojekt end Giber Ringvej; vilkårsnummeret er et tilfældigt sammenfald. Påberåbes alene som kommunens egen fremgangsmåde, når et vilkår i en VVM-tilladelse ikke kan gennemføres: bygherre — Aarhus Kommune, Vejanlæg — ansøgte den 16. marts 2023 kommunens egen VVM-myndighed, som traf en offentliggjort afgørelse med begrundelse, klagevejledning til Miljø- og Fødevareklagenævnet og udtrykkelig stillingtagen til myndighedsinhabiliteten. **Det gøres ikke gældende, at [miljøvurderingslovens § 25](https://danskelove.dk/milj%C3%B8vurderingsloven/25) uden videre kan anvendes på en tilladelse meddelt efter den dagældende VVM-bekendtgørelse** ([afsnit 1.1](#afsnit-1-1)).*
 
-* **Tillæg:** Giber Ringvej Gruppen, *Tillæg til anmodning om tilsynssag — gennemgang af de poster, kommunen påberåber sig*  
+* **Tillæg:** Giber Ringvej Gruppen, *Støjpuljen, post for post — gennemgang af de poster, kommunen påberåber sig*  
   [Se tillægget](https://aarhusworks.com/2026/08/26/anmodning-om-tilsynssag-tillaeg.html) · [Download PDF](https://aarhusworks.com/assets/giber-ringvej/klage/anmodning-om-tilsynssag-tillaeg.pdf)  
   *Gennemgår enkeltvis de poster, kommunen har opgjort som anvendelse af rammen i vilkår 7 ([afsnit 3.1](#afsnit-3-1)).*
 
