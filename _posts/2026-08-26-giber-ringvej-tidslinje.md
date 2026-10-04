@@ -531,7 +531,7 @@ hide_title: true   # siden har sin egen overskrift
 <h1 class="timeline-headline">Giber Ringvej: Ingen træer. Ingen støjskærme. Intet facade&shy;tilskud — trods byrådets beslut&shy;ninger.</h1>
 <div class="timeline-deck">
   <p>Aarhus Kommune fik i 2018 en VVM-tilladelse til Giber Ringvej på tre bindende vilkår: slørende beplantning, støjdæmpende vejbelægning og supplerende støjdæmpning inden for <em>ca. 20 mio. kr.</em> Kommunen fastholder, at alle tre er opfyldt. Tilbage står én støjskærm — den, kommunen skyldte efter et andet vilkår — og en asfalt, kommunen ikke kan oplyse dæmpningen af.</p>
-  <p>Grundlaget for de 20 mio. kr. kom først frem i 2026. Beløbet er summen af fem prissatte tiltag på præcis de fem steder, vilkåret nævner: tre støjskærme til 16,7 mio. kr., et facadetilskud og en afklaring ved Beder Landevej. Byrådet vedtog dem i 2016 mod forvaltningens indstilling og finansierede dem i 2020. Skærmene er aldrig bygget.</p>
+  <p>Grundlaget for de 20 mio. kr. kom først frem i 2026. Beløbet er summen af fem prissatte tiltag på præcis de fem steder, vilkåret nævner: tre skærmtiltag til 16,7 mio. kr. — to nye skærme og en forhøjelse —, et facadetilskud og en afklaring ved Beder Landevej. Byrådet vedtog dem i 2016 mod forvaltningens indstilling og finansierede dem i 2020. Ingen af skærmtiltagene er udført.</p>
 </div>
 
 <p class="kladde-note">Kladde. Anmodningen til Ankestyrelsen er endnu ikke indgivet. Alle citater stammer fra de dokumenter, der er linket i den enkelte post.</p>
@@ -556,7 +556,7 @@ hide_title: true   # siden har sin egen overskrift
     <span class="track-nr"><a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=3">Vilkår 7 &rsaquo;</a></span>
     <span class="track-name">Pulje på ca. 20 mio. kr.</span>
     <p class="track-req">Der skal <em>suppleres</em> med øget støjdæmpning ved Tranbjerg, Mårslet, Kolt, forlængelsen til Beder Landevej og i det åbne land.</p>
-    <p class="track-status"><strong>Status:</strong> Ingen af de tre støjskærme, rammen blev afsat til, er opført. Intet særskilt regnskab.</p>
+    <p class="track-status"><strong>Status:</strong> Ingen af de tre skærmtiltag, rammen blev afsat til, er udført. Intet særskilt regnskab.</p>
   </div>
 
 </div>
@@ -614,7 +614,7 @@ hide_title: true   # siden har sin egen overskrift
         </table>
       </div>
       <p class="tl-text">Projektets eneste støjskærm står langs Landevejen i Tranbjerg — den, vilkår 5 og 6 kræver uafhængigt af puljen. Den tælles alligevel med som forbrug af rammen.</p>
-      <p class="tl-text"><strong>Forvaltningen frarådede de tre skærme.</strong> Teknik og Miljø anbefalede i <a href="/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=4">samme notat</a>, at der <em>"<strong>ikke</strong>"</em> blev etableret støjdæmpning ved Kolt, Mårslet og Tranbjerg, fordi <em>"de gældende støjgrænser kan overholdes"</em>. Fire dage senere vedtog Teknisk Udvalg det modsatte. Det eneste tiltag, forvaltningen <em>selv</em> anbefalede, var facadetilskuddet — og det optræder heller ikke i kommunens opgørelse over, hvad puljen er brugt til.</p>
+      <p class="tl-text"><strong>Forvaltningen frarådede de tre skærmtiltag.</strong> Teknik og Miljø anbefalede i <a href="/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=4">samme notat</a>, at der <em>"<strong>ikke</strong>"</em> blev etableret støjdæmpning ved Kolt, Mårslet og Tranbjerg, fordi <em>"de gældende støjgrænser kan overholdes"</em>. Fire dage senere vedtog Teknisk Udvalg det modsatte. Det eneste tiltag, forvaltningen <em>selv</em> anbefalede, var facadetilskuddet — og det optræder heller ikke i kommunens opgørelse over, hvad puljen er brugt til.</p>
       <p class="tl-text">Det afgør sagens centrale strid. Kommunen afviser i dag mere støjdæmpning med, at grænseværdierne er overholdt. Men det var forudsætningen for beslutningen, ikke en indvending mod den: pengene blev netop afsat til det, der lå <em>ud over</em> grænsen.</p>
     </div>
   </li>
@@ -686,9 +686,9 @@ hide_title: true   # siden har sin egen overskrift
     <div class="tl-body">
       <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <span class="tl-tag">Redegørelse 1</span>
-      <p class="tl-title">"16 støjvolde for 17,28 mio. kr." — og én eneste støjskærm</p>
+      <p class="tl-title">"16 støjvolde (...) til en samlet værdi af ca. 18.500.000 kr." — og én eneste støjskærm</p>
       <p class="tl-text"><a href="/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=1">Rambølls redegørelse</a> henfører 17,28 mio. kr. til puljen — vilkår 7 dermed opfyldt. Men opgørelsen rummer en vejsænkning, rådgiveren selv senere kalder en <em>"tracérings-mæssig konsekvens"</em>, en skærm hjemlet i vilkår 5 og 6, samt tilkørselsveje og jorddeponier. De 16 volde prissættes under ét til 18,5 mio. kr. uden mængdeopgørelse.</p>
-      <p class="tl-text">Opgørelsen er samtidig beviset for, hvad der <em>ikke</em> blev bygget. <a href="/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4">Listen på side 4</a> opregner alt, kommunen henfører til støj — og indeholder <strong>én støjskærm:</strong> <em>"Støjskærm langs Landevejen — ca. 5.200.000,00 kr."</em> De tre skærme fra 2016 optræder ikke. <a href="/2023/08/23/stoej-langs-giber-ringvej--et-modsvar-til-kommunen.html">GRG svarer samme måned</a>.</p>
+      <p class="tl-text">Opgørelsen er samtidig beviset for, hvad der <em>ikke</em> blev bygget. <a href="/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4">Listen på side 4</a> opregner alt, kommunen henfører til støj — og indeholder <strong>én støjskærm:</strong> <em>"Støjskærm langs Landevejen — ca. 5.200.000,00 kr."</em> De tre skærmtiltag fra 2016 optræder ikke. <a href="/2023/08/23/stoej-langs-giber-ringvej--et-modsvar-til-kommunen.html">GRG svarer samme måned</a>.</p>
     </div>
   </li>
 
