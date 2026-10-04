@@ -133,11 +133,14 @@ def find_in(rel, frags, cited=0):
 
 raw = POST.read_text(encoding='utf-8')
 
-# The filing links to its own rendered PDF, which contains every word of the
-# filing. Left in the pool of cited sources it verifies every quote against
-# itself, so NOT FOUND drops to zero and the check goes blind. Exclude it.
-SELF = 'assets/giber-ringvej/klage/anmodning-om-tilsynssag.pdf'
-all_assets = sorted(a for a in set(ANY_ASSET.findall(raw)) if a != SELF)
+# The filing links to its own rendered PDFs — the anmodning and the tillæg link
+# to themselves and to each other — which contain every word of the filing.
+# Left in the pool of cited sources they verify every quote against GRG's own
+# text, so NOT FOUND drops to zero and the check goes blind. Exclude them,
+# both as the pool and as the citation a quote is attached to.
+SELF = ('assets/giber-ringvej/klage/anmodning-om-tilsynssag.pdf',
+        'assets/giber-ringvej/klage/anmodning-om-tilsynssag-tillaeg.pdf')
+all_assets = sorted(a for a in set(ANY_ASSET.findall(raw)) if a not in SELF)
 
 ok_cited = []        # verified on the cited page
 ok_otherpage = []    # verified, but the #page anchor points elsewhere
@@ -203,6 +206,8 @@ for m in QUOTE.finditer(raw):
             link = before[-1]
     if link is None:
         link = LINK.search(raw[m.end(): m.end() + 260])
+    if link and link.group(1) in SELF:
+        link = None
     short = quote[:80].replace('\n', ' ')
 
     if link:

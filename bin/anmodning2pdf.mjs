@@ -1,16 +1,19 @@
 #!/usr/bin/env node
-// Render the Ankestyrelsen filing to a paginated A4 PDF.
+// Render the Ankestyrelsen filing and its tillæg to paginated A4 PDFs.
 //
-//   node bin/anmodning2pdf.mjs            # write the PDF
-//   node bin/anmodning2pdf.mjs --check    # exit 1 if the committed PDF is stale
-//   node bin/anmodning2pdf.mjs --stage    # write it and git add the result (hook)
+//   node bin/anmodning2pdf.mjs            # write both PDFs
+//   node bin/anmodning2pdf.mjs --check    # exit 1 if a committed PDF is stale
+//   node bin/anmodning2pdf.mjs --stage    # write them and git add the results (hook)
+//
+// Every mode handles both documents: the tillæg is filed with the anmodning
+// and takes its draft status and date from it (see DOCS below).
 //
 // The PDF is the copy that gets filed, so a draft must never look clean: while
-// [TODO: markers remain in the source, every page carries KLADDE in the running
-// header and page 1 gets a watermark. The filename stays the same either way —
-// the filing links to it, so the URL must not move when the draft goes final.
-// Layout follows the afklaringsnotater — A4, title and date in a running
-// header, "N af M" in the footer.
+// [TODO: markers remain in the anmodning, every page carries KLADDE in the
+// running header and a watermark. The filenames stay the same either way —
+// the filing links to them, so the URLs must not move when the draft goes
+// final. Layout follows the afklaringsnotater — A4, title and date in a
+// running header, "N af M" in the footer.
 //
 // marked and puppeteer are declared in package.json; run `npm install` once.
 
@@ -23,41 +26,52 @@ import { marked } from 'marked';
 import puppeteer from 'puppeteer';
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const SOURCE = resolve(repo, '_posts/2026-08-26-anmodning-om-tilsynssag.md');
-// ANMODNING_PDF_OUT renders somewhere else — useful when a PDF viewer holds a
-// lock on the real file, which Windows enforces.
-const out = process.env.ANMODNING_PDF_OUT
-  ? resolve(process.env.ANMODNING_PDF_OUT)
-  : resolve(repo, 'assets/giber-ringvej/klage/anmodning-om-tilsynssag.pdf');
-const TITLE = 'Anmodning om tilsynssag — Giber Ringvej';
+const KLAGE = 'assets/giber-ringvej/klage';
+
+// The anmodning comes first: it decides draft status and header date for both.
+// ANMODNING_PDF_OUT renders the anmodning somewhere else — useful when a PDF
+// viewer holds a lock on the real file, which Windows enforces. It does not
+// move the tillæg.
+const DOCS = [
+  {
+    source: resolve(repo, '_posts/2026-08-26-anmodning-om-tilsynssag.md'),
+    out: process.env.ANMODNING_PDF_OUT
+      ? resolve(process.env.ANMODNING_PDF_OUT)
+      : resolve(repo, KLAGE, 'anmodning-om-tilsynssag.pdf'),
+    title: 'Anmodning om tilsynssag — Giber Ringvej',
+  },
+  {
+    source: resolve(repo, '_posts/2026-08-26-anmodning-om-tilsynssag-tillaeg.md'),
+    out: resolve(repo, KLAGE, 'anmodning-om-tilsynssag-tillaeg.pdf'),
+    title: 'Tillæg til anmodning om tilsynssag — Giber Ringvej',
+  },
+];
 
 const check = process.argv.includes('--check');
 const stage = process.argv.includes('--stage');
 
 // ---------------------------------------------------------------- source
 
-// Jekyll front matter (title only — no categories, see verify-anmodning) is
-// for the web page; marked would print it as a rule and a line of text.
-const source = readFileSync(SOURCE, 'utf8').replace(/^﻿?---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
-const isDraft = source.includes('[TODO:');
+// Jekyll front matter (title/description only — no categories, see
+// verify-anmodning) is for the web page; marked would print it as a rule and
+// a line of text.
+const read = (path) => readFileSync(path, 'utf8').replace(/^﻿?---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
 
-// Passages the web page wants but the PDF must not carry — the link to this
-// very PDF, above all. The markers are HTML comments, so they render as
-// nothing on aarhusworks.com and need no counterpart in the Jekyll build.
-const md = source.replace(/[^\S\n]*<!--\s*pdf:skip\s*-->[\s\S]*?<!--\s*\/pdf:skip\s*-->[^\S\n]*\n?/g, '');
-if (md === source) console.warn('Bemaerk: ingen <!-- pdf:skip -->-afsnit fundet i kilden.');
+// Passages the web page wants but the PDF must not carry — the link to the
+// document's own PDF, above all. The markers are HTML comments, so they render
+// as nothing on aarhusworks.com and need no counterpart in the Jekyll build.
+const skip = (source) => source.replace(/[^\S\n]*<!--\s*pdf:skip\s*-->[\s\S]*?<!--\s*\/pdf:skip\s*-->[^\S\n]*\n?/g, '');
+
+// The tillæg has no TODOs of its own; judged alone it would render as a clean,
+// filed-looking PDF while the anmodning is still a draft.
+const anmodning = read(DOCS[0].source);
+const isDraft = anmodning.includes('[TODO:');
 
 // The header date is the filing's own "**Dato:**" line once it is filled in.
-const dateLine = md.match(/^\*\*Dato:\*\*\s*(.+)$/m)?.[1]?.trim() ?? '';
+const dateLine = skip(anmodning).match(/^\*\*Dato:\*\*\s*(.+)$/m)?.[1]?.trim() ?? '';
 const headerDate = /TODO/.test(dateLine) || !dateLine
   ? `Udkast ${new Date().toISOString().slice(0, 10)}`
   : dateLine.replace(/[*_]/g, '').trim();
-
-// Every internal cross-reference in the filing targets an explicit
-// <a id="..."> anchor, so marked needs no heading-id extension for the 25
-// section links to resolve inside the PDF. Bilag URLs are left alone and stay
-// clickable.
-let body = marked.parse(md, { gfm: true, breaks: false });
 
 // Images are written as absolute aarhusworks.com URLs so the web page works.
 // Chrome would fetch those over the network, which makes the PDF depend on
@@ -65,18 +79,31 @@ let body = marked.parse(md, { gfm: true, breaks: false });
 // the page silently gets a blank gap instead. Inline the repo's own copy.
 const SITE = 'https://aarhusworks.com/';
 const MIME = { png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', gif: 'image/gif', svg: 'image/svg+xml' };
-let inlined = 0;
-body = body.replace(/(<img\b[^>]*?\bsrc=")([^"]+)(")/g, (whole, pre, src, post) => {
-  if (!src.startsWith(SITE)) return whole;
-  const local = resolve(repo, decodeURIComponent(src.slice(SITE.length)));
-  const mime = MIME[local.split('.').pop().toLowerCase()];
-  if (!existsSync(local) || !mime) {
-    console.error(`FEJL: billedet findes ikke i repoet: ${src}`);
-    process.exit(1);
-  }
-  inlined++;
-  return `${pre}data:${mime};base64,${readFileSync(local).toString('base64')}${post}`;
-});
+
+function bodyOf(doc) {
+  const source = read(doc.source);
+  const md = skip(source);
+  if (md === source) console.warn(`Bemaerk: ingen <!-- pdf:skip -->-afsnit fundet i ${rel(doc.source)}.`);
+
+  // Every cross-reference inside a document targets an explicit <a id="...">
+  // anchor, so marked needs no heading-id extension for the section links to
+  // resolve inside the PDF. Links between the two documents and bilag URLs
+  // are absolute and stay clickable.
+  let body = marked.parse(md, { gfm: true, breaks: false });
+  doc.inlined = 0;
+  body = body.replace(/(<img\b[^>]*?\bsrc=")([^"]+)(")/g, (whole, pre, src, post) => {
+    if (!src.startsWith(SITE)) return whole;
+    const local = resolve(repo, decodeURIComponent(src.slice(SITE.length)));
+    const mime = MIME[local.split('.').pop().toLowerCase()];
+    if (!existsSync(local) || !mime) {
+      console.error(`FEJL: billedet findes ikke i repoet: ${src}`);
+      process.exit(1);
+    }
+    doc.inlined++;
+    return `${pre}data:${mime};base64,${readFileSync(local).toString('base64')}${post}`;
+  });
+  return body;
+}
 
 // Headings, header and footer want Helvetica Neue, which is a licensed
 // Monotype face: present on macOS, absent on Windows, and not installable
@@ -178,47 +205,56 @@ const css = `
   }
 `;
 
-const html = `<!doctype html><html lang="da"><head><meta charset="utf-8">
-<title>${TITLE}</title><style>${css}</style></head>
-<body class="${isDraft ? 'kladde' : ''}">${body}</body></html>`;
+for (const doc of DOCS) {
+  doc.html = `<!doctype html><html lang="da"><head><meta charset="utf-8">
+<title>${doc.title}</title><style>${css}</style></head>
+<body class="${isDraft ? 'kladde' : ''}">${bodyOf(doc)}</body></html>`;
+
+  // Chrome stamps a creation date into every PDF, so the PDF bytes are never
+  // stable. Compare the rendered HTML instead: same input HTML, same document.
+  // The kladde class is part of that HTML, so finalizing the anmodning makes
+  // the tillæg stale too and forces it to re-render.
+  doc.stampPath = doc.out + '.sha256';
+  doc.stamp = createHash('sha256').update(doc.html).digest('hex');
+}
 
 // ---------------------------------------------------------------- check mode
 
-// Chrome stamps a creation date into every PDF, so the PDF bytes are never
-// stable. Compare the rendered HTML instead: same input HTML, same document.
-const stampPath = out + '.sha256';
-const stamp = createHash('sha256').update(html).digest('hex');
-
 if (check) {
-  if (!existsSync(out)) {
-    console.error(`FEJL: ${rel(out)} findes ikke — kør: node bin/anmodning2pdf.mjs`);
-    process.exit(1);
+  let stale = 0;
+  for (const doc of DOCS) {
+    if (!existsSync(doc.out)) {
+      console.error(`FEJL: ${rel(doc.out)} findes ikke — kør: node bin/anmodning2pdf.mjs`);
+      stale++;
+    } else if (readStamp(doc) !== doc.stamp) {
+      console.error(`FEJL: ${rel(doc.out)} er forældet — kør: node bin/anmodning2pdf.mjs`);
+      stale++;
+    } else {
+      console.log(`OK — ${rel(doc.out)} svarer til kilden.`);
+    }
   }
-  if (readStamp() !== stamp) {
-    console.error(`FEJL: ${rel(out)} er forældet — kør: node bin/anmodning2pdf.mjs`);
-    process.exit(1);
-  }
-  console.log(`OK — ${rel(out)} svarer til kilden.`);
-  process.exit(0);
+  process.exit(stale ? 1 : 0);
 }
 
 // Chrome writes a fresh creation timestamp into every render, so re-rendering
 // an unchanged document still produces different bytes — and the hook would
-// add a 3 MB blob to the history on every commit. Skip when the source has not
-// moved; --force re-renders anyway (e.g. after changing the layout below).
-if (existsSync(out) && readStamp() === stamp && !process.argv.includes('--force')) {
-  if (stage) git(['add', '--', out, stampPath]);
-  console.log(`${rel(out)} er allerede aktuel — springer gengivelse over (--force gennemtvinger).`);
-  process.exit(0);
+// add a 3 MB blob to the history on every commit. Skip documents whose source
+// has not moved; --force re-renders anyway (e.g. after changing the layout).
+const force = process.argv.includes('--force');
+const todo = DOCS.filter((doc) => force || !existsSync(doc.out) || readStamp(doc) !== doc.stamp);
+for (const doc of DOCS.filter((d) => !todo.includes(d))) {
+  if (stage) git(['add', '--', doc.out, doc.stampPath]);
+  console.log(`${rel(doc.out)} er allerede aktuel — springer gengivelse over (--force gennemtvinger).`);
 }
+if (!todo.length) process.exit(0);
 
 // ---------------------------------------------------------------- render
 
-const headerHtml = `
+const headerHtml = (title) => `
   <div style="font:7.5pt ${SANS_ATTR};color:#555;width:100%;
               margin:0 18mm;display:flex;justify-content:space-between;
               border-bottom:.5pt solid #ccc;padding-bottom:3pt;">
-    <span>${TITLE}${isDraft ? ' · KLADDE' : ''}</span><span>${headerDate}</span>
+    <span>${title}${isDraft ? ' · KLADDE' : ''}</span><span>${headerDate}</span>
   </div>`;
 
 const footerHtml = `
@@ -229,46 +265,48 @@ const footerHtml = `
 
 const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
 try {
-  const page = await browser.newPage();
-  await page.setContent(html, { waitUntil: 'load' });
-  await page.pdf({
-    path: out,
-    format: 'A4',
-    printBackground: true,
-    displayHeaderFooter: true,
-    headerTemplate: headerHtml,
-    footerTemplate: footerHtml,
-    margin: { top: '24mm', bottom: '20mm', left: '18mm', right: '18mm' },
-    tagged: true,
-  });
-} catch (err) {
-  // Windows keeps the file locked while a PDF viewer has it open, and the
-  // error Chrome surfaces for that does not say so.
-  if (err?.code === 'EBUSY') {
-    console.error(`FEJL: ${rel(out)} er laast af et andet program — luk PDF'en i din fremviser og koer igen.`);
-    process.exit(1);
+  for (const doc of todo) {
+    const page = await browser.newPage();
+    await page.setContent(doc.html, { waitUntil: 'load' });
+    try {
+      await page.pdf({
+        path: doc.out,
+        format: 'A4',
+        printBackground: true,
+        displayHeaderFooter: true,
+        headerTemplate: headerHtml(doc.title),
+        footerTemplate: footerHtml,
+        margin: { top: '24mm', bottom: '20mm', left: '18mm', right: '18mm' },
+        tagged: true,
+      });
+    } catch (err) {
+      // Windows keeps the file locked while a PDF viewer has it open, and the
+      // error Chrome surfaces for that does not say so.
+      if (err?.code === 'EBUSY') {
+        console.error(`FEJL: ${rel(doc.out)} er laast af et andet program — luk PDF'en i din fremviser og koer igen.`);
+        process.exit(1);
+      }
+      throw err;
+    }
+    await page.close();
+
+    writeFileSync(doc.stampPath, doc.stamp + '\n');
+    // Called from the pre-commit hook: the artifact belongs in the same commit
+    // as the source it was rendered from, the way bin/mermaid2svg.sh stages
+    // its SVGs.
+    if (stage) git(['add', '--', doc.out, doc.stampPath]);
+    console.log(`Skrev ${rel(doc.out)} — ${doc.inlined} indlejret billede(r)${isDraft ? ', KLADDE (der er stadig [TODO:-markører i anmodningen)' : ''}`);
   }
-  throw err;
 } finally {
   await browser.close();
 }
-
-writeFileSync(stampPath, stamp + '\n');
-
-// Only one of the two filenames may exist, or the filing folder ends up with a
-// stale draft next to a final copy.
-// Called from the pre-commit hook: the artifact belongs in the same commit as
-// the source it was rendered from, the way bin/mermaid2svg.sh stages its SVGs.
-if (stage) git(['add', '--', out, stampPath]);
-
-console.log(`Skrev ${rel(out)} — ${inlined} indlejret billede(r)${isDraft ? ', KLADDE (der er stadig [TODO:-markører i kilden)' : ''}`);
 
 function rel(p) {
   return p.slice(repo.length + 1).replaceAll('\\', '/');
 }
 
-function readStamp() {
-  return existsSync(stampPath) ? readFileSync(stampPath, 'utf8').trim() : '';
+function readStamp(doc) {
+  return existsSync(doc.stampPath) ? readFileSync(doc.stampPath, 'utf8').trim() : '';
 }
 
 function git(args) {
