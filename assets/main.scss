@@ -56,6 +56,7 @@ $background-color: #ffffff;
 $brand-color:      $accent;
 $grey-color:       $muted;
 $content-width:    680px;
+$table-width:      940px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
@@ -271,19 +272,31 @@ a, a:hover, a:visited { color: inherit; }
     &::before { content: "···"; font-size: 30px; letter-spacing: 0.6em; color: $ink; }
   }
 
-  // Wide tables scroll inside the column instead of pushing the page sideways.
+  // Wide tables may grow past the text column, up to $table-width and centred
+  // on it, so long cells wrap less. Narrow tables keep the column width; on a
+  // phone the cap is the viewport, and anything wider scrolls inside the box.
   table:not([class]) {
     display: block;
-    width: 100%;
+    width: max-content;
+    min-width: 100%;
+    max-width: unquote("min(#{$table-width}, calc(100vw - 48px))");
+    margin-left: 50%;
+    transform: translateX(-50%);
     overflow-x: auto;
     border: 0;
     font-family: $sans;
     font-size: 15px;
     line-height: 22px;
     border-collapse: collapse;
-    margin: 0 0 1.6em;
+    margin-top: 0;
+    margin-bottom: 1.6em;
   }
   table:not([class]) th, table:not([class]) td { border: 0; border-bottom: 1px solid #e6e6e6; padding: 9px 10px; vertical-align: top; }
+  // The article's break-word would let the table layout split words ("Bestrid-es")
+  // to narrow a column; inside tables, break only words that cannot fit at all.
+  table:not([class]) { word-break: normal; overflow-wrap: break-word; }
+  // Right-aligned columns are amounts in markdown tables; keep "18,50 mio. kr." on one line.
+  table:not([class]) [style*="right"] { white-space: nowrap; }
   table:not([class]) th { background: transparent; font-weight: 600; border-bottom: 2px solid $ink; text-align: left; }
   table:not([class]) tr:nth-child(even) { background: transparent; }
 
