@@ -6,3 +6,5 @@ _site
 # .claude/skills/ is tracked; these are local-only
 .claude/worktrees/
 .claude/settings.local.json
+
+__pycache__/
