@@ -70,6 +70,8 @@ Til besvarelse heraf har kommunen fremlagt én opgørelse: Rambølls notat af 9.
 | Støjreducerende asfalt på Landevejen | 0,50 mio. kr. | Belægning på Landevejen — pligtig efter vilkår 6 | [afsnit C](#tillaeg-c) |
 | **I alt** | **30,53 mio. kr.** | | |
 
+Kommunen har to gange anerkendt, at opgørelsen *"kan give et misvisende billede af økonomi anvendt til støjdæmpning i projektet"* ([bilag 3, s. 1](https://aarhusworks.com/assets/giber-ringvej/2025-01-mtm-redegoerelse-2.pdf#page=1); [bilag 26, s. 2](https://aarhusworks.com/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf#page=2)). Den har alene forklaret, at opgørelsen var et skøn, og at ikke alle de 16 jorddepoter er anlagt som støjvolde — men aldrig præciseret, hvilke volde, poster eller beløb der er misvisende, og den har hverken trukket opgørelsen tilbage eller erstattet den.
+
 De 30,53 mio. kr. er altså ikke et opgjort forbrug, og de er heller ikke et skøn over puljen alene. Beløbet omfatter både det pligtige og det påstået supplerende. Notatet foretager adskillelsen i én sætning:
 
 > *"Hvis pkt. 8, 9 og 10 udgår, bliver det samlede beløb 17.280.000 kr."*
