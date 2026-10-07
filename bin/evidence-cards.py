@@ -233,7 +233,11 @@ def build(post):
             'page': page_no,
             'file': unquote(rel.rsplit('/', 1)[-1]),
             'pdf': f'https://aarhusworks.com/{rel}#page={page_no}',
-            'quote': ' '.join(quote.replace('*', '').split()),
+            'quote': ' '.join(re.sub(r'\\(.)', r'\1', quote.replace('*', '')).split()),
+            # The browser shows the card only if this text is next to the
+            # link, so an edit that shifts the link count drops the card
+            # rather than hanging it on the wrong citation.
+            'anchor': frags[0].replace(' ', ''),
         })
 
     for stale in outdir.glob('*.webp'):

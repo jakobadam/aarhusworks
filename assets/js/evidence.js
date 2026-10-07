@@ -21,8 +21,33 @@
     var href = a.getAttribute('href');
     var n = seen[href] = (seen[href] === undefined ? 0 : seen[href] + 1);
     var list = cards[href + '|' + n];
-    if (list) attach(a, list);
+    if (!list) return;
+    // The post may have been edited since the cards were made; a card whose
+    // quote is not beside this link belongs to another citation.
+    var near = norm(nearby(a));
+    list = list.filter(function (c) { return near.indexOf(c.anchor) >= 0; });
+    if (list.length) attach(a, list);
   });
+
+  // The text a citation documents: its block, and for a lead-in line
+  // ("jf. [bilag 56, s. 4]:") the block quote that follows it.
+  function nearby(a) {
+    var block = a.closest(BLOCK);
+    if (!block) return a.parentNode.textContent;
+    var next = block.nextElementSibling;
+    return block.textContent + ' ' + (next ? next.textContent : '');
+  }
+
+  // bin/quotelib.py's norm(), with whitespace dropped as the anchor is.
+  function norm(s) {
+    return s.normalize('NFC')
+      .replace(/­/g, '')
+      .replace(/[“”„]/g, '"').replace(/[’‘]/g, "'")
+      .replace(/[-–—−]/g, '')
+      .replace(/([a-zæøåA-ZÆØÅ])\d{1,2}(?!\d)/g, '$1')
+      .replace(/\s+/g, '')
+      .toLowerCase();
+  }
 
   function attach(a, list) {
     var button = document.createElement('button');
