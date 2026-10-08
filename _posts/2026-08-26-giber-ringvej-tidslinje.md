@@ -530,8 +530,7 @@ hide_title: true   # siden har sin egen overskrift
 <p class="timeline-kicker">Bilag 1 · Anmodning om tilsynssag</p>
 <h1 class="timeline-headline">Giber Ringvej: Tidslinje for VVM-tilladelsens vilkår 2, 5 og 7</h1>
 <div class="timeline-deck">
-  <p>Aarhus Kommune fik i 2018 en VVM-tilladelse til Giber Ringvej på tre bindende vilkår: slørende beplantning, støjdæmpende vejbelægning og supplerende støjdæmpning inden for <em>ca. 20 mio. kr.</em> Kommunen fastholder, at alle tre er opfyldt. Tilbage står én støjskærm — den, kommunen skyldte efter et andet vilkår — og en asfalt, kommunen ikke kan oplyse dæmpningen af.</p>
-  <p>Grundlaget for de 20 mio. kr. kom først frem i 2026. Beløbet er summen af fem prissatte tiltag på præcis de fem steder, vilkåret nævner: tre skærmtiltag til 16,7 mio. kr. — to nye skærme og en forhøjelse —, et facadetilskud og en afklaring ved Beder Landevej. Byrådet vedtog dem i 2016 mod forvaltningens indstilling og finansierede dem i 2020. Ingen af skærmtiltagene er udført.</p>
+  <p>Kronologisk oversigt over forløbet vedrørende vilkår 2, 5 og 7 i VVM-tilladelsen til Giber Ringvej af 12. oktober 2018. For den retlige vurdering henvises til <a href="/2026/08/26/anmodning-om-tilsynssag.html">anmodningen</a>.</p>
 </div>
 
 <p class="kladde-note">Kladde. Anmodningen til Ankestyrelsen er endnu ikke indgivet. Alle citater stammer fra de dokumenter, der er linket i den enkelte post.</p>
