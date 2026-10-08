@@ -31,8 +31,8 @@ The one exception is the Ankestyrelsen filing (`_posts/2026-08-26-anmodning-om-t
 
 ## Mermaid diagrams in posts
 
-`package.json`/`husky`/`lint-staged` wire a pre-commit hook (`.husky/pre-commit` → `npm run lint-staged`) that runs `bin/mermaid2svg.sh` on every staged `*.md` file. That script finds ```` ```mermaid ```\n<div class="mermaid-svg" style="text-align:center">
-</div><!--mermaid-svg-end-->`. This means:
+`package.json`/`husky`/`lint-staged` wire a pre-commit hook (`.husky/pre-commit` → `npm run lint-staged`) that runs `bin/mermaid2svg.sh` on every staged `*.md` file. That script finds fenced code blocks tagged `mermaid` and appends a rendered SVG (via `mmdc`, the `@mermaid-js/mermaid-cli` package) directly after each block, wrapped in a `mermaid-svg` div closed by an end-marker comment. This means:
+- The script matches the opening fence anywhere in a file, even inside running text, so never write the three backticks followed by the word mermaid literally in prose (this file included) — it rewrites the sentence. Describe it in words, as here.
 - Rendered SVGs in committed Markdown are generated artifacts, not hand-written — don't hand-edit them; edit the mermaid source block and let the hook regenerate the SVG on commit.
 - `npm install` is required once to get `mmdc` available for the hook to work.
 
