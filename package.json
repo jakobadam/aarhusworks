@@ -17,7 +17,8 @@
       "sh bin/mermaid2svg.sh"
     ],
     "_posts/2026-08-26-anmodning-om-tilsynssag*.md": [
-      "node bin/anmodning2pdf.mjs --stage"
+      "node bin/anmodning2pdf.mjs --stage",
+      "python bin/evidence-cards.py --stage"
     ]
   }
 }

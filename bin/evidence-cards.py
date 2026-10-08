@@ -12,9 +12,11 @@ each citation link (its href and which occurrence of that href it is) to its
 cards, and assets/js/evidence.js attaches them in the browser. The filing PDF
 from bin/anmodning2pdf.mjs is built from the Markdown and so never sees them.
 
-Like bin/thumbs.cjs, run it by hand when a post's quotes change and commit the
-output. Images no longer referenced by the post are deleted. Requires PyMuPDF
-and Pillow.
+The pre-commit hook runs it with --stage whenever the post is staged, and adds
+the images and manifest to the commit. Only new or changed quotes are drawn:
+an image is named by a hash of its source PDF's content, the page, the quote
+and RENDER, so an existing file is still correct. Images no longer referenced
+by the post are deleted. Requires PyMuPDF and Pillow.
 """
 
 import hashlib
@@ -22,6 +24,7 @@ import io
 import json
 import pathlib
 import re
+import subprocess
 import sys
 from urllib.parse import unquote
 
@@ -39,6 +42,7 @@ CONTEXT = 40          # a context line further than this from the quote is left 
 PAD = 6               # points of white around the outermost lines
 MARGIN = 14           # points of white beside the text column
 MAX_WIDTH = 1400      # pixels; twice the post column, so it stays sharp
+RENDER = 1            # raise when the crop or highlight changes, to redraw all
 SHEET = 700           # points; text wider than this is a drawing, not prose
 SHEET_CONTEXT = 160   # points of a drawing shown around the quote
 
@@ -170,6 +174,16 @@ def render(page, rects):
     return Image.frombytes('RGB', (pix.width, pix.height), pix.samples), focus
 
 
+_digests = {}
+
+
+def digest(path):
+    """-> hash of a source file, so a replaced PDF gets its images redrawn."""
+    if path not in _digests:
+        _digests[path] = hashlib.sha1(path.read_bytes()).hexdigest()
+    return _digests[path]
+
+
 def occurrence(raw, href, before):
     """-> how many links to exactly href precede offset `before` in the post.
 
@@ -192,7 +206,15 @@ def build(post):
     made = set()
     focus = {}
     eligible = 0
+    reused = 0
     unplaced = []
+
+    manifest = ROOT / '_data' / 'evidence' / f'{slug}.json'
+    old_focus = {}
+    if manifest.exists():
+        for entries in json.loads(manifest.read_text(encoding='utf-8')).values():
+            for c in entries:
+                old_focus[c['src'].rsplit('/', 1)[-1]] = c['focus']
 
     for item in cited_quotes(raw):
         if item is None:
@@ -206,21 +228,25 @@ def build(post):
             continue
         eligible += 1
 
-        if rel not in docs:
-            docs[rel] = fitz.open(sources.path(rel))
-        page = docs[rel][page_no - 1]
-        rects = locate(page, frags)
-        short = quote[:70].replace('\n', ' ')
-        if not rects:
-            unplaced.append((short, rel, page_no))
-            continue
-
-        key = f'{rel}|{page_no}|{" ".join(frags)}'
+        # The name is a hash of everything the image depends on, so an image
+        # already on disk under it is still right and need not be drawn again.
+        key = f'{RENDER}|{digest(sources.path(rel))}|{rel}|{page_no}|{" ".join(frags)}'
         name = hashlib.sha1(key.encode('utf-8')).hexdigest()[:12] + '.webp'
         img_path = outdir / name
         if name not in made:
-            img, focus[name] = render(page, rects)
-            img.save(img_path, 'WEBP', quality=72, method=6)
+            if img_path.exists() and name in old_focus:
+                focus[name] = old_focus[name]
+                reused += 1
+            else:
+                if rel not in docs:
+                    docs[rel] = fitz.open(sources.path(rel))
+                page = docs[rel][page_no - 1]
+                rects = locate(page, frags)
+                if not rects:
+                    unplaced.append((quote[:70].replace('\n', ' '), rel, page_no))
+                    continue
+                img, focus[name] = render(page, rects)
+                img.save(img_path, 'WEBP', quality=72, method=6)
             made.add(name)
         w, h = Image.open(img_path).size
 
@@ -244,20 +270,27 @@ def build(post):
         if stale.name not in made:
             stale.unlink()
 
-    data = ROOT / '_data' / 'evidence'
-    data.mkdir(parents=True, exist_ok=True)
-    (data / f'{slug}.json').write_text(
+    manifest.parent.mkdir(parents=True, exist_ok=True)
+    manifest.write_text(
         json.dumps(cards, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 
     size = sum(p.stat().st_size for p in outdir.glob('*.webp'))
     print(f'{post.name}: {eligible} quotes verified on a PDF page, '
           f'{eligible - len(unplaced)} carded, {len(made)} images '
-          f'({size // 1024} KB) in assets/evidence/{slug}/')
+          f'({len(made) - reused} drawn, {reused} unchanged; {size // 1024} KB) '
+          f'in assets/evidence/{slug}/')
+    return [outdir, manifest]
     if unplaced:
         print('  Verified but not located word by word — no card:')
         for short, rel, page_no in unplaced:
             print(f'    {rel} p. {page_no}: "{short}"')
 
 
+stage = '--stage' in sys.argv
+outputs = []
 for arg in sys.argv[1:]:
-    build(pathlib.Path(arg).resolve())
+    if arg != '--stage':
+        outputs += build(pathlib.Path(arg).resolve())
+if stage and outputs:
+    # -A so images the post no longer uses leave the commit along with it.
+    subprocess.run(['git', 'add', '-A', '--', *map(str, outputs)], cwd=ROOT, check=True)
