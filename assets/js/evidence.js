@@ -43,6 +43,7 @@
     return s.normalize('NFC')
       .replace(/­/g, '')
       .replace(/[“”„]/g, '"').replace(/[’‘]/g, "'")
+      .replace(/(\d)[-–—−]\s*(?=\d)/g, '$1~')
       .replace(/[-–—−]/g, '')
       .replace(/([a-zæøåA-ZÆØÅ])\d{1,2}(?!\d)/g, '$1')
       .replace(/\s+/g, '')

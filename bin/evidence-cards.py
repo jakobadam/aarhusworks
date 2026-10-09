@@ -62,7 +62,13 @@ def locate(page, frags):
     words = page.get_text('words')
     text, owner = [], []
     for i, w in enumerate(words):
-        n = norm(w[4]).replace(' ', '')
+        word = w[4]
+        # A range wrapped after its hyphen ("1-" / "2 dB") is split over two
+        # words; norm() only sees the range when both halves are in view.
+        if (re.search(r'\d[-–—−]$', word) and i + 1 < len(words)
+                and words[i + 1][4][:1].isdigit()):
+            word = word[:-1] + '~'
+        n = norm(word).replace(' ', '')
         text.append(n)
         owner.extend([i] * len(n))
     text = ''.join(text)
@@ -279,11 +285,11 @@ def build(post):
           f'{eligible - len(unplaced)} carded, {len(made)} images '
           f'({len(made) - reused} drawn, {reused} unchanged; {size // 1024} KB) '
           f'in assets/evidence/{slug}/')
-    return [outdir, manifest]
     if unplaced:
         print('  Verified but not located word by word — no card:')
         for short, rel, page_no in unplaced:
             print(f'    {rel} p. {page_no}: "{short}"')
+    return [outdir, manifest]
 
 
 stage = '--stage' in sys.argv

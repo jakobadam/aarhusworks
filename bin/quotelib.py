@@ -49,6 +49,10 @@ def norm(s):
     # Removing the hyphen turns it into "VVMbekendtgørelsen"; keeping it
     # turns a wrap into "anlægs-virkning". Dropping every hyphen on both
     # sides is symmetric, so either spelling compares equal.
+    # Except between digits: there the hyphen is a range, and dropping it
+    # makes "1-2 dB" equal "12 dB". A range wrapped after its hyphen
+    # ("1-" / "2 dB") once passed as twelve. Mark it instead, wrap or not.
+    s = re.sub(r'(?<=\d)-\s*(?=\d)', '~', s)
     s = re.sub(r'-\s*\n\s*', '-', s)
     s = s.replace('-', '')
     # A footnote marker in a PDF text layer glues its digit to the preceding
