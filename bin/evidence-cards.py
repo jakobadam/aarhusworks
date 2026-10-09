@@ -7,10 +7,19 @@ cites, this crops the PDF page around the quote, highlights the quoted words,
 and saves the crop as WebP under assets/evidence/<post slug>/. The reader then
 sees the document itself, not our retyping of it.
 
-The post is never touched. A manifest, _data/evidence/<post slug>.json, maps
-each citation link (its href and which occurrence of that href it is) to its
-cards, and assets/js/evidence.js attaches them in the browser. The filing PDF
-from bin/anmodning2pdf.mjs is built from the Markdown and so never sees them.
+A quote gets a card at its own citation link when that source holds it.
+Otherwise only when the source is not in doubt: the nearest citation before
+it in its section holds it, or (for quotes of MIN_WORDS words or more) the
+same quote is carded at its link elsewhere, or exactly one cited document
+contains it. Those cards hang on the quotation itself.
+
+The post is never touched. A manifest, _data/evidence/<post slug>.json, holds
+the cards by link (href and which occurrence of it) and by quotation (its
+normalised text and which occurrence), and assets/js/evidence.js attaches
+them in the browser. It also records, for every quotation, why it has a card
+or not; a local build shows that in a "Kildestatus" panel (add ?kilder to
+open it), and the published page leaves it out. The filing PDF from
+bin/anmodning2pdf.mjs is built from the Markdown and so never sees any of it.
 
 The pre-commit hook runs it with --stage whenever the post is staged, and adds
 the images and manifest to the commit. Only new or changed quotes are drawn:
@@ -34,7 +43,8 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 
 import fitz                                                   # noqa: E402
-from quotelib import Sources, cited_quotes, norm              # noqa: E402
+from quotelib import (ANY_ASSET, LINK, SELF, Sources,          # noqa: E402
+                      cited_quotes, norm)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DPI = 144
@@ -43,6 +53,8 @@ PAD = 6               # points of white around the outermost lines
 MARGIN = 14           # points of white beside the text column
 MAX_WIDTH = 1400      # pixels; twice the post column, so it stays sharp
 RENDER = 1            # raise when the crop or highlight changes, to redraw all
+MIN_WORDS = 4         # a shorter quote found in one document only is too generic
+SECTION = re.compile(r'^#{1,6} ', re.M)
 SHEET = 700           # points; text wider than this is a drawing, not prose
 SHEET_CONTEXT = 160   # points of a drawing shown around the quote
 
@@ -200,40 +212,48 @@ def occurrence(raw, href, before):
     return len(target.findall(raw, 0, before))
 
 
+def qkey(quote):
+    """-> a quote as the browser finds it between its quotation marks.
+
+    assets/js/evidence.js normalises the rendered text the same way; kramdown
+    turns "..." into an ellipsis character, so both sides spell it out.
+    """
+    return norm(re.sub(r'\\(.)', r'\1', quote)).replace('…', '...').replace(' ', '')
+
+
+def all_cards(manifest):
+    """-> every card in a manifest, in either the old or the current layout."""
+    if 'links' not in manifest:
+        return [c for entries in manifest.values() for c in entries]
+    return ([c for entries in manifest['links'].values() for c in entries]
+            + [c for q in manifest['quotes'] for c in q['cards']])
+
+
 def build(post):
     raw = post.read_text(encoding='utf-8')
     slug = re.sub(r'^\d{4}-\d{2}-\d{2}-', '', post.stem)
     outdir = ROOT / 'assets' / 'evidence' / slug
     outdir.mkdir(parents=True, exist_ok=True)
+    front = re.match(r'﻿?---\r?\n.*?\r?\n---\r?\n', raw, re.S)
+    body_start = front.end() if front else 0
 
     sources = Sources(ROOT)
+    pdfs = sorted(a for a in set(ANY_ASSET.findall(raw))
+                  if a not in SELF and a.lower().endswith('.pdf'))
     docs = {}
-    cards = {}
     made = set()
     focus = {}
-    eligible = 0
     reused = 0
-    unplaced = []
 
     manifest = ROOT / '_data' / 'evidence' / f'{slug}.json'
     old_focus = {}
     if manifest.exists():
-        for entries in json.loads(manifest.read_text(encoding='utf-8')).values():
-            for c in entries:
-                old_focus[c['src'].rsplit('/', 1)[-1]] = c['focus']
+        for c in all_cards(json.loads(manifest.read_text(encoding='utf-8'))):
+            old_focus[c['src'].rsplit('/', 1)[-1]] = c['focus']
 
-    for item in cited_quotes(raw):
-        if item is None:
-            continue
-        m, quote, frags, link = item
-        if link is None or not link.group(1).lower().endswith('.pdf'):
-            continue
-        rel, cited = link.group(1), int(link.group(2) or 0)
-        page_no = sources.find_in(rel, frags, cited)
-        if not page_no:             # not verified, no text layer, or spans pages
-            continue
-        eligible += 1
-
+    def card(rel, page_no, frags, quote):
+        """-> the card for a quote on a page, or None if its words are not found."""
+        nonlocal reused
         # The name is a hash of everything the image depends on, so an image
         # already on disk under it is still right and need not be drawn again.
         key = f'{RENDER}|{digest(sources.path(rel))}|{rel}|{page_no}|{" ".join(frags)}'
@@ -249,16 +269,12 @@ def build(post):
                 page = docs[rel][page_no - 1]
                 rects = locate(page, frags)
                 if not rects:
-                    unplaced.append((quote[:70].replace('\n', ' '), rel, page_no))
-                    continue
+                    return None
                 img, focus[name] = render(page, rects)
                 img.save(img_path, 'WEBP', quality=72, method=6)
             made.add(name)
         w, h = Image.open(img_path).size
-
-        href = f'https://aarhusworks.com/{rel}' + (f'#page={cited}' if cited else '')
-        n = occurrence(raw, href, link.start())
-        cards.setdefault(f'{href}|{n}', []).append({
+        return {
             'src': f'/assets/evidence/{slug}/{name}',
             'w': w, 'h': h,
             'focus': focus[name],
@@ -266,29 +282,117 @@ def build(post):
             'file': unquote(rel.rsplit('/', 1)[-1]),
             'pdf': f'https://aarhusworks.com/{rel}#page={page_no}',
             'quote': ' '.join(re.sub(r'\\(.)', r'\1', quote.replace('*', '')).split()),
-            # The browser shows the card only if this text is next to the
-            # link, so an edit that shifts the link count drops the card
-            # rather than hanging it on the wrong citation.
-            'anchor': frags[0].replace(' ', ''),
-        })
+        }
+
+    links = {}       # cards hung on their citation link: "<href>|<n>" -> cards
+    quotes = []      # cards hung on the quotation itself, which has no link
+    status = []      # every quotation and whether it got a card, for authors
+    seen = {}        # qkey -> how many quotations with that text so far
+    by_text = {}     # " ".join(frags) -> card made at a link, for repeats
+    pending = []
+
+    # Pass 1: quotations whose own citation link holds them.
+    for item in cited_quotes(raw):
+        if item is None or item[0].start() < body_start:
+            continue
+        m, quote, frags, link = item
+        k = qkey(quote)
+        record = {'key': k, 'n': seen.get(k, 0), 'quote': quote[:90]}
+        seen[k] = record['n'] + 1
+        status.append(record)
+
+        if link is not None:
+            rel, cited = link.group(1), int(link.group(2) or 0)
+            if not rel.lower().endswith('.pdf'):
+                ext = rel.rsplit('.', 1)[-1].lower()
+                record['note'] = f'kilden er en {ext}-fil, ikke en PDF'
+                continue
+            if sources.pages(rel) is None:
+                record['note'] = 'kilden er en scanning uden tekst'
+                continue
+            page_no = sources.find_in(rel, frags, cited)
+            if page_no == 0:
+                record['note'] = 'citatet går over et sideskift'
+                continue
+            if page_no:
+                c = card(rel, page_no, frags, quote)
+                if c is None:
+                    record['note'] = 'ordene kunne ikke placeres på siden'
+                    continue
+                href = f'https://aarhusworks.com/{rel}' + (f'#page={cited}' if cited else '')
+                n = occurrence(raw, href, link.start())
+                # The browser shows the card only if this text is next to the
+                # link, so an edit that shifts the link count drops the card
+                # rather than hanging it on the wrong citation.
+                links.setdefault(f'{href}|{n}', []).append(
+                    dict(c, anchor=frags[0].replace(' ', '')))
+                by_text.setdefault(' '.join(frags), c)
+                record['card'] = True
+                record['note'] = ('ved henvisningen' if not cited or page_no == cited else
+                                  f'ved henvisningen — men den siger s. {cited}, '
+                                  f'citatet står på s. {page_no}')
+                continue
+        pending.append((item, record))
+
+    # Pass 2: quotations without a link that holds them. A card is made only
+    # when the source is not in doubt; a phrase found in an arbitrary one of
+    # the cited documents would put the wrong page beside the claim.
+    # In order of how sure the source is: the nearest citation before the
+    # quote in its section; then, for quotes long enough not to be a stock
+    # phrase, the same quote carded at its link elsewhere, or the only cited
+    # document that contains it.
+    for (m, quote, frags, link), record in pending:
+        c, note = None, None
+        long_enough = len(quote.split()) >= MIN_WORDS
+        section = max((h.start() for h in SECTION.finditer(raw, 0, m.start())),
+                      default=body_start)
+        for near in reversed(list(LINK.finditer(raw, section, m.start()))):
+            rel = near.group(1)
+            if rel in SELF or not rel.lower().endswith('.pdf'):
+                continue
+            page_no = sources.find_in(rel, frags, int(near.group(2) or 0))
+            if page_no:
+                c = card(rel, page_no, frags, quote)
+                if c:
+                    note = 'nærmeste henvisning før citatet i afsnittet'
+                    break
+        if c is None and long_enough and ' '.join(frags) in by_text:
+            c, note = by_text[' '.join(frags)], 'samme citat har kort ved sin henvisning'
+        if c is None:
+            hits = [a for a in pdfs if sources.find_in(a, frags)]
+            if len(hits) == 1 and long_enough:
+                c = card(hits[0], sources.find_in(hits[0], frags), frags, quote)
+                note = 'det eneste citerede dokument, der indeholder citatet'
+            elif len(hits) > 1:
+                note = f'står i {len(hits)} af de citerede dokumenter — kilden er tvetydig'
+            elif hits:
+                note = f'kun ét dokument, men under {MIN_WORDS} ord — for usikkert'
+            elif link is not None:
+                note = 'ikke fundet i den henviste kilde'
+            else:
+                note = 'ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)'
+        if c is not None:
+            quotes.append({'key': record['key'], 'n': record['n'], 'cards': [c]})
+            record['card'] = True
+        record['note'] = note
 
     for stale in outdir.glob('*.webp'):
         if stale.name not in made:
             stale.unlink()
 
     manifest.parent.mkdir(parents=True, exist_ok=True)
-    manifest.write_text(
-        json.dumps(cards, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    manifest.write_text(json.dumps({'links': links, 'quotes': quotes, 'status': status},
+                                   ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 
+    carded = sum(1 for r in status if r.get('card'))
     size = sum(p.stat().st_size for p in outdir.glob('*.webp'))
-    print(f'{post.name}: {eligible} quotes verified on a PDF page, '
-          f'{eligible - len(unplaced)} carded, {len(made)} images '
-          f'({len(made) - reused} drawn, {reused} unchanged; {size // 1024} KB) '
-          f'in assets/evidence/{slug}/')
-    if unplaced:
-        print('  Verified but not located word by word — no card:')
-        for short, rel, page_no in unplaced:
-            print(f'    {rel} p. {page_no}: "{short}"')
+    print(f'{post.name}: {carded} of {len(status)} quotations carded, {len(made)} images '
+          f'({len(made) - reused} drawn, {reused} unchanged; {size // 1024} KB)')
+    tally = {}
+    for r in status:
+        tally.setdefault((bool(r.get('card')), r['note'].split(' — ')[0]), []).append(r)
+    for (ok, note), rs in sorted(tally.items(), key=lambda t: (not t[0][0], -len(t[1]))):
+        print(f'  {"kort " if ok else "intet"} {len(rs):4}  {note}')
     return [outdir, manifest]
 
 

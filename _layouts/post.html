@@ -44,8 +44,13 @@ layout: default
   Evidence cards (bin/evidence-cards.py): the cropped source page behind each
   quotation, attached in the browser so the post's Markdown stays untouched.
 {%- endcomment -%}
+{%- comment -%}
+  `status` says, for every quotation, why it has a card or not. It is for
+  the author's local preview only: the published filing is read by the other
+  party, and the list would point straight at its weakest quotations.
+{%- endcomment -%}
 {%- assign evidence = site.data.evidence[page.slug] -%}
 {%- if evidence %}
-<script>window.EVIDENCE = {{ evidence | jsonify }};</script>
+<script>window.EVIDENCE = { links: {{ evidence.links | jsonify }}, quotes: {{ evidence.quotes | jsonify }}{% if jekyll.environment != "production" %}, status: {{ evidence.status | jsonify }}{% endif %} };</script>
 <script src="{{ "/assets/js/evidence.js" | relative_url }}" defer></script>
 {%- endif %}

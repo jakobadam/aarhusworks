@@ -465,6 +465,49 @@ a, a:hover, a:visited { color: inherit; }
   @media print { display: none; }
 }
 
+// Local builds only: which quotations have a card (window.EVIDENCE.status).
+.ev-mark {
+  display: none;
+  margin-left: 3px;
+  padding: 0 5px;
+  border-radius: 3px;
+  font-family: $sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  vertical-align: 1px;
+}
+.ev-status-on .ev-mark { display: inline; }
+.ev-mark--ok   { color: #1d6b32; background: #e3f3e7; }
+.ev-mark--warn { color: #7a5200; background: #fff1c7; }
+.ev-mark--miss { color: #a1141a; background: #fde4e4; }
+
+.ev-panel {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  align-items: center;
+  max-width: calc(100vw - 32px);
+  padding: 8px 12px;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+  font-family: $sans;
+  font-size: 13px;
+  color: $ink;
+
+  button { font: inherit; cursor: pointer; }
+  .ev-panel-lost { color: #a1141a; cursor: help; }
+}
+
+@media print { .ev-mark, .ev-panel { display: none !important; } }
+
 // ---------------------------------------------------------------- footer
 
 .site-footer {
