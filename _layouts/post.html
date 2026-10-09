@@ -45,12 +45,17 @@ layout: default
   quotation, attached in the browser so the post's Markdown stays untouched.
 {%- endcomment -%}
 {%- comment -%}
-  `status` says, for every quotation, why it has a card or not. It is for
-  the author's local preview only: the published filing is read by the other
-  party, and the list would point straight at its weakest quotations.
+  `status` says, for every quotation, why it has a card or not, and is shown
+  as a list of what to check. It is published only while the filing is a
+  draft — the same test bin/anmodning2pdf.mjs uses for the KLADDE stamp:
+  [TODO: markers left in the anmodning. Once filed, the page is read by the
+  other party, and the list would point straight at its weakest quotations.
 {%- endcomment -%}
 {%- assign evidence = site.data.evidence[page.slug] -%}
 {%- if evidence %}
-<script>window.EVIDENCE = { links: {{ evidence.links | jsonify }}, quotes: {{ evidence.quotes | jsonify }}{% if jekyll.environment != "production" %}, status: {{ evidence.status | jsonify }}{% endif %} };</script>
+{%- assign filing = site.posts | where: "slug", "anmodning-om-tilsynssag" | first -%}
+{%- assign draft = false -%}
+{%- if filing and filing.content contains "[TODO:" -%}{%- assign draft = true -%}{%- endif %}
+<script>window.EVIDENCE = { links: {{ evidence.links | jsonify }}, quotes: {{ evidence.quotes | jsonify }}{% if draft or jekyll.environment != "production" %}, status: {{ evidence.status | jsonify }}{% endif %} };</script>
 <script src="{{ "/assets/js/evidence.js" | relative_url }}" defer></script>
 {%- endif %}

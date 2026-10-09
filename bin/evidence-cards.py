@@ -17,8 +17,10 @@ The post is never touched. A manifest, _data/evidence/<post slug>.json, holds
 the cards by link (href and which occurrence of it) and by quotation (its
 normalised text and which occurrence), and assets/js/evidence.js attaches
 them in the browser. It also records, for every quotation, why it has a card
-or not; a local build shows that in a "Kildestatus" panel (add ?kilder to
-open it), and the published page leaves it out. The filing PDF from
+or not; while the filing is a draft (the anmodning still has [TODO: markers,
+as for the KLADDE stamp in bin/anmodning2pdf.mjs) the page marks every
+quotation and lists what to check. Once filed, the published page leaves
+that out, and only a local build shows it. The filing PDF from
 bin/anmodning2pdf.mjs is built from the Markdown and so never sees any of it.
 
 The pre-commit hook runs it with --stage whenever the post is staged, and adds
@@ -212,6 +214,17 @@ def occurrence(raw, href, before):
     return len(target.findall(raw, 0, before))
 
 
+def in_range(raw, link, page_no):
+    """-> whether the link's own text ("bilag 58, s. 6–7") spans page_no.
+
+    #page= can only open the first page of a range; a quote on the next page
+    of it is cited correctly.
+    """
+    text = raw[raw.rfind('[', 0, link.start()):link.start()]
+    return any(int(a) <= page_no <= int(b)
+               for a, b in re.findall(r's\.\s*(\d+)\s*[–-]\s*(\d+)', text))
+
+
 def qkey(quote):
     """-> a quote as the browser finds it between its quotation marks.
 
@@ -297,12 +310,18 @@ def build(post):
             continue
         m, quote, frags, link = item
         k = qkey(quote)
-        record = {'key': k, 'n': seen.get(k, 0), 'quote': quote[:90]}
+        shown = ' '.join(re.sub(r'\\(.)', r'\1', quote).split())
+        if len(shown) > 120:
+            shown = shown[:117].rsplit(' ', 1)[0] + ' …'
+        record = {'key': k, 'n': seen.get(k, 0), 'quote': shown}
         seen[k] = record['n'] + 1
         status.append(record)
 
         if link is not None:
             rel, cited = link.group(1), int(link.group(2) or 0)
+            # The source the text points to, so a quote to check can be
+            # looked up without hunting for its link.
+            record['src'] = unquote(rel.rsplit('/', 1)[-1]) + (f', s. {cited}' if cited else '')
             if not rel.lower().endswith('.pdf'):
                 ext = rel.rsplit('.', 1)[-1].lower()
                 record['note'] = f'kilden er en {ext}-fil, ikke en PDF'
@@ -328,9 +347,10 @@ def build(post):
                     dict(c, anchor=frags[0].replace(' ', '')))
                 by_text.setdefault(' '.join(frags), c)
                 record['card'] = True
-                record['note'] = ('ved henvisningen' if not cited or page_no == cited else
-                                  f'ved henvisningen — men den siger s. {cited}, '
-                                  f'citatet står på s. {page_no}')
+                record['note'] = ('ved henvisningen' if not cited or page_no == cited
+                                  or in_range(raw, link, page_no) else
+                                  f'henvisningen siger s. {cited}, citatet står på '
+                                  f's. {page_no} — tjek, om henvisningen gælder citatet')
                 continue
         pending.append((item, record))
 

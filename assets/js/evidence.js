@@ -31,11 +31,9 @@
     var q = at(e.key, e.n);
     if (q) jobs.push({ q: q, order: 1, run: function (q) { attachToQuote(q, e.cards); } });
   });
-  var missing = [];
   (data.status || []).forEach(function (r) {
     var q = at(r.key, r.n);
-    if (q) jobs.push({ q: q, order: 0, run: function (q) { insertAfter(q, mark(r)); } });
-    else missing.push(r);
+    if (q) jobs.push({ q: q, order: 0, run: function (q) { r.el = mark(r); insertAfter(q, r.el); } });
   });
   jobs.sort(function (a, b) { return b.q.index - a.q.index || a.order - b.order; });
   jobs.forEach(function (j) { j.run(j.q); });
@@ -56,7 +54,7 @@
     if (list.length) attachToLink(a, list);
   });
 
-  if (data.status) panel(data.status, missing);
+  if (data.status) panel(data.status);
 
   // Every run of text between quotation marks, with where its closing mark is.
   function quotations() {
@@ -233,41 +231,103 @@
     return figure;
   }
 
-  // ---- Local builds only: which quotations have a card, and why not.
+  // ---- While the filing is a draft: which quotations have a card, and what
+  // there is to check in the rest.
+
+  function isWarn(r) { return r.card && r.note.indexOf(' — ') >= 0; }
 
   function mark(r) {
     var span = document.createElement('span');
-    var warn = r.card && r.note.indexOf(' — ') >= 0;
-    span.className = 'ev-mark ' + (warn ? 'ev-mark--warn' : r.card ? 'ev-mark--ok' : 'ev-mark--miss');
-    span.textContent = r.card && !warn ? '✓' : (r.card ? '! ' : '✗ ') + r.note;
+    span.className = 'ev-mark ' + (isWarn(r) ? 'ev-mark--warn' : r.card ? 'ev-mark--ok' : 'ev-mark--miss');
+    span.textContent = r.card && !isWarn(r) ? '✓' : (r.card ? '! ' : '✗ ') + r.note;
     span.title = r.note;
     return span;
   }
 
-  function panel(status, missing) {
+  function panel(status) {
+    // What to check, most serious first. Each group is matched on the start
+    // of the reason bin/evidence-cards.py gives.
+    var GROUPS = [
+      ['ikke fundet i den henviste kilde', 'Står ikke i den kilde, der henvises til — tjek citatet'],
+      ['henvisningen siger', 'Henvisningens sidetal afviger fra citatets side'],
+      ['ordene kunne ikke', 'Fundet i kilden, men ikke placeret på siden'],
+      ['citatet går over', 'Går over et sideskift i kilden'],
+      ['står i', 'Står i flere af de citerede dokumenter — kilden er tvetydig'],
+      ['kun ét dokument', 'For kort til at afgøre kilden sikkert'],
+      ['ikke fundet i nogen', 'Står ikke i noget citeret dokument (lovtekst, egne ord o.l.)'],
+      ['kilden er', 'Kilden er ikke en PDF med tekst'],
+      ['', 'Øvrige']
+    ];
     var carded = status.filter(function (r) { return r.card; }).length;
+    var todo = status.filter(function (r) { return !r.card || isWarn(r); });
+
     var box = document.createElement('aside');
     box.className = 'ev-panel';
+    var head = document.createElement('div');
+    head.className = 'ev-panel-head';
     var text = document.createElement('span');
     text.textContent = 'Kildekort: ' + carded + ' af ' + status.length + ' citater';
-    var button = document.createElement('button');
-    button.type = 'button';
-    box.append(text, button);
-    if (missing.length) {
-      var lost = document.createElement('span');
-      lost.className = 'ev-panel-lost';
-      lost.textContent = missing.length + ' citat(er) ikke fundet på siden';
-      lost.title = missing.map(function (r) { return '"' + r.quote + '" — ' + r.note; }).join('\n');
-      box.appendChild(lost);
-    }
-    function set(on) {
-      root.classList.toggle('ev-status-on', on);
-      button.textContent = on ? 'Skjul status' : 'Vis status';
-    }
-    button.addEventListener('click', function () {
-      set(!root.classList.contains('ev-status-on'));
+    var marks = document.createElement('button');
+    marks.type = 'button';
+    var listButton = document.createElement('button');
+    listButton.type = 'button';
+    head.append(text, marks, listButton);
+
+    var list = document.createElement('div');
+    list.className = 'ev-panel-list';
+    list.hidden = true;
+    GROUPS.forEach(function (g) {
+      var items = todo.filter(function (r) {
+        return !r.grouped && r.note.indexOf(g[0]) === 0 && (r.grouped = true);
+      });
+      if (!items.length) return;
+      var h = document.createElement('p');
+      h.className = 'ev-panel-group';
+      h.textContent = g[1] + ' (' + items.length + ')';
+      var ol = document.createElement('ol');
+      items.forEach(function (r) {
+        var li = document.createElement('li');
+        var q = document.createElement('a');
+        q.href = '#';
+        q.textContent = '“' + r.quote.replace(/\*/g, '') + '”';
+        var why = document.createElement('span');
+        why.className = 'ev-panel-why';
+        why.textContent = r.note + (r.src ? ' · henvist kilde: ' + r.src : '') +
+                          (r.el ? '' : ' (citatet findes ikke på siden)');
+        li.append(q, why);
+        q.addEventListener('click', function (e) {
+          e.preventDefault();
+          if (!r.el) return;
+          setMarks(true);
+          r.el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+          r.el.classList.remove('ev-mark--flash');
+          void r.el.offsetWidth;
+          r.el.classList.add('ev-mark--flash');
+        });
+        ol.appendChild(li);
+      });
+      list.append(h, ol);
     });
-    set(/[?&]kilder\b/.test(location.search));
+    box.append(head, list);
+
+    function setMarks(on) {
+      root.classList.toggle('ev-status-on', on);
+      marks.textContent = on ? 'Skjul markeringer' : 'Vis markeringer';
+      try { localStorage.setItem('ev-marks', on ? '1' : '0'); } catch (e) {}
+    }
+    function setList(open) {
+      list.hidden = !open;
+      listButton.textContent = (open ? 'Skjul' : 'Vis') + ' ' + todo.length + ' til gennemsyn';
+    }
+    marks.addEventListener('click', function () {
+      setMarks(!root.classList.contains('ev-status-on'));
+    });
+    listButton.addEventListener('click', function () { setList(list.hidden); });
+
+    var stored = null;
+    try { stored = localStorage.getItem('ev-marks'); } catch (e) {}
+    setMarks(stored !== '0');
+    setList(false);
     document.body.appendChild(box);
   }
 })();

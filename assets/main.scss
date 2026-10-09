@@ -465,7 +465,8 @@ a, a:hover, a:visited { color: inherit; }
   @media print { display: none; }
 }
 
-// Local builds only: which quotations have a card (window.EVIDENCE.status).
+// While the filing is a draft: which quotations have a card, and a list of
+// what to check (window.EVIDENCE.status).
 .ev-mark {
   display: none;
   margin-left: 3px;
@@ -483,17 +484,19 @@ a, a:hover, a:visited { color: inherit; }
 .ev-mark--warn { color: #7a5200; background: #fff1c7; }
 .ev-mark--miss { color: #a1141a; background: #fde4e4; }
 
+.ev-mark--flash { animation: ev-flash 1.6s ease-out; }
+@keyframes ev-flash {
+  0%, 30% { box-shadow: 0 0 0 4px #f0c64a; }
+  100% { box-shadow: 0 0 0 4px transparent; }
+}
+
 .ev-panel {
   position: fixed;
   right: 16px;
   bottom: 16px;
   z-index: 10;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px 10px;
-  align-items: center;
+  width: 440px;
   max-width: calc(100vw - 32px);
-  padding: 8px 12px;
   border: 1px solid #e3e3e3;
   border-radius: 6px;
   background: #fff;
@@ -503,8 +506,29 @@ a, a:hover, a:visited { color: inherit; }
   color: $ink;
 
   button { font: inherit; cursor: pointer; }
-  .ev-panel-lost { color: #a1141a; cursor: help; }
 }
+
+.ev-panel-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+.ev-panel-list {
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 0 12px 10px;
+  border-top: 1px solid #e3e3e3;
+
+  ol { margin: 0 0 6px 18px; padding: 0; }
+  li { margin: 0 0 6px; line-height: 1.4; }
+  a { color: $ink; }
+}
+
+.ev-panel-group { margin: 10px 0 4px; font-weight: 700; color: #a1141a; }
+.ev-panel-why { display: block; color: $muted; font-size: 12px; }
 
 @media print { .ev-mark, .ev-panel { display: none !important; } }
 
