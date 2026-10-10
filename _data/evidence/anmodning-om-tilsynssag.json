@@ -655,6 +655,17 @@
     "pdf": "https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf#page=10",
     "quote": "undersøgelser foretaget af Miljøstyrelsen",
     "anchor": "undersøgelserforetagetafmiljøstyrelsen"
+   },
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/3a78c268fc82.webp",
+    "w": 1097,
+    "h": 718,
+    "focus": 0.406,
+    "page": 14,
+    "file": "AAK-2011.pdf",
+    "pdf": "https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2011.pdf#page=14",
+    "quote": "Isoleret set kan brugen af støjreducerende tyndlagsbelægninger reducere støjbelastningen på de tilgrænsende boliger og arealer med mellem 1 og 4 dB",
+    "anchor": "isoleretsetkanbrugenafstøjreducerendetyndlagsbelægningerreducerestøjbelastningenpådetilgrænsendeboligerogarealermedmellem1og4db"
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=10|0": [
@@ -1741,6 +1752,38 @@
    ]
   },
   {
+   "key": "byggerpå(...)notatetframagistratentiltekniskudvalgaf2016~09~01,derigenbyggerpånotatfracowiaf2016~08~01",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag/7cf0dad561ad.webp",
+     "w": 984,
+     "h": 165,
+     "focus": 0.383,
+     "page": 1,
+     "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=1",
+     "quote": "bygger på (...) notatet fra Magistraten til Teknisk Udvalg af 2016-09-01, der igen bygger på notat fra COWI af 2016-08-01"
+    }
+   ]
+  },
+  {
+   "key": "erdetmuligtatstøjdæmpemere,oghvadkosterdet?",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag/d824b04bc001.webp",
+     "w": 1020,
+     "h": 100,
+     "focus": 0.333,
+     "page": 1,
+     "file": "2016-09-01-tu-svar.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=1",
+     "quote": "Er det muligt at støjdæmpe mere, og hvad koster det?"
+    }
+   ]
+  },
+  {
    "key": "spredtbebyggelseidetåbneland",
    "n": 0,
    "cards": [
@@ -1993,6 +2036,22 @@
      "file": "2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf",
      "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=1",
      "quote": "en støjreduktion på 2,4 dB i forhold til den traditionelle asfalttype SMA 11"
+    }
+   ]
+  },
+  {
+   "key": "vurderesstøjreduktionensnarereatværeistørrelsesordenenca.1db",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag/9c863360ceab.webp",
+     "w": 1224,
+     "h": 71,
+     "focus": 0.467,
+     "page": 1,
+     "file": "2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=1",
+     "quote": "vurderes støjreduktionen snarere at være i størrelsesordenen ca. 1 dB"
     }
    ]
   },
@@ -2297,6 +2356,22 @@
      "file": "2025-08-notat-redegørelse-for-beplantning.pdf",
      "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf#page=5",
      "quote": "lægges ikke op til at gennemføre den eventuelle beplantning, men at udføre beplantningen som ledebeplantning i forbindelse med faunapassagerne"
+    }
+   ]
+  },
+  {
+   "key": "udenatdetdogfremgårsomtydeligekrav",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag/bc4617f96cc8.webp",
+     "w": 1184,
+     "h": 145,
+     "focus": 0.604,
+     "page": 6,
+     "file": "2025-10-redegoerelse-3-samt-beplantning-emails.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-10-redegoerelse-3-samt-beplantning-emails.pdf#page=6",
+     "quote": "uden at det dog fremgår som tydelige krav"
     }
    ]
   },
@@ -2713,6 +2788,22 @@
      "file": "2025-04-02-redegoerelse-3-mail.pdf",
      "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf#page=2",
      "quote": "ikke [er] muligt at lave en opgørelse"
+    }
+   ]
+  },
+  {
+   "key": "erblotenomtrentligangivelse",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag/d81deca16a3d.webp",
+     "w": 1009,
+     "h": 90,
+     "focus": 0.212,
+     "page": 3,
+     "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3",
+     "quote": "er blot en omtrentlig angivelse"
     }
    ]
   },
@@ -3333,17 +3424,19 @@
    "note": "ved henvisningen"
   },
   {
-   "key": "byggerpå(...)notatetframagistratentiltekniskudvalgaf2016~09~01,derigenbyggerpånotatfracowiaf2016~08~01.",
+   "key": "byggerpå(...)notatetframagistratentiltekniskudvalgaf2016~09~01,derigenbyggerpånotatfracowiaf2016~08~01",
    "n": 0,
    "quote": "bygger på (...) notatet fra Magistraten til Teknisk Udvalg af 2016-09-01, der igen bygger på notat fra COWI af …",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "card": true,
+   "note": "nærmeste henvisning før citatet i afsnittet"
   },
   {
-   "key": "erdetmuligtatstøjdæmpemereoghvadkosterdet?",
+   "key": "erdetmuligtatstøjdæmpemere,oghvadkosterdet?",
    "n": 0,
-   "quote": "Er det muligt at støjdæmpe mere og hvad koster det?",
+   "quote": "Er det muligt at støjdæmpe mere, og hvad koster det?",
    "src": "2016-08-cowi-trafikstoej.pdf",
-   "note": "ikke fundet i den henviste kilde"
+   "card": true,
+   "note": "det eneste citerede dokument, der indeholder citatet"
   },
   {
    "key": "denskitseredeindsatsihvertfaldimårsletvilhaveenmegetbegrænsetstøjeffekt",
@@ -3702,11 +3795,12 @@
    "note": "henvisningen siger s. 14, citatet står på s. 10 — tjek, om henvisningen gælder citatet"
   },
   {
-   "key": "isoleretsetkanbrugenafstøjreducerendetyndlagsbelægningerreducerestøjbelastningenpådetilgrænsendeboligerogarealermedmellem1og4db.",
+   "key": "isoleretsetkanbrugenafstøjreducerendetyndlagsbelægningerreducerestøjbelastningenpådetilgrænsendeboligerogarealermedmellem1og4db",
    "n": 0,
    "quote": "Isoleret set kan brugen af støjreducerende tyndlagsbelægninger reducere støjbelastningen på de tilgrænsende boliger …",
    "src": "AAK-2011.pdf, s. 14",
-   "note": "ikke fundet i den henviste kilde"
+   "card": true,
+   "note": "ved henvisningen"
   },
   {
    "key": "srsstandard:kravtilstøjreduktioner≥4,0db•srsspeciel:kravtilstøjreduktioner≥7,0db(...)srsklassifikationenkanforetagesforhastighederpå50samt80km/t",
@@ -3732,10 +3826,11 @@
    "note": "nærmeste henvisning før citatet i afsnittet"
   },
   {
-   "key": "vurderesstøjreduktionensnarereatværeistørrelsesordenenca.1db.",
+   "key": "vurderesstøjreduktionensnarereatværeistørrelsesordenenca.1db",
    "n": 0,
-   "quote": "vurderes støjreduktionen snarere at være i størrelsesordenen ca. 1 dB.",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "quote": "vurderes støjreduktionen snarere at være i størrelsesordenen ca. 1 dB",
+   "card": true,
+   "note": "nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "asfalttypenikkeleveroptilforventningenomstøjreduktion",
@@ -4033,10 +4128,11 @@
    "note": "ikke fundet i den henviste kilde"
   },
   {
-   "key": "ikketydeligekrav",
+   "key": "udenatdetdogfremgårsomtydeligekrav",
    "n": 0,
-   "quote": "ikke tydelige krav",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "quote": "uden at det dog fremgår som tydelige krav",
+   "card": true,
+   "note": "nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "ikkeforudsatetableret",
@@ -4568,10 +4664,11 @@
    "note": "det eneste citerede dokument, der indeholder citatet"
   },
   {
-   "key": "bloterenomtrentligangivelse",
+   "key": "erblotenomtrentligangivelse",
    "n": 0,
-   "quote": "blot er en omtrentlig angivelse",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "quote": "er blot en omtrentlig angivelse",
+   "card": true,
+   "note": "det eneste citerede dokument, der indeholder citatet"
   },
   {
    "key": "udenatangiveenspecifikværdifordetønskedeniveau",

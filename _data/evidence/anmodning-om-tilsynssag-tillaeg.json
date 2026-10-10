@@ -167,6 +167,19 @@
     "anchor": "deterkorrektatlandzonetilladelsenikkeindeholderstøj"
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf#page=4|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/f633c5561979.webp",
+    "w": 959,
+    "h": 248,
+    "focus": 0.499,
+    "page": 4,
+    "file": "2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf#page=4",
+    "quote": "[j]ordvoldene er godkendt med henblik på at afskærme udsynet til vejen (visuel afskærmning, ikke støj). (...) Er volden et støjtiltag?",
+    "anchor": "ordvoldeneergodkendtmedhenblikpåatafskærmeudsynettilvejen(visuelafskærmning,ikkestøj)."
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=2|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/4c0e4ba30cfc.webp",
@@ -487,6 +500,19 @@
     "quote": "til at optage er [sic] terrænspring samt som støjreducerende tiltag",
     "anchor": "tilatoptageer"
    }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=45|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/07242819bae8.webp",
+    "w": 906,
+    "h": 147,
+    "focus": 0.499,
+    "page": 45,
+    "file": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=45",
+    "quote": "blev afsat ekstra midler til at anvende denne type asfalt",
+    "anchor": "blevafsatekstramidlertilatanvendedennetypeasfalt"
+   }
   ]
  },
  "quotes": [
@@ -583,6 +609,22 @@
      "file": "2026-03-ramboell-Bilag2d-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3_Kommenteret.pdf",
      "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-Bilag2d-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-3_Kommenteret.pdf#page=3",
      "quote": "dækker over at effekten af støjtiltaget syd for Mårslet svarer til at længdeprofilet er sænket 1 meter."
+    }
+   ]
+  },
+  {
+   "key": "deiprojektetalleredeiboendetiltagiformafafgravningerpådeleafstrækningen",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/fdea97113fa3.webp",
+     "w": 1004,
+     "h": 129,
+     "focus": 0.494,
+     "page": 2,
+     "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=2",
+     "quote": "de i projektet allerede iboende tiltag i form af afgravninger på dele af strækningen"
     }
    ]
   },
@@ -759,6 +801,22 @@
      "file": "2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf",
      "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=2",
      "quote": "nedbringer støjen fra vejanlægget på de nærliggende bebyggelser"
+    }
+   ]
+  },
+  {
+   "key": "ernetopatdeikkeersynligeilandskabet",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/341c3cf6b124.webp",
+     "w": 1006,
+     "h": 115,
+     "focus": 0.469,
+     "page": 4,
+     "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4",
+     "quote": "er netop at de ikke er synlige i landskabet"
     }
    ]
   },
@@ -1019,10 +1077,11 @@
    "note": "nærmeste henvisning før citatet i afsnittet"
   },
   {
-   "key": "deiprojektetalleredeiboendetiltagiformafafgravningerpådeleafstrækningen.",
+   "key": "deiprojektetalleredeiboendetiltagiformafafgravningerpådeleafstrækningen",
    "n": 0,
-   "quote": "de i projektet allerede iboende tiltag i form af afgravninger på dele af strækningen.",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "quote": "de i projektet allerede iboende tiltag i form af afgravninger på dele af strækningen",
+   "card": true,
+   "note": "nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "atdetivvmenskitseredelængdeprofilvedgiberåfastholdes",
@@ -1173,11 +1232,12 @@
    "note": "nærmeste henvisning før citatet i afsnittet"
   },
   {
-   "key": "jordvoldeneergodkendtmedhenblikpåatafskærmeudsynettilvejen(visuelafskærmning,ikkestøj).ervoldenetstøjtiltag?",
+   "key": "[j]ordvoldeneergodkendtmedhenblikpåatafskærmeudsynettilvejen(visuelafskærmning,ikkestøj).(...)ervoldenetstøjtiltag?",
    "n": 0,
-   "quote": "jordvoldene er godkendt med henblik på at afskærme udsynet til vejen (visuel afskærmning, ikke støj). Er volden et …",
+   "quote": "[j]ordvoldene er godkendt med henblik på at afskærme udsynet til vejen (visuel afskærmning, ikke støj). (...) Er …",
    "src": "2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf, s. 4",
-   "note": "ikke fundet i den henviste kilde"
+   "card": true,
+   "note": "ved henvisningen"
   },
   {
    "key": "(...)daderiprojektetikkeermedsendtdokumentationforejhellerlagtvægtpåatjordvoldenharenstøjdæmpendeeffektansesprojektetprimærtsometanlægtilbortskaffelseafaffald(...)",
@@ -1278,10 +1338,11 @@
    "note": "nærmeste henvisning før citatet i afsnittet"
   },
   {
-   "key": "netoperatdeikkeersynligeilandskabet",
+   "key": "ernetopatdeikkeersynligeilandskabet",
    "n": 0,
-   "quote": "netop er at de ikke er synlige i landskabet",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "quote": "er netop at de ikke er synlige i landskabet",
+   "card": true,
+   "note": "nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "påca.19.000m",
@@ -1526,11 +1587,12 @@
    "note": "ved henvisningen"
   },
   {
-   "key": "afsatteekstramidlertilatanvendedennetypeasfalt",
+   "key": "blevafsatekstramidlertilatanvendedennetypeasfalt",
    "n": 0,
-   "quote": "afsatte ekstra midler til at anvende denne type asfalt",
+   "quote": "blev afsat ekstra midler til at anvende denne type asfalt",
    "src": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf, s. 45",
-   "note": "ikke fundet i den henviste kilde"
+   "card": true,
+   "note": "ved henvisningen"
   }
  ]
 }
