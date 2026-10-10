@@ -94,7 +94,7 @@
   function norm(s) {
     return s.normalize('NFC')
       .replace(/­/g, '')
-      .replace(/[“”„]/g, '"').replace(/[’‘]/g, "'")
+      .replace(/[“”„"’‘']/g, '')
       .replace(/(\d)[-–—−]\s*(?=\d)/g, '$1~')
       .replace(/[-–—−]/g, '')
       .replace(/([a-zæøåA-ZÆØÅ])\d{1,2}(?!\d)/g, '$1')
@@ -234,39 +234,42 @@
   // ---- While the filing is a draft: which quotations have a card, and what
   // there is to check in the rest.
 
-  function isWarn(r) { return r.card && r.note.indexOf(' — ') >= 0; }
-
+  // States from bin/check-quotes.py's rules (quotelib.verify): ok, warn
+  // (found, on another page than the link gives), unverifiable (the source
+  // cannot be read, or none is given) and error (the source can be read and
+  // the quote is not in it).
   function mark(r) {
+    var STATES = {
+      ok: ['ev-mark--ok', '✓'],
+      warn: ['ev-mark--warn', '! '],
+      unverifiable: ['ev-mark--check', '? '],
+      error: ['ev-mark--miss', '✗ ']
+    };
     var span = document.createElement('span');
-    span.className = 'ev-mark ' + (isWarn(r) ? 'ev-mark--warn' : r.card ? 'ev-mark--ok' : 'ev-mark--miss');
-    span.textContent = r.card && !isWarn(r) ? '✓' : (r.card ? '! ' : '✗ ') + r.note;
+    var s = STATES[r.state] || STATES.error;
+    span.className = 'ev-mark ' + s[0];
+    span.textContent = r.state === 'ok' ? s[1] : s[1] + r.note;
     span.title = r.note;
     return span;
   }
 
   function panel(status) {
-    // What to check, most serious first. Each group is matched on the start
-    // of the reason bin/evidence-cards.py gives.
+    // What to check, most serious first.
     var GROUPS = [
-      ['ikke fundet i den henviste kilde', 'Står ikke i den kilde, der henvises til — tjek citatet'],
-      ['henvisningen siger', 'Henvisningens sidetal afviger fra citatets side'],
-      ['ordene kunne ikke', 'Fundet i kilden, men ikke placeret på siden'],
-      ['citatet går over', 'Går over et sideskift i kilden'],
-      ['står i', 'Står i flere af de citerede dokumenter — kilden er tvetydig'],
-      ['kun ét dokument', 'For kort til at afgøre kilden sikkert'],
-      ['ikke fundet i nogen', 'Står ikke i noget citeret dokument (lovtekst, egne ord o.l.)'],
-      ['kilden er', 'Kilden er ikke en PDF med tekst'],
-      ['', 'Øvrige']
+      ['error', 'Står ikke i kilden — ret citatet'],
+      ['warn', 'Henvisningen angiver en anden side end citatets'],
+      ['unverifiable', 'Kan ikke kontrolleres automatisk — kontrollér i hånden']
     ];
     var carded = status.filter(function (r) { return r.card; }).length;
-    var todo = status.filter(function (r) { return !r.card || isWarn(r); });
+    var verified = status.filter(function (r) { return r.state === 'ok'; }).length;
+    var todo = status.filter(function (r) { return r.state !== 'ok'; });
 
     var box = document.createElement('aside');
     box.className = 'ev-panel';
     var head = document.createElement('div');
     head.className = 'ev-panel-head';
     var text = document.createElement('span');
-    text.textContent = 'Kildekort: ' + carded + ' af ' + status.length + ' citater';
+    text.textContent = verified + ' af ' + status.length + ' citater verificeret · ' + carded + ' med kildekort';
     var marks = document.createElement('button');
     marks.type = 'button';
     var listButton = document.createElement('button');
@@ -277,9 +280,7 @@
     list.className = 'ev-panel-list';
     list.hidden = true;
     GROUPS.forEach(function (g) {
-      var items = todo.filter(function (r) {
-        return !r.grouped && r.note.indexOf(g[0]) === 0 && (r.grouped = true);
-      });
+      var items = todo.filter(function (r) { return r.state === g[0]; });
       if (!items.length) return;
       var h = document.createElement('p');
       h.className = 'ev-panel-group';
@@ -317,7 +318,8 @@
     }
     function setList(open) {
       list.hidden = !open;
-      listButton.textContent = (open ? 'Skjul' : 'Vis') + ' ' + todo.length + ' til gennemsyn';
+      listButton.textContent = todo.length ? (open ? 'Skjul' : 'Vis') + ' ' + todo.length + ' til gennemsyn' : 'Intet til gennemsyn';
+      listButton.disabled = !todo.length;
     }
     marks.addEventListener('click', function () {
       setMarks(!root.classList.contains('ev-status-on'));

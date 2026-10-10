@@ -11,8 +11,15 @@ because they mark places the author signalled a change from the original:
 an ellipsis, and editorial brackets like [er] or [k]ommunen. The fragments
 around them must still appear, in order.
 
-The normalisation and the quote-to-link association live in bin/quotelib.py,
-shared with bin/evidence-cards.py.
+A quote is checked against, in turn: the source its link points to (text,
+and comments in the PDF), the other cited files, and the external sources
+the section links to (laws, ombudsman statements; fetched once into
+bin/kildecache). Only a source that can be read and does not hold the quote
+is an error. A source that cannot be read — a scan, a paywall, an abstract —
+or a quote with no source at all is reported as not checkable, with the
+reason, and can be confirmed by hand in bin/kilder-manuelt.json.
+
+The rules live in bin/quotelib.py, shared with bin/evidence-cards.py.
 """
 
 import io
@@ -22,7 +29,8 @@ import sys
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 try:
-    from quotelib import ANY_ASSET, SELF, Sources, cited_quotes
+    from quotelib import (ANY_ASSET, SELF, Sources, cited_quotes, labels,
+                          linked_posts, manual, verify)
 except ImportError:
     print('ERROR: PyMuPDF not installed — run: pip install pymupdf')
     sys.exit(2)
@@ -31,18 +39,21 @@ ROOT = pathlib.Path(sys.argv[1]).resolve()
 POST = pathlib.Path(sys.argv[2]).resolve()
 
 sources = Sources(ROOT)
-source_pages, find_in = sources.pages, sources.find_in
-
 raw = POST.read_text(encoding='utf-8')
+assets = sorted(a for a in set(ANY_ASSET.findall(raw)) if a not in SELF)
+own = labels(raw, *linked_posts(raw, POST.parent))
+by_hand = manual(ROOT)
 
-all_assets = sorted(a for a in set(ANY_ASSET.findall(raw)) if a not in SELF)
-
-ok_cited = []        # verified on the cited page
-ok_otherpage = []    # verified, but the #page anchor points elsewhere
-ok_elsewhere = []    # no adjacent link; found in some other cited source
-missing = []         # not found in the source it cites
-unmatched = []       # no adjacent link and found nowhere
-notext = {}          # sources with no extractable text
+KINDS = {
+    'cited': 'verified against the source they cite',
+    'elsewhere': 'verified against another cited file',
+    'external': 'verified against a linked external source',
+    'internal': 'name a section of the filing itself',
+    'title': "are a bilag's title in the bilag list",
+    'manual': 'checked by hand (bin/kilder-manuelt.json)',
+}
+counts = dict.fromkeys(KINDS, 0)
+warnings, unverifiable, errors = [], [], []
 skipped = 0
 
 for item in cited_quotes(raw):
@@ -51,68 +62,55 @@ for item in cited_quotes(raw):
         continue
     m, quote, frags, link = item
     short = quote[:80].replace('\n', ' ')
-
-    if link:
-        rel, cited = link.group(1), int(link.group(2) or 0)
-        if source_pages(rel) is None:
-            notext.setdefault(rel, 0)
-            notext[rel] += 1
-            continue
-        page = find_in(rel, frags, cited)
-        if page is None:
-            # The nearest link is only a guess at which source a quote belongs
-            # to — a law quoted mid-paragraph picks up the next link in the
-            # text. Before calling it missing, look everywhere else.
-            hit = next((a for a in all_assets
-                        if a != rel and find_in(a, frags) is not None), None)
-            if hit:
-                ok_elsewhere.append((short, hit))
-            else:
-                missing.append((short, rel, cited))
-        elif cited and page and page != cited:
-            ok_otherpage.append((short, rel, cited, page))
-        else:
-            ok_cited.append(short)
+    line = raw.count('\n', 0, m.start()) + 1
+    state, kind, detail = verify(raw, item, sources, own, by_hand, assets)
+    if state == 'ok':
+        counts[kind] += 1
+    elif state == 'warn':
+        warnings.append((line, short, detail))
+    elif state == 'unverifiable':
+        unverifiable.append((line, short, detail))
     else:
-        hit = next((a for a in all_assets if find_in(a, frags) is not None), None)
-        if hit:
-            ok_elsewhere.append((short, hit))
+        errors.append((line, short, kind, detail))
+
+total = sum(counts.values()) + len(warnings) + len(unverifiable) + len(errors)
+print(f'{total} quotes examined ({skipped} quoted spans are titles, instructions '
+      f'or mis-paired, not quotations)')
+for kind, label in KINDS.items():
+    print(f'  {label:<44}: {counts[kind]}')
+print(f'  {"found, but not on the page the link gives":<44}: {len(warnings)}')
+print(f'  {"cannot be checked automatically":<44}: {len(unverifiable)}')
+print(f'  {"NOT in the source they cite":<44}: {len(errors)}')
+
+if warnings:
+    print('\nPage anchor points at another page than the quote:')
+    for line, short, (rel, cited, page) in warnings:
+        print(f'  L{line}: cited #page={cited}, found on page {page} — {rel}')
+        print(f'      "{short}"')
+
+if unverifiable:
+    print('\nCannot be checked automatically — confirm by hand, and record it in '
+          'bin/kilder-manuelt.json:')
+    for line, short, why in unverifiable:
+        print(f'  L{line}: {why}')
+        print(f'      "{short}"')
+
+if errors:
+    print('\nNOT FOUND — the source can be read, and the quote is not in it:')
+    for line, short, kind, detail in errors:
+        near = None
+        if kind == 'missing':
+            rel, cited, near = detail
+            print(f'  L{line}: {rel}' + (f' #page={cited}' if cited else ''))
+        elif kind == 'differs':
+            near = detail
+            print(f'  L{line}: no source given, but close to a source that can be read')
         else:
-            unmatched.append(short)
+            print(f'  L{line}: none of the sources the section links to: '
+                  + ', '.join(detail))
+        print(f'      quote : "{short}"')
+        if near:
+            where, page, words = near
+            print(f'      source: "{words[:160]}" — {where}' + (f', p. {page}' if page else ''))
 
-total = (len(ok_cited) + len(ok_otherpage) + len(ok_elsewhere)
-         + len(missing) + len(unmatched) + sum(notext.values()))
-
-print(f'{total} quotes examined ({skipped} spans skipped as not cleanly quoted)')
-print(f'  verified against the source they cite : {len(ok_cited)}')
-print(f'  verified, but on a different page     : {len(ok_otherpage)}')
-print(f'  verified against another cited source : {len(ok_elsewhere)}')
-print(f'  NOT FOUND in the source they cite     : {len(missing)}')
-print(f'  no citation and found nowhere         : {len(unmatched)}')
-print(f'  in sources with no text layer         : {sum(notext.values())}')
-
-if notext:
-    print('\nCannot verify — no extractable text (scanned?):')
-    for rel, n in sorted(notext.items()):
-        print(f'  {n:3} quote(s) in {rel}')
-
-if ok_otherpage:
-    print('\nPage anchor points at the wrong page:')
-    for short, rel, cited, page in ok_otherpage:
-        print(f'  cited #page={cited}, found on page {page} — {rel}')
-        print(f'      "{short}"')
-
-if missing:
-    print('\nNOT FOUND in the cited source:')
-    for short, rel, cited in missing:
-        where = f'#page={cited}' if cited else '(no page given)'
-        print(f'  {rel} {where}')
-        print(f'      "{short}"')
-
-if unmatched:
-    print(f'\nNo adjacent citation and no match in any cited source '
-          f'({len(unmatched)}) — these need checking by hand:')
-    for short in unmatched:
-        print(f'      "{short}"')
-
-sys.exit(1 if (missing or unmatched) else 0)
+sys.exit(1 if errors else 0)

@@ -72,23 +72,35 @@ sides, since a line break can fall on a real compound hyphen such as
 must still appear *in order*, so an insertion cannot smuggle in a change of
 meaning.
 
-Read the output as four separate things:
+A quote is looked for, in turn, in the source its link points to (the text
+layer and the comments in the PDF — the kommune answers fact sheets in
+comments), in the other cited files, and in the external sources the section
+and then the post link to: laws on danskelove.dk, ombudsman statements and
+guidance on retsinformation.dk (read through the ELI address plus `/xml`).
+These are fetched once into `bin/kildecache/` and committed, so the check runs
+offline. A sentence that continues on the next page is found across the
+running header and footer between its halves. Quotation marks are paired in
+order within a line, and the front matter, `[TODO: ...]` instructions and
+document titles in the bilag list are not treated as quotations.
 
-- *verified against the source they cite* — matched on the page the link names.
-- *verified, but on a different page* — the text is in that PDF, elsewhere.
-  The `#page=` anchor is wrong, or the quote picked up a neighbouring link.
-  A citation that *introduces* its quote — a block quote, or a link separated
-  from the quote by nothing but a colon — is attributed to that quote;
-  everything else to the next link after it. Getting this wrong reads as a
-  page mismatch, because the quote is checked against whichever source
-  happens to be linked next.
-- *verified against another cited source* — no citation next to the quote, so
-  it was matched against every source the document cites. Usually a phrase
-  quoted again after being cited properly earlier. Weaker evidence: it confirms
-  the words exist somewhere in the material, not that this passage cites them.
-- *NOT FOUND* and *no citation and found nowhere* — the honest residue. These
-  need a human. Expect some to be document *titles* in quotation marks rather
-  than quotations, which this cannot distinguish.
+Read the output as these separate things:
+
+- *verified* — against the cited source, another cited file, a linked external
+  source; or the quote names a section of the filing itself ("uddybes
+  nedenfor under ..."), or it is a bilag's title in the bilag list.
+- *found, but not on the page the link gives* — the `#page=` anchor is wrong,
+  or the quote picked up a neighbouring link. Not reported when the link's
+  text gives a range that covers the page ("s. 6–7"), when the same paragraph
+  also cites that page, or when the quote is the document's title on page 1.
+- *cannot be checked automatically* — the source cannot be read (a scanned
+  page, a paywall, an ombudsman statement that retsinformation.dk only has as
+  an abstract), or no source is given. With the reason. Not a pass and not a
+  failure: confirm by hand, and record it in `bin/kilder-manuelt.json`
+  (`citat`, `kilde`, `side`, `kontrol`), after which it counts as verified.
+- *NOT in the source they cite* — the only failure. The source can be read and
+  the quote is not in it, or the quote has no source but is nearly the words of
+  one (a near match is a misquote, not an unreadable source). The output shows
+  what the source actually says.
 
 **What it cannot tell you.** Scanned PDFs with no text layer are named
 explicitly rather than counted as passing — nothing can verify those

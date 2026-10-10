@@ -45,8 +45,9 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 
 import fitz                                                   # noqa: E402
-from quotelib import (ANY_ASSET, LINK, SELF, Sources,          # noqa: E402
-                      cited_quotes, norm)
+from quotelib import (ANY_ASSET, CACHE, LINK, SECTION, SELF, Sources,  # noqa: E402
+                      body_start, cited_quotes, labels, linked_posts,
+                      manual, norm, verify)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DPI = 144
@@ -56,7 +57,6 @@ MARGIN = 14           # points of white beside the text column
 MAX_WIDTH = 1400      # pixels; twice the post column, so it stays sharp
 RENDER = 1            # raise when the crop or highlight changes, to redraw all
 MIN_WORDS = 4         # a shorter quote found in one document only is too generic
-SECTION = re.compile(r'^#{1,6} ', re.M)
 SHEET = 700           # points; text wider than this is a drawing, not prose
 SHEET_CONTEXT = 160   # points of a drawing shown around the quote
 
@@ -214,17 +214,6 @@ def occurrence(raw, href, before):
     return len(target.findall(raw, 0, before))
 
 
-def in_range(raw, link, page_no):
-    """-> whether the link's own text ("bilag 58, s. 6–7") spans page_no.
-
-    #page= can only open the first page of a range; a quote on the next page
-    of it is cited correctly.
-    """
-    text = raw[raw.rfind('[', 0, link.start()):link.start()]
-    return any(int(a) <= page_no <= int(b)
-               for a, b in re.findall(r's\.\s*(\d+)\s*[–-]\s*(\d+)', text))
-
-
 def qkey(quote):
     """-> a quote as the browser finds it between its quotation marks.
 
@@ -247,12 +236,13 @@ def build(post):
     slug = re.sub(r'^\d{4}-\d{2}-\d{2}-', '', post.stem)
     outdir = ROOT / 'assets' / 'evidence' / slug
     outdir.mkdir(parents=True, exist_ok=True)
-    front = re.match(r'﻿?---\r?\n.*?\r?\n---\r?\n', raw, re.S)
-    body_start = front.end() if front else 0
+    body = body_start(raw)
 
     sources = Sources(ROOT)
-    pdfs = sorted(a for a in set(ANY_ASSET.findall(raw))
-                  if a not in SELF and a.lower().endswith('.pdf'))
+    assets = sorted(a for a in set(ANY_ASSET.findall(raw)) if a not in SELF)
+    pdfs = [a for a in assets if a.lower().endswith('.pdf')]
+    own = labels(raw, *linked_posts(raw, post.parent))
+    by_hand = manual(ROOT)
     docs = {}
     made = set()
     focus = {}
@@ -298,74 +288,86 @@ def build(post):
         }
 
     links = {}       # cards hung on their citation link: "<href>|<n>" -> cards
-    quotes = []      # cards hung on the quotation itself, which has no link
-    status = []      # every quotation and whether it got a card, for authors
+    quotes = []      # cards hung on the quotation itself
+    status = []      # every quotation: its state, and why
     seen = {}        # qkey -> how many quotations with that text so far
     by_text = {}     # " ".join(frags) -> card made at a link, for repeats
     pending = []
 
-    # Pass 1: quotations whose own citation link holds them.
+    # Whether a quote is right is decided by quotelib.verify(), the same test
+    # bin/check-quotes.py applies; this only decides where a card can go.
     for item in cited_quotes(raw):
-        if item is None or item[0].start() < body_start:
+        if item is None or item[0].start() < body:
             continue
         m, quote, frags, link = item
         k = qkey(quote)
         shown = ' '.join(re.sub(r'\\(.)', r'\1', quote).split())
         if len(shown) > 120:
             shown = shown[:117].rsplit(' ', 1)[0] + ' …'
-        record = {'key': k, 'n': seen.get(k, 0), 'quote': shown}
+        state, kind, detail = verify(raw, item, sources, own, by_hand, assets)
+        record = {'key': k, 'n': seen.get(k, 0), 'quote': shown, 'state': state}
         seen[k] = record['n'] + 1
         status.append(record)
-
         if link is not None:
             rel, cited = link.group(1), int(link.group(2) or 0)
             # The source the text points to, so a quote to check can be
             # looked up without hunting for its link.
             record['src'] = unquote(rel.rsplit('/', 1)[-1]) + (f', s. {cited}' if cited else '')
-            if not rel.lower().endswith('.pdf'):
-                ext = rel.rsplit('.', 1)[-1].lower()
-                record['note'] = f'kilden er en {ext}-fil, ikke en PDF'
-                continue
-            if sources.pages(rel) is None:
-                record['note'] = 'kilden er en scanning uden tekst'
-                continue
-            page_no = sources.find_in(rel, frags, cited)
-            if page_no == 0:
-                record['note'] = 'citatet går over et sideskift'
-                continue
-            if page_no:
-                c = card(rel, page_no, frags, quote)
-                if c is None:
-                    record['note'] = 'ordene kunne ikke placeres på siden'
-                    continue
-                href = f'https://aarhusworks.com/{rel}' + (f'#page={cited}' if cited else '')
-                n = occurrence(raw, href, link.start())
-                # The browser shows the card only if this text is next to the
-                # link, so an edit that shifts the link count drops the card
-                # rather than hanging it on the wrong citation.
-                links.setdefault(f'{href}|{n}', []).append(
-                    dict(c, anchor=frags[0].replace(' ', '')))
-                by_text.setdefault(' '.join(frags), c)
-                record['card'] = True
-                record['note'] = ('ved henvisningen' if not cited or page_no == cited
-                                  or in_range(raw, link, page_no) else
-                                  f'henvisningen siger s. {cited}, citatet står på '
-                                  f's. {page_no} — tjek, om henvisningen gælder citatet')
-                continue
-        pending.append((item, record))
 
-    # Pass 2: quotations without a link that holds them. A card is made only
-    # when the source is not in doubt; a phrase found in an arbitrary one of
-    # the cited documents would put the wrong page beside the claim.
-    # In order of how sure the source is: the nearest citation before the
-    # quote in its section; then, for quotes long enough not to be a stock
-    # phrase, the same quote carded at its link elsewhere, or the only cited
-    # document that contains it.
-    for (m, quote, frags, link), record in pending:
+        if kind in ('cited', 'otherpage'):
+            rel, cited, page_no = detail
+            record['note'] = ('ved henvisningen' if state == 'ok' else
+                              f'henvisningen siger s. {cited}, citatet står på s. {page_no}')
+            if not rel.lower().endswith('.pdf'):
+                record['note'] += ' — intet kort, kilden er ikke en PDF'
+                continue
+            c = card(rel, page_no, frags, quote) if page_no else None
+            if c is None:
+                record['note'] += (' — står i en kommentar i PDF\'en, intet kort'
+                                   if page_no and sources.in_annotation(rel, frags, page_no) else
+                                   ' — går over et sideskift, intet kort')
+                continue
+            href = f'https://aarhusworks.com/{rel}' + (f'#page={cited}' if cited else '')
+            n = occurrence(raw, href, link.start())
+            # The browser shows the card only if this text is next to the
+            # link, so an edit that shifts the link count drops the card
+            # rather than hanging it on the wrong citation.
+            links.setdefault(f'{href}|{n}', []).append(dict(c, anchor=frags[0].replace(' ', '')))
+            by_text.setdefault(' '.join(frags), c)
+            record['card'] = True
+        elif kind == 'elsewhere':
+            pending.append((item, record, detail))
+        elif kind == 'external':
+            record['note'] = 'står i ' + re.sub(r'^https?://(www\.)?', '', detail)
+        elif kind == 'internal':
+            record['note'] = 'navngiver et afsnit i anmodningen eller tillægget'
+        elif kind == 'title':
+            record['note'] = 'titlen på et bilag i bilagslisten'
+        elif kind == 'manual':
+            record['note'] = 'kontrolleret manuelt: ' + detail['kontrol']
+        elif state == 'unverifiable':
+            record['note'] = detail
+        elif kind in ('missing', 'differs'):
+            near = detail[2] if kind == 'missing' else detail
+            record['note'] = ('står ikke i den henviste kilde' if kind == 'missing' else
+                              'står ikke ordret i nogen kilde')
+            if near:
+                where, page, words = near
+                where = re.sub(r'^https?://(www\.)?', '', unquote(where.rsplit('/', 1)[-1] if where.startswith('assets/') else where))
+                record['note'] += f' — kilden siger: "{words[:160]}" ({where}' + (f', s. {page})' if page else ')')
+        else:
+            record['note'] = 'står ikke i de kilder, afsnittet henviser til'
+
+    # Quotations verified in another cited file than their link's. A card is
+    # made only when it is clear which file: a phrase found in an arbitrary one
+    # of the cited documents would put the wrong page beside the claim. In
+    # order of how sure that is: the nearest citation before the quote in its
+    # section; then, for quotes long enough not to be a stock phrase, the same
+    # quote carded at its link elsewhere, or the only cited document holding it.
+    for (m, quote, frags, link), record, (found, page) in pending:
         c, note = None, None
         long_enough = len(quote.split()) >= MIN_WORDS
-        section = max((h.start() for h in SECTION.finditer(raw, 0, m.start())),
-                      default=body_start)
+        section = max((h.start() for h in SECTION.finditer(raw, 0, m.start())), default=body)
         for near in reversed(list(LINK.finditer(raw, section, m.start()))):
             rel = near.group(1)
             if rel in SELF or not rel.lower().endswith('.pdf'):
@@ -374,27 +376,22 @@ def build(post):
             if page_no:
                 c = card(rel, page_no, frags, quote)
                 if c:
-                    note = 'nærmeste henvisning før citatet i afsnittet'
+                    note = 'kort fra nærmeste henvisning før citatet i afsnittet'
                     break
         if c is None and long_enough and ' '.join(frags) in by_text:
-            c, note = by_text[' '.join(frags)], 'samme citat har kort ved sin henvisning'
+            c, note = by_text[' '.join(frags)], 'kort fra samme citat ved dets henvisning'
         if c is None:
             hits = [a for a in pdfs if sources.find_in(a, frags)]
             if len(hits) == 1 and long_enough:
                 c = card(hits[0], sources.find_in(hits[0], frags), frags, quote)
-                note = 'det eneste citerede dokument, der indeholder citatet'
-            elif len(hits) > 1:
-                note = f'står i {len(hits)} af de citerede dokumenter — kilden er tvetydig'
-            elif hits:
-                note = f'kun ét dokument, men under {MIN_WORDS} ord — for usikkert'
-            elif link is not None:
-                note = 'ikke fundet i den henviste kilde'
-            else:
-                note = 'ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)'
+                note = 'kort fra det eneste citerede dokument, der indeholder citatet'
         if c is not None:
             quotes.append({'key': record['key'], 'n': record['n'], 'cards': [c]})
             record['card'] = True
-        record['note'] = note
+            record['note'] = note
+        else:
+            where = unquote(found.rsplit('/', 1)[-1]) + (f', s. {page}' if page else '')
+            record['note'] = f'står i {where} — intet kort, da det ikke er sikkert, hvilket bilag der menes'
 
     for stale in outdir.glob('*.webp'):
         if stale.name not in made:
@@ -408,11 +405,15 @@ def build(post):
     size = sum(p.stat().st_size for p in outdir.glob('*.webp'))
     print(f'{post.name}: {carded} of {len(status)} quotations carded, {len(made)} images '
           f'({len(made) - reused} drawn, {reused} unchanged; {size // 1024} KB)')
-    tally = {}
-    for r in status:
-        tally.setdefault((bool(r.get('card')), r['note'].split(' — ')[0]), []).append(r)
-    for (ok, note), rs in sorted(tally.items(), key=lambda t: (not t[0][0], -len(t[1]))):
-        print(f'  {"kort " if ok else "intet"} {len(rs):4}  {note}')
+    for state, label in (('ok', 'verificeret'), ('warn', 'anden side end henvisningen'),
+                         ('unverifiable', 'kan ikke kontrolleres automatisk'),
+                         ('error', 'STÅR IKKE I KILDEN')):
+        rs = [r for r in status if r['state'] == state]
+        if rs:
+            print(f'  {len(rs):4}  {label}')
+        if state != 'ok':
+            for r in rs:
+                print(f'          "{r["quote"][:70]}" — {r["note"]}')
     return [outdir, manifest]
 
 
@@ -422,5 +423,8 @@ for arg in sys.argv[1:]:
     if arg != '--stage':
         outputs += build(pathlib.Path(arg).resolve())
 if stage and outputs:
+    # External sources fetched for the check are kept, so it runs offline.
+    if (ROOT / CACHE).exists():
+        outputs.append(ROOT / CACHE)
     # -A so images the post no longer uses leave the commit along with it.
     subprocess.run(['git', 'add', '-A', '--', *map(str, outputs)], cwd=ROOT, check=True)

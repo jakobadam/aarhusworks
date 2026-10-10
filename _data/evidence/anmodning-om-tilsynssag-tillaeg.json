@@ -332,6 +332,19 @@
     "anchor": "differenskortetviseretfaldistøjforomkringliggendeboligerpå1~2db."
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=4|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/35c9e74dbe2e.webp",
+    "w": 946,
+    "h": 109,
+    "focus": 0.424,
+    "page": 4,
+    "file": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=4",
+    "quote": "[h]ar en støjdæmpende effekt ift. til nærmeste boliger nord for vejen",
+    "anchor": "arenstøjdæmpendeeffektift.tilnærmesteboligernordforvejen"
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=57|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/642535273810.webp",
@@ -343,6 +356,19 @@
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=57",
     "quote": "Støjvolden etableres imidlertid ikke, fordi Aarhus Kommune er retligt forpligtet til at sørge for at dæmpe støjen fra vejen for bebyggelsen nord for Giber Ringvej ved Nymarksvej. Støjvolden etableres på grundlag af en frivillig aftale med lodsejeren, og fordi Aarhus Kommune i dette område ligger inde med en betydelig mængde af overskudsjord fra etableringen af ringvejen.",
     "anchor": "støjvoldenetableresimidlertidikke,fordiaarhuskommuneerretligtforpligtettilatsørgeforatdæmpestøjenfravejenforbebyggelsennordforgiberringvejvednymarksvej.støjvoldenetablerespågrundlagafenfrivilligaftalemedlodsejeren,ogfordiaarhuskommuneidetteområdeliggerindemedenbetydeligmængdeafoverskudsjordfraetableringenafringvejen."
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=2|1": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/506ad52cd3bf.webp",
+    "w": 1007,
+    "h": 107,
+    "focus": 0.735,
+    "page": 2,
+    "file": "2023-08-Ramboll-redegoerelse.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=2",
+    "quote": "i form af støjvolde",
+    "anchor": "iformafstøjvolde"
    }
   ],
   "https://aarhusworks.com/assets/vejstoej-forslag-2024/trafikstoej-kraever-handling-2020.pdf#page=46|0": [
@@ -1002,597 +1028,695 @@
    "key": "skaloffentliggøresmedklagevejledning",
    "n": 0,
    "quote": "skal offentliggøres med klagevejledning",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "state": "ok",
+   "note": "står i retsinformation.dk/eli/retsinfo/2009/9339"
   },
   {
    "key": "tracéringsmæssigkonsekvens",
    "n": 0,
    "quote": "tracérings-mæssig konsekvens",
-   "note": "kun ét dokument, men under 4 ord — for usikkert"
+   "state": "ok",
+   "note": "står i 2026-03-ramboell-kommentering-af-faktaark.pdf, s. 4 — intet kort, da det ikke er sikkert, hvilket bilag der menes"
   },
   {
    "key": "suppleresmedøgetstøjdæmpning",
    "n": 0,
    "quote": "suppleres med øget støjdæmpning",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "overslagsberegninger",
    "n": 0,
    "quote": "overslagsberegninger",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "engrovvurdering",
    "n": 0,
    "quote": "En grov vurdering",
+   "state": "ok",
    "src": "2023-08-Ramboll-redegoerelse.pdf, s. 3",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "kangiveetmisvisendebilledeaføkonomianvendttilstøjdæmpningiprojektet",
    "n": 0,
    "quote": "kan give et misvisende billede af økonomi anvendt til støjdæmpning i projektet",
+   "state": "ok",
    "src": "2025-01-mtm-redegoerelse-2.pdf, s. 1",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "hvispkt.8,9og10udgår,bliverdetsamledebeløb17.280.000kr.",
    "n": 0,
    "quote": "Hvis pkt. 8, 9 og 10 udgår, bliver det samlede beløb 17.280.000 kr.",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "iformafstøjvolde",
    "n": 0,
    "quote": "i form af støjvolde",
+   "state": "ok",
    "src": "2023-08-Ramboll-redegoerelse.pdf, s. 2",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "beringbedervejenerafstøjmæssigeogvisuellehensynsænketpåstrækningensydommårslet.",
    "n": 0,
    "quote": "Bering-Beder vejen er af støjmæssige og visuelle hensyn sænket på strækningen syd om Mårslet.",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "formuleringenomstrækningensydommårsletstammerfravvmredegørelsen",
    "n": 0,
    "quote": "formuleringen om strækningen syd om Mårslet stammer fra VVM-redegørelsen",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "dækkeroverateffektenafstøjtiltagetsydformårsletsvarertilatlængdeprofiletersænket1meter.",
    "n": 0,
    "quote": "dækker over at effekten af støjtiltaget syd for Mårslet svarer til at længdeprofilet er sænket 1 meter.",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "deiprojektetalleredeiboendetiltagiformafafgravningerpådeleafstrækningen",
    "n": 0,
    "quote": "de i projektet allerede iboende tiltag i form af afgravninger på dele af strækningen",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "atdetivvmenskitseredelængdeprofilvedgiberåfastholdes",
    "n": 0,
    "quote": "At det i VVM-en skitserede længdeprofil ved Giber Å fastholdes",
+   "state": "ok",
    "src": "2016-udvalgs-erklaering.pdf, s. 2",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "justeringaflinjeføringenmellemenslevvejoglandevejen",
    "n": 0,
    "quote": "justering af linjeføringen mellem Enslevvej og Landevejen",
+   "state": "ok",
    "src": "2023-08-Ramboll-redegoerelse.pdf, s. 3",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "fraenslevvejtiljegstrupvej(st.3000~5000)erlængdeprofiletforgiberringvejsænketmellem0og4meteriforholdtilvvmprojektet...[hvilket]hargenereretca.100.000mjordtilensamletværdiafca.4.500.000,00kr.inkl.pta.",
    "n": 0,
    "quote": "Fra Enslevvej til Jegstrupvej (st. 3000-5000) er længdeprofilet for Giber Ringvej sænket mellem 0 og 4 meter i …",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "state": "ok",
+   "note": "står i 2023-08-Ramboll-redegoerelse.pdf, s. 3 — intet kort, da det ikke er sikkert, hvilket bilag der menes"
   },
   {
    "key": "sænkningenafberingbedervejenslængdeprofilsydøstforenslev",
    "n": 0,
    "quote": "Sænkningen af Bering – Beder vejens længdeprofil sydøst for Enslev",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "detteskersomentracéringsmæssigkonsekvensafvejtekniskeudfordringeriskitseprojektet,ogbliverudformetisammenhængmedændringenaflinjeføringenvedingerslevvej78(...)destøjmæssigeeffekterafsænkningenerhellerikkemedtagetpåeffektkortetaf2019~07~29,dadetikkeisitprimæresigteeretstøjmæssigttiltag.",
    "n": 0,
    "quote": "Dette sker som en tracérings-mæssig konsekvens af vejtekniske udfordringer i skitseprojektet, og bliver udformet i …",
+   "state": "ok",
    "src": "2026-03-ramboell-kommentering-af-faktaark.pdf, s. 4",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "allevilkårfravvmtilladelsenvedr.støjreducerendeforanstaltningereroverholdt",
    "n": 0,
    "quote": "alle vilkår fra VVM-tilladelsen vedr. støjreducerende foranstaltninger er overholdt",
+   "state": "ok",
    "src": "2023-08-MTM-vejstøj-giber-ringvej.pdf, s. 3",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "[d]erersamletetableret16støjvoldelangsgiberringvejjf.kortvedlagtsombilag4",
    "n": 0,
    "quote": "[d]er er samlet etableret 16 støjvolde langs Giber Ringvej jf. kort vedlagt som bilag 4",
+   "state": "ok",
    "src": "2023-08-MTM-vejstøj-giber-ringvej.pdf, s. 3",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "iforbindelsemedetableringafenstøjvoldskalderudarbejdesenvvmscreening,ogderskalsøgesenlandzonetilladelse.(...)detbetyder,atenstøjvoldskalhaveendokumenteretstøjdæmpendeeffekt,ellerskanderikkeopnåstilladelsertilatetablerestøjvolden.",
    "n": 0,
    "quote": "I forbindelse med etablering af en støjvold skal der udarbejdes en VVM-screening, og der skal søges en …",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "detteerudførtfordestøjvolde,someretableretiforbindelsemedprojektetforgiberringvej.",
    "n": 0,
    "quote": "Dette er udført for de støjvolde, som er etableret i forbindelse med projektet for Giber Ringvej.",
+   "state": "ok",
    "src": "2023-10-13-mtm-svar-til-giber-ringvej-gruppen.pdf, s. 2",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "hererdetkorrekt,atdetvarmisvisende,atdetfremgik,atdervaretableret16støjvolde,daikkeallejorddepoterneeranlagtsomdecideredestøjvolde.detbetyderdogikke,atdeikkekanhaveenstøjdæmpendeeffekt.",
    "n": 0,
    "quote": "Her er det korrekt, at det var misvisende, at det fremgik, at der var etableret 16 støjvolde, da ikke alle …",
+   "state": "ok",
    "src": "2025-01-mtm-redegoerelse-2.pdf, s. 1",
-   "note": "ikke fundet i den henviste kilde"
+   "note": "ved henvisningen — går over et sideskift, intet kort"
   },
   {
    "key": "kommunensforsvarrækkerikke",
    "n": 0,
    "quote": "Kommunens forsvar rækker ikke",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "state": "ok",
+   "note": "navngiver et afsnit i anmodningen eller tillægget"
   },
   {
    "key": "deterkorrektatletbanevoldenikkeeretstøjtiltag.derersøgtenvvmansøgning,mendetharikkenogetmedstøjatgøre",
    "n": 0,
    "quote": "Det er korrekt at letbanevolden ikke er et støjtiltag. Der er søgt en VVM-ansøgning, men det har ikke noget med støj …",
+   "state": "ok",
    "src": "2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf, s. 5",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "detteerkorrekt",
    "n": 0,
    "quote": "Dette er korrekt",
+   "state": "ok",
    "src": "2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf, s. 3",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "deterkorrektatderikkeerenlandzonetill[a]delse,davolden/adgangsvejenerendelafprojektetforatskabeadgangtilejendomme",
    "n": 0,
    "quote": "Det er korrekt at der ikke er en landzonetill[a]delse, da volden/adgangsvejen er en del af projektet for at skabe …",
+   "state": "ok",
    "src": "2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf, s. 5",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "rambøllharikkelavetansøgningen,såhvisansøgningenikkeindeholderstøjerdetkorrektatdenikkeskalmedtages",
    "n": 0,
    "quote": "Rambøll har ikke lavet ansøgningen, så hvis ansøgningen ikke indeholder støj er det korrekt at den ikke skal medtages",
+   "state": "ok",
    "src": "2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf, s. 6",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "deterkorrektatlandzonetilladelsenikkeindeholderstøj",
    "n": 0,
    "quote": "Det er korrekt at landzonetilladelsen ikke indeholder støj",
+   "state": "ok",
    "src": "2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf, s. 6",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "endelafprojektetforatskabeadgangtilejendomme",
    "n": 0,
    "quote": "en del af projektet for at skabe adgang til ejendomme",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "etableringafbakkervedtestruphøjskolepåtingskovvej12",
    "n": 0,
    "quote": "etablering af bakker ved Testrup Højskole på Tingskovvej 12",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "state": "unverifiable",
+   "note": "der er ingen kilde ved citatet, der kan kontrolleres mod"
   },
   {
    "key": "viharherudoverlagtvægtpå,atbakkerne/voldenvilmedvirketil,atderfrahøjskolenikkeerdirekteudsigttilbederberingvejen.",
    "n": 0,
    "quote": "Vi har herudover lagt vægt på, at bakkerne/volden vil medvirke til, at der fra højskolen ikke er direkte udsigt til …",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "denerikkeanlagtsomstøjvold.",
    "n": 0,
    "quote": "Den er ikke anlagt som støjvold.",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "[j]ordvoldeneergodkendtmedhenblikpåatafskærmeudsynettilvejen(visuelafskærmning,ikkestøj).(...)ervoldenetstøjtiltag?",
    "n": 0,
    "quote": "[j]ordvoldene er godkendt med henblik på at afskærme udsynet til vejen (visuel afskærmning, ikke støj). (...) Er …",
+   "state": "ok",
    "src": "2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf, s. 4",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "(...)daderiprojektetikkeermedsendtdokumentationforejhellerlagtvægtpåatjordvoldenharenstøjdæmpendeeffektansesprojektetprimærtsometanlægtilbortskaffelseafaffald(...)",
    "n": 0,
    "quote": "(...) da der i projektet ikke er medsendt dokumentation for ej heller lagt vægt på at jordvolden har en støjdæmpende …",
+   "state": "ok",
    "src": "2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf, s. 2",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "såvidtvides,indgiketableringafdenaktuellejordvoldikkesomendelafvvmredegørelsenejhellervvmtilladelsensvilkår7,somomhandlerekstrastøjafskærmning.",
    "n": 0,
    "quote": "Så vidt vides, indgik etablering af den aktuelle jordvold **ikke** som en del af VVM-redegørelsen ej heller …",
+   "state": "ok",
    "src": "2022-landzonetilladelse-deponivold.pdf, s. 1",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "visuelafskærmning",
    "n": 0,
    "quote": "visuel afskærmning",
+   "state": "ok",
    "src": "2022-landzonetilladelse-deponivold.pdf, s. 1",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "enhvervoldplaceretmellemetgiventpunktogenstøjkildevilhaveeneffekt",
    "n": 0,
    "quote": "Enhver vold placeret mellem et givent punkt og en støjkilde vil have en effekt",
+   "state": "ok",
    "src": "2026-03-ramboell-Bilag2b-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2_Kommenteret.pdf, s. 1",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "atenjordvoldaltidhareneffekt",
    "n": 0,
    "quote": "at en jordvold altid har en effekt",
+   "state": "ok",
    "src": "2026-04-referat-GRG-og-MTM.txt",
-   "note": "kilden er en txt-fil, ikke en PDF"
+   "note": "ved henvisningen — intet kort, kilden er ikke en PDF"
   },
   {
    "key": "enstøjvoldmellemtandervejognymarksvedvedmårslet",
    "n": 0,
    "quote": "en støjvold Mellem Tandervej og Nymarksved ved Mårslet",
+   "state": "ok",
    "src": "2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf, s. 5",
-   "note": "ikke fundet i den henviste kilde"
+   "note": "kontrolleret manuelt: Kontrolleret 2026-10-10 mod den indscannede side (Rambølls ansøgning af 1. maj 2019). Stort M og stavemåden \"Nymarksved\" er kildens egne."
   },
   {
    "key": "densamledestøjvolderca.750meterlang,3~6meterbredfraskråningskanttiltop,ogplaceres2~12meternordforberingbedervejen.støjvoldenetableresmeden2meterbredtop(kronebredde),1meteroverterrænogmedetskråningsanlæg1:2modberingbedervejenogetskråningsanlæg1:10påbagsiden.",
    "n": 0,
    "quote": "Den samlede støjvold er ca. 750 meter lang, 3-6 meter bred fra skråningskant til top, og placeres 2-12 meter nord …",
+   "state": "ok",
    "src": "2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf, s. 1",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "atbegrænsestøjpåvirkningenafomkringliggendeejendomme",
    "n": 0,
    "quote": "at begrænse støjpåvirkningen af omkringliggende ejendomme",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "atderertaleomenstøjvold,dernedbringerstøjenfravejanlæggetpådenærliggendebebyggelser.",
    "n": 0,
    "quote": "at der er tale om en støjvold, der nedbringer støjen fra vejanlægget på de nærliggende bebyggelser.",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "støjtiltagenedererudførtpånordsidenafgiberringvejmellemtandervejognymarksvej,erudførtsomdyrkningsskråningermedenfladhældningpå1:10.formåleternetopatdeikkeersynligeilandskabet,ioverensstemmelsemedanbefalingerneivvmrapporten.(afsnit17.1.1afværgeogovervågningstiltag,landskabs244ioriginaltdokument)",
    "n": 0,
    "quote": "Støjtiltagene der er udført på nordsiden af Giber Ringvej mellem Tandervej og Nymarksvej, er udført som …",
+   "state": "ok",
    "src": "2026-03-ramboell-kommentering-af-faktaark.pdf, s. 4",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "deberørteborgereimårsletønskedeikkeenudformningafdestøjreducerendetiltagderreduceredeudsigtenmodsydovermarkerne.deønskedehellerikkeenvoldudformetmedensartethøjdeovervejbanen,dadetvillegiveettekniskogunaturligtudtryk,selvomdenstøjreducerendeeffektvillehaveværethøjere.",
    "n": 0,
    "quote": "De berørte borgere i Mårslet ønskede ikke en udformning af de støjreducerende tiltag der reducerede udsigten mod syd …",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "støjvolde,støjskærmeogyderligereafgravning",
    "n": 0,
    "quote": "støjvolde, støjskærme og yderligere afgravning",
+   "state": "ok",
    "src": "2019-08-06-projektgodkendelse.pdf, s. 5",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "nedbringerstøjenfravejanlæggetpådenærliggendebebyggelser",
    "n": 0,
    "quote": "nedbringer støjen fra vejanlægget på de nærliggende bebyggelser",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "ernetopatdeikkeersynligeilandskabet",
    "n": 0,
    "quote": "er netop at de ikke er synlige i landskabet",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "påca.19.000m",
    "n": 0,
    "quote": "på ca. 19.000 m3",
+   "state": "ok",
    "src": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf, s. 2",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "enhøjdepåca.5mift.giberringvej",
    "n": 0,
    "quote": "en højde på ca. 5m ift. Giber Ringvej",
+   "state": "ok",
    "src": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf, s. 2",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "såvidtvides,indgiketableringafdenaktuellejordvoldikkesomendelafvvmredegørelsenejhellervvmtilladelsensvilkår7,somomhandlerekstrastøjafskærmning.deterpådenbaggrundaarhuskommunesopfattelse,atdenansøgtejordvoldikkeermiljøvurderetsomendelafvejprojektet,menmåbetragtessomenændringellerudvidelseafprojektetherunderetsærskiltprojekt,somomfatterindbygningafjordaffald,somharennyttiggørelse.",
    "n": 0,
    "quote": "Så vidt vides, indgik etablering af den aktuelle jordvold ikke som en del af VVM-redegørelsen ej heller …",
+   "state": "ok",
    "src": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf, s. 3",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "aarhuskommunepbm",
    "n": 0,
    "quote": "Aarhus Kommune – PBM",
+   "state": "ok",
    "card": true,
-   "note": "det eneste citerede dokument, der indeholder citatet"
+   "note": "kort fra det eneste citerede dokument, der indeholder citatet"
   },
   {
    "key": "anlægtilbortskaffelseafaffald(projektersomikkeeromfattetafbilag1)",
    "n": 0,
    "quote": "Anlæg til bortskaffelse af affald (projekter som ikke er omfattet af bilag 1)",
+   "state": "ok",
    "src": "2023-08-MTM-kort-giber-ringvej.pdf",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "ikke[vurderes]atopfyldekriterierneimiljøbeskyttelsesloventilnyttiggørelseogvildermedværeomfattetafgodkendelsespligt",
    "n": 0,
    "quote": "ikke [vurderes] at opfylde kriterierne i miljøbeskyttelsesloven til nyttiggørelse og vil dermed være omfattet af …",
+   "state": "ok",
    "src": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf, s. 1",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "derikkekanmeddelesmiljøgodkendelsetildensydligejordvold",
    "n": 0,
    "quote": "der ikke kan meddeles miljøgodkendelse til den sydlige jordvold",
+   "state": "ok",
    "src": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf, s. 1",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "differenskortetviseretfaldistøjforomkringliggendeboligerpå1~2db.",
    "n": 0,
    "quote": "Differenskortet viser et fald i støj for omkringliggende boliger på 1-2 dB.",
+   "state": "ok",
    "src": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf, s. 2",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "[h]arenstøjdæmpendeeffektift.tilnærmesteboligernordforvejen",
+   "n": 0,
+   "quote": "[h]ar en støjdæmpende effekt ift. til nærmeste boliger nord for vejen",
+   "state": "ok",
+   "src": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf, s. 4",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "forskelleniterrænetførogefteranlæggelseafvejen",
    "n": 0,
    "quote": "forskellen i terrænet før og efter anlæggelse af vejen",
-   "note": "står i 2 af de citerede dokumenter — kilden er tvetydig"
+   "state": "ok",
+   "note": "står i 2025-01-mtm-redegoerelse-2.pdf, s. 2 — intet kort, da det ikke er sikkert, hvilket bilag der menes"
   },
   {
    "key": "støjvoldenetableresimidlertidikke,fordiaarhuskommuneerretligtforpligtettilatsørgeforatdæmpestøjenfravejenforbebyggelsennordforgiberringvejvednymarksvej.støjvoldenetablerespågrundlagafenfrivilligaftalemedlodsejeren,ogfordiaarhuskommuneidetteområdeliggerindemedenbetydeligmængdeafoverskudsjordfraetableringenafringvejen.",
    "n": 0,
    "quote": "Støjvolden etableres imidlertid ikke, fordi Aarhus Kommune er retligt forpligtet til at sørge for at dæmpe støjen …",
+   "state": "ok",
    "src": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf, s. 57",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "aftalenometableringenafstøjvoldenerbegrundeti,atstøjvoldengiverendokumenteretnedbringelseafstøjenfravejenogdermedernyttiggørelseafjorden,ogatdererfærreomkostningerforbundetmedetableringenafstøjvolden,enddervilleværevedatflyttejordenoganvendedenetandetsted.",
    "n": 0,
    "quote": "Aftalen om etableringen af støjvolden er begrundet i, at støjvolden giver en dokumenteret nedbringelse af støjen fra …",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
+  },
+  {
+   "key": "iformafstøjvolde",
+   "n": 1,
+   "quote": "i form af støjvolde",
+   "state": "ok",
+   "src": "2023-08-Ramboll-redegoerelse.pdf, s. 2",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "arealerhvervelse,ca.20kr./m",
    "n": 0,
    "quote": "Arealerhvervelse, ca. 20 kr./m2",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "afrømningafeksisterendemuld,ca.20kr./m",
    "n": 0,
    "quote": "Afrømning af eksisterende muld, ca. 20 kr./m3",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "afgravningogindbygningafråjord,ca.35kr./m",
    "n": 0,
    "quote": "Afgravning og indbygning af råjord, ca. 35 kr./m3",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "genudlægningafmuld,ca.12kr./m",
    "n": 0,
    "quote": "Genudlægning af muld, ca. 12 kr./m2",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "genereltca.30%afanlægsudgifterne",
    "n": 0,
    "quote": "generelt ca. 30% af anlægsudgifterne",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "trafikstøjkræverhandling",
    "n": 0,
    "quote": "Trafikstøj kræver handling",
+   "state": "ok",
    "src": "trafikstoej-kraever-handling-2020.pdf, s. 46",
-   "card": true,
-   "note": "henvisningen siger s. 46, citatet står på s. 1 — tjek, om henvisningen gælder citatet"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "økonomienforjordvoldeersværatangive,dadenafhængerheltafprojektet,ogomderermulighedforatanvendeoverskudsjordfrabyggeoganlægsprojekter.isåfaldkanetableringafenjordvoldværeforbundetmedmegetsmåelleringenomkostninger.",
    "n": 0,
    "quote": "Økonomien for jordvolde er svær at angive, da den afhænger helt af projektet, og om der er mulighed for at anvende …",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "dereromkostningeriforbindelsemedetableringafstøjvoldenvedstavtrup.omkostningerneskyldesatjordenskalkalkstabiliseres,hvilketkosterendelianlægsomkostninger.deterstadigbilligereendatkørealjordentildeponi.",
    "n": 0,
    "quote": "Der er omkostninger i forbindelse med etablering af støjvolden ved Stavtrup. Omkostningerne skyldes at jorden skal …",
-   "note": "ikke fundet i nogen citeret kilde (lovtekst, egne ord o.l.)"
+   "state": "ok",
+   "note": "står i 2025-01-29-vejdirektoratet-stavtrup-jordvold-oekonomi.txt, s. 1 — intet kort, da det ikke er sikkert, hvilket bilag der menes"
   },
   {
    "key": "kommunenharnogetoverskudsjord,mangernevilanvende.",
    "n": 0,
    "quote": "Kommunen har noget overskudsjord, man gerne vil anvende.",
+   "state": "ok",
    "src": "2016-udvalgs-erklaering.pdf, s. 4",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "altid[vil]væreudgifterforbundetmedetableringenafenstøjvold,fraregnetbalancenmellemoverskud/underskudafjordietanlægsprojekt",
    "n": 0,
    "quote": "altid [vil] være udgifter forbundet med etableringen af en støjvold, fraregnet balancen mellem overskud/underskud af …",
+   "state": "ok",
    "src": "2026-03-ramboell-kommentering-af-faktaark.pdf, s. 5",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "støjvægitranbjerg",
    "n": 0,
    "quote": "støjvæg i Tranbjerg",
+   "state": "ok",
    "src": "2019-08-06-projektgodkendelse.pdf, s. 5",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "støjafskærmninglangsnordsidenafvejanlæggetvedtranbjerg",
    "n": 0,
    "quote": "støjafskærmning langs nordsiden af vejanlægget ved Tranbjerg",
+   "state": "ok",
    "src": "2018-vvm-tilladelse.pdf, s. 3",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "støjafskærmninglangslandevejen...imindst4metershøjdeibeggevejsiderpåstrækningenfraingerslevvængetforbitingskovparkenfremtilvejanlægget",
    "n": 0,
    "quote": "støjafskærmning langs Landevejen ... i mindst 4 meters højde i begge vejsider på strækningen fra Ingerslevvænget …",
+   "state": "ok",
    "src": "2018-vvm-tilladelse.pdf, s. 3",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "afdennebevillinganvendesmidlertidigt5,5mio.kr.tilfremskyndetetableringafstøjskærmenitranbjerg.",
    "n": 0,
    "quote": "Af denne bevilling anvendes midlertidigt 5,5 mio. kr. til fremskyndet etablering af støjskærmen i Tranbjerg.",
+   "state": "ok",
    "src": "2019-08-06-projektgodkendelse.pdf, s. 7",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "...herunderstøjskærmenlangslandevejenitranbjergtilenprisafca.4millionerkr.eromfattetaframmenpåca.20millionerkr.",
    "n": 0,
    "quote": "... herunder støjskærmen langs Landevejen i Tranbjerg til en pris af ca. 4 millioner kr. er omfattet af rammen på …",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "flyttetlængeremodsyd,sådetermuligtatetablereenvoldmedtilpasafstandtiletnytboligområde",
    "n": 0,
    "quote": "flyttet længere mod syd, så det er muligt at etablere en vold med tilpas afstand til et nyt boligområde",
+   "state": "ok",
    "src": "2019-08-06-projektgodkendelse.pdf, s. 5",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "meddeangivnetilpasninger",
    "n": 0,
    "quote": "med de angivne tilpasninger",
+   "state": "ok",
    "src": "2019-08-06-projektgodkendelse.pdf, s. 2",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "oversigtsforholdeneikrydsområdetsikres",
    "n": 0,
    "quote": "oversigtsforholdene i krydsområdet sikres",
+   "state": "ok",
    "src": "2019-vvm-tilpasninger.pdf, s. 12",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "ettrafiksikkerhedsaspekt",
    "n": 0,
    "quote": "et trafiksikkerhedsaspekt",
+   "state": "ok",
    "src": "2019-08-06-projektgodkendelse.pdf, s. 4",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "enoptil4mhøjstøjskærmiskel",
    "n": 0,
    "quote": "en op til 4 m høj støjskærm i skel",
+   "state": "ok",
    "card": true,
-   "note": "nærmeste henvisning før citatet i afsnittet"
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "tilatoptageer[sic]terrænspringsamtsomstøjreducerendetiltag",
    "n": 0,
    "quote": "til at optage er [sic] terrænspring samt som støjreducerende tiltag",
+   "state": "ok",
    "src": "2023-08-Ramboll-redegoerelse.pdf, s. 4",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "blevafsatekstramidlertilatanvendedennetypeasfalt",
    "n": 0,
    "quote": "blev afsat ekstra midler til at anvende denne type asfalt",
+   "state": "ok",
    "src": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf, s. 45",
-   "card": true,
-   "note": "ved henvisningen"
+   "note": "ved henvisningen",
+   "card": true
   }
  ]
 }

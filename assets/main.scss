@@ -483,6 +483,7 @@ a, a:hover, a:visited { color: inherit; }
 .ev-mark--ok   { color: #1d6b32; background: #e3f3e7; }
 .ev-mark--warn { color: #7a5200; background: #fff1c7; }
 .ev-mark--miss { color: #a1141a; background: #fde4e4; }
+.ev-mark--check { color: #4a4a4a; background: #ececec; }
 
 .ev-mark--flash { animation: ev-flash 1.6s ease-out; }
 @keyframes ev-flash {

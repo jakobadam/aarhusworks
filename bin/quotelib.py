@@ -9,15 +9,37 @@ drawn for a quote the checker would have matched differently.
 Requires PyMuPDF (pip install pymupdf).
 """
 
+import difflib
+import hashlib
+import html
+import json
 import re
 import unicodedata
-from urllib.parse import unquote
+import urllib.request
+from urllib.parse import unquote, urlparse
 
 import fitz
 
-QUOTE = re.compile(r'"([^"\r\n]{15,}?)"')
 LINK = re.compile(r'\]\(https://aarhusworks\.com/(assets/[^)#\s]+)(?:#page=(\d+))?\)')
 ANY_ASSET = re.compile(r'https://aarhusworks\.com/(assets/[^)#\s]+)')
+EXT_LINK = re.compile(r'\]\((https?://(?!aarhusworks\.com)[^)\s]+)\)')
+SECTION = re.compile(r'^#{1,6} ', re.M)
+TODO = re.compile(r'\[TODO:[^\]]*\]')
+# "* **Bilag 48:** Aarhus Kommune, *"Oversigt høringsbidrag"*" names a
+# document; the quotation marks set off its title, they do not quote it.
+BILAG_LINE = re.compile(r'[ \t]*[*-][ \t]+\*\*Bilag[ \t]+\w+:\*\*')
+MIN_QUOTE = 15
+
+# Sources outside the site: laws on danskelove.dk, ombudsman statements and
+# guidance on retsinformation.dk, and the like. They are fetched once and kept
+# as text under CACHE, so the check also runs offline and in the hook.
+CACHE = 'bin/kildecache'
+PAYWALL = ('ing.dk',)
+SUMMARY = 2500        # characters; less than this is an abstract, not the text
+GAP = 600             # characters of running header/footer at a page break
+
+# Quotations checked by hand, against a scan with no text layer and the like.
+MANUAL = 'bin/kilder-manuelt.json'
 EDITORIAL = re.compile(r'\[[^\]]{0,40}\]')
 ELLIPSIS = re.compile(r'\(\s*\.\.\.\s*\)|\.\.\.|…')
 
@@ -43,6 +65,10 @@ def norm(s):
                  ('–', '-'), ('—', '-'), ('−', '-'),
                  (' ', ' ')):
         s = s.replace(a, b)
+    # Quotation marks inside a quote are a matter of house style: the filing
+    # sets the source's ”notat vedr. …” as 'notat vedr. …', and an apostrophe
+    # may be ' or ’. Neither side's marks carry the words, so both are dropped.
+    s = re.sub('["\']', '', s)
     # PDF text layers break words across lines with a hyphen, but Danish
     # administrative prose is also full of real compound hyphens
     # ("VVM-bekendtgørelsen"), and a line break can fall on one of those.
@@ -89,6 +115,8 @@ class Sources:
     def __init__(self, root):
         self.root = root
         self._cache = {}
+        self._annots = {}
+        self._ext = {}
 
     def path(self, rel):
         # Links are URL-encoded (æøå, spaces). Without decoding, fitz.open
@@ -116,6 +144,28 @@ class Sources:
         self._cache[rel] = pages
         return pages
 
+    def annots(self, rel):
+        """-> per page, the normalised text of its comments (sticky notes etc.).
+
+        The kommune answers fact sheets by commenting in the PDF; those
+        answers are quoted, and they are not in the page's text layer.
+        """
+        if rel not in self._annots:
+            out = []
+            try:
+                if self.path(rel).suffix.lower() == '.pdf':
+                    for page in fitz.open(self.path(rel)):
+                        out.append(norm(' '.join(a.info.get('content', '')
+                                                  for a in page.annots() or [])))
+            except Exception:
+                out = []
+            self._annots[rel] = out
+        return self._annots[rel]
+
+    def in_annotation(self, rel, frags, page):
+        notes = self.annots(rel)
+        return 1 <= page <= len(notes) and contains_in_order(notes[page - 1], frags)
+
     def find_in(self, rel, frags, cited=0):
         """-> 1-based page the quote is on, 0 if it spans a page break, or None.
 
@@ -131,8 +181,316 @@ class Sources:
         for i, page in enumerate(pages):
             if contains_in_order(page, frags):
                 return i + 1
+        spans = across(pages, frags)
+        if spans:
+            return cited if cited in spans else spans[0]
+        for i, notes in enumerate(self.annots(rel)):
+            if notes and contains_in_order(notes, frags):
+                return i + 1
         joined = ' '.join(pages)                          # spans a page break
         return 0 if contains_in_order(joined, frags) else None
+
+    def external(self, url):
+        """-> (normalised texts or None, why it cannot be checked or None)."""
+        if url not in self._ext:
+            host = urlparse(url).hostname or ''
+            if any(host == d or host.endswith('.' + d) for d in PAYWALL):
+                self._ext[url] = (None, 'er bag betalingsmur')
+            else:
+                text = self._fetch(url)
+                if text is None:
+                    self._ext[url] = (None, 'kunne ikke hentes')
+                elif host.endswith('retsinformation.dk') and len(text) < SUMMARY:
+                    # Older ombudsman statements are on retsinformation.dk as
+                    # an index entry only. (A short text elsewhere is just a
+                    # short provision, and is checked like any other.)
+                    self._ext[url] = ([norm(text)], 'har kun et resumé, ikke selve teksten')
+                else:
+                    self._ext[url] = ([norm(text)], None)
+        return self._ext[url]
+
+    def _fetch(self, url):
+        cache = self.root / CACHE / (hashlib.sha1(url.encode()).hexdigest()[:16] + '.txt')
+        if cache.exists():
+            return cache.read_text(encoding='utf-8').split('\n', 1)[1]
+        # retsinformation.dk serves a JavaScript app; the document itself is
+        # at the same ELI address with /xml added.
+        get = url
+        if urlparse(url).hostname in ('retsinformation.dk', 'www.retsinformation.dk') \
+                and '/eli/' in url and not url.rstrip('/').endswith('/xml'):
+            get = url.rstrip('/') + '/xml'
+        try:
+            req = urllib.request.Request(get, headers={'User-Agent': 'Mozilla/5.0 aarhusworks citatkontrol'})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                body = r.read()
+                kind = r.headers.get('content-type', '')
+        except Exception:
+            return None
+        if 'pdf' in kind or body[:5] == b'%PDF-':
+            text = ' '.join(p.get_text() for p in fitz.open(stream=body, filetype='pdf'))
+        else:
+            page = body.decode('utf-8', 'replace')
+            page = re.sub(r'(?is)<(script|style)\b.*?</\1>', ' ', page)
+            text = html.unescape(re.sub(r'<[^>]+>', ' ', page))
+        text = ' '.join(text.split())
+        cache.parent.mkdir(parents=True, exist_ok=True)
+        cache.write_text(url + '\n' + text, encoding='utf-8')
+        return text
+
+
+def across(pages, frags):
+    """-> (page, next page) if the quote runs over a page break, else None.
+
+    A sentence that continues on the next page has the running footer of one
+    page and the header of the next between its halves ("... som deciderede
+    TEKNIK OG MILJØ ... Side 2 af 2 støjvolde."). One fragment is allowed to
+    break there, provided each half is long enough to identify it and sits
+    within GAP characters of the break.
+    """
+    for j, f in enumerate(frags):
+        if len(f) < 24:
+            continue
+        for i in range(len(pages) - 1):
+            a, b = pages[i], pages[i + 1]
+            tail, head = a[-(GAP + len(f)):], b[:GAP + len(f)]
+            if f[:12] not in tail and f[-12:] not in head:
+                continue
+            for k in range(len(f) - 6, 5, -1):
+                p = tail.rfind(f[:k])
+                if p < 0 or len(tail) - (p + k) > GAP:
+                    continue
+                q = head.find(f[k:])
+                if q < 0 or q > GAP:
+                    continue
+                if (contains_in_order(a[:len(a) - len(tail) + p], frags[:j])
+                        and contains_in_order(b[q + len(f) - k:], frags[j + 1:])):
+                    return i + 1, i + 2
+    return None
+
+
+def in_range(raw, link, page_no):
+    """-> whether the link's own text ("bilag 58, s. 6–7") spans page_no.
+
+    #page= can only open the first page of a range; a quote on the next page
+    of it is cited correctly.
+    """
+    text = raw[raw.rfind('[', 0, link.start()):link.start()]
+    return any(int(a) <= page_no <= int(b)
+               for a, b in re.findall(r's\.\s*(\d+)\s*[–-]\s*(\d+)', text))
+
+
+def labels(*raws):
+    """-> the headings and bold lead-ins of the posts, normalised.
+
+    "uddybes nedenfor under "Kommunens forsvar rækker ikke"" names a section
+    of the filing; it does not quote a source.
+    """
+    out = set()
+    for raw in raws:
+        for m in re.finditer(r'^#{1,6}\s+(.+?)\s*$', raw, re.M):
+            out.add(norm(m.group(1)).rstrip('.'))
+        # Only a bold lead-in opening a paragraph; bold inside running text
+        # is emphasis, often of words inside a quotation.
+        for m in re.finditer(r'^(?:[ \t]*(?:>|[*-]|\d+\.)[ \t]*)?\*\*([^*\n]{3,200}?)\*\*', raw, re.M):
+            out.add(norm(m.group(1)).rstrip('.'))
+    return out
+
+
+def linked_posts(raw, posts):
+    """-> the text of the posts this one links to (the anmodning and its tillæg
+    refer to each other's sections by name)."""
+    out = []
+    for y, mo, d, slug in set(re.findall(
+            r'aarhusworks\.com/(?:[^/\s)]+/)?(\d{4})/(\d{2})/(\d{2})/([\w-]+)\.html', raw)):
+        path = posts / f'{y}-{mo}-{d}-{slug}.md'
+        if path.exists():
+            out.append(path.read_text(encoding='utf-8'))
+    return out
+
+
+def manual(root):
+    """-> checked-by-hand entries from MANUAL, keyed by the quote's fragments."""
+    path = root / MANUAL
+    if not path.exists():
+        return {}
+    entries = json.loads(path.read_text(encoding='utf-8'))
+    return {' '.join(fragments(norm(e['citat']))): e for e in entries}
+
+
+def verify(raw, item, sources, own, by_hand, assets):
+    """-> (state, kind, detail) for one quotation from cited_quotes().
+
+    state is 'ok', 'warn' (found, but the citation's page is another),
+    'unverifiable' (the source cannot be read, or none is given; detail says
+    why) or 'error' (the source can be read and the quote is not in it).
+    """
+    m, quote, frags, link = item
+    entry = by_hand.get(' '.join(frags))
+    if entry:
+        return 'ok', 'manual', entry
+
+    unread = None    # why the linked source cannot be read
+    why = None       # why an external source in the section cannot be read
+    rel = link.group(1) if link else None
+    if link:
+        cited = int(link.group(2) or 0)
+        if sources.pages(rel) is None:
+            unread = f'kilden ({unquote(rel.rsplit("/", 1)[-1])}) er en scanning eller et billede uden tekst'
+        else:
+            page = sources.find_in(rel, frags, cited)
+            if page is None and cited and len(sources.pages(rel)) >= cited \
+                    and len(sources.pages(rel)[cited - 1]) < 50:
+                unread = (f's. {cited} i kilden ({unquote(rel.rsplit("/", 1)[-1])}) '
+                       f'er en scanning uden tekst')
+            if page is not None:
+                if (not cited or page in (0, cited) or in_range(raw, link, page)
+                        or _page_cited_nearby(raw, (m.start(), link.start()), rel, page)
+                        or (page == 1 and contains_in_order(sources.pages(rel)[0][:300], frags))):
+                    return 'ok', 'cited', (rel, cited, page)
+                return 'warn', 'otherpage', (rel, cited, page)
+
+    for a in assets:
+        if a != rel:
+            page = sources.find_in(a, frags)
+            if page is not None:
+                return 'ok', 'elsewhere', (a, page)
+
+    section = max((h.start() for h in SECTION.finditer(raw, 0, m.start())), default=0)
+    following = SECTION.search(raw, m.end())
+    urls = list(dict.fromkeys(EXT_LINK.findall(raw, section, following.start() if following else len(raw))))
+    for url in urls:
+        texts, reason = sources.external(url)
+        if texts and any(contains_in_order(t, frags) for t in texts):
+            return 'ok', 'external', url
+        if reason and why is None:
+            why = f'kilden ({urlparse(url).hostname}) {reason}'
+    # Failing the section's own sources, any external source the post cites:
+    # a statement is often quoted where it is discussed, and linked where it
+    # was first introduced.
+    for url in dict.fromkeys(EXT_LINK.findall(raw)):
+        if url not in urls:
+            texts, _ = sources.external(url)
+            if texts and any(contains_in_order(t, frags) for t in texts):
+                return 'ok', 'external', url
+    # Only now, so that a quote which is also a section's name is checked
+    # against its source first: a reference to a section of the filing, and a
+    # document's title in the bilag list, which may be the document's own
+    # name for itself rather than words printed in it.
+    if norm(quote).rstrip('.') in own:
+        return 'ok', 'internal', None
+    if BILAG_LINE.match(raw, raw.rfind('\n', 0, m.start()) + 1):
+        return 'ok', 'title', None
+
+    # Not found. A source that can be read and does not hold the quote makes
+    # it an error, whatever else in the section cannot be read: a paywalled
+    # article two sentences on does not excuse a misquoted report.
+    near = closest(sources, quote, assets, EXT_LINK.findall(raw))
+    if link and not unread:
+        return 'error', 'missing', (rel, int(link.group(2) or 0), near)
+    # Nearly the words of a source that can be read is a misquote, not a quote
+    # from somewhere unreadable — it differs from what the source says.
+    if near:
+        return 'error', 'differs', near
+    if unread or why:
+        return 'unverifiable', 'unreadable', unread or why
+    if urls:
+        return 'error', 'unmatched', urls
+    return 'unverifiable', 'nosource', 'der er ingen kilde ved citatet, der kan kontrolleres mod'
+
+
+def closest(sources, quote, assets, urls):
+    """-> (where, page, the source's own words) closest to a quote, or None.
+
+    Only for quotes that matched nowhere: a near match is reported, with what
+    the source actually says, so a quote that is almost right is shown as
+    the misquote it is rather than as one whose source cannot be found. Short
+    quotes need a closer match, since a few common words match anything.
+    """
+    q = norm(EDITORIAL.sub(' ', ELLIPSIS.sub(' ', quote)))
+    q = re.sub(r'\s+', ' ', q).strip()
+    if len(q) < MIN_QUOTE:
+        return None
+    need = 0.9 if len(q) < 40 else 0.85
+    words = set(re.findall(r'\w{6,}', q))
+    best = (need, None)
+    pool = [(a, i + 1, t) for a in assets for i, t in enumerate(sources.pages(a) or [])]
+    pool += [(a, i + 1, t) for a in assets for i, t in enumerate(sources.annots(a)) if t]
+    pool += [(u, 0, t) for u in dict.fromkeys(urls) for t in (sources.external(u)[0] or [])]
+    for where, page, text in pool:
+        for w in sorted((w for w in words if w in text), key=text.count)[:2]:
+            for hit in list(re.finditer(re.escape(w), text))[:20]:
+                window = text[max(0, hit.start() - len(q)): hit.end() + len(q)]
+                sm = difflib.SequenceMatcher(None, window, q, autojunk=False)
+                blocks = [b for b in sm.get_matching_blocks() if b.size]
+                ratio = sum(b.size for b in blocks) / len(q)
+                if ratio > best[0]:
+                    words_from = window.rfind(' ', 0, blocks[0].a) + 1
+                    words_to = window.find(' ', blocks[-1].a + blocks[-1].size)
+                    words_seen = window[words_from:None if words_to < 0 else words_to]
+                    best = (ratio, (where, page, words_seen.replace('~', '-')))
+    return best[1]
+
+
+def _page_cited_nearby(raw, offsets, rel, page):
+    """-> whether the quote's paragraph, or its link's, also cites that page.
+
+    "jf. [bilag 56, s. 3](…). … Teknisk Udvalgs erklæring … ([bilag 56,
+    s. 5](…)):" — the block quote below takes the first link as its own, but
+    the lead-in cites the page it is on as well. A link to the whole document
+    counts too.
+    """
+    for at in offsets:
+        start = raw.rfind('\n', 0, at) + 1
+        end = raw.find('\n', at)
+        for other in LINK.finditer(raw, start, len(raw) if end < 0 else end):
+            if other.group(1) == rel and int(other.group(2) or 0) in (0, page):
+                return True
+    return False
+
+
+class _Span:
+    """A quotation in the post: the text between its marks, and where it is."""
+
+    def __init__(self, start, end, text):
+        self._start, self._end, self.text = start, end, text
+
+    def start(self):
+        return self._start
+
+    def end(self):
+        return self._end
+
+
+def quotations(raw):
+    """Yield every run of text between straight quotation marks.
+
+    Marks are paired in order within a line, as kramdown pairs them. Matching
+    each opening mark with the next mark at least so many characters on, as
+    a single pattern does, pairs a short quote's closing mark with the next
+    quote's opening one and checks the prose in between as a quotation.
+    An HTML attribute value (id="tillaeg-b6") is not a quotation.
+    """
+    for line in re.finditer(r'[^\n]+', raw):
+        s, off = line.group(0), line.start()
+        start, attr = None, False
+        for j, ch in enumerate(s):
+            if ch != '"':
+                continue
+            if attr:
+                attr = False
+            elif start is None:
+                if j > 0 and s[j - 1] == '=':
+                    attr = True
+                else:
+                    start = j
+            else:
+                yield _Span(off + start, off + j + 1, s[start + 1:j])
+                start = None
+
+
+def body_start(raw):
+    front = re.match(r'﻿?---\r?\n.*?\r?\n---\r?\n', raw, re.S)
+    return front.end() if front else 0
 
 
 def cited_quotes(raw):
@@ -141,16 +499,21 @@ def cited_quotes(raw):
     Yields (match, quote, frags, link) where link is a LINK match or None, or
     None alone for a span that looks quoted but is not a quotation.
     """
-    for m in QUOTE.finditer(raw):
-        quote = m.group(1)
-        # An unbalanced " anywhere in the document shifts every pair after it, so
-        # a "quote" that opens on markdown punctuation is a mis-paired span, not
-        # something to report against a source.
-        # An HTML attribute value is not a quotation: <a id="tillaeg-prissaetning">
-        # otherwise reads as one and gets checked against the nearest source.
-        if m.start() > 0 and raw[m.start() - 1] == '=':
+    body = body_start(raw)
+    todos = [(t.start(), t.end()) for t in TODO.finditer(raw)]
+    for m in quotations(raw):
+        quote = m.text
+        if len(quote) < MIN_QUOTE:
+            continue
+        # The title in the front matter and the instructions in a [TODO: ...]
+        # are not quotations.
+        line_start = raw.rfind('\n', 0, m.start()) + 1
+        if m.start() < body or any(a <= m.start() < b for a, b in todos):
             yield None
             continue
+        # A line with an unbalanced " shifts every pair after it, so a "quote"
+        # that opens on markdown punctuation is a mis-paired span, not
+        # something to report against a source.
         if '](' in quote or len(quote) > 600 or quote.lstrip()[:1] in '*])>|':
             yield None
             continue
@@ -166,7 +529,6 @@ def cited_quotes(raw):
         # page anchor. Look backwards for these, forwards for everything else —
         # a plain running-text quote preceded by an unrelated link must not be
         # captured by it.
-        line_start = raw.rfind('\n', 0, m.start()) + 1
         in_blockquote = raw[line_start:m.start()].lstrip().startswith('>')
 
         link = None
