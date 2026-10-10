@@ -722,6 +722,19 @@
     "anchor": "enalmindeliglandevejtil80km/t"
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2020-06-23-ingenioeren-ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet.pdf#page=4|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/52367417488a.webp",
+    "w": 1224,
+    "h": 480,
+    "focus": 0.481,
+    "page": 4,
+    "file": "2020-06-23-ingenioeren-ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2020-06-23-ingenioeren-ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet.pdf#page=4",
+    "quote": "asfalttypen ikke lever op til forventningen om støjreduktion",
+    "anchor": "asfalttypenikkeleveroptilforventningenomstøjreduktion"
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf#page=4|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/47c4a06bd8d4.webp",
@@ -1538,6 +1551,19 @@
     "pdf": "https://aarhusworks.com/assets/mtm-modsvar/2023-08-VM-accoustics-m%C3%A5lt-trafikst%C3%B8j.pdf#page=1",
     "quote": "Målt udendørs vejtrafikstøj ved Giber Ringvej i Århus kommune",
     "anchor": "måltudendørsvejtrafikstøjvedgiberringvejiårhuskommune"
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2020-06-23-ingenioeren-ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet.pdf|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/cda0a17bf9ca.webp",
+    "w": 1224,
+    "h": 598,
+    "focus": 0.495,
+    "page": 1,
+    "file": "2020-06-23-ingenioeren-ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2020-06-23-ingenioeren-ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet.pdf#page=1",
+    "quote": "Ny asfalt overvurderet: 8200 flere boliger støjbelastet",
+    "anchor": "nyasfaltovervurderet:8200flereboligerstøjbelastet"
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2015-05-vejdirektoratet-rapport-540-optimering-af-stoejreducerende-slidlag.pdf|1": [
@@ -4147,8 +4173,10 @@
    "key": "asfalttypenikkeleveroptilforventningenomstøjreduktion",
    "n": 0,
    "quote": "asfalttypen ikke lever op til forventningen om støjreduktion",
-   "state": "unverifiable",
-   "note": "kilden (ing.dk) er bag betalingsmur"
+   "state": "ok",
+   "src": "2020-06-23-ingenioeren-ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet.pdf, s. 4",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "hvilkeneffektafstøjdæmpendeasfaltanvendtesistøjberegningerneforgr?",
@@ -5472,7 +5500,9 @@
    "n": 0,
    "quote": "Ny asfalt overvurderet: 8200 flere boliger støjbelastet",
    "state": "ok",
-   "note": "titlen på et bilag i bilagslisten"
+   "src": "2020-06-23-ingenioeren-ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet.pdf",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "optimeringafstøjreducerendeslidlag",
