@@ -1410,6 +1410,32 @@
     "anchor": "forudsatetableret"
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/1997-fob-150-intensiveret-proevelse-myndighedsinhabil.pdf#page=8|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/1c5bed0f1744.webp",
+    "w": 829,
+    "h": 92,
+    "focus": 0.252,
+    "page": 8,
+    "file": "1997-fob-150-intensiveret-proevelse-myndighedsinhabil.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/1997-fob-150-intensiveret-proevelse-myndighedsinhabil.pdf#page=8",
+    "quote": "bør være særlig intensiv",
+    "anchor": "børværesærligintensiv"
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/1997-fob-150-intensiveret-proevelse-myndighedsinhabil.pdf#page=9|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/e4b0c839c5fd.webp",
+    "w": 833,
+    "h": 113,
+    "focus": 0.747,
+    "page": 9,
+    "file": "1997-fob-150-intensiveret-proevelse-myndighedsinhabil.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/1997-fob-150-intensiveret-proevelse-myndighedsinhabil.pdf#page=9",
+    "quote": "lade det påhvile kommunen at godtgøre (...) at afgørelsen udelukkende var båret af saglige hensyn",
+    "anchor": "ladedetpåhvilekommunenatgodtgøre"
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=3|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/a99b63f08eea.webp",
@@ -5258,15 +5284,19 @@
    "key": "børværesærligintensiv",
    "n": 0,
    "quote": "bør være særlig intensiv",
-   "state": "unverifiable",
-   "note": "kilden (www.retsinformation.dk) har kun et resumé, ikke selve teksten"
+   "state": "ok",
+   "src": "1997-fob-150-intensiveret-proevelse-myndighedsinhabil.pdf, s. 8",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "ladedetpåhvilekommunenatgodtgøre(...)atafgørelsenudelukkendevarbåretafsagligehensyn",
    "n": 0,
    "quote": "lade det påhvile kommunen at godtgøre (...) at afgørelsen udelukkende var båret af saglige hensyn",
    "state": "ok",
-   "note": "står i retsinformation.dk/eli/fob/2007/459"
+   "src": "1997-fob-150-intensiveret-proevelse-myndighedsinhabil.pdf, s. 9",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "inærværendeafgørelse,hvorbygherreereninternafdelingiaarhuskommune,ermyndighedsinhabilitetenhåndteretvedatmyndighedenogbygherrenerorganiseretitosideordnedeområderiteknikogmiljømedhverderesledelse.",
