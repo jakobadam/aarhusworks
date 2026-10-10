@@ -244,6 +244,7 @@ def build(post):
     own = labels(raw, *linked_posts(raw, post.parent))
     by_hand = manual(ROOT)
     docs = {}
+    labels_of = {}
     made = set()
     focus = {}
     reused = 0
@@ -277,11 +278,17 @@ def build(post):
                 img.save(img_path, 'WEBP', quality=72, method=6)
             made.add(name)
         w, h = Image.open(img_path).size
+        if rel not in labels_of:
+            # An excerpt keeps the printed page numbers of the book it is cut
+            # from (FOB 1997, s. 150–159); the caption should say s. 157.
+            with fitz.open(sources.path(rel)) as doc:
+                labels_of[rel] = [p.get_label() for p in doc]
+        printed = labels_of[rel][page_no - 1] if page_no <= len(labels_of[rel]) else ''
         return {
             'src': f'/assets/evidence/{slug}/{name}',
             'w': w, 'h': h,
             'focus': focus[name],
-            'page': page_no,
+            'page': printed if printed and printed != str(page_no) else page_no,
             'file': unquote(rel.rsplit('/', 1)[-1]),
             'pdf': f'https://aarhusworks.com/{rel}#page={page_no}',
             'quote': ' '.join(re.sub(r'\\(.)', r'\1', quote.replace('*', '')).split()),
