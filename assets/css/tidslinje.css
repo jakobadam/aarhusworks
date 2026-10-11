@@ -73,6 +73,9 @@
 }
 
 .track {
+  /* En grid-kolonne er som standard mindst så bred som sit indhold; et
+     åbnet kildekort må ikke skubbe boksen ud over skærmkanten. */
+  min-width: 0;
   border-top: 3px solid #242424;
   padding-top: 0.7rem;
 }

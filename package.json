@@ -10,14 +10,19 @@
   },
   "scripts": {
     "prepare": "husky",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged --concurrent false"
   },
   "lint-staged": {
     "*.md": [
       "sh bin/mermaid2svg.sh"
     ],
     "_posts/2026-08-26-anmodning-om-tilsynssag*.md": [
+      "python bin/check-quotes.py .",
       "node bin/anmodning2pdf.mjs --stage",
+      "python bin/evidence-cards.py --stage"
+    ],
+    "_posts/2026-08-26-giber-ringvej-tidslinje.md": [
+      "python bin/check-quotes.py .",
       "python bin/evidence-cards.py --stage"
     ]
   }

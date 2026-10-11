@@ -521,7 +521,11 @@ def cited_quotes(raw):
         # A line with an unbalanced " shifts every pair after it, so a "quote"
         # that opens on markdown punctuation is a mis-paired span, not
         # something to report against a source.
-        if '](' in quote or len(quote) > 600 or quote.lstrip()[:1] in '*])>|':
+        # (A quote opening on bold, "**fastholdes** ...", is still a quote;
+        # a mis-paired span opens on "* " or on closing punctuation.)
+        head = quote.lstrip()
+        if ('](' in quote or len(quote) > 600 or head[:1] in '])>|'
+                or (head[:1] == '*' and head[1:2] in ' \t')):
             yield None
             continue
         frags = fragments(norm(quote))

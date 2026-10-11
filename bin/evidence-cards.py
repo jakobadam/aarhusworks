@@ -254,6 +254,7 @@ def build(post):
     if manifest.exists():
         for c in all_cards(json.loads(manifest.read_text(encoding='utf-8'))):
             old_focus[c['src'].rsplit('/', 1)[-1]] = c['focus']
+    had_cards = len(old_focus)
 
     def card(rel, page_no, frags, quote):
         """-> the card for a quote on a page, or None if its words are not found."""
@@ -339,7 +340,8 @@ def build(post):
             # The browser shows the card only if this text is next to the
             # link, so an edit that shifts the link count drops the card
             # rather than hanging it on the wrong citation.
-            links.setdefault(f'{href}|{n}', []).append(dict(c, anchor=frags[0].replace(' ', '')))
+            links.setdefault(f'{href}|{n}', []).append(
+                dict(c, anchor=frags[0].replace(' ', ''), key=record['key'], n=record['n']))
             by_text.setdefault(' '.join(frags), c)
             record['card'] = True
         elif kind == 'elsewhere':
@@ -400,6 +402,14 @@ def build(post):
             where = unquote(found.rsplit('/', 1)[-1]) + (f', s. {page}' if page else '')
             record['note'] = f'står i {where} — intet kort, da det ikke er sikkert, hvilket bilag der menes'
 
+    # A post that yields no quotations at all, where it had cards before, was
+    # read while another hook step was rewriting it. Writing now would empty
+    # the manifest and delete every image; stop instead.
+    if not status and had_cards:
+        print(f'{post.name}: no quotations found, but {had_cards} cards exist — '
+              f'the post looks truncated; nothing written')
+        return None
+
     for stale in outdir.glob('*.webp'):
         if stale.name not in made:
             stale.unlink()
@@ -426,9 +436,16 @@ def build(post):
 
 stage = '--stage' in sys.argv
 outputs = []
+aborted = False
 for arg in sys.argv[1:]:
     if arg != '--stage':
-        outputs += build(pathlib.Path(arg).resolve())
+        made_here = build(pathlib.Path(arg).resolve())
+        if made_here is None:
+            aborted = True
+        else:
+            outputs += made_here
+if aborted:
+    sys.exit(1)
 if stage and outputs:
     # External sources fetched for the check are kept, so it runs offline.
     if (ROOT / CACHE).exists():

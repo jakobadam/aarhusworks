@@ -16,7 +16,7 @@
   var root = document.querySelector('.post-content');
   if (!data || !root) return;
 
-  var BLOCK = 'p, li, blockquote, td, th, dd';
+  var BLOCK = 'p, li, blockquote, td, th, dd, figcaption';
   var MIN_WIDTH = 560;
 
   // Quotations are found before anything is inserted, then filled in from
@@ -39,6 +39,7 @@
   jobs.forEach(function (j) { j.run(j.q); });
 
   var seen = {};
+  var stray = [];
   root.querySelectorAll('a[href]').forEach(function (a) {
     // Rendered mermaid diagrams are generated SVG, not prose; their links
     // are not in the count bin/evidence-cards.py makes.
@@ -50,9 +51,22 @@
     // The post may have been edited since the cards were made; a card whose
     // quote is not beside this link belongs to another citation.
     var near = norm(nearby(a));
+    list.forEach(function (c) { if (near.indexOf(c.anchor) < 0) stray.push(c); });
     list = list.filter(function (c) { return near.indexOf(c.anchor) >= 0; });
     if (list.length) attachToLink(a, list);
   });
+
+  // A card whose quote is not beside its link — a heading that quotes the
+  // report the paragraph below links to — goes to the quotation itself.
+  // Positions are found afresh, since buttons and marks are in the text now.
+  if (stray.length) {
+    var again = {};
+    quotations().forEach(function (q) { (again[q.key] = again[q.key] || []).push(q); });
+    stray.map(function (c) { return { c: c, q: (again[c.key] || [])[c.n] }; })
+      .filter(function (s) { return s.q; })
+      .sort(function (x, y) { return y.q.index - x.q.index; })
+      .forEach(function (s) { attachToQuote(s.q, [s.c]); });
+  }
 
   if (data.status) panel(data.status);
 
@@ -62,7 +76,7 @@
     var cur = null;
     var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
     for (var t = walker.nextNode(); t; t = walker.nextNode()) {
-      if (t.parentNode.closest('.mermaid-svg, script, style')) continue;
+      if (t.parentNode.closest('.mermaid-svg, script, style, .ev-mark, .ev-toggle, .ev-card, .ev-panel')) continue;
       for (var i = 0; i < t.data.length; i++) {
         var ch = t.data[i];
         if (ch === '“' || ch === '”' || ch === '"' || ch === '„') {
@@ -124,7 +138,9 @@
   // ("jf. [bilag 56, s. 4]:") the block quote that follows it.
   function nearby(a) {
     var block = a.closest(BLOCK);
-    if (!block) return a.parentNode.textContent;
+    // A link outside any paragraph — "Vilkår 2 ›" heading a box of its own —
+    // documents the box it sits in.
+    if (!block) return (a.closest('div, section, aside, figure') || a.parentNode).textContent;
     var next = block.nextElementSibling;
     return block.textContent + ' ' + (next ? next.textContent : '');
   }
@@ -182,7 +198,10 @@
   // point it documents.
   function place(button, figure) {
     var block = button.closest(BLOCK);
-    if (!block || !root.contains(block)) {
+    if (block && block.matches('figcaption')) {
+      // Below the figure, not inside it beside the picture it explains.
+      block.closest('figure').after(figure);
+    } else if (!block || !root.contains(block)) {
       button.after(figure);
     } else if (block.matches('li, td, th, dd')) {
       block.appendChild(figure);

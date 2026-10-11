@@ -35,15 +35,6 @@ except ImportError:
     print('ERROR: PyMuPDF not installed — run: pip install pymupdf')
     sys.exit(2)
 
-ROOT = pathlib.Path(sys.argv[1]).resolve()
-POST = pathlib.Path(sys.argv[2]).resolve()
-
-sources = Sources(ROOT)
-raw = POST.read_text(encoding='utf-8')
-assets = sorted(a for a in set(ANY_ASSET.findall(raw)) if a not in SELF)
-own = labels(raw, *linked_posts(raw, POST.parent))
-by_hand = manual(ROOT)
-
 KINDS = {
     'cited': 'verified against the source they cite',
     'elsewhere': 'verified against another cited file',
@@ -52,65 +43,82 @@ KINDS = {
     'title': "are a bilag's title in the bilag list",
     'manual': 'checked by hand (bin/kilder-manuelt.json)',
 }
-counts = dict.fromkeys(KINDS, 0)
-warnings, unverifiable, errors = [], [], []
-skipped = 0
 
-for item in cited_quotes(raw):
-    if item is None:
-        skipped += 1
-        continue
-    m, quote, frags, link = item
-    short = quote[:80].replace('\n', ' ')
-    line = raw.count('\n', 0, m.start()) + 1
-    state, kind, detail = verify(raw, item, sources, own, by_hand, assets)
-    if state == 'ok':
-        counts[kind] += 1
-    elif state == 'warn':
-        warnings.append((line, short, detail))
-    elif state == 'unverifiable':
-        unverifiable.append((line, short, detail))
-    else:
-        errors.append((line, short, kind, detail))
 
-total = sum(counts.values()) + len(warnings) + len(unverifiable) + len(errors)
-print(f'{total} quotes examined ({skipped} quoted spans are titles, instructions '
-      f'or mis-paired, not quotations)')
-for kind, label in KINDS.items():
-    print(f'  {label:<44}: {counts[kind]}')
-print(f'  {"found, but not on the page the link gives":<44}: {len(warnings)}')
-print(f'  {"cannot be checked automatically":<44}: {len(unverifiable)}')
-print(f'  {"NOT in the source they cite":<44}: {len(errors)}')
+def check(post):
+    """Check one post; print the report; -> the number of errors."""
+    print(f'== {post.name}')
+    raw = post.read_text(encoding='utf-8')
+    assets = sorted(a for a in set(ANY_ASSET.findall(raw)) if a not in SELF)
+    own = labels(raw, *linked_posts(raw, post.parent))
+    by_hand = manual(ROOT)
 
-if warnings:
-    print('\nPage anchor points at another page than the quote:')
-    for line, short, (rel, cited, page) in warnings:
-        print(f'  L{line}: cited #page={cited}, found on page {page} — {rel}')
-        print(f'      "{short}"')
+    counts = dict.fromkeys(KINDS, 0)
+    warnings, unverifiable, errors = [], [], []
+    skipped = 0
 
-if unverifiable:
-    print('\nCannot be checked automatically — confirm by hand, and record it in '
-          'bin/kilder-manuelt.json:')
-    for line, short, why in unverifiable:
-        print(f'  L{line}: {why}')
-        print(f'      "{short}"')
-
-if errors:
-    print('\nNOT FOUND — the source can be read, and the quote is not in it:')
-    for line, short, kind, detail in errors:
-        near = None
-        if kind == 'missing':
-            rel, cited, near = detail
-            print(f'  L{line}: {rel}' + (f' #page={cited}' if cited else ''))
-        elif kind == 'differs':
-            near = detail
-            print(f'  L{line}: no source given, but close to a source that can be read')
+    for item in cited_quotes(raw):
+        if item is None:
+            skipped += 1
+            continue
+        m, quote, frags, link = item
+        short = quote[:80].replace('\n', ' ')
+        line = raw.count('\n', 0, m.start()) + 1
+        state, kind, detail = verify(raw, item, sources, own, by_hand, assets)
+        if state == 'ok':
+            counts[kind] += 1
+        elif state == 'warn':
+            warnings.append((line, short, detail))
+        elif state == 'unverifiable':
+            unverifiable.append((line, short, detail))
         else:
-            print(f'  L{line}: none of the sources the section links to: '
-                  + ', '.join(detail))
-        print(f'      quote : "{short}"')
-        if near:
-            where, page, words = near
-            print(f'      source: "{words[:160]}" — {where}' + (f', p. {page}' if page else ''))
+            errors.append((line, short, kind, detail))
 
-sys.exit(1 if errors else 0)
+    total = sum(counts.values()) + len(warnings) + len(unverifiable) + len(errors)
+    print(f'{total} quotes examined ({skipped} quoted spans are titles, instructions '
+          f'or mis-paired, not quotations)')
+    for kind, label in KINDS.items():
+        print(f'  {label:<44}: {counts[kind]}')
+    print(f'  {"found, but not on the page the link gives":<44}: {len(warnings)}')
+    print(f'  {"cannot be checked automatically":<44}: {len(unverifiable)}')
+    print(f'  {"NOT in the source they cite":<44}: {len(errors)}')
+
+    if warnings:
+        print('\nPage anchor points at another page than the quote:')
+        for line, short, (rel, cited, page) in warnings:
+            print(f'  L{line}: cited #page={cited}, found on page {page} — {rel}')
+            print(f'      "{short}"')
+
+    if unverifiable:
+        print('\nCannot be checked automatically — confirm by hand, and record it in '
+              'bin/kilder-manuelt.json:')
+        for line, short, why in unverifiable:
+            print(f'  L{line}: {why}')
+            print(f'      "{short}"')
+
+    if errors:
+        print('\nNOT FOUND — the source can be read, and the quote is not in it:')
+        for line, short, kind, detail in errors:
+            near = None
+            if kind == 'missing':
+                rel, cited, near = detail
+                print(f'  L{line}: {rel}' + (f' #page={cited}' if cited else ''))
+            elif kind == 'differs':
+                near = detail
+                print(f'  L{line}: no source given, but close to a source that can be read')
+            else:
+                print(f'  L{line}: none of the sources the section links to: '
+                      + ', '.join(detail))
+            print(f'      quote : "{short}"')
+            if near:
+                where, page, words = near
+                print(f'      source: "{words[:160]}" — {where}' + (f', p. {page}' if page else ''))
+    print()
+    return len(errors)
+
+
+# One or more posts: the pre-commit hook passes every staged one at once.
+ROOT = pathlib.Path(sys.argv[1]).resolve()
+sources = Sources(ROOT)
+failed = sum(check(pathlib.Path(arg).resolve()) for arg in sys.argv[2:])
+sys.exit(1 if failed else 0)

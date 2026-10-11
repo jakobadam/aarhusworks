@@ -10,7 +10,9 @@
     "file": "2023-08-Ramboll-redegoerelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4",
     "quote": "En grov vurdering",
-    "anchor": "engrovvurdering"
+    "anchor": "engrovvurdering",
+    "key": "engrovvurdering",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2025-01-mtm-redegoerelse-2.pdf#page=1|0": [
@@ -23,7 +25,9 @@
     "file": "2025-01-mtm-redegoerelse-2.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-01-mtm-redegoerelse-2.pdf#page=1",
     "quote": "kan give et misvisende billede af økonomi anvendt til støjdæmpning i projektet",
-    "anchor": "kangiveetmisvisendebilledeaføkonomianvendttilstøjdæmpningiprojektet"
+    "anchor": "kangiveetmisvisendebilledeaføkonomianvendttilstøjdæmpningiprojektet",
+    "key": "kangiveetmisvisendebilledeaføkonomianvendttilstøjdæmpningiprojektet",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=2|0": [
@@ -36,7 +40,9 @@
     "file": "2023-08-Ramboll-redegoerelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=2",
     "quote": "i form af støjvolde",
-    "anchor": "iformafstøjvolde"
+    "anchor": "iformafstøjvolde",
+    "key": "iformafstøjvolde",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=2|0": [
@@ -49,7 +55,9 @@
     "file": "2016-udvalgs-erklaering.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=2",
     "quote": "At det i VVM-en skitserede længdeprofil ved Giber Å fastholdes",
-    "anchor": "atdetivvmenskitseredelængdeprofilvedgiberåfastholdes"
+    "anchor": "atdetivvmenskitseredelængdeprofilvedgiberåfastholdes",
+    "key": "atdetivvmenskitseredelængdeprofilvedgiberåfastholdes",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4|0": [
@@ -62,7 +70,9 @@
     "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4",
     "quote": "Dette sker som en tracérings-mæssig konsekvens af vejtekniske udfordringer i skitseprojektet, og bliver udformet i sammenhæng med ændringen af linjeføringen ved Ingerslevvej 78 (...) De støjmæssige effekter af sænkningen er heller ikke medtaget på effektkortet af 2019-07-29, da det ikke i sit primære sigte er et støjmæssigt tiltag.",
-    "anchor": "detteskersomentracéringsmæssigkonsekvensafvejtekniskeudfordringeriskitseprojektet,ogbliverudformetisammenhængmedændringenaflinjeføringenvedingerslevvej78"
+    "anchor": "detteskersomentracéringsmæssigkonsekvensafvejtekniskeudfordringeriskitseprojektet,ogbliverudformetisammenhængmedændringenaflinjeføringenvedingerslevvej78",
+    "key": "detteskersomentracéringsmæssigkonsekvensafvejtekniskeudfordringeriskitseprojektet,ogbliverudformetisammenhængmedændringenaflinjeføringenvedingerslevvej78(...)destøjmæssigeeffekterafsænkningenerhellerikkemedtagetpåeffektkortetaf2019~07~29,dadetikkeisitprimæresigteeretstøjmæssigttiltag.",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-vejst%C3%B8j-giber-ringvej.pdf#page=3|0": [
@@ -75,7 +85,9 @@
     "file": "2023-08-MTM-vejstøj-giber-ringvej.pdf",
     "pdf": "https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-vejst%C3%B8j-giber-ringvej.pdf#page=3",
     "quote": "alle vilkår fra VVM-tilladelsen vedr. støjreducerende foranstaltninger er overholdt",
-    "anchor": "allevilkårfravvmtilladelsenvedr.støjreducerendeforanstaltningereroverholdt"
+    "anchor": "allevilkårfravvmtilladelsenvedr.støjreducerendeforanstaltningereroverholdt",
+    "key": "allevilkårfravvmtilladelsenvedr.støjreducerendeforanstaltningereroverholdt",
+    "n": 0
    },
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/356f14c63a05.webp",
@@ -86,7 +98,9 @@
     "file": "2023-08-MTM-vejstøj-giber-ringvej.pdf",
     "pdf": "https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-vejst%C3%B8j-giber-ringvej.pdf#page=3",
     "quote": "[d]er er samlet etableret 16 støjvolde langs Giber Ringvej jf. kort vedlagt som bilag 4",
-    "anchor": "erersamletetableret16støjvoldelangsgiberringvejjf.kortvedlagtsombilag4"
+    "anchor": "erersamletetableret16støjvoldelangsgiberringvejjf.kortvedlagtsombilag4",
+    "key": "[d]erersamletetableret16støjvoldelangsgiberringvejjf.kortvedlagtsombilag4",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2023-10-13-mtm-svar-til-giber-ringvej-gruppen.pdf#page=2|1": [
@@ -99,7 +113,9 @@
     "file": "2023-10-13-mtm-svar-til-giber-ringvej-gruppen.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2023-10-13-mtm-svar-til-giber-ringvej-gruppen.pdf#page=2",
     "quote": "Dette er udført for de støjvolde, som er etableret i forbindelse med projektet for Giber Ringvej.",
-    "anchor": "detteerudførtfordestøjvolde,someretableretiforbindelsemedprojektetforgiberringvej."
+    "anchor": "detteerudførtfordestøjvolde,someretableretiforbindelsemedprojektetforgiberringvej.",
+    "key": "detteerudførtfordestøjvolde,someretableretiforbindelsemedprojektetforgiberringvej.",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf#page=5|1": [
@@ -112,7 +128,9 @@
     "file": "2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf#page=5",
     "quote": "Det er korrekt at letbanevolden ikke er et støjtiltag. Der er søgt en VVM-ansøgning, men det har ikke noget med støj at gøre",
-    "anchor": "deterkorrektatletbanevoldenikkeeretstøjtiltag.derersøgtenvvmansøgning,mendetharikkenogetmedstøjatgøre"
+    "anchor": "deterkorrektatletbanevoldenikkeeretstøjtiltag.derersøgtenvvmansøgning,mendetharikkenogetmedstøjatgøre",
+    "key": "deterkorrektatletbanevoldenikkeeretstøjtiltag.derersøgtenvvmansøgning,mendetharikkenogetmedstøjatgøre",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=3|0": [
@@ -125,7 +143,9 @@
     "file": "2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=3",
     "quote": "Dette er korrekt",
-    "anchor": "detteerkorrekt"
+    "anchor": "detteerkorrekt",
+    "key": "detteerkorrekt",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf#page=5|2": [
@@ -138,7 +158,9 @@
     "file": "2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf#page=5",
     "quote": "Det er korrekt at der ikke er en landzonetill[a]delse, da volden/adgangsvejen er en del af projektet for at skabe adgang til ejendomme",
-    "anchor": "deterkorrektatderikkeerenlandzonetill"
+    "anchor": "deterkorrektatderikkeerenlandzonetill",
+    "key": "deterkorrektatderikkeerenlandzonetill[a]delse,davolden/adgangsvejenerendelafprojektetforatskabeadgangtilejendomme",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf#page=6|0": [
@@ -151,7 +173,24 @@
     "file": "2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf#page=6",
     "quote": "Rambøll har ikke lavet ansøgningen, så hvis ansøgningen ikke indeholder støj er det korrekt at den ikke skal medtages",
-    "anchor": "rambøllharikkelavetansøgningen,såhvisansøgningenikkeindeholderstøjerdetkorrektatdenikkeskalmedtages"
+    "anchor": "rambøllharikkelavetansøgningen,såhvisansøgningenikkeindeholderstøjerdetkorrektatdenikkeskalmedtages",
+    "key": "rambøllharikkelavetansøgningen,såhvisansøgningenikkeindeholderstøjerdetkorrektatdenikkeskalmedtages",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=4|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/f5217cbd1143.webp",
+    "w": 958,
+    "h": 338,
+    "focus": 0.631,
+    "page": 4,
+    "file": "2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=4",
+    "quote": "Den er ikke anlagt som støjvold",
+    "anchor": "denerikkeanlagtsomstøjvold",
+    "key": "denerikkeanlagtsomstøjvold",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf#page=6|1": [
@@ -164,7 +203,9 @@
     "file": "2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf#page=6",
     "quote": "Det er korrekt at landzonetilladelsen ikke indeholder støj",
-    "anchor": "deterkorrektatlandzonetilladelsenikkeindeholderstøj"
+    "anchor": "deterkorrektatlandzonetilladelsenikkeindeholderstøj",
+    "key": "deterkorrektatlandzonetilladelsenikkeindeholderstøj",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf#page=4|0": [
@@ -177,7 +218,9 @@
     "file": "2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-2-20-mio-giber-ringvej.pdf#page=4",
     "quote": "[j]ordvoldene er godkendt med henblik på at afskærme udsynet til vejen (visuel afskærmning, ikke støj). (...) Er volden et støjtiltag?",
-    "anchor": "ordvoldeneergodkendtmedhenblikpåatafskærmeudsynettilvejen(visuelafskærmning,ikkestøj)."
+    "anchor": "ordvoldeneergodkendtmedhenblikpåatafskærmeudsynettilvejen(visuelafskærmning,ikkestøj).",
+    "key": "[j]ordvoldeneergodkendtmedhenblikpåatafskærmeudsynettilvejen(visuelafskærmning,ikkestøj).(...)ervoldenetstøjtiltag?",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=2|0": [
@@ -190,7 +233,9 @@
     "file": "2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=2",
     "quote": "(...) da der i projektet ikke er medsendt dokumentation for ej heller lagt vægt på at jordvolden har en støjdæmpende effekt anses projektet primært som et anlæg til bortskaffelse af affald (...)",
-    "anchor": "daderiprojektetikkeermedsendtdokumentationforejhellerlagtvægtpåatjordvoldenharenstøjdæmpendeeffektansesprojektetprimærtsometanlægtilbortskaffelseafaffald"
+    "anchor": "daderiprojektetikkeermedsendtdokumentationforejhellerlagtvægtpåatjordvoldenharenstøjdæmpendeeffektansesprojektetprimærtsometanlægtilbortskaffelseafaffald",
+    "key": "(...)daderiprojektetikkeermedsendtdokumentationforejhellerlagtvægtpåatjordvoldenharenstøjdæmpendeeffektansesprojektetprimærtsometanlægtilbortskaffelseafaffald(...)",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2022-landzonetilladelse-deponivold.pdf#page=1|0": [
@@ -203,7 +248,9 @@
     "file": "2022-landzonetilladelse-deponivold.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2022-landzonetilladelse-deponivold.pdf#page=1",
     "quote": "visuel afskærmning",
-    "anchor": "visuelafskærmning"
+    "anchor": "visuelafskærmning",
+    "key": "visuelafskærmning",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-Bilag2b-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2_Kommenteret.pdf#page=1|0": [
@@ -216,7 +263,9 @@
     "file": "2026-03-ramboell-Bilag2b-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2_Kommenteret.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-Bilag2b-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-2_Kommenteret.pdf#page=1",
     "quote": "Enhver vold placeret mellem et givent punkt og en støjkilde vil have en effekt",
-    "anchor": "enhvervoldplaceretmellemetgiventpunktogenstøjkildevilhaveeneffekt"
+    "anchor": "enhvervoldplaceretmellemetgiventpunktogenstøjkildevilhaveeneffekt",
+    "key": "enhvervoldplaceretmellemetgiventpunktogenstøjkildevilhaveeneffekt",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=1|0": [
@@ -229,7 +278,9 @@
     "file": "2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-05-27-landzonetilladelse-stoejvold-nymarksvej.pdf#page=1",
     "quote": "Den samlede støjvold er ca. 750 meter lang, 3-6 meter bred fra skråningskant til top, og placeres 2-12 meter nord for Bering-Beder Vejen. Støjvolden etableres med en 2 meter bred top (kronebredde), 1 meter over terræn og med et skråningsanlæg 1:2 mod Bering-Beder Vejen og et skråningsanlæg 1:10 på bagsiden.",
-    "anchor": "densamledestøjvolderca.750meterlang,3~6meterbredfraskråningskanttiltop,ogplaceres2~12meternordforberingbedervejen.støjvoldenetableresmeden2meterbredtop(kronebredde),1meteroverterrænogmedetskråningsanlæg1:2modberingbedervejenogetskråningsanlæg1:10påbagsiden."
+    "anchor": "densamledestøjvolderca.750meterlang,3~6meterbredfraskråningskanttiltop,ogplaceres2~12meternordforberingbedervejen.støjvoldenetableresmeden2meterbredtop(kronebredde),1meteroverterrænogmedetskråningsanlæg1:2modberingbedervejenogetskråningsanlæg1:10påbagsiden.",
+    "key": "densamledestøjvolderca.750meterlang,3~6meterbredfraskråningskanttiltop,ogplaceres2~12meternordforberingbedervejen.støjvoldenetableresmeden2meterbredtop(kronebredde),1meteroverterrænogmedetskråningsanlæg1:2modberingbedervejenogetskråningsanlæg1:10påbagsiden.",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4|1": [
@@ -242,7 +293,9 @@
     "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4",
     "quote": "Støjtiltagene der er udført på nordsiden af Giber Ringvej mellem Tandervej og Nymarksvej, er udført som dyrkningsskråninger med en flad hældning på 1:10. Formålet er netop at de ikke er synlige i landskabet, i overensstemmelse med anbefalingerne i VVM-rapporten. (Afsnit 17.1.1 Afværge og overvågningstiltag, Landskab s 244 i originalt dokument)",
-    "anchor": "støjtiltagenedererudførtpånordsidenafgiberringvejmellemtandervejognymarksvej,erudførtsomdyrkningsskråningermedenfladhældningpå1:10.formåleternetopatdeikkeersynligeilandskabet,ioverensstemmelsemedanbefalingerneivvmrapporten.(afsnit17.1.1afværgeogovervågningstiltag,landskabs244ioriginaltdokument)"
+    "anchor": "støjtiltagenedererudførtpånordsidenafgiberringvejmellemtandervejognymarksvej,erudførtsomdyrkningsskråningermedenfladhældningpå1:10.formåleternetopatdeikkeersynligeilandskabet,ioverensstemmelsemedanbefalingerneivvmrapporten.(afsnit17.1.1afværgeogovervågningstiltag,landskabs244ioriginaltdokument)",
+    "key": "støjtiltagenedererudførtpånordsidenafgiberringvejmellemtandervejognymarksvej,erudførtsomdyrkningsskråningermedenfladhældningpå1:10.formåleternetopatdeikkeersynligeilandskabet,ioverensstemmelsemedanbefalingerneivvmrapporten.(afsnit17.1.1afværgeogovervågningstiltag,landskabs244ioriginaltdokument)",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=5|0": [
@@ -255,7 +308,9 @@
     "file": "2019-08-06-projektgodkendelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=5",
     "quote": "støjvolde, støjskærme og yderligere afgravning",
-    "anchor": "støjvolde,støjskærmeogyderligereafgravning"
+    "anchor": "støjvolde,støjskærmeogyderligereafgravning",
+    "key": "støjvolde,støjskærmeogyderligereafgravning",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=2|0": [
@@ -268,7 +323,9 @@
     "file": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=2",
     "quote": "på ca. 19.000 m3",
-    "anchor": "påca.19.000m"
+    "anchor": "påca.19.000m",
+    "key": "påca.19.000m",
+    "n": 0
    },
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/bb820871b2d5.webp",
@@ -279,7 +336,9 @@
     "file": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=2",
     "quote": "en højde på ca. 5m ift. Giber Ringvej",
-    "anchor": "enhøjdepåca.5mift.giberringvej"
+    "anchor": "enhøjdepåca.5mift.giberringvej",
+    "key": "enhøjdepåca.5mift.giberringvej",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=3|0": [
@@ -292,7 +351,9 @@
     "file": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=3",
     "quote": "Så vidt vides, indgik etablering af den aktuelle jordvold ikke som en del af VVM-redegørelsen ej heller VVM-tilladelsens vilkår 7, som omhandler ekstra støjafskærmning. Det er på den baggrund Aarhus Kommunes opfattelse, at den ansøgte jordvold ikke er miljøvurderet som en del af vejprojektet, men må betragtes som en ændring eller udvidelse af projektet herunder et særskilt projekt, som omfatter indbygning af jordaffald, som har en nyttiggørelse.",
-    "anchor": "såvidtvides,indgiketableringafdenaktuellejordvoldikkesomendelafvvmredegørelsenejhellervvmtilladelsensvilkår7,somomhandlerekstrastøjafskærmning.deterpådenbaggrundaarhuskommunesopfattelse,atdenansøgtejordvoldikkeermiljøvurderetsomendelafvejprojektet,menmåbetragtessomenændringellerudvidelseafprojektetherunderetsærskiltprojekt,somomfatterindbygningafjordaffald,somharennyttiggørelse."
+    "anchor": "såvidtvides,indgiketableringafdenaktuellejordvoldikkesomendelafvvmredegørelsenejhellervvmtilladelsensvilkår7,somomhandlerekstrastøjafskærmning.deterpådenbaggrundaarhuskommunesopfattelse,atdenansøgtejordvoldikkeermiljøvurderetsomendelafvejprojektet,menmåbetragtessomenændringellerudvidelseafprojektetherunderetsærskiltprojekt,somomfatterindbygningafjordaffald,somharennyttiggørelse.",
+    "key": "såvidtvides,indgiketableringafdenaktuellejordvoldikkesomendelafvvmredegørelsenejhellervvmtilladelsensvilkår7,somomhandlerekstrastøjafskærmning.deterpådenbaggrundaarhuskommunesopfattelse,atdenansøgtejordvoldikkeermiljøvurderetsomendelafvejprojektet,menmåbetragtessomenændringellerudvidelseafprojektetherunderetsærskiltprojekt,somomfatterindbygningafjordaffald,somharennyttiggørelse.",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=1|0": [
@@ -305,7 +366,9 @@
     "file": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=1",
     "quote": "ikke [vurderes] at opfylde kriterierne i miljøbeskyttelsesloven til nyttiggørelse og vil dermed være omfattet af godkendelsespligt",
-    "anchor": "atopfyldekriterierneimiljøbeskyttelsesloventilnyttiggørelseogvildermedværeomfattetafgodkendelsespligt"
+    "anchor": "atopfyldekriterierneimiljøbeskyttelsesloventilnyttiggørelseogvildermedværeomfattetafgodkendelsespligt",
+    "key": "ikke[vurderes]atopfyldekriterierneimiljøbeskyttelsesloventilnyttiggørelseogvildermedværeomfattetafgodkendelsespligt",
+    "n": 0
    },
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/4671820507f7.webp",
@@ -316,7 +379,9 @@
     "file": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=1",
     "quote": "der ikke kan meddeles miljøgodkendelse til den sydlige jordvold",
-    "anchor": "derikkekanmeddelesmiljøgodkendelsetildensydligejordvold"
+    "anchor": "derikkekanmeddelesmiljøgodkendelsetildensydligejordvold",
+    "key": "derikkekanmeddelesmiljøgodkendelsetildensydligejordvold",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=2|1": [
@@ -329,7 +394,9 @@
     "file": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=2",
     "quote": "Differenskortet viser et fald i støj for omkringliggende boliger på 1-2 dB.",
-    "anchor": "differenskortetviseretfaldistøjforomkringliggendeboligerpå1~2db."
+    "anchor": "differenskortetviseretfaldistøjforomkringliggendeboligerpå1~2db.",
+    "key": "differenskortetviseretfaldistøjforomkringliggendeboligerpå1~2db.",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=4|0": [
@@ -342,7 +409,9 @@
     "file": "2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=4",
     "quote": "[h]ar en støjdæmpende effekt ift. til nærmeste boliger nord for vejen",
-    "anchor": "arenstøjdæmpendeeffektift.tilnærmesteboligernordforvejen"
+    "anchor": "arenstøjdæmpendeeffektift.tilnærmesteboligernordforvejen",
+    "key": "[h]arenstøjdæmpendeeffektift.tilnærmesteboligernordforvejen",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=57|0": [
@@ -355,7 +424,9 @@
     "file": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=57",
     "quote": "Støjvolden etableres imidlertid ikke, fordi Aarhus Kommune er retligt forpligtet til at sørge for at dæmpe støjen fra vejen for bebyggelsen nord for Giber Ringvej ved Nymarksvej. Støjvolden etableres på grundlag af en frivillig aftale med lodsejeren, og fordi Aarhus Kommune i dette område ligger inde med en betydelig mængde af overskudsjord fra etableringen af ringvejen.",
-    "anchor": "støjvoldenetableresimidlertidikke,fordiaarhuskommuneerretligtforpligtettilatsørgeforatdæmpestøjenfravejenforbebyggelsennordforgiberringvejvednymarksvej.støjvoldenetablerespågrundlagafenfrivilligaftalemedlodsejeren,ogfordiaarhuskommuneidetteområdeliggerindemedenbetydeligmængdeafoverskudsjordfraetableringenafringvejen."
+    "anchor": "støjvoldenetableresimidlertidikke,fordiaarhuskommuneerretligtforpligtettilatsørgeforatdæmpestøjenfravejenforbebyggelsennordforgiberringvejvednymarksvej.støjvoldenetablerespågrundlagafenfrivilligaftalemedlodsejeren,ogfordiaarhuskommuneidetteområdeliggerindemedenbetydeligmængdeafoverskudsjordfraetableringenafringvejen.",
+    "key": "støjvoldenetableresimidlertidikke,fordiaarhuskommuneerretligtforpligtettilatsørgeforatdæmpestøjenfravejenforbebyggelsennordforgiberringvejvednymarksvej.støjvoldenetablerespågrundlagafenfrivilligaftalemedlodsejeren,ogfordiaarhuskommuneidetteområdeliggerindemedenbetydeligmængdeafoverskudsjordfraetableringenafringvejen.",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=2|1": [
@@ -368,7 +439,9 @@
     "file": "2023-08-Ramboll-redegoerelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=2",
     "quote": "i form af støjvolde",
-    "anchor": "iformafstøjvolde"
+    "anchor": "iformafstøjvolde",
+    "key": "iformafstøjvolde",
+    "n": 1
    }
   ],
   "https://aarhusworks.com/assets/vejstoej-forslag-2024/trafikstoej-kraever-handling-2020.pdf#page=46|0": [
@@ -381,7 +454,9 @@
     "file": "trafikstoej-kraever-handling-2020.pdf",
     "pdf": "https://aarhusworks.com/assets/vejstoej-forslag-2024/trafikstoej-kraever-handling-2020.pdf#page=1",
     "quote": "Trafikstøj kræver handling",
-    "anchor": "trafikstøjkræverhandling"
+    "anchor": "trafikstøjkræverhandling",
+    "key": "trafikstøjkræverhandling",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=4|0": [
@@ -394,7 +469,9 @@
     "file": "2016-udvalgs-erklaering.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=4",
     "quote": "Kommunen har noget overskudsjord, man gerne vil anvende.",
-    "anchor": "kommunenharnogetoverskudsjord,mangernevilanvende."
+    "anchor": "kommunenharnogetoverskudsjord,mangernevilanvende.",
+    "key": "kommunenharnogetoverskudsjord,mangernevilanvende.",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=5|0": [
@@ -407,7 +484,9 @@
     "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=5",
     "quote": "altid [vil] være udgifter forbundet med etableringen af en støjvold, fraregnet balancen mellem overskud/underskud af jord i et anlægsprojekt",
-    "anchor": "væreudgifterforbundetmedetableringenafenstøjvold,fraregnetbalancenmellemoverskud/underskudafjordietanlægsprojekt"
+    "anchor": "væreudgifterforbundetmedetableringenafenstøjvold,fraregnetbalancenmellemoverskud/underskudafjordietanlægsprojekt",
+    "key": "altid[vil]væreudgifterforbundetmedetableringenafenstøjvold,fraregnetbalancenmellemoverskud/underskudafjordietanlægsprojekt",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=5|1": [
@@ -420,7 +499,9 @@
     "file": "2019-08-06-projektgodkendelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=5",
     "quote": "støjvæg i Tranbjerg",
-    "anchor": "støjvægitranbjerg"
+    "anchor": "støjvægitranbjerg",
+    "key": "støjvægitranbjerg",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=3|10": [
@@ -433,7 +514,9 @@
     "file": "2018-vvm-tilladelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=3",
     "quote": "støjafskærmning langs nordsiden af vejanlægget ved Tranbjerg",
-    "anchor": "støjafskærmninglangsnordsidenafvejanlæggetvedtranbjerg"
+    "anchor": "støjafskærmninglangsnordsidenafvejanlæggetvedtranbjerg",
+    "key": "støjafskærmninglangsnordsidenafvejanlæggetvedtranbjerg",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=3|11": [
@@ -446,7 +529,9 @@
     "file": "2018-vvm-tilladelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=3",
     "quote": "støjafskærmning langs Landevejen ... i mindst 4 meters højde i begge vejsider på strækningen fra Ingerslevvænget forbi Tingskovparken frem til vejanlægget",
-    "anchor": "støjafskærmninglangslandevejen"
+    "anchor": "støjafskærmninglangslandevejen",
+    "key": "støjafskærmninglangslandevejen...imindst4metershøjdeibeggevejsiderpåstrækningenfraingerslevvængetforbitingskovparkenfremtilvejanlægget",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=7|0": [
@@ -459,7 +544,9 @@
     "file": "2019-08-06-projektgodkendelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=7",
     "quote": "Af denne bevilling anvendes midlertidigt 5,5 mio. kr. til fremskyndet etablering af støjskærmen i Tranbjerg.",
-    "anchor": "afdennebevillinganvendesmidlertidigt5,5mio.kr.tilfremskyndetetableringafstøjskærmenitranbjerg."
+    "anchor": "afdennebevillinganvendesmidlertidigt5,5mio.kr.tilfremskyndetetableringafstøjskærmenitranbjerg.",
+    "key": "afdennebevillinganvendesmidlertidigt5,5mio.kr.tilfremskyndetetableringafstøjskærmenitranbjerg.",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=5|2": [
@@ -472,7 +559,9 @@
     "file": "2019-08-06-projektgodkendelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=5",
     "quote": "flyttet længere mod syd, så det er muligt at etablere en vold med tilpas afstand til et nyt boligområde",
-    "anchor": "flyttetlængeremodsyd,sådetermuligtatetablereenvoldmedtilpasafstandtiletnytboligområde"
+    "anchor": "flyttetlængeremodsyd,sådetermuligtatetablereenvoldmedtilpasafstandtiletnytboligområde",
+    "key": "flyttetlængeremodsyd,sådetermuligtatetablereenvoldmedtilpasafstandtiletnytboligområde",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=2|0": [
@@ -485,7 +574,9 @@
     "file": "2019-08-06-projektgodkendelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=2",
     "quote": "med de angivne tilpasninger",
-    "anchor": "meddeangivnetilpasninger"
+    "anchor": "meddeangivnetilpasninger",
+    "key": "meddeangivnetilpasninger",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf#page=12|0": [
@@ -498,7 +589,9 @@
     "file": "2019-vvm-tilpasninger.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf#page=12",
     "quote": "oversigtsforholdene i krydsområdet sikres",
-    "anchor": "oversigtsforholdeneikrydsområdetsikres"
+    "anchor": "oversigtsforholdeneikrydsområdetsikres",
+    "key": "oversigtsforholdeneikrydsområdetsikres",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=4|0": [
@@ -511,7 +604,9 @@
     "file": "2019-08-06-projektgodkendelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=4",
     "quote": "et trafiksikkerhedsaspekt",
-    "anchor": "ettrafiksikkerhedsaspekt"
+    "anchor": "ettrafiksikkerhedsaspekt",
+    "key": "ettrafiksikkerhedsaspekt",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4|3": [
@@ -524,7 +619,9 @@
     "file": "2023-08-Ramboll-redegoerelse.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4",
     "quote": "til at optage er [sic] terrænspring samt som støjreducerende tiltag",
-    "anchor": "tilatoptageer"
+    "anchor": "tilatoptageer",
+    "key": "tilatoptageer[sic]terrænspringsamtsomstøjreducerendetiltag",
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=45|0": [
@@ -537,7 +634,9 @@
     "file": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf",
     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=45",
     "quote": "blev afsat ekstra midler til at anvende denne type asfalt",
-    "anchor": "blevafsatekstramidlertilatanvendedennetypeasfalt"
+    "anchor": "blevafsatekstramidlertilatanvendedennetypeasfalt",
+    "key": "blevafsatekstramidlertilatanvendedennetypeasfalt",
+    "n": 0
    }
   ]
  },
@@ -1246,6 +1345,15 @@
    "quote": "Rambøll har ikke lavet ansøgningen, så hvis ansøgningen ikke indeholder støj er det korrekt at den ikke skal medtages",
    "state": "ok",
    "src": "2024-11-høringssvar-2-aak-2024-v4-med-besvarelse-fra-Rambøll.pdf, s. 6",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "denerikkeanlagtsomstøjvold",
+   "n": 0,
+   "quote": "**Den er ikke anlagt som støjvold**",
+   "state": "ok",
+   "src": "2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf, s. 4",
    "note": "ved henvisningen",
    "card": true
   },
