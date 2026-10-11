@@ -20,8 +20,12 @@ from urllib.parse import unquote, urlparse
 
 import fitz
 
-LINK = re.compile(r'\]\(https://aarhusworks\.com/(assets/[^)#\s]+)(?:#page=(\d+))?\)')
-ANY_ASSET = re.compile(r'https://aarhusworks\.com/(assets/[^)#\s]+)')
+# A link to a cited file, in Markdown ([bilag 2, s. 4](https://aarhusworks.com/
+# assets/....pdf#page=4)) or in HTML, as the timeline writes it (<a
+# href="/assets/....pdf#page=4">). Group 1 is the file, group 2 the page.
+LINK = re.compile(r'(?:\]\(https://aarhusworks\.com/|href="(?:https://aarhusworks\.com)?/)'
+                  r'(assets/[^)#"\s]+)(?:#page=(\d+))?(?:\)|")')
+ANY_ASSET = re.compile(r'(?:https://aarhusworks\.com/|href="/)(assets/[^)#"\s]+)')
 EXT_LINK = re.compile(r'\]\((https?://(?!aarhusworks\.com)[^)\s]+)\)')
 SECTION = re.compile(r'^#{1,6} ', re.M)
 TODO = re.compile(r'\[TODO:[^\]]*\]')
@@ -501,8 +505,11 @@ def cited_quotes(raw):
     """
     body = body_start(raw)
     todos = [(t.start(), t.end()) for t in TODO.finditer(raw)]
+    # A post with its own stylesheet ("Roboto Serif Fallback") or script.
+    todos += [(t.start(), t.end()) for t in re.finditer(r'(?is)<(style|script)\b.*?</\1>', raw)]
     for m in quotations(raw):
-        quote = m.text
+        # The timeline is written in HTML: <em>"<strong>fastholdes</strong> ..."</em>.
+        quote = re.sub(r'</?[a-zA-Z][^>]*>', '', m.text)
         if len(quote) < MIN_QUOTE:
             continue
         # The title in the front matter and the instructions in a [TODO: ...]
