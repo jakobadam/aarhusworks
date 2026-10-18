@@ -43,7 +43,7 @@ const DOCS = [
   {
     source: resolve(repo, '_posts/2026-08-26-anmodning-om-tilsynssag-tillaeg.md'),
     out: resolve(repo, KLAGE, 'anmodning-om-tilsynssag-tillaeg.pdf'),
-    title: 'Støjpuljen, post for post — Tillæg til anmodning om tilsynssag',
+    title: 'Kommunens opgørelse af rammen i vilkår 7 — Tillæg til anmodning om tilsynssag',
   },
 ];
 

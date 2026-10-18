@@ -1,6 +1,6 @@
 ---
-title: 'Støjpuljen, post for post'
-description: 'Byrådet afsatte i 2016 støjpuljen til tre konkrete skærmtiltag og et facadetilskud. Ingen af skærmtiltagene er udført. Her er det, kommunen regner med i stedet: volde, vejsænkning og en skærm, der var pligtig i forvejen.'
+title: 'Tillæg: Kommunens opgørelse af rammen i vilkår 7'
+description: 'Byrådet afsatte i 2016 rammen på ca. 20 mio. kr. til tre konkrete skærmtiltag og et facadetilskud. Ingen af skærmtiltagene er udført. Her er det, kommunen regner med i stedet: volde, vejsænkning og en skærm, der var pligtig i forvejen.'
 ---
 
 > ## ⚠️ KLADDE — IKKE INDGIVET
