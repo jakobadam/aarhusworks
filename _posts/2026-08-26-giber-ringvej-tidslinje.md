@@ -2,7 +2,7 @@
 title: "Giber Ringvej: En tidslinje"
 author: Giber Ringvej Gruppen
 categories: vejstøj
-description: "Tre bindende VVM-vilkår — slørende beplantning, støjdæmpende vejbelægning og en pulje på ca. 20 mio. kr. — og hvad der siden er blevet af dem."
+description: "Tre bindende VVM-vilkår — en pulje på ca. 20 mio. kr., støjdæmpende vejbelægning og slørende beplantning — og hvad der siden er blevet af dem."
 hide_title: true   # siden har sin egen overskrift
 css: [/assets/css/tidslinje.css]   # tidslinjens layout
 ---
@@ -10,34 +10,34 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
 <div class="timeline-wrap">
 
 <p class="timeline-kicker" markdown="span">Bilag 1 · Anmodning om tilsynssag</p>
-<h1 class="timeline-headline" markdown="span">Giber Ringvej: Tidslinje for VVM-tilladelsens vilkår 2, 5 og 7</h1>
+<h1 class="timeline-headline" markdown="span">Giber Ringvej: Tidslinje for VVM-tilladelsens vilkår 7, 5 og 2</h1>
 <div class="timeline-deck">
-  <p markdown="span">Kronologisk oversigt over forløbet vedrørende vilkår 2, 5 og 7 i VVM-tilladelsen til Giber Ringvej af 12. oktober 2018. For den retlige vurdering henvises til [anmodningen](/2026/08/26/anmodning-om-tilsynssag.html).</p>
+  <p markdown="span">Kronologisk oversigt over forløbet vedrørende vilkår 7, 5 og 2 i VVM-tilladelsen til Giber Ringvej af 12. oktober 2018. For den retlige vurdering henvises til [anmodningen](/2026/08/26/anmodning-om-tilsynssag.html).</p>
 </div>
 
 <p class="kladde-note" markdown="span">Kladde. Anmodningen til Ankestyrelsen er endnu ikke indgivet. Alle citater stammer fra de dokumenter, der er linket i den enkelte post.</p>
 
 <div class="tracks">
 
-  <div class="track track--beplantning">
-    <span class="track-nr"><a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=2">Vilkår 2 &rsaquo;</a></span>
-    <span class="track-name">Slørende beplantning</span>
-    <p class="track-req" markdown="span">Anlægget skal tilpasses landskabet *"i henhold til anvisningerne i VVM redegørelsen"* — og de foreskriver beplantning ved tæt bebyggelse.</p>
-    <p class="track-status" markdown="span">**Status:** Ikke etableret ved Mårslet. Ingen dokumenteret afgørelse om at fravige vilkåret.</p>
-  </div>
-
-  <div class="track track--belaegning">
-    <span class="track-nr"><a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=2">Vilkår 5 &rsaquo;</a></span>
-    <span class="track-name">Støjdæmpende vejbelægning</span>
-    <p class="track-req" markdown="span">Hele vejanlægget skal udformes med støjdæmpende vejbelægning. Projektet forudsatte ifølge Rambøll en SRS-belægning.</p>
-    <p class="track-status" markdown="span">**Status:** Der er udlagt KVS. Hverken referencebelægning, type eller dokumenteret støjreduktion er oplyst.</p>
-  </div>
-
   <div class="track track--pulje">
     <span class="track-nr"><a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=3">Vilkår 7 &rsaquo;</a></span>
     <span class="track-name">Pulje på ca. 20 mio. kr.</span>
     <p class="track-req" markdown="span">Der skal *suppleres* med øget støjdæmpning ved Tranbjerg, Mårslet, Kolt, forlængelsen til Beder Landevej og i det åbne land.</p>
     <p class="track-status" markdown="span">**Status:** Ingen af de tre skærmtiltag, rammen blev afsat til, er udført, og facadetilskuddet ses ikke gennemført. Ved Beder Landevej henfører kommunen en vejflytning og en vold til rammen. Der er ikke ført særskilt regnskab.</p>
+  </div>
+
+  <div class="track track--belaegning">
+    <span class="track-nr"><a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=3">Vilkår 5 &rsaquo;</a></span>
+    <span class="track-name">Støjdæmpende vejbelægning</span>
+    <p class="track-req" markdown="span">Hele vejanlægget skal udformes med støjdæmpende vejbelægning. Projektet forudsatte ifølge Rambøll en SRS-belægning.</p>
+    <p class="track-status" markdown="span">**Status:** Der er udlagt KVS. Hverken referencebelægning, type eller dokumenteret støjreduktion er oplyst.</p>
+  </div>
+
+  <div class="track track--beplantning">
+    <span class="track-nr"><a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=2">Vilkår 2 &rsaquo;</a></span>
+    <span class="track-name">Slørende beplantning</span>
+    <p class="track-req" markdown="span">Anlægget skal tilpasses landskabet *"i henhold til anvisningerne i VVM redegørelsen"* — og de foreskriver beplantning ved tæt bebyggelse.</p>
+    <p class="track-status" markdown="span">**Status:** Ikke etableret ved Mårslet. Ingen dokumenteret afgørelse om at fravige vilkåret.</p>
   </div>
 
 </div>
