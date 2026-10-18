@@ -212,7 +212,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <div class="tl-body">
       <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <p class="tl-title" markdown="span">Rådgiveren havde hele tiden givet GRG ret</p>
-      <p class="tl-text" markdown="span">Efter gentagne enslydende aktindsigtsbegæringer dukker [Rambølls annoterede besvarelse](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-11-04-vedhaeftning-hoeringssvar-2-med-besvarelse-fra-ramboell.pdf) fra november 2024 op. Rådgiveren tiltræder heri skriftligt, at fire af de påberåbte tiltag ikke kan medregnes som støjtiltag — blandt andet: *"Det er korrekt at letbanevolden ikke er et støjtiltag."* Ingen af forbeholdene stod i det svar, kommunen sendte.</p>
+      <p class="tl-text" markdown="span">Efter gentagne enslydende aktindsigtsbegæringer dukker [Rambølls annoterede besvarelse](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-11-04-vedhaeftning-hoeringssvar-2-med-besvarelse-fra-ramboell.pdf) fra november 2024 op. Rådgiveren giver heri skriftligt GRG ret i indvendingerne mod fire af de påberåbte tiltag — for letbanevolden udtrykkeligt: *"Det er korrekt at letbanevolden ikke er et støjtiltag."* Ingen af forbeholdene stod i det svar, kommunen sendte.</p>
     </div>
   </li>
 
