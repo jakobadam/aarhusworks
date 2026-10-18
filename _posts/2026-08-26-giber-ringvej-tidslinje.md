@@ -37,7 +37,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <span class="track-nr"><a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=3">Vilkår 7 &rsaquo;</a></span>
     <span class="track-name">Pulje på ca. 20 mio. kr.</span>
     <p class="track-req" markdown="span">Der skal *suppleres* med øget støjdæmpning ved Tranbjerg, Mårslet, Kolt, forlængelsen til Beder Landevej og i det åbne land.</p>
-    <p class="track-status" markdown="span">**Status:** Ingen af de tre skærmtiltag, rammen blev afsat til, er udført. Intet særskilt regnskab.</p>
+    <p class="track-status" markdown="span">**Status:** Ingen af de tre skærmtiltag, rammen blev afsat til, er udført, og facadetilskuddet ses ikke gennemført. Ved Beder Landevej henfører kommunen en vejflytning og en vold til rammen. Der er ikke ført særskilt regnskab.</p>
   </div>
 
 </div>
@@ -75,9 +75,9 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <div class="tl-body">
       <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <span class="tl-tag">Sagens omdrejningspunkt</span>
-      <p class="tl-title" markdown="span">De 20 millioner var fem prissatte tiltag — tre af dem støjskærme</p>
+      <p class="tl-title" markdown="span">De 20 millioner var fem prissatte tiltag — tre af dem skærmtiltag</p>
       <p class="tl-text" markdown="span">Teknisk Udvalg indstiller den 5. september, og byrådet vedtager den 14. september, at der afsættes *ca. 20 mio. kr.* til øget støjdæmpning. [Ordlyden](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=1) er, at den skitserede afskærmning *"**fastholdes og suppleres med**"* mere ved Mårslet, Tranbjerg, Kolt og Beder Landevej. Puljen skal altså lægges *oven i* det, projektet allerede indeholdt.</p>
-      <p class="tl-text" markdown="span">Grundlaget fik borgerne først i 2026. Forvaltningen havde forelagt udvalget [et skema](https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=4) med fem prissatte tiltag — på præcis de fem steder, vilkår 7 to år senere navngiver. Summen er ca. 21,4 mio. kr.</p>
+      <p class="tl-text" markdown="span">Grundlaget fik borgerne først i 2026. Forvaltningen havde forelagt udvalget [et skema](https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=4) med fem prissatte tiltag — på præcis de fem steder, vilkår 7 to år senere navngiver. Summen er ca. 21,4–21,6 mio. kr.</p>
       <p class="tl-text" markdown="span">**Her er de fem poster — og hvad der siden er blevet af dem:**</p>
       <div class="tl-tablewrap">
         <table class="tl-table">
@@ -89,8 +89,8 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
             <tr><td>Tranbjerg — forøgelse af skærm fra 4 til 6 m</td><td class="num">5,4 mio. kr.</td><td><span class="nej">Nej</span> — skærmen står i de 4 m, vilkår 6 kræver</td></tr>
             <tr><td>Mårslet — 4 m støjskærm, 450 m</td><td class="num">3,1 mio. kr.</td><td><span class="nej">Nej</span></td></tr>
             <tr><td>Det åbne land — tilskud til facadedæmpning ved over 58 dB</td><td class="num">op til 2,7 mio. kr.</td><td><span class="nej">Optræder ikke</span> i kommunens egen opgørelse</td></tr>
-            <tr><td>Beder Landevej — afklares i detailprojekteringen</td><td class="num">2,0–2,2 mio. kr.</td><td>Ikke udskilt</td></tr>
-            <tr class="sum"><td>I alt</td><td class="num">ca. 21,4 mio. kr.</td><td>—</td></tr>
+            <tr><td>Beder Landevej — afklares i detailprojekteringen</td><td class="num">2,0–2,2 mio. kr.</td><td>Vold etableret; kommunen henfører den og en vejflytning til rammen — beløbet er ikke udskilt</td></tr>
+            <tr class="sum"><td>I alt</td><td class="num">ca. 21,4–21,6 mio. kr.</td><td>—</td></tr>
           </tbody>
         </table>
       </div>
@@ -152,7 +152,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <div class="tl-body">
       <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <p class="tl-title" markdown="span">To gange afgør kommunen selv, at voldene ikke hører under vilkår 7</p>
-      <p class="tl-text" markdown="span">Når en jordvold skal etableres, skal kommunen tage stilling til, om den kræver miljøvurdering. To af de afgørelser er offentliggjort, og de siger det samme. Om volden ved [Kølsmosevej](https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=3) i januar: da der ikke er *"medsendt dokumentation for"* en støjdæmpende effekt, *"anses projektet primært som et anlæg til bortskaffelse af affald"* ([bilag 24, s. 2](https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=2)). Om volden [øst for Nymarksvej](https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=3) i september, ordret samme sætning: anlægget indgik *"ikke som en del af VVM-redegørelsen ej heller VVM-tilladelsens vilkår 7, som omhandler ekstra støjafskærmning"*.</p>
+      <p class="tl-text" markdown="span">Når en jordvold skal etableres, skal kommunen tage stilling til, om den kræver miljøvurdering. To af de afgørelser er offentliggjort, og de siger det samme. Om volden ved [Kølsmosevej](https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=3) i januar: da der ikke er *"medsendt dokumentation for"* en støjdæmpende effekt, *"anses projektet primært som et anlæg til bortskaffelse af affald"* ([bilag 24, s. 2](https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=2)). Om volden [øst for Nymarksvej](https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=3) i september, ordret samme sætning: anlægget indgik *"ikke som en del af VVM-redegørelsen ej heller VVM-tilladelsens vilkår 7, som omhandler ekstra støjafskærmning"*. Begge volde er indtegnet på det kort, kommunen i 2023 fremlagde som dokumentation for de 16 støjvolde ([bilag 61](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)).</p>
       <p class="tl-text" markdown="span">Samme ansøgning omfattede en vold syd for vejen. Den blev trukket, fordi den *"ikke [vurderes] at opfylde kriterierne i miljøbeskyttelsesloven til nyttiggørelse"* ([bilag 59, s. 1](https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=1)) — kravet om en dokumenteret støjdæmpende effekt er altså ikke en formalitet, men det, der afgør, om jorden er et støjtiltag eller affald.</p>
       <p class="tl-text" markdown="span">**Det er de eneste to afgørelser, kommunen har fremlagt om de volde, puljen er brugt på.** Begge siger, at anlægget ikke var vilkår 7. Et år senere opgøres 16 volde til 18,5 mio. kr. som netop opfyldelse af vilkår 7.</p>
     </div>
@@ -168,7 +168,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
       <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <span class="tl-tag">Redegørelse 1</span>
       <p class="tl-title" markdown="span">"16 støjvolde (...) til en samlet værdi af ca. 18.500.000 kr." — og én eneste støjskærm</p>
-      <p class="tl-text" markdown="span">[Rambølls redegørelse](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=1) henfører 17,28 mio. kr. til puljen — vilkår 7 dermed opfyldt. Men opgørelsen rummer en vejsænkning, rådgiveren selv senere kalder en *"tracérings-mæssig konsekvens"* ([bilag 16a, s. 4](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4)), en skærm hjemlet i vilkår 5 og 6, samt tilkørselsveje og jorddeponier. De 16 volde prissættes under ét til 18,5 mio. kr. uden mængdeopgørelse ([bilag 2, s. 3](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=3)).</p>
+      <p class="tl-text" markdown="span">[Rambølls redegørelse](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=1) henfører 17,28 mio. kr. til puljen — vilkår 7 dermed opfyldt. Men opgørelsen rummer en vejsænkning, rådgiveren selv senere kalder en *"tracérings-mæssig konsekvens"* ([bilag 16a, s. 4](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4)), en skærm hjemlet i vilkår 5 og 6, samt tilkørselsveje og jorddeponier. De 16 volde anslås under ét til ca. 18,5 mio. kr. uden mængdeopgørelse ([bilag 2, s. 3](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=3)).</p>
       <p class="tl-text" markdown="span">Opgørelsen er samtidig beviset for, hvad der *ikke* blev bygget. [Listen på side 4](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4) opregner alt, kommunen henfører til støj — og indeholder **én støjskærm:** *"Støjskærm langs Landevejen — ca. 5.200.000,00 kr."* De tre skærmtiltag fra 2016 optræder ikke. [GRG svarer samme måned](/2023/08/23/stoej-langs-giber-ringvej--et-modsvar-til-kommunen.html).</p>
     </div>
   </li>
