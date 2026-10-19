@@ -40,7 +40,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
 
 </div>
 
-<div class="ovrige">
+<div class="ovrige ovrige--liste">
   <p class="ovrige-title" markdown="span">Det siger kommunen</p>
   <ul>
     <li markdown="span">Vilkårene er opfyldt: *"alle vilkår fra VVM-tilladelsen vedr. støjreducerende foranstaltninger er overholdt"* &middot; [notat til Teknisk Udvalg, juni 2023](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-vejst%C3%B8j-giber-ringvej.pdf#page=3)</li>
@@ -297,7 +297,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
 
   </ul>
 
-<div class="ovrige">
+<div class="ovrige ovrige--liste">
   <p class="ovrige-title" markdown="span">Det har kommunen ikke oplyst</p>
   <ul>
     <li markdown="span">Hvorfor de to skærme og forhøjelsen, byrådet besluttede, ikke blev gennemført — og hvem der besluttede det.</li>
@@ -330,7 +330,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
   <p class="ovrige-slut" markdown="span">**Hvor sagen står nu.** Aarhus Kommune har i februar og april 2026 afvist at genoptage sagen. Der er aldrig truffet nogen afgørelse om, at vilkårene skulle fraviges; de er erklæret opfyldt. Giber Ringvej Gruppen forbereder en [anmodning til Ankestyrelsens kommunale tilsyn](/2026/08/26/anmodning-om-tilsynssag.html) om at rejse en tilsynssag.</p>
 </div>
 
-<div class="ovrige">
+<div class="ovrige ovrige--liste">
   <p class="ovrige-title" markdown="span">Dokumenterne</p>
   <ul>
     <li markdown="span">[Byrådets beslutning, september 2016](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf) og [forvaltningens notat med de fem prissatte tiltag](https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=4)</li>
