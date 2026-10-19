@@ -148,6 +148,21 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2|1": [
+   {
+    "src": "/assets/evidence/giber-ringvej-tidslinje/9d36048de1ef.webp",
+    "w": 1024,
+    "h": 94,
+    "focus": 0.51,
+    "page": 2,
+    "file": "2026-02-borgmester-opfoelgning.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2",
+    "quote": "ikke [var] forudsat etableret",
+    "anchor": "forudsatetableret",
+    "key": "ikke[var]forudsatetableret",
+    "n": 1
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=1|0": [
    {
     "src": "/assets/evidence/giber-ringvej-tidslinje/d23a0d572be5.webp",
@@ -863,6 +878,23 @@
    "state": "ok",
    "card": true,
    "note": "kort fra nærmeste henvisning før citatet i afsnittet"
+  },
+  {
+   "key": "derarbejdesfortsatmedmulighedenforetableringafbeplantning.derforharviikkekommenteretnærmerepådettefaktaark.dogerdetikketeknikogmiljøsvurdering,atbeplantningeneretdirektekravivvmen.",
+   "n": 0,
+   "quote": "Der arbejdes fortsat med muligheden for etablering af beplantning. Derfor har vi ikke kommenteret nærmere på dette …",
+   "state": "ok",
+   "src": "2026-03-mtm-kommentering-2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf, s. 1",
+   "note": "ved henvisningen — står i en kommentar i PDF'en, intet kort"
+  },
+  {
+   "key": "ikke[var]forudsatetableret",
+   "n": 1,
+   "quote": "ikke [var] forudsat etableret",
+   "state": "ok",
+   "src": "2026-02-borgmester-opfoelgning.pdf, s. 2",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "blotenomtrentligangivelse",

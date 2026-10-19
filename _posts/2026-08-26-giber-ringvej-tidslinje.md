@@ -241,6 +241,19 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
     <div class="tl-dot red"></div>
     <div class="tl-body">
+      <span class="tl-spor tl-spor--beplantning">Spor · Beplantning</span>
+      <p class="tl-title" markdown="span">Kommunen vil ikke forholde sig til beplantningen</p>
+      <p class="tl-text" markdown="span">Samme måned, som rådgiveren svarer på puljen, svarer Teknik og Miljø selv på GRG's faktaark om beplantning — med tre sætninger: *"Der arbejdes fortsat med muligheden for etablering af beplantning. Derfor har vi ikke kommenteret nærmere på dette faktaark. Dog er det ikke Teknik og Miljøs vurdering, at beplantningen er et **direkte** krav i VVM'en."* ([bilag 18, s. 1](https://aarhusworks.com/assets/giber-ringvej/2026-03-mtm-kommentering-2025-05-faktaark-beplantning-som-afvaergeforanstaltning.pdf#page=1)). Vurderingen er ikke begrundet, og vilkår 2 nævnes ikke. Måneden før havde borgmesteren skrevet, at beplantningen *"ikke [var] forudsat etableret"* ([bilag 17, s. 2](https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2)). Faktaarket er det samme, forvaltningen selv vedlagde, da den i august 2025 spurgte rådgiveren.</p>
+    </div>
+  </li>
+
+  <li class="tl-item">
+    <div class="tl-date">
+      <span class="tl-year">2026</span>
+      <span class="tl-month">Mar</span>
+    </div>
+    <div class="tl-dot red"></div>
+    <div class="tl-body">
       <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <p class="tl-title" markdown="span">Rådgiveren: rammen var "blot en omtrentlig angivelse"</p>
       <p class="tl-text" markdown="span">Rambølls notat af 25. marts 2026 er det, kommunen lægger til grund for at afvise GRG's indsigelser. Det kalder byrådets beslutning *"ikke nærmere fastsatte initiativer"* — men angiver på samme side 2016-notaterne med de fem prissatte poster som kilde til beløbet ([bilag 16a, s. 1](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=1)). Rammen er *"blot en omtrentlig angivelse"* ([s. 3](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3)), og puljen *"ophører med at eksistere"* med projektgodkendelsen i 2019 ([bilag 16c, s. 2](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=2)). Skærmen ved Landevejen og KVS-belægningens merpris henføres til rammen — merprisen for første gang ([bilag 16a, s. 2–3](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=2)).</p>
