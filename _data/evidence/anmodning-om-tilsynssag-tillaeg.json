@@ -1,5 +1,20 @@
 {
  "links": {
+  "https://aarhusworks.com/assets/giber-ringvej/2009-03-12-vejledning-9339-vvm-i-planloven.pdf#page=36|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/d0f4a98836b1.webp",
+    "w": 1077,
+    "h": 98,
+    "focus": 0.353,
+    "page": 36,
+    "file": "2009-03-12-vejledning-9339-vvm-i-planloven.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2009-03-12-vejledning-9339-vvm-i-planloven.pdf#page=36",
+    "quote": "skal offentliggøres med klagevejledning",
+    "anchor": "skaloffentliggøresmedklagevejledning",
+    "key": "skaloffentliggøresmedklagevejledning",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=3|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag-tillaeg/e12d392d9a63.webp",
@@ -1188,7 +1203,9 @@
    "n": 0,
    "quote": "skal offentliggøres med klagevejledning",
    "state": "ok",
-   "note": "står i retsinformation.dk/eli/retsinfo/2009/9339"
+   "src": "2009-03-12-vejledning-9339-vvm-i-planloven.pdf, s. 36",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "tracéringsmæssigkonsekvens",

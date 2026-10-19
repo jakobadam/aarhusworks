@@ -1669,6 +1669,21 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2009-03-12-vejledning-9339-vvm-i-planloven.pdf#page=36|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/d0f4a98836b1.webp",
+    "w": 1077,
+    "h": 98,
+    "focus": 0.353,
+    "page": 36,
+    "file": "2009-03-12-vejledning-9339-vvm-i-planloven.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2009-03-12-vejledning-9339-vvm-i-planloven.pdf#page=36",
+    "quote": "skal offentliggøres med klagevejledning",
+    "anchor": "skaloffentliggøresmedklagevejledning",
+    "key": "skaloffentliggøresmedklagevejledning",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2023-10-12-aak-afgoerelse-ophaevelse-vilkaar-viborgvej.pdf#page=2|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/f04d80358920.webp",
@@ -2448,6 +2463,22 @@
      "file": "2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf",
      "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=2",
      "quote": "ophører med at eksistere"
+    }
+   ]
+  },
+  {
+   "key": "detpåhvilerdentilenhvertidværendeejerafenejendomatberigtigeetulovligtforhold.",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag/77866b0c37ae.webp",
+     "w": 1077,
+     "h": 122,
+     "focus": 0.5,
+     "page": 43,
+     "file": "2009-03-12-vejledning-9339-vvm-i-planloven.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2009-03-12-vejledning-9339-vvm-i-planloven.pdf#page=43",
+     "quote": "Det påhviler den til enhver tid værende ejer af en ejendom at berigtige et ulovligt forhold."
     }
    ]
   },
@@ -4267,7 +4298,8 @@
    "n": 0,
    "quote": "Det påhviler den til enhver tid værende ejer af en ejendom at berigtige et ulovligt forhold.",
    "state": "ok",
-   "note": "står i danskelove.dk/planloven/63"
+   "card": true,
+   "note": "kort fra det eneste citerede dokument, der indeholder citatet"
   },
   {
    "key": "formålsløstatfortsættemedatsendenotaterfremogtilbage",
@@ -5816,7 +5848,9 @@
    "n": 0,
    "quote": "skal offentliggøres med klagevejledning",
    "state": "ok",
-   "note": "står i retsinformation.dk/eli/retsinfo/2009/9339"
+   "src": "2009-03-12-vejledning-9339-vvm-i-planloven.pdf, s. 36",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "bygherresprojekt",
