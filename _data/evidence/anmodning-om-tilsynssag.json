@@ -2387,7 +2387,7 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf|0": [
+  "https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf|1": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/b07c6d89bfc0.webp",
     "w": 898,
@@ -3744,6 +3744,38 @@
      "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
      "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3",
      "quote": "uden at angive en specifik værdi for det ønskede niveau"
+    }
+   ]
+  },
+  {
+   "key": "genbesøgedenopgørelsemedafsætiborgerenspåstande/spørgsmål",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag/e20420582579.webp",
+     "w": 1035,
+     "h": 48,
+     "focus": 0.622,
+     "page": 6,
+     "file": "2024-12-20-mail-sv-genbesoeg-af-opgoerelse-for-stoejtiltag.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-12-20-mail-sv-genbesoeg-af-opgoerelse-for-stoejtiltag.pdf#page=6",
+     "quote": "genbesøge den opgørelse med afsæt i borgerens påstande/spørgsmål"
+    }
+   ]
+  },
+  {
+   "key": "ernogetitvivlomhvadviskalgøre",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag/8166139855ff.webp",
+     "w": 1011,
+     "h": 74,
+     "focus": 0.5,
+     "page": 5,
+     "file": "2024-12-20-mail-sv-genbesoeg-af-opgoerelse-for-stoejtiltag.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-12-20-mail-sv-genbesoeg-af-opgoerelse-for-stoejtiltag.pdf#page=5",
+     "quote": "er noget i tvivl om hvad vi skal gøre"
     }
    ]
   },
@@ -6265,14 +6297,16 @@
    "n": 0,
    "quote": "genbesøge den opgørelse med afsæt i borgerens påstande/spørgsmål",
    "state": "ok",
-   "note": "står i 2024-09-25-mail-genbesoeg-af-opgoerelse-for-stoejtiltag.pdf, s. 1 — intet kort, da det ikke er sikkert, hvilket bilag der menes"
+   "card": true,
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "ernogetitvivlomhvadviskalgøre",
    "n": 0,
    "quote": "er noget i tvivl om hvad vi skal gøre",
    "state": "ok",
-   "note": "står i 2024-09-25-mail-re-genbesoeg-af-opgoerelse-for-stoejtiltag.pdf, s. 1 — intet kort, da det ikke er sikkert, hvilket bilag der menes"
+   "card": true,
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "børværesærligintensiv",
