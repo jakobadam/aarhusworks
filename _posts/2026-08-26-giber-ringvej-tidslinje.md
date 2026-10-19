@@ -11,7 +11,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
 <p class="timeline-kicker" markdown="span">Tidslinje · opdateret 19. oktober 2026</p>
 <div class="timeline-deck">
   <p markdown="span">I 2016 besluttede Aarhus Byråd at bruge ca. 20 mio. kr. på mere støjdæmpning langs den nye Giber Ringvej. Grundlaget var konkret: fem prissatte tiltag, heraf nye støjskærme ved Kolt og Mårslet og en forhøjelse af skærmen i Tranbjerg. Beslutningen blev et bindende vilkår i vejens miljøtilladelse (VVM-tilladelsen).</p>
-  <p markdown="span">Ingen af de tre skærmtiltag er gennemført. Kommunen har ikke ført regnskab med pengene, og dens eneste opgørelse — som den selv har kaldt misvisende — tæller i stedet jordvolde, en vejsænkning og den skærm, vejen under alle omstændigheder skulle have. Træerne, der skulle skjule vejen ved Mårslet, er ikke plantet — ifølge rådgiveren [*"formegentlig fravalgt af økonomiske årsager"*](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-notat-redegoerelse-for-beplantning.pdf#page=4). Og hvor meget den støjdæmpende asfalt dæmper, har kommunen ikke oplyst.</p>
+  <p markdown="span">Ingen af de tre skærmtiltag er gennemført. Kommunen har ikke ført regnskab med pengene, og dens eneste opgørelse — som den selv har kaldt misvisende — tæller i stedet jordvolde, en vejsænkning og den skærm, vejen under alle omstændigheder skulle have. Træerne, der skulle skjule vejen, er ikke plantet. Ét sted er de ifølge rådgiveren [*"formegentlig fravalgt af økonomiske årsager"*](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-notat-redegoerelse-for-beplantning.pdf#page=4). Og hvor meget den støjdæmpende asfalt dæmper, har kommunen ikke oplyst.</p>
   <p markdown="span">Kommunen fastholder, at vilkårene er opfyldt. Tidslinjen viser forløbet med links til kommunens egne dokumenter, de fleste udleveret ved aktindsigt.</p>
 </div>
 
@@ -35,7 +35,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <span class="track-nr"><a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=2">Vilkår 2 &rsaquo;</a></span>
     <span class="track-name">Træer, der skjuler vejen</span>
     <p class="track-req" markdown="span">Vejen skal tilpasses landskabet *"i henhold til anvisningerne i VVM redegørelsen"* — og de foreskriver beplantning ved tæt bebyggelse.</p>
-    <p class="track-status" markdown="span">**Status:** Ikke plantet ved Mårslet. Ingen afgørelse om at fravige vilkåret.</p>
+    <p class="track-status" markdown="span">**Status:** Ingen afskærmende beplantning langs vejen. Ingen afgørelse om at fravige vilkåret.</p>
   </div>
 
 </div>
