@@ -1,16 +1,14 @@
 ---
-title: "Giber Ringvej: De 20 millioner til støjdæmpning"
-author: Giber Ringvej Gruppen
+title: "Byrådet afsatte 20 millioner til støjdæmpning ved Giber Ringvej. De tre støjskærme blev aldrig bygget"
+author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
 categories: vejstøj
-description: "I 2016 afsatte Aarhus Byråd ca. 20 mio. kr. til fem konkrete støjtiltag langs Giber Ringvej, heraf tre støjskærme. Ingen af skærmene er bygget, der er ikke ført regnskab, og kommunen erklærer vilkåret opfyldt. Tidslinje med kilder."
-hide_title: true   # siden har sin egen overskrift
+description: "Tidslinje 2014–2026 med kilder: hvad byrådet besluttede, hvad der blev af det, og hvad kommunen siger i dag."
 css: [/assets/css/tidslinje.css]   # tidslinjens layout
 ---
 
 <div class="timeline-wrap">
 
-<p class="timeline-kicker" markdown="span">Tidslinje · Giber Ringvej Gruppen · opdateret 19. oktober 2026</p>
-<h1 class="timeline-headline" markdown="span">Byrådet afsatte 20 millioner til mere støjdæmpning ved Giber Ringvej. De tre støjskærme blev aldrig bygget.</h1>
+<p class="timeline-kicker" markdown="span">Tidslinje · opdateret 19. oktober 2026</p>
 <div class="timeline-deck">
   <p markdown="span">I 2016 besluttede Aarhus Byråd at bruge ca. 20 mio. kr. på mere støjdæmpning langs den nye Giber Ringvej. Grundlaget var konkret: fem prissatte tiltag, heraf tre støjskærme ved Kolt, Tranbjerg og Mårslet. Beslutningen blev et bindende vilkår i vejens miljøtilladelse (VVM-tilladelsen).</p>
   <p markdown="span">Ingen af de tre skærme er bygget. Kommunen har ikke ført regnskab med pengene, og dens eneste opgørelse — som den selv har kaldt misvisende — tæller i stedet jordvolde, en vejsænkning og den skærm, vejen under alle omstændigheder skulle have.</p>
