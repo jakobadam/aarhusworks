@@ -965,7 +965,7 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3|7": [
+  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3|8": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/48666e9d195c.webp",
     "w": 1009,
@@ -1085,6 +1085,92 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=45|1": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/86413b261c62.webp",
+    "w": 906,
+    "h": 132,
+    "focus": 0.487,
+    "page": 45,
+    "file": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=45",
+    "quote": "fordi den var lidt mere støjdæmpende og mere klimavenlig",
+    "anchor": "fordidenvarlidtmerestøjdæmpendeogmereklimavenlig",
+    "key": "fordidenvarlidtmerestøjdæmpendeogmereklimavenlig",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=48|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/0a3be8dd94f1.webp",
+    "w": 906,
+    "h": 147,
+    "focus": 0.484,
+    "page": 48,
+    "file": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=48",
+    "quote": "nogenlunde samme effekt",
+    "anchor": "nogenlundesammeeffekt",
+    "key": "nogenlundesammeeffekt",
+    "n": 0
+   },
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/b26049282d72.webp",
+    "w": 906,
+    "h": 99,
+    "focus": 0.362,
+    "page": 48,
+    "file": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=48",
+    "quote": "med en forskel i størrelsesordenen ½ dB(A)",
+    "anchor": "medenforskelistørrelsesordenen½db(a)",
+    "key": "medenforskelistørrelsesordenen½db(a)",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=2|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/1920e83301d0.webp",
+    "w": 1224,
+    "h": 57,
+    "focus": 0.431,
+    "page": 2,
+    "file": "2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=2",
+    "quote": "har et højere initialt støjniveau",
+    "anchor": "harethøjereinitialtstøjniveau",
+    "key": "harethøjereinitialtstøjniveau",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3|9": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/fb564e44e4d8.webp",
+    "w": 1009,
+    "h": 78,
+    "focus": 0.695,
+    "page": 3,
+    "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3",
+    "quote": "ganske hurtigt aftagende",
+    "anchor": "ganskehurtigtaftagende",
+    "key": "ganskehurtigtaftagende",
+    "n": 0
+   },
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/b07e97d4a543.webp",
+    "w": 1009,
+    "h": 78,
+    "focus": 0.386,
+    "page": 3,
+    "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3",
+    "quote": "en længerevarende støjreducerende effekt",
+    "anchor": "enlængerevarendestøjreducerendeeffekt",
+    "key": "enlængerevarendestøjreducerendeeffekt",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf#page=4|1": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/47c4a06bd8d4.webp",
@@ -1140,6 +1226,21 @@
     "quote": "Mht. asfaltbelægning er der taget hensyn til, at asfaltbelægningens støjbidrag ændrer sig over tid, idet man tager et gennemsnit af den samlede støjudbredelse over belægningens levetid",
     "anchor": "mht.asfaltbelægningerdertagethensyntil,atasfaltbelægningensstøjbidragændrersigovertid,idetmantageretgennemsnitafdensamledestøjudbredelseoverbelægningenslevetid",
     "key": "mht.asfaltbelægningerdertagethensyntil,atasfaltbelægningensstøjbidragændrersigovertid,idetmantageretgennemsnitafdensamledestøjudbredelseoverbelægningenslevetid",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=49|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/1b0b7ed9cb34.webp",
+    "w": 907,
+    "h": 185,
+    "focus": 0.5,
+    "page": 49,
+    "file": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=49",
+    "quote": "I beregningen anvendes 1-års belægningen, hvorimod slitage ikke på anden måde indgår",
+    "anchor": "iberegningenanvendes1årsbelægningen,hvorimodslitageikkepåandenmådeindgår",
+    "key": "iberegningenanvendes1årsbelægningen,hvorimodslitageikkepåandenmådeindgår",
     "n": 0
    }
   ],
@@ -4981,6 +5082,60 @@
    "card": true
   },
   {
+   "key": "fordidenvarlidtmerestøjdæmpendeogmereklimavenlig",
+   "n": 0,
+   "quote": "fordi den var lidt mere støjdæmpende og mere klimavenlig",
+   "state": "ok",
+   "src": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf, s. 45",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "nogenlundesammeeffekt",
+   "n": 0,
+   "quote": "nogenlunde samme effekt",
+   "state": "ok",
+   "src": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf, s. 48",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "medenforskelistørrelsesordenen½db(a)",
+   "n": 0,
+   "quote": "med en forskel i størrelsesordenen ½ dB(A)",
+   "state": "ok",
+   "src": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf, s. 48",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "harethøjereinitialtstøjniveau",
+   "n": 0,
+   "quote": "har et højere initialt støjniveau",
+   "state": "ok",
+   "src": "2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf, s. 2",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "ganskehurtigtaftagende",
+   "n": 0,
+   "quote": "ganske hurtigt aftagende",
+   "state": "ok",
+   "src": "2026-03-ramboell-kommentering-af-faktaark.pdf, s. 3",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "enlængerevarendestøjreducerendeeffekt",
+   "n": 0,
+   "quote": "en længerevarende støjreducerende effekt",
+   "state": "ok",
+   "src": "2026-03-ramboell-kommentering-af-faktaark.pdf, s. 3",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
    "key": "hvilkeneffektafstøjdæmpendeasfaltanvendtesistøjberegningerneforgr?",
    "n": 0,
    "quote": "Hvilken effekt af støjdæmpende asfalt anvendtes i støjberegningerne for GR?",
@@ -5013,6 +5168,15 @@
    "quote": "Mht. asfaltbelægning er der taget hensyn til, at asfaltbelægningens støjbidrag ændrer sig over tid, idet man tager …",
    "state": "ok",
    "src": "2024-09-20-mail-mtm-asfalt-stoejdaempende.pdf, s. 1",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "iberegningenanvendes1årsbelægningen,hvorimodslitageikkepåandenmådeindgår",
+   "n": 0,
+   "quote": "I beregningen anvendes 1-års belægningen, hvorimod slitage ikke på anden måde indgår",
+   "state": "ok",
+   "src": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf, s. 49",
    "note": "ved henvisningen",
    "card": true
   },

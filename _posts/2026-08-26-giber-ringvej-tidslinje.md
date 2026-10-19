@@ -269,7 +269,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <div class="tl-body">
       <span class="tl-spor tl-spor--belaegning">Spor · Vejbelægning</span>
       <span class="tl-tag">Vilkår 5</span>
-      <p class="tl-title" markdown="span">Den støjdæmpende asfalt, der ikke dæmper støj</p>
+      <p class="tl-title" markdown="span">Den støjdæmpende asfalt, ingen kan sætte tal på</p>
       <p class="tl-text" markdown="span">Vilkår 5 kræver støjdæmpende vejbelægning på hele anlægget, og projektet forudsatte ifølge Rambøll *"den typisk valgte belægning til dette formål (...) en SRS"* ([bilag 16a, s. 3](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3)). Der blev i stedet udlagt KVS — klimavenligt slidlag. GRG rejser i [afklaringsnotat 1](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf) tre spørgsmål: hvilken referencebelægning er lagt til grund, hvilken KVS-type er udlagt, og hvilken dokumenteret støjreduktion kan lægges til grund? Ingen af dem er besvaret.</p>
       <figure class="tl-fig">
         <img src="/assets/giber-ringvej/klage/2019-vejdirektoratet-kvs-figur1-stoejtrendlinjer-kvs-sma8-sma11-srs.png" alt="Vejdirektoratets graf over støjudviklingen for asfalttyperne SMA8, SMA11, SRS og KVS som funktion af belægningens alder. Ved nyudlægning ligger SRS lavest, dernæst SMA8, så KVS og øverst SMA11.">
