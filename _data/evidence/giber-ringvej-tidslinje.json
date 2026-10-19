@@ -148,7 +148,52 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=1|0": [
+   {
+    "src": "/assets/evidence/giber-ringvej-tidslinje/d23a0d572be5.webp",
+    "w": 984,
+    "h": 91,
+    "focus": 0.288,
+    "page": 1,
+    "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=1",
+    "quote": "ikke nærmere fastsatte initiativer",
+    "anchor": "ikkenærmerefastsatteinitiativer",
+    "key": "ikkenærmerefastsatteinitiativer",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3|1": [
+   {
+    "src": "/assets/evidence/giber-ringvej-tidslinje/386148af22aa.webp",
+    "w": 1009,
+    "h": 90,
+    "focus": 0.224,
+    "page": 3,
+    "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3",
+    "quote": "blot en omtrentlig angivelse",
+    "anchor": "blotenomtrentligangivelse",
+    "key": "blotenomtrentligangivelse",
+    "n": 1
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=2|0": [
+   {
+    "src": "/assets/evidence/giber-ringvej-tidslinje/0612ce432ced.webp",
+    "w": 959,
+    "h": 141,
+    "focus": 0.728,
+    "page": 2,
+    "file": "2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=2",
+    "quote": "ophører med at eksistere",
+    "anchor": "ophørermedateksistere",
+    "key": "ophørermedateksistere",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3|2": [
    {
     "src": "/assets/evidence/giber-ringvej-tidslinje/9adcf616cc72.webp",
     "w": 1009,
@@ -223,7 +268,7 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3|3": [
+  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3|4": [
    {
     "src": "/assets/evidence/giber-ringvej-tidslinje/386148af22aa.webp",
     "w": 1009,
@@ -235,7 +280,7 @@
     "quote": "blot en omtrentlig angivelse",
     "anchor": "blotenomtrentligangivelse",
     "key": "blotenomtrentligangivelse",
-    "n": 0
+    "n": 2
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf|3": [
@@ -492,6 +537,22 @@
      "file": "2025-08-notat-redegoerelse-for-beplantning.pdf",
      "pdf": "https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-notat-redegoerelse-for-beplantning.pdf#page=4",
      "quote": "uden om Rambølls involvering"
+    }
+   ]
+  },
+  {
+   "key": "blotenomtrentligangivelse",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/giber-ringvej-tidslinje/386148af22aa.webp",
+     "w": 1009,
+     "h": 90,
+     "focus": 0.224,
+     "page": 3,
+     "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3",
+     "quote": "blot en omtrentlig angivelse"
     }
    ]
   },
@@ -804,6 +865,41 @@
    "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
+   "key": "blotenomtrentligangivelse",
+   "n": 0,
+   "quote": "blot en omtrentlig angivelse",
+   "state": "ok",
+   "card": true,
+   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
+  },
+  {
+   "key": "ikkenærmerefastsatteinitiativer",
+   "n": 0,
+   "quote": "ikke nærmere fastsatte initiativer",
+   "state": "ok",
+   "src": "2026-03-ramboell-kommentering-af-faktaark.pdf, s. 1",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "blotenomtrentligangivelse",
+   "n": 1,
+   "quote": "blot en omtrentlig angivelse",
+   "state": "ok",
+   "src": "2026-03-ramboell-kommentering-af-faktaark.pdf, s. 3",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "ophørermedateksistere",
+   "n": 0,
+   "quote": "ophører med at eksistere",
+   "state": "ok",
+   "src": "2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf, s. 2",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
    "key": "dentypiskvalgtebelægningtildetteformål(...)ensrs",
    "n": 0,
    "quote": "den typisk valgte belægning til dette formål (...) en SRS",
@@ -892,7 +988,7 @@
   },
   {
    "key": "blotenomtrentligangivelse",
-   "n": 0,
+   "n": 2,
    "quote": "blot en omtrentlig angivelse",
    "state": "ok",
    "src": "2026-03-ramboell-kommentering-af-faktaark.pdf, s. 3",
