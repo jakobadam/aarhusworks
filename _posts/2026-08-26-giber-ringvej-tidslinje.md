@@ -2,7 +2,7 @@
 title: "Byrådet besluttede. Forvaltningen ignorerede."
 author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
 categories: vejstøj
-description: "20 millioner til fem konkrete støjtiltag og træer, der skulle skjule vejen. Træerne ved Mårslet mangler, og i stedet for støjtiltagene regner kommunen jorddepoter, tilkørselsveje og en skærm, vejen skulle have alligevel. Tidslinje 2014–2026 med kilder."
+description: "Fem støjtiltag for 20 millioner, støjdæmpende asfalt og træer, der skulle skjule vejen. I stedet: jorddepoter og tilkørselsveje, en asfalt ingen kan sætte tal på, og ingen træer ved Mårslet. Tidslinje 2014–2026 med kilder."
 css: [/assets/css/tidslinje.css]   # tidslinjens layout
 ---
 
