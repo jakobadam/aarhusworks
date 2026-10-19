@@ -2,7 +2,7 @@
 title: "Byrådet besluttede. Forvaltningen ignorerede."
 author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
 categories: vejstøj
-description: "21 millioner til støjdæmpning ved Giber Ringvej — fem konkrete tiltag, og hvad der kom i stedet. Tidslinje 2014–2026 med kilder."
+description: "20 millioner til støjdæmpning ved Giber Ringvej — fem konkrete tiltag, og hvad der kom i stedet. Tidslinje 2014–2026 med kilder."
 css: [/assets/css/tidslinje.css]   # tidslinjens layout
 ---
 
