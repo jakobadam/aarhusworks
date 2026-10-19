@@ -1,5 +1,5 @@
 ---
-title: "Byrådet besluttede støjskærme for 17 millioner ved Giber Ringvej. Forvaltningen gennemførte dem aldrig"
+title: "Byrådet besluttede fem støjtiltag for 21 millioner ved Giber Ringvej. Forvaltningen gennemførte højst ét"
 author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
 categories: vejstøj
 description: "Tidslinje 2014–2026 med kilder: hvad byrådet besluttede, hvad der blev af det, og hvad kommunen siger i dag."
