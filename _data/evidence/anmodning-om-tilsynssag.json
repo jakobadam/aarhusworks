@@ -1553,6 +1553,36 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=77|5": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/259fd5211770.webp",
+    "w": 794,
+    "h": 113,
+    "focus": 0.729,
+    "page": 77,
+    "file": "2013-vvm.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=77",
+    "quote": "[h]vor der er nærliggende tæt bebyggelse",
+    "anchor": "vorderernærliggendetætbebyggelse",
+    "key": "[h]vorderernærliggendetætbebyggelse",
+    "n": 1
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2|2": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/039d48711365.webp",
+    "w": 1024,
+    "h": 82,
+    "focus": 0.547,
+    "page": 2,
+    "file": "2026-02-borgmester-opfoelgning.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2",
+    "quote": "fremgik som et muligt tiltag",
+    "anchor": "fremgiksometmuligttiltag",
+    "key": "fremgiksometmuligttiltag",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf|5": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/210f80ac7a07.webp",
@@ -1744,7 +1774,7 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2|2": [
+  "https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2|3": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/fb78813b7e7d.webp",
     "w": 1024,
@@ -1999,7 +2029,7 @@
     "n": 5
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2|3": [
+  "https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2|4": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/9d36048de1ef.webp",
     "w": 1024,
@@ -5647,6 +5677,24 @@
    "quote": "begrænset i forhold til, at vi ikke kan ekspropriere areal til beplantning (...) alternativt vil vi undersøge om …",
    "state": "ok",
    "src": "2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf, s. 1",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "[h]vorderernærliggendetætbebyggelse",
+   "n": 1,
+   "quote": "[h]vor der er nærliggende tæt bebyggelse",
+   "state": "ok",
+   "src": "2013-vvm.pdf, s. 77",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "fremgiksometmuligttiltag",
+   "n": 0,
+   "quote": "fremgik som et muligt tiltag",
+   "state": "ok",
+   "src": "2026-02-borgmester-opfoelgning.pdf, s. 2",
    "note": "ved henvisningen",
    "card": true
   },
