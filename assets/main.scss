@@ -568,12 +568,18 @@ $toc-wide:     1280px;   // $table-width + $toc-gap + $toc-width + 2 x 24px gutt
   border: 1px solid $rule;
   border-radius: 6px;
 
+  // A label, not one more link: capitals, bold and tracked, in ink.
   summary {
     padding: 10px 14px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     color: $ink;
     cursor: pointer;
   }
+  &[open] summary { margin-bottom: 8px; border-bottom: 1px solid $rule; }
 
   ol { list-style: none; margin: 0; padding: 0; }
   > ol { padding: 0 14px 12px; }
@@ -617,7 +623,7 @@ $toc-wide:     1280px;   // $table-width + $toc-gap + $toc-width + 2 x 24px gutt
     scrollbar-width: thin;
 
     summary {
-      padding: 0 0 8px;
+      padding: 0 0 10px;
       list-style: none;
       cursor: default;
       &::-webkit-details-marker { display: none; }

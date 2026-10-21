@@ -69,8 +69,19 @@
   fit();
   if (wide.addEventListener) wide.addEventListener('change', fit); else wide.addListener(fit);
   summary.addEventListener('click', function (e) { if (wide.matches) e.preventDefault(); });
+  // Glide to the section instead of jumping, unless the reader has asked for
+  // less motion. The folded box closes first, so the target does not move
+  // while the page scrolls to it.
+  var still = window.matchMedia('(prefers-reduced-motion: reduce)');
   details.addEventListener('click', function (e) {
-    if (!wide.matches && e.target.tagName === 'A') details.open = false;
+    var a = e.target.closest('a');
+    if (!a) return;
+    var target = document.getElementById(decodeURIComponent(a.hash.slice(1)));
+    if (!target) return;
+    e.preventDefault();
+    if (!wide.matches) details.open = false;
+    target.scrollIntoView({ behavior: still.matches ? 'auto' : 'smooth', block: 'start' });
+    history.pushState(null, '', a.hash);
   });
 
   var current = -1;
