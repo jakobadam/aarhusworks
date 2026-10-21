@@ -538,6 +538,100 @@ a, a:hover, a:visited { color: inherit; }
 
 @media print { .ev-mark, .ev-panel { display: none !important; } }
 
+// ---------------------------------------------------------------- table of contents
+//
+// assets/js/toc.js. On a wide screen the list rides along (sticky) in a rail
+// right of the column; below that it is a folded box between the header and
+// the text. The rail must clear a wide table's overhang ($table-width centred
+// on the column), so it starts past it, and the column moves left by half the
+// rail to keep column, tables and rail centred as one block.
+
+$toc-column:   $content-width - 48px;                  // the wrapper's padding
+$toc-overhang: ($table-width - $toc-column) * 0.5;     // 154px
+$toc-gap:      24px;
+$toc-width:    240px;
+$toc-wide:     1280px;   // $table-width + $toc-gap + $toc-width + 2 x 24px gutter = 1252px
+
+.post { position: relative; }
+
+@media (min-width: $toc-wide) {
+  .post.has-toc { left: -($toc-gap + $toc-width) * 0.5; }
+}
+
+.toc-rail { margin: 0 0 32px; }
+
+.toc {
+  font-family: $sans;
+  font-size: 14px;
+  line-height: 20px;
+  color: $muted;
+  border: 1px solid $rule;
+  border-radius: 6px;
+
+  summary {
+    padding: 10px 14px;
+    font-weight: 600;
+    color: $ink;
+    cursor: pointer;
+  }
+
+  ol { list-style: none; margin: 0; padding: 0; }
+  > ol { padding: 0 14px 12px; }
+  ol ol { padding-left: 12px; }
+  li { margin: 0; }
+
+  a, a:visited {
+    display: block;
+    padding: 4px 0 4px 10px;
+    border-left: 2px solid transparent;
+    color: $muted;
+    text-decoration: none;
+  }
+  a:hover { color: $ink; }
+  .toc-open > a { color: $ink; }
+  a[aria-current] { color: $ink; font-weight: 600; border-left-color: $accent; }
+
+  @media print { display: none; }
+}
+
+@media (min-width: $toc-wide) {
+  .toc-rail {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(100% + #{$toc-overhang + $toc-gap});
+    width: $toc-width;
+    margin: 0;
+  }
+
+  .toc {
+    position: sticky;
+    top: 24px;
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border: 0;
+    border-radius: 0;
+    font-size: 13px;
+    line-height: 18px;
+    scrollbar-width: thin;
+
+    summary {
+      padding: 0 0 8px;
+      list-style: none;
+      cursor: default;
+      &::-webkit-details-marker { display: none; }
+    }
+    > ol { padding: 0; border-left: 1px solid $rule; }
+    a, a:visited { margin-left: -1px; }
+    ol ol a, ol ol a:visited { padding-left: 22px; margin-left: -13px; }
+  }
+}
+
+// A heading reached through the TOC (or any #anchor) stops a little below
+// the top edge instead of flush against it.
+.post-content > h2, .post-content > h3 { scroll-margin-top: 24px; }
+
 // ---------------------------------------------------------------- footer
 
 .site-footer {
