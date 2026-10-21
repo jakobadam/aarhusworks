@@ -2616,22 +2616,6 @@
    ]
   },
   {
-   "key": "dermålesvedklagernesboliger",
-   "n": 0,
-   "cards": [
-    {
-     "src": "/assets/evidence/anmodning-om-tilsynssag/2e351bf08ba5.webp",
-     "w": 965,
-     "h": 92,
-     "focus": 0.671,
-     "page": 3,
-     "file": "2023-08-VM-accoustics-målt-trafikstøj.pdf",
-     "pdf": "https://aarhusworks.com/assets/mtm-modsvar/2023-08-VM-accoustics-m%C3%A5lt-trafikst%C3%B8j.pdf#page=3",
-     "quote": "der måles ved klagernes boliger"
-    }
-   ]
-  },
-  {
    "key": "teknikogmiljøanbefaler,atderikkeetableresyderligerestøjdæmpningvedmårsletogtranbjerg.degældendestøjgrænserkanoverholdes(...)",
    "n": 0,
    "cards": [
@@ -4572,14 +4556,6 @@
    "src": "2016-08-cowi-trafikstoej.pdf, s. 3",
    "note": "ved henvisningen",
    "card": true
-  },
-  {
-   "key": "dermålesvedklagernesboliger",
-   "n": 0,
-   "quote": "der måles ved klagernes boliger",
-   "state": "ok",
-   "card": true,
-   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
   {
    "key": "iforholdtilkoltanbefalerteknikogmiljø,atderikketilføjesprojektetnogenstøjafskærmning",
