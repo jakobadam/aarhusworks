@@ -258,7 +258,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <div class="tl-dot red"></div>
     <div class="tl-body">
       <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
-      <p class="tl-title" markdown="span">Nu er de 20 millioner "blot en omtrentlig angivelse"</p>
+      <p class="tl-title" markdown="span">Nu er de 20 millioner *"blot en omtrentlig angivelse"*</p>
       <p class="tl-text" markdown="span">Kommunen afviser gruppens indsigelser med et nyt notat fra Rambøll. Rammen er nu *"blot en omtrentlig angivelse"* ([s. 3](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3)), og puljen *"ophører med at eksistere"* med projektgodkendelsen i 2019 ([s. 2](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=2)). Notatet kalder byrådets beslutning *"ikke nærmere fastsatte initiativer"* — men angiver på samme side netop 2016-notaterne med de fem prissatte tiltag som kilde til beløbet ([s. 1](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=1)).</p>
       <p class="tl-text" markdown="span">Og vejsænkningen ved Enslev, som byrådet i 2019 fik forelagt som en støjforanstaltning, er nu en vejteknisk nødvendighed: *"ikke i sit primære sigte er et støjmæssigt tiltag"* ([s. 4](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=4)). Notatet er ikke godkendt hos rådgiveren: rubrikken *Godkendt af* står tom ([s. 1](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=1)).</p>
     </div>

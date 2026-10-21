@@ -24,6 +24,7 @@ The rules live in bin/quotelib.py, shared with bin/evidence-cards.py.
 
 import io
 import pathlib
+import re
 import sys
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
@@ -45,6 +46,24 @@ KINDS = {
 }
 
 
+def italic(raw, pos):
+    """Is the quotation opening at pos set in italics when rendered?
+
+    House style sets every quotation in italics: *"..."*, ***"..."*** inside
+    bold, <em>"..."</em> in the timeline's HTML, a whole note in *...*, or a
+    block quote (which the stylesheet sets in italics).
+    """
+    start = raw.rfind('\n', 0, pos) + 1
+    line = raw[start:pos]
+    if line.lstrip().startswith('>'):
+        return True
+    if line.count('<em') > line.count('</em>'):
+        return True
+    line = re.sub(r'^\s*[*-]\s+', '', line)      # a list marker is not emphasis
+    line = line.replace('**', '')                 # bold does not toggle italics
+    return line.count('*') % 2 == 1
+
+
 def check(post):
     """Check one post; print the report; -> the number of errors."""
     print(f'== {post.name}')
@@ -54,7 +73,7 @@ def check(post):
     by_hand = manual(ROOT)
 
     counts = dict.fromkeys(KINDS, 0)
-    warnings, unverifiable, errors = [], [], []
+    warnings, unverifiable, errors, roman = [], [], [], []
     skipped = 0
 
     for item in cited_quotes(raw):
@@ -65,6 +84,8 @@ def check(post):
         short = quote[:80].replace('\n', ' ')
         line = raw.count('\n', 0, m.start()) + 1
         state, kind, detail = verify(raw, item, sources, own, by_hand, assets)
+        if kind not in ('internal', 'title') and not italic(raw, m.start()):
+            roman.append((line, short))
         if state == 'ok':
             counts[kind] += 1
         elif state == 'warn':
@@ -82,6 +103,7 @@ def check(post):
     print(f'  {"found, but not on the page the link gives":<44}: {len(warnings)}')
     print(f'  {"cannot be checked automatically":<44}: {len(unverifiable)}')
     print(f'  {"NOT in the source they cite":<44}: {len(errors)}')
+    print(f'  {"not set in italics":<44}: {len(roman)}')
 
     if warnings:
         print('\nPage anchor points at another page than the quote:')
@@ -113,8 +135,12 @@ def check(post):
             if near:
                 where, page, words = near
                 print(f'      source: "{words[:160]}" — {where}' + (f', p. {page}' if page else ''))
+    if roman:
+        print('\nNOT IN ITALICS — house style sets every quotation in italics, *"..."*:')
+        for line, short in roman:
+            print(f'  L{line}: "{short}"')
     print()
-    return len(errors)
+    return len(errors) + len(roman)
 
 
 # One or more posts: the pre-commit hook passes every staged one at once.

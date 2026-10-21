@@ -261,7 +261,7 @@ Forpligtelsen er at **supplere ved fem navngivne steder**. To ord afgør, hvad d
 
 **Subsidiært er det uden betydning, om rammen i stedet læses som et loft.** Også med loft-læsningen består forpligtelsen til at supplere de fem steder uændret, og et loft over en indsats forudsætter en indsats at sætte loft over. Spørgsmålet er derfor ikke, hvor pengene blev af, men hvad der blev gjort hvert af de fem steder; beløbsrammen påberåbes først og fremmest som bevis for, **hvad der var forudsat**.
 
-#### Vilkårets eget beslutningsgrundlag: "fastholdes og suppleres med"
+#### Vilkårets eget beslutningsgrundlag: *"fastholdes og suppleres med"*
 
 Vilkår 7 henviser udtrykkeligt til byrådsbeslutningen af 14. september 2016 — **Aarhus Byråd, punkt 20, sag 13/048665**, jf. [bilag 56, s. 3](https://aarhusworks.com/assets/giber-ringvej/2016-09-14-bering-beder-inkl-bilagsliste.pdf#page=3). Byrådet vedtog Magistratens indstilling i overensstemmelse med Teknisk Udvalgs erklæring, hvis ordlyd er gengivet i beslutningen ([bilag 56, s. 5](https://aarhusworks.com/assets/giber-ringvej/2016-09-14-bering-beder-inkl-bilagsliste.pdf#page=5)) og tillige foreligger som [bilag 37](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf):
 
