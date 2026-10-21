@@ -41,6 +41,14 @@ layout: default
 </article>
 
 {%- comment -%}
+  Table of contents (assets/js/toc.js), built from the post's h2/h3 when it
+  has at least three sections. `toc: false` in the front matter turns it off.
+{%- endcomment -%}
+{%- unless page.toc == false %}
+<script src="{{ "/assets/js/toc.js" | relative_url }}" defer></script>
+{%- endunless %}
+
+{%- comment -%}
   Evidence cards (bin/evidence-cards.py): the cropped source page behind each
   quotation, attached in the browser so the post's Markdown stays untouched.
 {%- endcomment -%}
