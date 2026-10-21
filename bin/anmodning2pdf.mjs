@@ -162,7 +162,7 @@ const css = `
   }
   h2 { font-size: 15pt; border-bottom: .8pt solid #bbb; padding-bottom: .15em; }
   h3 { font-size: 12.5pt; }
-  h4 { font-size: 11pt; color: #333; }
+  h4 { font-size: 11.5pt; }
   p, li { orphans: 3; widows: 3; }
   ul, ol { padding-left: 1.4em; }
   a { color: #1a3f6f; text-decoration: none; }

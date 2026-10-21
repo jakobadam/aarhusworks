@@ -228,9 +228,11 @@ a, a:hover, a:visited { color: inherit; }
     letter-spacing: -0.016em;
     margin: 1.95em 0 0.5em;
   }
-  h1:not([class]), h2:not([class]) { font-size: 22px; line-height: 28px; }
-  h3:not([class]) { font-size: 18px; line-height: 24px; }
-  h4:not([class]) { font-size: 16px; line-height: 22px; }
+  // Each level must read larger than a bold lead-in in the body: Roboto Serif
+  // bold at 16px looks bigger than Inter at 16px, so h4 starts at 18px.
+  h1:not([class]), h2:not([class]) { font-size: 24px; line-height: 30px; }
+  h3:not([class]) { font-size: 20px; line-height: 26px; }
+  h4:not([class]) { font-size: 18px; line-height: 24px; }
 
   a:not([class]) { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
 

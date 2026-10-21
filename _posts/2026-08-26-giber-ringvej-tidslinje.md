@@ -69,7 +69,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
       </figure>
       <figure class="tl-fig">
         <img src="/assets/giber-ringvej/klage/2026-vvm-figur50-s89-beplantning-som-afvaergeforanstaltning-maarslet-og-testrup.png" alt="Terrænvisualisering fra VVM-redegørelsen af krydsningen ved Giber Å, hvor beplantning på skråningsanlæggene skjuler vejen. Billedet er påført teksten &quot;Beplantning som afværgeforanstaltning&quot;.">
-        <figcaption markdown="span">Figur 50 ([VVM-redegørelsen, s. 89](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=89)): *"Beplantning på skråningsanlæggene slører den visuelle støj fra bilerne."* Kommunen har selv sat overskriften **"Beplantning som afværgeforanstaltning"** på billedet. I 2026 skriver borgmesteren, at beplantningen *"ikke [var] forudsat etableret"* ([brevet, s. 2](https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2)).</figcaption>
+        <figcaption markdown="span">Figur 50 ([VVM-redegørelsen, s. 89](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=89)): *"Beplantning på skråningsanlæggene slører den visuelle støj fra bilerne."* Kommunen har selv sat overskriften ***"Beplantning som afværgeforanstaltning"*** på billedet. I 2026 skriver borgmesteren, at beplantningen *"ikke [var] forudsat etableret"* ([brevet, s. 2](https://aarhusworks.com/assets/giber-ringvej/2026-02-borgmester-opfoelgning.pdf#page=2)).</figcaption>
       </figure>
     </div>
   </li>
@@ -159,7 +159,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
       <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <p class="tl-title" markdown="span">Kommunen afgør selv: voldene hører ikke under puljen</p>
       <p class="tl-text" markdown="span">Før en jordvold må anlægges, skal kommunen afgøre, om den kræver miljøvurdering. To af de afgørelser er offentliggjort — for volden ved [Kølsmosevej](https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=3) i januar og volden [øst for Nymarksvej](https://aarhusworks.com/assets/giber-ringvej/2022-09-14-screeningafgoerelse-jordvold-nymarksvej.pdf#page=3) i september. Begge siger med samme sætning og med forbeholdet *"så vidt vides"*, at volden ikke indgik i *"VVM-tilladelsens vilkår 7, som omhandler ekstra støjafskærmning"*. Om Kølsmosevej-volden hedder det desuden, at den *"anses (...) primært som et anlæg til bortskaffelse af affald"*, fordi der ikke var dokumentation for en støjdæmpende effekt ([s. 2](https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf#page=2)).</p>
-      <p class="tl-text" markdown="span">**Et år senere tælles begge volde med blandt de 16 "støjvolde", der skal dokumentere, at vilkår 7 er opfyldt** ([kortet](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)).</p>
+      <p class="tl-text" markdown="span">**Et år senere tælles begge volde med blandt de 16 *"støjvolde"*, der skal dokumentere, at vilkår 7 er opfyldt** ([kortet](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)).</p>
     </div>
   </li>
 
@@ -336,8 +336,8 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <li markdown="span">[Byrådets beslutning, september 2016](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf) og [forvaltningens notat med de fem prissatte tiltag](https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=4)</li>
     <li markdown="span">[VVM-tilladelsen, oktober 2018](https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf) — vilkår 2, 5 og 7</li>
     <li markdown="span">[Rambølls opgørelse, 2023](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf) og [kortet over de 16 volde](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)</li>
-    <li markdown="span">[Redegørelse 2, januar 2025](https://aarhusworks.com/assets/giber-ringvej/2025-01-mtm-redegoerelse-2.pdf) — "misvisende"</li>
-    <li markdown="span">[Rambølls notat, marts 2026](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf) — "blot en omtrentlig angivelse"</li>
+    <li markdown="span">[Redegørelse 2, januar 2025](https://aarhusworks.com/assets/giber-ringvej/2025-01-mtm-redegoerelse-2.pdf) — *"misvisende"*</li>
+    <li markdown="span">[Rambølls notat, marts 2026](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf) — *"blot en omtrentlig angivelse"*</li>
     <li markdown="span">[Anmodningen til Ankestyrelsen](/2026/08/26/anmodning-om-tilsynssag.html) — den juridiske gennemgang med alle bilag</li>
   </ul>
 </div>

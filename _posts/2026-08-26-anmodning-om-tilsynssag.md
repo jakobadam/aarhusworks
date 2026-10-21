@@ -37,7 +37,7 @@ Kalkværksvej 10, 8000 Aarhus C
 
 ---
 
-### Om bilag og henvisninger
+## Om bilag og henvisninger
 
 Samtlige bilag vedlægges elektronisk. Bilagsfortegnelsen i [afsnit 7](#afsnit-7) angiver for hvert bilag dokumentets oprindelse og bevismæssige status.
 
@@ -772,12 +772,12 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
 * **Bilag 14:** Referat af møde 8. april 2026  
   [Se referat](https://aarhusworks.com/assets/giber-ringvej/2026-04-referat-GRG-og-MTM.txt)  
   *Udarbejdet af Giber Ringvej Gruppen og fremsendt til samtlige mødedeltagere — Teknik og Miljøs direktør, byrumschefen, rådmanden samt de deltagende byrådsmedlemmer. Forvaltningen har dermed haft lejlighed til at gøre indsigelse mod gengivelsen. Deltagerkredsen fremgår af referatet. [TODO: indsæt fremsendelsesdato, og — hvis ingen indsigelser er modtaget — sætningen: "Der er ikke over for Giber Ringvej Gruppen fremsat indsigelser mod referatets indhold."]*
-* **Bilag 15:** Vejdirektoratets notat "Klimavenlig asfalt" (21. august 2019)  
+* **Bilag 15:** Vejdirektoratets notat *"Klimavenlig asfalt"* (21. august 2019)  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf) ·
   [Figur 1 — støjtrendlinjer KVS/SMA8/SMA11/SRS](https://aarhusworks.com/assets/giber-ringvej/klage/2019-vejdirektoratet-kvs-figur1-stoejtrendlinjer-kvs-sma8-sma11-srs.png)
 * **Bilag 16a:** Rambølls samlede kommentering — notat af 25. marts 2026 *"Vedrørende støjforhold ved Giber Ringvej"* (5 sider)  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf)
-* **Bilag 16b:** Rambølls kommentering af GRGs faktaark "VVM og vejstøj"  
+* **Bilag 16b:** Rambølls kommentering af GRGs faktaark *"VVM og vejstøj"*  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-vvm-og-vejstoej.pdf)
 * **Bilag 16c:** Rambølls kommentering af GRGs faktaark om redegørelse 1  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf)
@@ -796,7 +796,7 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
   *Dokumentet bærer betegnelsen "Forslag i offentlig høring 1/12´ 14 - 28/2´ 15". Aarhus Kommune publicerer ikke nogen anden udgave som projektets VVM-redegørelse; den vedlagte fil er byte-identisk med kommunens egen. Jf. [afsnit 3.3](#afsnit-3-3) om, at kommunen selv lægger dokumentet til grund.*
 * **Bilag 20:** Rambølls Landskabsstrategi — oversigtsplan af 24. januar 2019  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf) ·
-  [Udsnit: tiltagsliste St. 9.200–9.660 "Vest for Tandervej"](https://aarhusworks.com/assets/giber-ringvej/klage/2019-landskabsstrategi-st9200-9660-vest-for-tandervej.png)
+  [Udsnit: tiltagsliste St. 9.200–9.660 *"Vest for Tandervej"*](https://aarhusworks.com/assets/giber-ringvej/klage/2019-landskabsstrategi-st9200-9660-vest-for-tandervej.png)
 * **Bilag 21:** Intern korrespondance mellem Aarhus Kommune og Rambøll — notatets bestilling, redigering og genbesøg (marts 2023 – september 2024)  
   Udskrifter af originalmailene:  
   · [SV: Vedr. støj fra Giber Ringvej (21. marts 2023)](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-03-21-mail-sv-vedr-stoej-fra-giber-ringvej.pdf) — indeholder tillige forvaltningens interne dagsorden af 15. marts 2023 nederst i tråden  
@@ -810,7 +810,7 @@ Jane Simonsen · Carina Graae Rasmussen · Claus Falkenstrøm · Michael Bisgaar
   [RE Støj, Bering Beder …](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-11-06-mail-re-bemaerkninger-til-hoeringssvar-og-differenskort.msg)  
   [Vedhæftningen som modtaget, med Rambølls egen filstempling af 4. november 2024](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2024-11-04-vedhaeftning-hoeringssvar-2-med-besvarelse-fra-ramboell.pdf)  
   *Udleveret ved kommunens tredje udlevering i aktindsigtssagen den 16. og 19. maj 2025. Dokumentationsformen svarer til bilag 21; .msg-filerne vedlægges tillige. Rambølls svar står som kommentarer i dokumentet.*
-* **Bilag 23:** Hvidbogen "Trafikstøj kræver handling" (Gate 21, Rambøll og FORCE Technology, april 2020)  
+* **Bilag 23:** Hvidbogen *"Trafikstøj kræver handling"* (Gate 21, Rambøll og FORCE Technology, april 2020)  
   [Download PDF](https://aarhusworks.com/assets/vejstoej-forslag-2024/trafikstoej-kraever-handling-2020.pdf)
 * **Bilag 24:** Miljøvurderingsscreening — jordvold ved Kølsmosevej (26. januar 2022)  
   [Download PDF](https://aarhusworks.com/assets/giber-ringvej/2022-01-26-screeningafgoerelse-jordvold-koelsmosevej.pdf)
