@@ -270,6 +270,21 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2|0": [
+   {
+    "src": "/assets/evidence/giber-ringvej-tidslinje/85a83d49d667.webp",
+    "w": 1020,
+    "h": 147,
+    "focus": 0.349,
+    "page": 2,
+    "file": "2019-08-vejdirektoratet-kvs-asfalt.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2",
+    "quote": "som KVS holdes op mod",
+    "anchor": "somkvsholdesopmod",
+    "key": "somkvsholdesopmod",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio-mails/2023-05-09-mail-re-stoejmaaler-ved-giber-ringvej.pdf|0": [
    {
     "src": "/assets/evidence/giber-ringvej-tidslinje/aaa8381f7187.webp",
@@ -1046,6 +1061,15 @@
    "card": true
   },
   {
+   "key": "somkvsholdesopmod",
+   "n": 0,
+   "quote": "som KVS holdes op mod",
+   "state": "ok",
+   "src": "2019-08-vejdirektoratet-kvs-asfalt.pdf, s. 2",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
    "key": "begrænsetiforholdtil,atviikkekaneksproprierearealtilbeplantning",
    "n": 0,
    "quote": "begrænset i forhold til, at vi ikke kan ekspropriere areal til beplantning",
@@ -1136,6 +1160,14 @@
    "key": "parterneerjuridiskuenige",
    "n": 0,
    "quote": "parterne er juridisk uenige",
+   "state": "ok",
+   "src": "2026-04-referat-GRG-og-MTM.txt",
+   "note": "ved henvisningen — intet kort, kilden er ikke en PDF"
+  },
+  {
+   "key": "enjordvoldaltidhareneffekt",
+   "n": 0,
+   "quote": "en jordvold altid har en effekt",
    "state": "ok",
    "src": "2026-04-referat-GRG-og-MTM.txt",
    "note": "ved henvisningen — intet kort, kilden er ikke en PDF"
