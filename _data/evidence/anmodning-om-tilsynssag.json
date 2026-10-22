@@ -1042,6 +1042,34 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=4|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/d7520e6d83b1.webp",
+    "w": 1019,
+    "h": 149,
+    "focus": 0.267,
+    "page": 4,
+    "file": "2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=4",
+    "quote": "en gennemsnitlig støjdæmpning over slidlagenes levetid på op mod 4 dB i forhold til tæt asfaltbeton belægning og 4,5 dB i forhold til SMA11",
+    "anchor": "engennemsnitligstøjdæmpningoverslidlageneslevetidpåopmod4dbiforholdtiltætasfaltbetonbelægningog4,5dbiforholdtilsma",
+    "key": "engennemsnitligstøjdæmpningoverslidlageneslevetidpåopmod4dbiforholdtiltætasfaltbetonbelægningog4,5dbiforholdtilsma",
+    "n": 0
+   },
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/b67aa77edf5a.webp",
+    "w": 1019,
+    "h": 101,
+    "focus": 0.26,
+    "page": 4,
+    "file": "2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf#page=4",
+    "quote": "ser ud til at være bedst for veje med hastigheder på 80 km/t eller mere",
+    "anchor": "serudtilatværebedstforvejemedhastighederpå80km/tellermere",
+    "key": "serudtilatværebedstforvejemedhastighederpå80km/tellermere",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2020-06-23-ingenioeren-ny-asfalt-overvurderet-8200-flere-boliger-stoejbelastet.pdf#page=4|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/52367417488a.webp",
@@ -5049,6 +5077,24 @@
    "quote": "en almindelig landevej til 80 km/t",
    "state": "ok",
    "src": "2013-vvm.pdf, s. 9",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "engennemsnitligstøjdæmpningoverslidlageneslevetidpåopmod4dbiforholdtiltætasfaltbetonbelægningog4,5dbiforholdtilsma",
+   "n": 0,
+   "quote": "en gennemsnitlig støjdæmpning over slidlagenes levetid på op mod 4 dB i forhold til tæt asfaltbeton belægning og 4,5 …",
+   "state": "ok",
+   "src": "2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf, s. 4",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "serudtilatværebedstforvejemedhastighederpå80km/tellermere",
+   "n": 0,
+   "quote": "ser ud til at være bedst for veje med hastigheder på 80 km/t eller mere",
+   "state": "ok",
+   "src": "2015-03-vejdirektoratet-rapport-530-draenasfalt-som-stoejreducerende-slidlag.pdf, s. 4",
    "note": "ved henvisningen",
    "card": true
   },
