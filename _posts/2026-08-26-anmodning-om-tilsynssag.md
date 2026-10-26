@@ -182,7 +182,7 @@ Spørgsmål 1 og 2 kan et planklagenævn ikke tage stilling til: om en forvaltni
 
 Efter [kommunestyrelseslovens § 48 a](https://danskelove.dk/kommunestyrelsesloven/48a) beslutter Ankestyrelsen selv, om der er *"tilstrækkelig anledning til at rejse en tilsynssag"*. GRG er bekendt med, at der heri ligger en prioritering. Følgende forhold gøres gældende til støtte for, at sagen egner sig til behandling:
 
-**Den berører mange borgere.** Vilkår 7 navngiver fem lokaliteter langs vejanlægget. I kommunens egen opgørelse over de 321 høringsbidrag til støjhandlingsplanen er **Giber Ringvej markeret i 52 bidrag** under *"Støj fra nyere anlægsprojekter"*, mod Viborgvej 7 og Herredsvej 6, jf. [bilag 48](https://aarhusworks.com/assets/giber-ringvej/stoejhandlingsplan-hoeringsbidrag.pdf). Skemaet registrerer bidrag, ikke personer, og GRG og dets medlemmer tegner sig for højst seks af de 52; tallet påberåbes alene som indikation.
+**Den berører mange borgere.** Vilkår 7 navngiver fem lokaliteter langs vejanlægget. I kommunens egen opgørelse over de 321 høringsbidrag til støjhandlingsplanen er **Giber Ringvej markeret i 52 bidrag** under *"Støj fra nyere anlægsprojekter"*, mod Viborgvej 7 og Herredsvej 6, jf. [bilag 48](https://aarhusworks.com/assets/giber-ringvej/stoejhandlingsplan-hoeringsbidrag.pdf).
 
 **Den har betydelig økonomisk vægt.** Sagen angår en ramme på ca. 20 mio. kr. af offentlige midler, hvis anvendelse kommunen selv oplyser ikke kan opgøres.
 
@@ -429,7 +429,7 @@ Hertil kommer en national målestok: systemet til støjmæssig klassificering af
 
 **Vilkåret.** Anlægget skal tilpasses landskabet *"i henhold til anvisningerne i VVM redegørelsen"* ([bilag 8, s. 2](https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=2)), og de anviser, at vejen sløres med beplantning, hvor der er nærliggende tæt bebyggelse ([bilag 19, s. 77](https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=77)).
 
-**Status.** Ikke etableret ved Mårslet. Ingen dokumenteret afgørelse om at fravige vilkåret.
+**Status.** Ikke etableret nogen af de steder, anvisningerne forudsætter den — hverken ved Mårslet eller ved Testrup. Ingen dokumenteret afgørelse om at fravige vilkåret.
 
 **Forløbet.**
 
