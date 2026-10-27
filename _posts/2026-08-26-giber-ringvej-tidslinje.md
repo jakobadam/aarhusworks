@@ -94,7 +94,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
           </thead>
           <tbody>
             <tr><td>Kolt — 4 m støjskærm, ca. 1.200 m</td><td class="num">8,2 mio. kr.</td><td><span class="nej">Delvist</span> — langs Torshøjvej er anlagt 4 m volde på ca. 680 af de ca. 1.200 m; byrådet gjorde tiltaget betinget af enighed med Vejdirektoratet om afskærmning mod motorvejen, og om den blev søgt, er ikke oplyst</td></tr>
-            <tr><td>Tranbjerg — skærmen hæves fra 4 til 6 m</td><td class="num">5,4 mio. kr.</td><td><span class="nej">Nej</span> — skærmen står i de 4 m, et andet vilkår kræver</td></tr>
+            <tr><td>Tranbjerg — skærmen hæves fra 4 til 6 m</td><td class="num">5,4 mio. kr.</td><td><span class="nej">Nej</span> — afskærmningen langs Landevejen er 4 m i alt, som et andet vilkår kræver</td></tr>
             <tr><td>Mårslet — 4 m støjskærm, 450 m</td><td class="num">3,1 mio. kr.</td><td><span class="nej">Nej</span></td></tr>
             <tr><td>Det åbne land — tilskud til facadeisolering ved over 58 dB</td><td class="num">op til 2,7 mio. kr.</td><td><span class="nej">Optræder ikke</span> i kommunens opgørelse</td></tr>
             <tr><td>Beder Landevej — afklares senere</td><td class="num">2,0–2,2 mio. kr.</td><td>Vold etableret; kommunen henfører den og en vejflytning til rammen. Flytningen var ifølge kommunens eget tilpasningsnotat begrundet i oversigtsforholdene i krydset, og beløbet er ikke opgjort</td></tr>

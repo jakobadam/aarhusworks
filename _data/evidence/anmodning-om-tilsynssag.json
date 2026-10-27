@@ -538,6 +538,21 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=5|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/d7c46359b99c.webp",
+    "w": 710,
+    "h": 120,
+    "focus": 0.531,
+    "page": 5,
+    "file": "2019-08-06-projektgodkendelse.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=5",
+    "quote": "støjvæg i Tranbjerg",
+    "anchor": "støjvægitranbjerg",
+    "key": "støjvægitranbjerg",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2016-08-cowi-trafikstoej.pdf#page=3|2": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/d3731600b78b.webp",
@@ -1289,6 +1304,21 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf#page=13|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/64844f2af5b0.webp",
+    "w": 1052,
+    "h": 100,
+    "focus": 0.734,
+    "page": "15",
+    "file": "2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf#page=13",
+    "quote": "egenskaberne midt i belægningens levetid",
+    "anchor": "egenskabernemidtibelægningenslevetid",
+    "key": "egenskabernemidtibelægningenslevetid",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=49|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/1b0b7ed9cb34.webp",
@@ -1331,6 +1361,36 @@
     "quote": "Denne sammensætning er typisk anvendt henover de seneste ca. 5 år",
     "anchor": "dennesammensætningertypiskanvendthenoverdesenesteca.5år",
     "key": "dennesammensætningertypiskanvendthenoverdesenesteca.5år",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf#page=13|1": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/f6458f49ff07.webp",
+    "w": 1052,
+    "h": 148,
+    "focus": 0.727,
+    "page": "15",
+    "file": "2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf#page=13",
+    "quote": "en 8 - 9 år gammel såkaldt 'virtuel' belægning, som er gennemsnittet af en skærvemastiksasfalt (SMA 11) og en tæt asfaltbeton (AB 11t)",
+    "anchor": "en89årgammelsåkaldtvirtuelbelægning,somergennemsnittetafenskærvemastiksasfalt(sma11)ogentætasfaltbeton(ab11t)",
+    "key": "en89årgammelsåkaldtvirtuelbelægning,somergennemsnittetafenskærvemastiksasfalt(sma11)ogentætasfaltbeton(ab11t)",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=18|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/45c4d858c0a2.webp",
+    "w": 1051,
+    "h": 153,
+    "focus": 0.574,
+    "page": 18,
+    "file": "2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=18",
+    "quote": "det vurderes, at KVS støjmæssigt svarer til en SMA8 standard belægningskorrektion",
+    "anchor": "detvurderes,atkvsstøjmæssigtsvarertilensmastandardbelægningskorrektion",
+    "key": "detvurderes,atkvsstøjmæssigtsvarertilensmastandardbelægningskorrektion",
     "n": 0
    }
   ],
@@ -1817,6 +1877,21 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2005-miljoestyrelsen-vejledning-6-haandhaevelse-miljoebeskyttelsesloven.pdf#page=18|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/5f141212d18e.webp",
+    "w": 1016,
+    "h": 181,
+    "focus": 0.593,
+    "page": 18,
+    "file": "2005-miljoestyrelsen-vejledning-6-haandhaevelse-miljoebeskyttelsesloven.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2005-miljoestyrelsen-vejledning-6-haandhaevelse-miljoebeskyttelsesloven.pdf#page=18",
+    "quote": "såfremt vilkårene har været så uklare, at der med præciseringer i realiteten træffes en ny afgørelse, dvs. et påbud, så gælder reglerne om forvarsling, klage m.v.",
+    "anchor": "såfremtvilkåreneharværetsåuklare,atdermedpræciseringerirealitetentræffesennyafgørelse,dvs.etpåbud,sågælderreglerneomforvarsling,klagem.v.",
+    "key": "såfremtvilkåreneharværetsåuklare,atdermedpræciseringerirealitetentræffesennyafgørelse,dvs.etpåbud,sågælderreglerneomforvarsling,klagem.v.",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=244|6": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/2aa4adc82592.webp",
@@ -1993,7 +2068,7 @@
     "n": 1
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=5|0": [
+  "https://aarhusworks.com/assets/giber-ringvej/2019-08-06-projektgodkendelse.pdf#page=5|1": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/166db3aaba53.webp",
     "w": 710,
@@ -2680,6 +2755,36 @@
     "quote": "Konsekvenser af lavere støjreducerende effekt af SRS",
     "anchor": "konsekvenseraflaverestøjreducerendeeffektafsrs",
     "key": "konsekvenseraflaverestøjreducerendeeffektafsrs",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/e961c4ca9a76.webp",
+    "w": 1034,
+    "h": 226,
+    "focus": 0.358,
+    "page": 1,
+    "file": "2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=1",
+    "quote": "Tunnel under Marselis Boulevard, skitseprojekt og miljøkonsekvensvurdering – teknisk notat vedrørende støj",
+    "anchor": "tunnelundermarselisboulevard,skitseprojektogmiljøkonsekvensvurderingteknisknotatvedrørendestøj",
+    "key": "tunnelundermarselisboulevard,skitseprojektogmiljøkonsekvensvurderingteknisknotatvedrørendestøj",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2005-miljoestyrelsen-vejledning-6-haandhaevelse-miljoebeskyttelsesloven.pdf|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/a7e8ebdd2ea6.webp",
+    "w": 670,
+    "h": 140,
+    "focus": 0.502,
+    "page": 1,
+    "file": "2005-miljoestyrelsen-vejledning-6-haandhaevelse-miljoebeskyttelsesloven.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2005-miljoestyrelsen-vejledning-6-haandhaevelse-miljoebeskyttelsesloven.pdf#page=1",
+    "quote": "Vejledning om håndhævelse af Miljøbeskyttelsesloven",
+    "anchor": "vejledningomhåndhævelseafmiljøbeskyttelsesloven",
+    "key": "vejledningomhåndhævelseafmiljøbeskyttelsesloven",
     "n": 0
    }
   ]
@@ -5057,6 +5162,15 @@
    "card": true
   },
   {
+   "key": "støjvægitranbjerg",
+   "n": 0,
+   "quote": "støjvæg i Tranbjerg",
+   "state": "ok",
+   "src": "2019-08-06-projektgodkendelse.pdf, s. 5",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
    "key": "en4mhøjstøjskærmlangstorshøjvejoghovedvejenmellemtorshøjvejogtorshøjvængetialtca.1.200m",
    "n": 0,
    "quote": "en 4 m høj støjskærm langs Torshøjvej og Hovedvejen mellem Torshøjvej og Torshøjvænget – i alt ca. 1.200 m",
@@ -5667,6 +5781,15 @@
    "card": true
   },
   {
+   "key": "egenskabernemidtibelægningenslevetid",
+   "n": 0,
+   "quote": "egenskaberne midt i belægningens levetid",
+   "state": "ok",
+   "src": "2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf, s. 13",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
    "key": "iberegningenanvendes1årsbelægningen,hvorimodslitageikkepåandenmådeindgår",
    "n": 0,
    "quote": "I beregningen anvendes 1-års belægningen, hvorimod slitage ikke på anden måde indgår",
@@ -5690,6 +5813,24 @@
    "quote": "Denne sammensætning er typisk anvendt henover de seneste ca. 5 år",
    "state": "ok",
    "src": "2019-08-vejdirektoratet-kvs-asfalt.pdf, s. 2",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "en89årgammelsåkaldtvirtuelbelægning,somergennemsnittetafenskærvemastiksasfalt(sma11)ogentætasfaltbeton(ab11t)",
+   "n": 0,
+   "quote": "en 8 - 9 år gammel såkaldt 'virtuel' belægning, som er gennemsnittet af en skærvemastiksasfalt (SMA 11) og en tæt …",
+   "state": "ok",
+   "src": "2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf, s. 13",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "detvurderes,atkvsstøjmæssigtsvarertilensmastandardbelægningskorrektion",
+   "n": 0,
+   "quote": "det vurderes, at KVS støjmæssigt svarer til en SMA8 standard belægningskorrektion",
+   "state": "ok",
+   "src": "2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf, s. 18",
    "note": "ved henvisningen",
    "card": true
   },
@@ -6351,6 +6492,15 @@
    "quote": "Åbent land-karakter",
    "state": "ok",
    "note": "står i 2019-landsskabstrategi.pdf, s. 1 — intet kort, da det ikke er sikkert, hvilket bilag der menes"
+  },
+  {
+   "key": "såfremtvilkåreneharværetsåuklare,atdermedpræciseringerirealitetentræffesennyafgørelse,dvs.etpåbud,sågælderreglerneomforvarsling,klagem.v.",
+   "n": 0,
+   "quote": "såfremt vilkårene har været så uklare, at der med præciseringer i realiteten træffes en ny afgørelse, dvs. et påbud, …",
+   "state": "ok",
+   "src": "2005-miljoestyrelsen-vejledning-6-haandhaevelse-miljoebeskyttelsesloven.pdf, s. 18",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "beplantedestøjvolde",
@@ -7397,6 +7547,32 @@
    "quote": "Konsekvenser af lavere støjreducerende effekt af SRS",
    "state": "ok",
    "src": "2020-04-01-vejdirektoratet-konsekvenser-srs-erstatning-facadeisolering.pdf",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "håndbognord2000.beregningafvejstøjidanmark",
+   "n": 0,
+   "quote": "Håndbog Nord2000. Beregning af vejstøj i Danmark",
+   "state": "ok",
+   "src": "2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf",
+   "note": "titlen på et bilag i bilagslisten"
+  },
+  {
+   "key": "tunnelundermarselisboulevard,skitseprojektogmiljøkonsekvensvurderingteknisknotatvedrørendestøj",
+   "n": 0,
+   "quote": "Tunnel under Marselis Boulevard, skitseprojekt og miljøkonsekvensvurdering – teknisk notat vedrørende støj",
+   "state": "ok",
+   "src": "2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "vejledningomhåndhævelseafmiljøbeskyttelsesloven",
+   "n": 0,
+   "quote": "Vejledning om håndhævelse af Miljøbeskyttelsesloven",
+   "state": "ok",
+   "src": "2005-miljoestyrelsen-vejledning-6-haandhaevelse-miljoebeskyttelsesloven.pdf",
    "note": "ved henvisningen",
    "card": true
   }
