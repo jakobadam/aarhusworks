@@ -568,6 +568,21 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2021-02-11-vejdirektoratet-virkemiddel-stoejvolde.pdf#page=1|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/8173e20b40fd.webp",
+    "w": 1067,
+    "h": 184,
+    "focus": 0.506,
+    "page": 1,
+    "file": "2021-02-11-vejdirektoratet-virkemiddel-stoejvolde.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2021-02-11-vejdirektoratet-virkemiddel-stoejvolde.pdf#page=1",
+    "quote": "[s]om tommelfingerregel skal en støjvold være optil ca. dobbelt så høj som en støjskærm for at opnå den samme støjreducerende effekt",
+    "anchor": "omtommelfingerregelskalenstøjvoldværeoptilca.dobbeltsåhøjsomenstøjskærmforatopnådensammestøjreducerendeeffekt",
+    "key": "[s]omtommelfingerregelskalenstøjvoldværeoptilca.dobbeltsåhøjsomenstøjskærmforatopnådensammestøjreducerendeeffekt",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=2|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/868e0f1f6bf0.webp",
@@ -2911,6 +2926,22 @@
    ]
   },
   {
+   "key": "dastøjvoldenstoppunktvilliggelængerefravejen(støjkilden)vilderværebehovforatstøjvoldenerrelativthøjereendenstøjskærm",
+   "n": 0,
+   "cards": [
+    {
+     "src": "/assets/evidence/anmodning-om-tilsynssag/e5c4edd3be55.webp",
+     "w": 1067,
+     "h": 158,
+     "focus": 0.491,
+     "page": 1,
+     "file": "2021-02-11-vejdirektoratet-virkemiddel-stoejvolde.pdf",
+     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2021-02-11-vejdirektoratet-virkemiddel-stoejvolde.pdf#page=1",
+     "quote": "da støjvoldens toppunkt vil ligge længere fra vejen (støjkilden) vil der være behov for at støjvolden er relativt højere end en støjskærm"
+    }
+   ]
+  },
+  {
    "key": "tilskudtilstøjdæmpningaffacaderpåboligerbelastetmedmereend58db",
    "n": 0,
    "cards": [
@@ -5040,6 +5071,23 @@
    "quote": "ikke var indeholdt i det oprindelige projektforslag",
    "state": "ok",
    "src": "2019-vvm-tilpasninger.pdf, s. 3",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "dastøjvoldenstoppunktvilliggelængerefravejen(støjkilden)vilderværebehovforatstøjvoldenerrelativthøjereendenstøjskærm",
+   "n": 0,
+   "quote": "da støjvoldens toppunkt vil ligge længere fra vejen (støjkilden) vil der være behov for at støjvolden er relativt …",
+   "state": "ok",
+   "card": true,
+   "note": "kort fra det eneste citerede dokument, der indeholder citatet"
+  },
+  {
+   "key": "[s]omtommelfingerregelskalenstøjvoldværeoptilca.dobbeltsåhøjsomenstøjskærmforatopnådensammestøjreducerendeeffekt",
+   "n": 0,
+   "quote": "[s]om tommelfingerregel skal en støjvold være optil ca. dobbelt så høj som en støjskærm for at opnå den samme …",
+   "state": "ok",
+   "src": "2021-02-11-vejdirektoratet-virkemiddel-stoejvolde.pdf, s. 1",
    "note": "ved henvisningen",
    "card": true
   },
