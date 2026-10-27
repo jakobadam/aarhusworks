@@ -1319,21 +1319,6 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=49|0": [
-   {
-    "src": "/assets/evidence/anmodning-om-tilsynssag/1b0b7ed9cb34.webp",
-    "w": 907,
-    "h": 185,
-    "focus": 0.5,
-    "page": 49,
-    "file": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf",
-    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf#page=49",
-    "quote": "I beregningen anvendes 1-års belægningen, hvorimod slitage ikke på anden måde indgår",
-    "anchor": "iberegningenanvendes1årsbelægningen,hvorimodslitageikkepåandenmådeindgår",
-    "key": "iberegningenanvendes1årsbelægningen,hvorimodslitageikkepåandenmådeindgår",
-    "n": 0
-   }
-  ],
   "https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf#page=19|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/e5ed83853d86.webp",
@@ -5786,15 +5771,6 @@
    "quote": "egenskaberne midt i belægningens levetid",
    "state": "ok",
    "src": "2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf, s. 13",
-   "note": "ved henvisningen",
-   "card": true
-  },
-  {
-   "key": "iberegningenanvendes1årsbelægningen,hvorimodslitageikkepåandenmådeindgår",
-   "n": 0,
-   "quote": "I beregningen anvendes 1-års belægningen, hvorimod slitage ikke på anden måde indgår",
-   "state": "ok",
-   "src": "2025-04-07-dom-retten-i-aarhus-bs-38128-2021-arh.pdf, s. 49",
    "note": "ved henvisningen",
    "card": true
   },
