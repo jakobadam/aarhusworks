@@ -997,21 +997,6 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=4|0": [
-   {
-    "src": "/assets/evidence/anmodning-om-tilsynssag/bd0bb0aba4c6.webp",
-    "w": 1020,
-    "h": 161,
-    "focus": 0.494,
-    "page": 2,
-    "file": "2019-08-vejdirektoratet-kvs-asfalt.pdf",
-    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2",
-    "quote": "opgjort ved den normale tilgang til at relatere støjreduktion fra en accepteret reference, SMA11",
-    "anchor": "opgjortveddennormaletilgangtilatrelaterestøjreduktionfraenaccepteretreference,sma",
-    "key": "opgjortveddennormaletilgangtilatrelaterestøjreduktionfraenaccepteretreference,sma",
-    "n": 0
-   }
-  ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=1|1": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/65f9d24217c2.webp",
@@ -1331,21 +1316,6 @@
     "quote": "Støjniveauet langs de veje der får støjreducerende belægninger forventes at falde med 1,5 til 4 dB. Den største dæmpning vil opleves i belægningens første leveår. Efter ca. 3 år er effekten halveret.",
     "anchor": "støjniveauetlangsdevejederfårstøjreducerendebelægningerforventesatfaldemed1,5til4db.denstørstedæmpningviloplevesibelægningensførsteleveår.efterca.3årereffektenhalveret.",
     "key": "støjniveauetlangsdevejederfårstøjreducerendebelægningerforventesatfaldemed1,5til4db.denstørstedæmpningviloplevesibelægningensførsteleveår.efterca.3årereffektenhalveret.",
-    "n": 0
-   }
-  ],
-  "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2|2": [
-   {
-    "src": "/assets/evidence/anmodning-om-tilsynssag/63b9fd83d262.webp",
-    "w": 1020,
-    "h": 90,
-    "focus": 0.42,
-    "page": 2,
-    "file": "2019-08-vejdirektoratet-kvs-asfalt.pdf",
-    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2",
-    "quote": "Denne sammensætning er typisk anvendt henover de seneste ca. 5 år",
-    "anchor": "dennesammensætningertypiskanvendthenoverdesenesteca.5år",
-    "key": "dennesammensætningertypiskanvendthenoverdesenesteca.5år",
     "n": 0
    }
   ],
@@ -1754,6 +1724,21 @@
     "quote": "landskabeligt tilpassede støjvolde",
     "anchor": "landskabeligttilpassedestøjvolde",
     "key": "landskabeligttilpassedestøjvolde",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=150|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/7cc12d941a8f.webp",
+    "w": 1017,
+    "h": 93,
+    "focus": 0.509,
+    "page": 150,
+    "file": "2013-vvm.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=150",
+    "quote": "kompensere for fældning af 9.650 m2 fredskov",
+    "anchor": "kompensereforfældningaf9.650mfredskov",
+    "key": "kompensereforfældningaf9.650mfredskov",
     "n": 0
    }
   ],
@@ -5505,15 +5490,6 @@
    "card": true
   },
   {
-   "key": "opgjortveddennormaletilgangtilatrelaterestøjreduktionfraenaccepteretreference,sma",
-   "n": 0,
-   "quote": "opgjort ved den normale tilgang til at relatere støjreduktion fra en accepteret reference, SMA11",
-   "state": "ok",
-   "src": "2019-08-vejdirektoratet-kvs-asfalt.pdf, s. 4",
-   "note": "ved henvisningen",
-   "card": true
-  },
-  {
    "key": "figur1visningafkvsstøjreducerendeegenskaberovertidforkvs,sammenlignetmedensma,smaogsrs",
    "n": 0,
    "quote": "Figur 1 – visning af KVS støjreducerende egenskaber over tid for KVS, sammenlignet med en SMA8, SMA11 og SRS",
@@ -5780,15 +5756,6 @@
    "quote": "Støjniveauet langs de veje der får støjreducerende belægninger forventes at falde med 1,5 til 4 dB. Den største …",
    "state": "ok",
    "src": "AAK-2018.pdf, s. 19",
-   "note": "ved henvisningen",
-   "card": true
-  },
-  {
-   "key": "dennesammensætningertypiskanvendthenoverdesenesteca.5år",
-   "n": 0,
-   "quote": "Denne sammensætning er typisk anvendt henover de seneste ca. 5 år",
-   "state": "ok",
-   "src": "2019-08-vejdirektoratet-kvs-asfalt.pdf, s. 2",
    "note": "ved henvisningen",
    "card": true
   },
@@ -6300,6 +6267,15 @@
    "src": "LANDZONETILLADELSE 201901867 støjvold Ingerslevvej 5 8310 Tranbjerg J matr nr 16k.PDF",
    "card": true,
    "note": "kort fra nærmeste henvisning før citatet i afsnittet"
+  },
+  {
+   "key": "kompensereforfældningaf9.650mfredskov",
+   "n": 0,
+   "quote": "kompensere for fældning af 9.650 m2 fredskov",
+   "state": "ok",
+   "src": "2013-vvm.pdf, s. 150",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "eventueltsløresmedbeplantning",
