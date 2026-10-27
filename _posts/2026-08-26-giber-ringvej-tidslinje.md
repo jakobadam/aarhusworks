@@ -11,7 +11,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
 <p class="timeline-kicker" markdown="span">Tidslinje · opdateret 22. oktober 2026</p>
 <div class="timeline-deck">
   <p markdown="span">I 2016 besluttede Aarhus Byråd at bruge ca. 20 mio. kr. på mere støjdæmpning langs den nye Giber Ringvej. Grundlaget var konkret: fem prissatte tiltag, heraf nye støjskærme ved Kolt og Mårslet og en forhøjelse af skærmen i Tranbjerg. Beslutningen blev et bindende vilkår i vejens miljøtilladelse (VVM-tilladelsen).</p>
-  <p markdown="span">Ingen af de tre skærmtiltag er gennemført. Kommunen har ikke ført regnskab med pengene, og dens eneste opgørelse — som den selv har kaldt misvisende — tæller i stedet jordvolde, en vejsænkning og den skærm, vejen under alle omstændigheder skulle have. Træerne, der skulle skjule vejen, er ikke plantet. Ved Mårslet er de ifølge rådgiveren [*"formegentlig fravalgt af økonomiske årsager"*](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-notat-redegoerelse-for-beplantning.pdf#page=4). Og hvor meget den støjdæmpende asfalt dæmper, har kommunen ikke oplyst.</p>
+  <p markdown="span">Ingen af de tre skærmtiltag er gennemført som besluttet. Kommunen har ikke ført regnskab med pengene, og dens eneste opgørelse — som den selv har kaldt misvisende — tæller i stedet jordvolde, en vejsænkning og den skærm, vejen under alle omstændigheder skulle have. Træerne, der skulle skjule vejen, er ikke plantet. Ved Mårslet er de ifølge rådgiveren [*"formegentlig fravalgt af økonomiske årsager"*](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-notat-redegoerelse-for-beplantning.pdf#page=4). Og hvor meget den støjdæmpende asfalt dæmper, har kommunen ikke oplyst.</p>
   <p markdown="span">Kommunen fastholder, at vilkårene er opfyldt. Tidslinjen viser forløbet med links til kommunens egne dokumenter, de fleste udleveret ved aktindsigt.</p>
 </div>
 
@@ -21,7 +21,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <span class="track-nr"><a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=3">Vilkår 7 &rsaquo;</a></span>
     <span class="track-name">Pulje på ca. 20 mio. kr.</span>
     <p class="track-req" markdown="span">Der skal *suppleres* med øget støjdæmpning ved Tranbjerg, Mårslet, Kolt, Beder Landevej og i det åbne land.</p>
-    <p class="track-status" markdown="span">**Status:** Hverken de to nye skærme eller forhøjelsen i Tranbjerg er gennemført, og tilskud til facadeisolering ses ikke givet. Der er ikke ført regnskab.</p>
+    <p class="track-status" markdown="span">**Status:** Skærmen ved Mårslet og forhøjelsen i Tranbjerg er ikke gennemført, ved Kolt er der kun anlagt volde på en del af strækningen, og tilskud til facadeisolering ses ikke givet. Der er ikke ført regnskab.</p>
   </div>
 
   <div class="track track--belaegning">
@@ -93,7 +93,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
             <tr><th>Tiltag (<a href="/assets/giber-ringvej/2016-08-cowi-trafikstoej.pdf">COWI, aug. 2016</a>)</th><th class="num">Pris</th><th>Gennemført</th></tr>
           </thead>
           <tbody>
-            <tr><td>Kolt — 4 m støjskærm, ca. 1.200 m</td><td class="num">8,2 mio. kr.</td><td><span class="nej">Nej</span> — byrådet gjorde tiltaget betinget af enighed med Vejdirektoratet om afskærmning mod motorvejen; om den blev søgt, er ikke oplyst</td></tr>
+            <tr><td>Kolt — 4 m støjskærm, ca. 1.200 m</td><td class="num">8,2 mio. kr.</td><td><span class="nej">Delvist</span> — langs Torshøjvej er anlagt 4 m volde på ca. 680 af de ca. 1.200 m; byrådet gjorde tiltaget betinget af enighed med Vejdirektoratet om afskærmning mod motorvejen, og om den blev søgt, er ikke oplyst</td></tr>
             <tr><td>Tranbjerg — skærmen hæves fra 4 til 6 m</td><td class="num">5,4 mio. kr.</td><td><span class="nej">Nej</span> — skærmen står i de 4 m, et andet vilkår kræver</td></tr>
             <tr><td>Mårslet — 4 m støjskærm, 450 m</td><td class="num">3,1 mio. kr.</td><td><span class="nej">Nej</span></td></tr>
             <tr><td>Det åbne land — tilskud til facadeisolering ved over 58 dB</td><td class="num">op til 2,7 mio. kr.</td><td><span class="nej">Optræder ikke</span> i kommunens opgørelse</td></tr>
@@ -301,10 +301,10 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
 <div class="ovrige ovrige--liste">
   <p class="ovrige-title" markdown="span">Det har kommunen ikke oplyst</p>
   <ul>
-    <li markdown="span">Hvorfor de to skærme og forhøjelsen, byrådet besluttede, ikke blev gennemført — og hvem der besluttede det.</li>
+    <li markdown="span">Hvorfor de to skærme og forhøjelsen, byrådet besluttede, ikke blev gennemført som besluttet — og hvem der besluttede det.</li>
     <li markdown="span">Hvad de ca. 20 mio. kr. konkret er brugt til, og hvad hvert tiltag kostede.</li>
     <li markdown="span">Om der er givet tilskud til facadeisolering i det åbne land.</li>
-    <li markdown="span">Om skærmen ved Kolt bortfaldt, fordi der ikke kunne opnås enighed med Vejdirektoratet — og hvad de 8,2 mio. kr. i så fald gik til.</li>
+    <li markdown="span">Hvorfor afskærmningen ved Kolt kun er anlagt på en del af strækningen — og om betingelsen om enighed med Vejdirektoratet blev søgt opfyldt.</li>
     <li markdown="span">Hvilke af de 16 volde der ifølge kommunen ikke er støjvolde.</li>
     <li markdown="span">Hvor meget den udlagte asfalt dæmper — og sammenlignet med hvad.</li>
   </ul>

@@ -538,33 +538,33 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf|0": [
+  "https://aarhusworks.com/assets/giber-ringvej/2016-08-cowi-trafikstoej.pdf#page=3|2": [
    {
-    "src": "/assets/evidence/anmodning-om-tilsynssag/113300048121.webp",
-    "w": 1003,
-    "h": 681,
-    "focus": 0.5,
-    "page": 1,
-    "file": "2019-landsskabstrategi.pdf",
-    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf#page=1",
-    "quote": "Visuel støjskærmning (beplantning) nordside af vej",
-    "anchor": "visuelstøjskærmning(beplantning)nordsideafvej",
-    "key": "visuelstøjskærmning(beplantning)nordsideafvej",
+    "src": "/assets/evidence/anmodning-om-tilsynssag/d3731600b78b.webp",
+    "w": 1042,
+    "h": 128,
+    "focus": 0.597,
+    "page": 3,
+    "file": "2016-08-cowi-trafikstoej.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2016-08-cowi-trafikstoej.pdf#page=3",
+    "quote": "en 4 m høj støjskærm langs Torshøjvej og Hovedvejen mellem Torshøjvej og Torshøjvænget – i alt ca. 1.200 m",
+    "anchor": "en4mhøjstøjskærmlangstorshøjvejoghovedvejenmellemtorshøjvejogtorshøjvængetialtca.1.200m",
+    "key": "en4mhøjstøjskærmlangstorshøjvejoghovedvejenmellemtorshøjvejogtorshøjvængetialtca.1.200m",
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf#page=1|0": [
+  "https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf#page=3|0": [
    {
-    "src": "/assets/evidence/anmodning-om-tilsynssag/321bb28fa72e.webp",
-    "w": 1020,
-    "h": 104,
-    "focus": 0.388,
-    "page": 1,
-    "file": "2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf",
-    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf#page=1",
-    "quote": "mellem rundkørsel og Mustrupvej",
-    "anchor": "mellemrundkørselogmustrupvej",
-    "key": "mellemrundkørselogmustrupvej",
+    "src": "/assets/evidence/anmodning-om-tilsynssag/e295737bd9dc.webp",
+    "w": 949,
+    "h": 94,
+    "focus": 0.664,
+    "page": 3,
+    "file": "2019-vvm-tilpasninger.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-vvm-tilpasninger.pdf#page=3",
+    "quote": "ikke var indeholdt i det oprindelige projektforslag",
+    "anchor": "ikkevarindeholdtidetoprindeligeprojektforslag",
+    "key": "ikkevarindeholdtidetoprindeligeprojektforslag",
     "n": 0
    }
   ],
@@ -937,6 +937,21 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=252|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/49a446b27d6e.webp",
+    "w": 1020,
+    "h": 96,
+    "focus": 0.597,
+    "page": 252,
+    "file": "2013-vvm.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=252",
+    "quote": "[p]å nye vejstrækninger er … regnet med ny og mindre støjende asfaltbelægning",
+    "anchor": "ånyevejstrækningerer",
+    "key": "[p]ånyevejstrækningerer...regnetmednyogmindrestøjendeasfaltbelægning",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2|1": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/008783511335.webp",
@@ -1039,6 +1054,21 @@
     "quote": "en almindelig landevej til 80 km/t",
     "anchor": "enalmindeliglandevejtil80km/t",
     "key": "enalmindeliglandevejtil80km/t",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=4|2": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/e7f5423c4fca.webp",
+    "w": 1016,
+    "h": 160,
+    "focus": 0.493,
+    "page": 4,
+    "file": "2019-08-vejdirektoratet-kvs-asfalt.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=4",
+    "quote": "2,3 dB relativt til den standardiserede reference",
+    "anchor": "2,3dbrelativttildenstandardiseredereference",
+    "key": "2,3dbrelativttildenstandardiseredereference",
     "n": 0
    }
   ],
@@ -1158,7 +1188,7 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3|10": [
+  "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3|11": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/fb564e44e4d8.webp",
     "w": 1009,
@@ -1274,6 +1304,21 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2|2": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/63b9fd83d262.webp",
+    "w": 1020,
+    "h": 90,
+    "focus": 0.42,
+    "page": 2,
+    "file": "2019-08-vejdirektoratet-kvs-asfalt.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2",
+    "quote": "Denne sammensætning er typisk anvendt henover de seneste ca. 5 år",
+    "anchor": "dennesammensætningertypiskanvendthenoverdesenesteca.5år",
+    "key": "dennesammensætningertypiskanvendthenoverdesenesteca.5år",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2019-10-vejdirektoratet-tru-orientering-om-kvs-asfalt.pdf#page=1|4": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/f7f06e34f928.webp",
@@ -1317,7 +1362,7 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf|1": [
+  "https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/113300048121.webp",
     "w": 1003,
@@ -1329,7 +1374,7 @@
     "quote": "Visuel støjskærmning (beplantning) nordside af vej",
     "anchor": "visuelstøjskærmning(beplantning)nordsideafvej",
     "key": "visuelstøjskærmning(beplantning)nordsideafvej",
-    "n": 1
+    "n": 0
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2025-08-notat-redegørelse-for-beplantning.pdf#page=4|1": [
@@ -1581,7 +1626,7 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf|2": [
+  "https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf|1": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/5c8abe7eb527.webp",
     "w": 807,
@@ -1606,10 +1651,10 @@
     "quote": "Visuel støjskærmning (beplantning) nordside af vej",
     "anchor": "visuelstøjskærmning(beplantning)nordsideafvej",
     "key": "visuelstøjskærmning(beplantning)nordsideafvej",
-    "n": 2
+    "n": 1
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf|3": [
+  "https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf|2": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/4b0a0985213c.webp",
     "w": 929,
@@ -1742,7 +1787,7 @@
     "n": 1
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf#page=1|2": [
+  "https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf#page=1|1": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/382072c4d7cd.webp",
     "w": 1020,
@@ -1755,6 +1800,21 @@
     "anchor": "begrænsetiforholdtil,atviikkekaneksproprierearealtilbeplantning",
     "key": "begrænsetiforholdtil,atviikkekaneksproprierearealtilbeplantning(...)alternativtvilviundersøgeomvejrabattenmellemrundkørselogmustrupvejerbrednoktil,atvikanlavenogetbeplantningder",
     "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=244|6": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/2aa4adc82592.webp",
+    "w": 1020,
+    "h": 128,
+    "focus": 0.638,
+    "page": 244,
+    "file": "2013-vvm.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2013-vvm.pdf#page=244",
+    "quote": "beplantede støjvolde",
+    "anchor": "beplantedestøjvolde",
+    "key": "beplantedestøjvolde",
+    "n": 1
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf|5": [
@@ -3556,7 +3616,7 @@
   },
   {
    "key": "visuelstøjskærmning(beplantning)nordsideafvej",
-   "n": 3,
+   "n": 2,
    "cards": [
     {
      "src": "/assets/evidence/anmodning-om-tilsynssag/113300048121.webp",
@@ -3668,7 +3728,7 @@
   },
   {
    "key": "mellemrundkørselogmustrupvej",
-   "n": 1,
+   "n": 0,
    "cards": [
     {
      "src": "/assets/evidence/anmodning-om-tilsynssag/321bb28fa72e.webp",
@@ -4966,20 +5026,20 @@
    "card": true
   },
   {
-   "key": "visuelstøjskærmning(beplantning)nordsideafvej",
+   "key": "en4mhøjstøjskærmlangstorshøjvejoghovedvejenmellemtorshøjvejogtorshøjvængetialtca.1.200m",
    "n": 0,
-   "quote": "Visuel støjskærmning (beplantning) nordside af vej",
+   "quote": "en 4 m høj støjskærm langs Torshøjvej og Hovedvejen mellem Torshøjvej og Torshøjvænget – i alt ca. 1.200 m",
    "state": "ok",
-   "src": "2019-landsskabstrategi.pdf",
+   "src": "2016-08-cowi-trafikstoej.pdf, s. 3",
    "note": "ved henvisningen",
    "card": true
   },
   {
-   "key": "mellemrundkørselogmustrupvej",
+   "key": "ikkevarindeholdtidetoprindeligeprojektforslag",
    "n": 0,
-   "quote": "mellem rundkørsel og Mustrupvej",
+   "quote": "ikke var indeholdt i det oprindelige projektforslag",
    "state": "ok",
-   "src": "2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf, s. 1",
+   "src": "2019-vvm-tilpasninger.pdf, s. 3",
    "note": "ved henvisningen",
    "card": true
   },
@@ -5280,6 +5340,15 @@
    "card": true
   },
   {
+   "key": "[p]ånyevejstrækningerer...regnetmednyogmindrestøjendeasfaltbelægning",
+   "n": 0,
+   "quote": "[p]å nye vejstrækninger er … regnet med ny og mindre støjende asfaltbelægning",
+   "state": "ok",
+   "src": "2013-vvm.pdf, s. 252",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
    "key": "[d]ennefordelingskaldermedsessomdetalternativtiludlægningenafkvs,somkvsholdesopmod",
    "n": 0,
    "quote": "[d]enne fordeling skal dermed ses som det alternativ til udlægningen af KVS, som KVS holdes op mod",
@@ -5374,6 +5443,15 @@
    "card": true
   },
   {
+   "key": "2,3dbrelativttildenstandardiseredereference",
+   "n": 0,
+   "quote": "2,3 dB relativt til den standardiserede reference",
+   "state": "ok",
+   "src": "2019-08-vejdirektoratet-kvs-asfalt.pdf, s. 4",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
    "key": "engennemsnitligstøjdæmpningoverslidlageneslevetidpåopmod4dbiforholdtiltætasfaltbetonbelægningog4,5dbiforholdtilsma",
    "n": 0,
    "quote": "en gennemsnitlig støjdæmpning over slidlagenes levetid på op mod 4 dB i forhold til tæt asfaltbeton belægning og 4,5 …",
@@ -5437,6 +5515,7 @@
    "n": 0,
    "quote": "en ændring i forudsætningen for støjudsendelsen på 1,1 dB",
    "state": "ok",
+   "src": "2026-03-ramboell-kommentering-af-faktaark.pdf, s. 3",
    "card": true,
    "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   },
@@ -5558,6 +5637,15 @@
    "card": true
   },
   {
+   "key": "dennesammensætningertypiskanvendthenoverdesenesteca.5år",
+   "n": 0,
+   "quote": "Denne sammensætning er typisk anvendt henover de seneste ca. 5 år",
+   "state": "ok",
+   "src": "2019-08-vejdirektoratet-kvs-asfalt.pdf, s. 2",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
    "key": "mindrestøjendeslidlagstyper(sma8stdellersma8kvs)",
    "n": 0,
    "quote": "mindre støjende slidlagstyper (SMA 8 std eller SMA 8 KVS)",
@@ -5586,7 +5674,7 @@
   },
   {
    "key": "visuelstøjskærmning(beplantning)nordsideafvej",
-   "n": 1,
+   "n": 0,
    "quote": "Visuel støjskærmning (beplantning) nordside af vej",
    "state": "ok",
    "src": "2019-landsskabstrategi.pdf",
@@ -5980,7 +6068,7 @@
   },
   {
    "key": "visuelstøjskærmning(beplantning)nordsideafvej",
-   "n": 2,
+   "n": 1,
    "quote": "Visuel støjskærmning (beplantning) nordside af vej",
    "state": "ok",
    "src": "2019-landsskabstrategi.pdf",
@@ -6068,7 +6156,7 @@
   },
   {
    "key": "visuelstøjskærmning(beplantning)nordsideafvej",
-   "n": 3,
+   "n": 2,
    "quote": "Visuel støjskærmning (beplantning) nordside af vej",
    "state": "ok",
    "src": "2013-vvm.pdf, s. 77",
@@ -6184,12 +6272,12 @@
   },
   {
    "key": "mellemrundkørselogmustrupvej",
-   "n": 1,
+   "n": 0,
    "quote": "mellem rundkørsel og Mustrupvej",
    "state": "ok",
    "src": "2013-vvm.pdf, s. 77",
    "card": true,
-   "note": "kort fra samme citat ved dets henvisning"
+   "note": "kort fra det eneste citerede dokument, der indeholder citatet"
   },
   {
    "key": "[h]vorderernærliggendetætbebyggelse",
@@ -6215,6 +6303,15 @@
    "quote": "Åbent land-karakter",
    "state": "ok",
    "note": "står i 2019-landsskabstrategi.pdf, s. 1 — intet kort, da det ikke er sikkert, hvilket bilag der menes"
+  },
+  {
+   "key": "beplantedestøjvolde",
+   "n": 1,
+   "quote": "beplantede støjvolde",
+   "state": "ok",
+   "src": "2013-vvm.pdf, s. 244",
+   "note": "ved henvisningen",
+   "card": true
   },
   {
    "key": "formegentligfravalgtaføkonomiskeårsager",
