@@ -8,10 +8,10 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
 
 <div class="timeline-wrap">
 
-<p class="timeline-kicker" markdown="span">Tidslinje · opdateret 22. oktober 2026</p>
+<p class="timeline-kicker" markdown="span">Tidslinje · opdateret 28. oktober 2026</p>
 <div class="timeline-deck">
   <p markdown="span">I 2016 besluttede Aarhus Byråd at bruge ca. 20 mio. kr. på mere støjdæmpning langs den nye Giber Ringvej. Grundlaget var konkret: fem prissatte tiltag, heraf nye støjskærme ved Kolt og Mårslet og en forhøjelse af skærmen i Tranbjerg. Beslutningen blev et bindende vilkår i vejens miljøtilladelse (VVM-tilladelsen).</p>
-  <p markdown="span">Ingen af de tre skærmtiltag er gennemført som besluttet. Kommunen har ikke ført regnskab med pengene, og dens eneste opgørelse — som den selv har kaldt misvisende — tæller i stedet jordvolde, en vejsænkning og den skærm, vejen under alle omstændigheder skulle have. Træerne, der skulle skjule vejen, er ikke plantet. Ved Mårslet er de ifølge rådgiveren [*"formegentlig fravalgt af økonomiske årsager"*](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-notat-redegoerelse-for-beplantning.pdf#page=4). Og hvor meget den støjdæmpende asfalt dæmper, har kommunen ikke oplyst.</p>
+  <p markdown="span">Ingen af de tre skærmtiltag er gennemført som besluttet. Kommunen har ikke ført regnskab med pengene, og dens eneste opgørelse — som den selv har kaldt misvisende — tæller i stedet jordvolde, en vejsænkning og den skærm, vejen under alle omstændigheder skulle have. Træerne, der skulle skjule vejen, er ikke plantet. Ved Mårslet er de ifølge rådgiveren [*"formegentlig fravalgt af økonomiske årsager"*](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-notat-redegoerelse-for-beplantning.pdf#page=4). Og den asfalt, kommunen kalder støjreducerende, regner Vejdirektoratet selv som [almindelig standardasfalt](https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=18).</p>
   <p markdown="span">Kommunen fastholder, at vilkårene er opfyldt. Tidslinjen viser forløbet med links til kommunens egne dokumenter, de fleste udleveret ved aktindsigt.</p>
 </div>
 
@@ -28,7 +28,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <span class="track-nr"><a href="/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=3">Vilkår 5 &rsaquo;</a></span>
     <span class="track-name">Støjdæmpende asfalt</span>
     <p class="track-req" markdown="span">Hele vejen skal have støjdæmpende belægning. Projektet forudsatte en støjreducerende SRS-asfalt.</p>
-    <p class="track-status" markdown="span">**Status:** Der er lagt en anden asfalt (KVS). Kommunen har ikke oplyst, hvor meget den dæmper.</p>
+    <p class="track-status" markdown="span">**Status:** Der er lagt en anden asfalt (KVS), som Vejdirektoratet regner som almindelig standardasfalt. Kommunen har ikke oplyst, hvor meget den dæmper.</p>
   </div>
 
   <div class="track track--beplantning">
@@ -274,11 +274,11 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <div class="tl-body">
       <span class="tl-spor tl-spor--belaegning">Spor · Asfalt</span>
       <span class="tl-tag">Vilkår 5</span>
-      <p class="tl-title" markdown="span">Den støjdæmpende asfalt, ingen kan sætte tal på</p>
-      <p class="tl-text" markdown="span">Projektet forudsatte ifølge Rambøll *"den typisk valgte belægning til dette formål (...) en SRS"* ([notatet, s. 3](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3)). Der blev i stedet lagt KVS — klimavenligt slidlag. Vejdirektoratets tal for KVS' støjreduktion er opgjort alene mod SMA11, skønt notatet selv fastslår, at det er statsvejnettets blanding af ca. 70 % SMA8 og 30 % SMA11, *"som KVS holdes op mod"* ([notatet, s. 2](https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2)). Gruppen spørger i april 2026, hvad asfalten er sammenlignet med, hvilken type der er lagt, og hvor meget den dokumenteret dæmper ([afklaringsnotat 1](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf)). Ingen af spørgsmålene er besvaret.</p>
+      <p class="tl-title" markdown="span">Den "støjdæmpende" asfalt regnes som almindelig asfalt</p>
+      <p class="tl-text" markdown="span">Projektet forudsatte ifølge Rambøll *"den typisk valgte belægning til dette formål (...) en SRS"* ([notatet, s. 3](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3)). Der blev i stedet lagt KVS — klimavenligt slidlag. Kommunen skriver i 2024, at KVS *"har støjreducerende egenskaber"* ([svaret](https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf#page=1)). Men i Vejdirektoratets egne støjberegninger regnes KVS som almindelig standardasfalt: *"det vurderes, at KVS støjmæssigt svarer til en SMA8 standard belægningskorrektion"* ([COWI for Vejdirektoratet, 2024, s. 18](https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=18)). De ca. 2 dB, KVS fremhæves for, er målt mod den grovere SMA11. Gruppen spørger i april 2026, hvad asfalten er sammenlignet med, hvilken type der er lagt, og hvor meget den dokumenteret dæmper ([afklaringsnotat 1](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf)). Ingen af spørgsmålene er besvaret.</p>
       <figure class="tl-fig">
         <img src="/assets/giber-ringvej/klage/2019-vejdirektoratet-kvs-figur1-stoejtrendlinjer-kvs-sma8-sma11-srs.png" alt="Vejdirektoratets graf over støjudviklingen for asfalttyperne SMA8, SMA11, SRS og KVS som funktion af belægningens alder. Ved nyudlægning ligger SRS lavest, dernæst SMA8, så KVS og øverst SMA11.">
-        <figcaption markdown="span">**Vejdirektoratets egen figur.** Nylagt er KVS (gul) den mest støjende af de tre alternativer: 98,0 dB mod SMA8's 96,9 og SRS'ens 96,6. Over levetiden følges KVS og standardasfalten SMA8 (grøn) inden for ca. 1 dB. Den reduktion på ca. 2 dB, KVS fremhæves for, er målt mod den grovere SMA11 (blå). Kilde: [Vejdirektoratet, august 2019, figur 1](https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=4).</figcaption>
+        <figcaption markdown="span">**Vejdirektoratets egen figur.** Nylagt er KVS (gul) den mest støjende af de tre alternativer: 98,0 dB mod SMA8's 96,9 og SRS'ens 96,6. Over levetiden følges KVS og standardasfalten SMA8 (grøn) inden for ca. 1 dB. Figuren viser regressionslinjer, ikke enkeltmålinger. Kilde: [Vejdirektoratet, august 2019, figur 1](https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=4).</figcaption>
       </figure>
     </div>
   </li>

@@ -270,18 +270,33 @@
     "n": 0
    }
   ],
-  "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2|0": [
+  "https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf#page=1|0": [
    {
-    "src": "/assets/evidence/giber-ringvej-tidslinje/85a83d49d667.webp",
-    "w": 1020,
-    "h": 147,
-    "focus": 0.349,
-    "page": 2,
-    "file": "2019-08-vejdirektoratet-kvs-asfalt.pdf",
-    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-08-vejdirektoratet-kvs-asfalt.pdf#page=2",
-    "quote": "som KVS holdes op mod",
-    "anchor": "somkvsholdesopmod",
-    "key": "somkvsholdesopmod",
+    "src": "/assets/evidence/giber-ringvej-tidslinje/fd6a725cc414.webp",
+    "w": 1031,
+    "h": 146,
+    "focus": 0.484,
+    "page": 1,
+    "file": "2024-09-03-GRG-spoergsmaal-til-mtm.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf#page=1",
+    "quote": "har støjreducerende egenskaber",
+    "anchor": "harstøjreducerendeegenskaber",
+    "key": "harstøjreducerendeegenskaber",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=18|1": [
+   {
+    "src": "/assets/evidence/giber-ringvej-tidslinje/45c4d858c0a2.webp",
+    "w": 1051,
+    "h": 153,
+    "focus": 0.574,
+    "page": 18,
+    "file": "2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=18",
+    "quote": "det vurderes, at KVS støjmæssigt svarer til en SMA8 standard belægningskorrektion",
+    "anchor": "detvurderes,atkvsstøjmæssigtsvarertilensmastandardbelægningskorrektion",
+    "key": "detvurderes,atkvsstøjmæssigtsvarertilensmastandardbelægningskorrektion",
     "n": 0
    }
   ],
@@ -1061,11 +1076,20 @@
    "card": true
   },
   {
-   "key": "somkvsholdesopmod",
+   "key": "harstøjreducerendeegenskaber",
    "n": 0,
-   "quote": "som KVS holdes op mod",
+   "quote": "har støjreducerende egenskaber",
    "state": "ok",
-   "src": "2019-08-vejdirektoratet-kvs-asfalt.pdf, s. 2",
+   "src": "2024-09-03-GRG-spoergsmaal-til-mtm.pdf, s. 1",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "detvurderes,atkvsstøjmæssigtsvarertilensmastandardbelægningskorrektion",
+   "n": 0,
+   "quote": "det vurderes, at KVS støjmæssigt svarer til en SMA8 standard belægningskorrektion",
+   "state": "ok",
+   "src": "2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf, s. 18",
    "note": "ved henvisningen",
    "card": true
   },
