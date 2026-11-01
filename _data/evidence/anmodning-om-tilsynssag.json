@@ -1349,6 +1349,36 @@
     "n": 0
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/Projekteringsm%C3%B8de%2023-01-2019.pdf#page=8|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/62d80fff9377.webp",
+    "w": 982,
+    "h": 87,
+    "focus": 0.332,
+    "page": 8,
+    "file": "Projekteringsmøde 23-01-2019.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/Projekteringsm%C3%B8de%2023-01-2019.pdf#page=8",
+    "quote": "[d]er er regnet med støjreducerende asfalt i støjberegningen",
+    "anchor": "ererregnetmedstøjreducerendeasfaltistøjberegningen",
+    "key": "[d]ererregnetmedstøjreducerendeasfaltistøjberegningen",
+    "n": 0
+   }
+  ],
+  "https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/Projekteringsm%C3%B8de%2023-01-2019.pdf#page=6|0": [
+   {
+    "src": "/assets/evidence/anmodning-om-tilsynssag/710a453dc56e.webp",
+    "w": 982,
+    "h": 122,
+    "focus": 0.359,
+    "page": 6,
+    "file": "Projekteringsmøde 23-01-2019.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/aktindsigt-20-mio/Projekteringsm%C3%B8de%2023-01-2019.pdf#page=6",
+    "quote": "har kigget på muligheden for anvendelse af klimaasfalt",
+    "anchor": "harkiggetpåmulighedenforanvendelseafklimaasfalt",
+    "key": "harkiggetpåmulighedenforanvendelseafklimaasfalt",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/aak-stoejhandlingsplan-2024/handlingsplaner/AAK-2018.pdf#page=19|0": [
    {
     "src": "/assets/evidence/anmodning-om-tilsynssag/e5ed83853d86.webp",
@@ -5819,6 +5849,24 @@
    "quote": "egenskaberne midt i belægningens levetid",
    "state": "ok",
    "src": "2013-vejdirektoratet-rapport-434-haandbog-nord2000.pdf, s. 13",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "[d]ererregnetmedstøjreducerendeasfaltistøjberegningen",
+   "n": 0,
+   "quote": "[d]er er regnet med støjreducerende asfalt i støjberegningen",
+   "state": "ok",
+   "src": "Projekteringsmøde 23-01-2019.pdf, s. 8",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "harkiggetpåmulighedenforanvendelseafklimaasfalt",
+   "n": 0,
+   "quote": "har kigget på muligheden for anvendelse af klimaasfalt",
+   "state": "ok",
+   "src": "Projekteringsmøde 23-01-2019.pdf, s. 6",
    "note": "ved henvisningen",
    "card": true
   },
