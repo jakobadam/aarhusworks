@@ -42,19 +42,15 @@ $serif: "Roboto Serif", "Roboto Serif Fallback", Georgia, Cambria, "Times New Ro
 $display: "Source Serif 4", "Source Serif 4 Fallback", Georgia, serif;   // wordmark, feed teasers
 $sans:  Inter, "Inter Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
-$ink:    #242424;
-$muted:  #6b6b6b;
-$rule:   #f2f2f2;
-$accent: #e7131a;   // hover colour
-
-// minima variables, overridden before import
+// minima variables, overridden before import. The light theme's values; the
+// site's own rules use the custom properties set up after the import.
 $base-font-family: $serif;
 $base-font-size:   16px;
 $base-line-height: 1.6;
-$text-color:       $ink;
+$text-color:       #242424;
 $background-color: #ffffff;
-$brand-color:      $accent;
-$grey-color:       $muted;
+$brand-color:      #e7131a;   // hover colour
+$grey-color:       #6b6b6b;
 $content-width:    680px;
 $table-width:      940px;
 $on-palm:          600px;
@@ -62,12 +58,75 @@ $on-laptop:        800px;
 
 @import "minima";
 
+// ---------------------------------------------------------------- colour theme
+//
+// minima runs lighten()/darken() on its inputs above, so those stay hex. From
+// here on the colours are custom properties: light by default, dark when the
+// system asks for it, and either one forced by data-theme on <html>, which the
+// footer's theme switch sets (assets/js/theme.js; head.html applies a stored
+// choice before the first paint). Print is always light.
+
+$ink:    var(--ink);
+$muted:  var(--muted);
+$rule:   var(--rule);
+$accent: var(--accent);
+
+@mixin theme-light {
+  color-scheme: light;
+  --bg: #ffffff;
+  --ink: #242424;
+  --muted: #6b6b6b;
+  --rule: #f2f2f2;
+  --line: #e6e6e6;       // table rules
+  --border: #e3e3e3;     // boxes: evidence toggle, card and panel
+  --surface: #fafafa;    // evidence card
+  --pre-bg: #f9f9f9;
+  --title: #000000;      // wordmark
+  --teaser: rgb(27, 27, 27);
+  --accent: #e7131a;
+  --hl-bg: #fff6d6;
+  --hl-border: #f0c64a;
+  --shadow: rgba(0, 0, 0, .12);
+  --ok-fg: #1d6b32;    --ok-bg: #e3f3e7;
+  --warn-fg: #7a5200;  --warn-bg: #fff1c7;
+  --miss-fg: #a1141a;  --miss-bg: #fde4e4;
+  --check-fg: #4a4a4a; --check-bg: #ececec;
+}
+
+@mixin theme-dark {
+  color-scheme: dark;
+  --bg: #121212;
+  --ink: #e4e4e4;
+  --muted: #a3a3a3;
+  --rule: #2a2a2a;
+  --line: #333333;
+  --border: #3a3a3a;
+  --surface: #1b1b1b;
+  --pre-bg: #1b1b1b;
+  --title: #ffffff;
+  --teaser: #d2d2d2;
+  --accent: #ff5a5f;
+  --hl-bg: #3a3014;
+  --hl-border: #c9a227;
+  --shadow: rgba(0, 0, 0, .5);
+  --ok-fg: #8fd6a2;    --ok-bg: #173322;
+  --warn-fg: #f0c869;  --warn-bg: #3a2e10;
+  --miss-fg: #ff9a9a;  --miss-bg: #3f1a1a;
+  --check-fg: #cfcfcf; --check-bg: #2e2e2e;
+}
+
+:root { @include theme-light; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { @include theme-dark; } }
+:root[data-theme="dark"] { @include theme-dark; }
+@media print { :root, :root[data-theme] { @include theme-light; } }
+
 // ---------------------------------------------------------------- base
 
 html { -webkit-text-size-adjust: 100%; }
 
 body {
   font-family: $serif;
+  background: var(--bg);
   color: $ink;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -89,7 +148,7 @@ a, a:hover, a:visited { color: inherit; }
   border-bottom: 1px solid $rule;
   min-height: 0;
   height: 57px;
-  background: #fff;
+  background: var(--bg);
 
   .wrapper {
     max-width: 1192px;
@@ -107,7 +166,7 @@ a, a:hover, a:visited { color: inherit; }
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1;
-  color: #000;
+  color: var(--title);
   text-decoration: none;
   float: none;
 }
@@ -293,7 +352,7 @@ a, a:hover, a:visited { color: inherit; }
     margin-top: 0;
     margin-bottom: 1.6em;
   }
-  table:not([class]) th, table:not([class]) td { border: 0; border-bottom: 1px solid #e6e6e6; padding: 9px 10px; vertical-align: top; }
+  table:not([class]) th, table:not([class]) td { border: 0; border-bottom: 1px solid var(--line); padding: 9px 10px; vertical-align: top; }
   // The article's break-word would let the table layout split words ("Bestrid-es")
   // to narrow a column; inside tables, break only words that cannot fit at all.
   table:not([class]) { word-break: normal; overflow-wrap: break-word; }
@@ -303,7 +362,7 @@ a, a:hover, a:visited { color: inherit; }
   table:not([class]) tr:nth-child(even) { background: transparent; }
 
   code { font-size: 14px; background: $rule; padding: 2px 4px; border: 0; border-radius: 3px; }
-  pre { font-size: 14px; background: #f9f9f9; border: 0; border-radius: 4px; padding: 20px; }
+  pre { font-size: 14px; background: var(--pre-bg); border: 0; border-radius: 4px; padding: 20px; }
   pre code { background: none; padding: 0; }
 }
 
@@ -383,7 +442,7 @@ a, a:hover, a:visited { color: inherit; }
   font-family: $display;
   font-size: 16px;
   line-height: 24px;
-  color: rgb(27, 27, 27);
+  color: var(--teaser);
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -425,9 +484,9 @@ a, a:hover, a:visited { color: inherit; }
   gap: 2px;
   margin-left: 4px;
   padding: 0 5px;
-  border: 1px solid #e3e3e3;
+  border: 1px solid var(--border);
   border-radius: 9px;
-  background: #fff;
+  background: var(--bg);
   font-family: $sans;
   font-size: 11px;
   line-height: 16px;
@@ -436,7 +495,7 @@ a, a:hover, a:visited { color: inherit; }
   vertical-align: 1px;
 
   &:hover { color: $ink; border-color: $muted; }
-  &[aria-expanded="true"] { color: $ink; background: #fff6d6; border-color: #f0c64a; }
+  &[aria-expanded="true"] { color: $ink; background: var(--hl-bg); border-color: var(--hl-border); }
 
   @media print { display: none; }
 }
@@ -449,9 +508,9 @@ a, a:hover, a:visited { color: inherit; }
   max-width: 100%;
   margin: 4px 0 20px;
   padding: 10px;
-  border: 1px solid #e3e3e3;
-  border-left: 3px solid #f0c64a;
-  background: #fafafa;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--hl-border);
+  background: var(--surface);
 
   .ev-shot { display: block; overflow-x: auto; }
   .ev-shot + .ev-shot { margin-top: 8px; }
@@ -487,14 +546,14 @@ a, a:hover, a:visited { color: inherit; }
   vertical-align: 1px;
 }
 .ev-status-on .ev-mark { display: inline; }
-.ev-mark--ok   { color: #1d6b32; background: #e3f3e7; }
-.ev-mark--warn { color: #7a5200; background: #fff1c7; }
-.ev-mark--miss { color: #a1141a; background: #fde4e4; }
-.ev-mark--check { color: #4a4a4a; background: #ececec; }
+.ev-mark--ok   { color: var(--ok-fg); background: var(--ok-bg); }
+.ev-mark--warn { color: var(--warn-fg); background: var(--warn-bg); }
+.ev-mark--miss { color: var(--miss-fg); background: var(--miss-bg); }
+.ev-mark--check { color: var(--check-fg); background: var(--check-bg); }
 
 .ev-mark--flash { animation: ev-flash 1.6s ease-out; }
 @keyframes ev-flash {
-  0%, 30% { box-shadow: 0 0 0 4px #f0c64a; }
+  0%, 30% { box-shadow: 0 0 0 4px var(--hl-border); }
   100% { box-shadow: 0 0 0 4px transparent; }
 }
 
@@ -505,16 +564,20 @@ a, a:hover, a:visited { color: inherit; }
   z-index: 10;
   width: 440px;
   max-width: calc(100vw - 32px);
-  border: 1px solid #e3e3e3;
+  border: 1px solid var(--border);
   border-radius: 6px;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+  background: var(--bg);
+  box-shadow: 0 2px 8px var(--shadow);
   font-family: $sans;
   font-size: 13px;
   color: $ink;
 
   button { font: inherit; cursor: pointer; }
 }
+
+// The panel is fixed over the bottom right corner; room below the footer
+// lets the page scroll the theme switch clear of it.
+body:has(> .ev-panel) .site-footer { padding-bottom: 120px; }
 
 .ev-panel-head {
   display: flex;
@@ -528,14 +591,14 @@ a, a:hover, a:visited { color: inherit; }
   max-height: 60vh;
   overflow-y: auto;
   padding: 0 12px 10px;
-  border-top: 1px solid #e3e3e3;
+  border-top: 1px solid var(--border);
 
   ol { margin: 0 0 6px 18px; padding: 0; }
   li { margin: 0 0 6px; line-height: 1.4; }
   a { color: $ink; }
 }
 
-.ev-panel-group { margin: 10px 0 4px; font-weight: 700; color: #a1141a; }
+.ev-panel-group { margin: 10px 0 4px; font-weight: 700; color: var(--miss-fg); }
 .ev-panel-why { display: block; color: $muted; font-size: 12px; }
 
 @media print { .ev-mark, .ev-panel { display: none !important; } }
@@ -653,3 +716,62 @@ $toc-wide:     1280px;   // $table-width + $toc-gap + $toc-width + 2 x 24px gutt
 .footer-inner { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .site-footer a, .site-footer a:visited { color: $muted; text-decoration: none; }
 .site-footer a:hover { color: $ink; }
+
+// System / light / dark, three radios in a pill (assets/js/theme.js). The
+// inputs stay in the tab order, so arrow keys move between them as in any
+// radio group; only the labels are seen.
+.theme-switch {
+  display: inline-flex;
+  margin: 0 0 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  box-shadow: 0 0 0 1px var(--border);
+
+  &[hidden] { display: none; }
+
+  legend, .theme-switch-name {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  input { position: absolute; opacity: 0; width: 1px; height: 1px; margin: 0; }
+
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    color: $muted;
+    cursor: pointer;
+  }
+  label:hover { color: $ink; }
+  input:checked + label { color: $ink; background: var(--bg); box-shadow: 0 0 0 1px var(--line), 0 1px 2px var(--shadow); }
+  input:focus-visible + label { color: $ink; outline: 2px solid $accent; outline-offset: 1px; }
+  svg { display: block; width: 16px; height: 16px; }
+
+  @media print { display: none; }
+}
+
+// ---------------------------------------------------------------- dark theme, content
+//
+// What the posts bring along is drawn for a white page: transparent PNGs and
+// screenshots, mermaid's SVGs (white already) and rouge's token colours. In
+// the dark theme they keep a light backing instead of vanishing into it.
+
+@mixin on-dark {
+  @media screen and (prefers-color-scheme: dark) { :root:not([data-theme="light"]) & { @content; } }
+  @media screen { :root[data-theme="dark"] & { @content; } }
+}
+
+.post-content img { @include on-dark { background: #fff; } }
+
+.post-content .highlight, .post-content .highlight pre {
+  @include on-dark { color-scheme: light; background: #f6f6f6; color: #242424; }
+}

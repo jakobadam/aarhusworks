@@ -7,10 +7,28 @@
   --tl-serif: "Roboto Serif", "Roboto Serif Fallback", Georgia, serif;
   --tl-display: "Source Serif 4", "Source Serif 4 Fallback", Georgia, serif;
   --tl-sans: Inter, "Inter Fallback", -apple-system, "Segoe UI", Arial, sans-serif;
+  /* Farverne følger sitets tema (assets/main.scss); sporenes egne farver
+     lysnes i det mørke tema, så de kan læses på den mørke baggrund. */
+  --tl-red: #c00;
+  --tl-green: #4a7c59;
+  --tl-blue: #3d5a80;
+  --tl-soft: #bbb;
+  --tl-mid: #8c8c8c;
   font-family: var(--tl-serif);
   max-width: 720px;
   margin: 0 auto;
-  color: #242424;
+  color: var(--ink);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .timeline-wrap {
+    --tl-red: #ff6b6b; --tl-green: #7fbf8f; --tl-blue: #8fb0dd; --tl-soft: #555; --tl-mid: #888;
+  }
+}
+@media screen {
+  :root[data-theme="dark"] .timeline-wrap {
+    --tl-red: #ff6b6b; --tl-green: #7fbf8f; --tl-blue: #8fb0dd; --tl-soft: #555; --tl-mid: #888;
+  }
 }
 
 /* Uden dette lægges padding og rammer oven i procentbredder,
@@ -28,7 +46,7 @@
   line-height: 1.5;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #c00;
+  color: var(--tl-red);
   margin-bottom: 0.4rem;
 }
 
@@ -39,15 +57,15 @@
   line-height: 1.24;
   letter-spacing: -0.016em;
   margin: 0 0 1rem 0;
-  color: #242424;
+  color: var(--ink);
 }
 
 .timeline-deck {
   font-size: 1rem;
-  color: #242424;
+  color: var(--ink);
   line-height: 1.6;
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
   padding: 0.9rem 0;
   margin-bottom: 2.5rem;
 }
@@ -76,13 +94,13 @@
   /* En grid-kolonne er som standard mindst så bred som sit indhold; et
      åbnet kildekort må ikke skubbe boksen ud over skærmkanten. */
   min-width: 0;
-  border-top: 3px solid #242424;
+  border-top: 3px solid var(--ink);
   padding-top: 0.7rem;
 }
 
-.track--beplantning { border-top-color: #4a7c59; }
-.track--belaegning  { border-top-color: #3d5a80; }
-.track--pulje       { border-top-color: #c00; }
+.track--beplantning { border-top-color: var(--tl-green); }
+.track--belaegning  { border-top-color: var(--tl-blue); }
+.track--pulje       { border-top-color: var(--tl-red); }
 
 .track-nr {
   display: block;
@@ -90,7 +108,7 @@
   font-size: 0.75rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #6b6b6b;
+  color: var(--muted);
   margin-bottom: 0.2rem;
 }
 
@@ -100,7 +118,7 @@
   font-size: 1.05rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #242424;
+  color: var(--ink);
   margin-bottom: 0.5rem;
 }
 
@@ -108,7 +126,7 @@
   font-family: var(--tl-sans);
   font-size: 0.875rem;
   line-height: 1.5;
-  color: #6b6b6b;
+  color: var(--muted);
   margin: 0 0 0.6rem 0;
 }
 
@@ -116,13 +134,13 @@
   font-family: var(--tl-sans);
   font-size: 0.875rem;
   line-height: 1.45;
-  color: #242424;
+  color: var(--ink);
   margin: 0;
   padding-top: 0.5rem;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid var(--line);
 }
 
-.track-status strong { color: #c00; }
+.track-status strong { color: var(--tl-red); }
 
 /* --- Spormarkering på tidslinjeposter --- */
 .tl-spor {
@@ -131,15 +149,15 @@
   font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #6b6b6b;
-  border-left: 3px solid #bbb;
+  color: var(--muted);
+  border-left: 3px solid var(--tl-soft);
   padding: 0.05rem 0 0.05rem 0.45rem;
   margin-bottom: 0.35rem;
 }
 
-.tl-spor--beplantning { border-left-color: #4a7c59; color: #4a7c59; }
-.tl-spor--belaegning  { border-left-color: #3d5a80; color: #3d5a80; }
-.tl-spor--pulje       { border-left-color: #c00;    color: #c00; }
+.tl-spor--beplantning { border-left-color: var(--tl-green); color: var(--tl-green); }
+.tl-spor--belaegning  { border-left-color: var(--tl-blue); color: var(--tl-blue); }
+.tl-spor--pulje       { border-left-color: var(--tl-red);    color: var(--tl-red); }
 
 .tl {
   position: relative;
@@ -155,7 +173,7 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background: #242424;
+  background: var(--ink);
 }
 
 .tl-item {
@@ -177,7 +195,7 @@
   font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: 0.02em;
-  color: #242424;
+  color: var(--ink);
   line-height: 1;
 }
 
@@ -187,7 +205,7 @@
   font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #6b6b6b;
+  color: var(--muted);
   margin-top: 0.15rem;
 }
 
@@ -196,17 +214,17 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #242424;
-  border: 2px solid #fff;
-  box-shadow: 0 0 0 2px #242424;
+  background: var(--ink);
+  border: 2px solid var(--bg);
+  box-shadow: 0 0 0 2px var(--ink);
   margin-top: 1.35rem;
   position: relative;
   z-index: 1;
 }
 
 .tl-dot.red {
-  background: #c00;
-  box-shadow: 0 0 0 2px #c00;
+  background: var(--tl-red);
+  box-shadow: 0 0 0 2px var(--tl-red);
 }
 
 .tl-body {
@@ -216,7 +234,7 @@
      tabellen scroller i stedet i sin egen .tl-tablewrap. */
   min-width: 0;
   padding: 0.9rem 0 1.8rem 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--line);
 }
 
 .tl-item:last-child .tl-body {
@@ -228,7 +246,7 @@
   font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #c00;
+  color: var(--tl-red);
   display: block;
   margin-bottom: 0.25rem;
 }
@@ -239,19 +257,19 @@
   font-weight: 700;
   line-height: 1.25;
   margin: 0 0 0.4rem 0;
-  color: #242424;
+  color: var(--ink);
 }
 
 .tl-text {
   font-size: 1rem;
-  color: #242424;
+  color: var(--ink);
   line-height: 1.6;
   margin: 0;
 }
 
 .tl-text em {
   font-style: italic;
-  color: #242424;
+  color: var(--ink);
 }
 
 .tl-fig {
@@ -262,7 +280,7 @@
   width: 100%;
   height: auto;
   display: block;
-  border: 1px solid #ddd;
+  border: 1px solid var(--line);
   background: #fff;
 }
 
@@ -270,7 +288,7 @@
   font-family: var(--tl-sans);
   font-size: 0.875rem;
   line-height: 1.45;
-  color: #6b6b6b;
+  color: var(--muted);
   margin-top: 0.45rem;
 }
 
@@ -292,7 +310,7 @@
 .tl-table td {
   text-align: left;
   padding: 0.4rem;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--line);
   vertical-align: top;
 }
 
@@ -301,8 +319,8 @@
   font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #6b6b6b;
-  border-bottom: 2px solid #242424;
+  color: var(--muted);
+  border-bottom: 2px solid var(--ink);
 }
 
 .tl-table td.num,
@@ -313,21 +331,21 @@
 
 .tl-table tr.sum td {
   font-weight: 700;
-  color: #242424;
+  color: var(--ink);
   border-bottom: none;
-  border-top: 2px solid #242424;
+  border-top: 2px solid var(--ink);
 }
 
-.tl-table .nej { color: #c00; font-weight: 700; }
+.tl-table .nej { color: var(--tl-red); font-weight: 700; }
 
 .timeline-footer {
   margin-top: 2.5rem;
   padding-top: 1rem;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid var(--line);
   font-family: var(--tl-sans);
   font-size: 0.78rem;
   letter-spacing: 0.04em;
-  color: #6b6b6b;
+  color: var(--muted);
 }
 
 /* --- Mobil --- */
@@ -389,17 +407,17 @@
 .track-nr a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px dotted #bbb;
+  border-bottom: 1px dotted var(--tl-soft);
 }
 
-.track-nr a:hover { color: #c00; border-bottom-color: #c00; }
+.track-nr a:hover { color: var(--tl-red); border-bottom-color: var(--tl-red); }
 
 .kladde-note {
   font-family: var(--tl-serif);   /* Inter har ingen kursiv her */
   font-size: 0.875rem;
   line-height: 1.5;
   font-style: italic;
-  color: #6b6b6b;
+  color: var(--muted);
   margin: 0 0 2.4rem 0;
 }
 
@@ -422,19 +440,19 @@
    Alle prikker har samme diameter, saa broedteksten flugter paa tvaers af
    posterne og alle centre rammer samme akse. Vaegten ligger i fyld og ring. */
 .tl-item--key .tl-title { font-size: 1.3rem; line-height: 1.2; }
-.tl-item--key .tl-dot { box-shadow: 0 0 0 4px #c00; }
+.tl-item--key .tl-dot { box-shadow: 0 0 0 4px var(--tl-red); }
 
 .tl-item--slim .tl-body { padding-top: 1rem; padding-bottom: 1.1rem; }
 .tl-item--slim .tl-title {
   font-size: 0.95rem;
   font-weight: 600;
-  color: #242424;
+  color: var(--ink);
   margin-bottom: 0.25rem;
 }
 .tl-item--slim .tl-text { font-size: 0.9375rem; }
 .tl-item--slim .tl-dot {
-  background: #fff;
-  box-shadow: 0 0 0 2px #8c8c8c;
+  background: var(--bg);
+  box-shadow: 0 0 0 2px var(--tl-mid);
 }
 
 @media (max-width: 620px) {
@@ -452,7 +470,7 @@
 }
 
 .ovrige {
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid var(--line);
   padding: 1.1rem 0 0 0;
   margin: 2.6rem 0 0 0;
 }
@@ -462,13 +480,13 @@
   font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #c00;
+  color: var(--tl-red);
   margin: 0 0 0.5rem 0;
 }
 
 .ovrige-intro {
   font-size: 0.9375rem;
-  color: #6b6b6b;
+  color: var(--muted);
   margin: 0 0 1.1rem 0;
 }
 
@@ -478,7 +496,7 @@
   font-size: 1rem;
   line-height: 1.5;
   padding: 0.45rem 0;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid var(--line);
 }
 
 .ovrige li:last-child { border-bottom: 0; }
@@ -490,7 +508,7 @@
   font-size: 0.78rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #6b6b6b;
+  color: var(--muted);
 }
 
 @media (max-width: 640px) {
@@ -502,17 +520,17 @@
   line-height: 1.55;
   margin: 1.4rem 0 0 0;
   padding-top: 1.1rem;
-  border-top: 3px solid #c00;
+  border-top: 3px solid var(--tl-red);
 }
 
 /* --- Tilpasning til resten af sitet --- */
 /* Flere afsnit i samme post skal have luft imellem, som i brødteksten */
 .tl-text + .tl-text { margin-top: 0.8rem; }
 /* minimas tabel har rammer om hver celle og grå striber; sitets tabeller har kun vandrette streger */
-.tl-table th, .tl-table td { border: 0; border-bottom: 1px solid #e6e6e6; }
-.tl-table th { border-bottom: 1px solid #242424; }
-.tl-table tr.sum td { border-bottom: 0; border-top: 1px solid #242424; }
-.tl-table { border: 0; color: #242424; }
+.tl-table th, .tl-table td { border: 0; border-bottom: 1px solid var(--line); }
+.tl-table th { border-bottom: 1px solid var(--ink); }
+.tl-table tr.sum td { border-bottom: 0; border-top: 1px solid var(--ink); }
+.tl-table { border: 0; color: var(--ink); }
 .tl-table tr:nth-child(even) { background: transparent; }
 /* Inter er bredere end Arial Narrow, saa "Efteraar 2022" skal kunne staa paa en linje */
 /* Dato i egen kolonne, saa lange poster ikke brydes ind under datoen */

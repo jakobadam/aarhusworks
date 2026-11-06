@@ -4,6 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   {%- comment -%}
+    A theme chosen in the footer (assets/js/theme.js), set before the
+    stylesheet so the page never flashes the other theme first.
+  {%- endcomment %}
+  <script>try { var t = localStorage.getItem('theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {}</script>
+  {%- comment -%}
     The faces the page draws, fetched alongside the CSS instead of after it:
     the wordmark and titles on every page, Roboto Serif (body text) only on posts.
   {%- endcomment -%}
