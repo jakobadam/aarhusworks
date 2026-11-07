@@ -18,12 +18,11 @@ docker run --rm -it -v "${PWD}:/site" -w /site -p 4000:4000 -p 35729:35729 ruby:
 ```
 Open http://localhost:4000 — the site live-reloads on file changes. The Gemfile is just `github-pages` and `webrick`, so the local build uses the same gem versions as GitHub Pages; `bundle update github-pages` follows a new release.
 
-**Serve the site locally (native Ruby):**
-```shell
-gem install jekyll bundler
-bundle install
-bundle exec jekyll serve
+**Serve the site locally (native Ruby on Windows, no Docker — faster, and immune to WSL's port relay getting stuck on 127.0.0.1:4000 after sleep):**
+```powershell
+./serve-local.ps1            # -Port 4001 for another port
 ```
+It uses RubyInstaller 3.3 with devkit in `C:\Tools\Ruby33` (override with `$env:RUBY_HOME`), deliberately not on PATH. The lockfile carries the `x64-mingw-ucrt` platform and the Gemfile `tzinfo-data` for Windows; native gems compile with the devkit (OpenSSL headers: `ridk exec pacman -S mingw-w64-ucrt-x86_64-openssl`).
 
 There are no automated tests, lint scripts beyond the pre-commit hook below, or CI build step in this repo — "does it build with Jekyll and render correctly" is the practical check.
 
