@@ -82,6 +82,9 @@ $accent: var(--accent);
   --surface: #fafafa;    // evidence card
   --pre-bg: #f9f9f9;
   --table-ink: #525252;  // minima's table text
+  --toc-ink: #6b6b6b;    // table of contents: links, current entry, rail
+  --toc-current: #242424;
+  --toc-rule: #f2f2f2;
   --title: #000000;      // wordmark
   --teaser: rgb(27, 27, 27);
   --accent: #e7131a;
@@ -105,6 +108,9 @@ $accent: var(--accent);
   --surface: #1b1b1b;
   --pre-bg: #1b1b1b;
   --table-ink: #cfcfcf;
+  --toc-ink: #8c8c8c;
+  --toc-current: #ffffff;
+  --toc-rule: #383838;
   --title: #ffffff;
   --teaser: #d2d2d2;
   --accent: #ff5a5f;
@@ -636,8 +642,8 @@ $toc-wide:     1280px;   // $table-width + $toc-gap + $toc-width + 2 x 24px gutt
   font-family: $sans;
   font-size: 14px;
   line-height: 20px;
-  color: $muted;
-  border: 1px solid $rule;
+  color: var(--toc-ink);
+  border: 1px solid var(--toc-rule);
   border-radius: 6px;
 
   // A label, not one more link: capitals, bold and tracked, in ink.
@@ -651,7 +657,7 @@ $toc-wide:     1280px;   // $table-width + $toc-gap + $toc-width + 2 x 24px gutt
     color: $ink;
     cursor: pointer;
   }
-  &[open] summary { margin-bottom: 8px; border-bottom: 1px solid $rule; }
+  &[open] summary { margin-bottom: 8px; border-bottom: 1px solid var(--toc-rule); }
 
   ol { list-style: none; margin: 0; padding: 0; }
   > ol { padding: 0 14px 12px; }
@@ -662,12 +668,12 @@ $toc-wide:     1280px;   // $table-width + $toc-gap + $toc-width + 2 x 24px gutt
     display: block;
     padding: 4px 0 4px 8px;
     border-left: 4px solid transparent;
-    color: $muted;
+    color: var(--toc-ink);
     text-decoration: none;
   }
   a:hover { color: $ink; }
   .toc-open > a { color: $ink; }
-  a[aria-current] { color: $ink; font-weight: 600; border-left-color: $accent; }
+  a[aria-current] { color: var(--toc-current); font-weight: 600; border-left-color: $accent; }
 
   @media print { display: none; }
 }
@@ -700,7 +706,7 @@ $toc-wide:     1280px;   // $table-width + $toc-gap + $toc-width + 2 x 24px gutt
       cursor: default;
       &::-webkit-details-marker { display: none; }
     }
-    > ol { padding: 0; border-left: 1px solid $rule; }
+    > ol { padding: 0; border-left: 1px solid var(--toc-rule); }
     a, a:visited { margin-left: -1px; }
     ol ol a, ol ol a:visited { padding-left: 20px; margin-left: -13px; }
   }
