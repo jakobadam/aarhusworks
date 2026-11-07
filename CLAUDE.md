@@ -14,9 +14,9 @@ A large, recurring share of the content is one long-running advocacy campaign: *
 ```powershell
 ./serve-it.sh
 # or directly:
-docker run --rm -v "${PWD}:/site" -w /site -p 4000:4000 ruby:3.1 bash -c "gem install bundler -v 2.5.10 --quiet && bundle install --quiet && bundle exec jekyll serve --host 0.0.0.0 --force_polling"
+docker run --rm -it -v "${PWD}:/site" -w /site -p 4000:4000 -p 35729:35729 ruby:3.3 bash -c "bundle install && bundle exec jekyll serve --drafts --host 0.0.0.0 --livereload --force_polling"
 ```
-Open http://localhost:4000 — the site live-reloads on file changes.
+Open http://localhost:4000 — the site live-reloads on file changes. The Gemfile is just `github-pages` and `webrick`, so the local build uses the same gem versions as GitHub Pages; `bundle update github-pages` follows a new release.
 
 **Serve the site locally (native Ruby):**
 ```shell
