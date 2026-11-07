@@ -26,5 +26,5 @@
 
 <div class="post-actions">
   <a href="mailto:?subject={{ page.title | url_encode }}&amp;body={{ page.url | absolute_url | url_encode }}">Del på mail</a>
-  <a href="{{ "/feed.xml" | relative_url }}">Følg via RSS</a>
+  {%- include theme-switch.html %}
 </div>

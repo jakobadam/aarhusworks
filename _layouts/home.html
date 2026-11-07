@@ -52,6 +52,6 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">Følg via RSS</a></p>
+    <div class="feed-end">{%- include theme-switch.html -%}</div>
   {%- endif -%}
 </div>

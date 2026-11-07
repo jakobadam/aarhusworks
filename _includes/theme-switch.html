@@ -1,0 +1,18 @@
+{%- comment -%}
+  System / light / dark (assets/js/theme.js, loaded from footer.html). It
+  takes the place "Følg via RSS" had: in a post's action strip and under the
+  front page's feed; the footer keeps the RSS link.
+  Hidden until theme.js shows it: without JavaScript it can do nothing.
+{%- endcomment %}
+<fieldset class="theme-switch" hidden>
+  <legend>Vælg farvetema</legend>
+  <input type="radio" name="theme" id="theme-system" value="system" checked>
+  <label for="theme-system" title="Som systemet"><span class="theme-switch-name">Som systemet</span>
+    <svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="1.75" y="2.75" width="12.5" height="8.5" rx="1.25"/><path d="M5.5 14.25h5M8 11.25v3" stroke-linecap="round"/></svg></label>
+  <input type="radio" name="theme" id="theme-light" value="light">
+  <label for="theme-light" title="Lyst"><span class="theme-switch-name">Lyst</span>
+    <svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="8" cy="8" r="2.75"/><path d="M8 1.25v1.5M8 13.25v1.5M1.25 8h1.5M13.25 8h1.5M3.2 3.2l1.07 1.07M11.73 11.73l1.07 1.07M3.2 12.8l1.07-1.07M11.73 4.27l1.07-1.07"/></svg></label>
+  <input type="radio" name="theme" id="theme-dark" value="dark">
+  <label for="theme-dark" title="Mørkt"><span class="theme-switch-name">Mørkt</span>
+    <svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M13.75 9.6A5.75 5.75 0 1 1 6.4 2.25a4.5 4.5 0 0 0 7.35 7.35z"/></svg></label>
+</fieldset>
