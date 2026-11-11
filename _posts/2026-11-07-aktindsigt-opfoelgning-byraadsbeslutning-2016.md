@@ -1,6 +1,6 @@
 ---
 title: "Anmodning om aktindsigt — opfølgningen på byrådsbeslutningen af 14. september 2016, Giber Ringvej"
-description: 'Aktindsigt nr. 2 af 3, sendt til Aarhus Kommune den 7. november 2026: hvad der blev af de støjskærme og det facadetilskud, byrådets ramme på ca. 20 mio. kr. byggede på.'
+description: 'Byrådets ramme på ca. 20 mio. kr. byggede på støjskærme og facadetilskud. Hvad blev der af dem? Aktindsigt til Aarhus Kommune.'
 ---
 
 > **Sendt til Aarhus Kommune (post@mtm.aarhus.dk) den 7. november 2026 kl. 14.52.** Status: ubesvaret. Kommunens svar og de udleverede dokumenter tilføjes nederst.
