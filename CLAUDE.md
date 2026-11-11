@@ -22,7 +22,7 @@ Open http://localhost:4000 — the site live-reloads on file changes. The Gemfil
 ```powershell
 ./serve-local.ps1            # -Port 4001 for another port
 ```
-It uses RubyInstaller 3.3 with devkit in `C:\Tools\Ruby33` (override with `$env:RUBY_HOME`), deliberately not on PATH. The lockfile carries the `x64-mingw-ucrt` platform and the Gemfile `tzinfo-data` for Windows; native gems compile with the devkit (OpenSSL headers: `ridk exec pacman -S mingw-w64-ucrt-x86_64-openssl`).
+It uses RubyInstaller 3.3 with devkit in `C:\Tools\Ruby33` (override with `$env:RUBY_HOME`), deliberately not on PATH. The lockfile carries the `x64-mingw-ucrt` platform and the Gemfile `tzinfo-data` and `wdm` (file watching without polling; 0.2.0 or later, 0.1.x does not compile on Ruby 3.3) for Windows only; native gems compile with the devkit (OpenSSL headers: `ridk exec pacman -S mingw-w64-ucrt-x86_64-openssl`).
 
 There are no automated tests, lint scripts beyond the pre-commit hook below, or CI build step in this repo — "does it build with Jekyll and render correctly" is the practical check.
 
