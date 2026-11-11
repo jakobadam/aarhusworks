@@ -3,7 +3,7 @@ title: "Anmodning om aktindsigt: støjvolde og vejbelægning, Giber Ringvej"
 description: 'Hvad ligger der bag støjvoldene og støjberegningerne, og hvilken vejbelægning blev der lagt? Aktindsigt til Aarhus Kommune.'
 ---
 
-> **Sendt til Aarhus Kommune (post@mtm.aarhus.dk).**
+> **Sendt til Aarhus Kommune.**
 >
 > Status: ubesvaret.
 >
@@ -15,6 +15,7 @@ description: 'Hvad ligger der bag støjvoldene og støjberegningerne, og hvilken
 
 **Dato:** 3. november 2026  
 **Til:** Aarhus Kommune, Teknik og Miljø  
+**Mail:** post@mtm.aarhus.dk  
 **Emne:** Aktindsigt. Støjvolde og vejbelægning, Giber Ringvej (VVM-tilladelsen, sag 13/011760)
 
 ---

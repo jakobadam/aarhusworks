@@ -3,7 +3,7 @@ title: "Anmodning om aktindsigt: støjskærme og støjvold ved Kolt og Mårslet,
 description: 'Hvor skulle de supplerende støjskærme ved Kolt og Mårslet stå, og hvad ligger der bag den 4 m høje støjvold, som rådgiveren tegnede ud for Mårslet i 2019? Aktindsigt til Aarhus Kommune.'
 ---
 
-> **Sendt til Aarhus Kommune (post@mtm.aarhus.dk).**
+> **Sendt til Aarhus Kommune.**
 >
 > Status: ubesvaret.
 >
@@ -15,6 +15,7 @@ description: 'Hvor skulle de supplerende støjskærme ved Kolt og Mårslet stå,
 
 **Dato:** 9. november 2026  
 **Til:** Aarhus Kommune, Teknik og Miljø  
+**Mail:** post@mtm.aarhus.dk  
 **Emne:** Aktindsigt: støjskærme og støjvold ved Kolt og Mårslet, Giber Ringvej (VVM-tilladelsen, sag 13/011760)
 
 ---
