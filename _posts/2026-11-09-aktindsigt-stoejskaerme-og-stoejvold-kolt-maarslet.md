@@ -5,7 +5,11 @@ description: 'Hvor skulle de supplerende støjskærme ved Kolt og Mårslet stå,
 
 > **Sendt til Aarhus Kommune (post@mtm.aarhus.dk) den 9. november 2026.** Status: ubesvaret. Kommunens svar og de udleverede dokumenter tilføjes nederst.
 >
-> Aktindsigt 3 af 3: [1. støjvolde og vejbelægning (3. november)](https://aarhusworks.com/2026/11/03/aktindsigt-stoejvolde-og-vejbelaegning.html) · [2. opfølgningen på byrådsbeslutningen af 2016 (7. november)](https://aarhusworks.com/2026/11/07/aktindsigt-opfoelgning-byraadsbeslutning-2016.html) · **3. støjskærme og støjvold ved Kolt og Mårslet (9. november)**
+> Aktindsigt 3 af 3:
+>
+> 1. [Støjvolde og vejbelægning (3. november)](https://aarhusworks.com/2026/11/03/aktindsigt-stoejvolde-og-vejbelaegning.html)
+> 2. [Opfølgningen på byrådsbeslutningen af 2016 (7. november)](https://aarhusworks.com/2026/11/07/aktindsigt-opfoelgning-byraadsbeslutning-2016.html)
+> 3. **Støjskærme og støjvold ved Kolt og Mårslet (9. november)**
 
 **Til:** Aarhus Kommune, Teknik og Miljø  
 **Emne:** Aktindsigt: støjskærme og støjvold ved Kolt og Mårslet, Giber Ringvej (VVM-tilladelsen, sag 13/011760)
