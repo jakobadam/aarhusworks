@@ -3,8 +3,6 @@ title: "Anmodning om aktindsigt: opfølgningen på byrådsbeslutningen af 14. se
 description: 'Byrådets ramme på ca. 20 mio. kr. byggede på støjskærme og facadetilskud. Hvad blev der af dem? Aktindsigt til Aarhus Kommune.'
 ---
 
-> **Sendt til Aarhus Kommune.**
->
 > Status: ubesvaret.
 >
 > Aktindsigt 2 af 3:
