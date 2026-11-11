@@ -1,11 +1,11 @@
 ---
 title: "Anmodning om aktindsigt — støjvolde og vejbelægning, Giber Ringvej"
-description: 'Aktindsigt nr. 1 af 3, sendt til Aarhus Kommune den 3. november 2026: støjvoldene, støjberegningerne og den vejbelægning, vilkår 5 angår.'
+description: 'Hvad ligger der bag støjvoldene og støjberegningerne, og hvilken vejbelægning blev der lagt? Aktindsigt til Aarhus Kommune.'
 ---
 
 > **Sendt til Aarhus Kommune (post@mtm.aarhus.dk) den 3. november 2026 kl. 00.02.** Status: ubesvaret. Kommunens svar og de udleverede dokumenter tilføjes nederst.
 >
-> Én af tre: [støjvolde og vejbelægning (3. november)](https://aarhusworks.com/2026/11/03/aktindsigt-stoejvolde-og-vejbelaegning.html) · [opfølgningen på byrådsbeslutningen af 2016 (7. november)](https://aarhusworks.com/2026/11/07/aktindsigt-opfoelgning-byraadsbeslutning-2016.html) · [støjskærme og støjvold ved Kolt og Mårslet (9. november)](https://aarhusworks.com/2026/11/09/aktindsigt-stoejskaerme-og-stoejvold-kolt-maarslet.html)
+> Aktindsigt 1 af 3: **1. støjvolde og vejbelægning (3. november)** · [2. opfølgningen på byrådsbeslutningen af 2016 (7. november)](https://aarhusworks.com/2026/11/07/aktindsigt-opfoelgning-byraadsbeslutning-2016.html) · [3. støjskærme og støjvold ved Kolt og Mårslet (9. november)](https://aarhusworks.com/2026/11/09/aktindsigt-stoejskaerme-og-stoejvold-kolt-maarslet.html)
 
 **Til:** Aarhus Kommune, Teknik og Miljø  
 **Emne:** Aktindsigt. Støjvolde og vejbelægning, Giber Ringvej (VVM-tilladelsen, sag 13/011760)
