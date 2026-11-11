@@ -3,7 +3,9 @@ title: "Anmodning om aktindsigt: støjskærme og støjvold ved Kolt og Mårslet,
 description: 'Hvor skulle de supplerende støjskærme ved Kolt og Mårslet stå, og hvad ligger der bag den 4 m høje støjvold, som rådgiveren tegnede ud for Mårslet i 2019? Aktindsigt til Aarhus Kommune.'
 ---
 
-> **Sendt til Aarhus Kommune (post@mtm.aarhus.dk) den 9. november 2026.** Status: ubesvaret. Kommunens svar og de udleverede dokumenter tilføjes nederst.
+> **Sendt til Aarhus Kommune (post@mtm.aarhus.dk) den 9. november 2026.**
+>
+> Status: ubesvaret. Kommunens svar og de udleverede dokumenter tilføjes nederst.
 >
 > Aktindsigt 3 af 3:
 >
