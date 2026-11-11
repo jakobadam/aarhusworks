@@ -12,8 +12,7 @@ description: 'Byrådets ramme på ca. 20 mio. kr. byggede på støjskærme og fa
 > 3. [Støjskærme og støjvold ved Kolt og Mårslet (9. november)]({% post_url 2026-11-09-aktindsigt-stoejskaerme-og-stoejvold-kolt-maarslet %})
 
 **Dato:** 7. november 2026  
-**Til:** Teknik og Miljø  
-**Mail:** post@mtm.aarhus.dk  
+**Til:** Teknik og Miljø (post@mtm.aarhus.dk)  
 **Emne:** Aktindsigt: opfølgningen på byrådsbeslutningen af 14. september 2016 om øget støjdæmpning, Giber Ringvej (VVM-tilladelsen, sag 13/011760)
 
 ---

@@ -12,8 +12,7 @@ description: 'Hvad ligger der bag støjvoldene og støjberegningerne, og hvilken
 > 3. [Støjskærme og støjvold ved Kolt og Mårslet (9. november)]({% post_url 2026-11-09-aktindsigt-stoejskaerme-og-stoejvold-kolt-maarslet %})
 
 **Dato:** 3. november 2026  
-**Til:** Aarhus Kommune, Teknik og Miljø  
-**Mail:** post@mtm.aarhus.dk  
+**Til:** Aarhus Kommune, Teknik og Miljø (post@mtm.aarhus.dk)  
 **Emne:** Aktindsigt. Støjvolde og vejbelægning, Giber Ringvej (VVM-tilladelsen, sag 13/011760)
 
 ---
