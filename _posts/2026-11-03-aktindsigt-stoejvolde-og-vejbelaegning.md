@@ -10,8 +10,8 @@ description: 'Hvad ligger der bag støjvoldene og støjberegningerne, og hvilken
 > Aktindsigt 1 af 3:
 >
 > 1. **Støjvolde og vejbelægning (3. november)**
-> 2. [Opfølgningen på byrådsbeslutningen af 2016 (7. november)](https://aarhusworks.com/2026/11/07/aktindsigt-opfoelgning-byraadsbeslutning-2016.html)
-> 3. [Støjskærme og støjvold ved Kolt og Mårslet (9. november)](https://aarhusworks.com/2026/11/09/aktindsigt-stoejskaerme-og-stoejvold-kolt-maarslet.html)
+> 2. [Opfølgningen på byrådsbeslutningen af 2016 (7. november)]({% post_url 2026-11-07-aktindsigt-opfoelgning-byraadsbeslutning-2016 %})
+> 3. [Støjskærme og støjvold ved Kolt og Mårslet (9. november)]({% post_url 2026-11-09-aktindsigt-stoejskaerme-og-stoejvold-kolt-maarslet %})
 
 **Til:** Aarhus Kommune, Teknik og Miljø  
 **Emne:** Aktindsigt. Støjvolde og vejbelægning, Giber Ringvej (VVM-tilladelsen, sag 13/011760)

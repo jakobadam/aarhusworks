@@ -9,8 +9,8 @@ description: 'Hvor skulle de supplerende støjskærme ved Kolt og Mårslet stå,
 >
 > Aktindsigt 3 af 3:
 >
-> 1. [Støjvolde og vejbelægning (3. november)](https://aarhusworks.com/2026/11/03/aktindsigt-stoejvolde-og-vejbelaegning.html)
-> 2. [Opfølgningen på byrådsbeslutningen af 2016 (7. november)](https://aarhusworks.com/2026/11/07/aktindsigt-opfoelgning-byraadsbeslutning-2016.html)
+> 1. [Støjvolde og vejbelægning (3. november)]({% post_url 2026-11-03-aktindsigt-stoejvolde-og-vejbelaegning %})
+> 2. [Opfølgningen på byrådsbeslutningen af 2016 (7. november)]({% post_url 2026-11-07-aktindsigt-opfoelgning-byraadsbeslutning-2016 %})
 > 3. **Støjskærme og støjvold ved Kolt og Mårslet (9. november)**
 
 **Til:** Aarhus Kommune, Teknik og Miljø  
