@@ -5,7 +5,7 @@ description: 'Hvad ligger der bag støjvoldene og støjberegningerne, og hvilken
 
 > **Sendt til Aarhus Kommune (post@mtm.aarhus.dk) den 3. november 2026.**
 >
-> Status: ubesvaret. Kommunens svar og de udleverede dokumenter tilføjes nederst.
+> Status: ubesvaret.
 >
 > Aktindsigt 1 af 3:
 >

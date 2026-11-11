@@ -5,7 +5,7 @@ description: 'Byrådets ramme på ca. 20 mio. kr. byggede på støjskærme og fa
 
 > **Sendt til Aarhus Kommune (post@mtm.aarhus.dk) den 7. november 2026.**
 >
-> Status: ubesvaret. Kommunens svar og de udleverede dokumenter tilføjes nederst.
+> Status: ubesvaret.
 >
 > Aktindsigt 2 af 3:
 >

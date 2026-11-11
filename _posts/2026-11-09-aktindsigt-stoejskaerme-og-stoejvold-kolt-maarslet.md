@@ -5,7 +5,7 @@ description: 'Hvor skulle de supplerende støjskærme ved Kolt og Mårslet stå,
 
 > **Sendt til Aarhus Kommune (post@mtm.aarhus.dk) den 9. november 2026.**
 >
-> Status: ubesvaret. Kommunens svar og de udleverede dokumenter tilføjes nederst.
+> Status: ubesvaret.
 >
 > Aktindsigt 3 af 3:
 >
