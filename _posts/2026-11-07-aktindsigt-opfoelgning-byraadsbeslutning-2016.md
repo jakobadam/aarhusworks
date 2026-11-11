@@ -7,7 +7,7 @@ description: 'Aktindsigt nr. 2 af 3, sendt til Aarhus Kommune den 7. november 20
 >
 > Én af tre: [støjvolde og vejbelægning (3. november)](https://aarhusworks.com/2026/11/03/aktindsigt-stoejvolde-og-vejbelaegning.html) · [opfølgningen på byrådsbeslutningen af 2016 (7. november)](https://aarhusworks.com/2026/11/07/aktindsigt-opfoelgning-byraadsbeslutning-2016.html) · [støjskærme og støjvold ved Kolt og Mårslet (9. november)](https://aarhusworks.com/2026/11/09/aktindsigt-stoejskaerme-og-stoejvold-kolt-maarslet.html)
 
-**Til:** Teknik og Miljø
+**Til:** Teknik og Miljø  
 **Emne:** Aktindsigt: opfølgningen på byrådsbeslutningen af 14. september 2016 om øget støjdæmpning, Giber Ringvej (VVM-tilladelsen, sag 13/011760)
 
 ---
@@ -25,5 +25,5 @@ Vi beder jer svare punkt for punkt, også hvis et dokument ikke findes. Gives de
 
 Med venlig hilsen
 
-Jakob Aarøe Dam
+Jakob Aarøe Dam  
 På vegne af Giber Ringvej Gruppen
