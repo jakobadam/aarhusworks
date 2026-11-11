@@ -1,5 +1,5 @@
 ---
-title: "Anmodning om aktindsigt — støjskærme og støjvold ved Kolt og Mårslet, Giber Ringvej"
+title: "Anmodning om aktindsigt: støjskærme og støjvold ved Kolt og Mårslet, Giber Ringvej"
 description: 'Hvor skulle de supplerende støjskærme ved Kolt og Mårslet stå, og hvad ligger der bag den 4 m høje støjvold, som rådgiveren tegnede ud for Mårslet i 2019? Aktindsigt til Aarhus Kommune.'
 ---
 
