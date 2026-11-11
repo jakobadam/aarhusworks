@@ -3,7 +3,7 @@ title: "Anmodning om aktindsigt: opfølgningen på byrådsbeslutningen af 14. se
 description: 'Byrådets ramme på ca. 20 mio. kr. byggede på støjskærme og facadetilskud. Hvad blev der af dem? Aktindsigt til Aarhus Kommune.'
 ---
 
-> **Sendt til Aarhus Kommune (post@mtm.aarhus.dk) den 7. november 2026 kl. 14.52.** Status: ubesvaret. Kommunens svar og de udleverede dokumenter tilføjes nederst.
+> **Sendt til Aarhus Kommune (post@mtm.aarhus.dk) den 7. november 2026.** Status: ubesvaret. Kommunens svar og de udleverede dokumenter tilføjes nederst.
 >
 > Aktindsigt 2 af 3: [1. støjvolde og vejbelægning (3. november)](https://aarhusworks.com/2026/11/03/aktindsigt-stoejvolde-og-vejbelaegning.html) · **2. opfølgningen på byrådsbeslutningen af 2016 (7. november)** · [3. støjskærme og støjvold ved Kolt og Mårslet (9. november)](https://aarhusworks.com/2026/11/09/aktindsigt-stoejskaerme-og-stoejvold-kolt-maarslet.html)
 
