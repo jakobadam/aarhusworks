@@ -3,7 +3,7 @@ title: "Anmodning om aktindsigt: støjvolde og vejbelægning, Giber Ringvej"
 description: 'Hvad ligger der bag støjvoldene og støjberegningerne, og hvilken vejbelægning blev der lagt? Aktindsigt til Aarhus Kommune.'
 ---
 
-> Status: rykket den 16. november. Kommunen bekræftede modtagelsen den 17. november, men har endnu ikke svaret. Kommunen venter, at behandlingen løber ind i 2027. Vi har den 23. november bemærket, at fristen efter miljøoplysningsloven er den 3. januar 2027. Se [rykker og kvittering](#rykker-og-kvittering) nederst.
+> Status: rykket den 16. november. Kommunen bekræftede modtagelsen den 17. november, men har endnu ikke svaret. Kommunen venter, at behandlingen løber ind i 2027. Fristen efter miljøoplysningsloven er den 3. januar 2027. Se [rykker og kvittering](#rykker-og-kvittering) nederst.
 >
 > Aktindsigt 1 af 3:
 >
@@ -81,17 +81,3 @@ På vegne af Giber Ringvej Gruppen
 > Derudover kan vi allerede nu informere om, at behandlingstiden af disse aktindsigter er omfattende, at vi løbende vil give indsigt og at tidsplanen for dette kommer til, at løbe ind i det nye år, 2027.
 >
 > I vil få nærmere besked derom, når vores håndteringssystem har registreret aktindsigterne.
-
-### Vores svar, 23. november 2026
-
-**Dato:** 23. november 2026  
-**Til:** Vejanlæg, Teknik og Miljø, Aarhus Kommune  
-**Emne:** SV: Rykker: Aktindsigt. Støjvolde og vejbelægning, Giber Ringvej (VVM-tilladelsen, sag 13/011760)
-
-Hej alle
-
-Tak for svaret og for bekræftelsen af, at I har modtaget vores tre anmodninger om aktindsigt.
-
-Vi bemærker, at anmodningerne angår miljøoplysninger og at de derfor skal være afgjort absolut senest 2 måneder efter modtagelsen. Det er den 3., 7. og 9. januar 2027.
-
--- Jakob

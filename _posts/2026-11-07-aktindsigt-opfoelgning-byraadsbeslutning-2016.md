@@ -3,7 +3,7 @@ title: "Anmodning om aktindsigt: opfølgningen på byrådsbeslutningen af 14. se
 description: 'Byrådets ramme på ca. 20 mio. kr. byggede på støjskærme og facadetilskud. Hvad blev der af dem? Aktindsigt til Aarhus Kommune.'
 ---
 
-> Status: kommunen bekræftede modtagelsen den 17. november, men har endnu ikke svaret. Kommunen venter, at behandlingen af alle tre aktindsigter løber ind i 2027 ([kvitteringen]({% post_url 2026-11-03-aktindsigt-stoejvolde-og-vejbelaegning %}#rykker-og-kvittering)). Vi har den 23. november bemærket, at fristen for denne anmodning efter miljøoplysningsloven er den 7. januar 2027.
+> Status: kommunen bekræftede modtagelsen den 17. november, men har endnu ikke svaret. Kommunen venter, at behandlingen af alle tre aktindsigter løber ind i 2027 ([kvitteringen]({% post_url 2026-11-03-aktindsigt-stoejvolde-og-vejbelaegning %}#rykker-og-kvittering)). Fristen efter miljøoplysningsloven er den 7. januar 2027.
 >
 > Aktindsigt 2 af 3:
 >
