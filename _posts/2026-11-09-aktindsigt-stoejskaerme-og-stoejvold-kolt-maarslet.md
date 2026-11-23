@@ -3,7 +3,7 @@ title: "Anmodning om aktindsigt: støjskærme og støjvold ved Kolt og Mårslet,
 description: 'Hvor skulle de supplerende støjskærme ved Kolt og Mårslet stå, og hvad ligger der bag den 4 m høje støjvold, som rådgiveren tegnede ud for Mårslet i 2019? Aktindsigt til Aarhus Kommune.'
 ---
 
-> Status: ubesvaret.
+> Status: kommunen bekræftede modtagelsen den 17. november, men har endnu ikke svaret. Kommunen venter, at behandlingen af alle tre aktindsigter løber ind i 2027 ([kvitteringen]({% post_url 2026-11-03-aktindsigt-stoejvolde-og-vejbelaegning %}#rykker-og-kvittering)).
 >
 > Aktindsigt 3 af 3:
 >

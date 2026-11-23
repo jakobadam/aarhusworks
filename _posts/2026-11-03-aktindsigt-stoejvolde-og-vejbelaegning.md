@@ -3,7 +3,7 @@ title: "Anmodning om aktindsigt: støjvolde og vejbelægning, Giber Ringvej"
 description: 'Hvad ligger der bag støjvoldene og støjberegningerne, og hvilken vejbelægning blev der lagt? Aktindsigt til Aarhus Kommune.'
 ---
 
-> Status: ubesvaret.
+> Status: rykket den 16. november. Kommunen bekræftede modtagelsen den 17. november, men har endnu ikke svaret. Kommunen venter, at behandlingen løber ind i 2027. Se [rykker og kvittering](#rykker-og-kvittering) nederst.
 >
 > Aktindsigt 1 af 3:
 >
@@ -45,3 +45,39 @@ Med venlig hilsen
 
 Jakob Aarøe Dam  
 På vegne af Giber Ringvej Gruppen
+
+---
+
+## Rykker og kvittering
+
+### Rykker, 16. november 2026
+
+**Dato:** 16. november 2026 kl. 15.05  
+**Til:** Aarhus Kommune, Teknik og Miljø (post@mtm.aarhus.dk)  
+**Emne:** Rykker: Aktindsigt. Støjvolde og vejbelægning, Giber Ringvej (VVM-tilladelsen, sag 13/011760)
+
+Giber Ringvej Gruppen anmodede den 3. november 2026 om aktindsigt i 11 punkter om støjvolde, støjberegninger og vejbelægning ved Giber Ringvej (anmodningen står nedenfor).
+
+Vi har endnu ikke hørt fra jer: hverken dokumenter, afgørelse eller besked om, hvornår vi kan forvente svar. Fristen på 7 arbejdsdage for at give os den besked ([offentlighedslovens § 36, stk. 2](https://danskelove.dk/offentlighedsloven/36)) udløb den 12. november 2026.
+
+Vi beder om et svar senest torsdag den 19. november 2026: enten dokumenterne eller en besked om, hvorfor det trækker ud, og hvornår afgørelsen kommer. Da anmodningen angår miljøoplysninger, skal den være afgjort senest den 3. december 2026 ([miljøoplysningslovens § 4, stk. 3](https://danskelove.dk/milj%C3%B8oplysningsloven/4)). De dokumenter, der allerede er klar, må gerne komme nu.
+
+Vi beder også om navnet på sagsbehandleren.
+
+Med venlig hilsen
+
+Jakob Aarøe Dam  
+På vegne af Giber Ringvej Gruppen
+
+### Kvittering fra kommunen, 17. november 2026
+
+**Dato:** 17. november 2026 kl. 9.15  
+**Fra:** Vejanlæg, Teknik og Miljø, Aarhus Kommune
+
+> Vi har modtaget alle tre aktindsigter.
+>
+> De vil blive lagt i vores system snarest og besvaret hurtigst muligt.
+>
+> Derudover kan vi allerede nu informere om, at behandlingstiden af disse aktindsigter er omfattende, at vi løbende vil give indsigt og at tidsplanen for dette kommer til, at løbe ind i det nye år, 2027.
+>
+> I vil få nærmere besked derom, når vores håndteringssystem har registreret aktindsigterne.
