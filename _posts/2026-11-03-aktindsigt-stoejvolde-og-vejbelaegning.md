@@ -88,11 +88,10 @@ På vegne af Giber Ringvej Gruppen
 **Til:** Vejanlæg, Teknik og Miljø, Aarhus Kommune  
 **Emne:** SV: Rykker: Aktindsigt. Støjvolde og vejbelægning, Giber Ringvej (VVM-tilladelsen, sag 13/011760)
 
+Hej alle
+
 Tak for svaret og for bekræftelsen af, at I har modtaget vores tre anmodninger om aktindsigt.
 
-Vi bemærker, at anmodningerne angår miljøoplysninger og derfor efter [miljøoplysningslovens § 4, stk. 3](https://danskelove.dk/milj%C3%B8oplysningsloven/4) skal være afgjort senest 2 måneder efter modtagelsen, når sagen er omfattende. Det er den 3., 7. og 9. januar 2027.
+Vi bemærker, at anmodningerne angår miljøoplysninger og at de derfor skal være afgjort absolut senest 2 måneder efter modtagelsen. Det er den 3., 7. og 9. januar 2027.
 
-Med venlig hilsen
-
-Jakob Aarøe Dam  
-På vegne af Giber Ringvej Gruppen
+-- Jakob
