@@ -81,7 +81,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
     <div class="tl-dot red"></div>
     <div class="tl-body">
-      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
+      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <p class="tl-title" markdown="span">20 millioner til fem konkrete tiltag — tre af dem skærmtiltag</p>
       <p class="tl-text" markdown="span">Byrådet vedtager den 14. september at afsætte *ca. 20 mio. kr.* til øget støjdæmpning. [Ordlyden](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=1) er, at den skitserede afskærmning *"**fastholdes og suppleres med**"* mere ved Mårslet, Tranbjerg, Kolt og Beder Landevej. Pengene skal altså bruges *oven i* det, projektet allerede indeholdt.</p>
       <p class="tl-text" markdown="span">Forvaltningen havde forelagt udvalget [et skema](https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=4) med fem prissatte tiltag — på præcis de fem steder, vilkår 7 to år senere nævner. Summen er ca. 21,4–21,6 mio. kr. Borgerne fik først skemaet at se i 2026, efter selv at have fundet det i byrådsarkivet.</p>
@@ -170,7 +170,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
     <div class="tl-dot red"></div>
     <div class="tl-body">
-      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
+      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <p class="tl-title" markdown="span">16 *"støjvolde"* til 18,5 mio. kr. — uden regnestykke</p>
       <p class="tl-text" markdown="span">[Rambølls opgørelse](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=1) henfører 17,28 mio. kr. til puljen, og kommunen erklærer vilkår 7 opfyldt. De 16 volde sættes under ét til ca. 18,5 mio. kr., uden mængder og uden at voldene opregnes enkeltvis ([s. 3](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=3)). Kortet over voldene er stemplet *FORELØBIGT TRYK*, og rubrikken til kontrol er tom ([kortet](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)).</p>
       <p class="tl-text" markdown="span">Opgørelsen viser også, hvad der *ikke* blev bygget. [Listen på side 4](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4) opregner alt, kommunen regner som støjtiltag, og den rummer **én støjskærm:** *"Støjskærm langs Landevejen — ca. 5.200.000,00 kr."* Det er den skærm, et andet vilkår kræver uanset puljen. De tre skærmtiltag fra 2016 er ikke med. Gruppen bestrider ikke støjkassetterne på autoværnet til ca. 0,93 mio. kr. eller to volde langs Torshøjvej, som kommunens tilpasningsnotat beskriver som nye i forhold til det oprindelige projekt — men voldene er ikke prissat hver for sig ([tillægget til anmodningen](/2026/08/26/anmodning-om-tilsynssag-tillaeg.html#tillaeg)). [Giber Ringvej Gruppen svarer samme måned](/2023/08/23/stoej-langs-giber-ringvej--et-modsvar-til-kommunen.html).</p>
@@ -270,7 +270,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
     <div class="tl-dot red"></div>
     <div class="tl-body">
-      <span class="tl-spor tl-spor--belaegning">Spor · Asfalt</span>
+      <span class="tl-spor tl-spor--belaegning">Spor · Asfalt</span>
       <p class="tl-title" markdown="span">Den *"støjdæmpende"* asfalt regnes som almindelig asfalt</p>
       <p class="tl-text" markdown="span">Projektet forudsatte ifølge Rambøll *"den typisk valgte belægning til dette formål (...) en SRS"* ([notatet, s. 3](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3)). Der blev i stedet lagt KVS — klimavenligt slidlag. Kommunen skriver i 2024, at KVS *"har støjreducerende egenskaber"* ([svaret](https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf#page=1)). Men i Vejdirektoratets egne støjberegninger regnes KVS som almindelig standardasfalt: *"det vurderes, at KVS støjmæssigt svarer til en SMA8 standard belægningskorrektion"* ([COWI for Vejdirektoratet, 2024, s. 18](https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=18)). De ca. 2 dB, KVS fremhæves for, er målt mod den grovere SMA11. Gruppen spørger i april 2026, hvad asfalten er sammenlignet med, hvilken type der er lagt, og hvor meget den dokumenteret dæmper ([afklaringsnotat 1](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf)). Ingen af spørgsmålene er besvaret.</p>
       <figure class="tl-fig">
