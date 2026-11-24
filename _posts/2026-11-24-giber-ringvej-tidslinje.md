@@ -8,7 +8,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
 
 <div class="timeline-wrap">
 
-<p class="timeline-kicker" markdown="span">Tidslinje · opdateret 24. november 2026</p>
+<p class="timeline-kicker" markdown="span">Tidslinje</p>
 <div class="timeline-deck">
   <p markdown="span">Giber Ringvej er den nye vej syd om Aarhus, forbi Kolt, Tranbjerg og Mårslet. Den åbnede for trafik i 2022. I 2016 besluttede Aarhus Byråd at bruge ca. 20 mio. kr. på mere støjdæmpning langs vejen. Grundlaget var konkret: fem prissatte tiltag, heraf nye støjskærme ved Kolt og Mårslet og en forhøjelse af skærmen i Tranbjerg. Beslutningen blev et bindende vilkår i vejens miljøtilladelse (VVM-tilladelsen).</p>
   <p markdown="span">Ingen af de tre skærmtiltag er gennemført som besluttet. Kommunen har ikke ført regnskab med pengene, og dens eneste opgørelse — som den selv har kaldt misvisende — tæller i stedet jordvolde, en vejsænkning og den skærm, vejen under alle omstændigheder skulle have. Træerne, der skulle skjule vejen, er ikke plantet. Ved Mårslet er de ifølge rådgiveren [*"formegentlig fravalgt af økonomiske årsager"*](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-notat-redegoerelse-for-beplantning.pdf#page=4). Og den asfalt, kommunen kalder støjreducerende, regner Vejdirektoratet selv som [almindelig standardasfalt](https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=18).</p>
