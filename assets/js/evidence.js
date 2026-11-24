@@ -10,7 +10,7 @@
 //            text: the n-th quotation on the page with exactly that text.
 // and, in local builds only, `status`: every quotation and why it has a card
 // or not, shown by the "Kildestatus" panel. It is left out of the published
-// page, which the other party can read.
+// site; the quotes are checked by the pre-commit hook.
 (function () {
   var data = window.EVIDENCE;
   var root = document.querySelector('.post-content');
