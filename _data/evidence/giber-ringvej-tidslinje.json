@@ -207,7 +207,7 @@
     "quote": "blot en omtrentlig angivelse",
     "anchor": "blotenomtrentligangivelse",
     "key": "blotenomtrentligangivelse",
-    "n": 2
+    "n": 1
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-2025-05-faktaark-pulje-til-oeget-stoejdaempning-redegoerelse-1.pdf#page=2|1": [
@@ -388,21 +388,6 @@
     "anchor": "færreomkostninger",
     "key": "færreomkostninger(...)enddervilleværevedatflyttejorden",
     "n": 0
-   }
-  ],
-  "https://aarhusworks.com/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf#page=2|2": [
-   {
-    "src": "/assets/evidence/giber-ringvej-tidslinje/b0c1ffe5a844.webp",
-    "w": 1151,
-    "h": 179,
-    "focus": 0.483,
-    "page": 2,
-    "file": "2025-04-02-redegoerelse-3-mail.pdf",
-    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf#page=2",
-    "quote": "godkendte hvilke supplerende støjdæmpende tiltag som rammen på de 20 mio. kr. skulle anvendes til",
-    "anchor": "godkendtehvilkesupplerendestøjdæmpendetiltagsomrammenpåde20mio.kr.skulleanvendestil",
-    "key": "godkendtehvilkesupplerendestøjdæmpendetiltagsomrammenpåde20mio.kr.skulleanvendestil",
-    "n": 1
    }
   ],
   "https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf|2": [
@@ -679,22 +664,6 @@
    ]
   },
   {
-   "key": "blotenomtrentligangivelse",
-   "n": 1,
-   "cards": [
-    {
-     "src": "/assets/evidence/giber-ringvej-tidslinje/386148af22aa.webp",
-     "w": 1009,
-     "h": 90,
-     "focus": 0.224,
-     "page": 3,
-     "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
-     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3",
-     "quote": "blot en omtrentlig angivelse"
-    }
-   ]
-  },
-  {
    "key": "begrænsetiforholdtil,atviikkekaneksproprierearealtilbeplantning",
    "n": 0,
    "cards": [
@@ -739,22 +708,6 @@
      "file": "2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf",
      "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf#page=1",
      "quote": "Vi vender tilbage snarest muligt."
-    }
-   ]
-  },
-  {
-   "key": "blotenomtrentligangivelse",
-   "n": 3,
-   "cards": [
-    {
-     "src": "/assets/evidence/giber-ringvej-tidslinje/386148af22aa.webp",
-     "w": 1009,
-     "h": 90,
-     "focus": 0.224,
-     "page": 3,
-     "file": "2026-03-ramboell-kommentering-af-faktaark.pdf",
-     "pdf": "https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3",
-     "quote": "blot en omtrentlig angivelse"
     }
    ]
   }
@@ -1027,14 +980,6 @@
    "n": 1,
    "quote": "blot en omtrentlig angivelse",
    "state": "ok",
-   "card": true,
-   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
-  },
-  {
-   "key": "blotenomtrentligangivelse",
-   "n": 2,
-   "quote": "blot en omtrentlig angivelse",
-   "state": "ok",
    "src": "2026-03-ramboell-kommentering-af-faktaark.pdf, s. 3",
    "note": "ved henvisningen",
    "card": true
@@ -1172,15 +1117,6 @@
    "card": true
   },
   {
-   "key": "godkendtehvilkesupplerendestøjdæmpendetiltagsomrammenpåde20mio.kr.skulleanvendestil",
-   "n": 1,
-   "quote": "godkendte hvilke supplerende støjdæmpende tiltag som rammen på de 20 mio. kr. skulle anvendes til",
-   "state": "ok",
-   "src": "2025-04-02-redegoerelse-3-mail.pdf, s. 2",
-   "note": "ved henvisningen",
-   "card": true
-  },
-  {
    "key": "parterneerjuridiskuenige",
    "n": 0,
    "quote": "parterne er juridisk uenige",
@@ -1204,14 +1140,6 @@
    "src": "2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf",
    "note": "ved henvisningen",
    "card": true
-  },
-  {
-   "key": "blotenomtrentligangivelse",
-   "n": 3,
-   "quote": "blot en omtrentlig angivelse",
-   "state": "ok",
-   "card": true,
-   "note": "kort fra nærmeste henvisning før citatet i afsnittet"
   }
  ]
 }

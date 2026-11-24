@@ -543,3 +543,16 @@
 }
 /* Kasser uden datokolonne (Det siger kommunen, Dokumenterne m.fl.) */
 .ovrige--liste li { padding-left: 0; }
+
+/* Paa mobil er tabellen over de fem tiltag for smal til tre kolonner: ordene
+   deles midt i, og kolonnen Gennemfoert skaeres af. Hver raekke staar i stedet
+   som en lille blok: tiltag, pris, gennemfoert. */
+@media (max-width: 640px) {
+  .tl-table, .tl-table tbody, .tl-table tr, .tl-table td { display: block; width: auto; min-width: 0; }
+  .tl-table thead { display: none; }
+  .tl-table tr { padding: 0.55rem 0; border-bottom: 1px solid var(--line); }
+  .tl-table tr.sum { border-bottom: 0; border-top: 1px solid var(--ink); }
+  .tl-table td, .tl-table tr.sum td { border: 0; padding: 0.1rem 0; }
+  .tl-table td:first-child { font-weight: 700; color: var(--ink); }
+  .tl-table td.num { text-align: left; }
+}
