@@ -8,7 +8,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
 
 <div class="timeline-wrap">
 
-<p class="timeline-kicker" markdown="span">Tidslinje · opdateret 28. oktober 2026</p>
+<p class="timeline-kicker" markdown="span">Tidslinje · opdateret 23. november 2026</p>
 <div class="timeline-deck">
   <p markdown="span">I 2016 besluttede Aarhus Byråd at bruge ca. 20 mio. kr. på mere støjdæmpning langs den nye Giber Ringvej. Grundlaget var konkret: fem prissatte tiltag, heraf nye støjskærme ved Kolt og Mårslet og en forhøjelse af skærmen i Tranbjerg. Beslutningen blev et bindende vilkår i vejens miljøtilladelse (VVM-tilladelsen).</p>
   <p markdown="span">Ingen af de tre skærmtiltag er gennemført som besluttet. Kommunen har ikke ført regnskab med pengene, og dens eneste opgørelse — som den selv har kaldt misvisende — tæller i stedet jordvolde, en vejsænkning og den skærm, vejen under alle omstændigheder skulle have. Træerne, der skulle skjule vejen, er ikke plantet. Ved Mårslet er de ifølge rådgiveren [*"formegentlig fravalgt af økonomiske årsager"*](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-notat-redegoerelse-for-beplantning.pdf#page=4). Og den asfalt, kommunen kalder støjreducerende, regner Vejdirektoratet selv som [almindelig standardasfalt](https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=18).</p>
@@ -58,7 +58,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
       <span class="tl-year">2014</span>
       <span class="tl-month">Dec</span>
     </div>
-    <div class="tl-dot"></div>
+    <div class="tl-dot red"></div>
     <div class="tl-body">
       <span class="tl-spor tl-spor--beplantning">Spor · Beplantning</span>
       <p class="tl-title" markdown="span">Borgerne får vist en vej skjult bag træer</p>
@@ -74,15 +74,14 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
   </li>
 
-  <li class="tl-item tl-item--key">
+  <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2016</span>
       <span class="tl-month">Sep</span>
     </div>
     <div class="tl-dot red"></div>
     <div class="tl-body">
-      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
-      <span class="tl-tag">Sagens kerne</span>
+      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
       <p class="tl-title" markdown="span">20 millioner til fem konkrete tiltag — tre af dem skærmtiltag</p>
       <p class="tl-text" markdown="span">Byrådet vedtager den 14. september at afsætte *ca. 20 mio. kr.* til øget støjdæmpning. [Ordlyden](https://aarhusworks.com/assets/giber-ringvej/2016-udvalgs-erklaering.pdf#page=1) er, at den skitserede afskærmning *"**fastholdes og suppleres med**"* mere ved Mårslet, Tranbjerg, Kolt og Beder Landevej. Pengene skal altså bruges *oven i* det, projektet allerede indeholdt.</p>
       <p class="tl-text" markdown="span">Forvaltningen havde forelagt udvalget [et skema](https://aarhusworks.com/assets/giber-ringvej/2016-09-01-tu-svar.pdf#page=4) med fem prissatte tiltag — på præcis de fem steder, vilkår 7 to år senere nævner. Summen er ca. 21,4–21,6 mio. kr. Borgerne fik først skemaet at se i 2026, efter selv at have fundet det i byrådsarkivet.</p>
@@ -107,14 +106,14 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
   </li>
 
-  <li class="tl-item tl-item--key">
+  <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2018</span>
       <span class="tl-month">Okt</span>
     </div>
     <div class="tl-dot red"></div>
     <div class="tl-body">
-      <span class="tl-tag">Juridisk grundlag</span>
+      <span class="tl-spor tl-spor--alle">Spor · Alle tre vilkår</span>
       <p class="tl-title" markdown="span">Beslutningen bliver et bindende vilkår</p>
       <p class="tl-text" markdown="span">Kommunen udsteder [VVM-tilladelsen](https://aarhusworks.com/assets/giber-ringvej/2018-vvm-tilladelse.pdf#page=2) med 18 vilkår. **Vilkår 7** kræver, at der *suppleres* med øget støjdæmpning de fem steder inden for rammen på ca. 20 mio. kr. — med direkte henvisning til byrådets beslutning fra 2016. **Vilkår 5** kræver støjdæmpende asfalt, og **vilkår 2** gør VVM-redegørelsens anvisninger, herunder beplantningen, bindende.</p>
     </div>
@@ -125,7 +124,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
       <span class="tl-year">2019</span>
       <span class="tl-month">Jan</span>
     </div>
-    <div class="tl-dot"></div>
+    <div class="tl-dot red"></div>
     <div class="tl-body">
       <span class="tl-spor tl-spor--beplantning">Spor · Beplantning</span>
       <p class="tl-title" markdown="span">Rådgiverens egen plan: træer ved Mårslet</p>
@@ -137,7 +136,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
   </li>
 
-  <li class="tl-item tl-item--slim">
+  <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2019–20</span>
       <span class="tl-month">Aug–Mar</span>
@@ -153,7 +152,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
   <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2022</span>
-      <span class="tl-month">Jan + Sep</span>
+      <span class="tl-month">Jan og Sep</span>
     </div>
     <div class="tl-dot red"></div>
     <div class="tl-body">
@@ -164,29 +163,28 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
   </li>
 
-  <li class="tl-item tl-item--key">
+  <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2023</span>
       <span class="tl-month">Maj–Aug</span>
     </div>
-    <div class="tl-dot"></div>
+    <div class="tl-dot red"></div>
     <div class="tl-body">
-      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
-      <span class="tl-tag">Kommunens eneste opgørelse</span>
-      <p class="tl-title" markdown="span">16 "støjvolde" til 18,5 mio. kr. — uden regnestykke</p>
+      <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
+      <p class="tl-title" markdown="span">16 *"støjvolde"* til 18,5 mio. kr. — uden regnestykke</p>
       <p class="tl-text" markdown="span">[Rambølls opgørelse](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=1) henfører 17,28 mio. kr. til puljen, og kommunen erklærer vilkår 7 opfyldt. De 16 volde sættes under ét til ca. 18,5 mio. kr., uden mængder og uden at voldene opregnes enkeltvis ([s. 3](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=3)). Kortet over voldene er stemplet *FORELØBIGT TRYK*, og rubrikken til kontrol er tom ([kortet](https://aarhusworks.com/assets/mtm-modsvar/2023-08-MTM-kort-giber-ringvej.pdf)).</p>
       <p class="tl-text" markdown="span">Opgørelsen viser også, hvad der *ikke* blev bygget. [Listen på side 4](https://aarhusworks.com/assets/giber-ringvej/2023-08-Ramboll-redegoerelse.pdf#page=4) opregner alt, kommunen regner som støjtiltag, og den rummer **én støjskærm:** *"Støjskærm langs Landevejen — ca. 5.200.000,00 kr."* Det er den skærm, et andet vilkår kræver uanset puljen. De tre skærmtiltag fra 2016 er ikke med. Gruppen bestrider ikke støjkassetterne på autoværnet til ca. 0,93 mio. kr. eller to volde langs Torshøjvej, som kommunens tilpasningsnotat beskriver som nye i forhold til det oprindelige projekt — men voldene er ikke prissat hver for sig ([tillægget til anmodningen](/2026/08/26/anmodning-om-tilsynssag-tillaeg.html#tillaeg)). [Giber Ringvej Gruppen svarer samme måned](/2023/08/23/stoej-langs-giber-ringvej--et-modsvar-til-kommunen.html).</p>
     </div>
   </li>
 
-  <li class="tl-item tl-item--key">
+  <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2023</span>
       <span class="tl-month">Okt</span>
     </div>
     <div class="tl-dot red"></div>
     <div class="tl-body">
-      <span class="tl-tag">Sammenligning</span>
+      <span class="tl-spor tl-spor--alle">Til sammenligning</span>
       <p class="tl-title" markdown="span">Sådan gør kommunen, når den vil af med et vilkår</p>
       <p class="tl-text" markdown="span">På et andet vejprojekt — udvidelsen af Viborgvej — kunne et vilkår i VVM-tilladelsen ikke gennemføres. Så [ansøgte kommunens vejafdeling kommunens egen VVM-myndighed](https://aarhusworks.com/assets/giber-ringvej/2023-10-12-aak-afgoerelse-ophaevelse-vilkaar-viborgvej.pdf) om at få det ophævet. Myndigheden traf en begrundet afgørelse, offentliggjorde den og gav klagevejledning.</p>
       <p class="tl-text" markdown="span">Afgørelsen er dateret **12. oktober 2023**. Dagen efter sender forvaltningen sit samlede svar til Giber Ringvej Gruppen — uden at nævne puljen. **For Giber Ringvej er intet af dette sket:** ingen ansøgning, ingen afgørelse, ingen klagevejledning. Vilkårene er i stedet erklæret opfyldt.</p>
@@ -201,13 +199,13 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <div class="tl-dot red"></div>
     <div class="tl-body">
       <span class="tl-spor tl-spor--pulje">Spor · Puljen</span>
-      <p class="tl-title" markdown="span">"Misvisende" — men konklusionen står</p>
+      <p class="tl-title" markdown="span">*"Misvisende"* — men konklusionen står</p>
       <p class="tl-text" markdown="span">Kommunen erkender i [redegørelse 2](https://aarhusworks.com/assets/giber-ringvej/2025-01-mtm-redegoerelse-2.pdf#page=1), at opgørelsen *"kan give et misvisende billede af økonomi anvendt til støjdæmpning"*, og at det var *"misvisende, at det fremgik, at der var etableret 16 støjvolde, da ikke alle jorddepoterne er anlagt som deciderede støjvolde"*. Hvilke volde der ikke er støjvolde, siger kommunen ikke. Konklusionen er uændret: vilkårene er overholdt.</p>
       <p class="tl-text" markdown="span">Giber Ringvej Gruppen svarer med [*De 19 millioner der forsvandt*](/vejst%C3%B8j/2025/02/25/de-19-millioner-der-forsvandt.html): jordvolde af overskudsjord kan ifølge [branchens egen hvidbog](https://aarhusworks.com/assets/vejstoej-forslag-2024/trafikstoej-kraever-handling-2020.pdf#page=46) — medforfattet af Rambøll — etableres for *"meget små eller ingen omkostninger"*. [Din Avis](https://dinavis.dk/samfund/ECE18005991/borgere-klager-over-trafikstoej-fra-giber-ringvej-hvad-blev-der-af-de-20-mio-kr) og [Stiften](https://stiften.dk/debat/vi-undrer-os-her-ved-giber-ringvej-19-millioner-kroner-er-aabenbart-forsvundet) omtaler sagen. Borgmesteren beder om en ny redegørelse.</p>
     </div>
   </li>
 
-  <li class="tl-item tl-item--slim">
+  <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2025</span>
       <span class="tl-month">Maj</span>
@@ -220,7 +218,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
   </li>
 
-  <li class="tl-item tl-item--key">
+  <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2025</span>
       <span class="tl-month">Aug</span>
@@ -251,7 +249,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
   </li>
 
-  <li class="tl-item tl-item--key">
+  <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2026</span>
       <span class="tl-month">Mar</span>
@@ -272,9 +270,8 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
     <div class="tl-dot red"></div>
     <div class="tl-body">
-      <span class="tl-spor tl-spor--belaegning">Spor · Asfalt</span>
-      <span class="tl-tag">Vilkår 5</span>
-      <p class="tl-title" markdown="span">Den "støjdæmpende" asfalt regnes som almindelig asfalt</p>
+      <span class="tl-spor tl-spor--belaegning">Spor · Asfalt</span>
+      <p class="tl-title" markdown="span">Den *"støjdæmpende"* asfalt regnes som almindelig asfalt</p>
       <p class="tl-text" markdown="span">Projektet forudsatte ifølge Rambøll *"den typisk valgte belægning til dette formål (...) en SRS"* ([notatet, s. 3](https://aarhusworks.com/assets/giber-ringvej/2026-03-ramboell-kommentering-af-faktaark.pdf#page=3)). Der blev i stedet lagt KVS — klimavenligt slidlag. Kommunen skriver i 2024, at KVS *"har støjreducerende egenskaber"* ([svaret](https://aarhusworks.com/assets/giber-ringvej/2024-09-03-GRG-spoergsmaal-til-mtm.pdf#page=1)). Men i Vejdirektoratets egne støjberegninger regnes KVS som almindelig standardasfalt: *"det vurderes, at KVS støjmæssigt svarer til en SMA8 standard belægningskorrektion"* ([COWI for Vejdirektoratet, 2024, s. 18](https://aarhusworks.com/assets/giber-ringvej/2024-05-03-cowi-vejdirektoratet-marselis-tunnel-stoejnotat.pdf#page=18)). De ca. 2 dB, KVS fremhæves for, er målt mod den grovere SMA11. Gruppen spørger i april 2026, hvad asfalten er sammenlignet med, hvilken type der er lagt, og hvor meget den dokumenteret dæmper ([afklaringsnotat 1](https://aarhusworks.com/assets/giber-ringvej/2026-04-afklaringsnotat-1-vvm-giber-ringvej.pdf)). Ingen af spørgsmålene er besvaret.</p>
       <figure class="tl-fig">
         <img src="/assets/giber-ringvej/klage/2019-vejdirektoratet-kvs-figur1-stoejtrendlinjer-kvs-sma8-sma11-srs.png" alt="Vejdirektoratets graf over støjudviklingen for asfalttyperne SMA8, SMA11, SRS og KVS som funktion af belægningens alder. Ved nyudlægning ligger SRS lavest, dernæst SMA8, så KVS og øverst SMA11.">
@@ -283,12 +280,12 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     </div>
   </li>
 
-  <li class="tl-item tl-item--key">
+  <li class="tl-item">
     <div class="tl-date">
       <span class="tl-year">2026</span>
       <span class="tl-month">Jun</span>
     </div>
-    <div class="tl-dot"></div>
+    <div class="tl-dot red"></div>
     <div class="tl-body">
       <span class="tl-spor tl-spor--beplantning">Spor · Beplantning</span>
       <p class="tl-title" markdown="span">Hullet, hvor kommunen selv har målt højest</p>
@@ -329,6 +326,7 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <li markdown="span"><span class="ovr-dato">Apr 2026</span> Mødet med forvaltningen slutter: *"parterne er juridisk uenige"*. Til letbanevolden, som rådgiveren selv har sagt ikke er et støjtiltag, svarer chefen for Byrum, at *"en jordvold altid har en effekt"* &middot; [referatet](https://aarhusworks.com/assets/giber-ringvej/2026-04-referat-GRG-og-MTM.txt)</li>
     <li markdown="span"><span class="ovr-dato">Maj 2026</span> Bilagene til Rambølls notat udleveres ikke — gruppen henvises til selv at søge i byrådsarkivet &middot; [mailtråden](https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf)</li>
     <li markdown="span"><span class="ovr-dato">Maj 2026</span> Byrådsmedlem Anette Poulsen: *"de nødvendige og lovede støjløsninger er ikke fulgt med"* &middot; [mailen](https://aarhusworks.com/assets/giber-ringvej/2026-moede-opfoelgning-aktindsigt-landsskabstrategi.pdf)</li>
+    <li markdown="span"><span class="ovr-dato">Nov 2026</span> Gruppen anmoder om aktindsigt i tre omgange: støjvolde og asfalt, opfølgningen på byrådsbeslutningen og skærmene ved Kolt og Mårslet. Kommunen venter, at behandlingen løber ind i 2027 &middot; [anmodningerne](https://aarhusworks.com/2026/11/03/aktindsigt-stoejvolde-og-vejbelaegning.html)</li>
   </ul>
   <p class="ovrige-slut" markdown="span">**Hvor sagen står nu.** Aarhus Kommune har i februar og april 2026 afvist at genoptage sagen. Der er aldrig truffet nogen afgørelse om, at vilkårene skulle fraviges; de er erklæret opfyldt. Giber Ringvej Gruppen forbereder en [anmodning til Ankestyrelsens kommunale tilsyn](/2026/08/26/anmodning-om-tilsynssag.html) om at rejse en tilsynssag.</p>
 </div>
