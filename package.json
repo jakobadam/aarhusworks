@@ -21,7 +21,7 @@
       "node bin/anmodning2pdf.mjs --stage",
       "python bin/evidence-cards.py --stage"
     ],
-    "_posts/2026-08-26-giber-ringvej-tidslinje.md": [
+    "_posts/2026-11-24-giber-ringvej-tidslinje.md": [
       "python bin/check-quotes.py .",
       "python bin/evidence-cards.py --stage"
     ]
