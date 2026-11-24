@@ -4,7 +4,6 @@ author: Giber Ringvej Gruppen - Jakob Aarøe Dam et al.
 categories: vejstøj
 description: "Fem støjtiltag for 20 millioner, støjdæmpende asfalt og træer, der skulle skjule vejen. I stedet: jorddepoter og tilkørselsveje, en asfalt ingen kan sætte tal på, og ingen træer. Tidslinje 2014–2026 med kilder."
 css: [/assets/css/tidslinje.css]   # tidslinjens layout
-redirect_from: /vejstøj/2026/08/26/giber-ringvej-tidslinje.html   # første udgave, august 2026
 ---
 
 <div class="timeline-wrap">
