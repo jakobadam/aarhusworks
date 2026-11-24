@@ -127,11 +127,16 @@ css: [/assets/css/tidslinje.css]   # tidslinjens layout
     <div class="tl-dot red"></div>
     <div class="tl-body">
       <span class="tl-spor tl-spor--beplantning">Spor · Træerne</span>
-      <p class="tl-title" markdown="span">Rådgiverens egen plan: træer ved Mårslet</p>
+      <p class="tl-title" markdown="span">Rådgiverens egen plan: træer og en 4 m høj vold ved Mårslet</p>
       <p class="tl-text" markdown="span">Rambølls interne [Landskabsstrategi](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf) omsætter vilkår 2 til konkrete tiltag. Ved Mårslet, vest for Tandervej, står *"Visuel støjskærmning (beplantning) nordside af vej"*. Dokumentet bliver først udleveret syv år senere.</p>
       <figure class="tl-fig">
         <img src="/assets/giber-ringvej/klage/2019-landskabsstrategi-st9200-9660-vest-for-tandervej.png" alt="Udsnit af Landskabsstrategiens tiltagsliste for strækningen St. 9.200-9.660 &quot;Vest for Tandervej&quot;. Blandt de opregnede tiltag står &quot;Visuel støjskærmning (beplantning) nordside af vej&quot;.">
         <figcaption markdown="span">Om netop denne strækning skriver Rambøll i 2025, at beplantningen er [*"formegentlig fravalgt af økonomiske årsager"*](https://aarhusworks.com/assets/giber-ringvej/aktindsigt-beplantning-afslag-nr-3/2025-08-notat-redegoerelse-for-beplantning.pdf#page=4).</figcaption>
+      </figure>
+      <p class="tl-text" markdown="span">På strategiens eget kortblad er der samme sted, langs nordsiden af vejen ud for boligerne, tegnet en vold: signaturen *"Forslag til støjvold (4 m. høj, a2 vejside, a5-10 naboside)"* ([kortbladet](https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf)). Vest for Tandervej er der hverken anlagt vold eller beplantning. Øst for Tandervej står en vold på ca. 1 m.</p>
+      <figure class="tl-fig">
+        <img src="/assets/giber-ringvej/klage/2019-landskabsstrategi-kort-stoejvold-nord-maarslet.png" alt="Udsnit af Landskabsstrategiens kortblad ved Mårslet mellem Mustrupvej og Tandervej. Mørkegrønne lodrette streger, strategiens signatur for forslag til 4 m høj støjvold, er tegnet langs nordsiden af vejen ud for boligbebyggelsen.">
+        <figcaption markdown="span">**Landskabsstrategiens kortblad ved Mårslet.** De mørkegrønne streger langs vejens nordside, ud for husene ved Mustrupvej og Tandervej, er strategiens signatur for en 4 m høj støjvold.</figcaption>
       </figure>
     </div>
   </li>

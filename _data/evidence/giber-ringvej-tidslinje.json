@@ -135,6 +135,21 @@
     "n": 1
    }
   ],
+  "https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf|1": [
+   {
+    "src": "/assets/evidence/giber-ringvej-tidslinje/2fd96f64abaa.webp",
+    "w": 968,
+    "h": 682,
+    "focus": 0.5,
+    "page": 1,
+    "file": "2019-landsskabstrategi.pdf",
+    "pdf": "https://aarhusworks.com/assets/giber-ringvej/2019-landsskabstrategi.pdf#page=1",
+    "quote": "Forslag til støjvold (4 m. høj, a2 vejside, a5-10 naboside)",
+    "anchor": "forslagtilstøjvold(4m.høj,avejside,a~10naboside)",
+    "key": "forslagtilstøjvold(4m.høj,avejside,a~10naboside)",
+    "n": 0
+   }
+  ],
   "https://aarhusworks.com/assets/giber-ringvej/2025-04-02-redegoerelse-3-mail.pdf#page=2|1": [
    {
     "src": "/assets/evidence/giber-ringvej-tidslinje/721ced233fee.webp",
@@ -857,6 +872,15 @@
    "quote": "formegentlig fravalgt af økonomiske årsager",
    "state": "ok",
    "src": "2025-08-notat-redegoerelse-for-beplantning.pdf, s. 4",
+   "note": "ved henvisningen",
+   "card": true
+  },
+  {
+   "key": "forslagtilstøjvold(4m.høj,avejside,a~10naboside)",
+   "n": 0,
+   "quote": "Forslag til støjvold (4 m. høj, a2 vejside, a5-10 naboside)",
+   "state": "ok",
+   "src": "2019-landsskabstrategi.pdf",
    "note": "ved henvisningen",
    "card": true
   },
